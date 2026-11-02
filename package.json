@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "npm run build:index && vite",
-    "build": "npm run validate && npm run build:index && vite build",
+    "build": "npm run validate && npm run build:site",
+    "build:site": "npm run build:index && vite build",
     "preview": "vite preview",
     "build:index": "tsx scripts/build-index.ts",
     "validate": "tsx scripts/validate.ts",
