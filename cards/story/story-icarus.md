@@ -22,7 +22,7 @@ panels:
 sources:
   - {id: s1, kind: ancient, cite: 奧維德《變形記》8.183–235, url: 'https://www.theoi.com/Text/OvidMetamorphoses8.html'}
   - {id: s2, kind: ancient, cite: 阿波羅多洛斯《書庫》摘要 1.12–1.13, url: 'https://www.theoi.com/Text/ApollodorusE.html'}
-  - {id: s3, kind: modern, cite: Theoi.com「Ikaros」, url: 'https://www.theoi.com/Heros/Ikaros.html', accessed: '2026-11-02'}
+  - {id: s3, kind: modern, cite: World History Encyclopedia「Daedalus」, url: 'https://www.worldhistory.org/Daedalus/', accessed: '2026-11-02'}
 images: [img-icarus-bruegel, img-icarus-relief, img-icarus-leighton]
 causes:
   - {id: monster-minotaur, rel: 背景, why: 代達洛斯替米諾斯蓋了關住牛頭人的迷宮，因此被困在島上。, src: [s2]}

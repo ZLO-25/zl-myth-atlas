@@ -30,7 +30,7 @@ sources:
   - {id: s6, kind: ancient, cite: 荷馬《奧德賽》17.290–327（老狗阿爾戈斯）, url: 'https://www.theoi.com/Text/HomerOdyssey17.html'}
   - {id: s7, kind: ancient, cite: 荷馬《奧德賽》卷 21–22（射箭比賽與殺死求婚者）, url: 'https://www.theoi.com/Text/HomerOdyssey21.html'}
   - {id: s8, kind: ancient, cite: 荷馬《奧德賽》23.173–230（床的祕密）, url: 'https://www.theoi.com/Text/HomerOdyssey23.html'}
-  - {id: s9, kind: modern, cite: Theoi.com「Odysseus」, url: 'https://www.theoi.com/Heros/Odysseus.html', accessed: '2026-11-02'}
+  - {id: s9, kind: modern, cite: World History Encyclopedia「Odysseus」, url: 'https://www.worldhistory.org/odysseus/', accessed: '2026-11-02'}
 images: [img-odyssey-waterhouse, img-odysseus-sirens, img-odysseus-polyphemus]
 causes:
   - {id: story-trojan-war, rel: 背景, why: 特洛伊陷落後，奧德修斯才踏上返鄉之路。, src: [s9]}

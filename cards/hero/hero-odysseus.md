@@ -34,7 +34,7 @@ sources:
   - {id: s4, kind: ancient, cite: 荷馬《奧德賽》11.84–224（冥界遇見母親）, url: 'https://www.theoi.com/Text/HomerOdyssey11.html'}
   - {id: s5, kind: ancient, cite: 荷馬《奧德賽》12.36–200（海妖賽蓮）, url: 'https://www.theoi.com/Text/HomerOdyssey12.html'}
   - {id: s6, kind: ancient, cite: 阿波羅多洛斯《書庫》摘要 3.7（裝瘋避戰）, url: 'https://www.theoi.com/Text/ApollodorusE.html'}
-  - {id: s7, kind: modern, cite: Theoi.com「Odysseus」, url: 'https://www.theoi.com/Heros/Odysseus.html', accessed: '2026-11-02'}
+  - {id: s7, kind: modern, cite: World History Encyclopedia「Odysseus」, url: 'https://www.worldhistory.org/odysseus/', accessed: '2026-11-02'}
 effects:
   - {id: story-trojan-horse, rel: 直接引發, why: 《奧德賽》說是他把裝滿士兵的木馬帶進特洛伊城。, src: [s2]}
   - {id: story-odyssey, rel: 直接引發, why: 他刺瞎海神之子，被波賽頓追殺，返鄉之路拖了十年。, src: [s3]}

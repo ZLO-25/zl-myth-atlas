@@ -23,7 +23,7 @@ family:
 images: [img-jason-douris, img-jason-moreau]
 sources:
   - {id: s1, kind: ancient, cite: 阿波羅多洛斯《書庫》1.9.16–1.9.28, url: 'https://www.theoi.com/Text/Apollodorus1.html'}
-  - {id: s2, kind: modern, cite: Theoi.com「Argonautai」, url: 'https://www.theoi.com/Heros/Argonautai.html', accessed: '2026-11-02'}
+  - {id: s2, kind: modern, cite: World History Encyclopedia「Jason & the Argonauts」, url: 'https://www.worldhistory.org/article/425/jason--the-argonauts/', accessed: '2026-11-02'}
 today: [argonaut-astronaut]
 era: heroes
 topics: [冒險與試煉, 愛與慾望, 預言]

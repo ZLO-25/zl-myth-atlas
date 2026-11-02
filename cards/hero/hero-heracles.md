@@ -33,7 +33,7 @@ sources:
   - {id: s4, kind: ancient, cite: 阿波羅多洛斯《書庫》2.7.6–2.7.7（毒袍與成神）, url: 'https://www.theoi.com/Text/Apollodorus2.html'}
   - {id: s5, kind: ancient, cite: 赫西俄德《神譜》526–534（射死啄食普羅米修斯的鷹）, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
   - {id: s6, kind: ancient, cite: 李維《羅馬史》1.7.3–15（海克力斯在羅馬殺死卡庫斯）, url: 'https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0151:book=1:chapter=7'}
-  - {id: s7, kind: modern, cite: Theoi.com「Herakles」, url: 'https://www.theoi.com/Heros/Herakles.html', accessed: '2026-11-02'}
+  - {id: s7, kind: modern, cite: Theoi.com「Heracles」, url: 'https://www.theoi.com/greek-mythology/heracles.html', accessed: '2026-11-02'}
   - {id: s8, kind: modern, cite: World History Encyclopedia「Hercules」, url: 'https://www.worldhistory.org/hercules/', accessed: '2026-11-02'}
 greek_vs_roman:
   text: 羅馬人很早就崇拜海克力斯，相傳他趕著革律翁的牛經過未來的羅馬城，殺死偷牛的怪物卡庫斯，羅馬牛市旁的「最大祭壇」就是為他設的。對羅馬商人與軍人來說，他是保佑旅途與事業成功的神。

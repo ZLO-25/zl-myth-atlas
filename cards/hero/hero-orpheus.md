@@ -29,7 +29,7 @@ sources:
   - {id: s2, kind: ancient, cite: 奧維德《變形記》10.1–85, url: 'https://www.theoi.com/Text/OvidMetamorphoses10.html'}
   - {id: s3, kind: ancient, cite: 奧維德《變形記》11.1–66（被女信徒殺死）, url: 'https://www.theoi.com/Text/OvidMetamorphoses11.html'}
   - {id: s4, kind: ancient, cite: 維吉爾《農事詩》4.453–527（德萊頓英譯本行數不同）, url: 'http://classics.mit.edu/Virgil/georgics.4.iv.html'}
-  - {id: s5, kind: modern, cite: Theoi.com「Orpheus」, url: 'https://www.theoi.com/Heros/Orpheus.html', accessed: '2026-11-02'}
+  - {id: s5, kind: modern, cite: World History Encyclopedia「Orpheus」, url: 'https://www.worldhistory.org/Orpheus/', accessed: '2026-11-02'}
 today: [hadestown]
 era: heroes
 topics: [冥界之旅, 愛與慾望]

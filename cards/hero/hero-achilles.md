@@ -28,7 +28,7 @@ sources:
   - {id: s4, kind: ancient, cite: 荷馬《伊里亞德》22.326–404（殺死並拖行赫克托耳）, url: 'https://www.theoi.com/Text/HomerIliad22.html'}
   - {id: s5, kind: ancient, cite: 荷馬《伊里亞德》24.468–620（普里阿摩斯贖屍）, url: 'https://www.theoi.com/Text/HomerIliad24.html'}
   - {id: s6, kind: ancient, cite: 阿波羅多洛斯《書庫》3.13.6（母親用火煉他）、摘要 5.3（被射中腳踝而死）, url: 'https://www.theoi.com/Text/ApollodorusE.html'}
-  - {id: s7, kind: modern, cite: Theoi.com「Akhilleus」, url: 'https://www.theoi.com/Heros/Akhilleus.html', accessed: '2026-11-02'}
+  - {id: s7, kind: modern, cite: World History Encyclopedia「Achilles」, url: 'https://www.worldhistory.org/achilles/', accessed: '2026-11-02'}
 causes:
   - {id: story-trojan-war, rel: 背景, why: 他在戰爭第十年與統帥阿伽門農翻臉，《伊里亞德》就從這裡開始。, src: [s2]}
 disputed:

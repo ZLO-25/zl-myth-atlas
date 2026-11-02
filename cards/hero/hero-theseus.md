@@ -26,7 +26,7 @@ images: [img-theseus-e84, img-theseus-canova]
 sources:
   - {id: s1, kind: ancient, cite: 普魯塔克《希臘羅馬名人傳．忒修斯傳》1–24, url: 'https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Theseus*.html'}
   - {id: s2, kind: ancient, cite: 阿波羅多洛斯《書庫》摘要 1.1–1.11, url: 'https://www.theoi.com/Text/ApollodorusE.html'}
-  - {id: s3, kind: modern, cite: Theoi.com「Theseus」, url: 'https://www.theoi.com/Heros/Theseus.html', accessed: '2026-11-02'}
+  - {id: s3, kind: modern, cite: World History Encyclopedia「Theseus」, url: 'https://www.worldhistory.org/Theseus/', accessed: '2026-11-02'}
 effects:
   - {id: monster-minotaur, rel: 直接引發, why: 他自願加入獻祭隊伍前往克里特，殺死米諾陶洛斯。, src: [s1]}
 today: [ship-of-theseus]

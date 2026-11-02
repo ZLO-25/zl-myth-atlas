@@ -32,7 +32,7 @@ sources:
   - {id: s4, kind: ancient, cite: 維吉爾《埃涅阿斯紀》卷 1（朱比特預言尤魯斯與凱撒）, url: 'http://classics.mit.edu/Virgil/aeneid.1.i.html'}
   - {id: s5, kind: ancient, cite: 維吉爾《埃涅阿斯紀》卷 4（狄多）, url: 'http://classics.mit.edu/Virgil/aeneid.4.iv.html'}
   - {id: s6, kind: modern, cite: World History Encyclopedia「Aeneid」, url: 'https://www.worldhistory.org/Aeneid/', accessed: '2026-11-02'}
-  - {id: s7, kind: modern, cite: Theoi.com「Aineias」, url: 'https://www.theoi.com/Heros/Aineias.html', accessed: '2026-11-02'}
+  - {id: s7, kind: modern, cite: World History Encyclopedia「Aeneas」, url: 'https://www.worldhistory.org/Aeneas/', accessed: '2026-11-02'}
 greek_vs_roman:
   text: 在希臘的荷馬史詩裡，埃涅阿斯只是特洛伊這一方的二線英雄，荷馬只說他命中注定會活下來，讓特洛伊的血脈延續。羅馬人卻把他升格成整個民族的祖先：奧古斯都時代的詩人維吉爾寫下《埃涅阿斯紀》，讓羅馬的起源和希臘最有名的戰爭接上線，也替自稱愛神後代的凱撒家族背書。
   src: [s2, s6]
