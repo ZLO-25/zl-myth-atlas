@@ -16,6 +16,7 @@ domains:
   roles: [先見與智謀, 人類的保護者, 火與技藝]
   symbols: [火炬, 大茴香莖（藏火的空心莖）, 鎖鏈, 老鷹]
 how_to_recognize: 被鐵鍊綁在岩石上、一隻老鷹（或禿鷹）正在啄他腹部的男子，就是普羅米修斯。有時畫面另一邊有人拿弓箭瞄準老鷹，那是來救他的海克力斯。
+how_to_recognize_src: [s5]
 family:
   parents:
     - {name: 伊阿珀托斯（泰坦）, src: [s1]}
@@ -29,7 +30,7 @@ sources:
   - {id: s3, kind: ancient, cite: 埃斯庫羅斯《被縛的普羅米修斯》1–122、228–258, url: 'https://www.theoi.com/Text/AeschylusPrometheus.html'}
   - {id: s4, kind: ancient, cite: 阿波羅多洛斯《書庫》1.7.1, url: 'https://www.theoi.com/Text/Apollodorus1.html'}
   - {id: s5, kind: modern, cite: Theoi.com「Prometheus」, url: 'https://www.theoi.com/Titan/TitanPrometheus.html', accessed: '2026-11-02'}
-images: [img-prometheus-rubens]
+images: [img-prometheus-rubens, img-prometheus-laconian]
 effects:
   - {id: story-pandora, rel: 直接引發, why: 宙斯為了報復盜火，命眾神造出第一個女人潘朵拉送給人類。, src: [s1, s2]}
 disputed:

@@ -30,7 +30,7 @@ sources:
   - {id: s5, kind: ancient, cite: 荷馬《伊里亞德》2.299–330（預言第十年攻下特洛伊）, url: 'https://www.theoi.com/Text/HomerIliad2.html'}
   - {id: s7, kind: modern, cite: 聯合國教科文組織世界遺產「Archaeological Site of Troy」, url: 'https://whc.unesco.org/en/list/849', accessed: '2026-11-02'}
   - {id: s8, kind: modern, cite: World History Encyclopedia「Troy」, url: 'https://www.worldhistory.org/troy/', accessed: '2026-11-02'}
-images: [img-paris-rubens, img-trojan-tiepolo, img-troy-walls, img-achilles-hector]
+images: [img-paris-rubens, img-trojan-tiepolo, img-troy-walls, img-mycenae-gate]
 causes:
   - {id: god-aphrodite, rel: 直接引發, why: 她以海倫收買帕里斯，贏得金蘋果。, src: [s1]}
 effects:

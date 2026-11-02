@@ -113,12 +113,13 @@ for (const c of cards) {
   for (const t of c.today ?? []) if (!todayIds.has(t)) err(w, `today 的 ${t} 不在 data/today/`);
   for (const p of c.places ?? []) if (!placeIds.has(p) && !cardIds.has(p)) err(w, `places 的 ${p} 不在 data/places.yaml 也不是卡片`);
   if (c.greek_vs_roman) checkSrc('greek_vs_roman', c.greek_vs_roman.src);
+  if (c.how_to_recognize_src) checkSrc('how_to_recognize', c.how_to_recognize_src);
   for (const d of c.disputed ?? []) for (const v of d.views) checkSrc(`disputed「${d.claim}」`, v.src);
 
   // 完整度（警告）
   if (GOD_TYPES.has(c.type)) {
     const works = (c.images ?? []).map((id) => imageById.get(id)).filter((i) => i?.kind === 'work' && !i.pending);
-    if (works.length < 2) warn(w, `神祇卡至少要 2 張真實作品圖（現在 ${works.length} 張）`);
+    if (works.length < 2 && !c.few_images) warn(w, `神祇卡至少要 2 張真實作品圖（現在 ${works.length} 張）`);
     if (!c.how_to_recognize) warn(w, '神祇卡要寫 how_to_recognize（名畫裡怎麼認出他）');
     if (!c.domains) warn(w, '神祇卡要寫 domains（掌管什麼、象徵物）');
   }

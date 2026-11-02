@@ -7,690 +7,947 @@
   commons: "File:Assistants and George Frederic Watts - Chaos - Google Art Project.jpg"
   title: 〈混沌〉
   period: modern
-  look: TODO
+  look: 一幅細長的橫幅：左邊是翻騰的火與煙，右邊一排巨人慢慢站起來、排成隊伍。畫家想畫的是世界從混亂走向秩序的過程。
+  artist: 喬治．弗雷德里克．瓦茨工作室
+  date: 約 1875 年
+  museum: 英國倫敦泰特美術館
 
 - id: img-gaia-pergamon
   kind: work
   commons: "File:Gigantomaquia - Altar de Pérgamo.jpg"
   title: 帕加馬祭壇浮雕：蓋亞求情
   period: ancient
-  look: TODO
+  look: 雅典娜抓住一個巨人的頭髮把他拖走，下方只露出上半身的女性就是大地之母蓋亞，她從地面伸出來，哀求雅典娜放過自己的孩子。
+  artist: 帕加馬祭壇的希臘雕刻師
+  date: 約前 180–160 年
+  museum: 德國柏林帕加馬博物館
 
 - id: img-gaia-erichthonius
   kind: work
   commons: "File:Birth Erikhthonios Staatliche Antikensammlungen 2413.jpg"
   title: 蓋亞把嬰兒交給雅典娜
   period: ancient
-  look: TODO
+  look: 這張照片只拍到瓶身一角。完整畫面是從地面升起的大地女神蓋亞，把嬰兒厄里克托尼俄斯交到雅典娜手中，雅典人自認是這個孩子的後代。
+  artist: 赫爾莫納克斯（陶瓶畫家）
+  date: 約前 470–460 年
+  museum: 德國慕尼黑國立古代藝術博物館
 
 - id: img-uranus-vasari
   kind: work
   commons: "File:The Mutilation of Uranus by Saturn.jpg"
   title: 〈克羅諾斯閹割烏拉諾斯〉
   period: modern
-  look: TODO
+  look: 天花板上的圓形畫：克羅諾斯（左）舉起鐮刀砍向父親烏拉諾斯，背後是一個金色的天球。畫在佛羅倫斯的宮殿裡，象徵權力的交替。
+  artist: 喬治．瓦薩里與克里斯托法諾．蓋拉爾迪
+  date: 約 1560 年
+  museum: 義大利佛羅倫斯舊宮
 
 - id: img-cronus-goya
   kind: work
   commons: "File:Francisco de Goya, Saturno devorando a su hijo (1819-1823).jpg"
   title: 〈農神吞噬其子〉
   period: modern
-  look: TODO
+  look: 哥雅原本把它直接畫在自家牆上，從沒打算展出。瞪大雙眼的巨人正在啃咬一具已經沒有頭的身體，看起來不像神話，更像一場惡夢。
+  artist: 法蘭西斯科．哥雅
+  date: 1820–1823 年
+  museum: 西班牙馬德里普拉多美術館
 
 - id: img-cronus-rubens
   kind: work
   commons: "File:Rubens saturn.jpg"
   title: 〈農神〉
   period: modern
-  look: TODO
+  look: 拄著鐮刀的白髮老人咬住嬰兒的胸口，嬰兒痛苦地仰著頭。畫面上方的三顆星是土星的標誌，因為克羅諾斯的羅馬名字就是土星（薩圖恩）。
+  artist: 彼得．保羅．魯本斯
+  date: 1636–1638 年
+  museum: 西班牙馬德里普拉多美術館
 
 - id: img-cronus-stone
   kind: work
   commons: "File:Rhéa présentant une pierre emmaillotée à Cronos dessin du bas-relief d'un autel romain.jpg"
   title: 瑞亞把包著襁褓的石頭交給克羅諾斯
   period: ancient
-  look: TODO
+  look: 瑞亞（左）把一個用布包好的「嬰兒」遞給坐著的克羅諾斯，布裡其實是一顆石頭。這是宙斯得以活下來的關鍵一刻。
+  artist: 米蘭（A. L. Millin）《神話畫廊》中的線描，依據一座羅馬祭壇浮雕
+  date: 版畫 1811 年；原浮雕為羅馬時期
+  museum: 原浮雕在羅馬卡比托利歐博物館
 
 - id: img-prometheus-rubens
   kind: work
   commons: "File:Rubens - Prometheus Bound.jpg"
   title: 〈被縛的普羅米修斯〉
   period: modern
-  look: TODO
+  look: 普羅米修斯頭下腳上地被釘在岩石上，一隻巨鷹的爪子抓住他的臉，正在啄食他的肝。左下角還有他偷來的火把。
+  artist: 彼得．保羅．魯本斯（老鷹由法蘭斯．史奈德斯所畫）
+  date: 約 1611–1612 年
+  museum: 美國費城藝術博物館
 
 - id: img-atlas-farnese
   kind: work
   commons: "File:Farnese Atlas.jpg"
   title: 法爾內塞的阿特拉斯
   period: ancient
-  look: TODO
+  look: 跪著的亞特拉斯用肩膀扛著的不是地球，而是「天球」：球上刻著星座，是現存最古老的星座圖像之一。
+  artist: 佚名（羅馬時期大理石像，仿希臘化時期原作）
+  date: 約公元 2 世紀
+  museum: 義大利拿坡里國家考古博物館
 
 - id: img-titans-haarlem
   kind: work
   commons: "File:Cornelis Cornelisz. van Haarlem - The Fall of the Titans - Google Art Project.jpg"
   title: 〈泰坦的墜落〉
   period: modern
-  look: TODO
-
-- id: img-titans-rubens
-  kind: work
-  commons: "File:Musée de Bruxelles. Rubens. La Chute des Titans - Der Fall der Titanen - The fall of the Titan, GP019175.jpg"
-  title: 〈泰坦的墜落〉
-  period: modern
-  look: TODO
+  look: 一堆肌肉誇張的裸體巨人從天上摔落、疊在一起。畫家故意擠滿畫面，讓人感受到泰坦被推翻時的混亂。
+  artist: 科內利斯．凡．哈勒姆
+  date: 1588–1590 年
+  museum: 丹麥哥本哈根國立美術館
 
 - id: img-zeus-otricoli
   kind: work
   commons: "File:Zeus Otricoli Pio-Clementino Inv257.jpg"
   title: 奧特里科利的宙斯
   period: ancient
-  look: TODO
+  look: 捲曲濃密的頭髮與鬍子、寬闊的額頭，是後世心目中「宙斯長相」的標準樣本。
+  artist: 佚名（羅馬時期複製品，仿前 4 世紀希臘原作）
+  date: 原作約前 4 世紀
+  museum: 梵蒂岡博物館
 
 - id: img-zeus-artemision
   kind: work
   commons: "File:Bronze Zeus or Poseidon NAMA X 15161 Athens Greece.jpg"
   title: 阿特米西翁青銅像
   period: ancient
-  look: TODO
+  look: 這尊青銅像在阿特米西翁海角附近的沉船中被撈起。他右手原本握著一樣已經失落的武器：如果是雷電，他就是宙斯；如果是三叉戟，他就是波賽頓。學者至今還在爭論。
+  artist: 佚名希臘雕刻家
+  date: 約前 460 年
+  museum: 希臘雅典國家考古博物館
 
 - id: img-zeus-ingres
   kind: work
   commons: "File:Jupiter and Thetis (Ingres).jpg"
   title: 〈朱比特與忒提斯〉
   period: modern
-  look: TODO
+  look: 海中女神忒提斯跪在宙斯腳邊，一手摸他的下巴，求他幫兒子阿基里斯。這個動作來自《伊里亞德》第一卷。
+  artist: 尚－奧古斯特－多米尼克．安格爾
+  date: 1811 年
+  museum: 法國普羅旺斯地區艾克斯格拉內博物館
 
 - id: img-hera-barberini
   kind: work
   commons: "File:Hera Barberini Chiaramonti Inv1210.jpg"
   title: 戴冠的希拉頭像
   period: ancient
-  look: TODO
+  look: 頭戴高冠的端莊女性頭像。高冠是天后身分的標誌。
+  artist: 佚名（羅馬時期複製品，仿前 5 世紀「巴貝里尼的希拉」類型）
+  date: 原作約前 5 世紀
+  museum: 梵蒂岡博物館
 
 - id: img-hera-rubens
   kind: work
   commons: "File:Juno and Argus - Peter Paul Rubens - Wallraf-Richartz Museum - Cologne - Germany 2017.jpg"
   title: 〈朱諾與阿爾戈斯〉
   period: modern
-  look: TODO
+  look: 百眼巨人阿爾戈斯被砍頭倒在地上，朱諾（希拉）把他的眼睛一顆顆取出，放到孔雀的尾巴上。孔雀尾羽上的「眼睛」就是這樣來的。
+  artist: 彼得．保羅．魯本斯
+  date: 約 1610–1611 年
+  museum: 德國科隆瓦拉夫－里夏茨博物館
 
 - id: img-poseidon-melos
   kind: work
   commons: "File:Marble statue of Poseidon from Melos. 125-100 B.C.jpg"
   title: 米洛斯的波賽頓
   period: ancient
-  look: TODO
+  look: 這尊比真人還高的大理石像 1877 年在米洛斯島出土。他高舉的右手原本應該握著三叉戟。
+  artist: 佚名希臘雕刻家
+  date: 約前 125–100 年
+  museum: 希臘雅典國家考古博物館
 
 - id: img-poseidon-pinax
   kind: work
   commons: "File:Penteskouphia tablet - Poseidon (Louvre CA 452).jpg"
   title: 科林斯陶板上的波賽頓
   period: ancient
-  look: TODO
-
-- id: img-neptune-mosaic
-  kind: work
-  commons: "File:Triomphe Neptune Sousse Alaoui.jpg"
-  title: 〈尼普頓的凱旋〉馬賽克
-  period: ancient
-  look: TODO
+  look: 科林斯附近出土的小陶板，是信徒獻給波賽頓的祈福牌。畫得很簡單：一個留鬍子的男人拿著三叉戟，一眼就認得出是海神。
+  artist: 佚名科林斯陶匠
+  date: 約前 6 世紀
+  museum: 法國巴黎羅浮宮
 
 - id: img-demeter-eleusis
   kind: work
   commons: "File:Great Eleusinian relief (NAMA 126).jpg"
   title: 厄琉息斯大浮雕
   period: ancient
-  look: TODO
+  look: 左邊的狄蜜特把麥穗交給中間的少年特里普托勒摩斯，右邊的波瑟芬妮把手放在他頭上祝福。傳說他之後把農耕傳遍了人間。
+  artist: 佚名希臘雕刻家
+  date: 約前 440–430 年
+  museum: 希臘雅典國家考古博物館
 
 - id: img-demeter-knidos
   kind: work
   commons: "File:Marble Statue of Demeter.jpg"
   title: 尼多斯的狄蜜特
   period: ancient
-  look: TODO
+  look: 坐著、全身包在厚重衣袍裡的女神，神情沉靜帶著哀傷，常被解讀為正在思念被擄走的女兒。
+  artist: 佚名希臘雕刻家
+  date: 約前 350 年
+  museum: 英國倫敦大英博物館
 
 - id: img-athena-varvakeion
   kind: work
   commons: "File:Athena Varvakeion - MANA - Fidias.jpg"
   title: 瓦瓦奇恩的雅典娜
   period: ancient
-  look: TODO
+  look: 帕德嫩神廟裡那尊 12 公尺高的金象牙雅典娜早已消失，這尊只有約 1 公尺高的小複製品，讓我們知道原作的樣子：頭盔、胸前的梅杜莎、右手上的勝利女神、腳邊的盾與大蛇。
+  artist: 佚名（羅馬時期縮小複製品，仿菲迪亞斯的〈雅典娜．帕德嫩〉）
+  date: 公元 3 世紀前半
+  museum: 希臘雅典國家考古博物館
 
 - id: img-athena-mourning
   kind: work
   commons: "File:Relief of the Mourning Athena, 460 B.C..jpg"
   title: 沉思的雅典娜
   period: ancient
-  look: TODO
+  look: 雅典娜低頭倚著長矛，凝視面前一塊石碑。她沒有在戰鬥，而是在沉思，石碑可能是界碑或墓碑，所以這件浮雕也被稱為「哀悼的雅典娜」。
+  artist: 佚名希臘雕刻家
+  date: 約前 460 年
+  museum: 希臘雅典衛城博物館
 
 - id: img-athena-botticelli
   kind: work
   commons: "File:Botticelli Pallas and the Centaur.jpg"
   title: 〈帕拉斯與半人馬〉
   period: modern
-  look: TODO
+  look: 手持長戟的女神抓住半人馬的頭髮，半人馬一臉委屈。一般解讀為理性（雅典娜）馴服了野性與慾望（半人馬）。
+  artist: 桑德羅．波提且利
+  date: 約 1482 年
+  museum: 義大利佛羅倫斯烏菲茲美術館
 
 - id: img-apollo-bernini
   kind: work
   commons: "File:Apollo and Daphne (Bernini).jpg"
   title: 〈阿波羅與達芙妮〉
   period: modern
-  look: TODO
+  look: 繞著雕像走一圈：達芙妮的手指正長出樹葉，腳趾變成樹根，阿波羅的手碰到的已經是樹皮。大理石被雕得像正在變化的皮膚。
+  artist: 吉安．洛倫佐．貝尼尼
+  date: 1622–1625 年
+  museum: 義大利羅馬博爾蓋塞美術館
 
 - id: img-apollo-kylix
   kind: work
   commons: "File:Kylix with Apollo, AM of Delphi 8140, 201390.jpg"
   title: 德爾菲的阿波羅白底杯
   period: ancient
-  look: TODO
+  look: 戴著桂冠的阿波羅坐在獅腳椅上，左手抱琴，右手倒出祭酒；對面停著一隻黑色的鳥。這是在阿波羅的聖地德爾菲出土的杯子。
+  artist: 佚名（白底杯畫家）
+  date: 約前 460 年
+  museum: 希臘德爾菲考古博物館
 
 - id: img-artemis-versailles
   kind: work
   commons: "File:Diane de Versailles - Musée du Louvre AGER Ma 589.jpg"
   title: 凡爾賽的黛安娜
   period: ancient
-  look: TODO
+  look: 女神邁步向前，右手伸到背後的箭筒拿箭，身邊跟著一頭鹿。短裙、箭筒、鹿，三個標誌一次到齊。
+  artist: 佚名（羅馬時期複製品，仿前 4 世紀希臘原作）
+  date: 公元 1–2 世紀
+  museum: 法國巴黎羅浮宮
 
 - id: img-artemis-titian
   kind: work
   commons: "File:Titian - Diana and Actaeon - Google Art Project.jpg"
   title: 〈黛安娜與阿克泰翁〉
   period: modern
-  look: TODO
-
-- id: img-artemis-krater
-  kind: work
-  commons: "File:Pan Painter - ARV 552 20 - gigantomachy - death of Aktaion - Athens NAM Akr 760 - 01.jpg"
-  title: 阿克泰翁之死（潘畫家）
-  period: ancient
-  look: TODO
+  look: 獵人阿克泰翁（左）掀開布簾，撞見正在沐浴的女神與仙女們。畫中的女神正要用布遮身，下一刻他就會被變成鹿。
+  artist: 提香
+  date: 1556–1559 年
+  museum: 英國愛丁堡蘇格蘭國家美術館（與倫敦國家美術館共同持有）
 
 - id: img-aphrodite-milo
   kind: work
   commons: "File:Venus de Milo Louvre Ma399 n4.jpg"
   title: 米洛的維納斯
   period: ancient
-  look: TODO
+  look: 1820 年在米洛斯島出土時就已經沒有雙臂。她原本的手在做什麼，至今沒人知道，這反而成了她最讓人著迷的地方。
+  artist: 佚名希臘雕刻家（有學者認為是安提阿的亞歷山德羅斯）
+  date: 約前 150–125 年
+  museum: 法國巴黎羅浮宮
 
 - id: img-aphrodite-botticelli
   kind: work
   commons: "File:Sandro Botticelli - La nascita di Venere - Google Art Project - edited.jpg"
   title: 〈維納斯的誕生〉
   period: modern
-  look: TODO
+  look: 女神站在貝殼上被風神吹到岸邊，右邊的女子正要替她披上斗篷。畫的就是赫西俄德說的：愛神從海沫中誕生、漂上岸。
+  artist: 桑德羅．波提且利
+  date: 約 1484–1486 年
+  museum: 義大利佛羅倫斯烏菲茲美術館
 
 - id: img-aphrodite-ludovisi
   kind: work
   commons: "File:Ludovisi throne Altemps Inv8570.jpg"
   title: 盧多維西寶座
   period: ancient
-  look: TODO
+  look: 兩位侍女從兩側扶起一位女子，女子的薄衣緊貼身體，一般解讀為阿芙蘿黛蒂從海中誕生。也有學者懷疑這件作品是近代偽作。
+  artist: 佚名希臘雕刻家（真偽有爭議）
+  date: 約前 460 年
+  museum: 義大利羅馬國立博物館阿爾騰普斯宮
 
 - id: img-hephaestus-velazquez
   kind: work
   commons: "File:Diego Velázquez - The Forge of Vulcan - WGA24376.jpg"
   title: 〈阿波羅造訪伏爾甘的鍛造坊〉
   period: modern
-  look: TODO
+  look: 頭頂發光的阿波羅（左）走進鍛造坊，告訴伏爾甘（赫菲斯托斯）他的妻子和戰神偷情。看看每個工人臉上的表情：一句話讓整個工坊都愣住了。
+  artist: 迪亞哥．維拉斯奎茲
+  date: 1630 年
+  museum: 西班牙馬德里普拉多美術館
 
 - id: img-hephaestus-return
   kind: work
   commons: "File:Leningrad Painter ARV 568 35extra return of Hephaistos.jpg"
   title: 赫菲斯托斯回到奧林帕斯
   period: ancient
-  look: TODO
+  look: 喝醉的赫菲斯托斯騎在驢上，由酒神戴奧尼索斯帶回奧林帕斯。傳說他被丟下天庭後懷恨在心，只有酒神能把他勸回來。
+  artist: 列寧格勒畫家
+  date: 約前 470–460 年
+  museum: 見圖片來源頁
 
 - id: img-hermes-praxiteles
   kind: work
   commons: "File:Hermes and the Infant Dionysus 10 04 2005.jpg"
   title: 抱著嬰兒戴奧尼索斯的荷米斯
   period: ancient
-  look: TODO
+  look: 荷米斯左手抱著嬰兒戴奧尼索斯，舉起的右手（已斷）可能拿著一串葡萄逗弄他。他正把剛出生的弟弟送去給仙女撫養。
+  artist: 傳為普拉克西特列斯（也可能是後世的複製品）
+  date: 約前 4 世紀（年代有爭議）
+  museum: 希臘奧林匹亞考古博物館
 
 - id: img-hermes-giambologna
   kind: work
   commons: "File:Mercurius by Giambologna-Bargello.jpg"
   title: 〈墨丘利〉
   period: modern
-  look: TODO
+  look: 整尊銅像只靠左腳尖踩在一陣「風」上，彷彿就要飛走。有翅膀的帽子、腳上的翅膀與雙蛇杖都很清楚。
+  artist: 詹波隆那
+  date: 約 1580 年
+  museum: 義大利佛羅倫斯巴傑羅美術館
 
 - id: img-hestia-giustiniani
   kind: work
   commons: "File:Hestia Giustiniani.jpg"
   title: 朱斯蒂尼亞尼的赫斯提亞
   period: ancient
-  look: TODO
+  look: 這是極少數被認為是赫斯提亞的雕像：全身包在厚重衣袍裡，頭披面紗，站得筆直，莊重而不帶任何裝飾。
+  artist: 佚名（羅馬時期複製品，仿前 5 世紀希臘原作）
+  date: 原作約前 470–460 年
+  museum: 義大利羅馬托洛尼亞收藏
 
 - id: img-vesta-pompeii
   kind: work
   commons: "File:Fresco of Vesta-Hestia from Pompeii.jpg"
   title: 龐貝家神龕壁畫上的維斯塔
   period: ancient
-  look: TODO
+  look: 坐在寶座上的維斯塔一手拿著淺盤，旁邊站著一頭驢。這幅畫原本在龐貝一戶人家的家神龕上，說明她是保佑家庭的女神。
+  artist: 佚名龐貝畫師
+  date: 公元 1 世紀
+  museum: 龐貝遺址出土（家神龕壁畫）
 
 - id: img-dionysus-exekias
   kind: work
   commons: "File:Exekias Dionysos Staatliche Antikensammlungen 2044.jpg"
   title: 艾克塞基亞斯的戴奧尼索斯杯
   period: ancient
-  look: TODO
+  look: 杯子內側：戴奧尼索斯躺在船上，桅桿長出葡萄藤，船邊游著七隻海豚。這就是頌歌中海盜變成海豚的故事。
+  artist: 艾克塞基亞斯
+  date: 約前 530 年
+  museum: 德國慕尼黑國立古代藝術博物館
 
 - id: img-dionysus-caravaggio
   kind: work
   commons: "File:Bacchus by Caravaggio 1.jpg"
   title: 〈酒神巴克斯〉
   period: modern
-  look: TODO
+  look: 頭戴葡萄葉的少年遞出一杯紅酒，前面的水果已經開始腐爛。青春與享樂，下一刻就會過去。
+  artist: 卡拉瓦喬
+  date: 約 1596–1598 年
+  museum: 義大利佛羅倫斯烏菲茲美術館
 
 - id: img-dionysus-titian
   kind: work
   commons: "File:Titian Bacchus and Ariadne.jpg"
-  title: 〈巴克斯與阿麗雅德妮〉
+  title: 〈巴克斯與阿里阿德涅〉
   period: modern
-  look: TODO
+  look: 酒神從豹拉的車上一躍而下，衝向被忒修斯拋棄在納克索斯島的阿里阿德涅。左上角的星星是他之後替她做成的星座。
+  artist: 提香
+  date: 1520–1523 年
+  museum: 英國倫敦國家美術館
 
 - id: img-hades-locri
   kind: work
   commons: "File:Pinax with Persephone and Hades Enthroned, 500-450 BC, Greek, Locri Epizephirii, Mannella district, Sanctuary of Persephone, terracotta - Cleveland Museum of Art - DSC08242.JPG"
-  title: 洛克里陶板：黛帝斯與波瑟芬妮
+  title: 洛克里陶板：黑帝斯與波瑟芬妮
   period: ancient
-  look: TODO
+  look: 冥王與冥后並肩坐在寶座上，接受信徒的獻禮，手裡拿著麥穗與公雞。這裡的冥界夫妻不可怕，反而像是保佑豐收的神。
+  artist: 佚名（洛克里的陶匠）
+  date: 約前 500–450 年
+  museum: 見圖片來源頁（洛克里出土，照片攝於美國克利夫蘭美術館展出時）
 
 - id: img-hades-bernini
   kind: work
   commons: "File:Rape of Prosepina September 2015-3a.jpg"
   title: 〈劫持普洛塞庇娜〉
   period: modern
-  look: TODO
+  look: 看冥王的手：他的手指陷進少女的大腿，大理石看起來像真的皮肉一樣柔軟。腳邊還有三頭犬克爾柏洛斯。
+  artist: 吉安．洛倫佐．貝尼尼
+  date: 1621–1622 年
+  museum: 義大利羅馬博爾蓋塞美術館
 
 - id: img-hades-vergina
   kind: work
   commons: "File:Hades abducting Persephone.jpg"
   title: 韋爾吉納王陵壁畫：黑帝斯擄走波瑟芬妮
   period: ancient
-  look: TODO
+  look: 一座馬其頓王族墓室牆上的壁畫：冥王駕著馬車，一手抓住伸手掙扎的波瑟芬妮。這是少數保存下來的古希臘大型繪畫。
+  artist: 佚名馬其頓畫師
+  date: 約前 340 年
+  museum: 希臘韋爾吉納王陵（現場）
 
 - id: img-janus-as
   kind: work
   commons: "File:Anonymous Rome Cr124-3.jpg"
   title: 羅馬共和時期銅幣上的雅努斯
   period: ancient
-  look: TODO
+  look: 羅馬早期銅幣的正面是雙面的雅努斯，背面是一艘船頭。古羅馬小孩丟銅板猜正反面時，就喊「頭或船」。
+  artist: 羅馬共和國鑄幣
+  date: 約前 211 年之後
+  museum: 見圖片來源頁
 
 - id: img-heracles-farnese
   kind: work
   commons: "File:Herakles Farnese MAN Napoli Inv6001 n01.jpg"
   title: 法爾內塞的海克力斯
   period: ancient
-  look: TODO
+  look: 疲憊的海克力斯倚著木棒休息，獅皮掛在棒上。走到背後看：他藏在身後的手裡握著三顆蘋果，代表剛完成第十一項任務。
+  artist: 雅典的格萊孔（仿留西波斯的原作）
+  date: 公元 3 世紀初（原作前 4 世紀）
+  museum: 義大利拿坡里國家考古博物館
 
 - id: img-heracles-lion
   kind: work
   commons: "File:Terracotta amphora (jar) MET DP116936.jpg"
-  title: 海克力斯與尼米亞獅子陶瓶
+  title: 海克力斯與阿波羅爭奪德爾菲三腳鼎
   period: ancient
-  look: TODO
+  look: 海克力斯扛起德爾菲的神聖三腳鼎想帶走，阿波羅抓住另一頭不放。傳說海克力斯得不到神諭，一氣之下想自己設立神諭所。
+  artist: 安多基德斯畫家（或利西皮德斯畫家）
+  date: 約前 530 年
+  museum: 美國紐約大都會藝術博物館
 
 - id: img-perseus-cellini
   kind: work
   commons: "File:Perseus Medusa Cellini Lanzi Florence.jpg"
   title: 〈柏修斯提著梅杜莎的頭〉
   period: modern
-  look: TODO
+  look: 柏修斯高舉梅杜莎的頭，腳下踩著她無頭的身體，斷頸處還流出青銅鑄成的血。
+  artist: 本韋努托．切利尼
+  date: 1545–1554 年
+  museum: 義大利佛羅倫斯領主廣場傭兵涼廊
 
 - id: img-theseus-e84
   kind: work
   commons: "File:Theseus Minotaur BM Vase E84.jpg"
   title: 忒修斯把米諾陶洛斯拖出迷宮
   period: ancient
-  look: TODO
+  look: 杯子內側的圓形畫：忒修斯把死去的米諾陶洛斯從迷宮中拖出來。右邊的柱子代表迷宮的建築。
+  artist: 佚名雅典陶瓶畫家
+  date: 約前 440–430 年
+  museum: 英國倫敦大英博物館
 
 - id: img-theseus-canova
   kind: work
   commons: "File:Canova - Theseus & Minotaur.jpg"
   title: 〈忒修斯與米諾陶洛斯〉
   period: modern
-  look: TODO
+  look: 照片中間就是這件雕像：勝利的忒修斯坐在被殺死的米諾陶洛斯身上休息。卡諾瓦選擇了戰鬥結束後的平靜一刻。
+  artist: 安東尼奧．卡諾瓦
+  date: 1781–1783 年
+  museum: 英國倫敦維多利亞與艾伯特博物館
 
 - id: img-jason-douris
   kind: work
   commons: "File:Douris cup Jason Vatican 16545.jpg"
   title: 杜里斯杯：被巨蛇吐出的伊阿宋
   period: ancient
-  look: TODO
+  look: 一條巨蛇把昏迷的伊阿宋從嘴裡吐出來，雅典娜在一旁看著，金羊毛掛在後面的樹上。這個「被吞下又吐出來」的版本沒有出現在任何現存的文字裡，只留在這只杯子上。
+  artist: 杜里斯（陶瓶畫家）
+  date: 約前 480–470 年
+  museum: 梵蒂岡博物館
 
 - id: img-jason-moreau
   kind: work
   commons: "File:Moreau - Jason, 1865, RF 2780.jpg"
   title: 〈伊阿宋〉
   period: modern
-  look: TODO
+  look: 伊阿宋腳踩著被殺死的龍，身後的米蒂亞手拿藥瓶、把手搭在他肩上。畫家暗示：真正的勝利者站在後面。
+  artist: 古斯塔夫．莫羅
+  date: 1865 年
+  museum: 法國巴黎奧賽美術館
 
 - id: img-achilles-exekias
   kind: work
   commons: "File:Akhilleus Aias MGEt 16757.jpg"
   title: 阿基里斯與大埃阿斯擲骰
   period: ancient
-  look: TODO
+  look: 阿基里斯（左，戴頭盔）和埃阿斯在戰爭空檔下棋擲骰，兩人身體前傾、全神貫注。看看他們斗篷上的花紋，細得像用針刻出來的。
+  artist: 艾克塞基亞斯
+  date: 約前 540–530 年
+  museum: 梵蒂岡博物館
 
 - id: img-achilles-sosias
   kind: work
-  commons: "File:Sosias Painter ARV 21 1 Achilles tending Patroklos - Herakles entering Olympus (09).jpg"
+  commons: "File:Akhilleus Patroklos Antikensammlung Berlin F2278.jpg"
   title: 阿基里斯替帕特羅克洛斯包紮
   period: ancient
-  look: TODO
+  look: 阿基里斯低頭替受傷的摯友帕特羅克洛斯包紮手臂，帕特羅克洛斯痛得咬牙別過頭。這是古希臘陶瓶上最溫柔的戰爭畫面之一。
+  artist: 索西亞斯畫家
+  date: 約前 500 年
+  museum: 德國柏林古代文物館
 
 - id: img-odysseus-sirens
   kind: work
   commons: "File:Odysseus Sirens BM E440 n2.jpg"
   title: 奧德修斯與賽蓮
   period: ancient
-  look: TODO
+  look: 奧德修斯被綁在桅桿上，鳥身人頭的海妖在船邊飛，其中一隻竟然頭朝下墜海。傳說海妖如果沒能引誘過路的人，就會死去。
+  artist: 賽蓮畫家
+  date: 約前 480–470 年
+  museum: 英國倫敦大英博物館
 
 - id: img-odysseus-polyphemus
   kind: work
   commons: "File:Funerary proto-Attic amphora by Polyphemos painter depicting Odysseus and his men blinding the cyclops Polyphemus from xxx flickr 8706777442 b4db371a26 o.jpg"
   title: 弄瞎獨眼巨人（埃萊夫西納雙耳瓶）
   period: ancient
-  look: TODO
+  look: 這只高 142 公分的大陶罐原本用來安葬一個孩子。瓶頸上，奧德修斯和同伴扛著長木樁刺進獨眼巨人的眼睛，巨人手上還拿著酒杯。
+  artist: 波呂斐摩斯畫家
+  date: 約前 650 年
+  museum: 希臘埃萊夫西納考古博物館
 
 - id: img-orpheus-relief
   kind: work
   commons: "File:Relief of Orpheus and Eurydice (Louvre, Ma 854) (28266063496).jpg"
   title: 奧菲斯、尤麗狄絲與荷米斯浮雕
   period: ancient
-  look: TODO
+  look: 中間的尤麗狄絲把手搭在奧菲斯肩上，右邊的荷米斯輕輕拉住她的手腕，要把她帶回冥界。這是他們最後一次相觸。頂端的拉丁文是 16 世紀時被錯誤加上的。
+  artist: 佚名（羅馬時期複製品，仿前 5 世紀希臘原作）
+  date: 約前 1 世紀
+  museum: 法國巴黎羅浮宮
 
 - id: img-orpheus-corot
   kind: work
   commons: "File:Jean-Baptiste-Camille Corot - Orpheus Leading Eurydice from the Underworld - Google Art Project.jpg"
   title: 〈奧菲斯帶領尤麗狄絲離開冥界〉
   period: modern
-  look: TODO
+  look: 奧菲斯高舉七弦琴，牽著尤麗狄絲穿過朦朧的樹林，背後遠處還有一群亡魂。他還沒回頭，但我們都知道接下來會發生什麼。
+  artist: 卡米耶．柯洛
+  date: 1861 年
+  museum: 美國休士頓美術館
 
 - id: img-aeneas-bernini
   kind: work
   commons: "File:Aeneas, Anchises, and Ascanius by Bernini.jpg"
   title: 〈埃涅阿斯、安喀塞斯與阿斯卡尼俄斯〉
   period: modern
-  look: TODO
+  look: 三代人疊在一起：年輕的埃涅阿斯背著年老的父親，父親抱著家神像，腳邊的小男孩捧著家中的聖火。
+  artist: 吉安．洛倫佐．貝尼尼（可能與父親彼得羅合作）
+  date: 1618–1619 年
+  museum: 義大利羅馬博爾蓋塞美術館
 
 - id: img-aeneas-pompeii
   kind: work
   commons: "File:Aeneas wounded MAN Napoli Inv9009.jpg"
   title: 龐貝壁畫：受傷的埃涅阿斯
   period: ancient
-  look: TODO
+  look: 腿部中箭的埃涅阿斯站著讓醫生替他拔箭，小兒子在一旁哭泣，母親維納斯從後方送來草藥。這一幕來自《埃涅阿斯紀》第十二卷。
+  artist: 佚名龐貝畫師
+  date: 約公元 45–79 年
+  museum: 義大利拿坡里國家考古博物館
 
 - id: img-pandora-waterhouse
   kind: work
   commons: "File:John William Waterhouse - Pandora, 1896.jpg"
   title: 〈潘朵拉〉
   period: modern
-  look: TODO
+  look: 少女跪在森林裡掀開一個金色的盒子，盒中冒出煙霧。注意：畫家畫的是「盒子」，但古希臘原文其實是一只大陶罐。
+  artist: 約翰．威廉．沃特豪斯
+  date: 1896 年
+  museum: 私人收藏
 
 - id: img-pandora-rossetti
   kind: work
   commons: "File:Dante Gabriel Rossetti - Pandora.jpg"
   title: 〈潘朵拉〉
   period: modern
-  look: TODO
+  look: 穿著暗紅長袍的潘朵拉捧著一個小盒子，盒蓋已經打開，紅色煙霧在她身後飄散。模特兒是羅塞蒂常畫的珍．莫里斯。
+  artist: 但丁．加百列．羅塞蒂
+  date: 1871 年
+  museum: 英國利物浦利弗夫人美術館
 
 - id: img-persephone-rossetti
   kind: work
   commons: "File:Dante Gabriel Rossetti - Proserpine - Google Art Project.jpg"
   title: 〈普洛塞庇娜〉
   period: modern
-  look: TODO
+  look: 冥后手拿一顆被咬過的石榴，從陰暗的宮殿裡往外看。光線只照進她身後一小角，像是人間的春天在遠處。
+  artist: 但丁．加百列．羅塞蒂
+  date: 1874 年
+  museum: 英國倫敦泰特美術館
 
 - id: img-persephone-leighton
   kind: work
   commons: "File:Frederic Leighton - The Return of Persephone (1891).jpg"
   title: 〈波瑟芬妮歸來〉
   period: modern
-  look: TODO
+  look: 荷米斯托著波瑟芬妮從地底升起，母親狄蜜特在洞口張開雙臂迎接她。這是故事的大團圓：春天回來了。
+  artist: 弗雷德里克．雷頓
+  date: 1891 年
+  museum: 英國里茲美術館
 
 - id: img-paris-rubens
   kind: work
   commons: "File:Rubens - Judgement of Paris.jpg"
   title: 〈帕里斯的評判〉
   period: modern
-  look: TODO
+  look: 三位女神在帕里斯面前展示自己，荷米斯站在他身後。腳邊的孔雀代表希拉、盾牌代表雅典娜、小邱比特代表維納斯，可以試著認出誰是誰。
+  artist: 彼得．保羅．魯本斯
+  date: 約 1632–1635 年
+  museum: 英國倫敦國家美術館
 
 - id: img-trojan-tiepolo
   kind: work
   commons: "File:Giovanni Domenico Tiepolo - The Procession of the Trojan Horse in Troy - WGA22382.jpg"
   title: 〈木馬進城的遊行〉
   period: modern
-  look: TODO
+  look: 特洛伊人歡天喜地用繩子把木馬拖進城，沒人注意到這個「禮物」有多危險。
+  artist: 喬瓦尼．多梅尼科．提埃坡羅
+  date: 約 1760 年
+  museum: 英國倫敦國家美術館
 
 - id: img-trojan-mykonos
   kind: work
   commons: "File:Mykonos vase 7th cent bce early depiction of Trojan Horse photographed by Travellingrunes Flickr 2949254926 4c9dc0882d o.png"
   title: 米科諾斯陶罐上的木馬
   period: ancient
-  look: TODO
+  look: 大陶罐頸部浮雕上的木馬有輪子，身上開了一排小窗，窗裡露出戰士的臉和盾牌。這是目前已知最早的木馬圖像之一。
+  artist: 佚名（提諾斯島製作）
+  date: 約前 7 世紀中
+  museum: 希臘米科諾斯考古博物館
 
 - id: img-laocoon
   kind: work
   commons: "File:Laocoön and his sons group.jpg"
   title: 〈拉奧孔群像〉
   period: ancient
-  look: TODO
+  look: 祭司拉奧孔和兩個兒子被海蛇纏住，他仰頭掙扎、全身肌肉緊繃。1506 年出土時，米開朗基羅也趕到現場觀看。
+  artist: 傳為羅德島的阿格桑德羅斯、波利多羅斯與阿典諾多羅斯
+  date: 約前 1 世紀至公元 1 世紀（年代有爭議）
+  museum: 梵蒂岡博物館
 
 - id: img-odyssey-waterhouse
   kind: work
   commons: "File:John William Waterhouse - Ulysses and the Sirens - Google Art Project.jpg"
   title: 〈尤利西斯與賽蓮〉
   period: modern
-  look: TODO
+  look: 畫家參考古希臘陶瓶，把海妖畫成長著女人頭的鳥，圍著被綁在桅桿上的奧德修斯；划船的水手們耳朵塞著蠟，完全聽不見。
+  artist: 約翰．威廉．沃特豪斯
+  date: 1891 年
+  museum: 澳洲墨爾本維多利亞國立美術館
 
 - id: img-oedipus-kylix
   kind: work
   commons: "File:Oedipus being questioned by the Sphinx, Attic red-figured kylix, by the Oedipus Painter, 470-460 BC, inv. 16541 - Museo Gregoriano Etrusco - Vatican Museums - DSC01041.jpg"
   title: 伊底帕斯與斯芬克斯（伊底帕斯畫家）
   period: ancient
-  look: TODO
+  look: 伊底帕斯坐著托腮思考，對面柱子上蹲著人面獅身的斯芬克斯。古希臘人把這一幕畫成一場安靜的對話，而不是打鬥。
+  artist: 伊底帕斯畫家
+  date: 約前 470 年
+  museum: 梵蒂岡博物館
 
 - id: img-oedipus-ingres
   kind: work
   commons: "File:Jean-Auguste-Dominique Ingres (1780-1867) - Oedipus and the Sphinx - NG3290 - National Gallery.jpg"
   title: 〈伊底帕斯與斯芬克斯〉
   period: modern
-  look: TODO
+  look: 伊底帕斯一腳踩在岩石上，正對著斯芬克斯解謎；腳下散落著之前答錯的人的骨頭，背景中有個人嚇得逃走。
+  artist: 尚－奧古斯特－多米尼克．安格爾
+  date: 約 1826 年
+  museum: 英國倫敦國家美術館
 
 - id: img-narcissus-caravaggio
   kind: work
   commons: "File:Narcissus-Caravaggio (1594-96).jpg"
   title: 〈納西瑟斯〉
   period: modern
-  look: TODO
+  look: 少年和他的倒影組成一個圓圈，彷彿兩人手牽著手；畫面其他地方幾乎全黑，整個世界只剩下他和他自己。
+  artist: 傳為卡拉瓦喬
+  date: 約 1597–1599 年
+  museum: 義大利羅馬國立古代藝術美術館（巴貝里尼宮）
 
 - id: img-narcissus-waterhouse
   kind: work
   commons: "File:John William Waterhouse - Echo and Narcissus - Google Art Project.jpg"
-  title: 〈艾可與納西瑟斯〉
+  title: 〈厄科與納西瑟斯〉
   period: modern
-  look: TODO
+  look: 納西瑟斯趴在水邊盯著倒影，仙女厄科在樹旁望著他。他從頭到尾沒有看她一眼。
+  artist: 約翰．威廉．沃特豪斯
+  date: 1903 年
+  museum: 英國利物浦沃克美術館
 
 - id: img-icarus-bruegel
   kind: work
   commons: "File:Pieter Bruegel the Elder - Landscape with the Fall of Icarus - Brussels, Royal Museums of Fine Arts of Belgium - Google Arts & Culture.jpg"
   title: 〈伊卡洛斯墜落的風景〉
   period: modern
-  look: TODO
+  look: 先找找伊卡洛斯在哪：右下角大船旁邊的水面上，只露出兩條腿。農夫、牧羊人、漁夫都低頭忙自己的事。
+  artist: 老彼得．布勒哲爾（現存這幅可能是後人的摹本）
+  date: 約 1560 年代（摹本年代有爭議）
+  museum: 比利時布魯塞爾皇家美術館
 
 - id: img-icarus-relief
   kind: work
   commons: "File:Meyers b4 s0409 b1.png"
   title: 代達洛斯與伊卡洛斯浮雕（版畫）
   period: ancient
-  look: TODO
+  look: 坐著的代達洛斯正在調整一副翅膀，伊卡洛斯已經背上翅膀站在一旁。兩人都還不知道接下來會發生什麼。
+  artist: 《邁爾百科全書》插圖，依據羅馬阿爾巴尼別墅的古代浮雕
+  date: 插圖約 1885 年；原浮雕為羅馬時期
+  museum: 原浮雕在義大利羅馬阿爾巴尼別墅
 
 - id: img-icarus-leighton
   kind: work
   commons: "File:Lord Frederick Leighton FLL006.jpg"
   title: 〈代達洛斯與伊卡洛斯〉
   period: modern
-  look: TODO
+  look: 父親代達洛斯正替兒子綁上翅膀，伊卡洛斯卻已經抬頭看向天空，一點都沒在聽。
+  artist: 弗雷德里克．雷頓
+  date: 1869 年
+  museum: 私人收藏
 
 - id: img-arachne-velazquez
   kind: work
   commons: "File:Velazquez-las hilanderas.jpg"
   title: 〈阿拉克涅的寓言（紡紗女）〉
   period: modern
-  look: TODO
+  look: 前景是紡紗工坊裡的女工；往後看，明亮的小房間牆上掛著一幅織毯，前面戴頭盔的就是雅典娜，正對著阿拉克涅舉起手。神話藏在日常勞動的背後。
+  artist: 迪亞哥．維拉斯奎茲
+  date: 約 1655–1660 年
+  museum: 西班牙馬德里普拉多美術館
 
 - id: img-arachne-dore
   kind: work
   commons: "File:Arachne.jpg"
   title: 〈阿拉克涅〉
   period: modern
-  look: TODO
+  look: 上半身還是女人、下半身已經長出蜘蛛腳的阿拉克涅，痛苦地扭著身子。這是多雷替但丁《神曲》畫的插圖。
+  artist: 古斯塔夫．多雷
+  date: 1861–1868 年
+  museum: 但丁《神曲》插畫
 
 - id: img-romulus-wolf
   kind: work
   commons: "File:Lupa Capitolina, Rome.jpg"
   title: 卡比托利歐母狼像
   period: ancient
-  look: TODO
+  look: 母狼警覺地豎起耳朵，下面兩個嬰兒在吸奶。這對雙胞胎是 15 世紀才加上去的，母狼本身究竟是古代還是中世紀作品，學者還在爭論。
+  artist: 佚名（母狼年代有爭議；雙胞胎為 15 世紀加上）
+  date: 母狼可能為前 5 世紀或中世紀；雙胞胎約 15 世紀末
+  museum: 義大利羅馬卡比托利歐博物館
 
 - id: img-romulus-rubens
   kind: work
   commons: "File:Peter Paul Rubens - Romulus and Remus - Google Art Project.jpg"
   title: 〈羅慕路斯與雷穆斯〉
   period: modern
-  look: TODO
+  look: 母狼回頭溫柔地看著吸奶的雙胞胎，左邊的老人是台伯河的河神，右上角的牧羊人剛剛發現他們。
+  artist: 彼得．保羅．魯本斯
+  date: 約 1615–1616 年
+  museum: 義大利羅馬卡比托利歐博物館
 
 - id: img-medusa-rondanini
   kind: work
   commons: "File:Rondanini Medusa Glyptothek Munich 252 n1.jpg"
   title: 隆達尼尼的梅杜莎
   period: ancient
-  look: TODO
+  look: 這張梅杜莎臉孔平靜、甚至美麗，只有頭上的翅膀與蛇洩漏了身分。和早期吐舌獠牙的鬼臉相比，可以看出梅杜莎形象的轉變。
+  artist: 佚名（羅馬時期複製品，仿菲迪亞斯的作品）
+  date: 原作約前 5 世紀
+  museum: 德國慕尼黑古代雕塑館
 
 - id: img-medusa-caravaggio
   kind: work
   commons: "File:Caravaggio - Medusa - Google Art Project.jpg"
   title: 〈梅杜莎〉
   period: modern
-  look: TODO
+  look: 畫在一面真正的圓形盾牌上。梅杜莎剛被砍下頭，嘴還張著尖叫，脖子噴出血。據說這張臉是卡拉瓦喬照著自己的臉畫的。
+  artist: 卡拉瓦喬
+  date: 約 1597–1598 年
+  museum: 義大利佛羅倫斯烏菲茲美術館
 
 - id: img-minotaur-louvre
   kind: work
   commons: "File:Kylix Theseus Minotauros Louvre F83.jpg"
   title: 忒修斯與米諾陶洛斯（黑繪杯）
   period: ancient
-  look: TODO
+  look: 杯子內側：忒修斯一手抓住米諾陶洛斯，一手舉劍刺下。牛頭人身的怪物在圓框裡被畫得像在翻滾掙扎。
+  artist: 佚名雅典陶瓶畫家
+  date: 約前 450–440 年
+  museum: 法國巴黎羅浮宮
 
 - id: img-knossos
   kind: work
   commons: "File:Knossos North entrance bull fresco.jpg"
   title: 克諾索斯宮殿北入口
   period: ancient
-  look: TODO
+  look: 紅色柱子與牆上的公牛壁畫看起來很新，因為這部分是考古學家伊文斯用水泥重建的。照片裡同時有真實的古蹟與 20 世紀的想像。
+  artist: 考古遺址（20 世紀初伊文斯部分重建）
+  date: 宮殿約前 1700–1450 年；重建約 1900–1930 年
+  museum: 希臘克里特島克諾索斯遺址
 
 - id: img-underworld-patinir
   kind: work
   commons: "File:Joachim Patinir 007.jpg"
   title: 〈卡戎渡冥河的風景〉
   period: modern
-  look: TODO
+  look: 擺渡人卡戎划著船載亡魂穿過中間的河。左岸是有天使的樂園，右岸是火光與三頭犬看守的地獄入口：亡魂正面對選擇。
+  artist: 約阿希姆．帕蒂尼爾
+  date: 約 1520–1524 年
+  museum: 西班牙馬德里普拉多美術館
 
 - id: img-troy-walls
   kind: work
   commons: "File:Walls of Troy (2).jpg"
   title: 特洛伊遺址城牆
   period: ancient
-  look: TODO
+  look: 斜斜向上收的石牆屬於特洛伊遺址較晚期的城市，很多學者認為荷馬想像中的特洛伊，最接近的就是這一時期。
+  artist: 考古遺址
+  date: 這段城牆約前 2 千紀（特洛伊第六層）
+  museum: 土耳其希沙利克特洛伊遺址
 
 - id: img-mycenae-gate
   kind: work
   commons: "File:Lion Gate, Mycenae, 201510.jpg"
   title: 邁錫尼獅子門
   period: ancient
-  look: TODO
+  look: 城門上方的三角石板刻著兩頭面對面的獅子。傳說這裡是特洛伊戰爭統帥阿伽門農的城市。
+  artist: 佚名邁錫尼工匠
+  date: 約前 1250 年
+  museum: 希臘邁錫尼遺址
 
 - id: img-apollo-belvedere
   kind: work
   commons: "File:Belvedere Apollo Pio-Clementino Inv1015.jpg"
   title: 觀景殿的阿波羅
   period: ancient
-  look: TODO
+  look: 阿波羅剛射出一箭，目光追著箭的方向。18 世紀的人把它當成「完美人體」的標準。
+  artist: 佚名（羅馬時期複製品，仿萊奧卡雷斯的青銅原作）
+  date: 公元 2 世紀（原作約前 330 年）
+  museum: 梵蒂岡博物館
 
 - id: img-ares-ludovisi
   kind: work
   commons: "File:Ares Ludovisi Altemps Inv8602.jpg"
   title: 盧多維西的阿瑞斯
   period: ancient
-  look: TODO
+  look: 戰神放下武器、抱著膝蓋坐著休息，神情若有所思。腳邊原本有一個小愛神，暗示他正在想著愛情。
+  artist: 佚名（羅馬時期複製品，仿前 4 世紀希臘原作；部分由貝尼尼修復）
+  date: 原作約前 320 年
+  museum: 義大利羅馬國立博物館阿爾騰普斯宮
 
 - id: img-ares-botticelli
   kind: work
   commons: "File:Venus and Mars National Gallery.jpg"
   title: 〈維納斯與馬爾斯〉
   period: modern
-  look: TODO
+  look: 維納斯清醒地看著熟睡的馬爾斯，小薩堤爾拿走了他的長矛和頭盔，還對著他耳朵吹號角也吵不醒。愛征服了戰爭。
+  artist: 桑德羅．波提且利
+  date: 約 1485 年
+  museum: 英國倫敦國家美術館
 
 - id: img-janus-head
   kind: work
   commons: "File:Janus1.JPG"
   title: 雙面雅努斯頭像
   period: ancient
-  look: TODO
+  look: 兩張留著鬍子的臉背靠背，一張看前、一張看後。
+  artist: 佚名羅馬雕刻家
+  date: 羅馬時期
+  museum: 梵蒂岡博物館
 
 - id: img-hermes-berlin
   kind: work
   commons: "File:Amphora of the Berlin Painter at the Antikensammlung Berlin.jpg"
   title: 柏林畫家雙耳瓶上的荷米斯
   period: ancient
-  look: TODO
+  look: 瓶身上的荷米斯戴著旅行帽、拿著雙蛇杖，正和一個半人半獸的薩堤爾一起走。照片中他的身影較小，可以點開原圖看細節。
+  artist: 柏林畫家
+  date: 約前 490 年
+  museum: 德國柏林古代文物館
 
 - id: img-prometheus-laconian
   kind: work
   commons: "File:Prometheus and Atlas, Laconian black-figure kylix, by the Arkesilas Painter, 560-550 BC, inv. 16592 - Museo Gregoriano Etrusco - Vatican Museums - DSC01069.jpg"
   title: 拉科尼亞杯：阿特拉斯與普羅米修斯
   period: ancient
-  look: TODO
+  look: 一個杯子畫了兩位受罰的泰坦兄弟：左邊的亞特拉斯撐著天，右邊的普羅米修斯被綁在柱子上，一隻鷹正在啄他。
+  artist: 阿克西拉斯畫家（斯巴達地區）
+  date: 約前 560–550 年
+  museum: 梵蒂岡博物館
 
 - id: img-olympus-mytikas
   kind: work
   commons: "File:Mytikas peak 02.jpg"
   title: 奧林帕斯山最高峰米蒂卡斯
   period: modern
-  look: TODO
+  look: 奧林帕斯山最高峰米蒂卡斯，約 2,900 公尺，是希臘最高點。古希臘人相信眾神就住在這些雲霧上面。
+  artist: 現代照片
+  date: 2019 年
+  museum: 希臘奧林帕斯山
 
 - id: img-delphi-temple
   kind: work
   commons: "File:Temple of Apollo Delphi Greece 2009.jpg"
   title: 德爾菲阿波羅神廟遺址
   period: modern
-  look: TODO
+  look: 帕納索斯山腳下的阿波羅神廟只剩幾根柱子。古希臘人相信這裡是世界的中心，女祭司在神廟裡代阿波羅說出預言。
+  artist: 考古遺址
+  date: 現存遺跡約前 4 世紀
+  museum: 希臘德爾菲遺址
 
 - id: img-pandora-krater
   kind: work
   commons: "File:Niobid Painter ARV 601 23 creation of Pandora - chorus of women - Pans - satyrs and maenad (03).jpg"
   title: 眾神裝扮潘朵拉（尼俄柏畫家）
   period: ancient
-  look: TODO
-
-- id: img-achilles-hector
-  kind: work
-  commons: "File:Achill und Hektor.jpg"
-  title: 阿基里斯與赫克托決鬥
-  period: ancient
-  look: TODO
+  look: 上排是眾神圍著剛被造出來的潘朵拉：雅典娜拿著花冠要替她戴上，宙斯坐在一旁看著。古希臘人畫的潘朵拉沒有盒子。
+  artist: 尼俄柏畫家
+  date: 約前 460–450 年
+  museum: 英國倫敦大英博物館
 
 - id: img-persephone-hydria
   kind: work
   commons: "File:Chicago Painter - ARV 630 31 - Triptolemos with Persephone and Demeter - München AS 2432 - 09.jpg"
   title: 狄蜜特、波瑟芬妮與特里普托勒摩斯
   period: ancient
-  look: TODO
+  look: 坐在有翅膀馬車上的少年特里普托勒摩斯，手捧麥穗，波瑟芬妮與狄蜜特一左一右送他出發去傳播農業。
+  artist: 芝加哥畫家
+  date: 約前 460–450 年
+  museum: 德國慕尼黑國立古代藝術博物館
 
 - id: img-tellus-mosaic
   kind: work
   commons: "File:Aion mosaic Glyptothek Munich W504.jpg"
   title: 森提努姆馬賽克：永恆之神與大地女神
   period: ancient
-  look: TODO
+  look: 站在星座圓環裡的是永恆之神艾翁；右下躺著的女神是大地（羅馬稱特盧斯，即蓋亞），身邊圍著四個代表四季的孩子。
+  artist: 佚名羅馬馬賽克工匠
+  date: 約公元 200–250 年
+  museum: 德國慕尼黑古代雕塑館

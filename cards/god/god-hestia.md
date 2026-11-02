@@ -17,6 +17,7 @@ domains:
   roles: [爐灶, 家庭, 祭祀的火, 城邦的公共聖火]
   symbols: [爐火, 火盆, 面紗]
 how_to_recognize: 很少出現在藝術品裡。通常是端莊坐著、披著面紗、全身包得很緊的成熟女性，身邊可能有火盆或爐火。
+how_to_recognize_src: [s5]
 family:
   parents:
     - {id: titan-cronus, src: [s1]}

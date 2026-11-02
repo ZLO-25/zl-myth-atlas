@@ -17,6 +17,7 @@ domains:
   roles: [智謀, 返鄉, 航海]
   symbols: [弓, 船, 水手的尖帽]
 how_to_recognize: 戴著水手式尖頂小帽的大鬍子男子。被綁在桅桿上、旁邊有長著鳥身的女妖飛過的，就是聽海妖歌聲的他；拿著尖木樁刺向巨人眼睛的，也是他。
+how_to_recognize_src: [s7]
 family:
   parents:
     - {name: 拉厄耳忒斯（伊塔卡國王）, src: [s1]}

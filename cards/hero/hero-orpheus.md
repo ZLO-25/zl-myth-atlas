@@ -16,6 +16,7 @@ domains:
   roles: [音樂, 詩歌]
   symbols: [七弦琴, 聽歌的動物]
 how_to_recognize: 抱著七弦琴、身邊圍著各種安靜聆聽的動物的年輕男子。若畫面中有一位女子被荷米斯牽著往回走，說的就是他失去妻子的那一刻。
+how_to_recognize_src: [s5]
 family:
   parents:
     - {name: 繆斯卡利俄珀, src: [s1]}

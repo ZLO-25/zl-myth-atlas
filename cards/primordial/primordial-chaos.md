@@ -20,6 +20,7 @@ family:
   children:
     - {name: 厄瑞玻斯（幽暗）, src: [s1]}
     - {name: 倪克斯（黑夜）, src: [s1]}
+few_images: 混沌在古希臘幾乎沒有固定的形象：它不是一個有臉孔的神，而是「最初的那片空隙」，所以古代沒有留下混沌的雕像或陶瓶畫，後世作品也很少。
 images: [img-chaos-watts]
 sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》116–125, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}

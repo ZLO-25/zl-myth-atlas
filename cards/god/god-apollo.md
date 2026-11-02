@@ -17,6 +17,7 @@ domains:
   roles: [預言, 音樂與詩歌, 醫療, 瘟疫, 射箭, 光明]
   symbols: [七弦琴, 銀弓與箭, 月桂冠, 德爾菲的三腳鼎, 烏鴉, 天鵝]
 how_to_recognize: 沒有鬍子、身材勻稱的年輕男子，常常赤裸或只披一塊布，手拿七弦琴或弓，頭戴月桂冠。古典雕像中「最完美的年輕男子」，多半就是他。
+how_to_recognize_src: [s7]
 family:
   parents:
     - {id: god-zeus, src: [s1]}
@@ -25,7 +26,7 @@ family:
     - {id: god-artemis, src: [s1]}
   children:
     - {name: 醫神阿斯克勒庇俄斯, src: [s5]}
-images: [img-apollo-belvedere, img-apollo-kylix, img-apollo-bernini]
+images: [img-apollo-belvedere, img-apollo-kylix, img-apollo-bernini, img-delphi-temple]
 places: []
 sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》918–920, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}

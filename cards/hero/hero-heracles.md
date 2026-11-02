@@ -17,6 +17,7 @@ domains:
   roles: [力量, 英雄試煉, 保護人類對抗怪物]
   symbols: [獅皮（頭套是獅頭）, 木棒, 弓箭]
 how_to_recognize: 肌肉發達、留鬍子的男子，披著一張獅子皮（獅頭常當成頭盔戴在頭上），手拿粗木棒。看到「獅皮＋木棒」，幾乎一定是他。
+how_to_recognize_src: [s7]
 family:
   parents:
     - {id: god-zeus, src: [s1]}

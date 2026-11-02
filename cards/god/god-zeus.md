@@ -51,6 +51,7 @@ family:
     - {id: hero-perseus, src: [s7]}
     - {name: 波瑟芬妮, src: [s4]}
     - {name: 九位繆斯, src: [s4]}
+images: [img-zeus-otricoli, img-zeus-artemision, img-zeus-ingres]
 sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》453–506（宙斯誕生與克羅諾斯吞子）, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
   - {id: s2, kind: ancient, cite: 赫西俄德《神譜》617–735（泰坦之戰）, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}

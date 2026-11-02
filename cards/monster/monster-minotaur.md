@@ -19,6 +19,7 @@ domains:
   roles: [怪物]
   symbols: [牛頭, 迷宮]
 how_to_recognize: 牛頭、人身的怪物，通常正在和一位持劍的年輕英雄（忒修斯）搏鬥，或倒在地上被刺殺。
+how_to_recognize_src: [s3]
 images: [img-minotaur-louvre, img-knossos]
 sources:
   - {id: s1, kind: ancient, cite: 阿波羅多洛斯《書庫》3.1.3–3.1.4、3.15.8, url: 'https://www.theoi.com/Text/Apollodorus3.html'}

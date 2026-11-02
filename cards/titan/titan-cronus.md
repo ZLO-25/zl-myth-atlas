@@ -17,6 +17,7 @@ domains:
   roles: [泰坦之王, 收成（羅馬的薩圖恩）]
   symbols: [鐮刀]
 how_to_recognize: 手拿鐮刀的大鬍子老人，常常正在吃小孩或抱著一塊用布包著的石頭。後世常把他和「時間老人」（Chronos）混在一起，畫成有翅膀、拿沙漏的老人，其實是兩個不同的名字。
+how_to_recognize_src: [s4]
 family:
   parents:
     - {id: primordial-uranus, src: [s1]}

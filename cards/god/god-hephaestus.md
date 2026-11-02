@@ -17,6 +17,7 @@ domains:
   roles: [火, 鍛造與金屬工藝, 工匠]
   symbols: [鐵鎚, 鉗子, 鐵砧, 工匠帽]
 how_to_recognize: 留鬍子、戴圓錐形工匠帽、穿短衣露出一邊肩膀的男子，手拿鐵鎚或鉗子，常在火爐邊工作。陶瓶上騎著驢子、被人帶回奧林帕斯的醉醺醺工匠，也是他。
+how_to_recognize_src: [s7]
 family:
   parents:
     - {id: god-hera, src: [s1], variant: 赫西俄德：希拉沒有和任何人結合，獨自生下他}

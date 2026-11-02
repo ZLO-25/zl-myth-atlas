@@ -16,6 +16,7 @@ domains:
   roles: [航海冒險, 王位繼承者]
   symbols: [金羊毛, 阿爾戈號, 一隻腳的鞋]
 how_to_recognize: 年輕的戰士手捧或伸手去拿一張掛在樹上的金色羊毛，旁邊常有一條巨龍，或一位拿著藥瓶的女子（米蒂亞）。
+how_to_recognize_src: [s2]
 family:
   consorts:
     - {name: 米蒂亞（科爾基斯公主、女巫）, src: [s1]}

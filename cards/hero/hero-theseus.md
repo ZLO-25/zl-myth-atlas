@@ -16,6 +16,7 @@ domains:
   roles: [屠怪英雄, 雅典國王]
   symbols: [劍, 線團, 迷宮]
 how_to_recognize: 年輕、沒有鬍子的英雄，正在和牛頭人身的怪物搏鬥。陶瓶上常把他畫成抓著牛頭怪的角、舉劍刺下的姿勢。
+how_to_recognize_src: [s3]
 family:
   parents:
     - {name: 埃勾斯（雅典國王）, src: [s1]}

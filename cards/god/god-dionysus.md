@@ -17,6 +17,7 @@ domains:
   roles: [葡萄酒, 狂歡與出神, 戲劇, 瘋狂, 豐饒]
   symbols: [葡萄藤與常春藤, 酒杯, 松果杖（頂端有松果的長杖）, 豹, 面具]
 how_to_recognize: 頭戴葡萄藤或常春藤冠，手拿酒杯或頂端有松果的長杖，身邊常跟著豹、半人半羊的薩堤爾和狂舞的女信徒。古陶瓶上是有長鬍子的成年男子，後期則是柔美、半醉的年輕人。
+how_to_recognize_src: [s6]
 family:
   parents:
     - {id: god-zeus, src: [s1]}

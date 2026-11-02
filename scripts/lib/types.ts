@@ -52,6 +52,9 @@ export interface Card {
   hook: string; // 一句話記住他
   domains?: { roles: string[]; symbols: string[] };
   how_to_recognize?: string;
+  how_to_recognize_src?: string[];
+  /** 古代與後世作品真的很少時，說明原因（有寫就不要求 2 張作品圖） */
+  few_images?: string;
   family?: { parents?: FamilyLink[]; consorts?: FamilyLink[]; children?: FamilyLink[]; siblings?: FamilyLink[] };
   panels?: Panel[];
   images?: string[];

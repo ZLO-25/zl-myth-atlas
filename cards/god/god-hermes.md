@@ -17,6 +17,7 @@ domains:
   roles: [眾神的信使, 旅人與道路, 商業, 小偷與詭計, 引導亡魂]
   symbols: [雙蛇杖（雙蛇纏繞的手杖）, 有翅膀的涼鞋, 有翅膀的寬邊帽, 錢袋]
 how_to_recognize: 戴寬邊旅行帽（常有小翅膀）、腳穿有翅膀涼鞋的年輕男子，手拿纏著兩條蛇的手杖。早期陶瓶上他有尖鬍子，後來多半是沒鬍子的青年。
+how_to_recognize_src: [s6]
 family:
   parents:
     - {id: god-zeus, src: [s1]}

@@ -28,7 +28,7 @@ family:
     - {name: 獨眼巨人, src: [s1]}
     - {name: 百臂巨人, src: [s1]}
     - {name: 巨怪堤豐, src: [s4]}
-images: [img-gaia-pergamon, img-gaia-erichthonius]
+images: [img-gaia-pergamon, img-gaia-erichthonius, img-tellus-mosaic]
 sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》116–153（蓋亞與她的子女）, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
   - {id: s2, kind: ancient, cite: 赫西俄德《神譜》154–182（鐮刀與閹割烏拉諾斯）, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}

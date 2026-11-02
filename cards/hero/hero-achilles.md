@@ -20,7 +20,7 @@ family:
   parents:
     - {name: 珀琉斯（凡人國王）, src: [s1]}
     - {name: 忒提斯（海中女神）, src: [s1]}
-images: [img-achilles-exekias, img-achilles-sosias, img-achilles-hector]
+images: [img-achilles-exekias, img-achilles-sosias]
 sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》1006–1007, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
   - {id: s2, kind: ancient, cite: 荷馬《伊里亞德》1.1–7、1.148–171, url: 'https://www.theoi.com/Text/HomerIliad1.html'}

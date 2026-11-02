@@ -17,13 +17,14 @@ domains:
   roles: [狩獵, 野生動物與荒野, 少女, 分娩, 月亮（後期）]
   symbols: [弓與箭筒, 鹿, 獵犬, 新月]
 how_to_recognize: 穿著及膝短裙、方便奔跑的年輕女子，背著箭筒、拿著弓，身邊有一頭鹿或獵犬。文藝復興以後的畫常在她頭上畫一彎新月。
+how_to_recognize_src: [s6]
 family:
   parents:
     - {id: god-zeus, src: [s1]}
     - {name: 勒托, src: [s1]}
   siblings:
     - {id: god-apollo, src: [s1]}
-images: [img-artemis-versailles, img-artemis-krater, img-artemis-titian]
+images: [img-artemis-versailles, img-artemis-titian]
 sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》918–920, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
   - {id: s2, kind: ancient, cite: 《荷馬詩體頌歌》第 27 首〈致阿提米絲〉, url: 'https://www.theoi.com/Text/HomericHymns3.html'}

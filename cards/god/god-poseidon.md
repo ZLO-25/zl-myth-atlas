@@ -28,7 +28,7 @@ family:
     - {name: 特里同, src: [s2]}
     - {name: 獨眼巨人波呂斐摩斯, src: [s3]}
     - {id: hero-theseus, src: [s7], variant: 另一說父親是雅典國王埃勾斯}
-images: [img-poseidon-melos, img-poseidon-pinax, img-neptune-mosaic]
+images: [img-poseidon-melos, img-poseidon-pinax]
 sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》453–458, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
   - {id: s2, kind: ancient, cite: 赫西俄德《神譜》930–933, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}

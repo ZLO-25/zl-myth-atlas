@@ -59,8 +59,11 @@ export function CardPage({ id }: { id: string }) {
           )}
           {c.how_to_recognize && (
             <div>
-              <h3>名畫雕像裡怎麼認出{c.type === '地點' ? '這裡' : '他'}</h3>
-              <p>{c.how_to_recognize}</p>
+              <h3>名畫雕像裡怎麼認出{c.name_zh}</h3>
+              <p>
+                {c.how_to_recognize}{' '}
+                {c.how_to_recognize_src && <Cites ids={c.how_to_recognize_src} cardId={c.id} />}
+              </p>
             </div>
           )}
         </section>
@@ -74,6 +77,7 @@ export function CardPage({ id }: { id: string }) {
               <Figure key={im} id={im} />
             ))}
           </div>
+          {c.few_images && <p className="note">{c.few_images}</p>}
         </section>
       )}
 

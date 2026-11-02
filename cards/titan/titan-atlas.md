@@ -24,7 +24,7 @@ family:
     - {id: titan-prometheus, src: [s1]}
   children:
     - {name: 七姊妹星團（普勒阿得斯）、邁亞等, src: [s5]}
-images: [img-atlas-farnese]
+images: [img-atlas-farnese, img-prometheus-laconian]
 sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》507–520、746–750, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
   - {id: s2, kind: ancient, cite: 荷馬《奧德賽》1.52–54, url: 'https://www.theoi.com/Text/HomerOdyssey1.html'}

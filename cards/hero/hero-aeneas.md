@@ -17,6 +17,7 @@ domains:
   roles: [羅馬人的祖先, 虔誠（盡責）]
   symbols: [背上的老父親, 家神像]
 how_to_recognize: 一位男子背著年邁的父親、手牽一個小男孩，從燃燒的城市逃出來。貝尼尼的雕像把三代人疊在一起，最好認。
+how_to_recognize_src: [s7]
 family:
   parents:
     - {name: 安喀塞斯（特洛伊王族）, src: [s1]}
