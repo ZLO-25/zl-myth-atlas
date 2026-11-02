@@ -36,7 +36,7 @@ disputed:
     views:
       - {view: 阿波羅多洛斯：母親忒提斯夜裡把他放進火中，想燒掉他凡人的部分，被父親撞見大叫，她生氣離家，沒有完成。這個版本沒有提到腳跟。, src: [s6]}
       - {view: 抓著腳跟浸入冥河、全身刀槍不入只剩腳跟的說法，最早見於公元一世紀的羅馬詩人斯塔提烏斯，比荷馬晚了七、八百年。荷馬從來沒提過他刀槍不入。, src: [s7]}
-today: []
+today: [ajax-name, madeline-miller, achilles-tendon, achilles-heel]
 era: trojan-war
 topics: [戰爭, 宿命, 預言]
 ---

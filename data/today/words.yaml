@@ -1,0 +1,172 @@
+# 今日影子：英文單字與成語
+- id: chaos-word
+  category: 英文單字與成語
+  title: chaos（混亂）
+  cards: [primordial-chaos]
+  what: 英文 chaos 是「一團混亂」。它來自希臘文 khaos，也就是赫西俄德說「最先出現」的卡厄斯。
+  diff: 希臘原意是「張開的空隙、裂開的深淵」，重點是「空」，不是「亂」。「混亂」的意思是後來才加上去的。
+  status: 已查證
+  sources:
+    - {cite: Etymonline「chaos」, url: 'https://www.etymonline.com/word/chaos'}
+    - {cite: 赫西俄德《神譜》116, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
+- id: titanic-word
+  category: 英文單字與成語
+  title: titanic 與鐵達尼號
+  cards: [event-titanomachy]
+  what: 英文 titanic 是「巨大的」，1912 年沉沒的豪華郵輪就叫 Titanic（鐵達尼號）。字根就是泰坦神族。
+  diff: 在神話裡，泰坦是打輸的一方，被宙斯關進地底深淵。用失敗者的名字替「永不沉沒」的船命名，事後看來有點諷刺。
+  status: 已查證
+  sources:
+    - {cite: Etymonline「titanic」, url: 'https://www.etymonline.com/word/titanic'}
+    - {cite: 赫西俄德《神譜》617–735, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
+- id: atlas-book
+  category: 英文單字與成語
+  title: atlas（地圖集）
+  cards: [titan-atlas]
+  what: 地圖集叫 atlas，最常見的說法是：早期地圖集封面常畫著扛天的泰坦亞特拉斯。
+  diff: 第一個把地圖集取名 Atlas 的製圖家麥卡托（1595 年），在書中說他指的是傳說中熱愛天文的茅利塔尼亞國王亞特拉斯，不一定是神話裡扛天的泰坦。兩種說法都流傳，我們尚未找到可公開查閱的原書段落來確認。
+  status: 說法未證實
+  sources:
+    - {cite: Etymonline「atlas」, url: 'https://www.etymonline.com/word/atlas'}
+- id: panic-word
+  category: 英文單字與成語
+  title: panic（恐慌）
+  cards: [god-hermes]
+  what: panic 來自牧神潘（Pan）。古希臘人相信，荒野中莫名其妙讓人或牲畜驚慌奔逃的恐懼，是潘造成的。
+  diff: 潘是荷米斯的兒子，形象是半人半羊、愛吹笛子的山野之神；今天的「恐慌」只保留了他嚇人的那一面。
+  status: 已查證
+  sources:
+    - {cite: Etymonline「panic」, url: 'https://www.etymonline.com/word/panic'}
+    - {cite: 《荷馬詩體頌歌》第 19 首〈致潘〉, url: 'https://www.theoi.com/Text/HomericHymns3.html'}
+- id: echo-word
+  category: 英文單字與成語
+  title: echo（回聲）
+  cards: [story-narcissus]
+  what: 回聲的英文 echo 就是仙女厄科（Echo）的名字。
+  diff: 在奧維德的故事裡，厄科是被希拉詛咒，只能重複別人說的最後幾個字，後來憔悴到只剩聲音。今天的「回聲」是自然現象，故事裡卻是一個被懲罰、又被拒絕的女孩。
+  status: 已查證
+  sources:
+    - {cite: Etymonline「echo」, url: 'https://www.etymonline.com/word/echo'}
+    - {cite: 奧維德《變形記》3.356–401, url: 'https://www.theoi.com/Text/OvidMetamorphoses3.html'}
+- id: narcissism-word
+  category: 英文單字與成語
+  title: narcissism（自戀）
+  cards: [story-narcissus]
+  what: 十九世紀末，心理學家借用納西瑟斯的名字，把過度迷戀自己的心理狀態叫做 narcissism。
+  diff: 奧維德筆下的納西瑟斯一開始不知道倒影是自己，他是被復仇女神懲罰才愛上倒影；今天「自戀」的用法比原典寬得多，常指愛炫耀、需要被讚美的人。
+  status: 已查證
+  sources:
+    - {cite: Etymonline「narcissism」, url: 'https://www.etymonline.com/word/narcissism'}
+    - {cite: 奧維德《變形記》3.339–510, url: 'https://www.theoi.com/Text/OvidMetamorphoses3.html'}
+- id: nemesis-word
+  category: 英文單字與成語
+  title: nemesis（剋星、宿敵）
+  cards: [story-narcissus]
+  what: 今天英文 nemesis 常指「宿敵、剋星」，來自希臘女神涅墨西斯（Nemesis）。
+  diff: 原本的涅墨西斯是「應得的懲罰」女神，專門懲罰傲慢的人。奧維德說，就是她聽見了被拒絕者的祈禱，讓納西瑟斯愛上自己的倒影。她不是誰的宿敵，而是讓報應發生的力量。
+  status: 已查證
+  sources:
+    - {cite: Etymonline「nemesis」, url: 'https://www.etymonline.com/word/nemesis'}
+    - {cite: 奧維德《變形記》3.402–406, url: 'https://www.theoi.com/Text/OvidMetamorphoses3.html'}
+- id: tantalize-word
+  category: 英文單字與成語
+  title: tantalize（吊胃口）
+  cards: [place-underworld]
+  what: tantalize 是「看得到卻得不到、吊人胃口」，來自冥界裡受罰的國王坦塔洛斯。
+  diff: 《奧德賽》裡，坦塔洛斯站在水中，一彎腰水就退去；頭頂掛著果實，一伸手風就把樹枝吹走。他受罰的原因古人說法不一，荷馬沒有交代。
+  status: 已查證
+  sources:
+    - {cite: Etymonline「tantalize」, url: 'https://www.etymonline.com/word/tantalize'}
+    - {cite: 荷馬《奧德賽》11.582–592, url: 'https://www.theoi.com/Text/HomerOdyssey11.html'}
+- id: herculean-word
+  category: 英文單字與成語
+  title: herculean（艱鉅的）
+  cards: [hero-heracles]
+  what: herculean task 是「艱鉅得像海克力斯的任務」。
+  diff: 這個字用的是羅馬名 Hercules，不是希臘名 Herakles。海克力斯的十二項任務其實是為了替自己發瘋殺子贖罪，不只是展現力氣。
+  status: 已查證
+  sources:
+    - {cite: Etymonline「herculean」, url: 'https://www.etymonline.com/word/herculean'}
+    - {cite: 阿波羅多洛斯《書庫》2.4.12, url: 'https://www.theoi.com/Text/Apollodorus2.html'}
+- id: odyssey-word
+  category: 英文單字與成語
+  title: odyssey（漫長的旅程）
+  cards: [story-odyssey]
+  what: 小寫的 odyssey 指「漫長而曲折的冒險旅程」，來自荷馬史詩《奧德賽》。
+  diff: 原本只是書名，意思是「奧德修斯的故事」。史詩的重點其實是「回家」：主角一心想回到妻子身邊，不是為了冒險而冒險。
+  status: 已查證
+  sources:
+    - {cite: Etymonline「odyssey」, url: 'https://www.etymonline.com/word/odyssey'}
+    - {cite: 荷馬《奧德賽》1.1–21, url: 'https://www.theoi.com/Text/HomerOdyssey1.html'}
+- id: achilles-heel
+  category: 英文單字與成語
+  title: 阿基里斯之踵（Achilles' heel）
+  cards: [hero-achilles]
+  what: 「阿基里斯之踵」指強者唯一的致命弱點。
+  diff: 荷馬從沒說阿基里斯刀槍不入，也沒提到腳跟。「被母親抓著腳跟浸入冥河」的說法，最早見於公元一世紀的羅馬詩人斯塔提烏斯；更早的作者只說他被箭射中腳踝而死。
+  status: 已查證
+  sources:
+    - {cite: Merriam-Webster「Achilles' heel」, url: 'https://www.merriam-webster.com/dictionary/Achilles%27%20heel'}
+    - {cite: 阿波羅多洛斯《書庫》摘要 5.3, url: 'https://www.theoi.com/Text/ApollodorusE.html'}
+    - {cite: Theoi.com「Akhilleus」, url: 'https://www.theoi.com/Heros/Akhilleus.html'}
+- id: pandoras-box
+  category: 英文單字與成語
+  title: 潘朵拉的盒子
+  cards: [story-pandora]
+  what: 「打開潘朵拉的盒子」指引發一連串無法收拾的災難。
+  diff: 赫西俄德寫的是一只大陶罐（pithos），不是盒子；「盒子」是文藝復興時期伊拉斯謨翻譯成拉丁文時造成的。罐子裡最後留下的是「希望」。
+  status: 已查證
+  sources:
+    - {cite: 赫西俄德《工作與時日》42–105, url: 'https://www.theoi.com/Text/HesiodWorksDays.html'}
+    - {cite: 英文維基百科「Pandora's box」（輔助）, url: 'https://en.wikipedia.org/wiki/Pandora%27s_box'}
+- id: trojan-malware
+  category: 英文單字與成語
+  title: 木馬程式（Trojan horse）
+  cards: [story-trojan-horse]
+  what: 偽裝成正常軟體、讓人自己安裝，再偷偷開後門的惡意程式，叫「特洛伊木馬」或「木馬程式」。
+  diff: 比喻很貼切：特洛伊人是自己把木馬拖進城的。不同的是，神話中曾有祭司拉奧孔大聲警告，大家卻不聽。
+  status: 已查證
+  sources:
+    - {cite: 美國國家標準暨技術研究院（NIST）資安詞彙「Trojan horse」, url: 'https://csrc.nist.gov/glossary/term/trojan_horse'}
+    - {cite: 維吉爾《埃涅阿斯紀》卷 2, url: 'http://classics.mit.edu/Virgil/aeneid.2.ii.html'}
+- id: mentor-word
+  category: 英文單字與成語
+  title: mentor（導師）
+  cards: [story-odyssey, god-athena]
+  what: mentor 是「人生導師」，來自《奧德賽》裡奧德修斯的老朋友門托耳（Mentor）。
+  diff: 在史詩裡，真正指導奧德修斯兒子的，常是化身成門托耳的雅典娜。「導師」這個意思，是 1699 年法國作家費奈隆的小說《忒勒馬科斯歷險記》把門托耳寫成智慧長者之後才流行起來的。
+  status: 已查證
+  sources:
+    - {cite: Etymonline「mentor」, url: 'https://www.etymonline.com/word/mentor'}
+    - {cite: 荷馬《奧德賽》2.267–268, url: 'https://www.theoi.com/Text/HomerOdyssey2.html'}
+- id: muse-words
+  category: 英文單字與成語
+  title: museum 與 music
+  cards: [god-zeus]
+  what: 博物館（museum）原意是「繆斯的殿堂」，音樂（music）原意是「繆斯的技藝」。
+  diff: 繆斯是宙斯與記憶女神謨涅摩緒涅的九個女兒，掌管詩歌、歷史、天文等各種學問與藝術，不只是音樂。
+  status: 已查證
+  sources:
+    - {cite: Etymonline「museum」, url: 'https://www.etymonline.com/word/museum'}
+    - {cite: Etymonline「music」, url: 'https://www.etymonline.com/word/music'}
+    - {cite: 赫西俄德《神譜》53–79, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
+- id: cereal-word
+  category: 英文單字與成語
+  title: cereal（穀片、穀物）
+  cards: [god-demeter]
+  what: 早餐的 cereal 來自羅馬穀物女神克瑞斯（Ceres），也就是希臘的狄蜜特。
+  diff: 狄蜜特在神話裡最重要的故事，是女兒被冥王搶走後她讓大地停止生長；穀物是她的恩賜，也是她可以收回的東西。
+  status: 已查證
+  sources:
+    - {cite: Etymonline「cereal」, url: 'https://www.etymonline.com/word/cereal'}
+    - {cite: 《荷馬詩體頌歌》第 2 首〈致狄蜜特〉, url: 'https://www.theoi.com/Text/HomericHymns1.html'}
+- id: volcano-word
+  category: 英文單字與成語
+  title: volcano（火山）
+  cards: [god-hephaestus]
+  what: 火山 volcano 來自羅馬火神伍爾坎（Vulcanus），也就是希臘的赫菲斯托斯。義大利的火山島 Vulcano 也是同一個字。
+  diff: 希臘的赫菲斯托斯主要是工匠與鍛造之神；羅馬的伍爾坎更強調「會燒毀一切的火」，和火山的形象比較接近。
+  status: 已查證
+  sources:
+    - {cite: Etymonline「volcano」, url: 'https://www.etymonline.com/word/volcano'}
+    - {cite: World History Encyclopedia「Vulcan」, url: 'https://www.worldhistory.org/Vulcan/'}

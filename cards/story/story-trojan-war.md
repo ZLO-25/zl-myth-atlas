@@ -37,7 +37,7 @@ effects:
   - {id: story-trojan-horse, rel: 直接引發, why: 十年攻不下城，最後靠木馬計結束戰爭。, src: [s1]}
   - {id: story-odyssey, rel: 背景, why: 戰後希臘英雄各自返鄉，奧德修斯一走就是十年。, src: [s1]}
   - {id: hero-aeneas, rel: 直接引發, why: 特洛伊陷落，埃涅阿斯帶著倖存者出海，最後抵達義大利。, src: [s8]}
-today: []
+today: [ajax-name]
 era: trojan-war
 topics: [戰爭, 愛與慾望, 宿命, 神的嫉妒]
 ---

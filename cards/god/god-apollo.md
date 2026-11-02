@@ -39,7 +39,7 @@ sources:
 greek_vs_roman:
   text: 阿波羅是少數羅馬人「整個照搬」的希臘神，連名字都沒改，因為羅馬沒有本土的對應神。羅馬人最早是把他當作醫療之神引進：李維記載，前 433 年羅馬發生瘟疫，人們為「醫者阿波羅」許願建廟。後來奧古斯都把阿波羅當成自己的守護神，在帕拉丁丘上替他蓋了神廟。
   src: [s6]
-today: []
+today: [apollo-daphne-statue, caduceus-confusion, apollo-program]
 era: olympian
 topics: [預言, 變形, 愛與慾望]
 ---

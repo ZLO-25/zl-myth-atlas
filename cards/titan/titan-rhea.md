@@ -40,7 +40,7 @@ causes:
   - {id: titan-cronus, rel: 直接引發, why: 丈夫一再吞下她生的孩子，逼她想辦法救最後一個。, src: [s2]}
 effects:
   - {id: god-zeus, rel: 直接引發, why: 她把宙斯藏在克里特、用石頭調包，宙斯才能長大。, src: [s2]}
-today: []
+today: [saturn-moons]
 era: titans
 topics: [王權更替, 智慧與詭計]
 ---

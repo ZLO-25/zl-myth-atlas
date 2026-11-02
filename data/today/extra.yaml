@@ -1,0 +1,90 @@
+# 今日影子：第一輪 60 條以外，為了讓每張卡都有影子而補上的
+- id: bacchanal-word
+  category: 英文單字與成語
+  title: bacchanal（狂歡作樂）
+  cards: [god-dionysus]
+  what: 英文 bacchanal 指喧鬧的酒宴狂歡，來自酒神的羅馬名巴克斯（Bacchus）。
+  diff: 古代的巴克斯秘儀是宗教儀式，不只是喝酒玩樂；前 186 年羅馬元老院還因為擔心它危害秩序而嚴加取締。
+  status: 已查證
+  sources:
+    - {cite: Etymonline「bacchanal」, url: 'https://www.etymonline.com/word/bacchanal'}
+    - {cite: World History Encyclopedia「Bacchus」, url: 'https://www.worldhistory.org/Bacchus/'}
+- id: vesta-asteroid
+  category: 天文與太空
+  title: 灶神星（4 Vesta）
+  cards: [god-hestia]
+  what: 小行星帶中最亮的小行星叫灶神星（Vesta），NASA 的黎明號探測器曾在 2011–2012 年環繞它觀測。
+  diff: 名字取自羅馬灶神維斯塔，也就是希臘的赫斯提亞。她在神話裡幾乎沒有故事，卻在天上擁有一顆用肉眼有時就看得到的小行星。
+  status: 已查證
+  sources:
+    - {cite: NASA「4 Vesta」, url: 'https://science.nasa.gov/solar-system/asteroids/4-vesta/'}
+    - {cite: World History Encyclopedia「Vesta」, url: 'https://www.worldhistory.org/Vesta/'}
+- id: july
+  category: 時間
+  title: 七月 July
+  cards: [hero-aeneas]
+  what: 七月 July 是以凱撒（Julius Caesar）命名的。
+  diff: 凱撒的尤利烏斯家族自稱是埃涅阿斯之子尤魯斯（Iulus）的後代，也就是愛神的後代。維吉爾的《埃涅阿斯紀》就替這個說法寫了一個神話起源。
+  status: 已查證
+  sources:
+    - {cite: Etymonline「July」, url: 'https://www.etymonline.com/word/July'}
+    - {cite: 維吉爾《埃涅阿斯紀》卷 1, url: 'http://classics.mit.edu/Virgil/aeneid.1.i.html'}
+- id: argonaut-astronaut
+  category: 英文單字與成語
+  title: argonaut 與 astronaut（太空人）
+  cards: [hero-jason]
+  what: 英文的太空人 astronaut，是仿照「阿爾戈英雄」（Argonaut，阿爾戈號的水手）造出來的字：「星星的水手」。
+  diff: 伊阿宋的阿爾戈號英雄是去世界盡頭取金羊毛；太空人則是航向星星。兩者共用的是「-naut（水手）」這個字尾。
+  status: 已查證
+  sources:
+    - {cite: Etymonline「astronaut」, url: 'https://www.etymonline.com/word/astronaut'}
+    - {cite: 阿波羅多洛斯《書庫》1.9.16, url: 'https://www.theoi.com/Text/Apollodorus1.html'}
+- id: hadestown
+  category: 電影、影集、遊戲
+  title: 音樂劇《冥王星城》（Hadestown）
+  cards: [hero-orpheus, story-persephone, god-hades]
+  what: 獲得東尼獎最佳音樂劇的百老匯作品，把奧菲斯與尤麗狄絲、黑帝斯與波瑟芬妮兩對夫妻的故事，搬到一個像經濟大蕭條時代的世界。
+  diff: 劇中黑帝斯是經營地底工廠的老闆，冥界像是礦坑；原典的冥界是亡者的國度。但「最後一步回頭」的結局，和奧維德的版本一樣。
+  status: 已查證
+  sources:
+    - {cite: Hadestown 官方網站, url: 'https://www.hadestown.com/'}
+    - {cite: 奧維德《變形記》10.1–85, url: 'https://www.theoi.com/Text/OvidMetamorphoses10.html'}
+- id: perseids
+  category: 天文與太空
+  title: 英仙座流星雨
+  cards: [hero-perseus]
+  what: 每年八月中最熱鬧的英仙座流星雨，流星看起來從英仙座（柏修斯）的方向射出來。
+  diff: 英仙座旁邊就是仙女座（安朵美達）和仙后座（她愛炫耀的母親），整個故事都被搬上了夜空。流星雨本身其實來自一顆彗星留下的碎屑，和神話無關。
+  status: 已查證
+  sources:
+    - {cite: NASA「Perseids」, url: 'https://science.nasa.gov/solar-system/meteors-meteorites/perseids/'}
+    - {cite: 阿波羅多洛斯《書庫》2.4.3, url: 'https://www.theoi.com/Text/Apollodorus2.html'}
+- id: ship-of-theseus
+  category: 文學
+  title: 忒修斯之船
+  cards: [hero-theseus]
+  what: 哲學裡著名的「同一性」問題：一艘船的木板全部換過之後，它還是原來那艘船嗎？
+  diff: 這個問題最早的紀錄來自普魯塔克：雅典人一直保存並修補忒修斯的船，哲學家就拿它來爭論。神話英雄留下的，竟然是一道哲學考題。
+  status: 已查證
+  sources:
+    - {cite: 普魯塔克《希臘羅馬名人傳．忒修斯傳》23.1, url: 'https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Theseus*.html'}
+- id: labyrinth-word
+  category: 英文單字與成語
+  title: labyrinth（迷宮）
+  cards: [monster-minotaur, story-icarus]
+  what: 迷宮的英文 labyrinth，來自代達洛斯為了關住米諾陶洛斯而建的迷宮。
+  diff: 有一個流行的說法是：labyrinth 和克里特文化的雙刃斧 labrys 有關，指「雙刃斧之宮」，也就是克諾索斯宮殿。這個字源推測在學界並沒有共識。
+  status: 說法未證實
+  sources:
+    - {cite: Etymonline「labyrinth」, url: 'https://www.etymonline.com/word/labyrinth'}
+    - {cite: 奧維德《變形記》8.152–182, url: 'https://www.theoi.com/Text/OvidMetamorphoses8.html'}
+- id: gaia-mission
+  category: 天文與太空
+  title: 歐洲太空總署的「蓋亞」任務
+  cards: [primordial-gaia]
+  what: 歐洲太空總署（ESA）的蓋亞（Gaia）太空望遠鏡，替銀河系超過十億顆恆星繪製了立體地圖。
+  diff: 名字原本是一串英文縮寫，剛好拼成大地之母蓋亞。後來設計改了、縮寫不再準確，名字卻保留了下來。神話裡的蓋亞是大地，這架望遠鏡看的卻是天上的星星。
+  status: 已查證
+  sources:
+    - {cite: 歐洲太空總署「Gaia」, url: 'https://www.esa.int/Science_Exploration/Space_Science/Gaia'}
+    - {cite: 赫西俄德《神譜》116–133, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}

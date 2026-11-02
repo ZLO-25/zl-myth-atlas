@@ -1,0 +1,81 @@
+# 今日影子：天文與太空
+- id: planet-names
+  category: 天文與太空
+  title: 八大行星的名字
+  cards: [god-zeus, god-ares, god-aphrodite, god-hermes, god-poseidon, titan-cronus, primordial-uranus]
+  what: 水星（Mercury）、金星（Venus）、火星（Mars）、木星（Jupiter）、土星（Saturn）、海王星（Neptune）的英文名都是羅馬神的名字。
+  diff: 唯一的例外是天王星（Uranus）：它用的是希臘天空之神烏拉諾斯的名字，而不是羅馬名。木星是宙斯、土星是宙斯的父親克羅諾斯、天王星是克羅諾斯的父親，三代剛好依序排在太陽系裡。
+  status: 已查證
+  sources:
+    - {cite: NASA「Uranus」, url: 'https://science.nasa.gov/uranus/'}
+    - {cite: 赫西俄德《神譜》133–210, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
+- id: pluto-name
+  category: 天文與太空
+  title: 冥王星（Pluto）
+  cards: [god-hades]
+  what: 1930 年發現的冥王星，名字是英國牛津一位 11 歲女孩維妮夏．伯尼提議的，取自羅馬冥王普魯托。
+  diff: 普魯托是希臘冥王黑帝斯的別名「普魯同」（富有者）的羅馬寫法。一顆離太陽很遠、又暗又冷的星球，取名冥界之王剛好合適。2006 年它被重新分類為矮行星。
+  status: 已查證
+  sources:
+    - {cite: Smithsonian Magazine「How Pluto Got Its Name」, url: 'https://www.smithsonianmag.com/smart-news/how-pluto-got-its-name-180955912/'}
+    - {cite: World History Encyclopedia「Pluto」, url: 'https://www.worldhistory.org/Pluto/'}
+- id: jupiter-moons
+  category: 天文與太空
+  title: 木星的四大衛星
+  cards: [god-zeus]
+  what: 伽利略在 1610 年發現的木星四大衛星：埃歐（Io）、歐羅巴（Europa）、甘尼米德（Ganymede）、卡利斯多（Callisto）。
+  diff: 這四個名字都是被宙斯（朱比特）看上、追求過的人，其中甘尼米德是一位被宙斯擄上天的少年。神話中這些故事多半不是浪漫愛情，而是神對凡人的強迫。
+  status: 已查證
+  sources:
+    - {cite: NASA「Jupiter Moons」, url: 'https://science.nasa.gov/jupiter/jupiter-moons/'}
+    - {cite: 奧維德《變形記》1.583–746（伊俄）, url: 'https://www.theoi.com/Text/OvidMetamorphoses1.html'}
+- id: mars-moons
+  category: 天文與太空
+  title: 火衛一、火衛二
+  cards: [god-ares]
+  what: 火星的兩顆小衛星叫福波斯（Phobos，恐懼）和得摩斯（Deimos，驚駭），1877 年由美國天文學家霍爾發現並命名。
+  diff: 在神話中，他們是戰神阿瑞斯的兩個兒子，常陪父親上戰場。《伊里亞德》裡，阿瑞斯就命令他們替自己套好戰馬。
+  status: 已查證
+  sources:
+    - {cite: NASA「Mars Moons」, url: 'https://science.nasa.gov/mars/moons/'}
+    - {cite: 荷馬《伊里亞德》15.119–120, url: 'https://www.theoi.com/Text/HomerIliad15.html'}
+    - {cite: 赫西俄德《神譜》933–937, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
+- id: apollo-program
+  category: 天文與太空
+  title: 阿波羅登月計畫
+  cards: [god-apollo]
+  what: 1960 年代美國的載人登月計畫叫「阿波羅計畫」。據說命名者、NASA 主管西爾弗斯坦覺得「駕著太陽馬車的阿波羅」很適合一個偉大的太空計畫。
+  diff: 在早期希臘神話中，駕太陽馬車的是太陽神赫利俄斯，阿波羅和太陽劃上等號是後來的事。而且阿波羅和月亮沒什麼關係，月亮女神是他的雙胞胎姊姊。
+  status: 已查證
+  sources:
+    - {cite: 'Astronomy.com「Naming Apollo: Why NASA chooses Greek gods as names」', url: 'https://www.astronomy.com/space-exploration/naming-apollo-why-nasa-chooses-greek-gods-as-names/'}
+    - {cite: Theoi.com「Apollon」, url: 'https://www.theoi.com/Olympios/Apollon.html'}
+- id: artemis-program
+  category: 天文與太空
+  title: 阿提米絲重返月球計畫
+  cards: [god-artemis]
+  what: 2019 年 NASA 把重返月球的新計畫命名為「阿提米絲」，因為她是阿波羅的雙胞胎姊姊。
+  diff: 這次命名比阿波羅更貼切：阿提米絲在後期神話中確實和月亮連在一起。不過她最早主要是狩獵與荒野女神。
+  status: 已查證
+  sources:
+    - {cite: Space.com「NASA Names New Moon Landing Program Artemis After Apollo's Sister」, url: 'https://www.space.com/nasa-names-moon-landing-program-artemis.html'}
+    - {cite: 赫西俄德《神譜》918–920, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
+- id: saturn-moons
+  category: 天文與太空
+  title: 土衛六泰坦、土衛五瑞亞
+  cards: [event-titanomachy, titan-rhea, titan-cronus]
+  what: 土星（Saturn，也就是克羅諾斯）的衛星，很多用泰坦神族的名字：最大的土衛六叫泰坦（Titan），土衛五叫瑞亞（Rhea），還有土衛八伊阿珀托斯等。
+  diff: 天文學家讓克羅諾斯被他的兄弟姊妹環繞，像是把神話中的家族搬到了天上。只是神話裡，這個家族最後是被克羅諾斯自己的兒子推翻的。
+  status: 已查證
+  sources:
+    - {cite: NASA「Titan」, url: 'https://science.nasa.gov/saturn/moons/titan/'}
+    - {cite: 赫西俄德《神譜》133–138, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
+- id: orion-constellation
+  category: 天文與太空
+  title: 獵戶座
+  cards: [god-artemis]
+  what: 冬天夜空最好認的獵戶座（Orion），是希臘神話中的巨人獵人俄里翁。
+  diff: 他怎麼死的，古人至少有好幾種說法：有人說他想侵犯阿提米絲或她的同伴，被她射死；也有人說是阿提米絲派蠍子殺了他。天蠍座和獵戶座在天上一升一落、永不相見，也被拿來和這個故事連在一起。
+  status: 已查證
+  sources:
+    - {cite: 阿波羅多洛斯《書庫》1.4.3–1.4.5, url: 'https://www.theoi.com/Text/Apollodorus1.html'}

@@ -21,7 +21,7 @@ sources:
   - {id: s5, kind: modern, cite: World History Encyclopedia「Hades」, url: 'https://www.worldhistory.org/hades/', accessed: '2026-11-02'}
 causes:
   - {id: god-hades, rel: 背景, why: 三兄弟抽籤，黑帝斯分到冥界成為冥王。, src: [s5]}
-today: []
+today: [harry-potter-names, hades-game, tantalize-word]
 era: olympian
 topics: [冥界之旅]
 ---

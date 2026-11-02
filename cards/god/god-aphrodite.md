@@ -48,7 +48,7 @@ disputed:
     views:
       - {view: 赫西俄德：烏拉諾斯被割下的生殖器落入海中，周圍湧起泡沫，女神從泡沫中誕生，先漂到基西拉島，再到塞浦路斯。, src: [s1]}
       - {view: 荷馬：她是宙斯與女神狄奧涅的女兒，受傷時還跑去找母親狄奧涅哭訴。, src: [s2]}
-today: []
+today: [birth-of-venus, planet-names, april-may]
 era: olympian
 topics: [愛與慾望, 神的嫉妒]
 ---

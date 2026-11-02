@@ -42,7 +42,7 @@ disputed:
   - claim: 他後來怎麼了？
     views:
       - {view: 奧維德：他拒絕招待柏修斯，被梅杜莎的頭變成一座大山，也就是北非的阿特拉斯山。, src: [s4]}
-today: []
+today: [atlas-vertebra, atlas-book]
 era: titans
 topics: [傲慢與懲罰, 智慧與詭計]
 ---

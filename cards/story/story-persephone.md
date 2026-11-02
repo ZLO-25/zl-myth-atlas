@@ -35,7 +35,7 @@ disputed:
     views:
       - {view: 荷馬詩體頌歌：她吃了一顆石榴籽，每年三分之一的時間待在冥界。, src: [s1]}
       - {view: 奧維德：她吃了七顆石榴籽，每年一半時間在冥界、一半在人間。, src: [s2]}
-today: []
+today: [hadestown]
 era: olympian
 topics: [季節與農業, 冥界之旅, 愛與慾望]
 ---

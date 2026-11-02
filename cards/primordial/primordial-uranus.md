@@ -41,7 +41,7 @@ causes:
 effects:
   - {id: titan-cronus, rel: 直接引發, why: 他把孩子關在大地體內，引來克羅諾斯持鐮刀政變。, src: [s2]}
   - {id: god-aphrodite, rel: 直接引發, why: 依赫西俄德，他落海的生殖器在泡沫中生出阿芙蘿黛蒂。, src: [s2]}
-today: []
+today: [titanium-uranium, planet-names]
 era: chaos
 topics: [創世, 王權更替]
 ---

@@ -29,7 +29,7 @@ images: [img-trojan-mykonos, img-laocoon, img-trojan-tiepolo]
 causes:
   - {id: hero-odysseus, rel: 直接引發, why: 奧德修斯把藏著戰士的木馬帶進特洛伊城。, src: [s1]}
   - {id: story-trojan-war, rel: 背景, why: 圍城十年久攻不下，希臘人才改用計謀。, src: [s3]}
-today: []
+today: [laocoon-statue, trojan-malware]
 era: trojan-war
 topics: [戰爭, 智慧與詭計]
 ---

@@ -32,7 +32,7 @@ disputed:
     views:
       - {view: 荷馬：他的母親（荷馬叫她厄庇卡斯忒）上吊自盡，伊底帕斯在痛苦中繼續統治底比斯，沒有提到刺瞎雙眼。, src: [s3]}
       - {view: 索福克勒斯：母親約卡斯塔自盡後，他用她衣服上的金別針刺瞎自己，離開底比斯流亡。, src: [s2]}
-today: []
+today: [oedipus-complex]
 era: heroes
 topics: [預言, 宿命, 家族詛咒]
 ---

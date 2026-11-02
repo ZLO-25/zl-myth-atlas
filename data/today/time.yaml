@@ -1,0 +1,52 @@
+# 今日影子：時間
+- id: january
+  category: 時間
+  title: 一月 January
+  cards: [god-janus]
+  what: 一月 January 來自羅馬的門神雅努斯（Ianus）。
+  diff: 雅努斯是純羅馬的神，希臘沒有對應。他掌管門與一切的開始，所以一年的開始歸他管。
+  status: 已查證
+  sources:
+    - {cite: Etymonline「January」, url: 'https://www.etymonline.com/word/January'}
+    - {cite: 奧維德《歲時記》1.63–288, url: 'https://www.theoi.com/Text/OvidFasti1.html'}
+- id: march
+  category: 時間
+  title: 三月 March
+  cards: [god-ares]
+  what: 三月 March 來自羅馬戰神馬爾斯（Mars）。
+  diff: 羅馬古曆一年從三月開始，正是春天可以出兵打仗的季節。羅馬的馬爾斯比希臘的阿瑞斯受尊敬得多，是羅馬人的祖先。
+  status: 已查證
+  sources:
+    - {cite: Etymonline「March」, url: 'https://www.etymonline.com/word/March'}
+    - {cite: 奧維德《歲時記》3.75–98, url: 'https://www.theoi.com/Text/OvidFasti3.html'}
+- id: june
+  category: 時間
+  title: 六月 June
+  cards: [god-hera]
+  what: 一般認為六月 June 來自天后朱諾（Juno），也就是希臘的希拉。
+  diff: 連羅馬人自己都不確定。奧維德在《歲時記》第六卷開頭，就讓三位女神出來爭論六月名稱的由來：朱諾說來自她，青春女神說來自「年輕人」（iuniores），和諧女神也提出自己的說法。詩人最後沒有下結論。
+  status: 說法未證實
+  sources:
+    - {cite: Etymonline「June」, url: 'https://www.etymonline.com/word/June'}
+    - {cite: 奧維德《歲時記》6.1–100, url: 'https://www.theoi.com/Text/OvidFasti6.html'}
+- id: april-may
+  category: 時間
+  title: 四月 April、五月 May
+  cards: [god-aphrodite, god-hermes]
+  what: 常見說法是：四月和愛神阿芙蘿黛蒂（Aphrodite）有關，五月來自荷米斯的母親邁亞（Maia）。
+  diff: 這兩個月份的字源至今沒有定論。四月也可能來自拉丁文 aperire（打開，萬物開花）；五月也可能來自 maiores（長輩）。奧維德自己就列了不同的說法。
+  status: 說法未證實
+  sources:
+    - {cite: Etymonline「April」, url: 'https://www.etymonline.com/word/April'}
+    - {cite: Etymonline「May」, url: 'https://www.etymonline.com/word/May'}
+    - {cite: 奧維德《歲時記》4.61–132, url: 'https://www.theoi.com/Text/OvidFasti4.html'}
+- id: saturday
+  category: 時間
+  title: 星期六 Saturday
+  cards: [titan-cronus]
+  what: Saturday 是「薩圖恩之日」，來自羅馬的農神薩圖恩（Saturn），他被視為希臘的克羅諾斯。英文的一週裡，只有星期六保留了羅馬神的名字。
+  diff: 希臘的克羅諾斯是吞掉孩子的暴君；羅馬的薩圖恩卻是帶來「黃金時代」的農業之神，他的節日農神節（Saturnalia）是全民狂歡、主僕顛倒的假期。
+  status: 已查證
+  sources:
+    - {cite: Etymonline「Saturday」, url: 'https://www.etymonline.com/word/Saturday'}
+    - {cite: World History Encyclopedia「Saturn」, url: 'https://www.worldhistory.org/Saturn/'}

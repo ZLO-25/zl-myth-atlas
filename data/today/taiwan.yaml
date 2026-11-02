@@ -1,0 +1,31 @@
+# 今日影子：台灣生活
+- id: olympics-not-olympus
+  category: 台灣生活
+  title: 「奧運」不是奧林帕斯山
+  cards: [place-olympus, god-zeus]
+  what: 奧運（Olympic Games）的名字來自希臘南部的聖地奧林匹亞，古代奧運是在那裡舉辦、祭祀宙斯的運動會。
+  diff: 奧林匹亞（Olympia）和眾神居住的奧林帕斯山（Olympus）是兩個不同的地方，相隔好幾百公里，名字相近常被搞混。
+  status: 已查證
+  sources:
+    - {cite: 國際奧委會「Ancient Olympic Games」, url: 'https://www.olympics.com/ioc/ancient-olympic-games'}
+    - {cite: World History Encyclopedia「Mount Olympus」, url: 'https://www.worldhistory.org/Mount_Olympus/'}
+- id: aegis-ships
+  category: 台灣生活
+  title: 神盾艦（宙斯盾）
+  cards: [god-athena, god-zeus]
+  what: 新聞常說的「神盾艦」，是搭載美國 Aegis 作戰系統的軍艦。台灣譯作「神盾」，中國大陸多譯作「宙斯盾」。
+  diff: Aegis 是神話中的神盾，《伊里亞德》說它屬於宙斯，雅典娜也會披上它；後來梅杜莎的頭被裝在上面。兩種譯名各抓住了一半的神話。
+  status: 已查證
+  sources:
+    - {cite: Lockheed Martin「Aegis Combat System」, url: 'https://www.lockheedmartin.com/en-us/products/aegis-combat-system.html'}
+    - {cite: 荷馬《伊里亞德》5.738–742, url: 'https://www.theoi.com/Text/HomerIliad5.html'}
+- id: typhoon-typhon
+  category: 台灣生活
+  title: 颱風 typhoon 與巨怪堤豐
+  cards: [god-zeus]
+  what: 英文 typhoon（颱風）常被說成來自希臘神話中被宙斯打敗的百頭巨怪堤豐（Typhon）。
+  diff: 字源其實混雜了好幾條線：希臘文的 typhon（旋風）、阿拉伯文的 tufan，以及中文「大風」「颱風」的讀音，學者看法不一。堤豐的神話確實是希臘人用來解釋狂風的方式之一。
+  status: 說法未證實
+  sources:
+    - {cite: Etymonline「typhoon」, url: 'https://www.etymonline.com/word/typhoon'}
+    - {cite: 赫西俄德《神譜》820–880, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}

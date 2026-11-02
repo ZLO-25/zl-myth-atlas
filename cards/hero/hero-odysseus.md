@@ -38,7 +38,7 @@ sources:
 effects:
   - {id: story-trojan-horse, rel: 直接引發, why: 《奧德賽》說是他把裝滿士兵的木馬帶進特洛伊城。, src: [s2]}
   - {id: story-odyssey, rel: 直接引發, why: 他刺瞎海神之子，被波賽頓追殺，返鄉之路拖了十年。, src: [s3]}
-today: []
+today: [starbucks-siren, joyce-ulysses, nolan-odyssey]
 era: returns
 topics: [返鄉, 智慧與詭計, 冒險與試煉, 冥界之旅]
 ---

@@ -1,0 +1,41 @@
+# 今日影子：名畫與雕塑
+- id: birth-of-venus
+  category: 名畫與雕塑
+  title: 波提且利〈維納斯的誕生〉
+  cards: [god-aphrodite]
+  what: 佛羅倫斯烏菲茲美術館的鎮館名畫：愛神站在貝殼上，被風神吹到岸邊。
+  diff: 畫的是赫西俄德的版本：愛神從烏拉諾斯落海後激起的海沫中誕生、漂上岸。荷馬則說她是宙斯的女兒，那個版本就沒有貝殼可畫了。
+  status: 已查證
+  sources:
+    - {cite: 維基共享資源作品頁（Botticelli, La nascita di Venere）, url: 'https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg'}
+    - {cite: 赫西俄德《神譜》188–206, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
+- id: apollo-daphne-statue
+  category: 名畫與雕塑
+  title: 貝尼尼〈阿波羅與達芙妮〉
+  cards: [god-apollo]
+  what: 羅馬博爾蓋塞美術館的大理石雕像，凍結了達芙妮正在變成月桂樹的瞬間。
+  diff: 雕像幾乎逐句照著奧維德的描寫：手指長出樹葉、腳變成樹根、樹皮包住胸口。奧維德寫的是少女寧可失去人形也要拒絕追求者，雕像卻讓許多觀眾只看到美。
+  status: 已查證
+  sources:
+    - {cite: 維基共享資源作品頁（Apollo and Daphne, Bernini）, url: 'https://commons.wikimedia.org/wiki/File:Apollo_and_Daphne_(Bernini).jpg'}
+    - {cite: 奧維德《變形記》1.452–567, url: 'https://www.theoi.com/Text/OvidMetamorphoses1.html'}
+- id: laocoon-statue
+  category: 名畫與雕塑
+  title: 〈拉奧孔群像〉
+  cards: [story-trojan-horse]
+  what: 梵蒂岡博物館的大理石群像，祭司拉奧孔和兩個兒子被海蛇纏住。1506 年在羅馬出土，影響了米開朗基羅等文藝復興藝術家。
+  diff: 它究竟是希臘化時期的原作還是羅馬時期的複製品、確切年代是什麼，學界至今有爭議。故事情節則來自維吉爾的《埃涅阿斯紀》。
+  status: 已查證
+  sources:
+    - {cite: 維基共享資源作品頁（Laocoön and his sons）, url: 'https://commons.wikimedia.org/wiki/File:Laoco%C3%B6n_and_his_sons_group.jpg'}
+    - {cite: 維吉爾《埃涅阿斯紀》卷 2, url: 'http://classics.mit.edu/Virgil/aeneid.2.ii.html'}
+- id: icarus-landscape
+  category: 名畫與雕塑
+  title: 〈有伊卡洛斯墜落的風景〉
+  cards: [story-icarus]
+  what: 布魯塞爾比利時皇家美術館的名畫，伊卡洛斯只剩畫面角落水面上的一雙腿。詩人奧登的名詩〈美術館〉就是寫這幅畫。
+  diff: 傳統上認為是老布勒哲爾的作品，但技術檢驗後，學者多認為現存這幅可能是後人的摹本，是否親筆仍有爭議。
+  status: 說法未證實
+  sources:
+    - {cite: 維基共享資源作品頁（Landscape with the Fall of Icarus）, url: 'https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_Landscape_with_the_Fall_of_Icarus_-_Brussels,_Royal_Museums_of_Fine_Arts_of_Belgium_-_Google_Arts_%26_Culture.jpg'}
+    - {cite: 奧維德《變形記》8.183–235, url: 'https://www.theoi.com/Text/OvidMetamorphoses8.html'}

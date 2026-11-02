@@ -40,7 +40,7 @@ causes:
   - {id: story-trojan-war, rel: 直接引發, why: 特洛伊陷落，他才帶著倖存者出海尋找新家園。, src: [s3]}
 effects:
   - {id: story-romulus-remus, rel: 背景, why: 羅馬傳說中，建城的羅慕路斯兄弟是他的後代。, src: [s6]}
-today: []
+today: [july]
 era: rome
 topics: [羅馬借用希臘, 宿命, 冥界之旅, 返鄉]
 ---

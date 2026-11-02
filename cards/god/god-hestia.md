@@ -39,7 +39,7 @@ sources:
 greek_vs_roman:
   text: 赫斯提亞在希臘幾乎沒有神話，到了羅馬，維斯塔卻成了國家級的女神。羅馬廣場上的圓形維斯塔神廟裡燒著象徵國家命脈的聖火，由維斯塔貞女看守：她們從小入選，服務三十年，期間必須守貞。聖火熄滅被視為大凶之兆；貞女若破戒，會被活埋。
   src: [s4, s6]
-today: []
+today: [vesta-asteroid]
 era: olympian
 topics: [家族詛咒]
 ---

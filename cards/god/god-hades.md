@@ -43,7 +43,7 @@ greek_vs_roman:
   src: [s6, s7]
 effects:
   - {id: story-persephone, rel: 直接引發, why: 他搶走波瑟芬妮，狄蜜特悲痛停工，大地荒蕪。, src: [s3]}
-today: []
+today: [hadestown, hades-game, pluto-name]
 era: olympian
 topics: [冥界之旅, 季節與農業, 王權更替]
 ---

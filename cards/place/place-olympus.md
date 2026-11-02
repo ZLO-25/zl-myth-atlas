@@ -20,7 +20,7 @@ sources:
   - {id: s1, kind: ancient, cite: 荷馬《奧德賽》6.41–47, url: 'https://www.theoi.com/Text/HomerOdyssey6.html'}
   - {id: s2, kind: ancient, cite: 荷馬《伊里亞德》1.493–499、1.590–611, url: 'https://www.theoi.com/Text/HomerIliad1.html'}
   - {id: s3, kind: modern, cite: World History Encyclopedia「Mount Olympus」, url: 'https://www.worldhistory.org/Mount_Olympus/', accessed: '2026-11-02'}
-today: []
+today: [olympics-not-olympus]
 era: olympian
 topics: [創世]
 ---

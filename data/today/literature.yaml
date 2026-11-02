@@ -1,0 +1,31 @@
+# 今日影子：文學
+- id: joyce-ulysses
+  category: 文學
+  title: 喬伊斯《尤利西斯》
+  cards: [hero-odysseus, story-odyssey]
+  what: 愛爾蘭作家喬伊斯 1922 年出版的小說，書名就是奧德修斯的拉丁名。
+  diff: 喬伊斯把十年的漂流，濃縮成都柏林一個普通人 1904 年 6 月 16 日的一天；章節和《奧德賽》的段落一一對應，但書中沒有神也沒有怪物。
+  status: 已查證
+  sources:
+    - {cite: 古騰堡計畫電子書《Ulysses》, url: 'https://www.gutenberg.org/ebooks/4300'}
+    - {cite: 英文維基百科「Ulysses (novel)」（輔助）, url: 'https://en.wikipedia.org/wiki/Ulysses_(novel)'}
+- id: harry-potter-names
+  category: 文學
+  title: 《哈利波特》裡的神話名字
+  cards: [story-romulus-remus, god-athena, place-underworld]
+  what: 狼人教授雷木思．路平（Remus Lupin）的名字結合了被母狼養大的雷穆斯與拉丁文的「狼」；麥教授的名字米奈娃（Minerva）是羅馬的智慧女神；看守魔法石的三頭犬毛毛，則讓人想到冥界的三頭犬。
+  diff: 作者是借用名字與形象來暗示角色個性，並不是改寫神話；神話裡的三頭犬克爾柏洛斯看守的是冥界大門。
+  status: 已查證
+  sources:
+    - {cite: 英文維基百科「Remus Lupin」（輔助）, url: 'https://en.wikipedia.org/wiki/Remus_Lupin'}
+    - {cite: 赫西俄德《神譜》767–774, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
+- id: madeline-miller
+  category: 文學
+  title: 米勒《阿基里斯之歌》《女巫瑟西》
+  cards: [hero-achilles, story-odyssey]
+  what: 美國作家瑪德琳．米勒的兩部暢銷小說，前者從帕特羅克洛斯的角度重寫阿基里斯，後者讓《奧德賽》裡的女巫喀耳刻成為主角。
+  diff: 這類「重寫神話」把原本的配角變成主角，讓沒有聲音的人說話。荷馬筆下的帕特羅克洛斯和喀耳刻，戲份都不多。
+  status: 已查證
+  sources:
+    - {cite: 瑪德琳．米勒官方網站, url: 'https://madelinemiller.com/'}
+    - {cite: 荷馬《奧德賽》卷 10, url: 'https://www.theoi.com/Text/HomerOdyssey10.html'}

@@ -37,7 +37,7 @@ greek_vs_roman:
   src: [s5]
 effects:
   - {id: story-persephone, rel: 直接引發, why: 她為失去女兒絕食罷工，大地荒蕪，逼得宙斯出面談判。, src: [s3]}
-today: []
+today: [cereal-word]
 era: olympian
 topics: [季節與農業]
 ---

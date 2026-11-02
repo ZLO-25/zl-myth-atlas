@@ -43,7 +43,7 @@ greek_vs_roman:
 effects:
   - {id: hero-heracles, rel: 直接引發, why: 她嫉恨這個私生子，從嬰兒期放蛇到讓他發瘋殺子，一路迫害。, src: [s5]}
   - {id: story-trojan-war, rel: 促成, why: 帕里斯沒選她當最美女神，她在特洛伊戰爭中全力支持希臘。, src: [s6]}
-today: []
+today: [june]
 era: olympian
 topics: [愛與慾望, 神的嫉妒]
 ---

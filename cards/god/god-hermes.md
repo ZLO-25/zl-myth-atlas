@@ -36,7 +36,7 @@ sources:
 greek_vs_roman:
   text: 羅馬的墨丘利幾乎只管一件事：做生意。他的名字可能和拉丁文 merx（貨物）有關，前 495 年左右，羅馬人在大競技場附近替他蓋了神廟，5 月 15 日是商人向他祈求生意興隆的節日。希臘荷米斯身上「小偷」「亡魂引路人」的那些面向，在羅馬就淡得多。
   src: [s7]
-today: []
+today: [hermes-brand, caduceus-confusion, planet-names, april-may, panic-word]
 era: olympian
 topics: [智慧與詭計, 冥界之旅]
 ---

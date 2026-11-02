@@ -44,7 +44,7 @@ greek_vs_roman:
   src: [s9]
 effects:
   - {id: story-odyssey, rel: 直接引發, why: 奧德修斯弄瞎他的兒子獨眼巨人，他便讓奧德修斯有家歸不得。, src: [s3]}
-today: []
+today: [percy-jackson, planet-names]
 era: olympian
 topics: [戰爭, 神的嫉妒]
 ---

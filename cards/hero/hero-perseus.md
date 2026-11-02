@@ -30,7 +30,7 @@ sources:
   - {id: s3, kind: modern, cite: Theoi.com「Perseus」, url: 'https://www.theoi.com/Heros/Perseus.html', accessed: '2026-11-02'}
 effects:
   - {id: monster-medusa, rel: 直接引發, why: 國王要他取來梅杜莎的頭，他就砍下了她的頭。, src: [s1]}
-today: []
+today: [perseids]
 era: heroes
 topics: [冒險與試煉, 怪物, 預言, 宿命]
 ---

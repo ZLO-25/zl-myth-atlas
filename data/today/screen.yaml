@@ -1,0 +1,70 @@
+# 今日影子：電影、影集、遊戲
+- id: disney-hercules
+  category: 電影、影集、遊戲
+  title: 迪士尼動畫《大力士》（1997）
+  cards: [hero-heracles]
+  what: 迪士尼把海克力斯拍成一部歌舞動畫，主角是宙斯與希拉的兒子，被冥王黑帝斯陷害。
+  diff: 改動非常大：原典裡海克力斯的母親是凡人，希拉是一生迫害他的人；黑帝斯在希臘神話中也不是反派。動畫裡沒有發瘋殺子，也沒有毒袍之死。
+  status: 已查證
+  sources:
+    - {cite: 英文維基百科「Hercules (1997 film)」（輔助）, url: 'https://en.wikipedia.org/wiki/Hercules_(1997_film)'}
+    - {cite: 阿波羅多洛斯《書庫》2.4.8–2.4.12, url: 'https://www.theoi.com/Text/Apollodorus2.html'}
+- id: percy-jackson
+  category: 電影、影集、遊戲
+  title: 《波西傑克森》
+  cards: [god-poseidon]
+  what: 美國作家雷克．萊爾頓的小說系列，主角是海神波賽頓與凡人所生的現代少年，有電影與影集改編。
+  diff: 「眾神搬到美國、半神少年上學」是現代設定。不過神與凡人生下半神英雄、英雄必須完成任務，正是古希臘英雄神話的基本公式。
+  status: 已查證
+  sources:
+    - {cite: 英文維基百科「Percy Jackson & the Olympians」（輔助）, url: 'https://en.wikipedia.org/wiki/Percy_Jackson_%26_the_Olympians'}
+    - {cite: Theoi.com「Poseidon」, url: 'https://www.theoi.com/Olympios/Poseidon.html'}
+- id: god-of-war
+  category: 電影、影集、遊戲
+  title: 遊戲《戰神》系列
+  cards: [god-zeus]
+  what: 主角奎托斯（Kratos）一路殺上奧林帕斯，對抗宙斯與眾神。
+  diff: Kratos 在希臘文是「力量」。赫西俄德筆下真的有一位叫克拉托斯的神，但他是宙斯忠心的隨從，泰坦之戰時就站在宙斯身邊，和遊戲裡弒神的斯巴達戰士完全相反。
+  status: 已查證
+  sources:
+    - {cite: 赫西俄德《神譜》383–403, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
+    - {cite: 英文維基百科「God of War (franchise)」（輔助）, url: 'https://en.wikipedia.org/wiki/God_of_War_(franchise)'}
+- id: hades-game
+  category: 電影、影集、遊戲
+  title: 遊戲《黑帝斯》（Hades）
+  cards: [god-hades, place-underworld]
+  what: 獨立遊戲公司 Supergiant 的作品，主角是冥王的兒子札格列歐斯，一次次試圖逃出冥界。
+  diff: 古代確實有札格列歐斯這位神，但在流傳下來的說法裡，他通常被說成是宙斯與波瑟芬妮的兒子，而且資料零散。遊戲把他寫成黑帝斯的兒子，整個家庭關係是重新編排的。
+  status: 已查證
+  sources:
+    - {cite: Supergiant Games「Hades」, url: 'https://www.supergiantgames.com/games/hades/'}
+    - {cite: Theoi.com「Zagreus」, url: 'https://www.theoi.com/Khthonios/Zagreus.html'}
+- id: ac-odyssey
+  category: 電影、影集、遊戲
+  title: 遊戲《刺客教條：奧德賽》
+  cards: [monster-medusa]
+  what: 育碧的開放世界遊戲，背景設在前 431 年開始的伯羅奔尼撒戰爭時期的希臘，玩家可以和梅杜莎等神話怪物戰鬥。
+  diff: 遊戲的歷史背景是真實的，雅典、斯巴達、伯里克利都真有其人；但梅杜莎等怪物是加進去的。這是「真歷史＋神話」混在一起的好例子，玩的時候要分清楚哪些是史實。
+  status: 已查證
+  sources:
+    - {cite: 英文維基百科「Assassin's Creed Odyssey」（輔助）, url: 'https://en.wikipedia.org/wiki/Assassin%27s_Creed_Odyssey'}
+    - {cite: 赫西俄德《神譜》270–283, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
+- id: saint-seiya
+  category: 電影、影集、遊戲
+  title: 《聖鬥士星矢》
+  cards: [god-athena]
+  what: 車田正美的日本漫畫與動畫，少年們穿上星座聖衣，守護轉世為少女的女神雅典娜，對抗波賽頓、黑帝斯等神。
+  diff: 雅典娜與波賽頓爭奪雅典、黑帝斯統治冥界這些關係來自神話；「聖衣」、「八十八星座的戰士」與「小宇宙」則全是作者的創作。
+  status: 已查證
+  sources:
+    - {cite: 英文維基百科「Saint Seiya」（輔助）, url: 'https://en.wikipedia.org/wiki/Saint_Seiya'}
+    - {cite: 阿波羅多洛斯《書庫》3.14.1, url: 'https://www.theoi.com/Text/Apollodorus3.html'}
+- id: nolan-odyssey
+  category: 電影、影集、遊戲
+  title: 諾蘭電影《奧德賽》（2026）
+  cards: [story-odyssey, hero-odysseus]
+  what: 導演克里斯多福．諾蘭改編荷馬史詩的電影，由環球影業發行，2026 年夏天上映。
+  diff: 電影的劇情取捨請以片商與實際影片為準；看完電影後，可以對照本站的《奧德賽》卡片，找找哪些冒險被保留、哪些被刪掉。
+  status: 已查證
+  sources:
+    - {cite: TheWrap「Christopher Nolan's Mystery Movie Is an Adaptation of 'The Odyssey'」, url: 'https://thewrap.com/christopher-nolan-next-film-the-odyssey-homer-universal'}

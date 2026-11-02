@@ -25,7 +25,7 @@ causes:
 effects:
   - {id: god-zeus, rel: 直接引發, why: 戰勝後宙斯成為眾神之王，和兄弟分治天、海、冥界。, src: [s1, s3]}
   - {id: titan-atlas, rel: 背景, why: 後世說阿特拉斯因為站在泰坦一方，被罰撐天。, src: [s5]}
-today: []
+today: [nike-brand, titanium-uranium, saturn-moons, titanic-word]
 era: titanomachy
 topics: [戰爭, 王權更替]
 ---

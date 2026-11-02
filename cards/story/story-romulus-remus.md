@@ -40,7 +40,7 @@ disputed:
     views:
       - {view: 李維：一說兩派人馬為了鳥占的結果爭吵，混戰中雷穆斯被殺。, src: [s1]}
       - {view: 李維也記下另一個更常被引用的說法：雷穆斯跳過新城牆嘲笑哥哥，被羅慕路斯殺死，並說「以後誰敢跳過我的城牆，都是這個下場」。, src: [s1]}
-today: []
+today: [harry-potter-names]
 era: rome
 topics: [羅馬借用希臘, 預言, 家族詛咒]
 ---

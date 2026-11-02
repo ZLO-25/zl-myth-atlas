@@ -64,7 +64,7 @@ sources:
 greek_vs_roman:
   text: 朱比特和宙斯的名字其實同源（都來自表示「明亮天空」的字根），但羅馬人敬的是「至善至大的朱比特」（Iuppiter Optimus Maximus）：國家的守護神。卡比托利歐山上的神廟由他與朱諾、米娜瓦三神共享，執政官就職要向他獻白牛，凱旋的將軍遊行終點就是他的神廟。他特別管誓約、條約與最隆重的婚禮。希臘神話裡宙斯四處留情的故事，多半是羅馬人後來從希臘借來的。
   src: [s8]
-today: []
+today: [god-of-war, planet-names, jupiter-moons, olympics-not-olympus, aegis-ships, typhoon-typhon, muse-words]
 places: []
 era: olympian
 topics: [王權更替, 戰爭, 愛與慾望]

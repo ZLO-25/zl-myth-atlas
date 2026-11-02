@@ -45,7 +45,7 @@ disputed:
     views:
       - {view: 《奧德賽》：他的妻子是阿芙蘿黛蒂，她和阿瑞斯偷情被他用網抓住。, src: [s5]}
       - {view: 《伊里亞德》與《神譜》：他的妻子是美惠女神（卡里斯，或叫阿格萊亞）。, src: [s3, s4]}
-today: []
+today: [volcano-word]
 era: olympian
 topics: [智慧與詭計, 愛與慾望]
 ---

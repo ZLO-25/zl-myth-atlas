@@ -33,7 +33,7 @@ disputed:
     views:
       - {view: 赫西俄德只說希望留在罐中、沒有飛出去，沒有解釋原因。, src: [s2]}
       - {view: 後世讀者解讀不一：有人認為希望是留給人類的安慰；也有人認為希望本身也是一種災禍，因為它讓人持續忍受痛苦。, src: [s3]}
-today: []
+today: [pandoras-box]
 era: olympian
 topics: [人類起源, 傲慢與懲罰]
 ---

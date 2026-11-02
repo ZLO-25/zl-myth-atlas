@@ -38,7 +38,7 @@ disputed:
     views:
       - {view: 赫西俄德沒有說普羅米修斯造人，他只是人類的保護者。, src: [s1]}
       - {view: 後來的作家說普羅米修斯用水和泥土捏出了人。, src: [s4]}
-today: []
+today: [promethium]
 era: titans
 topics: [智慧與詭計, 傲慢與懲罰, 人類起源]
 ---

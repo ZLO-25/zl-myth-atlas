@@ -40,7 +40,7 @@ causes:
 effects:
   - {id: primordial-uranus, rel: 直接引發, why: 烏拉諾斯把孩子塞回她體內，她打造鐮刀、找兒子推翻他。, src: [s2]}
   - {id: event-titanomachy, rel: 促成, why: 她教瑞亞藏起宙斯，也預言宙斯要靠百臂巨人才能打贏。, src: [s3]}
-today: []
+today: [gaia-mission]
 era: chaos
 topics: [創世, 王權更替]
 ---

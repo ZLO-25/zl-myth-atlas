@@ -42,7 +42,7 @@ causes:
   - {id: god-hera, rel: 直接引發, why: 希拉嫉妒丈夫的私生子，讓他發瘋殺子，才有十二項任務。, src: [s2]}
 effects:
   - {id: titan-prometheus, rel: 回應, why: 他射死每天啄食普羅米修斯肝臟的老鷹，解救了這位泰坦。, src: [s5]}
-today: []
+today: [amazon-brand, disney-hercules, herculean-word]
 era: heroes
 topics: [冒險與試煉, 神的嫉妒, 冥界之旅, 怪物]
 ---

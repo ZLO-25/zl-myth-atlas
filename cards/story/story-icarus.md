@@ -26,7 +26,7 @@ sources:
 images: [img-icarus-bruegel, img-icarus-relief, img-icarus-leighton]
 causes:
   - {id: monster-minotaur, rel: 背景, why: 代達洛斯替米諾斯蓋了關住牛頭人的迷宮，因此被困在島上。, src: [s2]}
-today: []
+today: [icarus-landscape, labyrinth-word]
 era: heroes
 topics: [傲慢與懲罰, 冒險與試煉]
 ---

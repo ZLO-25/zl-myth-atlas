@@ -33,7 +33,7 @@ disputed:
     views:
       - {view: 赫西俄德：她和兩個姊妹天生就是戈爾貢，只是她會死、姊姊們不會。沒有提到她曾經是美女。, src: [s1]}
       - {view: 奧維德：她原本是有一頭美麗長髮的少女，海神在雅典娜的神殿裡強暴了她，雅典娜卻把她的頭髮變成蛇作為懲罰。, src: [s2]}
-today: []
+today: [versace-medusa, ac-odyssey]
 era: heroes
 topics: [怪物, 變形, 神的嫉妒]
 ---

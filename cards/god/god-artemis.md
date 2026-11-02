@@ -36,7 +36,7 @@ sources:
 greek_vs_roman:
   text: 黛安娜原本可能是義大利本土的森林女神，最有名的聖地在羅馬附近內米湖畔的森林，那裡的祭司由逃亡的奴隸擔任，必須殺死前任才能接位。在羅馬，她特別被視為下層民眾、尤其是奴隸的保護者：她 8 月 13 日的節日是奴隸的假日。後來她才和阿提米絲合而為一，也接收了月亮女神的身分。
   src: [s7]
-today: []
+today: [artemis-program, orion-constellation]
 era: olympian
 topics: [變形, 神的嫉妒, 傲慢與懲罰]
 ---

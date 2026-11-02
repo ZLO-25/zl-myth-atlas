@@ -25,7 +25,7 @@ sources:
 greek_vs_roman:
   text: 雅努斯是少數「羅馬有、希臘沒有」的大神，羅馬人無法替他找到希臘對應。他在祈禱時常第一個被呼喚，因為任何事情要開始，都得先經過他這扇門。
   src: [s3]
-today: []
+today: [january]
 era: rome
 topics: [羅馬借用希臘]
 ---

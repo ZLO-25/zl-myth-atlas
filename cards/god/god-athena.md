@@ -35,7 +35,7 @@ greek_vs_roman:
   src: [s7]
 effects:
   - {id: story-arachne, rel: 直接引發, why: 凡人織女阿拉克涅向她挑戰織布，被她變成蜘蛛。, src: [s6]}
-today: []
+today: [harry-potter-names, saint-seiya, aegis-ships, mentor-word]
 era: olympian
 topics: [智慧與詭計, 戰爭]
 ---

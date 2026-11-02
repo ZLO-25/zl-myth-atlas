@@ -35,7 +35,7 @@ images: [img-odyssey-waterhouse, img-odysseus-sirens, img-odysseus-polyphemus]
 causes:
   - {id: story-trojan-war, rel: 背景, why: 特洛伊陷落後，奧德修斯才踏上返鄉之路。, src: [s9]}
   - {id: hero-odysseus, rel: 直接引發, why: 他向獨眼巨人炫耀真名，招來海神的報復。, src: [s2]}
-today: []
+today: [starbucks-siren, joyce-ulysses, madeline-miller, nolan-odyssey, odyssey-word, mentor-word]
 era: returns
 topics: [返鄉, 冒險與試煉, 智慧與詭計, 冥界之旅, 怪物]
 ---

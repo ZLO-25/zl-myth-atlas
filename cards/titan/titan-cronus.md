@@ -45,7 +45,7 @@ effects:
 greek_vs_roman:
   text: 羅馬的薩圖恩原本是義大利的農業神，後來才和克羅諾斯畫上等號。羅馬人眼中的他不是吃小孩的暴君，而是逃到義大利、在拉丁姆開創「黃金時代」的好國王。每年 12 月 17 日起的農神節（Saturnalia）大家互送禮物、主人反過來服侍奴隸，紀念那個人人平等的時代。他的神廟還是羅馬的國庫。
   src: [s3, s5]
-today: []
+today: [planet-names, saturn-moons, saturday]
 era: titans
 topics: [王權更替, 預言, 宿命]
 ---

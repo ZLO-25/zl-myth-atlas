@@ -1,0 +1,71 @@
+# 今日影子：科學與醫學
+- id: achilles-tendon
+  category: 科學與醫學
+  title: 阿基里斯腱（跟腱）
+  cards: [hero-achilles]
+  what: 腳跟後方連接小腿肌肉的粗大肌腱叫「阿基里斯腱」。一般認為這個名稱是 1693 年由法蘭德斯解剖學家菲利普．費爾海恩（Philip Verheyen）提出的。
+  diff: 名稱借用的是「阿基里斯之踵」的後世傳說；荷馬筆下的阿基里斯並沒有腳跟的弱點。
+  status: 已查證
+  sources:
+    - {cite: Radiopaedia「Achilles tendon」, url: 'https://radiopaedia.org/articles/achilles-tendon-2'}
+    - {cite: 英文維基百科「Achilles tendon」（輔助）, url: 'https://en.wikipedia.org/wiki/Achilles_tendon'}
+- id: oedipus-complex
+  category: 科學與醫學
+  title: 伊底帕斯情結（戀母情結）
+  cards: [story-oedipus]
+  what: 佛洛伊德借用伊底帕斯的名字，提出兒童在成長中會對異性父母產生依戀、對同性父母產生敵意的理論，稱為「伊底帕斯情結」。
+  diff: 神話中的伊底帕斯完全不知道對方是自己的父母，他拚命逃離預言，從沒有「想要」殺父娶母。佛洛伊德借用的是故事的結構，不是主角的心理。這個理論在今天的心理學界也有很多爭議。
+  status: 已查證
+  sources:
+    - {cite: 美國心理學會（APA）心理學辭典「Oedipus complex」, url: 'https://dictionary.apa.org/oedipus-complex'}
+    - {cite: 阿波羅多洛斯《書庫》3.5.7–3.5.9, url: 'https://www.theoi.com/Text/Apollodorus3.html'}
+- id: caduceus-confusion
+  category: 科學與醫學
+  title: 醫療標誌的蛇杖
+  cards: [god-hermes, god-apollo]
+  what: 醫院、救護車上常見纏著蛇的手杖。正確的醫學象徵是醫神阿斯克勒庇俄斯（阿波羅之子）的「單蛇杖」。
+  diff: 很多機構誤用了荷米斯的「雙蛇杖」：兩條蛇、上面有翅膀。荷米斯掌管的是商人、旅人和小偷，和醫療無關。這個混用在美國特別常見，一般認為和二十世紀初美國陸軍醫療部隊採用雙蛇杖有關。
+  status: 已查證
+  sources:
+    - {cite: 美國國家醫學圖書館 PMC 期刊文章 PMC4190767（談醫學標誌的單蛇杖與雙蛇杖）, url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4190767'}
+    - {cite: 阿波羅多洛斯《書庫》3.10.3, url: 'https://www.theoi.com/Text/Apollodorus3.html'}
+- id: titanium-uranium
+  category: 科學與醫學
+  title: 鈦（titanium）與鈾（uranium）
+  cards: [event-titanomachy, primordial-uranus]
+  what: 化學家克拉普羅特替兩種元素命名：鈦（1795 年）取自泰坦神族，鈾（1789 年）則取自 1781 年剛發現的天王星（Uranus）。
+  diff: 鈾和天空之神烏拉諾斯的關係是「間接」的：元素以行星命名，行星才以神命名。泰坦則是被選來形容這種金屬的強韌。
+  status: 已查證
+  sources:
+    - {cite: 英國皇家化學會元素週期表「Titanium」, url: 'https://periodic-table.rsc.org/element/22/titanium'}
+    - {cite: 英國皇家化學會元素週期表「Uranium」, url: 'https://periodic-table.rsc.org/element/92/uranium'}
+- id: promethium
+  category: 科學與醫學
+  title: 鉕（promethium）
+  cards: [titan-prometheus]
+  what: 第 61 號元素鉕在 1945 年於核反應產物中被確認，名字取自盜火給人類的普羅米修斯；提議者是科學家科里爾的妻子格蕾絲．瑪麗．科里爾。
+  diff: 命名的用意是：從核反應中取得新元素，就像普羅米修斯從神那裡取得火，同時也帶著被懲罰的風險。神話中的火是禮物，也是災禍的開始。
+  status: 已查證
+  sources:
+    - {cite: 英國皇家化學會元素週期表「Promethium」, url: 'https://periodic-table.rsc.org/element/61/promethium'}
+    - {cite: 赫西俄德《神譜》561–569, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
+- id: arachnida
+  category: 科學與醫學
+  title: 蛛形綱 Arachnida
+  cards: [story-arachne]
+  what: 蜘蛛、蠍子所屬的動物分類「蛛形綱」叫 Arachnida，蜘蛛恐懼症叫 arachnophobia，都來自希臘文的「蜘蛛」arachne。
+  diff: 希臘文的「蜘蛛」本來就叫 arachne；奧維德把它寫成一位被雅典娜變成蜘蛛的織女，讓這個字有了故事。
+  status: 已查證
+  sources:
+    - {cite: Etymonline「arachnid」, url: 'https://www.etymonline.com/word/arachnid'}
+    - {cite: 奧維德《變形記》6.1–145, url: 'https://www.theoi.com/Text/OvidMetamorphoses6.html'}
+- id: atlas-vertebra
+  category: 科學與醫學
+  title: 寰椎 atlas（第一節頸椎）
+  cards: [titan-atlas]
+  what: 頸椎最上面、直接撐住頭顱的那一節骨頭，英文叫 atlas。
+  diff: 命名的意象很直接：它撐起頭，就像亞特拉斯撐起天空。神話裡，撐天是宙斯給他的懲罰。
+  status: 已查證
+  sources:
+    - {cite: Etymonline「atlas」, url: 'https://www.etymonline.com/word/atlas'}
+    - {cite: 赫西俄德《神譜》517–520, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}

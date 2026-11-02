@@ -29,7 +29,7 @@ sources:
   - {id: s3, kind: modern, cite: Theoi.com「Theseus」, url: 'https://www.theoi.com/Heros/Theseus.html', accessed: '2026-11-02'}
 effects:
   - {id: monster-minotaur, rel: 直接引發, why: 他自願加入獻祭隊伍前往克里特，殺死米諾陶洛斯。, src: [s1]}
-today: []
+today: [ship-of-theseus]
 era: heroes
 topics: [冒險與試煉, 怪物]
 ---

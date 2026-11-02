@@ -25,7 +25,7 @@ sources:
 images: [img-arachne-velazquez, img-arachne-dore]
 causes:
   - {id: god-athena, rel: 直接引發, why: 雅典娜接受挑戰，又因對方的作品羞辱眾神而將她變成蜘蛛。, src: [s1]}
-today: []
+today: [arachnida]
 era: heroes
 topics: [變形, 傲慢與懲罰, 神的嫉妒]
 ---

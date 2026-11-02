@@ -24,7 +24,7 @@ sources:
   - {id: s1, kind: ancient, cite: 奧維德《變形記》3.339–510, url: 'https://www.theoi.com/Text/OvidMetamorphoses3.html'}
   - {id: s2, kind: modern, cite: Theoi.com「Narkissos」, url: 'https://www.theoi.com/Heros/Narkissos.html', accessed: '2026-11-02'}
 images: [img-narcissus-caravaggio, img-narcissus-waterhouse]
-today: []
+today: [echo-word, narcissism-word, nemesis-word]
 era: heroes
 topics: [變形, 愛與慾望, 傲慢與懲罰, 預言]
 ---
