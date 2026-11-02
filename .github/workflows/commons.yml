@@ -1,5 +1,5 @@
 # 圖片資料：用 Commons API 取得授權資料、下載 WebP，再自動 commit 回來
-name: 抓取 Commons 圖片與授權
+name: 抓取 Commons 圖片與檢查來源網址
 
 on:
   push:
@@ -8,6 +8,12 @@ on:
       - data/images.yaml
       - data/commons-queries.yaml
       - scripts/commons.ts
+      - scripts/check-links.ts
+      - cards/**
+      - data/today/**
+      - data/places.yaml
+      - data/history.yaml
+      - data/odyssey-route.yaml
   workflow_dispatch:
 
 permissions:
@@ -28,11 +34,12 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npx tsx scripts/commons.ts
+      - run: npx tsx scripts/check-links.ts
       - name: 有變動就 commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/commons public/images/works
           if git diff --cached --quiet; then echo "沒有變動"; exit 0; fi
-          git commit -m "自動：更新 Commons 圖片與授權資料"
+          git commit -m "自動：更新 Commons 圖片、授權資料與來源網址檢查"
           for i in 1 2 3; do git pull --rebase origin main && git push origin HEAD:main && break; sleep 5; done
