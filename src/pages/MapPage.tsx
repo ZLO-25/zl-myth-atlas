@@ -24,7 +24,13 @@ function RealMap() {
   const [showRoute, setShowRoute] = useState(true);
   useEffect(() => {
     if (!ref.current) return;
-    const map = L.map(ref.current, { scrollWheelZoom: false }).setView([38.5, 22], 5);
+    const map = L.map(ref.current, { scrollWheelZoom: false });
+    const pts: [number, number][] = [
+      ...site.places.filter((x) => x.kind === 'real' && x.lat != null).map((x) => [x.lat!, x.lng!] as [number, number]),
+      ...(showRoute ? site.odysseyRoute.map((x) => [x.lat, x.lng] as [number, number]) : []),
+    ];
+    if (pts.length) map.fitBounds(L.latLngBounds(pts), { padding: [24, 24] });
+    else map.setView([38.5, 22], 5);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 12,
       attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
@@ -60,7 +66,7 @@ function RealMap() {
       <p className="lead">橘點＝神話裡出現、今天找得到的真實地點，點一下看考古狀況。</p>
       {site.odysseyRoute.length > 0 && (
         <label className="check">
-          <input type="checkbox" checked={showRoute} onChange={(e) => setShowRoute(e.target.checked)} /> 顯示奧德修斯可能的航線（<strong>學者推測，眾說紛紜</strong>：古代就有人認為荷馬的地理大多是虛構的）
+          <input type="checkbox" checked={showRoute} onChange={(e) => setShowRoute(e.target.checked)} /> 顯示奧德修斯可能的航線（<strong>學者推測，眾說紛紜</strong>：古代地理學家埃拉托斯特尼就說過，等你找到替風神縫風袋的鞋匠，才找得到奧德修斯漂流的地方；見<a href="https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/1B*.html" target="_blank" rel="noreferrer">史特拉波《地理學》1.2.15</a>）
         </label>
       )}
       <div ref={ref} className="leaflet-box" role="region" aria-label="真實地點地圖" />
