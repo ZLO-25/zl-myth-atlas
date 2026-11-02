@@ -1,1 +1,11 @@
-[]
+# 真實歷史對照軸（西元前用負數）。和神話年代並排顯示，提醒讀者：神話不是史實。
+- {label: 米諾斯文明的宮殿時代, start: -1900, end: -1450, note: 克里特島的克諾索斯等宮殿繁盛，米諾陶洛斯與迷宮的傳說常被拿來和這些宮殿聯想。, src: [{cite: World History Encyclopedia「Minoan Civilization」, url: 'https://www.worldhistory.org/Minoan_Civilization/'}]}
+- {label: 邁錫尼文明, start: -1600, end: -1100, note: 希臘本土的青銅時代王國，荷馬史詩裡的「阿伽門農的邁錫尼」以此為背景。, src: [{cite: World History Encyclopedia「Mycenaean Civilization」, url: 'https://www.worldhistory.org/Mycenaean_Civilization/'}]}
+- {label: 特洛伊遺址的城市毀壞, start: -1300, end: -1180, note: 希沙利克遺址的晚期城市層有毀壞痕跡，常被拿來和特洛伊戰爭對照，但無法證明戰爭真的發生。, src: [{cite: World History Encyclopedia「Troy」, url: 'https://www.worldhistory.org/troy/'}]}
+- {label: 荷馬史詩成形, start: -750, end: -700, note: 《伊里亞德》《奧德賽》大約在這段時間寫定，距離它描寫的時代已經好幾百年。, src: [{cite: World History Encyclopedia「Homer」, url: 'https://www.worldhistory.org/homer/'}]}
+- {label: 赫西俄德寫《神譜》, start: -700, end: -700, note: 最早有系統整理希臘眾神家譜的作品。, src: [{cite: World History Encyclopedia「Hesiod」, url: 'https://www.worldhistory.org/hesiod/'}]}
+- {label: 羅馬傳統建城年, start: -753, end: -753, note: 這是羅馬人自己推算的年份，不是考古確定的日期。, src: [{cite: World History Encyclopedia「Ancient Rome」, url: 'https://www.worldhistory.org/Rome/'}]}
+- {label: 帕德嫩神廟興建, start: -447, end: -432, note: 雅典人在衛城上為雅典娜建造的神廟。, src: [{cite: World History Encyclopedia「Parthenon」, url: 'https://www.worldhistory.org/parthenon/'}]}
+- {label: 索福克勒斯《伊底帕斯王》上演, start: -429, end: -429, note: 年代為學者推估，約在前 430 年代末。, src: [{cite: World History Encyclopedia「Oedipus Rex」, url: 'https://www.worldhistory.org/Oedipus_Rex/'}]}
+- {label: 維吉爾寫《埃涅阿斯紀》, start: -29, end: -19, note: 奧古斯都時代，替羅馬寫出特洛伊起源的史詩；維吉爾死時尚未完成修訂。, src: [{cite: World History Encyclopedia「Aeneid」, url: 'https://www.worldhistory.org/Aeneid/'}]}
+- {label: 奧維德完成《變形記》, start: 8, end: 8, note: 公元 8 年左右，奧維德被流放前完成；許多今天熟悉的神話版本出自這本書。, src: [{cite: World History Encyclopedia「Ovid」, url: 'https://www.worldhistory.org/ovid/'}]}

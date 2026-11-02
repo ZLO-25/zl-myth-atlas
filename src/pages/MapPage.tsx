@@ -93,7 +93,7 @@ function Underworld() {
         <path d="M320 70 L320 110" className="uw-path" />
         <rect x="60" y="110" width="520" height="56" rx="10" className="uw-river" />
         <text x="320" y="134" className="uw-title">冥河（阿刻戎河／斯堤克斯河）</text>
-        <text x="320" y="154" className="uw-sub">擺渡人卡戎收一枚錢幣，載亡魂過河</text>
+        <text x="320" y="154" className="uw-sub">擺渡人卡戎載亡魂過河；沒下葬的亡魂不准上船</text>
         <path d="M320 166 L320 198" className="uw-path" />
         <rect x="200" y="198" width="240" height="50" rx="10" className="uw-gate" />
         <text x="320" y="220" className="uw-title">冥府大門</text>
@@ -101,19 +101,19 @@ function Underworld() {
         <path d="M320 248 L320 280" className="uw-path" />
         <rect x="180" y="280" width="280" height="50" rx="10" className="uw-judge" />
         <text x="320" y="302" className="uw-title">審判</text>
-        <text x="320" y="320" className="uw-sub">米諾斯等判官決定亡魂去處</text>
+        <text x="320" y="320" className="uw-sub">米諾斯在冥界替亡魂判案（荷馬、維吉爾）</text>
         <path d="M320 330 L120 380 M320 330 L320 380 M320 330 L520 380" className="uw-path" />
         <rect x="20" y="380" width="200" height="80" rx="10" className="uw-elysium" />
         <text x="120" y="408" className="uw-title">極樂世界</text>
         <text x="120" y="428" className="uw-sub">英雄與受神眷顧者</text>
         <rect x="230" y="380" width="180" height="80" rx="10" className="uw-asphodel" />
         <text x="320" y="408" className="uw-title">長春花原野</text>
-        <text x="320" y="428" className="uw-sub">大多數普通亡魂</text>
+        <text x="320" y="428" className="uw-sub">荷馬：亡魂聚集之地</text>
         <rect x="420" y="380" width="200" height="120" rx="10" className="uw-tartarus" />
         <text x="520" y="408" className="uw-title">塔爾塔羅斯</text>
-        <text x="520" y="428" className="uw-sub">最深的深淵：關泰坦</text>
-        <text x="520" y="446" className="uw-sub">與重罪者，如坦塔洛斯、</text>
-        <text x="520" y="464" className="uw-sub">薛西弗斯</text>
+        <text x="520" y="428" className="uw-sub">最深的深淵：關著泰坦</text>
+        <text x="520" y="446" className="uw-sub">荷馬另寫坦塔洛斯、</text>
+        <text x="520" y="464" className="uw-sub">薛西弗斯在冥界受罰</text>
       </svg>
       <p className="muted small">示意圖為本站繪製，依各家古代作品整理；不同作者的冥界細節不同，請以卡片內文與來源為準。</p>
     </>

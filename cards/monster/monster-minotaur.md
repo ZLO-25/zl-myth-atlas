@@ -31,6 +31,7 @@ causes:
 effects:
   - {id: hero-theseus, rel: 直接引發, why: 雅典被迫進貢少男少女，忒修斯自願前往殺死怪物。, src: [s1]}
   - {id: story-icarus, rel: 背景, why: 代達洛斯為怪物蓋了迷宮，後來被困島上，才有伊卡洛斯的飛行。, src: [s2]}
+history_river: {url: 'https://zlo-25.github.io/Long-History/', label: 米諾斯文明}
 today: [labyrinth-word]
 era: heroes
 topics: [怪物, 傲慢與懲罰]

@@ -18,6 +18,7 @@ sources:
   - {id: s2, kind: ancient, cite: 荷馬《奧德賽》卷 11（奧德修斯召喚亡魂）, url: 'https://www.theoi.com/Text/HomerOdyssey11.html'}
   - {id: s3, kind: ancient, cite: 赫西俄德《神譜》720–725（塔爾塔羅斯有多深）, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
   - {id: s4, kind: ancient, cite: 維吉爾《埃涅阿斯紀》卷 6, url: 'http://classics.mit.edu/Virgil/aeneid.6.vi.html'}
+  - {id: s6, kind: ancient, cite: 荷馬《奧德賽》24.1–14（長春花原野）, url: 'https://www.theoi.com/Text/HomerOdyssey24.html'}
   - {id: s5, kind: modern, cite: World History Encyclopedia「Hades」, url: 'https://www.worldhistory.org/hades/', accessed: '2026-11-02'}
 causes:
   - {id: god-hades, rel: 背景, why: 三兄弟抽籤，黑帝斯分到冥界成為冥王。, src: [s5]}
@@ -56,6 +57,10 @@ topics: [冥界之旅]
 ### 塔爾塔羅斯有多深？
 
 赫西俄德用了一個很具體的比喻：一個青銅鐵砧從天上掉下來，要掉九天九夜才到地面；再從地面往下掉九天九夜，才到塔爾塔羅斯。[s3] 被[[god-zeus|宙斯]]打敗的泰坦就關在那裡。
+
+### 荷馬的冥界
+
+荷馬的冥界沒有維吉爾那麼分明：荷米斯把亡魂帶到一片「長春花原野」，亡魂們在那裡聚集。[s6] 奧德修斯還看見冥界之王身邊的判官米諾斯拿著金權杖替亡魂判案，以及坦塔洛斯、薛西弗斯等人受永恆的懲罰。[s2]
 
 ### 冥界不是地獄
 

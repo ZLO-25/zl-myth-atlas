@@ -146,6 +146,14 @@ export function Compare() {
   );
 }
 
+const BORROW_SOURCES = [
+  { cite: 'World History Encyclopedia「Magna Graecia」（希臘人在南義大利的殖民城市）', url: 'https://www.worldhistory.org/Magna_Graecia/' },
+  { cite: 'World History Encyclopedia「Etruscan Civilization」（伊特拉斯坎人與希臘的交流）', url: 'https://www.worldhistory.org/Etruscan_Civilization/' },
+  { cite: 'World History Encyclopedia「Roman Republic」（羅馬征服義大利與希臘）', url: 'https://www.worldhistory.org/Roman_Republic/' },
+  { cite: 'World History Encyclopedia「Roman Religion」（羅馬神與希臘神的對應）', url: 'https://www.worldhistory.org/Roman_Religion/' },
+  { cite: 'World History Encyclopedia「Aeneid」（維吉爾的史詩）', url: 'https://www.worldhistory.org/Aeneid/' },
+];
+
 function BorrowStory() {
   const c = cardById.get('hero-aeneas');
   return (
@@ -158,7 +166,14 @@ function BorrowStory() {
             把自己原有的神「對應」到希臘神（Jupiter＝宙斯…）
                                                               │
 前 1 世紀    維吉爾《埃涅阿斯紀》：羅馬人是特洛伊英雄的後代 ◄──┘`}</pre>
-      <p className="muted">年代與細節的來源見各卡片{c ? <>，例如 <CardLink id="hero-aeneas" /></> : null}。</p>
+      <p className="muted">相關卡片{c ? <>：<CardLink id="hero-aeneas" /></> : null}。這張圖的來源：</p>
+      <ol className="sources small">
+        {BORROW_SOURCES.map((s) => (
+          <li key={s.url}>
+            <a href={s.url} target="_blank" rel="noreferrer">{s.cite}</a>
+          </li>
+        ))}
+      </ol>
     </section>
   );
 }
