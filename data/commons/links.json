@@ -54,6 +54,15 @@
    "god-zeus/s6"
   ]
  },
+ "https://www.theoi.com/Text/HomerOdyssey8.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "god-aphrodite/s3",
+   "god-ares/s4",
+   "god-hephaestus/s5"
+  ]
+ },
  "https://www.theoi.com/Text/HomericHymns3.html": {
   "status": 200,
   "checked": "2026-11-02",
@@ -67,6 +76,37 @@
    "god-hestia/s3"
   ]
  },
+ "https://www.theoi.com/Text/ApollodorusE.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "god-aphrodite/s5",
+   "god-artemis/s5"
+  ]
+ },
+ "https://www.theoi.com/Olympios/Aphrodite.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "god-aphrodite/s6"
+  ]
+ },
+ "https://www.worldhistory.org/Venus/": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "god-aphrodite/s7"
+  ]
+ },
+ "https://www.theoi.com/Text/HomericHymns1.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "god-apollo/s2",
+   "god-demeter/s3",
+   "god-hades/s3"
+  ]
+ },
  "https://www.theoi.com/Text/OvidMetamorphoses1.html": {
   "status": 200,
   "checked": "2026-11-02",
@@ -77,12 +117,12 @@
    "primordial-chaos/s2"
   ]
  },
- "https://www.theoi.com/Text/ApollodorusE.html": {
+ "https://www.theoi.com/Text/HomerIliad1.html": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "god-aphrodite/s5",
-   "god-artemis/s5"
+   "god-apollo/s4",
+   "god-hephaestus/s2"
   ]
  },
  "https://www.theoi.com/Text/Apollodorus3.html": {
@@ -96,30 +136,11 @@
    "titan-atlas/s5"
   ]
  },
- "https://www.theoi.com/Text/HomericHymns1.html": {
+ "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0151:book=4:chapter=25": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "god-apollo/s2",
-   "god-demeter/s3",
-   "god-hades/s3"
-  ]
- },
- "https://www.theoi.com/Text/HomerIliad1.html": {
-  "status": 200,
-  "checked": "2026-11-02",
-  "used": [
-   "god-apollo/s4",
-   "god-hephaestus/s2"
-  ]
- },
- "https://www.theoi.com/Text/HomerOdyssey8.html": {
-  "status": 200,
-  "checked": "2026-11-02",
-  "used": [
-   "god-aphrodite/s3",
-   "god-ares/s4",
-   "god-hephaestus/s5"
+   "god-apollo/s6"
   ]
  },
  "https://www.theoi.com/Olympios/Apollon.html": {
@@ -143,11 +164,13 @@
    "god-ares/s6"
   ]
  },
- "https://www.theoi.com/Text/OvidMetamorphoses6.html": {
-  "status": -1,
+ "https://www.theoi.com/Text/OvidMetamorphoses3.html": {
+  "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "god-artemis/s4"
+   "god-artemis/s3",
+   "god-dionysus/s3",
+   "god-dionysus/s4"
   ]
  },
  "https://www.theoi.com/Olympios/Artemis.html": {
@@ -157,13 +180,11 @@
    "god-artemis/s6"
   ]
  },
- "https://www.theoi.com/Text/OvidMetamorphoses3.html": {
+ "https://www.theoi.com/Text/HomerOdyssey13.html": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "god-artemis/s3",
-   "god-dionysus/s3",
-   "god-dionysus/s4"
+   "god-athena/s4"
   ]
  },
  "https://www.theoi.com/Text/Apollodorus2.html": {
@@ -176,32 +197,11 @@
    "titan-atlas/s3"
   ]
  },
- "https://www.britannica.com/topic/Diana-Roman-religion": {
-  "status": 403,
-  "checked": "2026-11-02",
-  "used": [
-   "god-artemis/s7"
-  ]
- },
- "https://www.theoi.com/Text/HomerOdyssey13.html": {
-  "status": 200,
-  "checked": "2026-11-02",
-  "used": [
-   "god-athena/s4"
-  ]
- },
  "https://www.theoi.com/Olympios/Athena.html": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
    "god-athena/s6"
-  ]
- },
- "https://www.theoi.com/Olympios/Aphrodite.html": {
-  "status": 200,
-  "checked": "2026-11-02",
-  "used": [
-   "god-aphrodite/s6"
   ]
  },
  "https://www.worldhistory.org/Minerva/": {
@@ -216,15 +216,6 @@
   "checked": "2026-11-02",
   "used": [
    "god-demeter/s4"
-  ]
- },
- "https://www.theoi.com/Text/HomerIliad15.html": {
-  "status": 200,
-  "checked": "2026-11-02",
-  "used": [
-   "god-hades/s2",
-   "god-poseidon/s4",
-   "god-zeus/s3"
   ]
  },
  "https://www.worldhistory.org/Ceres/": {
@@ -248,26 +239,13 @@
    "god-dionysus/s7"
   ]
  },
- "https://www.theoi.com/Text/HesiodWorksDays.html": {
+ "https://www.theoi.com/Text/HomerIliad15.html": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "god-hephaestus/s6",
-   "titan-prometheus/s2"
-  ]
- },
- "https://www.worldhistory.org/Pluto/": {
-  "status": 200,
-  "checked": "2026-11-02",
-  "used": [
-   "god-hades/s7"
-  ]
- },
- "https://www.worldhistory.org/Venus/": {
-  "status": 200,
-  "checked": "2026-11-02",
-  "used": [
-   "god-aphrodite/s7"
+   "god-hades/s2",
+   "god-poseidon/s4",
+   "god-zeus/s3"
   ]
  },
  "https://www.theoi.com/Khthonios/Haides.html": {
@@ -277,11 +255,11 @@
    "god-hades/s6"
   ]
  },
- "https://www.worldhistory.org/Vulcan/": {
+ "https://www.worldhistory.org/Pluto/": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "god-hephaestus/s8"
+   "god-hades/s7"
   ]
  },
  "https://www.theoi.com/Text/HomerIliad18.html": {
@@ -291,11 +269,33 @@
    "god-hephaestus/s3"
   ]
  },
+ "https://www.theoi.com/Text/HesiodWorksDays.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "god-hephaestus/s6",
+   "titan-prometheus/s2"
+  ]
+ },
  "https://www.theoi.com/Olympios/Hephaistos.html": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
    "god-hephaestus/s7"
+  ]
+ },
+ "https://www.worldhistory.org/Vulcan/": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "god-hephaestus/s8"
+  ]
+ },
+ "https://www.theoi.com/Text/HomerIliad14.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "god-hera/s3"
   ]
  },
  "https://www.theoi.com/Olympios/Hera.html": {
@@ -319,18 +319,18 @@
    "god-hermes/s2"
   ]
  },
- "https://www.theoi.com/Olympios/Hermes.html": {
-  "status": 200,
-  "checked": "2026-11-02",
-  "used": [
-   "god-hermes/s6"
-  ]
- },
  "https://www.theoi.com/Text/HomerOdyssey24.html": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
    "god-hermes/s4"
+  ]
+ },
+ "https://www.theoi.com/Olympios/Hermes.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "god-hermes/s6"
   ]
  },
  "https://www.worldhistory.org/Mercury_(Deity)/": {
@@ -340,11 +340,18 @@
    "god-hermes/s7"
   ]
  },
- "https://www.theoi.com/Text/HomerIliad14.html": {
+ "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Numa*.html": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "god-hera/s3"
+   "god-hestia/s4"
+  ]
+ },
+ "https://www.theoi.com/Ouranios/Hestia.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "god-hestia/s5"
   ]
  },
  "https://www.worldhistory.org/Vesta/": {
@@ -354,11 +361,25 @@
    "god-hestia/s6"
   ]
  },
- "https://www.theoi.com/Ouranios/Hestia.html": {
+ "https://www.theoi.com/Text/OvidFasti1.html": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "god-hestia/s5"
+   "god-janus/s1"
+  ]
+ },
+ "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0151:book=1:chapter=19": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "god-janus/s2"
+  ]
+ },
+ "https://www.worldhistory.org/Janus/": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "god-janus/s3"
   ]
  },
  "https://www.theoi.com/Text/HomerOdyssey1.html": {
@@ -384,11 +405,11 @@
    "god-poseidon/s8"
   ]
  },
- "https://www.theoi.com/Text/OvidFasti1.html": {
+ "https://www.worldhistory.org/Neptune/": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "god-janus/s1"
+   "god-poseidon/s9"
   ]
  },
  "https://www.theoi.com/Olympios/Zeus.html": {
@@ -396,13 +417,6 @@
   "checked": "2026-11-02",
   "used": [
    "god-zeus/s5"
-  ]
- },
- "https://www.worldhistory.org/Janus/": {
-  "status": 200,
-  "checked": "2026-11-02",
-  "used": [
-   "god-janus/s3"
   ]
  },
  "https://www.theoi.com/Protogenos/Khaos.html": {
@@ -435,25 +449,11 @@
    "titan-rhea/s3"
   ]
  },
- "https://www.worldhistory.org/Neptune/": {
-  "status": 200,
-  "checked": "2026-11-02",
-  "used": [
-   "god-poseidon/s9"
-  ]
- },
  "https://www.theoi.com/Titan/TitanAtlas.html": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
    "titan-atlas/s6"
-  ]
- },
- "https://www.britannica.com/topic/Jupiter-Roman-god": {
-  "status": 403,
-  "checked": "2026-11-02",
-  "used": [
-   "god-zeus/s8"
   ]
  },
  "https://www.theoi.com/Titan/TitanKronos.html": {
@@ -491,39 +491,39 @@
    "titan-rhea/s4"
   ]
  },
- "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0151:book=4:chapter=25": {
+ "https://www.britannica.com/topic/Jupiter-Roman-god": {
+  "status": 403,
+  "checked": "2026-11-02",
+  "used": [
+   "god-zeus/s8"
+  ]
+ },
+ "https://www.britannica.com/topic/Diana-Roman-religion": {
+  "status": 403,
+  "checked": "2026-11-02",
+  "used": [
+   "god-artemis/s7"
+  ]
+ },
+ "https://www.theoi.com/Text/OvidMetamorphoses6.html": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "god-apollo/s6"
+   "god-artemis/s4"
   ]
  },
- "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Numa*.html": {
+ "https://www.theoi.com/Titan/Titanes.html": {
   "status": 200,
-  "checked": "2026-11-02",
-  "used": [
-   "god-hestia/s4"
-  ]
- },
- "https://www.theoi.com/Titan/Titanomakhia.html": {
-  "status": 404,
   "checked": "2026-11-02",
   "used": [
    "event-titanomachy/s5"
   ]
  },
- "https://www.theoi.com/Text/VirgilAeneid8.html": {
-  "status": 404,
-  "checked": "2026-11-02",
-  "used": [
-   "titan-cronus/s3"
-  ]
- },
- "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0151:book=1:chapter=19": {
+ "http://classics.mit.edu/Virgil/aeneid.8.viii.html": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "god-janus/s2"
+   "titan-cronus/s3"
   ]
  }
 }
