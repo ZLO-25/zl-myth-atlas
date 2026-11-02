@@ -247,7 +247,8 @@
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "god-artemis/s6"
+   "god-artemis/s6",
+   "artemis-program"
   ]
  },
  "https://www.theoi.com/Text/HomerOdyssey13.html": {
@@ -314,6 +315,13 @@
   "checked": "2026-11-02",
   "used": [
    "god-demeter/s5"
+  ]
+ },
+ "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0167:book=39:chapter=8": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "god-dionysus/s8"
   ]
  },
  "https://www.theoi.com/Olympios/Dionysos.html": {
@@ -538,18 +546,19 @@
    "hero-achilles/s5"
   ]
  },
- "https://www.britannica.com/topic/Diana-Roman-religion": {
-  "status": 403,
+ "https://www.theoi.com/Text/StatiusAchilleid1A.html": {
+  "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "god-artemis/s7"
+   "hero-achilles/s9",
+   "achilles-heel"
   ]
  },
- "https://www.britannica.com/topic/Jupiter-Roman-god": {
-  "status": 403,
+ "https://www.theoi.com/Text/HomerIliad21.html": {
+  "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "god-zeus/s8"
+   "hero-achilles/s10"
   ]
  },
  "https://www.theoi.com/Text/HomerIliad16.html": {
@@ -559,11 +568,18 @@
    "hero-achilles/s11"
   ]
  },
- "https://www.theoi.com/Text/HomerIliad21.html": {
+ "https://commons.wikimedia.org/wiki/File:Akhilleus_Aias_MGEt_16757.jpg": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "hero-achilles/s10"
+   "hero-achilles/s12"
+  ]
+ },
+ "https://commons.wikimedia.org/wiki/File:Akhilleus_Patroklos_Antikensammlung_Berlin_F2278.jpg": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "hero-achilles/s13"
   ]
  },
  "https://www.worldhistory.org/achilles/": {
@@ -622,12 +638,11 @@
    "hero-aeneas/s7"
   ]
  },
- "https://www.theoi.com/Text/StatiusAchilleid1A.html": {
+ "https://commons.wikimedia.org/wiki/File:Aeneas,_Anchises,_and_Ascanius_by_Bernini.jpg": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "hero-achilles/s9",
-   "achilles-heel"
+   "hero-aeneas/s8"
   ]
  },
  "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0151:book=1:chapter=7": {
@@ -664,18 +679,18 @@
    "hero-jason/s2"
   ]
  },
- "https://commons.wikimedia.org/wiki/File:Akhilleus_Patroklos_Antikensammlung_Berlin_F2278.jpg": {
+ "https://commons.wikimedia.org/wiki/File:Douris_cup_Jason_Vatican_16545.jpg": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "hero-achilles/s13"
+   "hero-jason/s3"
   ]
  },
- "https://commons.wikimedia.org/wiki/File:Akhilleus_Aias_MGEt_16757.jpg": {
+ "https://commons.wikimedia.org/wiki/File:Moreau_-_Jason,_1865,_RF_2780.jpg": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "hero-achilles/s12"
+   "hero-jason/s4"
   ]
  },
  "https://www.theoi.com/Text/HomerOdyssey9.html": {
@@ -748,11 +763,11 @@
    "hero-orpheus/s5"
   ]
  },
- "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0167:book=39:chapter=8": {
+ "https://commons.wikimedia.org/wiki/File:Relief_of_Orpheus_and_Eurydice_(Louvre,_Ma_854)_(28266063496).jpg": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "god-dionysus/s8"
+   "hero-orpheus/s6"
   ]
  },
  "https://www.theoi.com/Heros/Perseus.html": {
@@ -816,26 +831,20 @@
    "place-olympus/s1"
   ]
  },
- "https://commons.wikimedia.org/wiki/File:Aeneas,_Anchises,_and_Ascanius_by_Bernini.jpg": {
+ "https://www.worldhistory.org/image/6241/mt-olympus/": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "hero-aeneas/s8"
+   "place-olympus/s3",
+   "olympics-not-olympus",
+   "olympus"
   ]
  },
- "https://cts.perseids.org/read/greekLit/tlg0548/tlg001/perseus-eng2/3.15.6-3.16.2": {
-  "status": 502,
-  "checked": "2026-11-02",
-  "used": [
-   "god-poseidon/s7",
-   "monster-minotaur/s5"
-  ]
- },
- "https://commons.wikimedia.org/wiki/File:Douris_cup_Jason_Vatican_16545.jpg": {
+ "https://www.worldhistory.org/Olympia/": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "hero-jason/s3"
+   "place-olympus/s5"
   ]
  },
  "https://www.theoi.com/Text/HomerOdyssey10.html": {
@@ -869,11 +878,11 @@
    "primordial-chaos/s3"
   ]
  },
- "https://www.worldhistory.org/Olympia/": {
+ "https://commons.wikimedia.org/wiki/File:Assistants_and_George_Frederic_Watts_-_Chaos_-_Google_Art_Project.jpg": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "place-olympus/s5"
+   "primordial-chaos/s4"
   ]
  },
  "https://www.theoi.com/Protogenos/Gaia.html": {
@@ -890,11 +899,11 @@
    "primordial-uranus/s3"
   ]
  },
- "https://commons.wikimedia.org/wiki/File:Moreau_-_Jason,_1865,_RF_2780.jpg": {
+ "https://commons.wikimedia.org/wiki/File:The_Mutilation_of_Uranus_by_Saturn.jpg": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "hero-jason/s4"
+   "primordial-uranus/s4"
   ]
  },
  "https://www.theoi.com/Titan/Titanes.html": {
@@ -969,13 +978,12 @@
    "story-oedipus/s2"
   ]
  },
- "https://www.worldhistory.org/image/6241/mt-olympus/": {
+ "https://www.worldhistory.org/Oedipus_the_King/": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "place-olympus/s3",
-   "olympics-not-olympus",
-   "olympus"
+   "story-oedipus/s4",
+   "索福克勒斯《伊底帕斯王》上演"
   ]
  },
  "https://www.theoi.com/Heroine/Pandora.html": {
@@ -1007,11 +1015,12 @@
    "story-persephone/s3"
   ]
  },
- "https://commons.wikimedia.org/wiki/File:Relief_of_Orpheus_and_Eurydice_(Louvre,_Ma_854)_(28266063496).jpg": {
+ "https://www.worldhistory.org/article/32/the-eleusinian-mysteries-the-rites-of-demeter/": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "hero-orpheus/s6"
+   "story-persephone/s4",
+   "eleusis"
   ]
  },
  "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0151:book=1:chapter=4": {
@@ -1045,20 +1054,11 @@
    "羅馬傳統建城年"
   ]
  },
- "https://www.worldhistory.org/Oedipus_the_King/": {
-  "status": 200,
+ "https://www.britannica.com/topic/Diana-Roman-religion": {
+  "status": 403,
   "checked": "2026-11-02",
   "used": [
-   "story-oedipus/s4",
-   "索福克勒斯《伊底帕斯王》上演"
-  ]
- },
- "https://www.worldhistory.org/article/32/the-eleusinian-mysteries-the-rites-of-demeter/": {
-  "status": 200,
-  "checked": "2026-11-02",
-  "used": [
-   "story-persephone/s4",
-   "eleusis"
+   "god-artemis/s7"
   ]
  },
  "https://www.theoi.com/Text/HomerOdyssey4.html": {
@@ -1068,18 +1068,18 @@
    "story-trojan-horse/s4"
   ]
  },
- "https://commons.wikimedia.org/wiki/File:The_Mutilation_of_Uranus_by_Saturn.jpg": {
-  "status": 200,
-  "checked": "2026-11-02",
-  "used": [
-   "primordial-uranus/s4"
-  ]
- },
  "https://www.worldhistory.org/image/1365/trojan-horse/": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
    "story-trojan-horse/s5"
+  ]
+ },
+ "https://www.thelatinlibrary.com/vergil/aen2.shtml": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "story-trojan-horse/s6"
   ]
  },
  "https://www.theoi.com/Text/HomerIliad2.html": {
@@ -1089,11 +1089,11 @@
    "story-trojan-war/s5"
   ]
  },
- "https://commons.wikimedia.org/wiki/File:Assistants_and_George_Frederic_Watts_-_Chaos_-_Google_Art_Project.jpg": {
-  "status": 200,
+ "https://www.britannica.com/topic/Jupiter-Roman-god": {
+  "status": 403,
   "checked": "2026-11-02",
   "used": [
-   "primordial-chaos/s4"
+   "god-zeus/s8"
   ]
  },
  "https://www.worldhistory.org/troy/": {
@@ -1127,18 +1127,19 @@
    "saturday"
   ]
  },
- "https://fgh.perseids.org/read/latinLit/phi0914/phi001/perseus-eng3/1.0.6": {
-  "status": 502,
-  "checked": "2026-11-02",
-  "used": [
-   "story-romulus-remus/s6"
-  ]
- },
  "https://commons.wikimedia.org/wiki/File:Rubens_saturn.jpg": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
    "titan-cronus/s6"
+  ]
+ },
+ "https://cts.perseids.org/read/greekLit/tlg0548/tlg001/perseus-eng2/3.15.6-3.16.2": {
+  "status": 502,
+  "checked": "2026-11-02",
+  "used": [
+   "god-poseidon/s7",
+   "monster-minotaur/s5"
   ]
  },
  "https://www.theoi.com/Text/AeschylusPrometheus.html": {
@@ -1176,11 +1177,11 @@
    "apollo-daphne-statue"
   ]
  },
- "https://www.thelatinlibrary.com/vergil/aen2.shtml": {
+ "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/museo-pio-clementino/Cortile-Ottagono/laocoonte.html": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "story-trojan-horse/s6"
+   "laocoon-statue"
   ]
  },
  "https://commons.wikimedia.org/wiki/File:Laoco%C3%B6n_and_his_sons_group.jpg": {
@@ -1204,11 +1205,11 @@
    "nike-brand"
   ]
  },
- "https://research.uniroma1.it/node/29825": {
-  "status": -1,
+ "https://www.hermes.com/at/de/content/235056-sechs-generationen-von-handwerkern/": {
+  "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "story-romulus-remus/s7"
+   "hermes-brand"
   ]
  },
  "https://en.wikipedia.org/wiki/Herm%C3%A8s": {
@@ -1225,6 +1226,13 @@
    "versace-medusa"
   ]
  },
+ "https://commons.wikimedia.org/wiki/File:Odysseus_Sirens_BM_E440_n2.jpg": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "starbucks-siren"
+  ]
+ },
  "https://whc.unesco.org/en/list/849": {
   "status": 403,
   "checked": "2026-11-02",
@@ -1233,18 +1241,11 @@
    "troy"
   ]
  },
- "https://about.starbucks.com/history/the-story-of-the-siren/": {
-  "status": 403,
+ "https://fgh.perseids.org/read/latinLit/phi0914/phi001/perseus-eng3/1.0.6": {
+  "status": 502,
   "checked": "2026-11-02",
   "used": [
-   "starbucks-siren"
-  ]
- },
- "https://commons.wikimedia.org/wiki/File:Rhéa_présentant_une_pierre_emmaillotée_à_Cronos_dessin_du_bas-relief_d'un_autel_romain.jpg": {
-  "status": 500,
-  "checked": "2026-11-02",
-  "used": [
-   "titan-cronus/s7"
+   "story-romulus-remus/s6"
   ]
  },
  "https://www.businessinsider.in/how-amazon-got-its-name/articleshow/64068170.cms": {
@@ -1261,11 +1262,11 @@
    "ajax-name"
   ]
  },
- "https://www.hermes.com/at/de/content/235056-sechs-generationen-von-handwerkern/": {
-  "status": 200,
+ "https://about.starbucks.com/history/the-story-of-the-siren/": {
+  "status": 403,
   "checked": "2026-11-02",
   "used": [
-   "hermes-brand"
+   "starbucks-siren"
   ]
  },
  "https://science.nasa.gov/solar-system/asteroids/4-vesta/": {
@@ -1275,18 +1276,18 @@
    "vesta-asteroid"
   ]
  },
- "https://commons.wikimedia.org/wiki/File:Odysseus_Sirens_BM_E440_n2.jpg": {
-  "status": 200,
-  "checked": "2026-11-02",
-  "used": [
-   "starbucks-siren"
-  ]
- },
- "https://www.etymonline.com/word/July": {
+ "https://www.etymonline.com/word/bacchanal": {
   "status": 403,
   "checked": "2026-11-02",
   "used": [
-   "july"
+   "bacchanal-word"
+  ]
+ },
+ "https://www.etymonline.com/word/Amazon": {
+  "status": 403,
+  "checked": "2026-11-02",
+  "used": [
+   "amazon-brand"
   ]
  },
  "https://www.hadestown.com/": {
@@ -1303,11 +1304,11 @@
    "perseids"
   ]
  },
- "https://www.etymonline.com/word/Amazon": {
+ "https://www.etymonline.com/word/July": {
   "status": 403,
   "checked": "2026-11-02",
   "used": [
-   "amazon-brand"
+   "july"
   ]
  },
  "https://www.esa.int/Science_Exploration/Space_Science/Gaia": {
@@ -1345,11 +1346,11 @@
    "madeline-miller"
   ]
  },
- "https://www.etymonline.com/word/bacchanal": {
-  "status": 403,
+ "https://commons.wikimedia.org/wiki/File:Rhéa_présentant_une_pierre_emmaillotée_à_Cronos_dessin_du_bas-relief_d'un_autel_romain.jpg": {
+  "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "bacchanal-word"
+   "titan-cronus/s7"
   ]
  },
  "https://en.wikipedia.org/wiki/Achilles_tendon": {
@@ -1394,18 +1395,18 @@
    "promethium"
   ]
  },
- "https://www.etymonline.com/word/astronaut": {
-  "status": 403,
-  "checked": "2026-11-02",
-  "used": [
-   "argonaut-astronaut"
-  ]
- },
  "https://www.etymonline.com/word/labyrinth": {
   "status": 403,
   "checked": "2026-11-02",
   "used": [
    "labyrinth-word"
+  ]
+ },
+ "https://www.dictionary.com/browse/atlas": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "atlas-vertebra"
   ]
  },
  "https://en.wikipedia.org/wiki/Hercules_(1997_film)": {
@@ -1464,11 +1465,11 @@
    "nolan-odyssey"
   ]
  },
- "https://www.etymonline.com/word/arachnid": {
-  "status": 403,
+ "https://science.nasa.gov/uranus/facts/": {
+  "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "arachnida"
+   "planet-names"
   ]
  },
  "https://www.smithsonianmag.com/smart-news/how-pluto-got-its-name-180955912/": {
@@ -1478,11 +1479,12 @@
    "pluto-name"
   ]
  },
- "https://radiopaedia.org/articles/achilles-tendon-2": {
-  "status": 406,
+ "https://had.aas.org/sites/had.aas.org/files/HADN32.pdf": {
+  "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "achilles-tendon"
+   "jupiter-moons",
+   "saturn-moons"
   ]
  },
  "https://science.nasa.gov/jupiter/jupiter-moons/": {
@@ -1520,11 +1522,11 @@
    "saturn-moons"
   ]
  },
- "https://science.nasa.gov/uranus/facts/": {
-  "status": 200,
+ "https://www.etymonline.com/word/astronaut": {
+  "status": 403,
   "checked": "2026-11-02",
   "used": [
-   "planet-names"
+   "argonaut-astronaut"
   ]
  },
  "https://www.lockheedmartin.com/en-us/products/aegis-combat-system.html": {
@@ -1534,47 +1536,11 @@
    "aegis-ships"
   ]
  },
- "https://www.dictionary.com/browse/atlas": {
-  "status": 200,
-  "checked": "2026-11-02",
-  "used": [
-   "atlas-vertebra"
-  ]
- },
- "https://had.aas.org/sites/had.aas.org/files/HADN32.pdf": {
-  "status": 200,
-  "checked": "2026-11-02",
-  "used": [
-   "jupiter-moons",
-   "saturn-moons"
-  ]
- },
- "https://www.etymonline.com/word/March": {
+ "https://www.etymonline.com/word/arachnid": {
   "status": 403,
   "checked": "2026-11-02",
   "used": [
-   "march"
-  ]
- },
- "https://www.theoi.com/Text/OvidFasti3.html": {
-  "status": 200,
-  "checked": "2026-11-02",
-  "used": [
-   "march"
-  ]
- },
- "https://www.etymonline.com/word/January": {
-  "status": 403,
-  "checked": "2026-11-02",
-  "used": [
-   "january"
-  ]
- },
- "https://www.theoi.com/Text/OvidFasti6.html": {
-  "status": 200,
-  "checked": "2026-11-02",
-  "used": [
-   "june"
+   "arachnida"
   ]
  },
  "https://www.etymonline.com/word/typhoon": {
@@ -1584,8 +1550,29 @@
    "typhoon-typhon"
   ]
  },
- "https://www.etymonline.com/word/June": {
+ "https://www.etymonline.com/word/January": {
   "status": 403,
+  "checked": "2026-11-02",
+  "used": [
+   "january"
+  ]
+ },
+ "https://www.theoi.com/Text/OvidFasti3.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "march"
+  ]
+ },
+ "https://research.uniroma1.it/node/29825": {
+  "status": -1,
+  "checked": "2026-11-02",
+  "used": [
+   "story-romulus-remus/s7"
+  ]
+ },
+ "https://www.theoi.com/Text/OvidFasti6.html": {
+  "status": 200,
   "checked": "2026-11-02",
   "used": [
    "june"
@@ -1596,6 +1583,20 @@
   "checked": "2026-11-02",
   "used": [
    "april-may"
+  ]
+ },
+ "https://radiopaedia.org/articles/achilles-tendon-2": {
+  "status": 406,
+  "checked": "2026-11-02",
+  "used": [
+   "achilles-tendon"
+  ]
+ },
+ "https://www.etymonline.com/word/March": {
+  "status": 403,
+  "checked": "2026-11-02",
+  "used": [
+   "march"
   ]
  },
  "https://www.theoi.com/Text/OvidFasti4.html": {
@@ -1612,6 +1613,13 @@
    "april-may"
   ]
  },
+ "https://www.etymonline.com/word/June": {
+  "status": 403,
+  "checked": "2026-11-02",
+  "used": [
+   "june"
+  ]
+ },
  "https://www.etymonline.com/word/May": {
   "status": 403,
   "checked": "2026-11-02",
@@ -1626,18 +1634,18 @@
    "saturday"
   ]
  },
- "https://www.etymonline.com/word/chaos": {
-  "status": 403,
-  "checked": "2026-11-02",
-  "used": [
-   "chaos-word"
-  ]
- },
  "https://www.etymonline.com/word/titanic": {
   "status": 403,
   "checked": "2026-11-02",
   "used": [
    "titanic-word"
+  ]
+ },
+ "https://www.etymonline.com/word/chaos": {
+  "status": 403,
+  "checked": "2026-11-02",
+  "used": [
+   "chaos-word"
   ]
  },
  "https://www.etymonline.com/word/atlas": {
@@ -1682,13 +1690,6 @@
    "tantalize-word"
   ]
  },
- "https://www.etymonline.com/word/herculean": {
-  "status": 403,
-  "checked": "2026-11-02",
-  "used": [
-   "herculean-word"
-  ]
- },
  "https://csrc.nist.gov/glossary/term/trojan_horse": {
   "status": 200,
   "checked": "2026-11-02",
@@ -1696,18 +1697,18 @@
    "trojan-malware"
   ]
  },
+ "https://www.etymonline.com/word/herculean": {
+  "status": 403,
+  "checked": "2026-11-02",
+  "used": [
+   "herculean-word"
+  ]
+ },
  "https://www.etymonline.com/word/odyssey": {
   "status": 403,
   "checked": "2026-11-02",
   "used": [
    "odyssey-word"
-  ]
- },
- "https://www.merriam-webster.com/dictionary/Achilles%27%20heel": {
-  "status": 403,
-  "checked": "2026-11-02",
-  "used": [
-   "achilles-heel"
   ]
  },
  "https://www.etymonline.com/word/mentor": {
@@ -1724,11 +1725,11 @@
    "muse-words"
   ]
  },
- "https://www.etymonline.com/word/volcano": {
+ "https://www.etymonline.com/word/music": {
   "status": 403,
   "checked": "2026-11-02",
   "used": [
-   "volcano-word"
+   "muse-words"
   ]
  },
  "https://whc.unesco.org/en/list/393": {
@@ -1815,27 +1816,6 @@
    "食蓮人的國度"
   ]
  },
- "https://www.etymonline.com/word/music": {
-  "status": 403,
-  "checked": "2026-11-02",
-  "used": [
-   "muse-words"
-  ]
- },
- "https://www.etymonline.com/word/cereal": {
-  "status": 403,
-  "checked": "2026-11-02",
-  "used": [
-   "cereal-word"
-  ]
- },
- "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0200:book=1:chapter=25": {
-  "status": 200,
-  "checked": "2026-11-02",
-  "used": [
-   "費埃克斯人的國度（斯克里亞）"
-  ]
- },
  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/1B1*.html": {
   "status": 200,
   "checked": "2026-11-02",
@@ -1853,11 +1833,32 @@
    "喀耳刻的島"
   ]
  },
- "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/museo-pio-clementino/Cortile-Ottagono/laocoonte.html": {
+ "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0200:book=1:chapter=25": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "laocoon-statue"
+   "費埃克斯人的國度（斯克里亞）"
+  ]
+ },
+ "https://www.merriam-webster.com/dictionary/Achilles%27%20heel": {
+  "status": 403,
+  "checked": "2026-11-02",
+  "used": [
+   "achilles-heel"
+  ]
+ },
+ "https://www.etymonline.com/word/cereal": {
+  "status": 403,
+  "checked": "2026-11-02",
+  "used": [
+   "cereal-word"
+  ]
+ },
+ "https://www.etymonline.com/word/volcano": {
+  "status": 403,
+  "checked": "2026-11-02",
+  "used": [
+   "volcano-word"
   ]
  },
  "https://classical-inquiries.chs.harvard.edu/olympus-as-mountain-and-olympia-as-venue-for-the-olympics-a-question-about-the-naming-of-these-places/": {
