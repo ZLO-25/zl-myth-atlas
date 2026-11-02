@@ -4,17 +4,17 @@
   title: 「奧運」不是奧林帕斯山
   cards: [place-olympus, god-zeus]
   what: 奧運（Olympic Games）的名字來自希臘南部的聖地奧林匹亞，古代奧運是在那裡舉辦、祭祀宙斯的運動會。
-  diff: 奧林匹亞（Olympia）和眾神居住的奧林帕斯山（Olympus）是兩個不同的地方，相隔好幾百公里，名字相近常被搞混。
+  diff: 奧林匹亞（Olympia）和眾神居住的奧林帕斯山（Olympus）是兩個不同的地方，名字相近常被搞混。
   status: 已查證
   sources:
     - {cite: 國際奧委會「Ancient Olympic Games」, url: 'https://www.olympics.com/ioc/ancient-olympic-games'}
-    - {cite: World History Encyclopedia「Mount Olympus」, url: 'https://www.worldhistory.org/Mount_Olympus/'}
+    - {cite: World History Encyclopedia 圖片條目「Mt. Olympus」, url: 'https://www.worldhistory.org/image/6241/mt-olympus/'}
 - id: aegis-ships
   category: 台灣生活
   title: 神盾艦（宙斯盾）
   cards: [god-athena, god-zeus]
   what: 新聞常說的「神盾艦」，是搭載美國 Aegis 作戰系統的軍艦。台灣譯作「神盾」，中國大陸多譯作「宙斯盾」。
-  diff: Aegis 是神話中的神盾，《伊里亞德》說它屬於宙斯，雅典娜也會披上它；後來梅杜莎的頭被裝在上面。兩種譯名各抓住了一半的神話。
+  diff: Aegis 是神話中的神盾，《伊里亞德》說它屬於宙斯，雅典娜也會披上它；《伊里亞德》裡，神盾上已經有蛇髮女妖的頭。兩種譯名各抓住了一半的神話。
   status: 已查證
   sources:
     - {cite: Lockheed Martin「Aegis Combat System」, url: 'https://www.lockheedmartin.com/en-us/products/aegis-combat-system.html'}

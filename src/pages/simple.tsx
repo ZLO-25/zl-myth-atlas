@@ -159,7 +159,7 @@ function BorrowStory() {
   return (
     <section className="borrow">
       <h2>羅馬怎麼借用希臘（真實歷史）</h2>
-      <pre className="ascii">{`前 8–6 世紀  希臘人在南義大利、西西里建立殖民城市 ──┐
+      <pre className="ascii">{`前 8–5 世紀  希臘人在南義大利、西西里建立殖民城市 ──┐
 前 7–5 世紀  伊特拉斯坎人吸收希臘神像與故事 ─────────┼─► 羅馬人接觸希臘的神
 前 3–2 世紀  羅馬征服南義大利、再征服希臘本土 ───────┘        │
                                                               ▼

@@ -39,7 +39,7 @@
   period: modern
   look: 天花板上的圓形畫：克羅諾斯（左）舉起鐮刀砍向父親烏拉諾斯，背後是一個金色的天球。畫在佛羅倫斯的宮殿裡，象徵權力的交替。
   artist: 喬治．瓦薩里與克里斯托法諾．蓋拉爾迪
-  date: 約 1560 年
+  date: 16 世紀中葉
   museum: 義大利佛羅倫斯舊宮
 
 - id: img-cronus-goya
@@ -310,7 +310,7 @@
   look: 喝醉的赫菲斯托斯騎在驢上，由酒神戴奧尼索斯帶回奧林帕斯。傳說他被丟下天庭後懷恨在心，只有酒神能把他勸回來。
   artist: 列寧格勒畫家
   date: 約前 470–460 年
-  museum: 見圖片來源頁
+  museum: 希臘雅典基克拉澤斯藝術博物館（古蘭德里斯收藏，編號 1117）
 
 - id: img-hermes-praxiteles
   kind: work
@@ -377,7 +377,7 @@
   commons: "File:Titian Bacchus and Ariadne.jpg"
   title: 〈巴克斯與阿里阿德涅〉
   period: modern
-  look: 酒神從豹拉的車上一躍而下，衝向被忒修斯拋棄在納克索斯島的阿里阿德涅。左上角的星星是他之後替她做成的星座。
+  look: 酒神從兩頭獵豹拉的車上一躍而下，衝向被忒修斯拋棄在納克索斯島的阿里阿德涅。左上角的星星是他之後替她做成的星座。
   artist: 提香
   date: 1520–1523 年
   museum: 英國倫敦國家美術館
@@ -590,7 +590,7 @@
   look: 穿著暗紅長袍的潘朵拉捧著一個小盒子，盒蓋已經打開，紅色煙霧在她身後飄散。模特兒是羅塞蒂常畫的珍．莫里斯。
   artist: 但丁．加百列．羅塞蒂
   date: 1871 年
-  museum: 英國利物浦利弗夫人美術館
+  museum: 私人收藏
 
 - id: img-persephone-rossetti
   kind: work
@@ -749,8 +749,8 @@
   period: modern
   look: 上半身還是女人、下半身已經長出蜘蛛腳的阿拉克涅，痛苦地扭著身子。這是多雷替但丁《神曲》畫的插圖。
   artist: 古斯塔夫．多雷
-  date: 1861–1868 年
-  museum: 但丁《神曲》插畫
+  date: 1861 年版
+  museum: 書籍插畫（但丁《神曲》）
 
 - id: img-romulus-wolf
   kind: work
@@ -857,7 +857,7 @@
   commons: "File:Ares Ludovisi Altemps Inv8602.jpg"
   title: 盧多維西的阿瑞斯
   period: ancient
-  look: 戰神放下武器、抱著膝蓋坐著休息，神情若有所思。腳邊原本有一個小愛神，暗示他正在想著愛情。
+  look: 戰神放下武器、抱著膝蓋坐著休息，神情若有所思。腳邊有一個小愛神，暗示他正在想著愛情。
   artist: 佚名（羅馬時期複製品，仿前 4 世紀希臘原作；部分由貝尼尼修復）
   date: 原作約前 320 年
   museum: 義大利羅馬國立博物館阿爾騰普斯宮
@@ -939,7 +939,7 @@
   period: ancient
   look: 坐在有翅膀馬車上的少年特里普托勒摩斯，手捧麥穗，波瑟芬妮與狄蜜特一左一右送他出發去傳播農業。
   artist: 芝加哥畫家
-  date: 約前 460–450 年
+  date: 約前 450–440 年
   museum: 德國慕尼黑國立古代藝術博物館
 
 - id: img-tellus-mosaic
@@ -947,7 +947,7 @@
   commons: "File:Aion mosaic Glyptothek Munich W504.jpg"
   title: 森提努姆馬賽克：永恆之神與大地女神
   period: ancient
-  look: 站在星座圓環裡的是永恆之神艾翁；右下躺著的女神是大地（羅馬稱特盧斯，即蓋亞），身邊圍著四個代表四季的孩子。
+  look: 站在星座圓環裡的是永恆之神艾翁；右下坐著的女神是大地（羅馬稱特盧斯，即蓋亞），身邊圍著四個可能代表四季的孩子。
   artist: 佚名羅馬馬賽克工匠
   date: 約公元 200–250 年
   museum: 德國慕尼黑古代雕塑館

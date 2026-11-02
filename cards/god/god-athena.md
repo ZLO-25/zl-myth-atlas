@@ -26,12 +26,13 @@ sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》886–900、924–926, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
   - {id: s2, kind: ancient, cite: 《荷馬詩體頌歌》第 28 首〈致雅典娜〉, url: 'https://www.theoi.com/Text/HomericHymns3.html'}
   - {id: s3, kind: ancient, cite: 阿波羅多洛斯《書庫》3.14.1（與波賽頓爭雅典）, url: 'https://www.theoi.com/Text/Apollodorus3.html'}
-  - {id: s4, kind: ancient, cite: 荷馬《奧德賽》1.44–95、13.287–440, url: 'https://www.theoi.com/Text/HomerOdyssey13.html'}
+  - {id: s4, kind: ancient, cite: 荷馬《奧德賽》13.287–440, url: 'https://www.theoi.com/Text/HomerOdyssey13.html'}
+  - {id: s8, kind: ancient, cite: 荷馬《奧德賽》1.44–95（雅典娜在眾神會議替他說情）, url: 'https://www.theoi.com/Text/HomerOdyssey1.html'}
   - {id: s5, kind: ancient, cite: 阿波羅多洛斯《書庫》2.4.2–2.4.3（幫助柏修斯）, url: 'https://www.theoi.com/Text/Apollodorus2.html'}
   - {id: s6, kind: modern, cite: Theoi.com「Athena」, url: 'https://www.theoi.com/Olympios/Athena.html', accessed: '2026-11-02'}
   - {id: s7, kind: modern, cite: World History Encyclopedia「Minerva」（Mark Cartwright, 2014）, url: 'https://www.worldhistory.org/Minerva/', accessed: '2026-11-02'}
 greek_vs_roman:
-  text: 米娜瓦不是羅馬人直接從希臘借來的：學者多認為她來自伊特拉斯坎人的女神門爾瓦（Menrva）。她和朱比特、朱諾組成卡比托利歐三神，主要管智慧、醫藥、商業與各種手工藝，「戰爭女神」的面向是後來才跟著雅典娜加上去的。羅馬的工匠與學生在她的節日五日節（Quinquatrus）向她祈福。
+  text: 米娜瓦不是羅馬人直接從希臘借來的：學者多認為她來自伊特拉斯坎人的女神門爾瓦（Menrva）。她和朱比特、朱諾組成卡比托利歐三神，主要管智慧、醫藥、商業與各種手工藝，後來也成了戰爭女神。每年 3 月 19 日開始的五日節（Quinquatrus）是她的節日。
   src: [s7]
 effects:
   - {id: story-arachne, rel: 直接引發, why: 凡人織女阿拉克涅向她挑戰織布，被她變成蜘蛛。, src: [s6]}
@@ -54,9 +55,9 @@ topics: [智慧與詭計, 戰爭]
 
 ### 英雄的守護者
 
-雅典娜最喜歡聰明的凡人。她把磨得像鏡子一樣的盾借給[[hero-perseus|柏修斯]]，幫他斬下[[monster-medusa|梅杜莎]]的頭；柏修斯後來把蛇髮頭獻給她，她就把頭裝在自己的神盾上。[s5]
+雅典娜最喜歡聰明的凡人。[[hero-perseus|柏修斯]]看著青銅盾牌上的倒影，由她引導他的手，斬下[[monster-medusa|梅杜莎]]的頭；柏修斯後來把蛇髮頭獻給她，她就把頭裝在自己的神盾上。[s5]
 
-她最寵愛的是足智多謀的[[hero-odysseus|奧德修斯]]。《奧德賽》裡，她在眾神會議上替他說情，又變身成各種人陪在他身邊。當奧德修斯終於回到故鄉、還想對她撒謊時，她笑著說：我們兩個都是最會耍心機的，你在凡人裡第一，我在神裡第一。[s4]
+她最寵愛的是足智多謀的[[hero-odysseus|奧德修斯]]。《奧德賽》裡，她在眾神會議上替他說情，又變身成各種人陪在他身邊。當奧德修斯終於回到故鄉、還想對她撒謊時，她笑著說：我們兩個都是最會耍心機的，你在凡人裡第一，我在神裡第一。[s8][s4]
 
 ### 冷靜，但不寬容
 

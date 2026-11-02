@@ -16,8 +16,8 @@ hook: 烏拉諾斯：第一位天王，被兒子一刀推翻；他被割下的�
 domains:
   roles: [星空, 天穹]
   symbols: [覆蓋大地的星空]
-how_to_recognize: 古代藝術很少單獨畫他。文藝復興以後的作品裡，他常是一位躺倒的老人，旁邊拿鐮刀的年輕人（或有翅膀的老人）是克羅諾斯／薩圖恩。
-how_to_recognize_src: [s3]
+how_to_recognize: 古代偶爾把他畫成身上綴滿星星、拱身覆蓋大地的男子。本站收錄的瓦薩里天花板畫，畫的是克羅諾斯舉起鐮刀砍向他的那一幕。
+how_to_recognize_src: [s3, s4]
 family:
   parents:
     - {id: primordial-gaia, src: [s1]}
@@ -30,12 +30,13 @@ family:
     - {name: 百臂巨人, src: [s1]}
     - {name: 復仇女神、巨人族（由他的血生出）, src: [s2]}
     - {id: god-aphrodite, src: [s2], variant: 赫西俄德說法：由他落海的生殖器與海沫生出}
-few_images: 烏拉諾斯是「天空本身」，古希臘人很少把他畫成人形，留下的古代圖像非常少；後世作品大多畫的是他被克羅諾斯推翻的那一幕。
+few_images: 烏拉諾斯是「天空本身」，本站找到的授權清楚圖像很少，目前只收錄一件他被克羅諾斯推翻的畫作。
 images: [img-uranus-vasari]
 sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》126–153, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
-  - {id: s2, kind: ancient, cite: 赫西俄德《神譜》154–206（閹割、復仇女神與阿芙蘿黛蒂誕生）, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
+  - {id: s2, kind: ancient, cite: 赫西俄德《神譜》154–210（閹割、復仇女神、阿芙蘿黛蒂誕生與「泰坦」之名）, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
   - {id: s3, kind: modern, cite: Theoi.com「Ouranos」, url: 'https://www.theoi.com/Protogenos/Ouranos.html', accessed: '2026-11-02'}
+  - {id: s4, kind: modern, cite: 維基共享資源：瓦薩里〈克羅諾斯閹割烏拉諾斯〉作品頁, url: 'https://commons.wikimedia.org/wiki/File:The_Mutilation_of_Uranus_by_Saturn.jpg', accessed: '2026-11-02'}
 causes:
   - {id: primordial-gaia, rel: 背景, why: 他由大地蓋亞生出，又與她結合生下泰坦。, src: [s1]}
 effects:
@@ -54,7 +55,7 @@ topics: [創世, 王權更替]
 
 ### 被關在黑暗裡的孩子
 
-赫西俄德說，烏拉諾斯從一開始就恨這些孩子。孩子一出生，他就把他們藏回大地深處，不讓他們見到光，還「為自己的惡行沾沾自喜」。[s1]
+赫西俄德說，烏拉諾斯從一開始就恨這些孩子。孩子一出生，他就把他們藏回大地深處，不讓他們見到光，還「為自己的惡行沾沾自喜」。[s2]
 
 大地痛苦呻吟，造出一把鐮刀，交給願意出手的小兒子[[titan-cronus|克羅諾斯]]。烏拉諾斯趁夜色降臨、想要擁抱大地時，克羅諾斯從埋伏處伸手，割下了父親的生殖器，往身後一拋。[s2]
 

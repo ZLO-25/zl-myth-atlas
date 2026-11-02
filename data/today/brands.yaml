@@ -17,6 +17,7 @@
   diff: 其實它來自 1837 年在巴黎創業的馬具師傅蒂埃里．愛馬仕（Thierry Hermès）的姓氏，和神沒有直接關係。拼法相同，只是巧合。
   status: 已查證
   sources:
+    - {cite: Hermès 官方「六代工匠」（德文）, url: 'https://www.hermes.com/at/de/content/235056-sechs-generationen-von-handwerkern/'}
     - {cite: 英文維基百科「Hermès」（輔助）, url: 'https://en.wikipedia.org/wiki/Herm%C3%A8s'}
     - {cite: Theoi.com「Hermes」, url: 'https://www.theoi.com/Olympios/Hermes.html'}
 - id: versace-medusa
@@ -33,10 +34,11 @@
   category: 品牌與企業
   title: 星巴克的雙尾海妖
   cards: [story-odyssey, hero-odysseus]
-  what: 星巴克綠色標誌中央是一位海妖（Siren）。官方說，設計靈感來自一張十六世紀北歐木刻版畫中的雙尾海妖。
-  diff: 《奧德賽》和古希臘陶瓶上的海妖賽蓮是「女人頭、鳥身體」，用歌聲引誘水手送命；有魚尾巴的海妖是中世紀以後才流行的形象。
+  what: 星巴克綠色標誌中央是一位海妖（Siren）。官方說，設計師翻閱古老的航海書籍時，被一幅雙尾海妖的插圖吸引。
+  diff: 《奧德賽》只寫海妖賽蓮的歌聲、沒寫她們的外形；古希臘陶瓶上則多畫成「女人頭、鳥身體」，用歌聲引誘水手送命；有魚尾巴的海妖是中世紀以後才流行的形象。
   status: 已查證
   sources:
+    - {cite: 維基共享資源：大英博物館 E440 賽蓮畫家陶瓶作品頁, url: 'https://commons.wikimedia.org/wiki/File:Odysseus_Sirens_BM_E440_n2.jpg'}
     - {cite: 星巴克官方「The Story of the Siren」, url: 'https://about.starbucks.com/history/the-story-of-the-siren/'}
     - {cite: 荷馬《奧德賽》12.36–200, url: 'https://www.theoi.com/Text/HomerOdyssey12.html'}
 - id: amazon-brand
@@ -44,7 +46,7 @@
   title: Amazon（亞馬遜）
   cards: [hero-heracles]
   what: 電商 Amazon 的名字來自南美洲的亞馬遜河，創辦人貝佐斯想取世界最大河流的意象。
-  diff: 河的名字則來自希臘神話的女戰士部族亞馬遜：十六世紀西班牙探險家在河邊遇到女戰士，就用了這個神話名稱。海克力斯的第九項任務，就是去取亞馬遜女王的腰帶。公司和神話之間，隔了一條河。
+  diff: 河的名字則來自希臘神話的女戰士部族亞馬遜：一般說法是，十六世紀西班牙探險家在河邊遇到女戰士，就用了這個神話名稱（也有其他解釋）。海克力斯的第九項任務，就是去取亞馬遜女王的腰帶。公司和神話之間，隔了一條河。
   status: 已查證
   sources:
     - {cite: Business Insider「How Amazon got its name」, url: 'https://www.businessinsider.in/how-amazon-got-its-name/articleshow/64068170.cms'}
@@ -54,8 +56,8 @@
   category: 品牌與企業
   title: Ajax（阿賈克斯足球隊、清潔劑）
   cards: [story-trojan-war, hero-achilles]
-  what: 荷蘭足球俱樂部阿賈克斯和一個清潔劑品牌都叫 Ajax，取自特洛伊戰爭中的希臘英雄大埃阿斯，形象是強壯可靠。
-  diff: 神話中的大埃阿斯力大無窮，但阿基里斯死後，他在爭奪阿基里斯盔甲時輸給了奧德修斯，羞憤發狂，最後自殺。他的結局一點也不光彩。
+  what: 荷蘭足球俱樂部阿賈克斯（Ajax）取自特洛伊戰爭中的希臘英雄埃阿斯。
+  diff: 神話中的大埃阿斯力大無窮，但阿基里斯死後，他在爭奪阿基里斯盔甲時輸給了奧德修斯，又被雅典娜弄得發狂，最後自殺。他的結局一點也不光彩。
   status: 已查證
   sources:
     - {cite: 阿波羅多洛斯《書庫》摘要 5.6–5.7, url: 'https://www.theoi.com/Text/ApollodorusE.html'}

@@ -17,7 +17,7 @@ panels:
   - {image: img-ai-odyssey-2, text: 他們闖進獨眼巨人的山洞。奧德修斯自稱「沒有人」，刺瞎巨人逃走，卻因此惹怒巨人的父親海神波賽頓。, src: [s2]}
   - {image: img-ai-odyssey-3, text: 風神送他一個裝滿逆風的袋子。眼看就要到家，好奇的水手以為袋裡是寶物，一打開，狂風又把船吹回原處。, src: [s3]}
   - {image: img-ai-odyssey-4, text: 女巫喀耳刻把他的同伴變成豬。荷米斯給奧德修斯一株解藥草，他才逼女巫把同伴變回人。, src: [s3]}
-  - {image: img-ai-odyssey-5, text: 他下到冥界問路，又被綁在桅桿上聽完海妖的歌，穿過吃人的斯庫拉與吞水的卡律布狄斯之間。, src: [s4]}
+  - {image: img-ai-odyssey-5, text: 他下到冥界問路，又被綁在桅桿上聽完海妖的歌，穿過吃人的斯庫拉與吞水的卡律布狄斯之間。, src: [s10, s4]}
   - {image: img-ai-odyssey-6, text: 餓壞的同伴殺了太陽神的聖牛。宙斯一道雷擊沉船隻，只有奧德修斯活下來，被仙女卡呂普索留在島上七年。, src: [s4, s5]}
   - {image: img-ai-odyssey-7, text: 終於回到伊塔卡，他扮成老乞丐。老狗阿爾戈斯認出主人，搖了搖尾巴，然後死去。, src: [s6]}
   - {image: img-ai-odyssey-8, text: 潘妮洛普宣布：誰能拉開奧德修斯的弓、一箭穿過十二把斧頭，她就嫁給誰。只有乞丐做到了。, src: [s7]}
@@ -26,6 +26,7 @@ sources:
   - {id: s2, kind: ancient, cite: 荷馬《奧德賽》卷 9, url: 'https://www.theoi.com/Text/HomerOdyssey9.html'}
   - {id: s3, kind: ancient, cite: 荷馬《奧德賽》卷 10, url: 'https://www.theoi.com/Text/HomerOdyssey10.html'}
   - {id: s4, kind: ancient, cite: 荷馬《奧德賽》卷 12, url: 'https://www.theoi.com/Text/HomerOdyssey12.html'}
+  - {id: s10, kind: ancient, cite: 荷馬《奧德賽》卷 11（下到冥界）, url: 'https://www.theoi.com/Text/HomerOdyssey11.html'}
   - {id: s5, kind: ancient, cite: 荷馬《奧德賽》7.259（在卡呂普索島上七年）, url: 'https://www.theoi.com/Text/HomerOdyssey7.html'}
   - {id: s6, kind: ancient, cite: 荷馬《奧德賽》17.290–327（老狗阿爾戈斯）, url: 'https://www.theoi.com/Text/HomerOdyssey17.html'}
   - {id: s7, kind: ancient, cite: 荷馬《奧德賽》卷 21–22（射箭比賽與殺死求婚者）, url: 'https://www.theoi.com/Text/HomerOdyssey21.html'}

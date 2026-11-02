@@ -16,7 +16,7 @@ hook: 赫斯提亞：最少故事、卻最常被祭拜的女神，她就是家�
 domains:
   roles: [爐灶, 家庭, 祭祀的火, 城邦的公共聖火]
   symbols: [爐火, 火盆, 面紗]
-how_to_recognize: 很少出現在藝術品裡。通常是端莊坐著、披著面紗、全身包得很緊的成熟女性，身邊可能有火盆或爐火。
+how_to_recognize: 披著面紗、衣著端莊的女性，有時手持花枝，雕像裡有時以水壺為標誌。
 how_to_recognize_src: [s5]
 family:
   parents:
@@ -33,11 +33,11 @@ sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》453–458, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
   - {id: s2, kind: ancient, cite: 《荷馬詩體頌歌》第 5 首〈致阿芙蘿黛蒂〉21–32, url: 'https://www.theoi.com/Text/HomericHymns3.html'}
   - {id: s3, kind: ancient, cite: 《荷馬詩體頌歌》第 29 首〈致赫斯提亞〉, url: 'https://www.theoi.com/Text/HomericHymns3.html'}
-  - {id: s4, kind: ancient, cite: 普魯塔克《希臘羅馬名人傳．努瑪傳》9.5–10.7（維斯塔貞女）, url: 'https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Numa*.html'}
+  - {id: s4, kind: ancient, cite: 普魯塔克《希臘羅馬名人傳．努瑪傳》9.5–11.1（維斯塔貞女與圓形神廟）, url: 'https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Numa*.html'}
   - {id: s5, kind: modern, cite: Theoi.com「Hestia」, url: 'https://www.theoi.com/Ouranios/Hestia.html', accessed: '2026-11-02'}
   - {id: s6, kind: modern, cite: World History Encyclopedia「Vesta」（Joshua J. Mark, 2009）, url: 'https://www.worldhistory.org/Vesta/', accessed: '2026-11-02'}
 greek_vs_roman:
-  text: 赫斯提亞在希臘幾乎沒有神話，到了羅馬，維斯塔卻成了國家級的女神。羅馬廣場上的圓形維斯塔神廟裡燒著象徵國家命脈的聖火，由維斯塔貞女看守：她們從小入選，服務三十年，期間必須守貞。聖火熄滅被視為大凶之兆；貞女若破戒，會被活埋。
+  text: 赫斯提亞在希臘幾乎沒有神話，到了羅馬，維斯塔卻成了國家級的女神。羅馬廣場上的圓形維斯塔神廟裡燒著聖火，由維斯塔貞女看守：她們服務三十年，期間必須守貞。聖火若熄滅，必須用太陽光重新點燃；貞女若破戒，會被活埋。
   src: [s4, s6]
 today: [vesta-asteroid]
 era: olympian
@@ -48,7 +48,7 @@ topics: [家族詛咒]
 
 ### 第一個被吞、最後一個出來
 
-赫斯提亞是泰坦[[titan-cronus|克羅諾斯]]和[[titan-rhea|瑞亞]]的第一個孩子。[s1] 克羅諾斯怕被孩子推翻，每生一個就吞一個，所以她是第一個被吞下去的；後來[[god-zeus|宙斯]]逼父親把兄姊吐出來時，順序反過來，她變成最後一個出來的。
+赫斯提亞是泰坦[[titan-cronus|克羅諾斯]]和[[titan-rhea|瑞亞]]的第一個孩子。[s1] 克羅諾斯怕被孩子推翻，每生一個就吞一個，所以她是第一個被吞下去的；後來[[god-zeus|宙斯]]逼父親把兄姊吐出來時，順序反過來，她變成最後一個出來的。[s2]
 
 ### 拒絕兩位男神
 

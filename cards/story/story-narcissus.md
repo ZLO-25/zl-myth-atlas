@@ -17,7 +17,7 @@ panels:
   - {image: img-ai-narcissus-2, text: 仙女厄科被天后希拉詛咒，只能重複別人說的最後幾個字。她愛上了在林中打獵的納西瑟斯。, src: [s1]}
   - {image: img-ai-narcissus-3, text: 納西瑟斯喊：「有人在這裡嗎？」厄科回答：「這裡！」她跑出來想擁抱他，他卻厭惡地推開她。, src: [s1]}
   - {image: img-ai-narcissus-4, text: 被拒絕的厄科躲進山洞，日漸消瘦，最後身體化成石頭，只剩下聲音留在山谷裡。, src: [s1]}
-  - {image: img-ai-narcissus-5, text: 一位被他拒絕的人向天祈求：讓他也愛上得不到的人。復仇女神聽見了。, src: [s1]}
+  - {image: img-ai-narcissus-5, text: 一位被他拒絕的人向天祈求：讓他也愛上得不到的人。報應女神涅墨西斯聽見了。, src: [s1]}
   - {image: img-ai-narcissus-6, text: 納西瑟斯在清澈的泉水邊彎腰喝水，愛上了水中的倒影。他終於明白：「那就是我！」卻再也離不開。, src: [s1]}
   - {image: img-ai-narcissus-7, text: 他在水邊憔悴而死。仙女們要為他火葬時，屍體不見了，原地開出一朵中心金黃、花瓣潔白的花。, src: [s1]}
 sources:

@@ -15,15 +15,17 @@ hook: 伊阿宋：取得金羊毛的英雄，真正的功臣卻是被他辜負�
 domains:
   roles: [航海冒險, 王位繼承者]
   symbols: [金羊毛, 阿爾戈號, 一隻腳的鞋]
-how_to_recognize: 年輕的戰士手捧或伸手去拿一張掛在樹上的金色羊毛，旁邊常有一條巨龍，或一位拿著藥瓶的女子（米蒂亞）。
-how_to_recognize_src: [s2]
+how_to_recognize: 年輕戰士身旁有金羊毛和巨龍（或巨蛇）。本站收錄的兩件作品各有特色：杜里斯杯上，巨蛇把他從嘴裡吐出來，金羊毛掛在後面的樹上；莫羅的油畫裡，他腳踩死龍，身後的米蒂亞手拿藥瓶。
+how_to_recognize_src: [s3, s4]
 family:
   consorts:
-    - {name: 米蒂亞（科爾基斯公主、女巫）, src: [s1]}
+    - {name: 米蒂亞（科爾基斯公主、女巫）, src: [s1, s2]}
 images: [img-jason-douris, img-jason-moreau]
 sources:
   - {id: s1, kind: ancient, cite: 阿波羅多洛斯《書庫》1.9.16–1.9.28, url: 'https://www.theoi.com/Text/Apollodorus1.html'}
   - {id: s2, kind: modern, cite: World History Encyclopedia「Jason & the Argonauts」, url: 'https://www.worldhistory.org/article/425/jason--the-argonauts/', accessed: '2026-11-02'}
+  - {id: s3, kind: modern, cite: 維基共享資源：杜里斯杯（梵蒂岡博物館 16545）作品頁, url: 'https://commons.wikimedia.org/wiki/File:Douris_cup_Jason_Vatican_16545.jpg', accessed: '2026-11-02'}
+  - {id: s4, kind: modern, cite: 維基共享資源：莫羅〈伊阿宋〉（奧賽美術館 RF 2780）作品頁, url: 'https://commons.wikimedia.org/wiki/File:Moreau_-_Jason,_1865,_RF_2780.jpg', accessed: '2026-11-02'}
 today: [argonaut-astronaut]
 era: heroes
 topics: [冒險與試煉, 愛與慾望, 預言]
@@ -33,7 +35,7 @@ topics: [冒險與試煉, 愛與慾望, 預言]
 
 ### 只穿一隻鞋的人
 
-伊俄爾科斯的國王珀利阿斯篡奪了王位，神諭警告他：要提防「只穿一隻鞋的人」。年輕的伊阿宋前來赴宴時，在渡河中掉了一隻鞋。國王一眼認出危險，便要他去取回遠在黑海東岸科爾基斯的金羊毛，心想他必死無疑。[s1]
+伊俄爾科斯的國王珀利阿斯得到神諭警告：要提防「只穿一隻鞋的人」。年輕的伊阿宋前來參加國王祭祀海神的典禮時，在渡河中掉了一隻鞋。國王一眼認出危險，便要他去取回遠在黑海東岸科爾基斯的金羊毛，心想他必死無疑。[s1]
 
 ### 阿爾戈號
 

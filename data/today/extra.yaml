@@ -13,8 +13,8 @@
   category: 天文與太空
   title: 灶神星（4 Vesta）
   cards: [god-hestia]
-  what: 小行星帶中最亮的小行星叫灶神星（Vesta），NASA 的黎明號探測器曾在 2011–2012 年環繞它觀測。
-  diff: 名字取自羅馬灶神維斯塔，也就是希臘的赫斯提亞。她在神話裡幾乎沒有故事，卻在天上擁有一顆用肉眼有時就看得到的小行星。
+  what: 小行星帶中質量第二大的天體叫灶神星（Vesta），NASA 的黎明號探測器曾在 2011–2012 年環繞它觀測。
+  diff: 名字取自羅馬灶神維斯塔，也就是希臘的赫斯提亞。她在神話裡幾乎沒有故事，卻在天上擁有一顆小行星。
   status: 已查證
   sources:
     - {cite: NASA「4 Vesta」, url: 'https://science.nasa.gov/solar-system/asteroids/4-vesta/'}
@@ -33,18 +33,18 @@
   category: 英文單字與成語
   title: argonaut 與 astronaut（太空人）
   cards: [hero-jason]
-  what: 英文的太空人 astronaut，是仿照「阿爾戈英雄」（Argonaut，阿爾戈號的水手）造出來的字：「星星的水手」。
-  diff: 伊阿宋的阿爾戈號英雄是去世界盡頭取金羊毛；太空人則是航向星星。兩者共用的是「-naut（水手）」這個字尾。
+  what: 英文的太空人 astronaut，由希臘文的「星星」和「水手」組成，字面就是「星星的水手」。
+  diff: 伊阿宋的阿爾戈號英雄是去世界盡頭取金羊毛；太空人則是航向星星。它和「阿爾戈英雄」（Argonaut）共用「-naut（水手）」這個字尾，但字典沒有說它是仿照 Argonaut 造的。
   status: 已查證
   sources:
     - {cite: Etymonline「astronaut」, url: 'https://www.etymonline.com/word/astronaut'}
     - {cite: 阿波羅多洛斯《書庫》1.9.16, url: 'https://www.theoi.com/Text/Apollodorus1.html'}
 - id: hadestown
   category: 電影、影集、遊戲
-  title: 音樂劇《冥王星城》（Hadestown）
+  title: 音樂劇《Hadestown》（黑帝斯之城）
   cards: [hero-orpheus, story-persephone, god-hades]
-  what: 獲得東尼獎最佳音樂劇的百老匯作品，把奧菲斯與尤麗狄絲、黑帝斯與波瑟芬妮兩對夫妻的故事，搬到一個像經濟大蕭條時代的世界。
-  diff: 劇中黑帝斯是經營地底工廠的老闆，冥界像是礦坑；原典的冥界是亡者的國度。但「最後一步回頭」的結局，和奧維德的版本一樣。
+  what: 獲得東尼獎最佳音樂劇的百老匯作品，把奧菲斯與尤麗狄絲、黑帝斯與波瑟芬妮兩對夫妻的故事，重新搬上舞台。
+  diff: 「最後一步回頭」的結局，和奧維德的版本一樣。
   status: 已查證
   sources:
     - {cite: Hadestown 官方網站, url: 'https://www.hadestown.com/'}
@@ -64,7 +64,7 @@
   title: 忒修斯之船
   cards: [hero-theseus]
   what: 哲學裡著名的「同一性」問題：一艘船的木板全部換過之後，它還是原來那艘船嗎？
-  diff: 這個問題最早的紀錄來自普魯塔克：雅典人一直保存並修補忒修斯的船，哲學家就拿它來爭論。神話英雄留下的，竟然是一道哲學考題。
+  diff: 這個問題最有名的古代紀錄來自普魯塔克：雅典人一直保存並修補忒修斯的船，哲學家就拿它來爭論。神話英雄留下的，竟然是一道哲學考題。
   status: 已查證
   sources:
     - {cite: 普魯塔克《希臘羅馬名人傳．忒修斯傳》23.1, url: 'https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Theseus*.html'}
@@ -83,7 +83,7 @@
   title: 歐洲太空總署的「蓋亞」任務
   cards: [primordial-gaia]
   what: 歐洲太空總署（ESA）的蓋亞（Gaia）太空望遠鏡，替銀河系超過十億顆恆星繪製了立體地圖。
-  diff: 名字原本是一串英文縮寫，剛好拼成大地之母蓋亞。後來設計改了、縮寫不再準確，名字卻保留了下來。神話裡的蓋亞是大地，這架望遠鏡看的卻是天上的星星。
+  diff: 神話裡的蓋亞是大地，這架望遠鏡看的卻是天上的星星。
   status: 已查證
   sources:
     - {cite: 歐洲太空總署「Gaia」, url: 'https://www.esa.int/Science_Exploration/Space_Science/Gaia'}

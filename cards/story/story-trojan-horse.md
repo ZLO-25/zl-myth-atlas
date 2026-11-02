@@ -15,7 +15,7 @@ hook: 特洛伊木馬：十年攻不破的城牆，被一份「禮物」從裡�
 panels:
   - {image: img-ai-trojan-horse-1, text: 圍城十年後，希臘人在雅典娜的幫助下造了一匹巨大的木馬，最勇敢的戰士躲進馬肚裡。, src: [s1]}
   - {image: img-ai-trojan-horse-2, text: 其餘的希臘人燒掉營地，把船開到附近的小島後面躲起來，看起來像是放棄回家了。, src: [s3]}
-  - {image: img-ai-trojan-horse-3, text: 祭司拉奧孔大喊：「不管那是什麼，我都怕希臘人，就算他們帶著禮物。」他把長矛擲向木馬。, src: [s2]}
+  - {image: img-ai-trojan-horse-3, text: 祭司拉奧孔大喊：「不管那是什麼，我都怕希臘人，就算他們帶著禮物。」他把長矛擲向木馬。, src: [s2, s6]}
   - {image: img-ai-trojan-horse-4, text: 一個叫西農的希臘人故意被抓，編出一套謊話：這是獻給雅典娜的祭品，拖進城就能保佑特洛伊。, src: [s2]}
   - {image: img-ai-trojan-horse-5, text: 兩條巨大的海蛇從海上游來，把拉奧孔和他的兩個兒子纏死。特洛伊人認定這是神的懲罰，於是把木馬拖進城。, src: [s2]}
   - {image: img-ai-trojan-horse-6, text: 深夜，戰士從馬肚爬出，打開城門。希臘大軍湧入，特洛伊在火光中淪陷。, src: [s2]}
@@ -24,7 +24,8 @@ sources:
   - {id: s2, kind: ancient, cite: 維吉爾《埃涅阿斯紀》卷 2, url: 'http://classics.mit.edu/Virgil/aeneid.2.ii.html'}
   - {id: s3, kind: ancient, cite: 阿波羅多洛斯《書庫》摘要 5.14–5.21, url: 'https://www.theoi.com/Text/ApollodorusE.html'}
   - {id: s4, kind: ancient, cite: 荷馬《奧德賽》4.271–289（海倫模仿妻子們的聲音）, url: 'https://www.theoi.com/Text/HomerOdyssey4.html'}
-  - {id: s5, kind: modern, cite: World History Encyclopedia「Trojan Horse」, url: 'https://www.worldhistory.org/Trojan_Horse/', accessed: '2026-11-02'}
+  - {id: s5, kind: modern, cite: World History Encyclopedia 圖片條目「Trojan Horse」（米克諾斯陶罐）, url: 'https://www.worldhistory.org/image/1365/trojan-horse/', accessed: '2026-11-02'}
+  - {id: s6, kind: ancient, cite: 維吉爾《埃涅阿斯紀》2.49 拉丁原文, url: 'https://www.thelatinlibrary.com/vergil/aen2.shtml'}
 images: [img-trojan-mykonos, img-laocoon, img-trojan-tiepolo]
 causes:
   - {id: hero-odysseus, rel: 直接引發, why: 奧德修斯把藏著戰士的木馬帶進特洛伊城。, src: [s1]}
@@ -46,4 +47,4 @@ topics: [戰爭, 智慧與詭計]
 
 ### 最早的木馬圖像
 
-在希臘米克諾斯島出土的一只大陶罐（約前 670 年）上，刻著一匹有輪子的馬，馬身開著小窗，窗裡露出戰士的臉。這是目前已知最早的木馬圖像之一。[s5]
+在希臘米克諾斯島出土的一只大陶罐（約前 670 年）上，刻著一匹裝了輪子的木馬，是現存很早的木馬圖像。[s5]

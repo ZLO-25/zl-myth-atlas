@@ -16,8 +16,8 @@ hook: 埃涅阿斯：從戰敗者變成建國者，羅馬人替自己找來的�
 domains:
   roles: [羅馬人的祖先, 虔誠（盡責）]
   symbols: [背上的老父親, 家神像]
-how_to_recognize: 一位男子背著年邁的父親、手牽一個小男孩，從燃燒的城市逃出來。貝尼尼的雕像把三代人疊在一起，最好認。
-how_to_recognize_src: [s7]
+how_to_recognize: 一位男子背著年邁的父親逃出特洛伊，古代錢幣和陶瓶就很愛畫這一幕。本站收錄的貝尼尼雕像把三代人疊在一起：父親抱著家神像，小兒子跟在腳邊。
+how_to_recognize_src: [s7, s8]
 family:
   parents:
     - {name: 安喀塞斯（特洛伊王族）, src: [s1]}
@@ -33,13 +33,14 @@ sources:
   - {id: s5, kind: ancient, cite: 維吉爾《埃涅阿斯紀》卷 4（狄多）, url: 'http://classics.mit.edu/Virgil/aeneid.4.iv.html'}
   - {id: s6, kind: modern, cite: World History Encyclopedia「Aeneid」, url: 'https://www.worldhistory.org/Aeneid/', accessed: '2026-11-02'}
   - {id: s7, kind: modern, cite: World History Encyclopedia「Aeneas」, url: 'https://www.worldhistory.org/Aeneas/', accessed: '2026-11-02'}
+  - {id: s8, kind: modern, cite: 維基共享資源：貝尼尼〈埃涅阿斯、安喀塞斯與阿斯卡尼俄斯〉作品頁, url: 'https://commons.wikimedia.org/wiki/File:Aeneas,_Anchises,_and_Ascanius_by_Bernini.jpg', accessed: '2026-11-02'}
 greek_vs_roman:
   text: 在希臘的荷馬史詩裡，埃涅阿斯只是特洛伊這一方的二線英雄，荷馬只說他命中注定會活下來，讓特洛伊的血脈延續。羅馬人卻把他升格成整個民族的祖先：奧古斯都時代的詩人維吉爾寫下《埃涅阿斯紀》，讓羅馬的起源和希臘最有名的戰爭接上線，也替自稱愛神後代的凱撒家族背書。
-  src: [s2, s6]
+  src: [s2, s4, s6]
 causes:
   - {id: story-trojan-war, rel: 直接引發, why: 特洛伊陷落，他才帶著倖存者出海尋找新家園。, src: [s3]}
 effects:
-  - {id: story-romulus-remus, rel: 背景, why: 羅馬傳說中，建城的羅慕路斯兄弟是他的後代。, src: [s6]}
+  - {id: story-romulus-remus, rel: 背景, why: 羅馬傳說中，建城的羅慕路斯是他兒子阿斯卡尼俄斯的後代。, src: [s6]}
 history_river: {url: 'https://zlo-25.github.io/Long-History/', label: 羅馬與迦太基的真實歷史}
 today: [july]
 era: rome
@@ -62,4 +63,4 @@ topics: [羅馬借用希臘, 宿命, 冥界之旅, 返鄉]
 
 ### 羅馬人的祖先
 
-埃涅阿斯最後抵達義大利，打贏了當地的戰爭。維吉爾讓天神朱比特預言：他的兒子尤魯斯（Iulus）將建立王國，後代會出一位名叫尤利烏斯的偉人。[s4] 「尤利烏斯」正是凱撒的家族名。[s6] 一個特洛伊的敗將，就這樣成了羅馬帝國的開國神話。
+埃涅阿斯最後抵達義大利，打贏了當地的戰爭。維吉爾讓天神朱比特預言：他的兒子尤魯斯（Iulus）將建立王國，後代會出一位名叫尤利烏斯的偉人。[s4] 「尤利烏斯」正是凱撒的家族名。[s4] 一個特洛伊的敗將，就這樣成了羅馬帝國的開國神話。

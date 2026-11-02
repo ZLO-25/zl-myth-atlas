@@ -14,18 +14,20 @@ three_lines:
 hook: 卡厄斯：宇宙最初那道張開的大裂縫；「亂七八糟」的意思是羅馬人以後才加上的。
 domains:
   roles: [宇宙最初的空隙, 黑暗與虛空的源頭]
-  symbols: [無（古代幾乎沒有它的圖像）]
-how_to_recognize: 古代陶瓶與雕像幾乎沒有畫過卡厄斯，因為它不是有臉的人物，而是一片空間。你看到的「混沌」圖多半是 19 世紀以後畫家的想像，通常是一片翻騰的煙霧、火光與糾纏的人形。
+  symbols: [無（它不是有形體的神）]
+how_to_recognize: 卡厄斯不是有臉孔的人物，而是天地之間的一道空隙，所以很難「認出」它。本站收錄的瓦茨畫作，把它畫成左邊翻騰的火與煙、右邊慢慢站起來排成隊伍的一排巨人。
+how_to_recognize_src: [s3, s4]
 family:
   children:
     - {name: 厄瑞玻斯（幽暗）, src: [s1]}
     - {name: 倪克斯（黑夜）, src: [s1]}
-few_images: 混沌在古希臘幾乎沒有固定的形象：它不是一個有臉孔的神，而是「最初的那片空隙」，所以古代沒有留下混沌的雕像或陶瓶畫，後世作品也很少。
+few_images: 混沌不是有臉孔的神，而是「最初的那片空隙」。本站找不到授權清楚、可靠的古代混沌圖像，目前只收錄一件 19 世紀的畫作。
 images: [img-chaos-watts]
 sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》116–125, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
   - {id: s2, kind: ancient, cite: 奧維德《變形記》1.5–20, url: 'https://www.theoi.com/Text/OvidMetamorphoses1.html'}
   - {id: s3, kind: modern, cite: Theoi.com「Khaos」, url: 'https://www.theoi.com/Protogenos/Khaos.html', accessed: '2026-11-02'}
+  - {id: s4, kind: modern, cite: 維基共享資源：瓦茨〈混沌〉作品頁, url: 'https://commons.wikimedia.org/wiki/File:Assistants_and_George_Frederic_Watts_-_Chaos_-_Google_Art_Project.jpg', accessed: '2026-11-02'}
 effects:
   - {id: primordial-gaia, rel: 背景, why: 赫西俄德的順序是先有卡厄斯，接著大地蓋亞才出現。, src: [s1]}
 disputed:
@@ -50,7 +52,7 @@ topics: [創世]
 
 ### 空隙怎麼變成「混亂」？
 
-古希臘文的 chaos 跟「張開、打呵欠」是同一家族的字，比較接近「裂口、深淵」。[s3] 那為什麼今天 chaos 是「亂七八糟」？
+古希臘文的 chaos 字面意思是「裂口、深淵」，指天與地之間的空隙。[s3] 那為什麼今天 chaos 是「亂七八糟」？
 
 關鍵在羅馬詩人奧維德。他在《變形記》開頭重新講了一次創世：天地分開以前，世界是「一團粗糙、沒有秩序的物質」，冷與熱、濕與乾、軟與硬全攪在一起，他叫它 Chaos，直到某位神把它們分開，才有了天、地、海。[s2] 後世歐洲人讀奧維德比讀赫西俄德多，chaos 也就從「空隙」變成了「混亂」。
 

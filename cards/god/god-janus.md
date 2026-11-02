@@ -21,7 +21,7 @@ images: [img-janus-as, img-janus-head]
 sources:
   - {id: s1, kind: ancient, cite: 奧維德《歲時記》1.63–288, url: 'https://www.theoi.com/Text/OvidFasti1.html'}
   - {id: s2, kind: ancient, cite: 李維《羅馬史》1.19.2–3, url: 'https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0151:book=1:chapter=19'}
-  - {id: s3, kind: modern, cite: World History Encyclopedia「Janus」（Mark Wasson, 2015）, url: 'https://www.worldhistory.org/Janus/', accessed: '2026-11-02'}
+  - {id: s3, kind: modern, cite: World History Encyclopedia「Janus」（Donald L. Wasson, 2015）, url: 'https://www.worldhistory.org/Janus/', accessed: '2026-11-02'}
 greek_vs_roman:
   text: 雅努斯是少數「羅馬有、希臘沒有」的大神，羅馬人無法替他找到希臘對應。他在祈禱時常第一個被呼喚，因為任何事情要開始，都得先經過他這扇門。
   src: [s3]
@@ -36,7 +36,7 @@ topics: [羅馬借用希臘]
 
 奧維德在《歲時記》裡寫到一月一日，乾脆讓雅努斯親自現身回答問題。詩人問他：為什麼只有你有兩張臉？雅努斯說，就像家家戶戶的門，一面朝街、一面朝屋裡，守門人站在門口，看得見進來的人也看得見出去的人；他守的是天上的門，所以兩邊都要看。[s1]
 
-詩人又問：為什麼新年要從你開始？他回答：一切開始都屬於我。[s1] 這就是一月以他命名的原因。
+詩人又問：祭拜其他神時，為什麼要先敬你？他回答：我守著門檻，你們要經過我，才能到達想祈求的神。[s1]
 
 ### 戰爭之門
 

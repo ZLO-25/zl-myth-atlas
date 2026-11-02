@@ -25,7 +25,7 @@ sources:
   - {id: s3, kind: modern, cite: World History Encyclopedia「Daedalus」, url: 'https://www.worldhistory.org/Daedalus/', accessed: '2026-11-02'}
 images: [img-icarus-bruegel, img-icarus-relief, img-icarus-leighton]
 causes:
-  - {id: monster-minotaur, rel: 背景, why: 代達洛斯替米諾斯蓋了關住牛頭人的迷宮，因此被困在島上。, src: [s2]}
+  - {id: monster-minotaur, rel: 背景, why: 代達洛斯替米諾斯蓋了關住牛頭人的迷宮，因此被困在島上。, src: [s2, s3]}
 today: [icarus-landscape, labyrinth-word]
 era: heroes
 topics: [傲慢與懲罰, 冒險與試煉]
@@ -33,7 +33,7 @@ topics: [傲慢與懲罰, 冒險與試煉]
 
 ## 故事
 
-代達洛斯是神話中最聰明的發明家，克里特島上關住[[monster-minotaur|米諾陶洛斯]]的迷宮就是他設計的。[s2] 阿波羅多洛斯說，伊卡洛斯墜落的那片海就叫伊卡利亞海，屍體被沖上的小島後來叫伊卡利亞島。[s2][s3]
+代達洛斯是神話中最聰明的發明家，克里特島上關住[[monster-minotaur|米諾陶洛斯]]的迷宮就是他設計的。[s3] 阿波羅多洛斯說，伊卡洛斯墜落的那片海因此叫伊卡利亞海；[s2] 另有說法是，屍體被沖上的小島後來叫伊卡利亞島。[s3]
 
 ### 布勒哲爾的畫：你看見他了嗎？
 

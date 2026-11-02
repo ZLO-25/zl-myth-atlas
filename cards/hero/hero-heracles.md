@@ -17,7 +17,7 @@ domains:
   roles: [力量, 英雄試煉, 保護人類對抗怪物]
   symbols: [獅皮（頭套是獅頭）, 木棒, 弓箭]
 how_to_recognize: 肌肉發達、留鬍子的男子，披著一張獅子皮（獅頭常當成頭盔戴在頭上），手拿粗木棒。看到「獅皮＋木棒」，幾乎一定是他。
-how_to_recognize_src: [s7]
+how_to_recognize_src: [s8]
 family:
   parents:
     - {id: god-zeus, src: [s1]}
@@ -33,11 +33,10 @@ sources:
   - {id: s4, kind: ancient, cite: 阿波羅多洛斯《書庫》2.7.6–2.7.7（毒袍與成神）, url: 'https://www.theoi.com/Text/Apollodorus2.html'}
   - {id: s5, kind: ancient, cite: 赫西俄德《神譜》526–534（射死啄食普羅米修斯的鷹）, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
   - {id: s6, kind: ancient, cite: 李維《羅馬史》1.7.3–15（海克力斯在羅馬殺死卡庫斯）, url: 'https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0151:book=1:chapter=7'}
-  - {id: s7, kind: modern, cite: Theoi.com「Heracles」, url: 'https://www.theoi.com/greek-mythology/heracles.html', accessed: '2026-11-02'}
   - {id: s8, kind: modern, cite: World History Encyclopedia「Hercules」, url: 'https://www.worldhistory.org/hercules/', accessed: '2026-11-02'}
 greek_vs_roman:
-  text: 羅馬人很早就崇拜海克力斯，相傳他趕著革律翁的牛經過未來的羅馬城，殺死偷牛的怪物卡庫斯，羅馬牛市旁的「最大祭壇」就是為他設的。對羅馬商人與軍人來說，他是保佑旅途與事業成功的神。
-  src: [s6, s8]
+  text: 羅馬人很早就崇拜海克力斯。相傳他趕著革律翁的牛經過未來的羅馬城，殺死偷牛的怪物卡庫斯，當地人為他設立了「最大祭壇」（Ara Maxima）祭拜他。
+  src: [s6]
 causes:
   - {id: god-hera, rel: 直接引發, why: 希拉嫉妒丈夫的私生子，讓他發瘋殺子，才有十二項任務。, src: [s2]}
 effects:
@@ -73,8 +72,8 @@ topics: [冒險與試煉, 神的嫉妒, 冥界之旅, 怪物]
 12 把冥界的看門犬帶到人間
 ```
 
-國王原本只要求十項，但他說第二項有人幫忙、第五項收了報酬，都不算，所以變成十二項。[s3] 第十一項裡，海克力斯暫時替[[titan-atlas|亞特拉斯]]扛起天空，讓他去摘金蘋果；第十二項，他下到[[god-hades|黑帝斯]]的冥界，徒手制服了看門犬。[s3]
+神諭原本只規定十項任務，但國王說第二項有人幫忙、第五項收了報酬，都不算，所以變成十二項。[s3] 第十一項裡，海克力斯暫時替[[titan-atlas|亞特拉斯]]扛起天空，讓他去摘金蘋果；第十二項，他下到[[god-hades|黑帝斯]]的冥界，徒手制服了看門犬。[s3]
 
 ### 死於一件衣服
 
-最後殺死海克力斯的不是怪物，而是妻子的醋意。半人馬涅索斯臨死前騙了得伊阿妮拉，說他的血可以當愛情藥。多年後她怕丈夫移情別戀，把血塗在一件長袍上送給他；毒血滲進皮膚，痛得海克力斯生不如死。他自己堆起柴堆，躺上去燒死。據說柴堆燒起時，一片雲把他接上天，他成了神，娶了青春女神赫柏。[s4]
+最後殺死海克力斯的不是怪物，而是妻子的醋意。半人馬涅索斯臨死前騙了得伊阿妮拉，說他的血可以當愛情藥。多年後她怕丈夫移情別戀，把血塗在一件長袍上送給他；毒血滲進皮膚，痛得海克力斯生不如死。他命人在山上堆起柴堆，自己躺了上去。據說柴堆燒起時，一片雲把他接上天，他成了神，娶了青春女神赫柏。[s4]

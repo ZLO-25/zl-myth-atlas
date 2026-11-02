@@ -9,7 +9,7 @@ name_orig: Ποσειδῶν / Poseidon
 roman: {name_zh: 涅普頓, name_la: Neptunus, name_en: Neptune, note: 也譯「尼普頓」「納普敦」}
 reality: {level: 純神話}
 three_lines:
-  - 宙斯的哥哥，抽籤分到大海，也掌管地震與馬匹。
+  - 宙斯的兄弟（赫西俄德說是哥哥，荷馬說是弟弟），抽籤分到大海，也掌管地震與馬匹。
   - 和雅典娜搶雅典的守護權輸了；因為兒子獨眼巨人被弄瞎，讓奧德修斯在海上漂流十年。
   - 海王星（Neptune）用他的羅馬名；《波西傑克森》的主角就是他的兒子。
 hook: 波賽頓：拿三叉戟的海神，一生氣就地震、起大浪。
@@ -33,10 +33,10 @@ sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》453–458, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
   - {id: s2, kind: ancient, cite: 赫西俄德《神譜》930–933, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
   - {id: s3, kind: ancient, cite: 荷馬《奧德賽》1.19–21、1.68–75, url: 'https://www.theoi.com/Text/HomerOdyssey1.html'}
-  - {id: s4, kind: ancient, cite: 荷馬《伊里亞德》15.187–193, url: 'https://www.theoi.com/Text/HomerIliad15.html'}
+  - {id: s4, kind: ancient, cite: 荷馬《伊里亞德》15.165–166、15.185–193, url: 'https://www.theoi.com/Text/HomerIliad15.html'}
   - {id: s5, kind: ancient, cite: 阿波羅多洛斯《書庫》3.14.1（與雅典娜爭雅典）, url: 'https://www.theoi.com/Text/Apollodorus3.html'}
   - {id: s6, kind: ancient, cite: 奧維德《變形記》4.794–803（梅杜莎與海神）, url: 'https://www.theoi.com/Text/OvidMetamorphoses4.html'}
-  - {id: s7, kind: ancient, cite: 阿波羅多洛斯《書庫》3.15.7, url: 'https://www.theoi.com/Text/Apollodorus3.html'}
+  - {id: s7, kind: ancient, cite: 阿波羅多洛斯《書庫》3.15.7, url: 'https://cts.perseids.org/read/greekLit/tlg0548/tlg001/perseus-eng2/3.15.6-3.16.2'}
   - {id: s8, kind: modern, cite: Theoi.com「Poseidon」, url: 'https://www.theoi.com/Olympios/Poseidon.html', accessed: '2026-11-02'}
   - {id: s9, kind: modern, cite: World History Encyclopedia「Neptune」（Liana Miate, 2022）, url: 'https://www.worldhistory.org/Neptune/', accessed: '2026-11-02'}
 greek_vs_roman:
@@ -55,7 +55,7 @@ topics: [戰爭, 神的嫉妒]
 
 波賽頓是克羅諾斯與瑞亞的兒子，也被父親吞下過。[s1] [[event-titanomachy|泰坦之戰]]後三兄弟抽籤：[[god-zeus|宙斯]]得到天空，[[god-hades|黑帝斯]]得到冥界，波賽頓得到灰色的大海。荷馬讓波賽頓親口強調：我和宙斯是平起平坐的，大地與奧林帕斯山是大家共有的。[s4]
 
-他的妻子是海中仙女安菲特里忒，兒子特里同是半人半魚的海神。[s2] 古人叫他「撼地者」，因為地震也歸他管；馬也是他的聖獸。[s8]
+他的妻子是海中仙女安菲特里忒，兒子特里同是掌管深海的海神。[s2] 古人叫他「撼地者」，因為地震也歸他管；馬也是他的聖獸。[s8]
 
 ### 輸掉雅典
 

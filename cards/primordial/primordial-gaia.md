@@ -32,7 +32,7 @@ images: [img-gaia-pergamon, img-gaia-erichthonius, img-tellus-mosaic]
 sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》116–153（蓋亞與她的子女）, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
   - {id: s2, kind: ancient, cite: 赫西俄德《神譜》154–182（鐮刀與閹割烏拉諾斯）, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
-  - {id: s3, kind: ancient, cite: 赫西俄德《神譜》468–491（幫瑞亞藏起宙斯）, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
+  - {id: s3, kind: ancient, cite: 赫西俄德《神譜》468–491（幫瑞亞藏起宙斯）、617–628（建議放出百臂巨人）, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
   - {id: s4, kind: ancient, cite: 赫西俄德《神譜》820–822（與塔爾塔羅斯生下堤豐）, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
   - {id: s5, kind: modern, cite: Theoi.com「Gaia」, url: 'https://www.theoi.com/Protogenos/Gaia.html', accessed: '2026-11-02'}
 causes:
@@ -57,7 +57,7 @@ topics: [創世, 王權更替]
 
 烏拉諾斯厭惡這些孩子，孩子一出生就被他塞回蓋亞體內，不讓他們見光。被撐得痛苦不堪的蓋亞決定反擊：她造出一把堅硬無比的大鐮刀，問孩子們誰敢替她報仇。只有克羅諾斯站了出來。[s2]
 
-夜裡烏拉諾斯來到蓋亞身邊，埋伏的克羅諾斯一刀割下了父親的生殖器。天空從此和大地分開。[s2]
+夜裡烏拉諾斯來到蓋亞身邊，埋伏的克羅諾斯一刀割下了父親的生殖器。[s2]
 
 ### 第二次政變：一塊石頭
 
@@ -65,4 +65,4 @@ topics: [創世, 王權更替]
 
 ### 大地不只站在一邊
 
-宙斯稱王以後，蓋亞又和地底深淵塔爾塔羅斯生下了最可怕的怪物堤豐，向宙斯挑戰。[s4] 她不忠於任何一位國王，而是站在「被壓制的孩子」那一邊。這也讓她成為希臘神話裡最古老、最難捉摸的力量。[s5]
+宙斯稱王以後，蓋亞又和地底深淵塔爾塔羅斯生下了最可怕的怪物堤豐，向宙斯挑戰。[s4] 她先後反抗烏拉諾斯、克羅諾斯與宙斯，因為這三位國王都囚禁過她的孩子。[s5] 這也讓她成為希臘神話裡最古老、最難捉摸的力量。

@@ -16,8 +16,8 @@ hook: 克羅諾斯：用鐮刀奪位、吞子保位，最後還是栽在兒子�
 domains:
   roles: [泰坦之王, 收成（羅馬的薩圖恩）]
   symbols: [鐮刀]
-how_to_recognize: 手拿鐮刀的大鬍子老人，常常正在吃小孩或抱著一塊用布包著的石頭。後世常把他和「時間老人」（Chronos）混在一起，畫成有翅膀、拿沙漏的老人，其實是兩個不同的名字。
-how_to_recognize_src: [s4]
+how_to_recognize: 拿著鐮刀的老人，常常正在咬嬰兒（魯本斯的〈農神〉），或從妻子手上接過一個布包，裡面其實是石頭（羅馬祭壇浮雕）。
+how_to_recognize_src: [s6, s7]
 family:
   parents:
     - {id: primordial-uranus, src: [s1]}
@@ -36,8 +36,9 @@ sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》137–182, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
   - {id: s2, kind: ancient, cite: 赫西俄德《神譜》453–506, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
   - {id: s3, kind: ancient, cite: 維吉爾《埃涅阿斯紀》8.319–327（薩圖恩在拉丁姆的黃金時代；德萊頓英譯本行數不同）, url: 'http://classics.mit.edu/Virgil/aeneid.8.viii.html'}
-  - {id: s4, kind: modern, cite: Theoi.com「Kronos」, url: 'https://www.theoi.com/Titan/TitanKronos.html', accessed: '2026-11-02'}
   - {id: s5, kind: modern, cite: World History Encyclopedia「Saturn」（Donald L. Wasson, 2015）, url: 'https://www.worldhistory.org/Saturn/', accessed: '2026-11-02'}
+  - {id: s6, kind: modern, cite: 維基共享資源：魯本斯〈農神〉作品頁, url: 'https://commons.wikimedia.org/wiki/File:Rubens_saturn.jpg', accessed: '2026-11-02'}
+  - {id: s7, kind: modern, cite: 維基共享資源：瑞亞把石頭交給克羅諾斯（羅馬祭壇浮雕線描）作品頁, url: "https://commons.wikimedia.org/wiki/File:Rhéa_présentant_une_pierre_emmaillotée_à_Cronos_dessin_du_bas-relief_d'un_autel_romain.jpg", accessed: '2026-11-02'}
 causes:
   - {id: primordial-uranus, rel: 直接引發, why: 父親把孩子關在大地體內，母親蓋亞把鐮刀交給他。, src: [s1]}
 effects:
@@ -70,4 +71,4 @@ topics: [王權更替, 預言, 宿命]
 
 ### 到了羅馬，換了一張臉
 
-羅馬詩人維吉爾講的是另一個版本：被宙斯（朱比特）趕下台的薩圖恩逃到義大利，教當地人種田、立法，那段日子就是「黃金時代」。[s3] 所以同一位神，在希臘是吞子的暴君，在羅馬卻是懷念的好國王。
+羅馬詩人維吉爾講的是另一個版本：被宙斯（朱比特）趕下台的薩圖恩逃到義大利，把散居山間的人聚集起來、為他們立法，那段日子就是「黃金時代」。[s3] 所以同一位神，在希臘是吞子的暴君，在羅馬卻是懷念的好國王。

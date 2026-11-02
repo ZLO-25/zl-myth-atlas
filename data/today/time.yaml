@@ -14,7 +14,7 @@
   title: 三月 March
   cards: [god-ares]
   what: 三月 March 來自羅馬戰神馬爾斯（Mars）。
-  diff: 羅馬古曆一年從三月開始，正是春天可以出兵打仗的季節。羅馬的馬爾斯比希臘的阿瑞斯受尊敬得多，是羅馬人的祖先。
+  diff: 羅馬古曆一年從三月開始，奧維德說，羅馬人把一年的第一個月獻給馬爾斯，因為他是建城者羅慕路斯的父親。
   status: 已查證
   sources:
     - {cite: Etymonline「March」, url: 'https://www.etymonline.com/word/March'}
@@ -33,10 +33,11 @@
   category: 時間
   title: 四月 April、五月 May
   cards: [god-aphrodite, god-hermes]
-  what: 常見說法是：四月和愛神阿芙蘿黛蒂（Aphrodite）有關，五月來自荷米斯的母親邁亞（Maia）。
+  what: 常見說法是：四月和愛神阿芙蘿黛蒂（Aphrodite）有關，五月來自女神邁亞（Maia）：字典說是羅馬的大地女神，奧維德則說是亞特拉斯的女兒（荷米斯的母親）。
   diff: 這兩個月份的字源至今沒有定論。四月也可能來自拉丁文 aperire（打開，萬物開花）；五月也可能來自 maiores（長輩）。奧維德自己就列了不同的說法。
   status: 說法未證實
   sources:
+    - {cite: 奧維德《歲時記》5.1–110, url: 'https://www.theoi.com/Text/OvidFasti5.html'}
     - {cite: Etymonline「April」, url: 'https://www.etymonline.com/word/April'}
     - {cite: Etymonline「May」, url: 'https://www.etymonline.com/word/May'}
     - {cite: 奧維德《歲時記》4.61–132, url: 'https://www.theoi.com/Text/OvidFasti4.html'}

@@ -1,12 +1,12 @@
 # 奧德修斯的航線：古代地理學家與後世學者的「推測」，不是史實。荷馬並沒有留下地圖。
 - {name: 喀孔涅斯人的城市, guess: 色雷斯沿岸（今希臘東北）, lat: 40.87, lng: 25.51, book: 卷 9, note: 離開特洛伊後第一站，奧德修斯的人洗劫城市後被反擊。, src: [{cite: 荷馬《奧德賽》9.39–61, url: 'https://www.theoi.com/Text/HomerOdyssey9.html'}]}
 - {name: 食蓮人的國度, guess: 突尼西亞傑爾巴島（一說）, lat: 33.80, lng: 10.85, book: 卷 9, note: 古代地理學家史特拉波記載，有人認為傑爾巴島（古名梅寧克斯）就是食蓮人之地。, src: [{cite: 史特拉波《地理學》17.3.17, url: 'https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/17C*.html'}]}
-- {name: 獨眼巨人之島, guess: 西西里島東岸（一說）, lat: 37.60, lng: 15.15, book: 卷 9, note: 古人多半把獨眼巨人放在西西里。, src: [{cite: 史特拉波《地理學》1.2.9, url: 'https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/1B*.html'}]}
-- {name: 風神的浮島, guess: 義大利利帕里群島（一說）, lat: 38.48, lng: 14.95, book: 卷 10, note: 史特拉波認為風神埃俄羅斯的島就是利帕里群島。, src: [{cite: 史特拉波《地理學》1.2.9, url: 'https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/1B*.html'}]}
-- {name: 喀耳刻的島, guess: 義大利拉齊奧的奇爾切奧山（一說）, lat: 41.23, lng: 13.06, book: 卷 10, note: 這座海角古名「喀耳刻之地」，古人就把它和女巫連在一起。, src: [{cite: 史特拉波《地理學》1.2.12, url: 'https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/1B*.html'}]}
+- {name: 獨眼巨人之島, guess: 西西里島東岸（一說）, lat: 37.60, lng: 15.15, book: 卷 9, note: 古人多半把獨眼巨人放在西西里。, src: [{cite: 史特拉波《地理學》1.2.9, url: 'https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/1B1*.html'}]}
+- {name: 風神的浮島, guess: 義大利利帕里群島（一說）, lat: 38.48, lng: 14.95, book: 卷 10, note: 史特拉波記載，傳說埃俄羅斯曾統治利帕里一帶的島嶼。, src: [{cite: 史特拉波《地理學》1.2.9, url: 'https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/1B1*.html'}]}
+- {name: 喀耳刻的島, guess: 義大利拉齊奧的奇爾切奧山（一說）, lat: 41.23, lng: 13.06, book: 卷 10, note: 史特拉波說，這座像島一樣的山叫「喀耳刻之山」，山上還有喀耳刻的神廟。, src: [{cite: 史特拉波《地理學》5.3.6, url: 'https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/5C*.html'}]}
 - {name: 冥界入口, guess: 荷馬說在世界盡頭的大洋邊；後人指向阿韋爾努斯湖等地, lat: 40.84, lng: 14.08, book: 卷 11, note: 這個點只是後世的一種推測，荷馬的冥界在「大洋的盡頭」。, src: [{cite: 荷馬《奧德賽》11.13–22, url: 'https://www.theoi.com/Text/HomerOdyssey11.html'}]}
-- {name: 海妖賽蓮, guess: 阿馬爾菲海岸外的小島（一說）, lat: 40.58, lng: 14.43, book: 卷 12, note: 史特拉波提到這一帶的小島被稱為「海妖之島」。, src: [{cite: 史特拉波《地理學》1.2.12–1.2.13, url: 'https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/1B*.html'}]}
-- {name: 斯庫拉與卡律布狄斯, guess: 墨西拿海峽（西西里與義大利之間）, lat: 38.25, lng: 15.63, book: 卷 12, note: 這是最常見的推測，海峽的漩渦被想像成卡律布狄斯。, src: [{cite: 史特拉波《地理學》1.2.9, url: 'https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/1B*.html'}]}
+- {name: 海妖賽蓮, guess: 阿馬爾菲海岸外的小島（一說）, lat: 40.58, lng: 14.43, book: 卷 12, note: 史特拉波提到這一帶的小島被稱為「海妖之島」。, src: [{cite: 史特拉波《地理學》1.2.12–1.2.13, url: 'https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/1B1*.html'}]}
+- {name: 斯庫拉與卡律布狄斯, guess: 墨西拿海峽（西西里與義大利之間）, lat: 38.25, lng: 15.63, book: 卷 12, note: 這是最常見的推測，史特拉波就把斯庫拉與卡律布狄斯放在這道海峽。, src: [{cite: 史特拉波《地理學》1.2.9, url: 'https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/1B1*.html'}]}
 - {name: 太陽神的牧場（特里那基亞）, guess: 西西里島（一說）, lat: 37.20, lng: 14.40, book: 卷 12, note: 同伴偷宰聖牛，宙斯擊沉船隻。, src: [{cite: 荷馬《奧德賽》12.260–419, url: 'https://www.theoi.com/Text/HomerOdyssey12.html'}]}
 - {name: 卡呂普索的島（俄古癸亞）, guess: 地點眾說紛紜，有人說是馬爾他的戈佐島, lat: 36.04, lng: 14.25, book: 卷 5、7, note: 古代就沒有共識；這個點只是其中一種說法。, src: [{cite: 荷馬《奧德賽》7.244–266, url: 'https://www.theoi.com/Text/HomerOdyssey7.html'}]}
 - {name: 費埃克斯人的國度（斯克里亞）, guess: 科孚島（一說）, lat: 39.62, lng: 19.92, book: 卷 6–13, note: 古希臘人就把科孚（科西拉）和費埃克斯人連在一起。, src: [{cite: 修昔底德《伯羅奔尼撒戰爭史》1.25, url: 'https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0200:book=1:chapter=25'}]}

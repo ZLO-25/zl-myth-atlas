@@ -8,8 +8,8 @@ name_en: Mount Olympus
 name_orig: Ὄλυμπος / Olympos
 reality:
   level: 神話裡有歷史影子
-  evidence: 奧林帕斯山是真實存在的山，位於希臘北部，是希臘最高峰；神話中山頂上的眾神宮殿則是想像。
-  src: [s3]
+  evidence: 奧林帕斯山是真實存在的山，位於希臘北部的馬其頓地區，是希臘最高峰（2,918 公尺）；神話中山頂上的眾神宮殿則是想像。
+  src: [s3, s4]
 three_lines:
   - 希臘最高的山，傳說宙斯和眾神就住在雲霧繚繞的山頂上。
   - 荷馬說那裡不刮風、不下雨、不下雪，永遠晴朗明亮。
@@ -19,7 +19,9 @@ images: [img-olympus-mytikas]
 sources:
   - {id: s1, kind: ancient, cite: 荷馬《奧德賽》6.41–47, url: 'https://www.theoi.com/Text/HomerOdyssey6.html'}
   - {id: s2, kind: ancient, cite: 荷馬《伊里亞德》1.493–499、1.590–611, url: 'https://www.theoi.com/Text/HomerIliad1.html'}
-  - {id: s3, kind: modern, cite: World History Encyclopedia「Mount Olympus」, url: 'https://www.worldhistory.org/Mount_Olympus/', accessed: '2026-11-02'}
+  - {id: s3, kind: modern, cite: World History Encyclopedia 圖片條目「Mt. Olympus」（Cristos Vlahos）, url: 'https://www.worldhistory.org/image/6241/mt-olympus/', accessed: '2026-11-02'}
+  - {id: s4, kind: modern, cite: Gregory Nagy〈Olympus as mountain and Olympia as venue for the Olympics〉，哈佛大學希臘研究中心 Classical Inquiries（2019）, url: 'https://classical-inquiries.chs.harvard.edu/olympus-as-mountain-and-olympia-as-venue-for-the-olympics-a-question-about-the-naming-of-these-places/', accessed: '2026-11-02'}
+  - {id: s5, kind: modern, cite: World History Encyclopedia「Olympia」（Mark Cartwright, 2012）, url: 'https://www.worldhistory.org/Olympia/', accessed: '2026-11-02'}
 today: [olympics-not-olympus]
 era: olympian
 topics: [創世]
@@ -38,4 +40,4 @@ topics: [創世]
 奧林匹亞（Olympia）    希臘南部的聖地   ─→ 古代奧運舉辦地、宙斯神廟所在
 ```
 
-兩個名字很像，但相距好幾百公里。古代奧運是在奧林匹亞舉行，用來祭祀宙斯；奧林帕斯山則是神話中眾神居住的地方。[s3]
+兩個名字很像，卻是兩個不同的地方。古代奧運在伯羅奔尼撒半島西部的奧林匹亞舉行，用來祭祀宙斯；[s5] 奧林帕斯山則在希臘北部，是神話中眾神居住的地方。[s3][s4]

@@ -31,7 +31,7 @@ family:
 images: [img-aphrodite-milo, img-aphrodite-ludovisi, img-aphrodite-botticelli]
 sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》188–206, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
-  - {id: s2, kind: ancient, cite: 荷馬《伊里亞德》5.370–371, url: 'https://www.theoi.com/Text/HomerIliad5.html'}
+  - {id: s2, kind: ancient, cite: 荷馬《伊里亞德》5.312、5.370–371、5.426–428, url: 'https://www.theoi.com/Text/HomerIliad5.html'}
   - {id: s3, kind: ancient, cite: 荷馬《奧德賽》8.266–366, url: 'https://www.theoi.com/Text/HomerOdyssey8.html'}
   - {id: s4, kind: ancient, cite: 《荷馬詩體頌歌》第 5 首〈致阿芙蘿黛蒂〉, url: 'https://www.theoi.com/Text/HomericHymns3.html'}
   - {id: s5, kind: ancient, cite: 阿波羅多洛斯《書庫》摘要 3.2（帕里斯的評判）, url: 'https://www.theoi.com/Text/ApollodorusE.html'}
@@ -42,7 +42,7 @@ greek_vs_roman:
   src: [s7]
 effects:
   - {id: story-trojan-war, rel: 直接引發, why: 她用海倫收買帕里斯贏得金蘋果，帕里斯帶走海倫，引爆戰爭。, src: [s5]}
-  - {id: hero-aeneas, rel: 背景, why: 她與凡人安喀塞斯生下埃涅阿斯，羅馬人因此自稱愛神後代。, src: [s4]}
+  - {id: hero-aeneas, rel: 背景, why: 她與凡人安喀塞斯生下埃涅阿斯，羅馬人因此自稱愛神後代。, src: [s4, s7]}
 disputed:
   - claim: 阿芙蘿黛蒂是怎麼出生的？
     views:
@@ -63,10 +63,10 @@ topics: [愛與慾望, 神的嫉妒]
 
 阿芙蘿黛蒂嫁給了跛腳的工匠神[[god-hephaestus|赫菲斯托斯]]，卻和英俊的戰神[[god-ares|阿瑞斯]]私通，結果被丈夫用一張隱形的網當場抓包，成了眾神的笑柄。[s3]
 
-她的力量讓眾神頭痛，因為連宙斯都會被她弄得愛上凡人。頌歌說，宙斯為了讓她也嘗嘗這種滋味，讓她愛上了特洛伊王族的牧羊人安喀塞斯。她生下的兒子就是[[hero-aeneas|埃涅阿斯]]。[s4]
+她的力量讓眾神頭痛，因為連宙斯都會被她弄得愛上凡人。頌歌說，宙斯為了讓她也嘗嘗這種滋味，讓她愛上了特洛伊王族、在伊達山上放牛的安喀塞斯。她生下的兒子就是[[hero-aeneas|埃涅阿斯]]。[s4]
 
 ### 一顆金蘋果
 
-在一場婚禮上，不請自來的爭吵女神丟下一顆金蘋果，上面寫著「給最美的女神」。希拉、雅典娜、阿芙蘿黛蒂都說是自己的。宙斯把裁判工作丟給特洛伊王子帕里斯。希拉許諾給他權力，雅典娜許諾給他戰無不勝，阿芙蘿黛蒂許諾給他世上最美的女人：斯巴達王后海倫。帕里斯選了阿芙蘿黛蒂。[s5]
+爭吵女神丟下一顆金蘋果，作為最美女神的獎品，讓希拉、雅典娜、阿芙蘿黛蒂去爭。宙斯把裁判工作丟給特洛伊王子帕里斯。希拉許諾給他權力，雅典娜許諾給他戰無不勝，阿芙蘿黛蒂許諾給他世上最美的女人：斯巴達王后海倫。帕里斯選了阿芙蘿黛蒂。[s5]
 
 他把海倫帶回特洛伊，於是有了十年的[[story-trojan-war|特洛伊戰爭]]。一場選美比賽的代價，是無數人的性命。

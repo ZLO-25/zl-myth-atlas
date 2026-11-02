@@ -22,9 +22,9 @@ panels:
   - {image: img-ai-persephone-6, text: 吃過冥界的食物，就不能完全離開。從此她每年一部分時間留在冥界當冥后，其餘時間回到母親身邊，大地重新開花。, src: [s1]}
 sources:
   - {id: s1, kind: ancient, cite: 《荷馬詩體頌歌》第 2 首〈致狄蜜特〉, url: 'https://www.theoi.com/Text/HomericHymns1.html'}
-  - {id: s2, kind: ancient, cite: 奧維德《變形記》5.385–571, url: 'https://www.theoi.com/Text/OvidMetamorphoses5.html'}
+  - {id: s2, kind: ancient, cite: 奧維德《變形記》5.341–571, url: 'https://www.theoi.com/Text/OvidMetamorphoses5.html'}
   - {id: s3, kind: modern, cite: Theoi.com「Persephone」, url: 'https://www.theoi.com/Khthonios/Persephone.html', accessed: '2026-11-02'}
-  - {id: s4, kind: modern, cite: World History Encyclopedia「Eleusinian Mysteries」, url: 'https://www.worldhistory.org/Eleusinian_Mysteries/', accessed: '2026-11-02'}
+  - {id: s4, kind: modern, cite: 'World History Encyclopedia「The Eleusinian Mysteries: The Rites of Demeter」', url: 'https://www.worldhistory.org/article/32/the-eleusinian-mysteries-the-rites-of-demeter/', accessed: '2026-11-02'}
 images: [img-persephone-rossetti, img-persephone-leighton, img-persephone-hydria, img-demeter-eleusis]
 causes:
   - {id: god-hades, rel: 直接引發, why: 他在宙斯同意下擄走波瑟芬妮。, src: [s1]}

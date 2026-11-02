@@ -14,7 +14,7 @@
   title: 伊底帕斯情結（戀母情結）
   cards: [story-oedipus]
   what: 佛洛伊德借用伊底帕斯的名字，提出兒童在成長中會對異性父母產生依戀、對同性父母產生敵意的理論，稱為「伊底帕斯情結」。
-  diff: 神話中的伊底帕斯完全不知道對方是自己的父母，他拚命逃離預言，從沒有「想要」殺父娶母。佛洛伊德借用的是故事的結構，不是主角的心理。這個理論在今天的心理學界也有很多爭議。
+  diff: 神話中的伊底帕斯完全不知道對方是自己的父母，他拚命逃離預言，從沒有「想要」殺父娶母。佛洛伊德借用的是故事的結構，不是主角的心理。
   status: 已查證
   sources:
     - {cite: 美國心理學會（APA）心理學辭典「Oedipus complex」, url: 'https://dictionary.apa.org/oedipus-complex'}
@@ -34,7 +34,7 @@
   title: 鈦（titanium）與鈾（uranium）
   cards: [event-titanomachy, primordial-uranus]
   what: 化學家克拉普羅特替兩種元素命名：鈦（1795 年）取自泰坦神族，鈾（1789 年）則取自 1781 年剛發現的天王星（Uranus）。
-  diff: 鈾和天空之神烏拉諾斯的關係是「間接」的：元素以行星命名，行星才以神命名。泰坦則是被選來形容這種金屬的強韌。
+  diff: 鈾和天空之神烏拉諾斯的關係是「間接」的：元素以行星命名，行星才以神命名。鈦則是克拉普羅特仿照鈾的做法，用神話來命名，選了大地之子泰坦。
   status: 已查證
   sources:
     - {cite: 英國皇家化學會元素週期表「Titanium」, url: 'https://periodic-table.rsc.org/element/22/titanium'}
@@ -53,7 +53,7 @@
   category: 科學與醫學
   title: 蛛形綱 Arachnida
   cards: [story-arachne]
-  what: 蜘蛛、蠍子所屬的動物分類「蛛形綱」叫 Arachnida，蜘蛛恐懼症叫 arachnophobia，都來自希臘文的「蜘蛛」arachne。
+  what: 蜘蛛、蠍子所屬的動物分類「蛛形綱」叫 Arachnida，也來自希臘文的「蜘蛛」arachne。
   diff: 希臘文的「蜘蛛」本來就叫 arachne；奧維德把它寫成一位被雅典娜變成蜘蛛的織女，讓這個字有了故事。
   status: 已查證
   sources:
@@ -67,5 +67,5 @@
   diff: 命名的意象很直接：它撐起頭，就像亞特拉斯撐起天空。神話裡，撐天是宙斯給他的懲罰。
   status: 已查證
   sources:
-    - {cite: Etymonline「atlas」, url: 'https://www.etymonline.com/word/atlas'}
+    - {cite: Dictionary.com「atlas」（解剖學：第一頸椎）, url: 'https://www.dictionary.com/browse/atlas'}
     - {cite: 赫西俄德《神譜》517–520, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}

@@ -25,10 +25,8 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - name: 資料檢查（開發期間只回報、不擋部署）
-        run: npm run validate
-        continue-on-error: true
-      - run: npm run build:site
+      - name: 資料檢查＋建置（有錯就不部署）
+        run: npm run build
         env:
           BASE_PATH: /${{ github.event.repository.name }}/
       - uses: actions/configure-pages@v5

@@ -16,7 +16,7 @@ hook: 奧德修斯：打仗十年、回家又十年，靠的不是蠻力，而�
 domains:
   roles: [智謀, 返鄉, 航海]
   symbols: [弓, 船, 水手的尖帽]
-how_to_recognize: 戴著水手式尖頂小帽的大鬍子男子。被綁在桅桿上、旁邊有長著鳥身的女妖飛過的，就是聽海妖歌聲的他；拿著尖木樁刺向巨人眼睛的，也是他。
+how_to_recognize: 戴著水手式尖頂小帽的男子。被綁在桅桿上、旁邊有長著鳥身的女妖飛過的，就是聽海妖歌聲的他；拿著尖木樁刺向巨人眼睛的，也是他。
 how_to_recognize_src: [s7]
 family:
   parents:
@@ -28,7 +28,7 @@ family:
     - {name: 忒勒馬科斯, src: [s1]}
 images: [img-odysseus-sirens, img-odysseus-polyphemus, img-odyssey-waterhouse]
 sources:
-  - {id: s1, kind: ancient, cite: 荷馬《奧德賽》1.1–95, url: 'https://www.theoi.com/Text/HomerOdyssey1.html'}
+  - {id: s1, kind: ancient, cite: 荷馬《奧德賽》卷 1（1.113、1.189、1.223 分別提到兒子、父親、妻子）, url: 'https://www.theoi.com/Text/HomerOdyssey1.html'}
   - {id: s2, kind: ancient, cite: 荷馬《奧德賽》8.492–520（木馬）, url: 'https://www.theoi.com/Text/HomerOdyssey8.html'}
   - {id: s3, kind: ancient, cite: 荷馬《奧德賽》9.105–566（獨眼巨人）, url: 'https://www.theoi.com/Text/HomerOdyssey9.html'}
   - {id: s4, kind: ancient, cite: 荷馬《奧德賽》11.84–224（冥界遇見母親）, url: 'https://www.theoi.com/Text/HomerOdyssey11.html'}
@@ -47,7 +47,7 @@ topics: [返鄉, 智慧與詭計, 冒險與試煉, 冥界之旅]
 
 ### 不想去打仗的人
 
-希臘各王要出兵特洛伊時，奧德修斯其實不想去。他裝瘋，把驢和牛綁在一起犁地、在田裡撒鹽。來徵兵的人把他襁褓中的兒子放到犁前面，奧德修斯立刻停下，裝瘋就此破功。[s6]
+希臘各王要出兵特洛伊時，奧德修斯其實不想去。他裝瘋。來徵兵的帕拉墨得斯識破了，從潘妮洛普懷中搶過襁褓中的兒子，拔劍作勢要殺，奧德修斯只好承認自己是裝的。[s6]
 
 ### 木馬
 

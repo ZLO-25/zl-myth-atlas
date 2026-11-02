@@ -16,7 +16,7 @@ hook: 戴奧尼索斯：出生兩次的酒神，帶來快樂，也帶來瘋狂�
 domains:
   roles: [葡萄酒, 狂歡與出神, 戲劇, 瘋狂, 豐饒]
   symbols: [葡萄藤與常春藤, 酒杯, 松果杖（頂端有松果的長杖）, 豹, 面具]
-how_to_recognize: 頭戴葡萄藤或常春藤冠，手拿酒杯或頂端有松果的長杖，身邊常跟著豹、半人半羊的薩堤爾和狂舞的女信徒。古陶瓶上是有長鬍子的成年男子，後期則是柔美、半醉的年輕人。
+how_to_recognize: 頭戴葡萄藤或常春藤冠，手拿酒杯或頂端有松果的長杖，身邊常跟著豹、半人半羊的薩堤爾和狂舞的女信徒。有時是留長鬍子的成年男子，有時是柔美的年輕人。
 how_to_recognize_src: [s6]
 family:
   parents:
@@ -31,11 +31,12 @@ sources:
   - {id: s3, kind: ancient, cite: 奧維德《變形記》3.259–315（塞墨勒之死）, url: 'https://www.theoi.com/Text/OvidMetamorphoses3.html'}
   - {id: s4, kind: ancient, cite: 奧維德《變形記》3.511–733（彭透斯）, url: 'https://www.theoi.com/Text/OvidMetamorphoses3.html'}
   - {id: s5, kind: ancient, cite: 《荷馬詩體頌歌》第 7 首〈致戴奧尼索斯〉, url: 'https://www.theoi.com/Text/HomericHymns3.html'}
+  - {id: s8, kind: ancient, cite: 李維《羅馬史》39.8–19（前 186 年鎮壓巴克斯節）, url: 'https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0167:book=39:chapter=8'}
   - {id: s6, kind: modern, cite: Theoi.com「Dionysos」, url: 'https://www.theoi.com/Olympios/Dionysos.html', accessed: '2026-11-02'}
-  - {id: s7, kind: modern, cite: World History Encyclopedia「Bacchus」（Mark Wasson, 2023）, url: 'https://www.worldhistory.org/Bacchus/', accessed: '2026-11-02'}
+  - {id: s7, kind: modern, cite: World History Encyclopedia「Bacchus」（Donald L. Wasson, 2023）, url: 'https://www.worldhistory.org/Bacchus/', accessed: '2026-11-02'}
 greek_vs_roman:
   text: 羅馬人把戴奧尼索斯叫做巴克斯，並和本土的豐收之神利伯爾混在一起。祭拜巴克斯的秘密儀式「巴克斯節」在義大利快速擴散，羅馬元老院擔心它危害社會秩序，在前 186 年下令嚴格限制，大批信徒被捕或處死。這是羅馬史上著名的宗教鎮壓事件。
-  src: [s7]
+  src: [s7, s8]
 today: [bacchanal-word]
 era: olympian
 topics: [傲慢與懲罰, 變形, 神的嫉妒, 愛與慾望]
@@ -49,7 +50,7 @@ topics: [傲慢與懲罰, 變形, 神的嫉妒, 愛與慾望]
 
 ### 海盜船上的葡萄藤
 
-頌歌說，一群海盜看見年輕的戴奧尼索斯站在海邊，以為他是王子，把他綁上船要勒索。繩子卻自己鬆開，船上流出葡萄酒，桅桿長出葡萄藤；他變成一頭獅子，海盜嚇得跳海，全部變成海豚。只有一開始就勸大家放了他的舵手被留下。[s5] 埃克塞基亞斯著名的陶杯上，畫的正是船上的葡萄藤與海豚。
+頌歌說，一群海盜看見年輕的戴奧尼索斯站在海邊，以為他是王子，把他綁上船要勒索。繩子卻自己鬆開，船帆上長出葡萄藤，桅桿纏滿常春藤；他變成一頭獅子，海盜嚇得跳海，全部變成海豚。只有一開始就勸大家放了他的舵手被留下。[s5] 埃克塞基亞斯著名的陶杯上，畫的正是船上的葡萄藤與海豚。
 
 ### 不信神的國王
 

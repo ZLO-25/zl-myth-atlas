@@ -10,17 +10,17 @@ reality: {level: 純神話}
 three_lines:
   - 歌聲能讓野獸、樹木和石頭都跟著走的音樂家。
   - 為了救回死去的妻子尤麗狄絲下到冥界，冥王答應了，條件是出去前不准回頭。
-  - 他的故事是歐洲最早的歌劇之一《奧菲歐》（1607）的題材，也啟發了百老匯音樂劇《冥王星城》（Hadestown）。
+  - 他的故事是歐洲最早的歌劇之一《奧菲歐》（1607）的題材，也啟發了百老匯音樂劇《Hadestown》（劇名意思是「黑帝斯之城」）。
 hook: 奧菲斯：唱動了冥界的人，卻在最後一步回了頭。
 domains:
   roles: [音樂, 詩歌]
   symbols: [七弦琴, 聽歌的動物]
-how_to_recognize: 抱著七弦琴、身邊圍著各種安靜聆聽的動物的年輕男子。若畫面中有一位女子被荷米斯牽著往回走，說的就是他失去妻子的那一刻。
-how_to_recognize_src: [s5]
+how_to_recognize: 抱著七弦琴的年輕男子。本站收錄的羅浮宮浮雕上，荷米斯輕輕拉住尤麗狄絲的手腕、要帶她回冥界，說的就是他失去妻子的那一刻。
+how_to_recognize_src: [s5, s6]
 family:
   parents:
     - {name: 繆斯卡利俄珀, src: [s1]}
-    - {name: 色雷斯國王俄阿格洛斯, src: [s1], variant: 也有一說父親是阿波羅}
+    - {name: 俄阿格洛斯, src: [s1]}
   consorts:
     - {name: 尤麗狄絲, src: [s2]}
 images: [img-orpheus-relief, img-orpheus-corot]
@@ -28,8 +28,9 @@ sources:
   - {id: s1, kind: ancient, cite: 阿波羅多洛斯《書庫》1.3.2, url: 'https://www.theoi.com/Text/Apollodorus1.html'}
   - {id: s2, kind: ancient, cite: 奧維德《變形記》10.1–85, url: 'https://www.theoi.com/Text/OvidMetamorphoses10.html'}
   - {id: s3, kind: ancient, cite: 奧維德《變形記》11.1–66（被女信徒殺死）, url: 'https://www.theoi.com/Text/OvidMetamorphoses11.html'}
-  - {id: s4, kind: ancient, cite: 維吉爾《農事詩》4.453–527（德萊頓英譯本行數不同）, url: 'http://classics.mit.edu/Virgil/georgics.4.iv.html'}
+  - {id: s4, kind: ancient, cite: 維吉爾《農事詩》4.453–527（英譯本未標行數）, url: 'http://classics.mit.edu/Virgil/georgics.4.iv.html'}
   - {id: s5, kind: modern, cite: World History Encyclopedia「Orpheus」, url: 'https://www.worldhistory.org/Orpheus/', accessed: '2026-11-02'}
+  - {id: s6, kind: modern, cite: 維基共享資源：奧菲斯與尤麗狄絲浮雕（羅浮宮 Ma 854）作品頁, url: 'https://commons.wikimedia.org/wiki/File:Relief_of_Orpheus_and_Eurydice_(Louvre,_Ma_854)_(28266063496).jpg', accessed: '2026-11-02'}
 today: [hadestown]
 era: heroes
 topics: [冥界之旅, 愛與慾望]

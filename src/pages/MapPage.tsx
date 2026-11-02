@@ -118,8 +118,8 @@ function Underworld() {
         <rect x="420" y="380" width="200" height="120" rx="10" className="uw-tartarus" />
         <text x="520" y="408" className="uw-title">塔爾塔羅斯</text>
         <text x="520" y="428" className="uw-sub">最深的深淵：關著泰坦</text>
-        <text x="520" y="446" className="uw-sub">荷馬另寫坦塔洛斯、</text>
-        <text x="520" y="464" className="uw-sub">薛西弗斯在冥界受罰</text>
+        <text x="520" y="446" className="uw-sub">（荷馬另寫坦塔洛斯、</text>
+        <text x="520" y="464" className="uw-sub">薛西弗斯在冥界別處受罰）</text>
       </svg>
       <p className="muted small">示意圖為本站繪製，依各家古代作品整理；不同作者的冥界細節不同，請以卡片內文與來源為準。</p>
     </>

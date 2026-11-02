@@ -16,7 +16,7 @@ hook: 阿提米絲：拿弓箭的荒野女神，誰冒犯她，誰就變成獵�
 domains:
   roles: [狩獵, 野生動物與荒野, 少女, 分娩, 月亮（後期）]
   symbols: [弓與箭筒, 鹿, 獵犬, 新月]
-how_to_recognize: 穿著及膝短裙、方便奔跑的年輕女子，背著箭筒、拿著弓，身邊有一頭鹿或獵犬。文藝復興以後的畫常在她頭上畫一彎新月。
+how_to_recognize: 穿著及膝短裙、方便奔跑的年輕女子，背著箭筒、拿著弓，身邊有一頭鹿或獵犬。作為月亮女神時，額頭上方常有一彎新月。
 how_to_recognize_src: [s6]
 family:
   parents:
@@ -28,13 +28,14 @@ images: [img-artemis-versailles, img-artemis-titian]
 sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》918–920, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
   - {id: s2, kind: ancient, cite: 《荷馬詩體頌歌》第 27 首〈致阿提米絲〉, url: 'https://www.theoi.com/Text/HomericHymns3.html'}
-  - {id: s3, kind: ancient, cite: 奧維德《變形記》3.138–252（阿克泰翁）, url: 'https://www.theoi.com/Text/OvidMetamorphoses3.html'}
+  - {id: s3, kind: ancient, cite: 奧維德《變形記》3.138–255（阿克泰翁）, url: 'https://www.theoi.com/Text/OvidMetamorphoses3.html'}
   - {id: s4, kind: ancient, cite: 奧維德《變形記》6.146–312（尼俄柏）, url: 'https://www.theoi.com/Text/OvidMetamorphoses6.html'}
   - {id: s5, kind: ancient, cite: 阿波羅多洛斯《書庫》摘要 3.21–22（伊菲革涅亞）, url: 'https://www.theoi.com/Text/ApollodorusE.html'}
+  - {id: s8, kind: ancient, cite: 阿波羅多洛斯《書庫》3.5.6（尼俄柏的子女）, url: 'https://www.theoi.com/Text/Apollodorus3.html'}
   - {id: s6, kind: modern, cite: Theoi.com「Artemis」, url: 'https://www.theoi.com/Olympios/Artemis.html', accessed: '2026-11-02'}
   - {id: s7, kind: modern, cite: 大英百科「Diana (Roman religion)」, url: 'https://www.britannica.com/topic/Diana-Roman-religion', accessed: '2026-11-02'}
 greek_vs_roman:
-  text: 黛安娜原本可能是義大利本土的森林女神，最有名的聖地在羅馬附近內米湖畔的森林，那裡的祭司由逃亡的奴隸擔任，必須殺死前任才能接位。在羅馬，她特別被視為下層民眾、尤其是奴隸的保護者：她 8 月 13 日的節日是奴隸的假日。後來她才和阿提米絲合而為一，也接收了月亮女神的身分。
+  text: 黛安娜原本可能是義大利本土的森林女神，最有名的聖地在羅馬附近內米湖畔的森林，那裡的祭司由逃亡的奴隸擔任，必須殺死前任才能接位。在羅馬，她特別被視為下層民眾、尤其是奴隸的保護者：她 8 月 13 日的節日是奴隸的假日。她很早就和阿提米絲合而為一，後來也接收了月亮女神的身分。
   src: [s7]
 today: [artemis-program, orion-constellation]
 era: olympian
@@ -55,8 +56,8 @@ topics: [變形, 神的嫉妒, 傲慢與懲罰]
 
 ### 替母親報仇
 
-凡人王后尼俄柏有七兒七女，誇口自己比只生了兩個孩子的勒托更了不起。勒托向一對兒女訴苦，阿波羅射死了尼俄柏的七個兒子，阿提米絲射死了七個女兒。尼俄柏悲傷得化成一塊不停流淚的石頭。[s4]
+凡人王后尼俄柏有七兒七女，誇口自己比只生了兩個孩子的勒托更了不起。勒托向一對兒女訴苦，阿波羅射死了尼俄柏的七個兒子，阿提米絲射死了七個女兒。尼俄柏悲傷得化成一塊不停流淚的石頭。[s4][s8]
 
 ### 特洛伊戰爭的起點
 
-希臘聯軍出發攻打特洛伊前，統帥阿伽門農射死了一頭鹿，還誇口連阿提米絲都射不了這麼準。女神讓海上無風，船隊無法出航；預言者說，只有把阿伽門農的女兒伊菲革涅亞獻祭給她才行。阿伽門農答應了。在一個版本裡，女神在最後一刻用一頭鹿換走了少女。[s5] 這個故事後來成了希臘悲劇最愛的題材之一。
+希臘聯軍出發攻打特洛伊前，統帥阿伽門農射死了一頭鹿，還誇口連阿提米絲都射不了這麼準。女神讓船隊無法出航；預言者說，只有把阿伽門農的女兒伊菲革涅亞獻祭給她才行。阿伽門農答應了。在一個版本裡，女神在最後一刻用一頭鹿換走了少女。[s5] 這個故事後來成了希臘悲劇最愛的題材之一。

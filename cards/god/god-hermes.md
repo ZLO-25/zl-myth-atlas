@@ -16,7 +16,7 @@ hook: 荷米斯：出生當天就偷牛的神童，後來成為眾神最忙的�
 domains:
   roles: [眾神的信使, 旅人與道路, 商業, 小偷與詭計, 引導亡魂]
   symbols: [雙蛇杖（雙蛇纏繞的手杖）, 有翅膀的涼鞋, 有翅膀的寬邊帽, 錢袋]
-how_to_recognize: 戴寬邊旅行帽（常有小翅膀）、腳穿有翅膀涼鞋的年輕男子，手拿纏著兩條蛇的手杖。早期陶瓶上他有尖鬍子，後來多半是沒鬍子的青年。
+how_to_recognize: 戴寬邊旅行帽（常有小翅膀）、腳穿有翅膀涼鞋的年輕男子，手拿纏著兩條蛇的手杖。有時是留鬍子的成年男子，有時是沒鬍子的青年。
 how_to_recognize_src: [s6]
 family:
   parents:
@@ -32,9 +32,9 @@ sources:
   - {id: s4, kind: ancient, cite: 荷馬《奧德賽》24.1–14, url: 'https://www.theoi.com/Text/HomerOdyssey24.html'}
   - {id: s5, kind: ancient, cite: 奧維德《變形記》1.668–723（殺死百眼巨人阿爾戈斯）, url: 'https://www.theoi.com/Text/OvidMetamorphoses1.html'}
   - {id: s6, kind: modern, cite: Theoi.com「Hermes」, url: 'https://www.theoi.com/Olympios/Hermes.html', accessed: '2026-11-02'}
-  - {id: s7, kind: modern, cite: World History Encyclopedia「Mercury (Deity)」（Mark Wasson, 2018）, url: 'https://www.worldhistory.org/Mercury_(Deity)/', accessed: '2026-11-02'}
+  - {id: s7, kind: modern, cite: World History Encyclopedia「Mercury (Deity)」（Donald L. Wasson, 2018）, url: 'https://www.worldhistory.org/Mercury_(Deity)/', accessed: '2026-11-02'}
 greek_vs_roman:
-  text: 羅馬的墨丘利幾乎只管一件事：做生意。他的名字可能和拉丁文 merx（貨物）有關，前 495 年左右，羅馬人在大競技場附近替他蓋了神廟，5 月 15 日是商人向他祈求生意興隆的節日。希臘荷米斯身上「小偷」「亡魂引路人」的那些面向，在羅馬就淡得多。
+  text: 羅馬的墨丘利幾乎只管一件事：做生意。他的名字可能和拉丁文 merx（貨物）有關，前 495 年左右，羅馬人在大競技場附近替他蓋了神廟，5 月 15 日是紀念他神廟落成的節日。
   src: [s7]
 today: [hermes-brand, caduceus-confusion, planet-names, april-may, panic-word]
 era: olympian
@@ -64,4 +64,4 @@ topics: [智慧與詭計, 冥界之旅]
 
 ### 帶亡魂走最後一段路
 
-荷米斯也是唯一可以自由往返人間和冥界的神。《奧德賽》結尾，他拿著金手杖，把被奧德修斯殺死的求婚者亡魂召出來，亡魂像蝙蝠一樣吱吱叫著，跟在他身後走向冥界。[s4]
+荷米斯也負責引導亡魂前往冥界。《奧德賽》結尾，他拿著金手杖，把被奧德修斯殺死的求婚者亡魂召出來，亡魂像蝙蝠一樣吱吱叫著，跟在他身後走向冥界。[s4]

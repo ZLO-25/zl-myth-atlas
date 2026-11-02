@@ -15,8 +15,8 @@ three_lines:
 hook: 阿瑞斯：希臘人最不喜歡的戰神，到了羅馬卻變成國家的守護者。
 domains:
   roles: [戰爭的暴力與殺戮, 勇猛]
-  symbols: [頭盔, 長矛, 盾牌, 禿鷹, 狗]
-how_to_recognize: 戴頭盔、全副武裝的男子，古代陶瓶上常是大鬍子的重裝步兵，後期雕像則是沒鬍子的年輕人。和女神（通常是阿芙蘿黛蒂／維納斯）同框、盔甲卸在一旁的，多半是他。
+  symbols: [頭盔, 長矛, 盾牌, 禿鷹, 蛇]
+how_to_recognize: 戴頭盔、全副武裝的男子，古代藝術裡有兩種樣子：大鬍子的成熟戰士，或沒鬍子的裸體青年。和女神（通常是阿芙蘿黛蒂／維納斯）同框、盔甲卸在一旁的，多半是他。
 family:
   parents:
     - {id: god-zeus, src: [s1]}
@@ -32,7 +32,7 @@ images: [img-ares-ludovisi, img-ares-botticelli]
 sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》921–923, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
   - {id: s2, kind: ancient, cite: 赫西俄德《神譜》933–937, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
-  - {id: s3, kind: ancient, cite: 荷馬《伊里亞德》5.846–909, url: 'https://www.theoi.com/Text/HomerIliad5.html'}
+  - {id: s3, kind: ancient, cite: 荷馬《伊里亞德》5.835–909, url: 'https://www.theoi.com/Text/HomerIliad5.html'}
   - {id: s4, kind: ancient, cite: 荷馬《奧德賽》8.266–366, url: 'https://www.theoi.com/Text/HomerOdyssey8.html'}
   - {id: s5, kind: modern, cite: Theoi.com「Ares」, url: 'https://www.theoi.com/Olympios/Ares.html', accessed: '2026-11-02'}
   - {id: s6, kind: modern, cite: World History Encyclopedia「Mars」（Mark Cartwright, 2014）, url: 'https://www.worldhistory.org/Mars/', accessed: '2026-11-02'}
@@ -60,4 +60,4 @@ topics: [戰爭, 愛與慾望]
 
 ### 到了羅馬就翻身
 
-希臘人對戰爭的看法很矛盾：需要勇氣，卻害怕失控的殺戮，阿瑞斯代表的正是後者。[s5] 羅馬人則不一樣，他們的馬爾斯是國家的守護神、羅慕路斯的父親，是羅馬人引以為傲的祖先。[s6] 同一位戰神，在兩個民族眼中幾乎是兩個人。
+阿瑞斯代表的是戰爭中混亂、恐怖與殺戮的一面，和雅典娜的謀略恰好相反。[s5] 羅馬人則不一樣，他們的馬爾斯是國家的守護神、羅慕路斯的父親，是羅馬人引以為傲的祖先。[s6] 同一位戰神，在兩個民族眼中幾乎是兩個人。

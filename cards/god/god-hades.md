@@ -10,7 +10,7 @@ roman: {name_zh: 普魯托, name_la: Pluto, name_en: Pluto, note: 也叫「狄�
 reality: {level: 純神話}
 three_lines:
   - 宙斯的哥哥，抽籤分到冥界，成了統治亡者的王。
-  - 搶走狄蜜特的女兒波瑟芬妮當冥后，讓人間從此有了冬天。
+  - 搶走狄蜜特的女兒波瑟芬妮當冥后，讓大地每年有一段時間不長作物。
   - 2006 年被降級的矮行星冥王星（Pluto）、迪士尼的狗「布魯托」都用他的羅馬名；他本人並不是「魔鬼」。
 hook: 黑帝斯：不邪惡、只是很嚴格的冥界之王，誰進了他的國度都別想出來。
 domains:
@@ -32,14 +32,14 @@ family:
 images: [img-hades-locri, img-hades-bernini, img-hades-vergina]
 sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》453–458, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
-  - {id: s2, kind: ancient, cite: 荷馬《伊里亞德》15.187–193, url: 'https://www.theoi.com/Text/HomerIliad15.html'}
+  - {id: s2, kind: ancient, cite: 荷馬《伊里亞德》15.185–193, url: 'https://www.theoi.com/Text/HomerIliad15.html'}
   - {id: s3, kind: ancient, cite: 《荷馬詩體頌歌》第 2 首〈致狄蜜特〉, url: 'https://www.theoi.com/Text/HomericHymns1.html'}
   - {id: s4, kind: ancient, cite: 赫西俄德《神譜》767–774（冥界的看門犬）, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
   - {id: s5, kind: ancient, cite: 荷馬《伊里亞德》5.844–845（雅典娜戴上黑帝斯的隱形頭盔）, url: 'https://www.theoi.com/Text/HomerIliad5.html'}
   - {id: s6, kind: modern, cite: Theoi.com「Haides」, url: 'https://www.theoi.com/Khthonios/Haides.html', accessed: '2026-11-02'}
-  - {id: s7, kind: modern, cite: World History Encyclopedia「Pluto」（Mark Wasson, 2023）, url: 'https://www.worldhistory.org/Pluto/', accessed: '2026-11-02'}
+  - {id: s7, kind: modern, cite: World History Encyclopedia「Pluto」（Donald L. Wasson, 2023）, url: 'https://www.worldhistory.org/Pluto/', accessed: '2026-11-02'}
 greek_vs_roman:
-  text: 希臘人怕直呼冥王的名字，常改叫他「普魯同」（Plouton，意思是「富有者」），因為穀物與礦藏都從地底來。羅馬人沿用這個稱呼，叫他普魯托，也叫他狄斯．帕特（「富有的父親」）。兩邊的形象差不多，羅馬並沒有替他加上新的神話。
+  text: 希臘人怕直呼冥王的名字，常改叫他「普魯同」（Plouton，意思是「財富的給予者」），因為穀物與礦藏都從地底來。羅馬人沿用這個稱呼，叫他普魯托。
   src: [s6, s7]
 effects:
   - {id: story-persephone, rel: 直接引發, why: 他搶走波瑟芬妮，狄蜜特悲痛停工，大地荒蕪。, src: [s3]}
@@ -56,7 +56,7 @@ topics: [冥界之旅, 季節與農業, 王權更替]
 
 ### 只進不出的國度
 
-冥界的大門有一隻可怕的看門犬（後來的作者稱牠為三頭犬克爾柏洛斯）。赫西俄德說，牠對走進來的亡魂搖尾巴，但誰想再走出去，牠就把誰吃掉。[s4] 黑帝斯還有一頂戴上就會隱形的頭盔，《伊里亞德》裡雅典娜就借戴過，讓戰神阿瑞斯看不見她。[s5]
+冥界的大門有一隻可怕的看門犬克爾柏洛斯（赫西俄德說牠有五十個頭，後來的作者才說是三個頭）。赫西俄德說，牠對走進來的亡魂搖尾巴，但誰想再走出去，牠就把誰吃掉。[s4] 黑帝斯還有一頂戴上就會隱形的頭盔，《伊里亞德》裡雅典娜就借戴過，讓戰神阿瑞斯看不見她。[s5]
 
 ### 搶來的冥后
 
@@ -64,4 +64,4 @@ topics: [冥界之旅, 季節與農業, 王權更替]
 
 ### 他不是魔鬼
 
-黑帝斯在後世常被畫成邪惡的反派，但在希臘神話裡，他是一位冷酷卻守規矩的王：他不會去人間害人，只是不讓死者離開。把冥王和「地獄的魔鬼」畫上等號，是後來的文化混合出來的形象。[s6]
+黑帝斯在後世常被畫成邪惡的反派，但在希臘神話裡，他是一位冷酷、不講情面的王，凡人最怕的就是他；他的主要職責是不讓死者離開冥界。[s6]
