@@ -27,6 +27,7 @@ const eraIds = new Set(eras.map((e) => e.id));
 const topicNames = new Set(topics.map((t) => t.name));
 const isWiki = (u: string) => /wikipedia\.org/.test(u);
 const usedImages = new Set<string>();
+let aiPending = 0;
 
 for (const c of cards) {
   if (cardIds.has(c.id)) err(c.file!, `id 重複：${c.id}`);
@@ -142,7 +143,7 @@ const creditBySource = new Map<string, string>();
 for (const im of images) {
   const w = `data/images.yaml（${im.id}）`;
   if (!im.title) err(w, '缺少 title');
-  if (!im.look) err(w, '缺少 look（「看這張圖：」解說）');
+  if (im.kind === 'work' && !im.look) err(w, '真實作品缺少 look（「看這張圖：」解說；AI 分格圖的說明就是分格文字）');
   else if (im.look === 'TODO') warn(w, '還沒寫 look（「看這張圖：」解說）');
   if (im.kind === 'work' && im.pending) {
     warn(w, `等待 GitHub Actions 從 Commons 抓回 ${im.commons}`);
@@ -158,7 +159,7 @@ for (const im of images) {
     if (im.ai !== true) err(w, 'AI 插畫一定要標 ai: true');
     for (const k of ['tool', 'prompt'] as const) if (!im[k]) err(w, `AI 插畫缺少 ${k}`);
     if (!im.placeholder && (!im.file || !fs.existsSync(path.join(ROOT, 'public', im.file)))) err(w, `AI 插畫檔案不存在：public/${im.file}`);
-    if (im.placeholder) warn(w, 'AI 插畫還是佔位圖，等生圖放回');
+    if (im.placeholder) aiPending++;
   } else err(w, 'kind 要是 work 或 ai');
   if (!usedImages.has(im.id)) warn(w, '沒有任何卡片用到這張圖');
 }
@@ -188,6 +189,7 @@ for (const p of places) {
 const strict = process.argv.includes('--strict');
 for (const m of warnings) console.log(m);
 for (const m of errors) console.log(m);
+if (aiPending) console.log(`ℹ ${aiPending} 張 AI 插畫還沒生圖，暫用佔位圖（提示詞在 data/ai-art-prompts.yaml）`);
 console.log(`\n卡片 ${cards.length} 張｜圖片 ${images.length} 張｜今日影子 ${today.length} 條｜地點 ${places.length} 個`);
 console.log(`錯誤 ${errors.length} 筆｜警告 ${warnings.length} 筆${strict ? '（--strict：警告也算失敗）' : ''}`);
 if (errors.length || (strict && warnings.length)) process.exit(1);

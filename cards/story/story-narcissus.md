@@ -13,13 +13,13 @@ three_lines:
   - 「自戀」（narcissism）來自他的名字；「回聲」（echo）來自厄科；水仙花的學名 Narcissus 也是。
 hook: 納西瑟斯：愛上倒影的少年，和一個只能說別人最後一句話的女孩。
 panels:
-  - {text: 納西瑟斯出生時，盲眼先知說：「他能活到老，只要他永遠不認識自己。」, src: [s1]}
-  - {text: 仙女厄科被天后希拉詛咒，只能重複別人說的最後幾個字。她愛上了在林中打獵的納西瑟斯。, src: [s1]}
-  - {text: 納西瑟斯喊：「有人在這裡嗎？」厄科回答：「這裡！」她跑出來想擁抱他，他卻厭惡地推開她。, src: [s1]}
-  - {text: 被拒絕的厄科躲進山洞，日漸消瘦，最後身體化成石頭，只剩下聲音留在山谷裡。, src: [s1]}
-  - {text: 一位被他拒絕的人向天祈求：讓他也愛上得不到的人。復仇女神聽見了。, src: [s1]}
-  - {text: 納西瑟斯在清澈的泉水邊彎腰喝水，愛上了水中的倒影。他終於明白：「那就是我！」卻再也離不開。, src: [s1]}
-  - {text: 他在水邊憔悴而死。仙女們要為他火葬時，屍體不見了，原地開出一朵中心金黃、花瓣潔白的花。, src: [s1]}
+  - {image: img-ai-narcissus-1, text: 納西瑟斯出生時，盲眼先知說：「他能活到老，只要他永遠不認識自己。」, src: [s1]}
+  - {image: img-ai-narcissus-2, text: 仙女厄科被天后希拉詛咒，只能重複別人說的最後幾個字。她愛上了在林中打獵的納西瑟斯。, src: [s1]}
+  - {image: img-ai-narcissus-3, text: 納西瑟斯喊：「有人在這裡嗎？」厄科回答：「這裡！」她跑出來想擁抱他，他卻厭惡地推開她。, src: [s1]}
+  - {image: img-ai-narcissus-4, text: 被拒絕的厄科躲進山洞，日漸消瘦，最後身體化成石頭，只剩下聲音留在山谷裡。, src: [s1]}
+  - {image: img-ai-narcissus-5, text: 一位被他拒絕的人向天祈求：讓他也愛上得不到的人。復仇女神聽見了。, src: [s1]}
+  - {image: img-ai-narcissus-6, text: 納西瑟斯在清澈的泉水邊彎腰喝水，愛上了水中的倒影。他終於明白：「那就是我！」卻再也離不開。, src: [s1]}
+  - {image: img-ai-narcissus-7, text: 他在水邊憔悴而死。仙女們要為他火葬時，屍體不見了，原地開出一朵中心金黃、花瓣潔白的花。, src: [s1]}
 sources:
   - {id: s1, kind: ancient, cite: 奧維德《變形記》3.339–510, url: 'https://www.theoi.com/Text/OvidMetamorphoses3.html'}
   - {id: s2, kind: modern, cite: Theoi.com「Narkissos」, url: 'https://www.theoi.com/Heros/Narkissos.html', accessed: '2026-11-02'}

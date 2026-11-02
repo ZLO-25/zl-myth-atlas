@@ -16,12 +16,12 @@ three_lines:
   - 「母狼餵雙胞胎」至今是羅馬市的城徽；義大利足球隊羅馬隊的隊徽也是它。
 hook: 羅慕路斯與雷穆斯：狼養大的雙胞胎，羅馬的建城故事從殺死兄弟開始。
 panels:
-  - {text: 阿爾巴隆加的國王被弟弟篡位。篡位者逼國王的女兒當守貞的維斯塔女祭司，不讓她生下後代。, src: [s1]}
-  - {text: 女祭司還是生下了一對雙胞胎，她說孩子的父親是戰神馬爾斯。篡位者下令把嬰兒丟進台伯河。, src: [s1]}
-  - {text: 河水氾濫，裝嬰兒的籃子擱淺在岸邊。一頭口渴的母狼聽見哭聲，走過來溫柔地給他們餵奶。, src: [s1]}
-  - {text: 牧羊人發現了雙胞胎，帶回家撫養。兩兄弟長大後得知身世，殺死篡位者，讓外祖父重登王位。, src: [s1]}
-  - {text: 他們想在當年獲救的地方建一座新城。為了決定誰當王，各自觀察飛鳥：雷穆斯先看見六隻禿鷹，羅慕路斯後看見十二隻。, src: [s1]}
-  - {text: 兩方都說自己贏了。一個流傳較廣的說法是：雷穆斯嘲笑哥哥剛築好的城牆，一躍而過，被羅慕路斯殺死。, src: [s1]}
+  - {image: img-ai-romulus-1, text: 阿爾巴隆加的國王被弟弟篡位。篡位者逼國王的女兒當守貞的維斯塔女祭司，不讓她生下後代。, src: [s1]}
+  - {image: img-ai-romulus-2, text: 女祭司還是生下了一對雙胞胎，她說孩子的父親是戰神馬爾斯。篡位者下令把嬰兒丟進台伯河。, src: [s1]}
+  - {image: img-ai-romulus-3, text: 河水氾濫，裝嬰兒的籃子擱淺在岸邊。一頭口渴的母狼聽見哭聲，走過來溫柔地給他們餵奶。, src: [s1]}
+  - {image: img-ai-romulus-4, text: 牧羊人發現了雙胞胎，帶回家撫養。兩兄弟長大後得知身世，殺死篡位者，讓外祖父重登王位。, src: [s1]}
+  - {image: img-ai-romulus-5, text: 他們想在當年獲救的地方建一座新城。為了決定誰當王，各自觀察飛鳥：雷穆斯先看見六隻禿鷹，羅慕路斯後看見十二隻。, src: [s1]}
+  - {image: img-ai-romulus-6, text: 兩方都說自己贏了。一個流傳較廣的說法是：雷穆斯嘲笑哥哥剛築好的城牆，一躍而過，被羅慕路斯殺死。, src: [s1]}
 sources:
   - {id: s1, kind: ancient, cite: 李維《羅馬史》1.3–1.7, url: 'https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0151:book=1:chapter=4'}
   - {id: s2, kind: ancient, cite: 普魯塔克《希臘羅馬名人傳．羅慕路斯傳》, url: 'https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Romulus*.html'}

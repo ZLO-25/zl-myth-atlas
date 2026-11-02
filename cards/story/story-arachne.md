@@ -13,12 +13,12 @@ three_lines:
   - 蛛形綱的學名 Arachnida、「蜘蛛恐懼症」（arachnophobia）都來自她的名字。
 hook: 阿拉克涅：贏了比賽、輸了人生的織女，從此永遠在織網。
 panels:
-  - {text: 呂底亞少女阿拉克涅出身平凡，織布卻遠近馳名，連仙女都跑來看她工作。她說：我的手藝不是雅典娜教的。, src: [s1]}
-  - {text: 雅典娜變成老婦人勸她：向女神道歉吧。阿拉克涅回嘴：「她為什麼不自己來跟我比？」女神現出真身。, src: [s1]}
-  - {text: 雅典娜的布上，織著眾神的威嚴，四個角落是凡人挑戰神、被變成山或鳥的下場，算是最後的警告。, src: [s1]}
-  - {text: 阿拉克涅的布上，織滿眾神欺騙凡人女子的故事：宙斯化成公牛、天鵝、金雨……每一幕都栩栩如生。, src: [s1]}
-  - {text: 連嫉妒女神都挑不出毛病。雅典娜氣得撕碎那塊布，用織布的梭子打她的頭。阿拉克涅受不了這種羞辱，上吊自盡。, src: [s1]}
-  - {text: 雅典娜說：「活下去吧，但你和你的後代都要永遠吊著。」她灑下魔草汁液，阿拉克涅縮成一隻蜘蛛，繼續織網。, src: [s1]}
+  - {image: img-ai-arachne-1, text: 呂底亞少女阿拉克涅出身平凡，織布卻遠近馳名，連仙女都跑來看她工作。她說：我的手藝不是雅典娜教的。, src: [s1]}
+  - {image: img-ai-arachne-2, text: 雅典娜變成老婦人勸她：向女神道歉吧。阿拉克涅回嘴：「她為什麼不自己來跟我比？」女神現出真身。, src: [s1]}
+  - {image: img-ai-arachne-3, text: 雅典娜的布上，織著眾神的威嚴，四個角落是凡人挑戰神、被變成山或鳥的下場，算是最後的警告。, src: [s1]}
+  - {image: img-ai-arachne-4, text: 阿拉克涅的布上，織滿眾神欺騙凡人女子的故事：宙斯化成公牛、天鵝、金雨……每一幕都栩栩如生。, src: [s1]}
+  - {image: img-ai-arachne-5, text: 連嫉妒女神都挑不出毛病。雅典娜氣得撕碎那塊布，用織布的梭子打她的頭。阿拉克涅受不了這種羞辱，上吊自盡。, src: [s1]}
+  - {image: img-ai-arachne-6, text: 雅典娜說：「活下去吧，但你和你的後代都要永遠吊著。」她灑下魔草汁液，阿拉克涅縮成一隻蜘蛛，繼續織網。, src: [s1]}
 sources:
   - {id: s1, kind: ancient, cite: 奧維德《變形記》6.1–145, url: 'https://www.theoi.com/Text/OvidMetamorphoses6.html'}
   - {id: s2, kind: modern, cite: Theoi.com「Arakhne」, url: 'https://www.theoi.com/Heroine/Arakhne.html', accessed: '2026-11-02'}

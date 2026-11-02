@@ -52,12 +52,39 @@ function mergeCommons(images: ImageItem[]): ImageItem[] {
   });
 }
 
+interface AiPromptFile {
+  tool: string;
+  style: string;
+  characters: Record<string, string>;
+  images: { id: string; card: string; title: string; characters?: string[]; scene: string }[];
+}
+
+/** data/ai-art-prompts.yaml → AI 插畫清單。圖檔放到 public/images/ai/<卡片 id>/<圖 id>.webp 後，佔位圖會自動換成真圖。 */
+export function loadAiImages(): ImageItem[] {
+  const f = readYaml<AiPromptFile | null>('data/ai-art-prompts.yaml', null);
+  if (!f) return [];
+  return f.images.map((a) => {
+    const file = `images/ai/${a.card}/${a.id}.webp`;
+    const chars = (a.characters ?? []).map((c) => f.characters[c] ?? `【未定義角色 ${c}】`);
+    return {
+      id: a.id,
+      kind: 'ai',
+      ai: true,
+      title: a.title,
+      tool: f.tool,
+      prompt: [f.style, ...chars, a.scene].join('\n'),
+      file,
+      placeholder: !fs.existsSync(path.join(ROOT, 'public', file)),
+    } as ImageItem;
+  });
+}
+
 export function loadAll(): SiteData {
   const cards = walk(path.join(ROOT, 'cards'), '.md').map(parseCard);
   const today = walk(path.join(ROOT, 'data', 'today'), '.yaml').flatMap((f) => (YAML.parse(fs.readFileSync(f, 'utf8')) ?? []) as TodayItem[]);
   return {
     cards,
-    images: mergeCommons(readYaml<ImageItem[]>('data/images.yaml', [])),
+    images: [...mergeCommons(readYaml<ImageItem[]>('data/images.yaml', [])), ...loadAiImages()],
     today,
     eras: readYaml<Era[]>('data/eras.yaml', []),
     history: readYaml<HistoryRef[]>('data/history.yaml', []),

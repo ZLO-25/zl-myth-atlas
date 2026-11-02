@@ -8,7 +8,7 @@ for (const t of today) for (const c of t.cards) map.set(c, [...(map.get(c) ?? []
 let n = 0;
 for (const c of cards) {
   const ids = map.get(c.id) ?? [];
-  const file = path.join(ROOT, c.file);
+  const file = path.join(ROOT, c.file!);
   const src = fs.readFileSync(file, 'utf8');
   const out = src.replace(/^today: \[.*\]$/m, `today: [${ids.join(', ')}]`);
   if (out !== src) { fs.writeFileSync(file, out); n++; }
