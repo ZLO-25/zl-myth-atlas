@@ -29,6 +29,8 @@
    "hero-achilles/s1",
    "hero-heracles/s1",
    "hero-heracles/s5",
+   "monster-medusa/s1",
+   "place-underworld/s3",
    "primordial-chaos/s1",
    "primordial-gaia/s1",
    "primordial-gaia/s2",
@@ -39,6 +41,7 @@
    "event-titanomachy/s1",
    "event-titanomachy/s2",
    "event-titanomachy/s4",
+   "story-pandora/s1",
    "titan-atlas/s1",
    "titan-cronus/s1",
    "titan-cronus/s2",
@@ -64,7 +67,9 @@
    "god-aphrodite/s3",
    "god-ares/s4",
    "god-hephaestus/s5",
-   "hero-odysseus/s2"
+   "hero-odysseus/s2",
+   "story-trojan-horse/s1",
+   "story-trojan-war/s4"
   ]
  },
  "https://www.theoi.com/Text/HomericHymns3.html": {
@@ -89,7 +94,10 @@
    "god-artemis/s5",
    "hero-achilles/s6",
    "hero-odysseus/s6",
-   "hero-theseus/s2"
+   "hero-theseus/s2",
+   "story-icarus/s2",
+   "story-trojan-horse/s3",
+   "story-trojan-war/s1"
   ]
  },
  "https://www.theoi.com/Olympios/Aphrodite.html": {
@@ -112,7 +120,8 @@
   "used": [
    "god-apollo/s2",
    "god-demeter/s3",
-   "god-hades/s3"
+   "god-hades/s3",
+   "story-persephone/s1"
   ]
  },
  "https://www.theoi.com/Text/OvidMetamorphoses1.html": {
@@ -131,7 +140,9 @@
   "used": [
    "god-apollo/s4",
    "god-hephaestus/s2",
-   "hero-achilles/s2"
+   "hero-achilles/s2",
+   "place-olympus/s2",
+   "story-trojan-war/s3"
   ]
  },
  "https://www.theoi.com/Text/Apollodorus3.html": {
@@ -142,6 +153,9 @@
    "god-athena/s3",
    "god-poseidon/s5",
    "god-poseidon/s7",
+   "monster-minotaur/s1",
+   "story-oedipus/s1",
+   "story-trojan-war/s2",
    "titan-atlas/s5"
   ]
  },
@@ -179,14 +193,16 @@
   "used": [
    "god-artemis/s3",
    "god-dionysus/s3",
-   "god-dionysus/s4"
+   "god-dionysus/s4",
+   "story-narcissus/s1"
   ]
  },
  "https://www.theoi.com/Text/OvidMetamorphoses6.html": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "god-artemis/s4"
+   "god-artemis/s4",
+   "story-arachne/s1"
   ]
  },
  "https://www.theoi.com/Olympios/Artemis.html": {
@@ -214,6 +230,7 @@
    "hero-heracles/s3",
    "hero-heracles/s4",
    "hero-perseus/s1",
+   "monster-medusa/s3",
    "titan-atlas/s3"
   ]
  },
@@ -294,6 +311,7 @@
   "checked": "2026-11-02",
   "used": [
    "god-hephaestus/s6",
+   "story-pandora/s2",
    "titan-prometheus/s2"
   ]
  },
@@ -417,6 +435,7 @@
   "used": [
    "god-poseidon/s6",
    "hero-perseus/s2",
+   "monster-medusa/s2",
    "titan-atlas/s4"
   ]
  },
@@ -441,18 +460,11 @@
    "god-zeus/s5"
   ]
  },
- "https://www.britannica.com/topic/Jupiter-Roman-god": {
-  "status": 403,
+ "https://www.theoi.com/Text/HomerIliad9.html": {
+  "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "god-zeus/s8"
-  ]
- },
- "https://www.britannica.com/topic/Diana-Roman-religion": {
-  "status": 403,
-  "checked": "2026-11-02",
-  "used": [
-   "god-artemis/s7"
+   "hero-achilles/s3"
   ]
  },
  "https://www.theoi.com/Text/HomerIliad22.html": {
@@ -462,13 +474,6 @@
    "hero-achilles/s4"
   ]
  },
- "https://www.theoi.com/Text/HomerIliad20.html": {
-  "status": 200,
-  "checked": "2026-11-02",
-  "used": [
-   "hero-aeneas/s2"
-  ]
- },
  "https://www.theoi.com/Text/HomerIliad24.html": {
   "status": 200,
   "checked": "2026-11-02",
@@ -476,25 +481,33 @@
    "hero-achilles/s5"
   ]
  },
- "https://www.theoi.com/Text/HomerIliad9.html": {
+ "https://www.theoi.com/Text/HomerIliad20.html": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "hero-achilles/s3"
+   "hero-aeneas/s2"
   ]
  },
- "https://www.theoi.com/Heros/Akhilleus.html": {
-  "status": 404,
+ "http://classics.mit.edu/Virgil/aeneid.2.ii.html": {
+  "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "hero-achilles/s7"
+   "hero-aeneas/s3",
+   "story-trojan-horse/s2"
   ]
  },
- "https://www.theoi.com/Heros/Aineias.html": {
-  "status": 404,
+ "http://classics.mit.edu/Virgil/aeneid.1.i.html": {
+  "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "hero-aeneas/s7"
+   "hero-aeneas/s4"
+  ]
+ },
+ "http://classics.mit.edu/Virgil/aeneid.4.iv.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "hero-aeneas/s5"
   ]
  },
  "https://www.worldhistory.org/Aeneid/": {
@@ -502,6 +515,13 @@
   "checked": "2026-11-02",
   "used": [
    "hero-aeneas/s6"
+  ]
+ },
+ "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0151:book=1:chapter=7": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "hero-heracles/s6"
   ]
  },
  "https://www.worldhistory.org/hercules/": {
@@ -522,53 +542,43 @@
    "titan-rhea/s3"
   ]
  },
- "https://www.theoi.com/Heros/Herakles.html": {
-  "status": 404,
+ "https://www.britannica.com/topic/Diana-Roman-religion": {
+  "status": 403,
   "checked": "2026-11-02",
   "used": [
-   "hero-heracles/s7"
+   "god-artemis/s7"
   ]
  },
  "https://www.theoi.com/Text/HomerOdyssey9.html": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "hero-odysseus/s3"
-  ]
- },
- "http://classics.mit.edu/Virgil/aeneid.2.ii.html": {
-  "status": 200,
-  "checked": "2026-11-02",
-  "used": [
-   "hero-aeneas/s3"
-  ]
- },
- "https://www.theoi.com/Heros/Argonautai.html": {
-  "status": 404,
-  "checked": "2026-11-02",
-  "used": [
-   "hero-jason/s2"
+   "hero-odysseus/s3",
+   "story-odyssey/s2"
   ]
  },
  "https://www.theoi.com/Text/HomerOdyssey11.html": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "hero-odysseus/s4"
+   "hero-odysseus/s4",
+   "place-underworld/s2",
+   "story-oedipus/s3"
   ]
  },
  "https://www.theoi.com/Text/HomerOdyssey12.html": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "hero-odysseus/s5"
+   "hero-odysseus/s5",
+   "story-odyssey/s4"
   ]
  },
- "http://classics.mit.edu/Virgil/aeneid.4.iv.html": {
-  "status": 200,
+ "https://www.britannica.com/topic/Jupiter-Roman-god": {
+  "status": 403,
   "checked": "2026-11-02",
   "used": [
-   "hero-aeneas/s5"
+   "god-zeus/s8"
   ]
  },
  "https://www.theoi.com/Text/OvidMetamorphoses10.html": {
@@ -578,11 +588,47 @@
    "hero-orpheus/s2"
   ]
  },
- "http://classics.mit.edu/Virgil/aeneid.1.i.html": {
+ "https://www.theoi.com/Text/OvidMetamorphoses11.html": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "hero-aeneas/s4"
+   "hero-orpheus/s3"
+  ]
+ },
+ "http://classics.mit.edu/Virgil/georgics.4.iv.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "hero-orpheus/s4"
+  ]
+ },
+ "https://www.theoi.com/Heros/Odysseus.html": {
+  "status": 404,
+  "checked": "2026-11-02",
+  "used": [
+   "hero-odysseus/s7",
+   "story-odyssey/s9"
+  ]
+ },
+ "https://www.theoi.com/Heros/Perseus.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "hero-perseus/s3"
+  ]
+ },
+ "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Theseus*.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "hero-theseus/s1"
+  ]
+ },
+ "https://www.theoi.com/Heros/Aineias.html": {
+  "status": 404,
+  "checked": "2026-11-02",
+  "used": [
+   "hero-aeneas/s7"
   ]
  },
  "https://www.theoi.com/Heros/Orpheus.html": {
@@ -592,18 +638,61 @@
    "hero-orpheus/s5"
   ]
  },
- "https://www.theoi.com/Heros/Odysseus.html": {
+ "https://www.theoi.com/Heros/Herakles.html": {
   "status": 404,
   "checked": "2026-11-02",
   "used": [
-   "hero-odysseus/s7"
+   "hero-heracles/s7"
   ]
  },
- "https://www.theoi.com/Heros/Perseus.html": {
+ "https://www.theoi.com/Pontios/Gorgones.html": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "hero-perseus/s3"
+   "monster-medusa/s4"
+  ]
+ },
+ "https://www.theoi.com/Text/OvidMetamorphoses8.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "monster-minotaur/s2",
+   "story-icarus/s1"
+  ]
+ },
+ "https://www.theoi.com/Ther/Minotauros.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "monster-minotaur/s3"
+  ]
+ },
+ "https://www.theoi.com/Heros/Argonautai.html": {
+  "status": 404,
+  "checked": "2026-11-02",
+  "used": [
+   "hero-jason/s2"
+  ]
+ },
+ "https://www.theoi.com/Heros/Akhilleus.html": {
+  "status": 404,
+  "checked": "2026-11-02",
+  "used": [
+   "hero-achilles/s7"
+  ]
+ },
+ "https://www.theoi.com/Heros/Theseus.html": {
+  "status": 404,
+  "checked": "2026-11-02",
+  "used": [
+   "hero-theseus/s3"
+  ]
+ },
+ "https://www.theoi.com/Text/HomerOdyssey6.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "place-olympus/s1"
   ]
  },
  "https://www.theoi.com/Protogenos/Khaos.html": {
@@ -632,6 +721,175 @@
   "checked": "2026-11-02",
   "used": [
    "event-titanomachy/s5"
+  ]
+ },
+ "https://www.theoi.com/Text/HomerOdyssey10.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "place-underworld/s1",
+   "story-odyssey/s3"
+  ]
+ },
+ "https://www.theoi.com/Heroine/Arakhne.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "story-arachne/s2"
+  ]
+ },
+ "https://www.theoi.com/Heros/Narkissos.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "story-narcissus/s2"
+  ]
+ },
+ "https://www.theoi.com/Text/HomerOdyssey2.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "story-odyssey/s1"
+  ]
+ },
+ "https://www.worldhistory.org/knossos/": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "monster-minotaur/s4"
+  ]
+ },
+ "https://www.theoi.com/Text/HomerOdyssey7.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "story-odyssey/s5"
+  ]
+ },
+ "https://www.theoi.com/Text/HomerOdyssey17.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "story-odyssey/s6"
+  ]
+ },
+ "https://www.worldhistory.org/Mount_Olympus/": {
+  "status": 403,
+  "checked": "2026-11-02",
+  "used": [
+   "place-olympus/s3"
+  ]
+ },
+ "https://www.theoi.com/Text/HomerOdyssey21.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "story-odyssey/s7"
+  ]
+ },
+ "https://www.theoi.com/Text/HomerOdyssey23.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "story-odyssey/s8"
+  ]
+ },
+ "https://www.worldhistory.org/hades/": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "place-underworld/s5"
+  ]
+ },
+ "https://www.theoi.com/Heroine/Pandora.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "story-pandora/s3"
+  ]
+ },
+ "https://www.worldhistory.org/Oedipus_Rex/": {
+  "status": 403,
+  "checked": "2026-11-02",
+  "used": [
+   "story-oedipus/s4"
+  ]
+ },
+ "https://www.theoi.com/Text/OvidMetamorphoses5.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "story-persephone/s2"
+  ]
+ },
+ "https://www.theoi.com/Khthonios/Persephone.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "story-persephone/s3"
+  ]
+ },
+ "https://www.theoi.com/Heros/Ikaros.html": {
+  "status": 404,
+  "checked": "2026-11-02",
+  "used": [
+   "story-icarus/s3"
+  ]
+ },
+ "http://classics.mit.edu/Virgil/aeneid.6.vi.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "place-underworld/s4"
+  ]
+ },
+ "https://en.wikipedia.org/wiki/Pandora%27s_box": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "story-pandora/s4"
+  ]
+ },
+ "https://www.worldhistory.org/Romulus_and_Remus/": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "story-romulus-remus/s3"
+  ]
+ },
+ "https://www.worldhistory.org/Rome/": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "story-romulus-remus/s4"
+  ]
+ },
+ "https://www.theoi.com/Text/HomerOdyssey4.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "story-trojan-horse/s4"
+  ]
+ },
+ "http://classics.mit.edu/Sophocles/oedipus.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "story-oedipus/s2"
+  ]
+ },
+ "https://www.theoi.com/Text/HomerIliad2.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "story-trojan-war/s5"
+  ]
+ },
+ "https://www.worldhistory.org/troy/": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "story-trojan-war/s8"
   ]
  },
  "https://www.theoi.com/Titan/TitanAtlas.html": {
@@ -683,39 +941,39 @@
    "titan-rhea/s4"
   ]
  },
- "https://www.theoi.com/Text/OvidMetamorphoses11.html": {
+ "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Romulus*.html": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "hero-orpheus/s3"
+   "story-romulus-remus/s2"
   ]
  },
- "https://www.theoi.com/Heros/Theseus.html": {
-  "status": 404,
-  "checked": "2026-11-02",
-  "used": [
-   "hero-theseus/s3"
-  ]
- },
- "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Theseus*.html": {
+ "https://www.worldhistory.org/Trojan_Horse/": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "hero-theseus/s1"
+   "story-trojan-horse/s5"
   ]
  },
- "http://classics.mit.edu/Virgil/georgics.4.iv.html": {
+ "https://whc.unesco.org/en/list/849": {
+  "status": 403,
+  "checked": "2026-11-02",
+  "used": [
+   "story-trojan-war/s7"
+  ]
+ },
+ "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0151:book=1:chapter=4": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "hero-orpheus/s4"
+   "story-romulus-remus/s1"
   ]
  },
- "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0151:book=1:chapter=7": {
+ "https://www.worldhistory.org/Eleusinian_Mysteries/": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "hero-heracles/s6"
+   "story-persephone/s4"
   ]
  }
 }
