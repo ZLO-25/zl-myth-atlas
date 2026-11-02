@@ -596,11 +596,11 @@
    "orion-constellation"
   ]
  },
- "https://www.britannica.com/topic/Diana-Roman-religion": {
+ "https://www.britannica.com/topic/Jupiter-Roman-god": {
   "status": 403,
   "checked": "2026-11-02",
   "used": [
-   "god-artemis/s7"
+   "god-zeus/s8"
   ]
  },
  "https://www.theoi.com/Text/HomerOdyssey9.html": {
@@ -635,11 +635,11 @@
    "太陽神的牧場（特里那基亞）"
   ]
  },
- "https://www.britannica.com/topic/Jupiter-Roman-god": {
+ "https://www.britannica.com/topic/Diana-Roman-religion": {
   "status": 403,
   "checked": "2026-11-02",
   "used": [
-   "god-zeus/s8"
+   "god-artemis/s7"
   ]
  },
  "https://www.theoi.com/Text/OvidMetamorphoses10.html": {
@@ -664,8 +664,8 @@
    "hero-orpheus/s4"
   ]
  },
- "https://www.theoi.com/Heros/Odysseus.html": {
-  "status": 404,
+ "https://www.worldhistory.org/odysseus/": {
+  "status": 200,
   "checked": "2026-11-02",
   "used": [
    "hero-odysseus/s7",
@@ -687,8 +687,8 @@
    "ship-of-theseus"
   ]
  },
- "https://www.theoi.com/Heros/Orpheus.html": {
-  "status": 404,
+ "https://www.worldhistory.org/Orpheus/": {
+  "status": 200,
   "checked": "2026-11-02",
   "used": [
    "hero-orpheus/s5"
@@ -733,13 +733,11 @@
    "place-olympus/s1"
   ]
  },
- "https://www.worldhistory.org/Mount_Olympus/": {
-  "status": 403,
+ "https://www.worldhistory.org/Aeneas/": {
+  "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "place-olympus/s3",
-   "olympics-not-olympus",
-   "olympus"
+   "hero-aeneas/s7"
   ]
  },
  "https://www.theoi.com/Text/HomerOdyssey10.html": {
@@ -801,11 +799,11 @@
    "story-arachne/s2"
   ]
  },
- "https://www.theoi.com/Heros/Ikaros.html": {
-  "status": 404,
+ "https://www.worldhistory.org/article/425/jason--the-argonauts/": {
+  "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "story-icarus/s3"
+   "hero-jason/s2"
   ]
  },
  "https://www.theoi.com/Heros/Narkissos.html": {
@@ -859,12 +857,12 @@
    "story-oedipus/s2"
   ]
  },
- "https://www.worldhistory.org/Oedipus_Rex/": {
-  "status": 403,
+ "https://www.worldhistory.org/achilles/": {
+  "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "story-oedipus/s4",
-   "索福克勒斯《伊底帕斯王》上演"
+   "hero-achilles/s7",
+   "achilles-heel"
   ]
  },
  "https://www.theoi.com/Heroine/Pandora.html": {
@@ -955,12 +953,11 @@
    "story-trojan-war/s5"
   ]
  },
- "https://www.theoi.com/Heros/Akhilleus.html": {
-  "status": 404,
+ "https://www.theoi.com/greek-mythology/heracles.html": {
+  "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "hero-achilles/s7",
-   "achilles-heel"
+   "hero-heracles/s7"
   ]
  },
  "https://www.worldhistory.org/troy/": {
@@ -1070,6 +1067,13 @@
    "versace-medusa"
   ]
  },
+ "https://www.worldhistory.org/Theseus/": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "hero-theseus/s3"
+  ]
+ },
  "https://about.starbucks.com/history/the-story-of-the-siren/": {
   "status": 403,
   "checked": "2026-11-02",
@@ -1077,18 +1081,11 @@
    "starbucks-siren"
   ]
  },
- "https://www.theoi.com/Heros/Aineias.html": {
-  "status": 404,
+ "https://www.worldhistory.org/Daedalus/": {
+  "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "hero-aeneas/s7"
-  ]
- },
- "https://www.theoi.com/Heros/Theseus.html": {
-  "status": 404,
-  "checked": "2026-11-02",
-  "used": [
-   "hero-theseus/s3"
+   "story-icarus/s3"
   ]
  },
  "https://en.wikipedia.org/wiki/AFC_Ajax": {
@@ -1098,11 +1095,13 @@
    "ajax-name"
   ]
  },
- "https://www.businessinsider.in/how-amazon-got-its-name/articleshow/64068170.cms": {
-  "status": -1,
+ "https://www.worldhistory.org/Mount_Olympus/": {
+  "status": 403,
   "checked": "2026-11-02",
   "used": [
-   "amazon-brand"
+   "place-olympus/s3",
+   "olympics-not-olympus",
+   "olympus"
   ]
  },
  "https://science.nasa.gov/solar-system/asteroids/4-vesta/": {
@@ -1112,18 +1111,19 @@
    "vesta-asteroid"
   ]
  },
- "https://www.theoi.com/Heros/Herakles.html": {
-  "status": 404,
+ "https://www.worldhistory.org/Oedipus_Rex/": {
+  "status": 403,
   "checked": "2026-11-02",
   "used": [
-   "hero-heracles/s7"
+   "story-oedipus/s4",
+   "索福克勒斯《伊底帕斯王》上演"
   ]
  },
- "https://www.theoi.com/Heros/Argonautai.html": {
-  "status": 404,
+ "https://www.businessinsider.in/how-amazon-got-its-name/articleshow/64068170.cms": {
+  "status": -1,
   "checked": "2026-11-02",
   "used": [
-   "hero-jason/s2"
+   "amazon-brand"
   ]
  },
  "https://www.hadestown.com/": {
@@ -1140,11 +1140,11 @@
    "perseids"
   ]
  },
- "https://www.etymonline.com/word/bacchanal": {
+ "https://www.etymonline.com/word/July": {
   "status": 403,
   "checked": "2026-11-02",
   "used": [
-   "bacchanal-word"
+   "july"
   ]
  },
  "https://www.esa.int/Science_Exploration/Space_Science/Gaia": {
@@ -1182,12 +1182,11 @@
    "madeline-miller"
   ]
  },
- "https://whc.unesco.org/en/list/849": {
+ "https://www.etymonline.com/word/labyrinth": {
   "status": 403,
   "checked": "2026-11-02",
   "used": [
-   "story-trojan-war/s7",
-   "troy"
+   "labyrinth-word"
   ]
  },
  "https://en.wikipedia.org/wiki/Achilles_tendon": {
@@ -1232,18 +1231,18 @@
    "promethium"
   ]
  },
- "https://www.etymonline.com/word/arachnid": {
+ "https://www.etymonline.com/word/bacchanal": {
   "status": 403,
   "checked": "2026-11-02",
   "used": [
-   "arachnida"
+   "bacchanal-word"
   ]
  },
- "https://radiopaedia.org/articles/achilles-tendon-2": {
-  "status": 406,
+ "https://www.etymonline.com/word/astronaut": {
+  "status": 403,
   "checked": "2026-11-02",
   "used": [
-   "achilles-tendon"
+   "argonaut-astronaut"
   ]
  },
  "https://en.wikipedia.org/wiki/Hercules_(1997_film)": {
@@ -1274,11 +1273,11 @@
    "hades-game"
   ]
  },
- "https://www.etymonline.com/word/astronaut": {
+ "https://www.etymonline.com/word/Amazon": {
   "status": 403,
   "checked": "2026-11-02",
   "used": [
-   "argonaut-astronaut"
+   "amazon-brand"
   ]
  },
  "https://en.wikipedia.org/wiki/Assassin%27s_Creed_Odyssey": {
@@ -1351,11 +1350,12 @@
    "saturn-moons"
   ]
  },
- "https://www.etymonline.com/word/Amazon": {
+ "https://www.etymonline.com/word/atlas": {
   "status": 403,
   "checked": "2026-11-02",
   "used": [
-   "amazon-brand"
+   "atlas-vertebra",
+   "atlas-book"
   ]
  },
  "https://www.lockheedmartin.com/en-us/products/aegis-combat-system.html": {
@@ -1365,25 +1365,26 @@
    "aegis-ships"
   ]
  },
- "https://www.etymonline.com/word/labyrinth": {
+ "https://whc.unesco.org/en/list/849": {
   "status": 403,
   "checked": "2026-11-02",
   "used": [
-   "labyrinth-word"
+   "story-trojan-war/s7",
+   "troy"
   ]
  },
- "https://www.etymonline.com/word/typhoon": {
+ "https://www.etymonline.com/word/arachnid": {
   "status": 403,
   "checked": "2026-11-02",
   "used": [
-   "typhoon-typhon"
+   "arachnida"
   ]
  },
- "https://www.etymonline.com/word/July": {
-  "status": 403,
+ "https://www.worldhistory.org/Zagreus/": {
+  "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "july"
+   "hades-game"
   ]
  },
  "https://www.theoi.com/Text/OvidFasti3.html": {
@@ -1393,12 +1394,11 @@
    "march"
   ]
  },
- "https://www.etymonline.com/word/atlas": {
+ "https://www.etymonline.com/word/typhoon": {
   "status": 403,
   "checked": "2026-11-02",
   "used": [
-   "atlas-vertebra",
-   "atlas-book"
+   "typhoon-typhon"
   ]
  },
  "https://www.theoi.com/Text/OvidFasti6.html": {
@@ -1406,6 +1406,27 @@
   "checked": "2026-11-02",
   "used": [
    "june"
+  ]
+ },
+ "https://www.etymonline.com/word/March": {
+  "status": 403,
+  "checked": "2026-11-02",
+  "used": [
+   "march"
+  ]
+ },
+ "https://www.etymonline.com/word/January": {
+  "status": 403,
+  "checked": "2026-11-02",
+  "used": [
+   "january"
+  ]
+ },
+ "https://www.theoi.com/Text/OvidFasti4.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "april-may"
   ]
  },
  "https://www.etymonline.com/word/June": {
@@ -1422,13 +1443,6 @@
    "april-may"
   ]
  },
- "https://www.theoi.com/Text/OvidFasti4.html": {
-  "status": 200,
-  "checked": "2026-11-02",
-  "used": [
-   "april-may"
-  ]
- },
  "https://www.etymonline.com/word/May": {
   "status": 403,
   "checked": "2026-11-02",
@@ -1436,18 +1450,11 @@
    "april-may"
   ]
  },
- "https://www.etymonline.com/word/January": {
-  "status": 403,
+ "https://radiopaedia.org/articles/achilles-tendon-2": {
+  "status": 406,
   "checked": "2026-11-02",
   "used": [
-   "january"
-  ]
- },
- "https://www.etymonline.com/word/March": {
-  "status": 403,
-  "checked": "2026-11-02",
-  "used": [
-   "march"
+   "achilles-tendon"
   ]
  },
  "https://www.etymonline.com/word/Saturday": {
@@ -1457,25 +1464,11 @@
    "saturday"
   ]
  },
- "https://www.etymonline.com/word/panic": {
+ "https://www.etymonline.com/word/titanic": {
   "status": 403,
   "checked": "2026-11-02",
   "used": [
-   "panic-word"
-  ]
- },
- "https://www.etymonline.com/word/echo": {
-  "status": 403,
-  "checked": "2026-11-02",
-  "used": [
-   "echo-word"
-  ]
- },
- "https://www.theoi.com/Khthonios/Zagreus.html": {
-  "status": 404,
-  "checked": "2026-11-02",
-  "used": [
-   "hades-game"
+   "titanic-word"
   ]
  },
  "https://www.etymonline.com/word/chaos": {
@@ -1485,32 +1478,18 @@
    "chaos-word"
   ]
  },
- "https://www.etymonline.com/word/nemesis": {
+ "https://www.etymonline.com/word/echo": {
   "status": 403,
   "checked": "2026-11-02",
   "used": [
-   "nemesis-word"
+   "echo-word"
   ]
  },
- "https://www.etymonline.com/word/titanic": {
+ "https://www.etymonline.com/word/panic": {
   "status": 403,
   "checked": "2026-11-02",
   "used": [
-   "titanic-word"
-  ]
- },
- "https://www.merriam-webster.com/dictionary/Achilles%27%20heel": {
-  "status": 403,
-  "checked": "2026-11-02",
-  "used": [
-   "achilles-heel"
-  ]
- },
- "https://csrc.nist.gov/glossary/term/trojan_horse": {
-  "status": 200,
-  "checked": "2026-11-02",
-  "used": [
-   "trojan-malware"
+   "panic-word"
   ]
  },
  "https://www.etymonline.com/word/narcissism": {
@@ -1518,6 +1497,20 @@
   "checked": "2026-11-02",
   "used": [
    "narcissism-word"
+  ]
+ },
+ "https://www.etymonline.com/word/nemesis": {
+  "status": 403,
+  "checked": "2026-11-02",
+  "used": [
+   "nemesis-word"
+  ]
+ },
+ "https://csrc.nist.gov/glossary/term/trojan_horse": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "trojan-malware"
   ]
  },
  "https://www.etymonline.com/word/tantalize": {
@@ -1534,53 +1527,25 @@
    "herculean-word"
   ]
  },
- "https://www.etymonline.com/word/music": {
-  "status": 403,
-  "checked": "2026-11-02",
-  "used": [
-   "muse-words"
-  ]
- },
- "https://www.etymonline.com/word/cereal": {
-  "status": 403,
-  "checked": "2026-11-02",
-  "used": [
-   "cereal-word"
-  ]
- },
- "https://www.etymonline.com/word/volcano": {
-  "status": 403,
-  "checked": "2026-11-02",
-  "used": [
-   "volcano-word"
-  ]
- },
- "https://www.etymonline.com/word/museum": {
-  "status": 403,
-  "checked": "2026-11-02",
-  "used": [
-   "muse-words"
-  ]
- },
- "https://whc.unesco.org/en/list/404": {
-  "status": 200,
-  "checked": "2026-11-02",
-  "used": [
-   "athens"
-  ]
- },
- "https://whc.unesco.org/en/list/941": {
-  "status": 200,
-  "checked": "2026-11-02",
-  "used": [
-   "mycenae"
-  ]
- },
  "https://www.etymonline.com/word/odyssey": {
   "status": 403,
   "checked": "2026-11-02",
   "used": [
    "odyssey-word"
+  ]
+ },
+ "https://www.merriam-webster.com/dictionary/Achilles%27%20heel": {
+  "status": 403,
+  "checked": "2026-11-02",
+  "used": [
+   "achilles-heel"
+  ]
+ },
+ "https://www.etymonline.com/word/mentor": {
+  "status": 403,
+  "checked": "2026-11-02",
+  "used": [
+   "mentor-word"
   ]
  },
  "https://whc.unesco.org/en/list/393": {
@@ -1590,18 +1555,25 @@
    "delphi"
   ]
  },
- "https://www.worldhistory.org/Minoan_Civilization/": {
+ "https://whc.unesco.org/en/list/941": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "米諾斯文明的宮殿時代"
+   "mycenae"
   ]
  },
- "https://www.worldhistory.org/homer/": {
+ "https://whc.unesco.org/en/list/404": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "荷馬史詩成形"
+   "athens"
+  ]
+ },
+ "https://whc.unesco.org/en/list/517": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "olympia"
   ]
  },
  "https://whc.unesco.org/en/list/91": {
@@ -1611,11 +1583,25 @@
    "rome"
   ]
  },
+ "https://www.worldhistory.org/Minoan_Civilization/": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "米諾斯文明的宮殿時代"
+  ]
+ },
  "https://www.worldhistory.org/Mycenaean_Civilization/": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
    "邁錫尼文明"
+  ]
+ },
+ "https://www.worldhistory.org/homer/": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "荷馬史詩成形"
   ]
  },
  "https://www.worldhistory.org/hesiod/": {
@@ -1639,18 +1625,46 @@
    "奧維德完成《變形記》"
   ]
  },
- "https://whc.unesco.org/en/list/517": {
+ "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/17C*.html": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "olympia"
+   "食蓮人的國度"
   ]
  },
- "https://www.etymonline.com/word/mentor": {
+ "https://www.etymonline.com/word/music": {
   "status": 403,
   "checked": "2026-11-02",
   "used": [
-   "mentor-word"
+   "muse-words"
+  ]
+ },
+ "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0200:book=1:chapter=25": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "費埃克斯人的國度（斯克里亞）"
+  ]
+ },
+ "https://www.etymonline.com/word/museum": {
+  "status": 403,
+  "checked": "2026-11-02",
+  "used": [
+   "muse-words"
+  ]
+ },
+ "https://www.etymonline.com/word/cereal": {
+  "status": 403,
+  "checked": "2026-11-02",
+  "used": [
+   "cereal-word"
+  ]
+ },
+ "https://www.etymonline.com/word/volcano": {
+  "status": 403,
+  "checked": "2026-11-02",
+  "used": [
+   "volcano-word"
   ]
  },
  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/1B*.html": {
@@ -1662,20 +1676,6 @@
    "喀耳刻的島",
    "海妖賽蓮",
    "斯庫拉與卡律布狄斯"
-  ]
- },
- "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/17C*.html": {
-  "status": 200,
-  "checked": "2026-11-02",
-  "used": [
-   "食蓮人的國度"
-  ]
- },
- "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0200:book=1:chapter=25": {
-  "status": 200,
-  "checked": "2026-11-02",
-  "used": [
-   "費埃克斯人的國度（斯克里亞）"
   ]
  },
  "https://www.olympics.com/ioc/ancient-olympic-games": {
