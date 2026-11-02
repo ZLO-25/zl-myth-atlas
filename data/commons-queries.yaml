@@ -1,0 +1,99 @@
+# 給 GitHub Actions 用的 Commons 搜尋：結果寫到 data/commons/candidates.json，由人挑圖後填進 data/images.yaml
+- {key: chaos-watts, q: "George Frederic Watts Chaos painting"}
+- {key: gaia-pergamon, q: "Gaia Pergamon altar frieze"}
+- {key: gaia-erichthonius, q: "Gaia Erichthonius Athena vase birth"}
+- {key: uranus-vasari, q: "Vasari Mutilation of Uranus Saturn"}
+- {key: cronus-goya, q: "Saturn Devouring His Son Goya"}
+- {key: cronus-rubens, q: "Saturn Rubens Prado"}
+- {key: cronus-stone-relief, q: "Rhea stone Cronus relief Capitoline"}
+- {key: prometheus-laconian, q: "Laconian cup Atlas Prometheus Vatican"}
+- {key: prometheus-rubens, q: "Prometheus Bound Rubens"}
+- {key: atlas-farnese, q: "Farnese Atlas Naples"}
+- {key: titans-haarlem, q: "Cornelis van Haarlem Fall of the Titans"}
+- {key: titans-rubens, q: "Rubens Fall of the Titans"}
+- {key: zeus-otricoli, q: "Zeus Otricoli Pio-Clementino"}
+- {key: zeus-artemision, q: "Artemision Bronze National Archaeological Museum Athens"}
+- {key: zeus-ingres, q: "Ingres Jupiter and Thetis"}
+- {key: hera-barberini, q: "Barberini Hera Vatican"}
+- {key: hera-campana, q: "Juno Campana Louvre"}
+- {key: hera-rubens, q: "Rubens Juno and Argus"}
+- {key: poseidon-melos, q: "Poseidon of Melos statue"}
+- {key: poseidon-corinth, q: "Poseidon pinax Penteskouphia"}
+- {key: neptune-mosaic, q: "Triumph of Neptune mosaic"}
+- {key: demeter-eleusis, q: "Great Eleusinian Relief"}
+- {key: demeter-cnidus, q: "Demeter of Knidos British Museum"}
+- {key: athena-varvakeion, q: "Varvakeion Athena"}
+- {key: athena-mourning, q: "Mourning Athena relief Acropolis"}
+- {key: athena-botticelli, q: "Botticelli Pallas and the Centaur"}
+- {key: apollo-belvedere, q: "Apollo Belvedere"}
+- {key: apollo-bernini, q: "Bernini Apollo and Daphne"}
+- {key: apollo-delphi-kylix, q: "Apollo kylix Delphi white ground"}
+- {key: artemis-versailles, q: "Diana of Versailles Louvre"}
+- {key: artemis-titian, q: "Titian Diana and Actaeon"}
+- {key: artemis-krater, q: "Artemis Actaeon Pan Painter krater"}
+- {key: ares-ludovisi, q: "Ludovisi Ares"}
+- {key: ares-botticelli, q: "Botticelli Venus and Mars"}
+- {key: aphrodite-milo, q: "Venus de Milo"}
+- {key: aphrodite-botticelli, q: "Botticelli Birth of Venus"}
+- {key: aphrodite-ludovisi, q: "Ludovisi Throne"}
+- {key: hephaestus-velazquez, q: "Velazquez Apollo in the Forge of Vulcan"}
+- {key: hephaestus-vase, q: "Return of Hephaestus vase"}
+- {key: hermes-praxiteles, q: "Hermes and the Infant Dionysus Praxiteles Olympia"}
+- {key: hermes-giambologna, q: "Giambologna Mercury bronze"}
+- {key: hermes-lekythos, q: "Hermes lekythos petasos caduceus"}
+- {key: hestia-giustiniani, q: "Hestia Giustiniani"}
+- {key: hestia-vesta, q: "Vesta Roman fresco"}
+- {key: dionysus-exekias, q: "Exekias Dionysus kylix ship"}
+- {key: dionysus-caravaggio, q: "Caravaggio Bacchus Uffizi"}
+- {key: dionysus-titian, q: "Titian Bacchus and Ariadne"}
+- {key: hades-locri, q: "Locri pinax Hades Persephone"}
+- {key: hades-bernini, q: "Bernini Rape of Proserpina"}
+- {key: hades-vergina, q: "Vergina tomb Persephone abduction fresco"}
+- {key: janus-coin, q: "Janus as Roman Republic coin"}
+- {key: janus-bust, q: "Janus bifrons Vatican bust"}
+- {key: heracles-farnese, q: "Farnese Hercules"}
+- {key: heracles-lion-amphora, q: "Heracles Nemean lion amphora"}
+- {key: perseus-cellini, q: "Cellini Perseus with the Head of Medusa"}
+- {key: perseus-vase, q: "Perseus Medusa hydria vase"}
+- {key: theseus-kylix, q: "Theseus Minotaur kylix"}
+- {key: theseus-canova, q: "Canova Theseus and the Minotaur"}
+- {key: jason-douris, q: "Douris cup Jason dragon"}
+- {key: jason-moreau, q: "Gustave Moreau Jason"}
+- {key: achilles-exekias, q: "Exekias Achilles Ajax dice amphora"}
+- {key: achilles-sosias, q: "Sosias Painter Achilles Patroclus"}
+- {key: odysseus-sirens, q: "Siren Painter Odysseus stamnos British Museum"}
+- {key: odysseus-polyphemus, q: "Odysseus Polyphemus blinding vase"}
+- {key: orpheus-relief, q: "Orpheus Eurydice Hermes relief"}
+- {key: orpheus-corot, q: "Corot Orpheus Leading Eurydice"}
+- {key: aeneas-bernini, q: "Bernini Aeneas Anchises Ascanius"}
+- {key: aeneas-pompeii, q: "Aeneas wounded fresco Pompeii"}
+- {key: pandora-waterhouse, q: "Waterhouse Pandora"}
+- {key: pandora-rossetti, q: "Rossetti Pandora"}
+- {key: persephone-rossetti, q: "Rossetti Proserpine"}
+- {key: persephone-leighton, q: "Leighton Return of Persephone"}
+- {key: trojan-paris-rubens, q: "Rubens Judgement of Paris"}
+- {key: trojan-tiepolo, q: "Tiepolo Procession of the Trojan Horse"}
+- {key: trojan-mykonos, q: "Mykonos vase Trojan horse"}
+- {key: laocoon, q: "Laocoon and His Sons Vatican"}
+- {key: odyssey-penelope, q: "Penelope Telemachus skyphos Chiusi"}
+- {key: odyssey-waterhouse, q: "Waterhouse Ulysses and the Sirens"}
+- {key: oedipus-kylix, q: "Oedipus Sphinx kylix Vatican"}
+- {key: oedipus-ingres, q: "Ingres Oedipus and the Sphinx"}
+- {key: narcissus-caravaggio, q: "Caravaggio Narcissus"}
+- {key: narcissus-waterhouse, q: "Waterhouse Echo and Narcissus"}
+- {key: icarus-bruegel, q: "Landscape with the Fall of Icarus"}
+- {key: icarus-relief, q: "Daedalus Icarus relief Villa Albani"}
+- {key: icarus-leighton, q: "Leighton Daedalus and Icarus"}
+- {key: arachne-velazquez, q: "Velazquez Las Hilanderas"}
+- {key: arachne-dore, q: "Gustave Dore Arachne"}
+- {key: romulus-wolf, q: "Capitoline Wolf"}
+- {key: romulus-rubens, q: "Rubens Romulus and Remus"}
+- {key: medusa-rondanini, q: "Medusa Rondanini Glyptothek"}
+- {key: medusa-caravaggio, q: "Caravaggio Medusa"}
+- {key: minotaur-kylix, q: "Minotaur black-figure amphora"}
+- {key: knossos, q: "Knossos palace north entrance"}
+- {key: olympus, q: "Mount Olympus Greece view"}
+- {key: underworld-patinir, q: "Patinir Charon crossing the Styx"}
+- {key: troy-walls, q: "Troy archaeological site walls Hisarlik"}
+- {key: mycenae-lion-gate, q: "Lion Gate Mycenae"}
+- {key: delphi, q: "Delphi Tholos Athena Pronaia"}

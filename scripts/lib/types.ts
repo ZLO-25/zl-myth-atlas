@@ -86,6 +86,8 @@ export interface ImageItem {
   source_url?: string; // Commons／博物館的作品頁
   file_url?: string; // 實際顯示的圖（Commons 縮圖網址或本機路徑）
   credit?: string;
+  commons?: string; // Commons 檔名（File:…），授權資料由 scripts/commons.ts 自動取得
+  pending?: boolean; // 還沒從 Commons 抓回來
   // AI 插畫
   ai?: boolean;
   tool?: string;

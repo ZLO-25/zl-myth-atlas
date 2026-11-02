@@ -3,7 +3,7 @@ import type { Card, ImageItem, SiteData, TodayItem } from '../../scripts/lib/typ
 
 export const site = raw as unknown as SiteData;
 export const cardById = new Map<string, Card>(site.cards.map((c) => [c.id, c]));
-export const imageById = new Map<string, ImageItem>(site.images.map((i) => [i.id, i]));
+export const imageById = new Map<string, ImageItem>(site.images.filter((i) => !i.pending).map((i) => [i.id, i]));
 export const todayById = new Map<string, TodayItem>(site.today.map((t) => [t.id, t]));
 export const eraById = new Map(site.eras.map((e) => [e.id, e]));
 

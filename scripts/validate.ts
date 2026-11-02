@@ -117,7 +117,7 @@ for (const c of cards) {
 
   // 完整度（警告）
   if (GOD_TYPES.has(c.type)) {
-    const works = (c.images ?? []).map((id) => imageById.get(id)).filter((i) => i?.kind === 'work');
+    const works = (c.images ?? []).map((id) => imageById.get(id)).filter((i) => i?.kind === 'work' && !i.pending);
     if (works.length < 2) warn(w, `神祇卡至少要 2 張真實作品圖（現在 ${works.length} 張）`);
     if (!c.how_to_recognize) warn(w, '神祇卡要寫 how_to_recognize（名畫裡怎麼認出他）');
     if (!c.domains) warn(w, '神祇卡要寫 domains（掌管什麼、象徵物）');
@@ -142,7 +142,9 @@ for (const im of images) {
   const w = `data/images.yaml（${im.id}）`;
   if (!im.title) err(w, '缺少 title');
   if (!im.look) err(w, '缺少 look（「看這張圖：」解說）');
-  if (im.kind === 'work') {
+  if (im.kind === 'work' && im.pending) {
+    warn(w, `等待 GitHub Actions 從 Commons 抓回 ${im.commons}`);
+  } else if (im.kind === 'work') {
     for (const k of ['artist', 'date', 'license', 'source_url', 'file_url', 'credit'] as const) if (!im[k]) err(w, `真實作品缺少 ${k}`);
     if (im.ai) err(w, '真實作品不能標 ai: true');
     if (im.source_url) {

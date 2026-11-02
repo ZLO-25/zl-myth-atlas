@@ -33,12 +33,31 @@ export function parseCard(file: string): Card {
   return fm;
 }
 
+/** 把 GitHub Actions 從 Commons 抓回來的授權資料（data/commons/meta.json）併進圖片清單 */
+function mergeCommons(images: ImageItem[]): ImageItem[] {
+  const mf = path.join(ROOT, 'data', 'commons', 'meta.json');
+  const meta: Record<string, { descriptionurl: string; license: string; license_url: string; author: string }> = fs.existsSync(mf) ? JSON.parse(fs.readFileSync(mf, 'utf8')) : {};
+  return images.map((im) => {
+    if (!im.commons) return im;
+    const m = meta[im.id];
+    if (!m) return { ...im, pending: true };
+    return {
+      ...im,
+      file_url: `images/works/${im.id}.webp`,
+      source_url: m.descriptionurl,
+      license: m.license || im.license,
+      license_url: m.license_url || im.license_url,
+      credit: im.credit ?? (m.author ? `${m.author}／Wikimedia Commons` : 'Wikimedia Commons'),
+    };
+  });
+}
+
 export function loadAll(): SiteData {
   const cards = walk(path.join(ROOT, 'cards'), '.md').map(parseCard);
   const today = walk(path.join(ROOT, 'data', 'today'), '.yaml').flatMap((f) => (YAML.parse(fs.readFileSync(f, 'utf8')) ?? []) as TodayItem[]);
   return {
     cards,
-    images: readYaml<ImageItem[]>('data/images.yaml', []),
+    images: mergeCommons(readYaml<ImageItem[]>('data/images.yaml', [])),
     today,
     eras: readYaml<Era[]>('data/eras.yaml', []),
     history: readYaml<HistoryRef[]>('data/history.yaml', []),
