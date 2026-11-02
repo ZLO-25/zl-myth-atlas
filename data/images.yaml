@@ -951,3 +951,13 @@
   artist: 佚名羅馬馬賽克工匠
   date: 約公元 200–250 年
   museum: 德國慕尼黑古代雕塑館
+
+- id: img-rhea-pelike
+  kind: work
+  commons: "File:Rhea handing a swaddled stone to Cronus, Attic terracotta pelike, c. 460–450 BC, Met 06.1021.144.jpg (cropped).jpg"
+  title: 瑞亞把包著襁褓的石頭交給克羅諾斯（雅典陶瓶）
+  period: ancient
+  artist: 佚名雅典陶瓶畫家（傳為瑙西卡畫家）
+  date: 約前 460–450 年
+  museum: 美國紐約大都會藝術博物館
+  look: TODO

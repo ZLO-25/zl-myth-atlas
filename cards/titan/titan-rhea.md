@@ -30,7 +30,7 @@ family:
     - {id: god-hades, src: [s2]}
     - {id: god-poseidon, src: [s2]}
     - {id: god-zeus, src: [s2]}
-images: [img-cronus-stone]
+images: [img-rhea-pelike, img-cronus-stone]
 sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》133–138, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
   - {id: s2, kind: ancient, cite: 赫西俄德《神譜》453–491, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
