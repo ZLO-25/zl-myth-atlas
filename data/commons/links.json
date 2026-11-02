@@ -1,0 +1,184 @@
+{
+ "https://www.theoi.com/Text/HomerIliad15.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "god-zeus/s3"
+  ]
+ },
+ "https://www.theoi.com/Text/HomerIliad5.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "god-zeus/s6"
+  ]
+ },
+ "https://www.theoi.com/Olympios/Zeus.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "god-zeus/s5"
+  ]
+ },
+ "https://www.theoi.com/Text/Apollodorus2.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "god-zeus/s7",
+   "titan-atlas/s3"
+  ]
+ },
+ "https://www.theoi.com/Text/HesiodTheogony.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "god-zeus/s1",
+   "god-zeus/s2",
+   "god-zeus/s4",
+   "primordial-chaos/s1",
+   "primordial-gaia/s1",
+   "primordial-gaia/s2",
+   "primordial-gaia/s3",
+   "primordial-gaia/s4",
+   "primordial-uranus/s1",
+   "primordial-uranus/s2",
+   "event-titanomachy/s1",
+   "event-titanomachy/s2",
+   "event-titanomachy/s4",
+   "titan-atlas/s1",
+   "titan-cronus/s1",
+   "titan-cronus/s2",
+   "titan-prometheus/s1",
+   "titan-rhea/s1",
+   "titan-rhea/s2"
+  ]
+ },
+ "https://www.britannica.com/topic/Jupiter-Roman-god": {
+  "status": 403,
+  "checked": "2026-11-02",
+  "used": [
+   "god-zeus/s8"
+  ]
+ },
+ "https://www.theoi.com/Protogenos/Ouranos.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "primordial-uranus/s3"
+  ]
+ },
+ "https://www.theoi.com/Text/Apollodorus1.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "event-titanomachy/s3",
+   "titan-prometheus/s4",
+   "titan-rhea/s3"
+  ]
+ },
+ "https://www.theoi.com/Text/HomerOdyssey1.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "titan-atlas/s2"
+  ]
+ },
+ "https://www.theoi.com/Protogenos/Gaia.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "primordial-gaia/s5"
+  ]
+ },
+ "https://www.theoi.com/Protogenos/Khaos.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "primordial-chaos/s3"
+  ]
+ },
+ "https://www.theoi.com/Text/OvidMetamorphoses4.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "titan-atlas/s4"
+  ]
+ },
+ "https://www.theoi.com/Text/OvidMetamorphoses1.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "primordial-chaos/s2"
+  ]
+ },
+ "https://www.theoi.com/Text/Apollodorus3.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "titan-atlas/s5"
+  ]
+ },
+ "https://www.theoi.com/Titan/TitanAtlas.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "titan-atlas/s6"
+  ]
+ },
+ "https://www.theoi.com/Titan/TitanKronos.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "titan-cronus/s4"
+  ]
+ },
+ "https://www.theoi.com/Text/HesiodWorksDays.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "titan-prometheus/s2"
+  ]
+ },
+ "https://www.theoi.com/Text/AeschylusPrometheus.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "titan-prometheus/s3"
+  ]
+ },
+ "https://www.theoi.com/Titan/TitanPrometheus.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "titan-prometheus/s5"
+  ]
+ },
+ "https://www.theoi.com/Titan/TitanisRhea.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "titan-rhea/s4"
+  ]
+ },
+ "https://www.worldhistory.org/Saturn/": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "titan-cronus/s5"
+  ]
+ },
+ "https://www.theoi.com/Titan/Titanomakhia.html": {
+  "status": 404,
+  "checked": "2026-11-02",
+  "used": [
+   "event-titanomachy/s5"
+  ]
+ },
+ "https://www.theoi.com/Text/VirgilAeneid8.html": {
+  "status": 404,
+  "checked": "2026-11-02",
+  "used": [
+   "titan-cronus/s3"
+  ]
+ }
+}
