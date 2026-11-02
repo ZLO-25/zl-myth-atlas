@@ -74,7 +74,7 @@
 
 - id: img-titans-rubens
   kind: work
-  commons: "File:Musée de Bruxelles. Rubens. La Chute des Titans - Der Fall der Titanen - The fall of the Titans.jpg"
+  commons: "File:Musée de Bruxelles. Rubens. La Chute des Titans - Der Fall der Titanen - The fall of the Titan, GP019175.jpg"
   title: 〈泰坦的墜落〉
   period: modern
   look: TODO
@@ -109,7 +109,7 @@
 
 - id: img-hera-rubens
   kind: work
-  commons: "File:Juno and Argus - Peter Paul Rubens - Wallraf-Richartz Museum - Cologne.jpg"
+  commons: "File:Juno and Argus - Peter Paul Rubens - Wallraf-Richartz Museum - Cologne - Germany 2017.jpg"
   title: 〈朱諾與阿爾戈斯〉
   period: modern
   look: TODO
@@ -200,7 +200,7 @@
 
 - id: img-artemis-krater
   kind: work
-  commons: "File:Pan Painter - ARV 552 20 - gigantomachy - death of Aktaion - Athens - Boston MFA 10.185 - 01.jpg"
+  commons: "File:Pan Painter - ARV 552 20 - gigantomachy - death of Aktaion - Athens NAM Akr 760 - 01.jpg"
   title: 阿克泰翁之死（潘畫家）
   period: ancient
   look: TODO
@@ -291,7 +291,7 @@
 
 - id: img-hades-locri
   kind: work
-  commons: "File:Pinax with Persephone and Hades Enthroned, 500-450 BC, Greek, Locri.jpg"
+  commons: "File:Pinax with Persephone and Hades Enthroned, 500-450 BC, Greek, Locri Epizephirii, Mannella district, Sanctuary of Persephone, terracotta - Cleveland Museum of Art - DSC08242.JPG"
   title: 洛克里陶板：黛帝斯與波瑟芬妮
   period: ancient
   look: TODO
@@ -375,7 +375,7 @@
 
 - id: img-achilles-sosias
   kind: work
-  commons: "File:Sosias Painter ARV 21 1 Achilles tending Patroklos - Herakles entering Olympus - Berlin Antikensammlung F 2278 - 01.jpg"
+  commons: "File:Sosias Painter ARV 21 1 Achilles tending Patroklos - Herakles entering Olympus (09).jpg"
   title: 阿基里斯替帕特羅克洛斯包紮
   period: ancient
   look: TODO
@@ -389,7 +389,7 @@
 
 - id: img-odysseus-polyphemus
   kind: work
-  commons: "File:Funerary proto-Attic amphora by Polyphemos painter depicting Odysseus and his companions blinding Polyphemus.jpg"
+  commons: "File:Funerary proto-Attic amphora by Polyphemos painter depicting Odysseus and his men blinding the cyclops Polyphemus from xxx flickr 8706777442 b4db371a26 o.jpg"
   title: 弄瞎獨眼巨人（埃萊夫西納雙耳瓶）
   period: ancient
   look: TODO
@@ -459,14 +459,14 @@
 
 - id: img-trojan-tiepolo
   kind: work
-  commons: "File:Giovanni Domenico Tiepolo - The Procession of the Trojan Horse in Troy - Google Art Project.jpg"
+  commons: "File:Giovanni Domenico Tiepolo - The Procession of the Trojan Horse in Troy - WGA22382.jpg"
   title: 〈木馬進城的遊行〉
   period: modern
   look: TODO
 
 - id: img-trojan-mykonos
   kind: work
-  commons: "File:Mykonos vase 7th cent bce early depiction of Trojan Horse photographed by Travelling Runes.jpg"
+  commons: "File:Mykonos vase 7th cent bce early depiction of Trojan Horse photographed by Travellingrunes Flickr 2949254926 4c9dc0882d o.png"
   title: 米科諾斯陶罐上的木馬
   period: ancient
   look: TODO
@@ -487,14 +487,14 @@
 
 - id: img-oedipus-kylix
   kind: work
-  commons: "File:Oedipus being questioned by the Sphinx, Attic red-figured kylix, by the Oedipus Painter, c. 470 BC, Museo Gregoriano Etrusco, Vatican Museums (16541).jpg"
+  commons: "File:Oedipus being questioned by the Sphinx, Attic red-figured kylix, by the Oedipus Painter, 470-460 BC, inv. 16541 - Museo Gregoriano Etrusco - Vatican Museums - DSC01041.jpg"
   title: 伊底帕斯與斯芬克斯（伊底帕斯畫家）
   period: ancient
   look: TODO
 
 - id: img-oedipus-ingres
   kind: work
-  commons: "File:Jean-Auguste-Dominique Ingres (1780-1867) - Oedipus and the Sphinx (1808) - Louvre RF 218.jpg"
+  commons: "File:Jean-Auguste-Dominique Ingres (1780-1867) - Oedipus and the Sphinx - NG3290 - National Gallery.jpg"
   title: 〈伊底帕斯與斯芬克斯〉
   period: modern
   look: TODO
@@ -515,7 +515,7 @@
 
 - id: img-icarus-bruegel
   kind: work
-  commons: "File:Pieter Bruegel the Elder - Landscape with the Fall of Icarus - Bruxelles.jpg"
+  commons: "File:Pieter Bruegel the Elder - Landscape with the Fall of Icarus - Brussels, Royal Museums of Fine Arts of Belgium - Google Arts & Culture.jpg"
   title: 〈伊卡洛斯墜落的風景〉
   period: modern
   look: TODO
@@ -608,5 +608,89 @@
   kind: work
   commons: "File:Lion Gate, Mycenae, 201510.jpg"
   title: 邁錫尼獅子門
+  period: ancient
+  look: TODO
+
+- id: img-apollo-belvedere
+  kind: work
+  commons: "File:Belvedere Apollo Pio-Clementino Inv1015.jpg"
+  title: 觀景殿的阿波羅
+  period: ancient
+  look: TODO
+
+- id: img-ares-ludovisi
+  kind: work
+  commons: "File:Ares Ludovisi Altemps Inv8602.jpg"
+  title: 盧多維西的阿瑞斯
+  period: ancient
+  look: TODO
+
+- id: img-ares-botticelli
+  kind: work
+  commons: "File:Venus and Mars National Gallery.jpg"
+  title: 〈維納斯與馬爾斯〉
+  period: modern
+  look: TODO
+
+- id: img-janus-head
+  kind: work
+  commons: "File:Janus1.JPG"
+  title: 雙面雅努斯頭像
+  period: ancient
+  look: TODO
+
+- id: img-hermes-berlin
+  kind: work
+  commons: "File:Amphora of the Berlin Painter at the Antikensammlung Berlin.jpg"
+  title: 柏林畫家雙耳瓶上的荷米斯
+  period: ancient
+  look: TODO
+
+- id: img-prometheus-laconian
+  kind: work
+  commons: "File:Prometheus and Atlas, Laconian black-figure kylix, by the Arkesilas Painter, 560-550 BC, inv. 16592 - Museo Gregoriano Etrusco - Vatican Museums - DSC01069.jpg"
+  title: 拉科尼亞杯：阿特拉斯與普羅米修斯
+  period: ancient
+  look: TODO
+
+- id: img-olympus-mytikas
+  kind: work
+  commons: "File:Mytikas peak 02.jpg"
+  title: 奧林帕斯山最高峰米蒂卡斯
+  period: modern
+  look: TODO
+
+- id: img-delphi-temple
+  kind: work
+  commons: "File:Temple of Apollo Delphi Greece 2009.jpg"
+  title: 德爾菲阿波羅神廟遺址
+  period: modern
+  look: TODO
+
+- id: img-pandora-krater
+  kind: work
+  commons: "File:Niobid Painter ARV 601 23 creation of Pandora - chorus of women - Pans - satyrs and maenad (03).jpg"
+  title: 眾神裝扮潘朵拉（尼俄柏畫家）
+  period: ancient
+  look: TODO
+
+- id: img-achilles-hector
+  kind: work
+  commons: "File:Achill und Hektor.jpg"
+  title: 阿基里斯與赫克托決鬥
+  period: ancient
+  look: TODO
+
+- id: img-persephone-hydria
+  kind: work
+  commons: "File:Chicago Painter - ARV 630 31 - Triptolemos with Persephone and Demeter - München AS 2432 - 09.jpg"
+  title: 狄蜜特、波瑟芬妮與特里普托勒摩斯
+  period: ancient
+  look: TODO
+
+- id: img-tellus-mosaic
+  kind: work
+  commons: "File:Aion mosaic Glyptothek Munich W504.jpg"
+  title: 森提努姆馬賽克：永恆之神與大地女神
   period: ancient
   look: TODO
