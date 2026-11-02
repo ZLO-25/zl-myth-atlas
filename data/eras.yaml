@@ -1,0 +1,9 @@
+# 神話年代：是「故事順序」，不是真實年份
+- {id: chaos, order: 1, name: 混沌與創世, summary: 宇宙從一片空隙中出現，大地、天空、黑夜等原始神誕生。}
+- {id: titans, order: 2, name: 泰坦時代, summary: 烏拉諾斯被推翻，克羅諾斯與泰坦們統治世界。}
+- {id: titanomachy, order: 3, name: 泰坦之戰, summary: 宙斯帶領兄弟姊妹與泰坦打了十年，取得天下。}
+- {id: olympian, order: 4, name: 奧林帕斯秩序, summary: 宙斯分配天、海、冥界，眾神各司其職；人類與神的故事開始交織。}
+- {id: heroes, order: 5, name: 英雄時代, summary: 神與凡人所生的英雄四處冒險、斬妖除怪、建立城邦。}
+- {id: trojan-war, order: 6, name: 特洛伊戰爭, summary: 希臘聯軍圍攻特洛伊十年，英雄時代最大的一場戰爭。}
+- {id: returns, order: 7, name: 返鄉與後代, summary: 戰後英雄們各自返鄉，有人漂流十年，有人死在家門口。}
+- {id: rome, order: 8, name: 羅馬建國, summary: 特洛伊人埃涅阿斯的後代在義大利建立羅馬。}

@@ -1,0 +1,19 @@
+# 主題標籤詞表：卡片的 topics 只能用這裡的 name
+- {id: hubris, name: 傲慢與懲罰, desc: 凡人或神自以為了不起，挑戰更高的力量，結果受罰。}
+- {id: metamorphosis, name: 變形, desc: 人或神變成動物、植物、石頭或星星。}
+- {id: prophecy, name: 預言, desc: 神諭或預言者說出未來，角色試圖逃避或實現它。}
+- {id: fate, name: 宿命, desc: 命運早已決定，再怎麼努力也逃不掉。}
+- {id: jealousy, name: 神的嫉妒, desc: 神因為嫉妒、被冒犯而報復。}
+- {id: underworld, name: 冥界之旅, desc: 活人進入冥界又設法回來。}
+- {id: creation, name: 創世, desc: 世界、神與人類是怎麼來的。}
+- {id: succession, name: 王權更替, desc: 兒子推翻父親，新一代神取代舊一代。}
+- {id: love, name: 愛與慾望, desc: 愛情、外遇、追求與它帶來的後果。}
+- {id: trickery, name: 智慧與詭計, desc: 靠腦袋而不是力氣解決問題。}
+- {id: war, name: 戰爭, desc: 神與神、人與人之間的戰爭。}
+- {id: quest, name: 冒險與試煉, desc: 英雄出發完成不可能的任務。}
+- {id: seasons, name: 季節與農業, desc: 用神話解釋四季、收成與自然現象。}
+- {id: rome-borrows, name: 羅馬借用希臘, desc: 羅馬人如何吸收、改寫希臘的神與故事。}
+- {id: monsters, name: 怪物, desc: 半人半獸、巨人與怪物，以及打敗牠們的人。}
+- {id: curse, name: 家族詛咒, desc: 罪行讓詛咒一代傳一代。}
+- {id: humans, name: 人類起源, desc: 人類從哪來、為什麼會受苦。}
+- {id: homecoming, name: 返鄉, desc: 漫長的回家之路。}
