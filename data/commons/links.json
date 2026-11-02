@@ -1,33 +1,4 @@
 {
- "https://www.theoi.com/Text/HomerIliad15.html": {
-  "status": 200,
-  "checked": "2026-11-02",
-  "used": [
-   "god-zeus/s3"
-  ]
- },
- "https://www.theoi.com/Text/HomerIliad5.html": {
-  "status": 200,
-  "checked": "2026-11-02",
-  "used": [
-   "god-zeus/s6"
-  ]
- },
- "https://www.theoi.com/Olympios/Zeus.html": {
-  "status": 200,
-  "checked": "2026-11-02",
-  "used": [
-   "god-zeus/s5"
-  ]
- },
- "https://www.theoi.com/Text/Apollodorus2.html": {
-  "status": 200,
-  "checked": "2026-11-02",
-  "used": [
-   "god-zeus/s7",
-   "titan-atlas/s3"
-  ]
- },
  "https://www.theoi.com/Text/HesiodTheogony.html": {
   "status": 200,
   "checked": "2026-11-02",
@@ -53,11 +24,54 @@
    "titan-rhea/s2"
   ]
  },
- "https://www.britannica.com/topic/Jupiter-Roman-god": {
-  "status": 403,
+ "https://www.theoi.com/Text/HomerIliad15.html": {
+  "status": 200,
   "checked": "2026-11-02",
   "used": [
-   "god-zeus/s8"
+   "god-zeus/s3"
+  ]
+ },
+ "https://www.theoi.com/Olympios/Zeus.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "god-zeus/s5"
+  ]
+ },
+ "https://www.theoi.com/Text/HomerIliad5.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "god-zeus/s6"
+  ]
+ },
+ "https://www.theoi.com/Text/Apollodorus2.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "god-zeus/s7",
+   "titan-atlas/s3"
+  ]
+ },
+ "https://www.theoi.com/Text/OvidMetamorphoses1.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "primordial-chaos/s2"
+  ]
+ },
+ "https://www.theoi.com/Protogenos/Khaos.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "primordial-chaos/s3"
+  ]
+ },
+ "https://www.theoi.com/Protogenos/Gaia.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "primordial-gaia/s5"
   ]
  },
  "https://www.theoi.com/Protogenos/Ouranos.html": {
@@ -83,32 +97,11 @@
    "titan-atlas/s2"
   ]
  },
- "https://www.theoi.com/Protogenos/Gaia.html": {
-  "status": 200,
-  "checked": "2026-11-02",
-  "used": [
-   "primordial-gaia/s5"
-  ]
- },
- "https://www.theoi.com/Protogenos/Khaos.html": {
-  "status": 200,
-  "checked": "2026-11-02",
-  "used": [
-   "primordial-chaos/s3"
-  ]
- },
  "https://www.theoi.com/Text/OvidMetamorphoses4.html": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
    "titan-atlas/s4"
-  ]
- },
- "https://www.theoi.com/Text/OvidMetamorphoses1.html": {
-  "status": 200,
-  "checked": "2026-11-02",
-  "used": [
-   "primordial-chaos/s2"
   ]
  },
  "https://www.theoi.com/Text/Apollodorus3.html": {
@@ -130,6 +123,13 @@
   "checked": "2026-11-02",
   "used": [
    "titan-cronus/s4"
+  ]
+ },
+ "https://www.worldhistory.org/Saturn/": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "titan-cronus/s5"
   ]
  },
  "https://www.theoi.com/Text/HesiodWorksDays.html": {
@@ -160,11 +160,11 @@
    "titan-rhea/s4"
   ]
  },
- "https://www.worldhistory.org/Saturn/": {
-  "status": 200,
+ "https://www.britannica.com/topic/Jupiter-Roman-god": {
+  "status": 403,
   "checked": "2026-11-02",
   "used": [
-   "titan-cronus/s5"
+   "god-zeus/s8"
   ]
  },
  "https://www.theoi.com/Titan/Titanomakhia.html": {

@@ -1,11 +1,1 @@
-img-titans-rubens：File:Musée de Bruxelles. Rubens. La Chute des Titans - Der Fall der Titanen - The fall of the Titans.jpg
-img-hera-rubens：File:Juno and Argus - Peter Paul Rubens - Wallraf-Richartz Museum - Cologne.jpg
-img-artemis-krater：File:Pan Painter - ARV 552 20 - gigantomachy - death of Aktaion - Athens - Boston MFA 10.185 - 01.jpg
-img-hades-locri：File:Pinax with Persephone and Hades Enthroned, 500-450 BC, Greek, Locri.jpg
-img-achilles-sosias：File:Sosias Painter ARV 21 1 Achilles tending Patroklos - Herakles entering Olympus - Berlin Antikensammlung F 2278 - 01.jpg
-img-odysseus-polyphemus：File:Funerary proto-Attic amphora by Polyphemos painter depicting Odysseus and his companions blinding Polyphemus.jpg
-img-trojan-tiepolo：File:Giovanni Domenico Tiepolo - The Procession of the Trojan Horse in Troy - Google Art Project.jpg
-img-trojan-mykonos：File:Mykonos vase 7th cent bce early depiction of Trojan Horse photographed by Travelling Runes.jpg
-img-oedipus-kylix：File:Oedipus being questioned by the Sphinx, Attic red-figured kylix, by the Oedipus Painter, c. 470 BC, Museo Gregoriano Etrusco, Vatican Museums (16541).jpg
-img-oedipus-ingres：File:Jean-Auguste-Dominique Ingres (1780-1867) - Oedipus and the Sphinx (1808) - Louvre RF 218.jpg
-img-icarus-bruegel：File:Pieter Bruegel the Elder - Landscape with the Fall of Icarus - Bruxelles.jpg
+
