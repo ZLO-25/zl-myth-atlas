@@ -142,6 +142,7 @@ for (const im of images) {
   const w = `data/images.yaml（${im.id}）`;
   if (!im.title) err(w, '缺少 title');
   if (!im.look) err(w, '缺少 look（「看這張圖：」解說）');
+  else if (im.look === 'TODO') warn(w, '還沒寫 look（「看這張圖：」解說）');
   if (im.kind === 'work' && im.pending) {
     warn(w, `等待 GitHub Actions 從 Commons 抓回 ${im.commons}`);
   } else if (im.kind === 'work') {

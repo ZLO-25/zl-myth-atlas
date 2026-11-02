@@ -1,3 +1,612 @@
 # 圖片清單。kind: work＝真實作品（博物館、Commons）；kind: ai＝AI 插畫（一定要 ai: true）
-# 真實作品的授權資料以 Commons 或博物館頁面為準，不要自己猜。
-[]
+# commons: 的圖由 GitHub Actions（scripts/commons.ts）自動抓授權資料並轉成 WebP；授權與署名以 API 為準，不要自己猜。
+# look: TODO 表示還沒寫「看這張圖」解說（下載後看過圖再寫）
+
+- id: img-chaos-watts
+  kind: work
+  commons: "File:Assistants and George Frederic Watts - Chaos - Google Art Project.jpg"
+  title: 〈混沌〉
+  period: modern
+  look: TODO
+
+- id: img-gaia-pergamon
+  kind: work
+  commons: "File:Gigantomaquia - Altar de Pérgamo.jpg"
+  title: 帕加馬祭壇浮雕：蓋亞求情
+  period: ancient
+  look: TODO
+
+- id: img-gaia-erichthonius
+  kind: work
+  commons: "File:Birth Erikhthonios Staatliche Antikensammlungen 2413.jpg"
+  title: 蓋亞把嬰兒交給雅典娜
+  period: ancient
+  look: TODO
+
+- id: img-uranus-vasari
+  kind: work
+  commons: "File:The Mutilation of Uranus by Saturn.jpg"
+  title: 〈克羅諾斯閹割烏拉諾斯〉
+  period: modern
+  look: TODO
+
+- id: img-cronus-goya
+  kind: work
+  commons: "File:Francisco de Goya, Saturno devorando a su hijo (1819-1823).jpg"
+  title: 〈農神吞噬其子〉
+  period: modern
+  look: TODO
+
+- id: img-cronus-rubens
+  kind: work
+  commons: "File:Rubens saturn.jpg"
+  title: 〈農神〉
+  period: modern
+  look: TODO
+
+- id: img-cronus-stone
+  kind: work
+  commons: "File:Rhéa présentant une pierre emmaillotée à Cronos dessin du bas-relief d'un autel romain.jpg"
+  title: 瑞亞把包著襁褓的石頭交給克羅諾斯
+  period: ancient
+  look: TODO
+
+- id: img-prometheus-rubens
+  kind: work
+  commons: "File:Rubens - Prometheus Bound.jpg"
+  title: 〈被縛的普羅米修斯〉
+  period: modern
+  look: TODO
+
+- id: img-atlas-farnese
+  kind: work
+  commons: "File:Farnese Atlas.jpg"
+  title: 法爾內塞的阿特拉斯
+  period: ancient
+  look: TODO
+
+- id: img-titans-haarlem
+  kind: work
+  commons: "File:Cornelis Cornelisz. van Haarlem - The Fall of the Titans - Google Art Project.jpg"
+  title: 〈泰坦的墜落〉
+  period: modern
+  look: TODO
+
+- id: img-titans-rubens
+  kind: work
+  commons: "File:Musée de Bruxelles. Rubens. La Chute des Titans - Der Fall der Titanen - The fall of the Titans.jpg"
+  title: 〈泰坦的墜落〉
+  period: modern
+  look: TODO
+
+- id: img-zeus-otricoli
+  kind: work
+  commons: "File:Zeus Otricoli Pio-Clementino Inv257.jpg"
+  title: 奧特里科利的宙斯
+  period: ancient
+  look: TODO
+
+- id: img-zeus-artemision
+  kind: work
+  commons: "File:Bronze Zeus or Poseidon NAMA X 15161 Athens Greece.jpg"
+  title: 阿特米西翁青銅像
+  period: ancient
+  look: TODO
+
+- id: img-zeus-ingres
+  kind: work
+  commons: "File:Jupiter and Thetis (Ingres).jpg"
+  title: 〈朱比特與忒提斯〉
+  period: modern
+  look: TODO
+
+- id: img-hera-barberini
+  kind: work
+  commons: "File:Hera Barberini Chiaramonti Inv1210.jpg"
+  title: 戴冠的希拉頭像
+  period: ancient
+  look: TODO
+
+- id: img-hera-rubens
+  kind: work
+  commons: "File:Juno and Argus - Peter Paul Rubens - Wallraf-Richartz Museum - Cologne.jpg"
+  title: 〈朱諾與阿爾戈斯〉
+  period: modern
+  look: TODO
+
+- id: img-poseidon-melos
+  kind: work
+  commons: "File:Marble statue of Poseidon from Melos. 125-100 B.C.jpg"
+  title: 米洛斯的波賽頓
+  period: ancient
+  look: TODO
+
+- id: img-poseidon-pinax
+  kind: work
+  commons: "File:Penteskouphia tablet - Poseidon (Louvre CA 452).jpg"
+  title: 科林斯陶板上的波賽頓
+  period: ancient
+  look: TODO
+
+- id: img-neptune-mosaic
+  kind: work
+  commons: "File:Triomphe Neptune Sousse Alaoui.jpg"
+  title: 〈尼普頓的凱旋〉馬賽克
+  period: ancient
+  look: TODO
+
+- id: img-demeter-eleusis
+  kind: work
+  commons: "File:Great Eleusinian relief (NAMA 126).jpg"
+  title: 厄琉息斯大浮雕
+  period: ancient
+  look: TODO
+
+- id: img-demeter-knidos
+  kind: work
+  commons: "File:Marble Statue of Demeter.jpg"
+  title: 尼多斯的狄蜜特
+  period: ancient
+  look: TODO
+
+- id: img-athena-varvakeion
+  kind: work
+  commons: "File:Athena Varvakeion - MANA - Fidias.jpg"
+  title: 瓦瓦奇恩的雅典娜
+  period: ancient
+  look: TODO
+
+- id: img-athena-mourning
+  kind: work
+  commons: "File:Relief of the Mourning Athena, 460 B.C..jpg"
+  title: 沉思的雅典娜
+  period: ancient
+  look: TODO
+
+- id: img-athena-botticelli
+  kind: work
+  commons: "File:Botticelli Pallas and the Centaur.jpg"
+  title: 〈帕拉斯與半人馬〉
+  period: modern
+  look: TODO
+
+- id: img-apollo-bernini
+  kind: work
+  commons: "File:Apollo and Daphne (Bernini).jpg"
+  title: 〈阿波羅與達芙妮〉
+  period: modern
+  look: TODO
+
+- id: img-apollo-kylix
+  kind: work
+  commons: "File:Kylix with Apollo, AM of Delphi 8140, 201390.jpg"
+  title: 德爾菲的阿波羅白底杯
+  period: ancient
+  look: TODO
+
+- id: img-artemis-versailles
+  kind: work
+  commons: "File:Diane de Versailles - Musée du Louvre AGER Ma 589.jpg"
+  title: 凡爾賽的黛安娜
+  period: ancient
+  look: TODO
+
+- id: img-artemis-titian
+  kind: work
+  commons: "File:Titian - Diana and Actaeon - Google Art Project.jpg"
+  title: 〈黛安娜與阿克泰翁〉
+  period: modern
+  look: TODO
+
+- id: img-artemis-krater
+  kind: work
+  commons: "File:Pan Painter - ARV 552 20 - gigantomachy - death of Aktaion - Athens - Boston MFA 10.185 - 01.jpg"
+  title: 阿克泰翁之死（潘畫家）
+  period: ancient
+  look: TODO
+
+- id: img-aphrodite-milo
+  kind: work
+  commons: "File:Venus de Milo Louvre Ma399 n4.jpg"
+  title: 米洛的維納斯
+  period: ancient
+  look: TODO
+
+- id: img-aphrodite-botticelli
+  kind: work
+  commons: "File:Sandro Botticelli - La nascita di Venere - Google Art Project - edited.jpg"
+  title: 〈維納斯的誕生〉
+  period: modern
+  look: TODO
+
+- id: img-aphrodite-ludovisi
+  kind: work
+  commons: "File:Ludovisi throne Altemps Inv8570.jpg"
+  title: 盧多維西寶座
+  period: ancient
+  look: TODO
+
+- id: img-hephaestus-velazquez
+  kind: work
+  commons: "File:Diego Velázquez - The Forge of Vulcan - WGA24376.jpg"
+  title: 〈阿波羅造訪伏爾甘的鍛造坊〉
+  period: modern
+  look: TODO
+
+- id: img-hephaestus-return
+  kind: work
+  commons: "File:Leningrad Painter ARV 568 35extra return of Hephaistos.jpg"
+  title: 赫菲斯托斯回到奧林帕斯
+  period: ancient
+  look: TODO
+
+- id: img-hermes-praxiteles
+  kind: work
+  commons: "File:Hermes and the Infant Dionysus 10 04 2005.jpg"
+  title: 抱著嬰兒戴奧尼索斯的荷米斯
+  period: ancient
+  look: TODO
+
+- id: img-hermes-giambologna
+  kind: work
+  commons: "File:Mercurius by Giambologna-Bargello.jpg"
+  title: 〈墨丘利〉
+  period: modern
+  look: TODO
+
+- id: img-hestia-giustiniani
+  kind: work
+  commons: "File:Hestia Giustiniani.jpg"
+  title: 朱斯蒂尼亞尼的赫斯提亞
+  period: ancient
+  look: TODO
+
+- id: img-vesta-pompeii
+  kind: work
+  commons: "File:Fresco of Vesta-Hestia from Pompeii.jpg"
+  title: 龐貝家神龕壁畫上的維斯塔
+  period: ancient
+  look: TODO
+
+- id: img-dionysus-exekias
+  kind: work
+  commons: "File:Exekias Dionysos Staatliche Antikensammlungen 2044.jpg"
+  title: 艾克塞基亞斯的戴奧尼索斯杯
+  period: ancient
+  look: TODO
+
+- id: img-dionysus-caravaggio
+  kind: work
+  commons: "File:Bacchus by Caravaggio 1.jpg"
+  title: 〈酒神巴克斯〉
+  period: modern
+  look: TODO
+
+- id: img-dionysus-titian
+  kind: work
+  commons: "File:Titian Bacchus and Ariadne.jpg"
+  title: 〈巴克斯與阿麗雅德妮〉
+  period: modern
+  look: TODO
+
+- id: img-hades-locri
+  kind: work
+  commons: "File:Pinax with Persephone and Hades Enthroned, 500-450 BC, Greek, Locri.jpg"
+  title: 洛克里陶板：黛帝斯與波瑟芬妮
+  period: ancient
+  look: TODO
+
+- id: img-hades-bernini
+  kind: work
+  commons: "File:Rape of Prosepina September 2015-3a.jpg"
+  title: 〈劫持普洛塞庇娜〉
+  period: modern
+  look: TODO
+
+- id: img-hades-vergina
+  kind: work
+  commons: "File:Hades abducting Persephone.jpg"
+  title: 韋爾吉納王陵壁畫：黑帝斯擄走波瑟芬妮
+  period: ancient
+  look: TODO
+
+- id: img-janus-as
+  kind: work
+  commons: "File:Anonymous Rome Cr124-3.jpg"
+  title: 羅馬共和時期銅幣上的雅努斯
+  period: ancient
+  look: TODO
+
+- id: img-heracles-farnese
+  kind: work
+  commons: "File:Herakles Farnese MAN Napoli Inv6001 n01.jpg"
+  title: 法爾內塞的海克力斯
+  period: ancient
+  look: TODO
+
+- id: img-heracles-lion
+  kind: work
+  commons: "File:Terracotta amphora (jar) MET DP116936.jpg"
+  title: 海克力斯與尼米亞獅子陶瓶
+  period: ancient
+  look: TODO
+
+- id: img-perseus-cellini
+  kind: work
+  commons: "File:Perseus Medusa Cellini Lanzi Florence.jpg"
+  title: 〈柏修斯提著梅杜莎的頭〉
+  period: modern
+  look: TODO
+
+- id: img-theseus-e84
+  kind: work
+  commons: "File:Theseus Minotaur BM Vase E84.jpg"
+  title: 忒修斯把米諾陶洛斯拖出迷宮
+  period: ancient
+  look: TODO
+
+- id: img-theseus-canova
+  kind: work
+  commons: "File:Canova - Theseus & Minotaur.jpg"
+  title: 〈忒修斯與米諾陶洛斯〉
+  period: modern
+  look: TODO
+
+- id: img-jason-douris
+  kind: work
+  commons: "File:Douris cup Jason Vatican 16545.jpg"
+  title: 杜里斯杯：被巨蛇吐出的伊阿宋
+  period: ancient
+  look: TODO
+
+- id: img-jason-moreau
+  kind: work
+  commons: "File:Moreau - Jason, 1865, RF 2780.jpg"
+  title: 〈伊阿宋〉
+  period: modern
+  look: TODO
+
+- id: img-achilles-exekias
+  kind: work
+  commons: "File:Akhilleus Aias MGEt 16757.jpg"
+  title: 阿基里斯與大埃阿斯擲骰
+  period: ancient
+  look: TODO
+
+- id: img-achilles-sosias
+  kind: work
+  commons: "File:Sosias Painter ARV 21 1 Achilles tending Patroklos - Herakles entering Olympus - Berlin Antikensammlung F 2278 - 01.jpg"
+  title: 阿基里斯替帕特羅克洛斯包紮
+  period: ancient
+  look: TODO
+
+- id: img-odysseus-sirens
+  kind: work
+  commons: "File:Odysseus Sirens BM E440 n2.jpg"
+  title: 奧德修斯與賽蓮
+  period: ancient
+  look: TODO
+
+- id: img-odysseus-polyphemus
+  kind: work
+  commons: "File:Funerary proto-Attic amphora by Polyphemos painter depicting Odysseus and his companions blinding Polyphemus.jpg"
+  title: 弄瞎獨眼巨人（埃萊夫西納雙耳瓶）
+  period: ancient
+  look: TODO
+
+- id: img-orpheus-relief
+  kind: work
+  commons: "File:Relief of Orpheus and Eurydice (Louvre, Ma 854) (28266063496).jpg"
+  title: 奧菲斯、尤麗狄絲與荷米斯浮雕
+  period: ancient
+  look: TODO
+
+- id: img-orpheus-corot
+  kind: work
+  commons: "File:Jean-Baptiste-Camille Corot - Orpheus Leading Eurydice from the Underworld - Google Art Project.jpg"
+  title: 〈奧菲斯帶領尤麗狄絲離開冥界〉
+  period: modern
+  look: TODO
+
+- id: img-aeneas-bernini
+  kind: work
+  commons: "File:Aeneas, Anchises, and Ascanius by Bernini.jpg"
+  title: 〈埃涅阿斯、安喀塞斯與阿斯卡尼俄斯〉
+  period: modern
+  look: TODO
+
+- id: img-aeneas-pompeii
+  kind: work
+  commons: "File:Aeneas wounded MAN Napoli Inv9009.jpg"
+  title: 龐貝壁畫：受傷的埃涅阿斯
+  period: ancient
+  look: TODO
+
+- id: img-pandora-waterhouse
+  kind: work
+  commons: "File:John William Waterhouse - Pandora, 1896.jpg"
+  title: 〈潘朵拉〉
+  period: modern
+  look: TODO
+
+- id: img-pandora-rossetti
+  kind: work
+  commons: "File:Dante Gabriel Rossetti - Pandora.jpg"
+  title: 〈潘朵拉〉
+  period: modern
+  look: TODO
+
+- id: img-persephone-rossetti
+  kind: work
+  commons: "File:Dante Gabriel Rossetti - Proserpine - Google Art Project.jpg"
+  title: 〈普洛塞庇娜〉
+  period: modern
+  look: TODO
+
+- id: img-persephone-leighton
+  kind: work
+  commons: "File:Frederic Leighton - The Return of Persephone (1891).jpg"
+  title: 〈波瑟芬妮歸來〉
+  period: modern
+  look: TODO
+
+- id: img-paris-rubens
+  kind: work
+  commons: "File:Rubens - Judgement of Paris.jpg"
+  title: 〈帕里斯的評判〉
+  period: modern
+  look: TODO
+
+- id: img-trojan-tiepolo
+  kind: work
+  commons: "File:Giovanni Domenico Tiepolo - The Procession of the Trojan Horse in Troy - Google Art Project.jpg"
+  title: 〈木馬進城的遊行〉
+  period: modern
+  look: TODO
+
+- id: img-trojan-mykonos
+  kind: work
+  commons: "File:Mykonos vase 7th cent bce early depiction of Trojan Horse photographed by Travelling Runes.jpg"
+  title: 米科諾斯陶罐上的木馬
+  period: ancient
+  look: TODO
+
+- id: img-laocoon
+  kind: work
+  commons: "File:Laocoön and his sons group.jpg"
+  title: 〈拉奧孔群像〉
+  period: ancient
+  look: TODO
+
+- id: img-odyssey-waterhouse
+  kind: work
+  commons: "File:John William Waterhouse - Ulysses and the Sirens - Google Art Project.jpg"
+  title: 〈尤利西斯與賽蓮〉
+  period: modern
+  look: TODO
+
+- id: img-oedipus-kylix
+  kind: work
+  commons: "File:Oedipus being questioned by the Sphinx, Attic red-figured kylix, by the Oedipus Painter, c. 470 BC, Museo Gregoriano Etrusco, Vatican Museums (16541).jpg"
+  title: 伊底帕斯與斯芬克斯（伊底帕斯畫家）
+  period: ancient
+  look: TODO
+
+- id: img-oedipus-ingres
+  kind: work
+  commons: "File:Jean-Auguste-Dominique Ingres (1780-1867) - Oedipus and the Sphinx (1808) - Louvre RF 218.jpg"
+  title: 〈伊底帕斯與斯芬克斯〉
+  period: modern
+  look: TODO
+
+- id: img-narcissus-caravaggio
+  kind: work
+  commons: "File:Narcissus-Caravaggio (1594-96).jpg"
+  title: 〈納西瑟斯〉
+  period: modern
+  look: TODO
+
+- id: img-narcissus-waterhouse
+  kind: work
+  commons: "File:John William Waterhouse - Echo and Narcissus - Google Art Project.jpg"
+  title: 〈艾可與納西瑟斯〉
+  period: modern
+  look: TODO
+
+- id: img-icarus-bruegel
+  kind: work
+  commons: "File:Pieter Bruegel the Elder - Landscape with the Fall of Icarus - Bruxelles.jpg"
+  title: 〈伊卡洛斯墜落的風景〉
+  period: modern
+  look: TODO
+
+- id: img-icarus-relief
+  kind: work
+  commons: "File:Meyers b4 s0409 b1.png"
+  title: 代達洛斯與伊卡洛斯浮雕（版畫）
+  period: ancient
+  look: TODO
+
+- id: img-icarus-leighton
+  kind: work
+  commons: "File:Lord Frederick Leighton FLL006.jpg"
+  title: 〈代達洛斯與伊卡洛斯〉
+  period: modern
+  look: TODO
+
+- id: img-arachne-velazquez
+  kind: work
+  commons: "File:Velazquez-las hilanderas.jpg"
+  title: 〈阿拉克涅的寓言（紡紗女）〉
+  period: modern
+  look: TODO
+
+- id: img-arachne-dore
+  kind: work
+  commons: "File:Arachne.jpg"
+  title: 〈阿拉克涅〉
+  period: modern
+  look: TODO
+
+- id: img-romulus-wolf
+  kind: work
+  commons: "File:Lupa Capitolina, Rome.jpg"
+  title: 卡比托利歐母狼像
+  period: ancient
+  look: TODO
+
+- id: img-romulus-rubens
+  kind: work
+  commons: "File:Peter Paul Rubens - Romulus and Remus - Google Art Project.jpg"
+  title: 〈羅慕路斯與雷穆斯〉
+  period: modern
+  look: TODO
+
+- id: img-medusa-rondanini
+  kind: work
+  commons: "File:Rondanini Medusa Glyptothek Munich 252 n1.jpg"
+  title: 隆達尼尼的梅杜莎
+  period: ancient
+  look: TODO
+
+- id: img-medusa-caravaggio
+  kind: work
+  commons: "File:Caravaggio - Medusa - Google Art Project.jpg"
+  title: 〈梅杜莎〉
+  period: modern
+  look: TODO
+
+- id: img-minotaur-louvre
+  kind: work
+  commons: "File:Kylix Theseus Minotauros Louvre F83.jpg"
+  title: 忒修斯與米諾陶洛斯（黑繪杯）
+  period: ancient
+  look: TODO
+
+- id: img-knossos
+  kind: work
+  commons: "File:Knossos North entrance bull fresco.jpg"
+  title: 克諾索斯宮殿北入口
+  period: ancient
+  look: TODO
+
+- id: img-underworld-patinir
+  kind: work
+  commons: "File:Joachim Patinir 007.jpg"
+  title: 〈卡戎渡冥河的風景〉
+  period: modern
+  look: TODO
+
+- id: img-troy-walls
+  kind: work
+  commons: "File:Walls of Troy (2).jpg"
+  title: 特洛伊遺址城牆
+  period: ancient
+  look: TODO
+
+- id: img-mycenae-gate
+  kind: work
+  commons: "File:Lion Gate, Mycenae, 201510.jpg"
+  title: 邁錫尼獅子門
+  period: ancient
+  look: TODO
