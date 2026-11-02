@@ -17,7 +17,7 @@ sources:
   - {id: s2, kind: ancient, cite: 赫西俄德《神譜》501–506（獨眼巨人送雷電）, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
   - {id: s3, kind: ancient, cite: 阿波羅多洛斯《書庫》1.2.1, url: 'https://www.theoi.com/Text/Apollodorus1.html'}
   - {id: s4, kind: ancient, cite: 赫西俄德《神譜》383–403（斯堤克斯帶著子女投靠宙斯）, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
-  - {id: s5, kind: modern, cite: Theoi.com「Titanomachia」, url: 'https://www.theoi.com/Titan/Titanomakhia.html', accessed: '2026-11-02'}
+  - {id: s5, kind: modern, cite: Theoi.com「Titanes」, url: 'https://www.theoi.com/Titan/Titanes.html', accessed: '2026-11-02'}
 images: [img-titans-haarlem, img-titans-rubens]
 causes:
   - {id: titan-cronus, rel: 直接引發, why: 克羅諾斯吞子，宙斯長大後逼他吐出兄姊，聯手造反。, src: [s1]}

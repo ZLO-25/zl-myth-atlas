@@ -34,7 +34,7 @@ images: [img-cronus-goya, img-cronus-rubens, img-cronus-stone]
 sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》137–182, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
   - {id: s2, kind: ancient, cite: 赫西俄德《神譜》453–506, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
-  - {id: s3, kind: ancient, cite: 維吉爾《埃涅阿斯紀》8.319–327（薩圖恩在拉丁姆的黃金時代）, url: 'https://www.theoi.com/Text/VirgilAeneid8.html'}
+  - {id: s3, kind: ancient, cite: 維吉爾《埃涅阿斯紀》8.319–327（薩圖恩在拉丁姆的黃金時代；德萊頓英譯本行數不同）, url: 'http://classics.mit.edu/Virgil/aeneid.8.viii.html'}
   - {id: s4, kind: modern, cite: Theoi.com「Kronos」, url: 'https://www.theoi.com/Titan/TitanKronos.html', accessed: '2026-11-02'}
   - {id: s5, kind: modern, cite: World History Encyclopedia「Saturn」（Donald L. Wasson, 2015）, url: 'https://www.worldhistory.org/Saturn/', accessed: '2026-11-02'}
 causes:
