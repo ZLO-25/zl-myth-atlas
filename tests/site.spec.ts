@@ -21,7 +21,7 @@ async function noHorizontalScroll(page: Page) {
 
 test('首頁與各主要頁面都能打開、不會左右捲動', async ({ page }) => {
   const errors = watchErrors(page);
-  for (const route of ['', '#/cards', '#/family', '#/timeline', '#/map', '#/compare', '#/today']) {
+  for (const route of ['', '#/overview', '#/cards', '#/family', '#/timeline', '#/map', '#/compare', '#/today']) {
     await page.goto(route);
     await expect(page.locator('h1').first()).toBeVisible();
     await noHorizontalScroll(page);

@@ -24,6 +24,10 @@ export function Home() {
       <section className="hero">
         <h1>眾神星圖</h1>
         <p className="lead">希臘與羅馬神話：認得眾神與英雄，能把故事講給別人聽，也看得懂今天電影、品牌、英文單字裡的神話梗。每件事都附來源。</p>
+        <a className="overview-cta" href={href('overview')}>
+          <strong>第一次來？先看總覽</strong>
+          <span>五分鐘講完：世界長什麼樣、誰是誰、故事從哪來、為什麼今天還要懂 →</span>
+        </a>
         <div className="tiles">
           <a href={href('cards')}><strong>卡片</strong><span>{site.cards.length} 張神、英雄、故事</span></a>
           <a href={href('family')}><strong>族譜</strong><span>點一位神展開家族</span></a>

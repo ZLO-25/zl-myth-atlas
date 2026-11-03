@@ -2,12 +2,14 @@ import { useEffect, useRef, useState } from 'react';
 import { CardPage } from './pages/CardPage';
 import { Family } from './pages/Family';
 import { MapPage } from './pages/MapPage';
+import { Overview } from './pages/Overview';
 import { CardList, Compare, Home, TodayPage, TopicPage } from './pages/simple';
 import { Timeline } from './pages/Timeline';
 import { href, useRoute } from './lib/router';
 import { search, type Hit } from './lib/search';
 
 const NAV: [string, string][] = [
+  ['overview', '總覽'],
   ['cards', '卡片'],
   ['family', '族譜'],
   ['timeline', '年代'],
@@ -22,6 +24,9 @@ export default function App() {
   switch (r[0]) {
     case 'card':
       page = <CardPage id={r[1]} />;
+      break;
+    case 'overview':
+      page = <Overview />;
       break;
     case 'cards':
       page = <CardList />;

@@ -272,3 +272,13 @@ pre.ascii { background: var(--surface); border: 1px solid var(--line); padding: 
 .steps li strong { color: var(--terra); }
 .steps li span { font-size: 0.92rem; color: var(--muted); }
 @media (max-width: 760px) { .steps { grid-template-columns: 1fr; } }
+/* 總覽頁 */
+.overview-cta { display: flex; flex-direction: column; gap: 0.1rem; margin: 0.5rem 0 1rem; padding: 0.8rem 1.1rem; border-radius: 12px; background: var(--aegean); color: #fff; text-decoration: none; box-shadow: var(--shadow); max-width: 46rem; }
+.overview-cta strong { font-size: 1.1rem; }
+.overview-cta span { font-size: 0.9rem; opacity: 0.9; }
+.overview-cta:hover { filter: brightness(1.08); }
+.overview p { max-width: 46rem; }
+.overview pre.ascii { line-height: 1.6; }
+.twelve-table td:first-child { white-space: nowrap; }
+.ideas { grid-template-columns: 1fr 1fr; }
+@media (max-width: 760px) { .ideas { grid-template-columns: 1fr; } }
