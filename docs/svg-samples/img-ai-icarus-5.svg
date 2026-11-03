@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" width="1600" height="1200">
+  <!-- 伊卡洛斯：越飛越高，太陽融化了蠟（畫風 C：平塗＋深色輪廓線） -->
+  <defs>
+    <clipPath id="frame"><rect width="1600" height="1200"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)" stroke="#2B2420" stroke-width="8" stroke-linejoin="round" stroke-linecap="round">
+    <!-- 天空（大理石白） -->
+    <rect width="1600" height="1200" fill="#F2EDE4" stroke="none"/>
+    <!-- 太陽與光芒 -->
+    <g stroke="none" fill="#C9A227">
+      <polygon points="1300,-40 1360,140 1240,140" opacity=".55"/>
+      <polygon points="1600,120 1440,210 1430,90" opacity=".55"/>
+      <polygon points="1540,420 1380,330 1470,250" opacity=".55"/>
+      <polygon points="1130,330 1200,180 1280,290" opacity=".55"/>
+      <polygon points="1030,80 1180,110 1100,220" opacity=".55"/>
+    </g>
+    <circle cx="1330" cy="190" r="150" fill="#C9A227"/>
+    <circle cx="1330" cy="190" r="110" fill="#C9A227" stroke="none" opacity=".0"/>
+    <!-- 海（愛琴海藍）與浪 -->
+    <rect x="0" y="860" width="1600" height="340" fill="#1F5F8B" stroke="none"/>
+    <path d="M0 860 Q100 830 200 860 T400 860 T600 860 T800 860 T1000 860 T1200 860 T1400 860 T1600 860 V900 H0 Z" fill="#1F5F8B"/>
+    <g stroke="#F2EDE4" stroke-width="10" fill="none" opacity=".8">
+      <path d="M120 980 q50 -30 100 0"/><path d="M620 1060 q50 -30 100 0"/><path d="M1180 1000 q50 -30 100 0"/><path d="M900 1120 q50 -30 100 0"/>
+    </g>
+    <!-- 遠處島嶼（橄欖綠） -->
+    <path d="M-20 870 L180 740 L330 790 L470 700 L640 820 L700 870 Z" fill="#6B7F3A"/>
+    <path d="M1180 870 L1320 790 L1460 830 L1620 760 L1620 870 Z" fill="#6B7F3A"/>
+    <!-- 代達洛斯：較低、較小，穩穩地飛，回頭看兒子 -->
+    <g transform="translate(330 560) scale(.62)">
+      <path d="M-300 20 Q-180 -120 0 -40 Q180 -120 300 20 Q200 -10 110 40 Q0 60 -110 40 Q-200 -10 -300 20 Z" fill="#F2EDE4"/>
+      <path d="M-300 20 Q-220 -50 -150 -30 M-260 20 Q-200 -10 -150 10 M300 20 Q220 -50 150 -30 M260 20 Q200 -10 150 10" fill="none"/>
+      <path d="M-120 40 L60 20 L70 70 L-110 90 Z" fill="#C8643B"/>
+      <circle cx="100" cy="40" r="36" fill="#C8643B"/>
+      <path d="M70 20 Q100 -20 136 30 Q120 0 100 5 Q80 0 70 20Z" fill="#F2EDE4"/>
+      <path d="M100 60 Q110 90 90 100" fill="none" stroke="#F2EDE4" stroke-width="10"/>
+      <path d="M-110 90 L-190 120 M-100 70 L-200 60" fill="none" stroke-width="14"/>
+    </g>
+    <!-- 伊卡洛斯：高高在上，靠近太陽，羽毛正在脫落 -->
+    <g transform="translate(1030 330)">
+      <!-- 翅膀 -->
+      <path d="M-330 60 Q-210 -140 -20 -20 Q170 -140 330 60 Q220 20 120 80 Q0 110 -120 80 Q-220 20 -330 60 Z" fill="#F2EDE4"/>
+      <path d="M-330 60 Q-250 -40 -170 -10 M-280 60 Q-220 10 -160 40 M330 60 Q250 -40 170 -10 M280 60 Q220 10 160 40" fill="none"/>
+      <!-- 身體（短袍：赤陶橘）與頭 -->
+      <path d="M-40 10 L40 10 L55 150 L-55 150 Z" fill="#C8643B"/>
+      <circle cx="0" cy="-30" r="44" fill="#C8643B"/>
+      <path d="M-44 -35 Q-20 -95 10 -78 Q40 -90 44 -35 Q20 -60 0 -50 Q-20 -60 -44 -35 Z" fill="#2B2420"/>
+      <!-- 手臂張開向上 -->
+      <path d="M-40 30 L-150 -60 M40 30 L150 -60" fill="none" stroke-width="16"/>
+      <!-- 腿 -->
+      <path d="M-30 150 L-50 260 M30 150 L60 250" fill="none" stroke-width="16"/>
+      <!-- 蠟滴 -->
+      <g fill="#C9A227">
+        <path d="M-120 120 q10 30 0 40 q-10 -10 0 -40z"/><path d="M160 130 q10 30 0 40 q-10 -10 0 -40z"/>
+      </g>
+    </g>
+    <!-- 飄落的羽毛（白色，深線） -->
+    <g fill="#F2EDE4">
+      <path d="M760 520 q40 -60 90 -20 q-30 60 -90 20z" transform="rotate(30 805 500)"/>
+      <path d="M1250 560 q40 -60 90 -20 q-30 60 -90 20z" transform="rotate(-50 1295 540)"/>
+      <path d="M900 700 q40 -60 90 -20 q-30 60 -90 20z" transform="rotate(70 945 680)"/>
+      <path d="M1120 790 q40 -60 90 -20 q-30 60 -90 20z" transform="rotate(20 1165 770)"/>
+      <path d="M680 820 q40 -60 90 -20 q-30 60 -90 20z" transform="rotate(100 725 800)"/>
+    </g>
+  </g>
+</svg>

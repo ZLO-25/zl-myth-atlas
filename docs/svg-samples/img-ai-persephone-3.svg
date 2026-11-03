@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" width="1600" height="1200">
+  <!-- 狄蜜特：九天九夜，雙手持火炬在山丘間尋找女兒 -->
+  <g stroke="#2B2420" stroke-width="8" stroke-linejoin="round" stroke-linecap="round">
+    <!-- 夜空：愛琴海藍壓深 -->
+    <rect width="1600" height="1200" fill="#1F5F8B" stroke="none"/>
+    <rect width="1600" height="1200" fill="#2B2420" opacity=".45" stroke="none"/>
+    <!-- 星星與細月 -->
+    <g fill="#F2EDE4" stroke="none">
+      <circle cx="150" cy="120" r="5"/><circle cx="420" cy="80" r="4"/><circle cx="700" cy="160" r="5"/><circle cx="980" cy="70" r="4"/>
+      <circle cx="1250" cy="140" r="5"/><circle cx="1480" cy="90" r="4"/><circle cx="300" cy="260" r="3"/><circle cx="1100" cy="250" r="3"/><circle cx="1400" cy="300" r="4"/>
+      <path d="M1320 200 a70 70 0 1 0 60 110 a55 55 0 1 1 -60 -110z"/>
+    </g>
+    <!-- 遠山（橄欖綠壓暗）層層疊 -->
+    <path d="M0 620 L200 470 L380 560 L560 430 L760 580 L940 480 L1150 600 L1340 500 L1600 640 L1600 1200 L0 1200 Z" fill="#6B7F3A"/>
+    <path d="M0 620 L200 470 L380 560 L560 430 L760 580 L940 480 L1150 600 L1340 500 L1600 640 L1600 1200 L0 1200 Z" fill="#2B2420" opacity=".35" stroke="none"/>
+    <path d="M0 800 L260 680 L520 760 L800 660 L1080 780 L1350 700 L1600 800 L1600 1200 L0 1200 Z" fill="#6B7F3A"/>
+    <path d="M0 800 L260 680 L520 760 L800 660 L1080 780 L1350 700 L1600 800 L1600 1200 L0 1200 Z" fill="#2B2420" opacity=".2" stroke="none"/>
+    <!-- 近景小路 -->
+    <path d="M0 1200 Q500 1050 800 1000 Q1100 960 1600 1120 L1600 1200 Z" fill="#C8643B"/>
+    <path d="M0 1200 Q500 1050 800 1000 Q1100 960 1600 1120 L1600 1200 Z" fill="#2B2420" opacity=".35" stroke="none"/>
+    <!-- 火炬的光暈（金色、半透明，一層簡單陰影的相反：一層光） -->
+    <g stroke="none" fill="#C9A227">
+      <circle cx="560" cy="520" r="260" opacity=".16"/><circle cx="1030" cy="520" r="260" opacity=".16"/>
+      <circle cx="560" cy="520" r="140" opacity=".16"/><circle cx="1030" cy="520" r="140" opacity=".16"/>
+    </g>
+    <!-- 狄蜜特：橄欖綠長袍、麥穗冠、雙火炬 -->
+    <g transform="translate(800 560)">
+      <!-- 長袍 -->
+      <path d="M-150 520 Q-170 250 -70 120 L70 120 Q170 250 150 520 Z" fill="#6B7F3A"/>
+      <path d="M-150 520 L150 520" stroke="#C9A227" stroke-width="14"/>
+      <path d="M0 120 L0 520" stroke="#2B2420" stroke-width="6" opacity=".4"/>
+      <!-- 上身與披肩 -->
+      <path d="M-90 140 Q-100 10 0 -10 Q100 10 90 140 Z" fill="#6B7F3A"/>
+      <path d="M-90 60 Q0 100 90 60" fill="none" stroke="#C9A227" stroke-width="10"/>
+      <!-- 手臂舉起兩把火炬 -->
+      <path d="M-70 40 L-230 -30" fill="none" stroke-width="20"/>
+      <path d="M70 40 L230 -30" fill="none" stroke-width="20"/>
+      <!-- 火炬 -->
+      <g>
+        <rect x="-250" y="-180" width="30" height="170" fill="#C8643B" transform="rotate(-20 -235 -95)"/>
+        <path d="M-285 -200 q-10 -80 45 -120 q-5 50 50 70 q-30 40 -95 50z" fill="#C9A227" transform="rotate(-20 -235 -95)"/>
+        <path d="M-265 -195 q0 -40 25 -60 q0 30 25 40 q-20 20 -50 20z" fill="#F2EDE4" stroke="none" transform="rotate(-20 -235 -95)"/>
+        <rect x="220" y="-180" width="30" height="170" fill="#C8643B" transform="rotate(20 235 -95)"/>
+        <path d="M190 -200 q-10 -80 45 -120 q-5 50 50 70 q-30 40 -95 50z" fill="#C9A227" transform="rotate(20 235 -95)"/>
+        <path d="M210 -195 q0 -40 25 -60 q0 30 25 40 q-20 20 -50 20z" fill="#F2EDE4" stroke="none" transform="rotate(20 235 -95)"/>
+      </g>
+      <!-- 頭、頭髮、麥穗冠 -->
+      <circle cx="0" cy="-80" r="62" fill="#C8643B"/>
+      <path d="M-62 -80 Q-60 -165 0 -150 Q60 -165 62 -80 Q40 -120 0 -115 Q-40 -120 -62 -80 Z" fill="#2B2420"/>
+      <path d="M-62 -70 Q-80 10 -60 60 M62 -70 Q80 10 60 60" fill="#2B2420"/>
+      <g fill="#C9A227">
+        <path d="M-50 -130 l-20 -40 l30 10 z"/><path d="M-20 -145 l-5 -45 l25 25 z"/><path d="M20 -145 l5 -45 l-25 25 z"/><path d="M50 -130 l20 -40 l-30 10 z"/>
+      </g>
+      <!-- 憂愁的眉眼與嘴 -->
+      <path d="M-32 -92 l22 6 M32 -92 l-22 6" stroke-width="6"/>
+      <circle cx="-18" cy="-78" r="6" fill="#2B2420" stroke="none"/><circle cx="18" cy="-78" r="6" fill="#2B2420" stroke="none"/>
+      <path d="M-14 -50 q14 -8 28 0" fill="none" stroke-width="5"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" width="1600" height="1200">
+  <!-- 潘朵拉掀開大罐子：災難飛散到村莊上空 -->
+  <g stroke="#2B2420" stroke-width="8" stroke-linejoin="round" stroke-linecap="round">
+    <rect width="1600" height="1200" fill="#F2EDE4" stroke="none"/>
+    <!-- 黃昏天空的色塊（愛琴海藍淡化） -->
+    <rect width="1600" height="700" fill="#1F5F8B" opacity=".18" stroke="none"/>
+    <!-- 遠處山與村莊 -->
+    <path d="M0 720 L220 560 L420 660 L600 540 L820 680 L1000 600 L1250 700 L1600 580 L1600 760 L0 760 Z" fill="#6B7F3A"/>
+    <g fill="#F2EDE4">
+      <rect x="380" y="690" width="70" height="60"/><polygon points="370,690 415,655 460,690" fill="#C8643B"/>
+      <rect x="470" y="700" width="60" height="50"/><polygon points="460,700 500,668 540,700" fill="#C8643B"/>
+      <rect x="1080" y="700" width="80" height="55"/><polygon points="1070,700 1120,660 1170,700" fill="#C8643B"/>
+      <rect x="1190" y="710" width="60" height="45"/><polygon points="1180,710 1220,680 1260,710" fill="#C8643B"/>
+      <rect x="880" y="690" width="90" height="65"/><polygon points="870,690 925,650 980,690" fill="#C8643B"/>
+    </g>
+    <!-- 地面 -->
+    <rect x="0" y="750" width="1600" height="450" fill="#C8643B"/>
+    <path d="M0 750 Q400 790 800 760 T1600 770 V1200 H0 Z" fill="#C8643B"/>
+    <path d="M0 1060 Q300 1020 600 1060 T1200 1060 T1600 1060" fill="none" stroke-width="6" opacity=".5"/>
+    <!-- 飛出的災難：黑色帶尾的形狀 -->
+    <g fill="#2B2420" stroke="none">
+      <path d="M560 560 q-60 -120 10 -200 q30 90 110 110 q-70 10 -120 90z" opacity=".9"/>
+      <path d="M700 420 q-40 -150 60 -220 q10 100 110 130 q-100 0 -170 90z" opacity=".85"/>
+      <path d="M900 330 q0 -130 120 -170 q-20 90 60 150 q-90 -20 -180 20z" opacity=".8"/>
+      <path d="M1100 250 q30 -120 150 -120 q-50 70 10 150 q-90 -50 -160 -30z" opacity=".75"/>
+      <path d="M1300 160 q60 -100 170 -60 q-70 50 -30 130 q-80 -70 -140 -70z" opacity=".7"/>
+      <path d="M1400 360 q60 -100 160 -70 q-60 50 -20 120 q-80 -60 -140 -50z" opacity=".6"/>
+      <path d="M380 380 q-20 -110 90 -150 q-20 80 60 120 q-90 -20 -150 30z" opacity=".7"/>
+      <path d="M220 230 q20 -110 130 -110 q-50 60 0 130 q-90 -60 -130 -20z" opacity=".6"/>
+    </g>
+    <!-- 眼睛般的小點讓它們像活物 -->
+    <g fill="#C9A227" stroke="none">
+      <circle cx="610" cy="470" r="9"/><circle cx="770" cy="330" r="9"/><circle cx="980" cy="250" r="8"/><circle cx="1190" cy="190" r="8"/><circle cx="440" cy="320" r="8"/>
+    </g>
+    <!-- 大陶罐（pithos）：膝蓋高、圓肚、蓋子被掀開 -->
+    <g transform="translate(640 760)">
+      <path d="M-170 0 Q-210 150 -150 330 L150 330 Q210 150 170 0 Z" fill="#C8643B"/>
+      <path d="M-170 0 Q-210 150 -150 330 L150 330 Q210 150 170 0 Z" fill="#2B2420" opacity=".18" stroke="none" transform="translate(50 0) scale(.6 1)"/>
+      <path d="M-180 0 H180 L160 -50 H-160 Z" fill="#C8643B"/>
+      <ellipse cx="0" cy="-50" rx="160" ry="30" fill="#2B2420"/>
+      <!-- 罐身紋飾 -->
+      <path d="M-180 120 Q0 160 180 120" fill="none" stroke="#C9A227" stroke-width="12"/>
+      <path d="M-160 200 Q0 240 160 200" fill="none" stroke="#2B2420" stroke-width="6"/>
+      <!-- 掀開的蓋子（被她舉在手上） -->
+
+    </g>
+    <!-- 潘朵拉：跪在罐旁，一手舉蓋，另一手掩口 -->
+    <g transform="translate(1000 640)">
+      <!-- 裙擺（白袍、金邊） -->
+      <path d="M-120 420 Q-150 230 -60 120 L60 120 Q170 230 150 420 Z" fill="#F2EDE4"/>
+      <path d="M-120 420 L150 420" stroke="#C9A227" stroke-width="14"/>
+      <!-- 上身 -->
+      <path d="M-70 130 Q-80 20 0 0 Q80 20 70 130 Z" fill="#F2EDE4"/>
+      <path d="M0 0 L0 130" stroke="#C9A227" stroke-width="10" opacity=".8"/>
+      <!-- 舉蓋的手臂（往左上伸） -->
+      <path d="M-60 40 L-170 -140" fill="none" stroke-width="18"/>
+      <g transform="translate(-200 -190) rotate(-30)">
+        <ellipse cx="0" cy="0" rx="130" ry="26" fill="#C8643B"/>
+        <circle cx="0" cy="-28" r="20" fill="#C8643B"/>
+      </g>
+      <!-- 另一手伸向罐口，像是想把災難抓回來 -->
+      <path d="M-70 110 L-260 120" fill="none" stroke-width="18"/>
+      <!-- 頭與長髮 -->
+      <circle cx="0" cy="-70" r="58" fill="#C8643B"/>
+      <path d="M-58 -70 Q-60 -150 0 -140 Q60 -150 58 -70 Q40 -110 0 -105 Q-40 -110 -58 -70 Z" fill="#2B2420"/>
+      <path d="M-58 -60 Q-90 20 -70 110 M58 -60 Q90 20 70 110" fill="#2B2420"/>
+      <!-- 金冠 -->
+      <path d="M-50 -115 L-30 -150 L0 -125 L30 -150 L50 -115 Z" fill="#C9A227"/>
+      <!-- 睜大的眼 -->
+      <circle cx="-18" cy="-72" r="7" fill="#2B2420" stroke="none"/><circle cx="18" cy="-72" r="7" fill="#2B2420" stroke="none"/>
+    </g>
+  </g>
+</svg>
