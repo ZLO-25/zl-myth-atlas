@@ -65,25 +65,41 @@ function jumpTo(e: React.MouseEvent, id: string) {
   document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
 }
 
-/** 極簡 Markdown：## 標題、### 小標、- 清單、> 引文、段落 */
+/** 極簡 Markdown：## 標題、### 小標、- 清單、> 引文、```ASCII 圖```、段落 */
 export function Markdown({ text, cardId }: { text: string; cardId?: string }) {
-  const blocks = text.split(/\n{2,}/);
+  // 先把 ``` 圍起來的區塊切出來（裡面可能有空行，不能用空行切段）
+  const chunks: { kind: 'code' | 'text'; body: string }[] = [];
+  const fence = /```[^\n]*\n([\s\S]*?)```/g;
+  let last = 0;
+  let m: RegExpExecArray | null;
+  while ((m = fence.exec(text))) {
+    if (m.index > last) chunks.push({ kind: 'text', body: text.slice(last, m.index) });
+    chunks.push({ kind: 'code', body: m[1].replace(/\n$/, '') });
+    last = fence.lastIndex;
+  }
+  if (last < text.length) chunks.push({ kind: 'text', body: text.slice(last) });
+  let k = 0;
   return (
     <>
-      {blocks.map((b, i) => {
-        const t = b.trim();
-        if (t.startsWith('### ')) return <h4 key={i}><Inline text={t.slice(4)} cardId={cardId} /></h4>;
-        if (t.startsWith('## ')) return <h3 key={i}><Inline text={t.slice(3)} cardId={cardId} /></h3>;
-        if (t.startsWith('> ')) return <blockquote key={i}><Inline text={t.replace(/^> ?/gm, '')} cardId={cardId} /></blockquote>;
-        if (/^- /.test(t))
-          return (
-            <ul key={i}>
-              {t.split(/\n(?=- )/).map((li, j) => (
-                <li key={j}><Inline text={li.replace(/^- /, '')} cardId={cardId} /></li>
-              ))}
-            </ul>
-          );
-        return <p key={i}><Inline text={t.replace(/\n/g, '')} cardId={cardId} /></p>;
+      {chunks.flatMap((ch) => {
+        if (ch.kind === 'code') return [<pre key={k++} className="ascii" aria-label="示意圖">{ch.body}</pre>];
+        return ch.body.split(/\n{2,}/).map((b) => {
+          const t = b.trim();
+          if (!t) return null;
+          const i = k++;
+          if (t.startsWith('### ')) return <h4 key={i}><Inline text={t.slice(4)} cardId={cardId} /></h4>;
+          if (t.startsWith('## ')) return <h3 key={i}><Inline text={t.slice(3)} cardId={cardId} /></h3>;
+          if (t.startsWith('> ')) return <blockquote key={i}><Inline text={t.replace(/^> ?/gm, '')} cardId={cardId} /></blockquote>;
+          if (/^- /.test(t))
+            return (
+              <ul key={i}>
+                {t.split(/\n(?=- )/).map((li, j) => (
+                  <li key={j}><Inline text={li.replace(/^- /, '')} cardId={cardId} /></li>
+                ))}
+              </ul>
+            );
+          return <p key={i}><Inline text={t.replace(/\n/g, '')} cardId={cardId} /></p>;
+        });
       })}
     </>
   );

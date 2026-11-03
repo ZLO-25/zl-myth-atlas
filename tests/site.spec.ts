@@ -21,7 +21,7 @@ async function noHorizontalScroll(page: Page) {
 
 test('首頁與各主要頁面都能打開、不會左右捲動', async ({ page }) => {
   const errors = watchErrors(page);
-  for (const route of ['', '#/cards', '#/family', '#/timeline', '#/map', '#/compare', '#/today']) {
+  for (const route of ['', '#/overview', '#/cards', '#/family', '#/timeline', '#/map', '#/compare', '#/today']) {
     await page.goto(route);
     await expect(page.locator('h1').first()).toBeVisible();
     await noHorizontalScroll(page);
@@ -81,4 +81,11 @@ test('族譜畫得出來，希羅對照表與今日影子有資料', async ({ pa
   expect(await page.locator('table.compare tbody tr').count()).toBeGreaterThanOrEqual(21);
   await page.goto('#/today');
   expect(await page.locator('.today-item').count()).toBe(site.today.length);
+});
+
+test('正文裡的 ASCII 示意圖會畫成方塊，不會露出 ```', async ({ page }) => {
+  await page.goto('#/card/god-hermes');
+  await expect(page.locator('.body pre.ascii').first()).toBeVisible();
+  await expect(page.locator('.body')).not.toContainText('```');
+  await expect(page.locator('.toc a').first()).toBeVisible();
 });
