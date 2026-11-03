@@ -41,7 +41,7 @@ greek_vs_roman:
   src: [s4, s6]
 today: [vesta-asteroid]
 era: olympian
-topics: [家族詛咒]
+topics: [羅馬借用希臘, 王權更替]
 ---
 
 ## 故事

@@ -80,7 +80,8 @@ export function Family({ focus }: { focus?: string }) {
             {edges.map((e, i) => {
               const a = pos.get(e.a)!;
               const b = pos.get(e.b)!;
-              const vertical = Math.abs(a.y - b.y) > 10;
+              const consort = e.a === 'focus' && e.b.startsWith('c');
+              const vertical = !consort && Math.abs(a.y - b.y) > 10;
               const d = vertical ? `M${a.x},${a.y + H / 2} C${a.x},${(a.y + b.y) / 2} ${b.x},${(a.y + b.y) / 2} ${b.x},${b.y - H / 2}` : `M${a.x + (b.x > a.x ? W / 2 : -W / 2)},${a.y} L${b.x + (b.x > a.x ? -W / 2 : W / 2)},${b.y}`;
               return (
                 <g key={i}>
@@ -155,11 +156,14 @@ function around(id: string, twelveOnly: boolean): { nodes: Node[]; edges: Edge[]
     });
   };
   row(parents, -130, 'parent', 'p');
+  // 配偶放在焦點兩側；超過 4 位就往上疊第二排，免得圖太寬、字太小
   consorts.forEach((p, i) => {
     const side = i % 2 === 0 ? 1 : -1;
-    const k = Math.floor(i / 2) + 1;
+    const j = Math.floor(i / 2);
+    const col = Math.floor(j / 2) + 1;
+    const row = consorts.length > 4 ? j % 2 : 0;
     const key = 'c' + i;
-    nodes.push({ key, id: p.id, name: label(p.id, p.name), x: side * k * (W + 22), y: 0, role: 'consort' });
+    nodes.push({ key, id: p.id, name: label(p.id, p.name), x: side * col * (W + 22), y: -row * (H + 14), role: 'consort' });
     edges.push({ a: 'focus', b: key, variant: p.variant });
   });
   row(children, 140, 'child', 'k');

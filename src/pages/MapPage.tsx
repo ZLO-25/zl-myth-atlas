@@ -110,7 +110,7 @@ function Underworld() {
         <text x="320" y="320" className="uw-sub">米諾斯在冥界替亡魂判案（荷馬、維吉爾）</text>
         <path d="M320 330 L120 380 M320 330 L320 380 M320 330 L520 380" className="uw-path" />
         <rect x="20" y="380" width="200" height="80" rx="10" className="uw-elysium" />
-        <text x="120" y="408" className="uw-title">極樂世界</text>
+        <text x="120" y="408" className="uw-title">極樂淨土（Elysium）</text>
         <text x="120" y="428" className="uw-sub">英雄與受神眷顧者</text>
         <rect x="230" y="380" width="180" height="80" rx="10" className="uw-asphodel" />
         <text x="320" y="408" className="uw-title">長春花原野</text>

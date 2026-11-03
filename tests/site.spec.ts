@@ -82,3 +82,10 @@ test('族譜畫得出來，希羅對照表與今日影子有資料', async ({ pa
   await page.goto('#/today');
   expect(await page.locator('.today-item').count()).toBe(site.today.length);
 });
+
+test('正文裡的 ASCII 示意圖會畫成方塊，不會露出 ```', async ({ page }) => {
+  await page.goto('#/card/god-hermes');
+  await expect(page.locator('.body pre.ascii').first()).toBeVisible();
+  await expect(page.locator('.body')).not.toContainText('```');
+  await expect(page.locator('.toc a').first()).toBeVisible();
+});

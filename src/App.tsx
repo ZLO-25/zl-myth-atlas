@@ -107,7 +107,10 @@ function SearchBox() {
           setOpen(true);
         }}
         onFocus={() => setOpen(true)}
-        onKeyDown={(e) => e.key === 'Enter' && hits[0] && go(hits[0])}
+        onKeyDown={(e) => {
+          if (e.key === 'Enter' && hits[0]) go(hits[0]);
+          if (e.key === 'Escape') setOpen(false);
+        }}
       />
       {open && q && (
         <ul className="search-results" role="listbox">

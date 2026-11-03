@@ -1,7 +1,20 @@
 import { useState } from 'react';
 import { TODAY_CATEGORIES } from '../../scripts/lib/types';
+import { eraById } from '../lib/data';
 import { CardLink, MiniCard } from '../components/bits';
 import { avatarOf, cardById, imgSrc, site, todayById, TYPE_ORDER } from '../lib/data';
+
+/** 新手路線：照故事順序讀這 8 張，就有整部神話的骨架 */
+const STARTER_PATH: [string, string][] = [
+  ['primordial-gaia', '一切從大地開始：她生出天空，也策畫了第一次政變'],
+  ['titan-cronus', '兒子推翻父親，又怕被兒子推翻，於是吞掉孩子'],
+  ['god-zeus', '被藏起來的么兒長大，打贏十年泰坦之戰，抽籤分天下'],
+  ['titan-prometheus', '神與人的關係：偷火、潘朵拉，人類從此要受苦'],
+  ['story-persephone', '女兒被冥王擄走，母親讓大地停止生長：四季的由來'],
+  ['story-trojan-war', '一顆金蘋果引爆神話中最大的一場戰爭'],
+  ['story-odyssey', '戰後十年返鄉路：獨眼巨人、海妖、冥界'],
+  ['hero-aeneas', '特洛伊的敗將逃到義大利，變成羅馬人的祖先'],
+];
 import { href } from '../lib/router';
 
 export function Home() {
@@ -20,9 +33,40 @@ export function Home() {
           <a href={href('today')}><strong>今日影子</strong><span>{site.today.length} 個你看過的梗</span></a>
         </div>
       </section>
+      <section className="howto">
+        <h2>怎麼用這個網站</h2>
+        <ol className="steps">
+          <li><strong>認得他</strong><span>每張卡開頭「三句話」＋「一句話記住他」，30 秒知道他是誰。</span></li>
+          <li><strong>聽故事</strong><span>分格故事 → 正文 → 名畫。句尾的小字 [s1] 可以點，直接跳到原典。</span></li>
+          <li><strong>認出今天的影子</strong><span>卡片底部「這個梗你看過」：單字、品牌、電影，每條都寫明「和原典差在哪」。</span></li>
+        </ol>
+        <p className="muted small">本站的神話全部來自古代原典（荷馬、赫西俄德、奧維德……），句尾的小字來源可以直接點開英譯本對照。</p>
+      </section>
+      <section>
+        <h2>新手路線：照順序讀 8 張，就有整部神話的骨架</h2>
+        <ol className="path">
+          {STARTER_PATH.map(([id, why], i) => {
+            const c = cardById.get(id);
+            if (!c) return null;
+            const era = eraById.get(c.era);
+            return (
+              <li key={id}>
+                <a href={href('card', id)}>
+                  <span className="path-no">{i + 1}</span>
+                  <span className="path-body">
+                    <strong>{c.name_zh}</strong> <span className="muted">{era?.name}</span>
+                    <span className="path-why">{why}</span>
+                  </span>
+                </a>
+              </li>
+            );
+          })}
+        </ol>
+        <p className="muted small">讀完這 8 張，再用上面的「族譜」「年代」「地圖」把人物和地方串起來。</p>
+      </section>
       {featured.length > 0 && (
         <section>
-          <h2>從這裡開始</h2>
+          <h2>最多人認識的 6 張</h2>
           <div className="card-grid">
             {featured.map((c) => (
               <CardTile key={c!.id} id={c!.id} />
@@ -67,18 +111,29 @@ export function CardTile({ id }: { id: string }) {
 
 export function CardList() {
   const [type, setType] = useState<string>('全部');
+  const [sys, setSys] = useState<string>('全部');
   const types = TYPE_ORDER.filter((t) => site.cards.some((c) => c.type === t));
-  const list = site.cards.filter((c) => type === '全部' || c.type === type);
+  const list = site.cards.filter((c) => (type === '全部' || c.type === type) && (sys === '全部' || c.myth_system.includes(sys as 'greek')));
+  const count = (t: string) => site.cards.filter((c) => t === '全部' || c.type === t).length;
   return (
     <div className="page">
       <h1>全部卡片</h1>
-      <div className="filters">
+      <p className="lead">先按類型挑，點進去每張卡都先給你三句話。</p>
+      <div className="filters" aria-label="依類型篩選">
         {['全部', ...types].map((t) => (
           <button key={t} className={t === type ? 'on' : ''} onClick={() => setType(t)}>
-            {t}
+            {t} <span className="count">{count(t)}</span>
           </button>
         ))}
       </div>
+      <div className="filters" aria-label="依神話系統篩選">
+        {[['全部', '希臘＋羅馬'], ['greek', '有希臘版本'], ['roman', '有羅馬版本']].map(([k, label]) => (
+          <button key={k} className={k === sys ? 'on' : ''} onClick={() => setSys(k)}>
+            {label}
+          </button>
+        ))}
+      </div>
+      <p className="muted small">共 {list.length} 張</p>
       <div className="card-grid">
         {list.map((c) => (
           <CardTile key={c.id} id={c.id} />

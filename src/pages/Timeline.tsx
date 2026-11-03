@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { CardLink } from '../components/bits';
 import { site } from '../lib/data';
 
@@ -12,6 +13,16 @@ export function Timeline() {
   const pct = (y: number) => ((y - min) / (max - min)) * 100;
   const ticks: number[] = [];
   for (let y = Math.ceil(min / 200) * 200; y <= max; y += 200) ticks.push(y);
+  // 從卡片的年代標籤跳過來（#/timeline?era=heroes）時，捲到那個年代並短暫強調
+  useEffect(() => {
+    const era = new URLSearchParams(location.hash.split('?')[1] ?? '').get('era');
+    const el = era && document.getElementById(`era-${era}`);
+    if (!el) return;
+    el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    el.classList.add('era-hl');
+    const t = setTimeout(() => el.classList.remove('era-hl'), 2500);
+    return () => clearTimeout(t);
+  }, []);
   return (
     <div className="page timeline-page">
       <h1>神話年代</h1>
@@ -20,7 +31,7 @@ export function Timeline() {
       </p>
       <ol className="eras">
         {eras.map((e) => (
-          <li key={e.id} className="era">
+          <li key={e.id} className="era" id={`era-${e.id}`}>
             <div className="era-name">
               <span className="era-no">{e.order}</span>
               {e.name}
