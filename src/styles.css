@@ -282,3 +282,18 @@ pre.ascii { background: var(--surface); border: 1px solid var(--line); padding: 
 .twelve-table td:first-child { white-space: nowrap; }
 .ideas { grid-template-columns: 1fr 1fr; }
 @media (max-width: 760px) { .ideas { grid-template-columns: 1fr; } }
+/* 總覽：八幕故事 */
+.acts { position: sticky; top: 3.4rem; z-index: 5; display: flex; gap: 0.3rem; overflow-x: auto; padding: 0.4rem 0; margin: 0.5rem 0 1rem; background: var(--bg); border-bottom: 1px solid var(--line); }
+.acts a { flex: none; display: inline-flex; align-items: center; gap: 0.35rem; text-decoration: none; color: var(--ink); font-size: 0.85rem; padding: 0.2rem 0.6rem 0.2rem 0.25rem; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); white-space: nowrap; }
+.acts a.on { border-color: var(--terra); background: var(--terra); color: #fff; }
+.acts a.on .act-no { background: #fff; color: var(--terra); }
+.act-no { display: inline-flex; align-items: center; justify-content: center; width: 1.5rem; height: 1.5rem; border-radius: 50%; background: var(--terra); color: #fff; font-size: 0.8rem; font-weight: 700; margin-right: 0.5rem; flex: none; }
+.overview h2 .act-no { width: 1.9rem; height: 1.9rem; font-size: 1rem; vertical-align: middle; }
+.overview section { scroll-margin-top: 7rem; }
+.overview p strong { color: var(--terra); }
+.recap { background: var(--surface); border-left: 4px solid var(--olive); border-radius: 0 12px 12px 0; padding: 0.6rem 1rem; margin: 1.2rem 0 0; max-width: 46rem; box-shadow: var(--shadow); }
+.recap strong { color: var(--olive); font-size: 0.9rem; }
+.recap ul { margin: 0.3rem 0 0; padding-left: 1.2rem; font-size: 0.95rem; }
+.recap li { margin: 0.15rem 0; }
+.epilogue .overview-cta { display: inline-flex; }
+@media (max-width: 760px) { .acts { top: 6.2rem; } .acts a span:last-child { display: none; } .acts a { padding-right: 0.25rem; } }
