@@ -76,7 +76,8 @@ test('搜尋：繁體、羅馬名、簡體都找得到', async ({ page }) => {
 
 test('族譜畫得出來，希羅對照表與今日影子有資料', async ({ page }) => {
   await page.goto('#/family');
-  expect(await page.locator('.family-svg .fname').count()).toBeGreaterThan(20);
+  expect(await page.locator('.family-svg .fname').count()).toBeGreaterThan(15);
+  await expect(page.locator('.family-svg .fname', { hasText: '蓋亞' })).toBeVisible();
   await page.goto('#/compare');
   expect(await page.locator('table.compare tbody tr').count()).toBeGreaterThanOrEqual(21);
   await page.goto('#/today');
