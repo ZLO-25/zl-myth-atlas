@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { CardLink } from '../components/bits';
+import { fullName, romanNames } from '../lib/names';
 import { cardById, site } from '../lib/data';
 import { href } from '../lib/router';
 
@@ -194,10 +195,10 @@ export function Overview() {
             <tbody>
               {[...twelve, cardById.get('god-hades')].filter(Boolean).map((c) => (
                 <tr key={c!.id}>
-                  <td><CardLink id={c!.id} /><br /><span className="muted small">{c!.name_en}</span></td>
+                  <td><CardLink id={c!.id} /></td>
                   <td>{c!.domains?.roles.slice(0, 3).join('、')}</td>
                   <td>{c!.domains?.symbols.slice(0, 3).join('、')}</td>
-                  <td>{c!.roman ? `${c!.roman.name_zh} ${c!.roman.name_en ?? c!.roman.name_la}` : ''}</td>
+                  <td>{c!.roman ? fullName(romanNames(c!)!) : ''}</td>
                 </tr>
               ))}
             </tbody>

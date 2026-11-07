@@ -1,0 +1,63 @@
+# 沒有卡片的人物（族譜裡的配偶、子女、父母）的英文與原文。
+# key 要和卡片 family 裡 {name: …} 寫的中文一字不差（含括號說明）；網站會顯示成「中文 English（原文）」。
+# orig 寫古代原文：希臘神話用古希臘文，羅馬（拉丁文學）來源用拉丁文。
+勒托: {en: Leto, orig: Λητώ}
+百臂巨人: {en: Hundred-Handers, orig: Ἑκατόγχειρες}
+獨眼巨人: {en: Cyclopes, orig: Κύκλωπες}
+獨眼巨人波呂斐摩斯: {en: Polyphemus, orig: Πολύφημος}
+波瑟芬妮: {en: Persephone, orig: Περσεφόνη}
+波瑟芬妮（冥后）: {en: Persephone, orig: Περσεφόνη}
+克呂墨涅（大洋之女）: {en: Clymene, orig: Κλυμένη}
+伊阿珀托斯（泰坦）: {en: Iapetus, orig: Ἰαπετός}
+飛馬佩加索斯: {en: Pegasus, orig: Πήγασος}
+青春女神赫柏（成神之後）: {en: Hebe, orig: Ἥβη}
+赫柏（青春女神）: {en: Hebe, orig: Ἥβη}
+阿里阿德涅（克里特公主）: {en: Ariadne, orig: Ἀριάδνη}
+阿爾克墨涅: {en: Alcmene, orig: Ἀλκμήνη}
+阿爾克墨涅（凡人公主）: {en: Alcmene, orig: Ἀλκμήνη}
+阿斯卡尼俄斯（尤魯斯）: {en: Ascanius (Iulus), orig: Ascanius / Iulus}
+醫神阿斯克勒庇俄斯: {en: Asclepius, orig: Ἀσκληπιός}
+邁亞: {en: Maia, orig: Μαῖα}
+邁亞（泰坦亞特拉斯的女兒）: {en: Maia, orig: Μαῖα}
+達娜厄: {en: Danaë, orig: Δανάη}
+達妮（阿爾戈斯公主）: {en: Danaë, orig: Δανάη}
+謨涅摩緒涅（記憶女神）: {en: Mnemosyne, orig: Μνημοσύνη}
+美惠女神卡里斯／阿格萊亞: {en: Charis / Aglaea, orig: Χάρις / Ἀγλαΐα}
+繆斯卡利俄珀: {en: Calliope, orig: Καλλιόπη}
+九位繆斯: {en: the Muses, orig: Μοῦσαι}
+米蒂亞（科爾基斯公主、女巫）: {en: Medea, orig: Μήδεια}
+福波斯（恐懼）: {en: Phobos, orig: Φόβος}
+得摩斯（驚駭）: {en: Deimos, orig: Δεῖμος}
+珀琉斯（凡人國王）: {en: Peleus, orig: Πηλεύς}
+特里同: {en: Triton, orig: Τρίτων}
+牧神潘: {en: Pan, orig: Πάν}
+潘妮洛普: {en: Penelope, orig: Πηνελόπεια}
+拉厄耳忒斯（伊塔卡國王）: {en: Laertes, orig: Λαέρτης}
+安提克勒亞: {en: Anticlea, orig: Ἀντίκλεια}
+忒勒馬科斯: {en: Telemachus, orig: Τηλέμαχος}
+忒提斯（海中女神）: {en: Thetis, orig: Θέτις}
+忒彌斯: {en: Themis, orig: Θέμις}
+復仇女神、巨人族（由他的血生出）: {en: 'Erinyes, Giants', orig: 'Ἐρινύες, Γίγαντες'}
+得伊阿妮拉: {en: Deianira, orig: Δηιάνειρα}
+巨怪堤豐: {en: Typhon, orig: Τυφῶν}
+尤麗狄絲: {en: Eurydice, orig: Εὐρυδίκη}
+安菲特里忒（海中仙女）: {en: Amphitrite, orig: Ἀμφιτρίτη}
+安朵美達（衣索比亞公主）: {en: Andromeda, orig: Ἀνδρομέδα}
+安喀塞斯（特洛伊王族）: {en: Anchises, orig: Ἀγχίσης}
+安喀塞斯（特洛伊王族凡人）: {en: Anchises, orig: Ἀγχίσης}
+墨提斯: {en: Metis, orig: Μῆτις}
+墨提斯（智慧女神）: {en: Metis, orig: Μῆτις}
+塞墨勒: {en: Semele, orig: Σεμέλη}
+塞墨勒（底比斯公主，凡人）: {en: Semele, orig: Σεμέλη}
+埃特拉（特羅曾公主）: {en: Aethra, orig: Αἴθρα}
+埃勾斯（雅典國王）: {en: Aegeus, orig: Αἰγεύς}
+哈耳摩尼亞（和諧）: {en: Harmonia, orig: Ἁρμονία}
+厄瑞玻斯（幽暗）: {en: Erebus, orig: Ἔρεβος}
+倪克斯（黑夜）: {en: Nyx, orig: Νύξ}
+厄洛斯（愛神，羅馬叫邱比特）: {en: Eros, orig: Ἔρως}
+厄庇米修斯（後知者）: {en: Epimetheus, orig: Ἐπιμηθεύς}
+厄勒提亞（分娩女神）: {en: Eileithyia, orig: Εἰλείθυια}
+其他泰坦（俄刻阿諾斯、忒彌斯、謨涅摩緒涅等）: {en: other Titans, orig: Τιτᾶνες}
+克律薩俄耳: {en: Chrysaor, orig: Χρυσάωρ}
+俄阿格洛斯: {en: Oeagrus, orig: Οἴαγρος}
+七姊妹星團（普勒阿得斯）、邁亞等: {en: the Pleiades, orig: Πλειάδες}

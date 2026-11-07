@@ -3,6 +3,7 @@ import { zoom, zoomIdentity } from 'd3-zoom';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { avatarOf, cardById, familyOf, imgSrc, site } from '../lib/data';
 import { href } from '../lib/router';
+import { cardNames, looseNames, type NameParts } from '../lib/names';
 
 const TWELVE = ['god-zeus', 'god-hera', 'god-poseidon', 'god-demeter', 'god-athena', 'god-apollo', 'god-artemis', 'god-ares', 'god-aphrodite', 'god-hephaestus', 'god-hermes', 'god-hestia', 'god-dionysus'];
 const HEROES = site.cards.filter((c) => c.type === '英雄').map((c) => c.id);
@@ -21,8 +22,8 @@ interface Edge {
   variant?: string;
 }
 
-const W = 132;
-const H = 52;
+const W = 148;
+const H = 68;
 
 /** 族譜：中間是焦點人物，上面父母、兩側配偶、下面子女；點任何人就換成他當焦點 */
 export function Family({ focus }: { focus?: string }) {
@@ -79,7 +80,7 @@ export function Family({ focus }: { focus?: string }) {
         {mode === 'hero' && (
           <select value={hero} onChange={(e) => setHero(e.target.value)} aria-label="選擇英雄">
             {HEROES.map((h) => (
-              <option key={h} value={h}>{cardById.get(h)?.name_zh}</option>
+              <option key={h} value={h}>{cardById.get(h)?.name_zh} {cardById.get(h)?.name_en}</option>
             ))}
           </select>
         )}
@@ -107,6 +108,9 @@ export function Family({ focus }: { focus?: string }) {
             {nodes.map((n) => {
               const card = n.id ? cardById.get(n.id) : undefined;
               const av = card ? avatarOf(card) : undefined;
+              const nm: NameParts = card ? cardNames(card) : looseNames(n.name);
+              const tx = av ? 56 : W / 2;
+              const anchor = av ? 'start' : 'middle';
               return (
                 <g
                   key={n.key}
@@ -122,10 +126,12 @@ export function Family({ focus }: { focus?: string }) {
                   tabIndex={card ? 0 : -1}
                   onKeyDown={(e) => e.key === 'Enter' && card && setCur(card.id)}
                 >
+                  <title>{[nm.zh, nm.en, nm.orig].filter(Boolean).join(' · ') + (card ? `｜${card.type}` : '｜（無卡片）')}</title>
                   <rect width={W} height={H} rx={10} />
-                  {av && <image href={imgSrc(av)} x={6} y={6} width={40} height={40} preserveAspectRatio="xMidYMid slice" clipPath="inset(0 round 8px)" />}
-                  <text x={av ? 54 : W / 2} y={22} textAnchor={av ? 'start' : 'middle'} className="fname">{n.name}</text>
-                  <text x={av ? 54 : W / 2} y={39} textAnchor={av ? 'start' : 'middle'} className="fsub">{card ? card.type : '（無卡片）'}</text>
+                  {av && <image href={imgSrc(av)} x={6} y={(H - 44) / 2} width={44} height={44} preserveAspectRatio="xMidYMid slice" clipPath="inset(0 round 8px)" />}
+                  <text x={tx} y={22} textAnchor={anchor} className="fname">{n.name}</text>
+                  {nm.en && <text x={tx} y={39} textAnchor={anchor} className="fen">{nm.en}</text>}
+                  {nm.orig && nm.orig !== nm.en && <text x={tx} y={56} textAnchor={anchor} className="forig">{nm.orig}</text>}
                 </g>
               );
             })}
@@ -165,7 +171,8 @@ function around(id: string, twelveOnly: boolean): { nodes: Node[]; edges: Edge[]
       edges.push(role === 'parent' ? { a: key, b: 'focus', variant: p.variant } : { a: 'focus', b: key, variant: p.variant });
     });
   };
-  row(parents, -130, 'parent', 'p');
+  // 配偶多到疊成兩排時，父母要再往上移一排，免得和第二排配偶重疊
+  row(parents, consorts.length > 4 ? -130 - (H + 14) : -130, 'parent', 'p');
   // 配偶放在焦點兩側；超過 4 位就往上疊第二排，免得圖太寬、字太小
   consorts.forEach((p, i) => {
     const side = i % 2 === 0 ? 1 : -1;
