@@ -51,6 +51,14 @@ export function Family({ focus }: { focus?: string }) {
     const span = Math.max(Math.max(...xs) - Math.min(...xs) + W + 40, 300);
     const spanY = Math.max(Math.max(...ys) - Math.min(...ys) + H + 40, 200);
     const k = Math.min(1.2, box.width / span, box.height / spanY);
+    if (box.width < 600 && nodes.length > 12) {
+      // 手機：全部縮進去字會小到看不清，改成可讀大小、從最上面（蓋亞）開始，往下拖曳瀏覽
+      const k2 = 0.8;
+      svg.call(z.transform, zoomIdentity.translate(box.width / 2 - cx * k2, 30 - (Math.min(...ys) - H / 2) * k2).scale(k2));
+      return () => {
+        svg.on('.zoom', null);
+      };
+    }
     svg.call(z.transform, zoomIdentity.translate(box.width / 2 - cx * k, box.height / 2 - cy * k).scale(k));
     return () => {
       svg.on('.zoom', null);
