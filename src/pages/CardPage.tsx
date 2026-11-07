@@ -1,12 +1,12 @@
 import type { Card } from '../../scripts/lib/types';
 import { CardLink, NameTag, Cites, Figure, Markdown, SourceList } from '../components/bits';
 import { Panels } from '../components/Panels';
-import { cardById, eraById, familyOf, site, todayById } from '../lib/data';
+import { cardById, eraById, familyOf, isChinese, site, todayById } from '../lib/data';
 import { href } from '../lib/router';
 import { cardNames, enOrig, looseNames, origLang, origOf, romanNames } from '../lib/names';
 import { CardTile } from './simple';
 
-const SYS: Record<string, string> = { greek: '希臘', roman: '羅馬', norse: '北歐' };
+const SYS: Record<string, string> = { greek: '希臘', roman: '羅馬', norse: '北歐', chinese: '中華' };
 
 /** 「一句話記住○」的○要看卡片類型 */
 function pronoun(type: string) {
@@ -41,7 +41,7 @@ export function CardPage({ id }: { id: string }) {
   const headOrig = cardNames(c).orig; // 中華神話時是拼音
   const works = (c.images ?? []).filter(Boolean);
   const backlinks = site.cards.filter((o) => o.id !== c.id && [...(o.causes ?? []), ...(o.effects ?? [])].some((l) => l.id === c.id));
-  const hasFamily = (fam.parents.length || fam.consorts.length || fam.children.length) > 0;
+  const hasFamily = (fam.parents.length || fam.consorts.length || fam.children.length || fam.predecessors.length || fam.successors.length || fam.foes.length) > 0;
   const hasCauses = !!(c.causes?.length || c.effects?.length || backlinks.length);
   const next = nextCards(c, backlinks);
 
@@ -51,7 +51,7 @@ export function CardPage({ id }: { id: string }) {
   toc.push(['story', '故事']);
   if (works.length) toc.push(['gallery', '古人與畫家怎麼想像']);
   if (c.greek_vs_roman) toc.push(['gvr', '希臘 vs 羅馬']);
-  if (hasFamily) toc.push(['family', '家族']);
+  if (hasFamily) toc.push(['family', isChinese(c) ? '家族與傳承' : '家族']);
   if (hasCauses) toc.push(['causes', '前因後果']);
   if (c.disputed?.length) toc.push(['disputed', '說法不一']);
   if (c.today?.length) toc.push(['today', '這個梗你看過']);
@@ -178,10 +178,13 @@ export function CardPage({ id }: { id: string }) {
 
       {hasFamily && (
         <section className="family-box" id="sec-family">
-          <h2>家族</h2>
+          <h2>{isChinese(c) ? '家族與傳承' : '家族'}</h2>
           <FamRow label="父母" list={fam.parents} cardId={c.id} />
           <FamRow label="配偶／情人" list={fam.consorts} cardId={c.id} />
           <FamRow label="子女" list={fam.children} cardId={c.id} />
+          <FamRow label="王位從誰接來" list={fam.predecessors} cardId={c.id} />
+          <FamRow label="王位傳給誰" list={fam.successors} cardId={c.id} />
+          <FamRow label="對手" list={fam.foes} cardId={c.id} />
           <a href={href('family', c.id)}>在族譜裡展開 →</a>
         </section>
       )}

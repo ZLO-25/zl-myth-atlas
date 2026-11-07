@@ -191,6 +191,20 @@ pre.ascii { background: var(--surface); border: 1px solid var(--line); padding: 
 .edge-consort { stroke: var(--terra); }
 .edge-variant { stroke-dasharray: 6 5; }
 .edge-label { font-size: 11px; fill: var(--muted); }
+/* 中華神話傳承圖 */
+.edge-blood { stroke: var(--muted); }
+.edge-consort { stroke: var(--terra); }
+.cn-consort .edge-consort { stroke-width: 5; }
+.edge-consort-inner { stroke: var(--surface); stroke-width: 1.6; }
+.edge-succ { stroke: var(--aegean); stroke-dasharray: 2 5; stroke-width: 2.2; stroke-linecap: round; }
+.succ-arrow { fill: var(--aegean); }
+.edge-foe { stroke: #b23a2e; stroke-width: 2; }
+.foe-mark { fill: #b23a2e; font-size: 16px; font-weight: 700; }
+.row-label { font-size: 14px; font-weight: 700; fill: var(--terra); }
+.family-legend { display: flex; flex-wrap: wrap; gap: 0.4rem 1.2rem; margin: 0.8rem 0 0.2rem; font-size: 0.9rem; }
+.lg-consort { color: var(--terra); }
+.lg-succ { color: var(--aegean); }
+.lg-foe { color: #b23a2e; }
 .fnode rect { fill: var(--bg); stroke: var(--line); stroke-width: 1.5; }
 .fnode.clickable { cursor: pointer; }
 .fnode.clickable:hover rect { stroke: var(--aegean); }
