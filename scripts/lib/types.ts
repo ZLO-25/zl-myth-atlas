@@ -132,6 +132,7 @@ export interface Place {
   id: string;
   name_zh: string;
   name_en: string;
+  name_orig?: string; // 古代原文，例如 Δελφοί
   kind: 'real' | 'mythic';
   lat?: number;
   lng?: number;
@@ -146,8 +147,12 @@ export interface Topic {
   desc: string;
 }
 
+/** data/names.yaml：沒有卡片的人物的英文與原文（key 是卡片裡寫的中文名，原樣照抄） */
+export type NameTable = Record<string, { en: string; orig: string }>;
+
 export interface SiteData {
   cards: Card[];
+  names: NameTable;
   images: ImageItem[];
   today: TodayItem[];
   eras: Era[];

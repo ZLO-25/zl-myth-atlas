@@ -2,6 +2,7 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { useEffect, useRef, useState } from 'react';
 import { CardLink } from '../components/bits';
+import { cardNames, enOrig, fullName } from '../lib/names';
 import { cardById, site } from '../lib/data';
 import { href } from '../lib/router';
 
@@ -36,11 +37,11 @@ function RealMap() {
       attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     }).addTo(map);
     for (const p of site.places.filter((x) => x.kind === 'real' && x.lat != null)) {
-      const cards = p.cards.map((id) => `<a href="${href('card', id)}">${cardById.get(id)?.name_zh ?? id}</a>`).join('、');
+      const cards = p.cards.map((id) => { const c = cardById.get(id); return `<a href="${href('card', id)}">${c ? fullName(cardNames(c)) : id}</a>`; }).join('、');
       const src = p.src.map((s) => `<a href="${s.url}" target="_blank" rel="noreferrer">${s.cite}</a>`).join('；');
       L.circleMarker([p.lat!, p.lng!], { radius: 8, color: '#1F5F8B', fillColor: '#C4622D', fillOpacity: 0.9, weight: 2 })
         .addTo(map)
-        .bindPopup(`<strong>${p.name_zh}</strong> <span>${p.name_en}</span><p>${p.archaeology ?? ''}</p><p>相關卡片：${cards}</p><p class="small">來源：${src}</p>`);
+        .bindPopup(`<strong>${p.name_zh}</strong> <span>${enOrig({ zh: p.name_zh, en: p.name_en, orig: p.name_orig })}</span><p>${p.archaeology ?? ''}</p><p>相關卡片：${cards}</p><p class="small">來源：${src}</p>`);
     }
     let route: L.LayerGroup | undefined;
     if (showRoute && site.odysseyRoute.length) {
@@ -75,7 +76,7 @@ function RealMap() {
           .filter((p) => p.kind === 'real')
           .map((p) => (
             <li key={p.id}>
-              <strong>{p.name_zh}</strong> <span className="muted">{p.name_en}</span>：{p.archaeology}{' '}
+              <strong>{p.name_zh}</strong> <span className="muted">{enOrig({ zh: p.name_zh, en: p.name_en, orig: p.name_orig })}</span>：{p.archaeology}{' '}
               {p.cards.map((c) => (
                 <CardLink key={c} id={c} />
               ))}

@@ -2,8 +2,10 @@ import { useState, type ReactNode } from 'react';
 import type { Card, ImageItem, Source } from '../../scripts/lib/types';
 import { avatarOf, cardById, imageById, imgSrc } from '../lib/data';
 import { href } from '../lib/router';
+import { cardNames, enOrig } from '../lib/names';
 
-/** 卡片連結：滑過（或手機點一下旁邊的小圓點）浮出小卡 */
+/** 卡片連結：滑過（或手機點一下旁邊的小圓點）浮出小卡。
+ *  沒給 children 時顯示完整名稱「宙斯 Zeus（Ζεύς）」；正文裡的連結（有 children）維持原字，免得打斷閱讀。 */
 export function CardLink({ id, children }: { id: string; children?: ReactNode }) {
   const c = cardById.get(id);
   const [open, setOpen] = useState(false);
@@ -13,9 +15,15 @@ export function CardLink({ id, children }: { id: string; children?: ReactNode })
       <a className="card-link" href={href('card', id)} onFocus={() => setOpen(true)} onBlur={() => setOpen(false)}>
         {children ?? c.name_zh}
       </a>
+      {children == null && <NameTag text={enOrig(cardNames(c))} />}
       {open && <MiniCard c={c} />}
     </span>
   );
+}
+
+/** 名稱後面的小字「Zeus（Ζεύς）」 */
+export function NameTag({ text }: { text: string }) {
+  return text ? <span className="name-tag">{' '}{text}</span> : null;
 }
 
 export function MiniCard({ c }: { c: Card }) {
@@ -24,7 +32,7 @@ export function MiniCard({ c }: { c: Card }) {
     <span className="mini-card" role="tooltip">
       {av && <img src={imgSrc(av)} alt="" loading="lazy" />}
       <span className="mini-body">
-        <strong>{c.name_zh}</strong> <span className="muted">{c.name_en}</span>
+        <strong>{c.name_zh}</strong> <span className="muted">{enOrig(cardNames(c))}</span>
         {c.three_lines.map((l, i) => (
           <span key={i} className="mini-line">
             {l}

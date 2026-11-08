@@ -2,7 +2,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import YAML from 'yaml';
-import type { Card, Era, GreekRomanRow, HistoryRef, ImageItem, Place, RouteStop, SiteData, TodayItem, Topic } from './types.ts';
+import type { Card, Era, GreekRomanRow, HistoryRef, ImageItem, NameTable, Place, RouteStop, SiteData, TodayItem, Topic } from './types.ts';
 
 export const ROOT = path.resolve(import.meta.dirname, '..', '..');
 
@@ -90,6 +90,7 @@ export function loadAll(): SiteData {
     history: readYaml<HistoryRef[]>('data/history.yaml', []),
     places: readYaml<Place[]>('data/places.yaml', []),
     topics: readYaml<Topic[]>('data/topics.yaml', []),
+    names: readYaml<NameTable>('data/names.yaml', {}),
     greekRoman: readYaml<GreekRomanRow[]>('data/greek-roman.yaml', []),
     odysseyRoute: readYaml<RouteStop[]>('data/odyssey-route.yaml', []),
     builtAt: new Date().toISOString(),

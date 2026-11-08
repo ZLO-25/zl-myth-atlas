@@ -94,6 +94,7 @@ main { min-height: 70vh; }
 .tile-initial { font-size: 3rem; color: var(--terra); font-family: serif; }
 .tile-body { padding: 0.7rem 0.9rem 0.9rem; display: flex; flex-direction: column; gap: 0.1rem; }
 .tile-body strong { font-size: 1.15rem; }
+.tile-names { font-size: 0.86rem; line-height: 1.4; }
 .tile-hook { font-size: 0.9rem; margin-top: 0.3rem; }
 
 .type-chip, .sys-chip, .era-chip, .reality { display: inline-block; font-size: 0.78rem; padding: 0.05rem 0.55rem; border-radius: 999px; margin-right: 0.3rem; border: 1px solid var(--line); background: var(--bg); color: var(--muted); text-decoration: none; }
@@ -107,6 +108,9 @@ main { min-height: 70vh; }
 .card-head h1 { font-size: 2.4rem; margin: 0.5rem 0 0; }
 .name-en { font-size: 1.2rem; color: var(--muted); font-weight: 400; }
 .name-orig { margin: 0.2rem 0; color: var(--muted); }
+.name-orig-h { margin-left: 0.1rem; }
+/* 名稱後面的英文與原文小字：「宙斯 Zeus（Ζεύς）」 */
+.name-tag { color: var(--muted); font-size: 0.86em; font-weight: 400; }
 .aliases { font-size: 0.92rem; color: var(--muted); margin: 0.2rem 0 1rem; }
 .three-lines { background: var(--surface); border-left: 4px solid var(--aegean); padding: 0.8rem 1rem 0.8rem 2.2rem; border-radius: 0 12px 12px 0; box-shadow: var(--shadow); }
 .hook { display: flex; flex-direction: column; background: var(--surface); border: 2px dashed var(--gold); padding: 0.7rem 1rem; border-radius: 12px; font-size: 1.1rem; }
@@ -195,6 +199,10 @@ pre.ascii { background: var(--surface); border: 1px solid var(--line); padding: 
 .fnode.twelve rect { stroke: var(--gold); stroke-width: 2.5; }
 .fname { font-size: 14px; font-weight: 700; fill: var(--ink); }
 .fsub { font-size: 11px; fill: var(--muted); }
+.fen { font-size: 11.5px; fill: var(--muted); }
+.forig { font-size: 11.5px; fill: var(--muted); font-style: italic; }
+.fnode.role-focus .fen, .fnode.role-focus .forig { fill: #e8f0f7; }
+.fnode:not(.clickable) rect { stroke-dasharray: 4 3; }
 
 /* 年代軸 */
 .eras { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.8rem; counter-reset: era; }

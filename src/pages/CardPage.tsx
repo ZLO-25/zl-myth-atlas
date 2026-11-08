@@ -1,8 +1,9 @@
 import type { Card } from '../../scripts/lib/types';
-import { CardLink, Cites, Figure, Markdown, SourceList } from '../components/bits';
+import { CardLink, NameTag, Cites, Figure, Markdown, SourceList } from '../components/bits';
 import { Panels } from '../components/Panels';
 import { cardById, eraById, familyOf, site, todayById } from '../lib/data';
 import { href } from '../lib/router';
+import { cardNames, enOrig, looseNames, origLang, origOf, romanNames } from '../lib/names';
 import { CardTile } from './simple';
 
 const SYS: Record<string, string> = { greek: '希臘', roman: '羅馬', norse: '北歐' };
@@ -35,6 +36,9 @@ export function CardPage({ id }: { id: string }) {
   if (!c) return <div className="page"><p>找不到這張卡：{id}</p></div>;
   const fam = familyOf(c.id);
   const era = eraById.get(c.era);
+  const orig = origOf(c.name_orig);
+  const translit = c.name_orig.split(' / ')[1]?.trim();
+  const headOrig = cardNames(c).orig; // 中華神話時是拼音
   const works = (c.images ?? []).filter(Boolean);
   const backlinks = site.cards.filter((o) => o.id !== c.id && [...(o.causes ?? []), ...(o.effects ?? [])].some((l) => l.id === c.id));
   const hasFamily = (fam.parents.length || fam.consorts.length || fam.children.length) > 0;
@@ -75,13 +79,18 @@ export function CardPage({ id }: { id: string }) {
         </div>
         <h1>
           {c.name_zh} <span className="name-en">{c.name_en}</span>
+          {headOrig && headOrig !== c.name_en && <span className="name-en name-orig-h">（{headOrig}）</span>}
         </h1>
         <p className="name-orig">
-          {c.name_orig}
+          {orig && (
+            <>
+              原文：<span lang={({ 希臘文: 'grc', 漢字: 'zh', 古諾斯語: 'non' } as Record<string, string>)[origLang(orig, c.myth_system)] ?? 'la'}>{orig}</span>（{origLang(orig, c.myth_system)}
+              {translit && translit !== orig ? `，${origLang(orig, c.myth_system) === '漢字' ? '拼音' : '拉丁字母寫作'} ${translit}` : ''}）
+            </>
+          )}
           {c.roman && (
             <>
-              {' '}｜羅馬：{c.roman.card ? <CardLink id={c.roman.card}>{c.roman.name_zh}</CardLink> : c.roman.name_zh} {c.roman.name_la}
-              {c.roman.name_en && c.roman.name_en !== c.roman.name_la ? `（英文 ${c.roman.name_en}）` : ''}
+              {orig ? '｜' : ''}羅馬：{c.roman.card ? <CardLink id={c.roman.card}>{c.roman.name_zh}</CardLink> : c.roman.name_zh} {enOrig(romanNames(c)!)}
             </>
           )}
         </p>
@@ -284,7 +293,7 @@ function FamRow({ label, list, cardId }: { label: string; list: { id?: string; n
       {list.map((f, i) => (
         <span key={i} className={f.variant ? 'variant' : ''}>
           {i > 0 && '、'}
-          {f.id ? <CardLink id={f.id} /> : f.name}
+          {f.id ? <CardLink id={f.id} /> : <>{f.name}<NameTag text={enOrig(looseNames(f.name!))} /></>}
           {f.variant && <span className="variant-tag">另有一說：{f.variant}</span>}
           {f.from === cardId && <Cites ids={f.src} cardId={cardId} />}
         </span>

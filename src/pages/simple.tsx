@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { TODAY_CATEGORIES } from '../../scripts/lib/types';
 import { eraById } from '../lib/data';
 import { CardLink, MiniCard } from '../components/bits';
+import { cardNames, enOrig, fullName, origLang, origOf, romanNames } from '../lib/names';
 import { avatarOf, cardById, imgSrc, site, todayById, TYPE_ORDER } from '../lib/data';
 
 /** 新手路線：照故事順序讀這 8 張，就有整部神話的骨架 */
@@ -58,7 +59,7 @@ export function Home() {
                 <a href={href('card', id)}>
                   <span className="path-no">{i + 1}</span>
                   <span className="path-body">
-                    <strong>{c.name_zh}</strong> <span className="muted">{era?.name}</span>
+                    <strong>{c.name_zh}</strong> <span className="muted">{enOrig(cardNames(c))}｜{era?.name}</span>
                     <span className="path-why">{why}</span>
                   </span>
                 </a>
@@ -106,7 +107,8 @@ export function CardTile({ id }: { id: string }) {
       <div className="tile-body">
         <span className={`type-chip t-${c.type}`}>{c.type}</span>
         <strong>{c.name_zh}</strong>
-        <span className="muted">{c.name_en}{c.roman ? `｜${c.roman.name_zh}` : ''}</span>
+        <span className="muted tile-names">{enOrig(cardNames(c))}</span>
+        {c.roman && <span className="muted tile-names">羅馬：{fullName(romanNames(c)!)}</span>}
         <span className="tile-hook">{c.hook}</span>
       </div>
     </a>
@@ -168,6 +170,13 @@ export function TopicPage({ name }: { name: string }) {
   );
 }
 
+/** 對照表的希臘原文：只有希臘神才有（雅努斯是純羅馬的神） */
+function greekOrig(id?: string) {
+  const c = id ? cardById.get(id) : undefined;
+  const o = origOf(c?.name_orig);
+  return o && origLang(o) === '希臘文' ? o : '—';
+}
+
 export function Compare() {
   return (
     <div className="page">
@@ -178,6 +187,7 @@ export function Compare() {
           <thead>
             <tr>
               <th>希臘名</th>
+              <th>希臘原文</th>
               <th>羅馬名</th>
               <th>拉丁文</th>
               <th>英文</th>
@@ -188,6 +198,7 @@ export function Compare() {
             {site.greekRoman.map((r) => (
               <tr key={r.latin}>
                 <td>{r.card ? <CardLink id={r.card}>{r.greek}</CardLink> : r.greek}</td>
+                <td lang="grc">{greekOrig(r.card)}</td>
                 <td>{r.roman}</td>
                 <td>{r.latin}</td>
                 <td>{r.english}</td>

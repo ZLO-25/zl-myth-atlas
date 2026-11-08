@@ -17,7 +17,7 @@ try {
   console.error(`✖ ${(e as Error).message}`);
   process.exit(1);
 }
-const { cards, images, today, eras, places, topics } = data;
+const { cards, images, today, eras, places, topics, names } = data;
 
 const cardIds = new Set<string>();
 const imageById = new Map(images.map((i) => [i.id, i]));
@@ -126,6 +126,18 @@ for (const c of cards) {
   }
   if (c.type === '神' && c.myth_system.includes('greek') && !c.greek_vs_roman) warn(w, '奧林帕斯神要寫 greek_vs_roman');
   if (!c.today?.length) warn(w, '還沒連到任何今日影子');
+}
+
+// 名稱格式「中文 English（原文）」：沒有卡片的人物要在 data/names.yaml 補英文與原文
+for (const c of cards) {
+  for (const k of ['parents', 'consorts', 'children', 'siblings'] as const) {
+    for (const f of c.family?.[k] ?? []) {
+      if (f.id || !f.name) continue;
+      const n = names[f.name];
+      if (!n) err(c.file!, `族譜的「${f.name}」沒有卡片，要在 data/names.yaml 補上英文與原文`);
+      else if (!n.en || !n.orig) err('data/names.yaml', `「${f.name}」要同時寫 en 與 orig`);
+    }
+  }
 }
 
 // 反向族譜一致性：A 說 B 是父母，B 的子女清單（若有寫）應包含 A
