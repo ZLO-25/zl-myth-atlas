@@ -128,7 +128,7 @@ Hera: regal woman, dark hair under a tall gold crown, long marble-white robe wit
 Athena: tall young woman, tall-crested bronze helmet pushed up, spear, aegis cape with a small Medusa face on the chest, a small owl nearby.
 Aphrodite: young woman with long golden hair, light marble-white robe, a white dove nearby.
 Hermes: slim beardless young man, wide-brimmed traveller's hat with small wings, winged sandals, short tunic, staff with two snakes.
-On a hillside Paris, seated with his staff, hands the golden apple to Aphrodite while Hera and Athena look offended; Hermes stands behind.
+On a hillside Paris, seated with his staff, looks at Aphrodite (long golden hair, white dove) and places the golden apple into her outstretched hand; she smiles. Hera (gold crown) and Athena (helmet) stand apart on the other side, turning away offended. Hermes stands behind. The apple must clearly go to Aphrodite, not to Athena.
 
 --- FILE NAME: img-ai-trojan-war-3　｜　帶走海倫
 PROMPT:
@@ -212,7 +212,7 @@ PROMPT:
 Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
 Odysseus: weathered bearded man, small conical sailor's cap, short tunic, clever eyes.
 Polyphemus: huge one-eyed giant shepherd, shaggy hair, single eye in the middle of his forehead.
-Inside a cave, Odysseus and his men aim a long sharpened pole at the sleeping one-eyed giant. Tension, no injury shown.
+Inside a cave, the one-eyed giant lies on his back fast asleep and drunk, his single eye firmly CLOSED, an empty wine bowl beside him; Odysseus and his men lift a long sharpened olive-wood stake whose tip glows red from the fire. Tension, no injury shown.
 
 --- FILE NAME: img-ai-odyssey-3　｜　風神的袋子
 PROMPT:
@@ -329,18 +329,19 @@ Narcissus turns away coldly as Echo reaches toward him; she fades into the rocks
 --- FILE NAME: img-ai-narcissus-5　｜　一個祈禱
 PROMPT:
 Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
-A rejected young man raises his hands to the sky at dusk; a faint golden figure of a goddess listens in the clouds.
+Nemesis: stern dignified goddess of retribution, grey-blue robe and veil, holding a bridle; no helmet, no spear, no shield, no owl (she is not Athena).
+A rejected young man raises his hands to the sky at dusk; in the clouds the faint glowing figure of Nemesis listens with a stern face.
 
 --- FILE NAME: img-ai-narcissus-6　｜　水中的倒影
 PROMPT:
 Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
 Narcissus: beautiful youth of about sixteen, dark curly hair, hunter's tunic and spear.
-Narcissus kneels at a still clear pool, gazing in fascination at his reflection.
+In a wild shady forest (no buildings), Narcissus kneels at the grassy edge of a small natural spring and leans over the still water; directly below his face the water mirrors him like a mirror, the reflection joined to him at the water line. He gazes at it in fascination.
 
 --- FILE NAME: img-ai-narcissus-7　｜　水仙花
 PROMPT:
 Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
-By the empty pool, a single white narcissus flower with a gold center grows where the youth had been.
+The same natural forest spring, now with nobody there: no people, no buildings. On the grassy bank where the youth had lain grows a single white narcissus flower with a yellow-orange center.
 
 ==================================================
 故事 8／10：伊卡洛斯　(STORY 8: story-icarus)
@@ -351,34 +352,34 @@ By the empty pool, a single white narcissus flower with a gold center grows wher
 PROMPT:
 Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
 Daedalus: grey-bearded inventor, leather apron, tools.
-Icarus: slim teenage boy, short curly hair, wings of feathers and wax strapped to his arms.
-Daedalus and Icarus stand on a high cliff of Crete looking at seabirds; ships guard the harbor below.
+Icarus: slim teenage boy, short curly hair, simple short tunic.
+Daedalus and Icarus, both without any wings yet, stand on a high cliff of Crete looking up at seabirds; ships guard the harbor below.
 
 --- FILE NAME: img-ai-icarus-2　｜　羽毛與蠟
 PROMPT:
 Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
 Daedalus: grey-bearded inventor, leather apron, tools.
-Icarus: slim teenage boy, short curly hair, wings of feathers and wax strapped to his arms.
+Icarus: slim teenage boy, short curly hair, simple short tunic.
 In a workshop Daedalus binds feathers with thread and wax into wings; Icarus plays with a floating feather.
 
 --- FILE NAME: img-ai-icarus-3　｜　飛在中間
 PROMPT:
 Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
 Daedalus: grey-bearded inventor, leather apron, tools.
-Icarus: slim teenage boy, short curly hair, wings of feathers and wax strapped to his arms.
-Daedalus straps the wings to Icarus and points at the middle of the sky between the sea and the sun.
+Icarus: slim teenage boy, short curly hair, simple short tunic.
+Daedalus straps a pair of large feather-and-wax wings to Icarus's arms and points at the middle of the sky between the sea and the sun.
 
 --- FILE NAME: img-ai-icarus-4　｜　地上的人抬頭
 PROMPT:
 Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
 Daedalus: grey-bearded inventor, leather apron, tools.
-Icarus: slim teenage boy, short curly hair, wings of feathers and wax strapped to his arms.
+Icarus: slim teenage boy, short curly hair, simple short tunic.
 A fisherman, a shepherd and a ploughman look up in awe at two winged figures flying over the sea.
 
 --- FILE NAME: img-ai-icarus-5　｜　越飛越高
 PROMPT:
 Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
-Icarus: slim teenage boy, short curly hair, wings of feathers and wax strapped to his arms.
+Icarus: slim teenage boy, short curly hair, simple short tunic.
 Icarus soars joyfully toward a huge golden sun; drops of wax begin to fall from his wings.
 
 --- FILE NAME: img-ai-icarus-6　｜　海面上的羽毛
