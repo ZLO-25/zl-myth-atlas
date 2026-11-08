@@ -19,7 +19,7 @@ panels:
   - {image: img-ai-trojan-war-1, text: 爭吵女神丟下一顆金蘋果，作為「最美女神」的獎品。, src: [s1]}
   - {image: img-ai-trojan-war-2, text: 希拉、雅典娜、阿芙蘿黛蒂爭搶。宙斯讓特洛伊王子帕里斯當裁判，他選了答應給他最美女人的阿芙蘿黛蒂。, src: [s1]}
   - {image: img-ai-trojan-war-3, text: 帕里斯到斯巴達作客，帶走了國王墨涅拉俄斯的妻子海倫。墨涅拉俄斯的哥哥阿伽門農召集全希臘出兵。, src: [s1, s2]}
-  - {image: img-ai-trojan-war-4, text: 船隊在奧利斯港因為無風無法出航。阿伽門農為了平息阿提米絲的怒氣，把女兒伊菲革涅亞帶到祭壇。, src: [s1]}
+  - {image: img-ai-trojan-war-4, text: 船隊在奧利斯港無法出航。阿伽門農為了平息阿提米絲的怒氣，把女兒伊菲革涅亞帶到祭壇。, src: [s1]}
   - {image: img-ai-trojan-war-5, text: 預言家早就說過，要到第十年才能攻下特洛伊。到了第十年，阿基里斯和阿伽門農翻臉。《伊里亞德》寫的就是這段時間：帕特羅克洛斯戰死，阿基里斯殺死赫克托耳。, src: [s5, s3, s1]}
   - {image: img-ai-trojan-war-6, text: 阿基里斯被帕里斯射中腳踝而死。希臘人久攻不下，最後用木馬計進城，特洛伊在一夜之間淪陷。, src: [s1, s4]}
 sources:

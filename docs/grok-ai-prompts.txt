@@ -1,0 +1,474 @@
+眾神星圖 AI 插畫工作單（共 63 張）
+Myth Atlas illustration job sheet — 63 images
+
+【給 Grok 的說明 / Instructions for Grok】
+1. This file contains 63 image prompts, grouped into 10 stories. Generate ONE image per prompt, in the order listed.
+2. Use each "PROMPT" block exactly as written. Every image: realistic cinematic digital painting, landscape 4:3 (1600x1200), no text or letters in the image.
+3. Keep characters consistent within a story: the same person must have the same face, hair, age and clothing in every frame. Before the first frame of each story, first create a character reference sheet of that story's main characters and keep using it.
+4. After each image, state its FILE NAME (for example img-ai-pandora-1) so the user can save it with that name.
+5. Work one story at a time. When a story is finished, say "Story finished: <story name>" and wait for the user before starting the next story.
+
+【給 ZL 的提醒】
+- 生好的圖存進 Google 雲端硬碟資料夾「(grok)眾神AI生圖」：
+  https://drive.google.com/drive/folders/1W6TqZwA4FtzlSbEI9mBjEs7vXE46lbVA
+  每個故事開一個子資料夾（例如「潘朵拉」），檔名用每張的 FILE NAME（例如 img-ai-pandora-1.png），PNG、JPG 都可以。
+- 一個故事存完，就在 thread 告訴 Claude「某某故事好了」，Claude 會從雲端硬碟抓圖、轉檔、對照原典檢查、上傳網站。
+
+
+==================================================
+故事 1／10：潘朵拉　(STORY 1: story-pandora)
+雲端子資料夾：潘朵拉
+==================================================
+
+--- FILE NAME: img-ai-pandora-1　｜　宙斯的回禮
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Zeus: powerful middle-aged man, thick curly grey-black hair and full beard, Aegean-blue cloak over one shoulder, holding a golden zigzag thunderbolt.
+Prometheus: lean bearded titan, earth-colored tunic, carrying a fennel stalk with a small flame.
+On Mount Olympus, Zeus frowns down at the human world where a few small warm hearth fires glow in houses (a peaceful village, nothing is burning); far below, Prometheus walks away holding a fennel stalk with a flame.
+
+--- FILE NAME: img-ai-pandora-2　｜　眾神打造潘朵拉
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Hephaestus: bearded stocky craftsman, conical felt cap, short work tunic off one shoulder, hammer, walks with a stick.
+Athena: tall young woman, tall-crested bronze helmet pushed up, spear, aegis cape with a small Medusa face on the chest, a small owl nearby.
+Aphrodite: young woman with long golden hair, light marble-white robe, a white dove nearby.
+Hermes: slim beardless young man, wide-brimmed traveller's hat with small wings, winged sandals, short tunic, staff with two snakes.
+Pandora: young woman, elaborate gold crown and fine robe given by the gods, beside a large knee-high clay storage jar (pithos), not a box.
+Hephaestus shapes a young woman from clay at his forge; Athena drapes a woven robe on her, Aphrodite places a hand on her hair, Hermes whispers to her.
+
+--- FILE NAME: img-ai-pandora-3　｜　送到厄庇米修斯家
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Hermes: slim beardless young man, wide-brimmed traveller's hat with small wings, winged sandals, short tunic, staff with two snakes.
+Pandora: young woman, elaborate gold crown and fine robe given by the gods, beside a large knee-high clay storage jar (pithos), not a box.
+Epimetheus: younger brother of Prometheus, beardless, open friendly face, simple tunic.
+Hermes leads Pandora by the hand to the doorway of a simple house where Epimetheus greets them with delight.
+
+--- FILE NAME: img-ai-pandora-4　｜　忘了哥哥的警告
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Epimetheus: younger brother of Prometheus, beardless, open friendly face, simple tunic.
+Prometheus: lean bearded titan, earth-colored tunic, carrying a fennel stalk with a small flame.
+Memory scene in a thought-bubble shape: Prometheus wagging a finger in warning; in the foreground Epimetheus smiles and ignores it.
+
+--- FILE NAME: img-ai-pandora-5　｜　掀開大罐子
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Pandora: young woman, elaborate gold crown and fine robe given by the gods, beside a large knee-high clay storage jar (pithos), not a box.
+Pandora lifts the lid of a large clay storage jar; dark swirling shapes fly out into the sky above a village.
+
+--- FILE NAME: img-ai-pandora-6　｜　只剩希望
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Pandora: young woman, elaborate gold crown and fine robe given by the gods, beside a large knee-high clay storage jar (pithos), not a box.
+Pandora presses the lid back onto the jar; under the rim a tiny warm golden light remains inside.
+
+==================================================
+故事 2／10：波瑟芬妮　(STORY 2: story-persephone)
+雲端子資料夾：波瑟芬妮
+==================================================
+
+--- FILE NAME: img-ai-persephone-1　｜　草地上的水仙
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Persephone: young woman, long dark hair, light robe with flower pattern; as queen, a small gold crown.
+Persephone and companions picking flowers in a spring meadow; she reaches for one striking narcissus.
+
+--- FILE NAME: img-ai-persephone-2　｜　大地裂開
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Hades: bearded stern man resembling Zeus but darker, deep blue-black robe, sceptre.
+Persephone: young woman, long dark hair, light robe with flower pattern; as queen, a small gold crown.
+The ground splits open; Hades in a golden chariot drawn by black horses sweeps Persephone away, her flowers scattering. Long shot, no violence shown.
+
+--- FILE NAME: img-ai-persephone-3　｜　九天九夜的尋找
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Demeter: mature woman, wreath of wheat ears, olive-green robe, carrying a torch when searching.
+Demeter walking alone at night across hills holding a torch in each hand, searching.
+
+--- FILE NAME: img-ai-persephone-4　｜　大地荒蕪
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Demeter: mature woman, wreath of wheat ears, olive-green robe, carrying a torch when searching.
+Barren grey fields and dead wheat; villagers kneel with empty baskets while Demeter sits grieving on a stone.
+
+--- FILE NAME: img-ai-persephone-5　｜　石榴籽
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Hades: bearded stern man resembling Zeus but darker, deep blue-black robe, sceptre.
+Persephone: young woman, long dark hair, light robe with flower pattern; as queen, a small gold crown.
+Hermes: slim beardless young man, wide-brimmed traveller's hat with small wings, winged sandals, short tunic, staff with two snakes.
+In a dim underworld hall Hades secretly slips a single pomegranate seed into Persephone's hand; Hermes waits at the doorway, not noticing.
+
+--- FILE NAME: img-ai-persephone-6　｜　母女重逢
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Demeter: mature woman, wreath of wheat ears, olive-green robe, carrying a torch when searching.
+Persephone: young woman, long dark hair, light robe with flower pattern; as queen, a small gold crown.
+Persephone rises from a cave into a blossoming meadow and runs into Demeter's arms.
+
+==================================================
+故事 3／10：特洛伊戰爭　(STORY 3: story-trojan-war)
+雲端子資料夾：特洛伊戰爭
+==================================================
+
+--- FILE NAME: img-ai-trojan-war-1　｜　一顆金蘋果
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Eris: gaunt woman in dark ragged robe, sly expression, holding a golden apple.
+At a banquet of the gods, Eris tosses a golden apple onto the table as a prize for the most beautiful goddess; Hera, Athena and Aphrodite all turn to look at it.
+
+--- FILE NAME: img-ai-trojan-war-2　｜　帕里斯的評判
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Paris: handsome beardless young Trojan prince, Phrygian cap, shepherd's staff.
+Hera: regal woman, dark hair under a tall gold crown, long marble-white robe with blue border.
+Athena: tall young woman, tall-crested bronze helmet pushed up, spear, aegis cape with a small Medusa face on the chest, a small owl nearby.
+Aphrodite: young woman with long golden hair, light marble-white robe, a white dove nearby.
+Hermes: slim beardless young man, wide-brimmed traveller's hat with small wings, winged sandals, short tunic, staff with two snakes.
+On a hillside Paris, seated with his staff, hands the golden apple to Aphrodite while Hera and Athena look offended; Hermes stands behind.
+
+--- FILE NAME: img-ai-trojan-war-3　｜　帶走海倫
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Paris: handsome beardless young Trojan prince, Phrygian cap, shepherd's staff.
+Helen: beautiful young queen, veil, marble-white robe with gold trim.
+Night harbor at Sparta; Paris leads Helen onto a ship.
+
+--- FILE NAME: img-ai-trojan-war-4　｜　奧利斯港的無風
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Agamemnon: proud bearded king, bronze armor, red cloak, gold crown.
+Iphigenia: teenage girl in white bridal robe and veil.
+A Greek fleet stuck in the harbor of Aulis, unable to sail; on the shore Agamemnon turns away as Iphigenia in white is led toward an altar. Composition implies sorrow, no violence.
+
+--- FILE NAME: img-ai-trojan-war-5　｜　阿基里斯與赫克托耳
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Achilles: young beardless warrior, long blond hair, bronze armor with round shield.
+Hector: bearded Trojan prince, crested helmet, bronze armor.
+Before the walls of Troy, Achilles and Hector face each other with spears raised; distant figures watch from the walls.
+
+--- FILE NAME: img-ai-trojan-war-6　｜　特洛伊淪陷
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Wide view of the city of Troy at night with flames rising behind the walls, a large wooden horse silhouetted inside the gates.
+
+==================================================
+故事 4／10：特洛伊木馬　(STORY 4: story-trojan-horse)
+雲端子資料夾：特洛伊木馬
+==================================================
+
+--- FILE NAME: img-ai-trojan-horse-1　｜　造木馬
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Athena: tall young woman, tall-crested bronze helmet pushed up, spear, aegis cape with a small Medusa face on the chest, a small owl nearby.
+Greek craftsmen build a huge wooden horse on the beach; Athena watches approvingly from a rock.
+
+--- FILE NAME: img-ai-trojan-horse-2　｜　假裝撤退
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Greek ships sail away behind an island while their camp burns on the beach; the wooden horse stands alone.
+
+--- FILE NAME: img-ai-trojan-horse-3　｜　拉奧孔的警告
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Laocoon: grey-bearded Trojan priest in robes, with two young sons.
+Laocoon shouts a warning to a crowd of Trojans and hurls a spear that sticks in the horse's side.
+
+--- FILE NAME: img-ai-trojan-horse-4　｜　說謊的西農
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Sinon: young Greek man in torn clothes, hands bound, pleading.
+Trojan soldiers bring the bound Sinon before King Priam; Sinon pleads with a sly glance.
+
+--- FILE NAME: img-ai-trojan-horse-5　｜　海蛇
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Laocoon: grey-bearded Trojan priest in robes, with two young sons.
+Two giant sea serpents rise from the waves toward Laocoon and his sons on the shore; Trojans flee. Dramatic but no gore.
+
+--- FILE NAME: img-ai-trojan-horse-6　｜　半夜打開的城門
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Odysseus: weathered bearded man, small conical sailor's cap, short tunic, clever eyes.
+Night inside Troy: Greek warriors climb down a rope from a hatch in the horse's belly; Odysseus points to the city gate.
+
+==================================================
+故事 5／10：奧德賽　(STORY 5: story-odyssey)
+雲端子資料夾：奧德賽
+==================================================
+
+--- FILE NAME: img-ai-odyssey-1　｜　食蓮人
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Odysseus: weathered bearded man, small conical sailor's cap, short tunic, clever eyes.
+On a sunny island, sailors lie dreamily eating lotus fruit; Odysseus drags one back toward the ship.
+
+--- FILE NAME: img-ai-odyssey-2　｜　獨眼巨人的山洞
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Odysseus: weathered bearded man, small conical sailor's cap, short tunic, clever eyes.
+Polyphemus: huge one-eyed giant shepherd, shaggy hair, single eye in the middle of his forehead.
+Inside a cave, Odysseus and his men aim a long sharpened pole at the sleeping one-eyed giant. Tension, no injury shown.
+
+--- FILE NAME: img-ai-odyssey-3　｜　風神的袋子
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Odysseus: weathered bearded man, small conical sailor's cap, short tunic, clever eyes.
+On a ship in sight of a home island, curious sailors untie a leather bag while Odysseus sleeps; wild winds burst out.
+
+--- FILE NAME: img-ai-odyssey-4　｜　喀耳刻
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Circe: elegant sorceress, long dark-red hair, gold cup and wand.
+Odysseus: weathered bearded man, small conical sailor's cap, short tunic, clever eyes.
+Hermes: slim beardless young man, wide-brimmed traveller's hat with small wings, winged sandals, short tunic, staff with two snakes.
+In a marble hall, Circe lifts her wand toward Odysseus while pigs crowd around; Hermes hands Odysseus a small white-flowered herb.
+
+--- FILE NAME: img-ai-odyssey-5　｜　海妖之歌
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Odysseus: weathered bearded man, small conical sailor's cap, short tunic, clever eyes.
+Odysseus tied to the mast, straining; sailors with wax in their ears row on; bird-bodied sirens with women's heads circle the rocks.
+
+--- FILE NAME: img-ai-odyssey-6　｜　卡呂普索的島
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Odysseus: weathered bearded man, small conical sailor's cap, short tunic, clever eyes.
+Odysseus sits alone on a beach of a lush island staring at the sea; a nymph's cave behind him.
+
+--- FILE NAME: img-ai-odyssey-7　｜　老狗阿爾戈斯
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Odysseus: weathered bearded man, small conical sailor's cap, short tunic, clever eyes.
+Odysseus disguised as a ragged old beggar at a palace gate; an old dog lying on a dung heap lifts its head and wags its tail.
+
+--- FILE NAME: img-ai-odyssey-8　｜　拉開那張弓
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Odysseus: weathered bearded man, small conical sailor's cap, short tunic, clever eyes.
+In a great hall, the ragged beggar (Odysseus) strings a great bow and shoots an arrow through a row of twelve axe heads; the suitors stare in shock; his young son Telemachus stands ready beside him.
+
+==================================================
+故事 6／10：伊底帕斯　(STORY 6: story-oedipus)
+雲端子資料夾：伊底帕斯
+==================================================
+
+--- FILE NAME: img-ai-oedipus-1　｜　被丟到山上的嬰兒
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+A servant sadly carries a swaddled baby up a misty mountain path.
+
+--- FILE NAME: img-ai-oedipus-2　｜　科林斯的養子
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+A shepherd presents a baby to a childless king and queen of Corinth in their palace.
+
+--- FILE NAME: img-ai-oedipus-3　｜　德爾菲的預言
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Oedipus: young traveller with a staff and short cloak; later a king with a gold circlet.
+Young Oedipus recoils in horror at the temple of Delphi as a priestess on a tripod speaks amid smoke.
+
+--- FILE NAME: img-ai-oedipus-4　｜　三岔路口
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Oedipus: young traveller with a staff and short cloak; later a king with a gold circlet.
+Laius: older king in a chariot, grey beard.
+At a crossroads in rocky hills, on a narrow road where three ways meet, Oedipus on foot argues angrily with an old man in a chariot and his herald who try to push him off the road; Oedipus raises his staff. Long shot, no blood.
+
+--- FILE NAME: img-ai-oedipus-5　｜　斯芬克斯的謎題
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Oedipus: young traveller with a staff and short cloak; later a king with a gold circlet.
+Sphinx: winged lion with the head of a woman, sitting on a rock.
+Oedipus stands calmly before the Sphinx on a rock outside Thebes, one finger raised as he answers.
+
+--- FILE NAME: img-ai-oedipus-6　｜　真相
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Oedipus: young traveller with a staff and short cloak; later a king with a gold circlet.
+Tiresias: old blind prophet, white beard, staff.
+In a palace hall the blind prophet Tiresias points at King Oedipus; Oedipus covers his eyes with his hands in despair. No injury shown.
+
+==================================================
+故事 7／10：納西瑟斯　(STORY 7: story-narcissus)
+雲端子資料夾：納西瑟斯
+==================================================
+
+--- FILE NAME: img-ai-narcissus-1　｜　先知的預言
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Tiresias: old blind prophet, white beard, staff.
+The blind prophet Tiresias speaks to a river nymph holding a baby boy.
+
+--- FILE NAME: img-ai-narcissus-2　｜　只能重複尾音的厄科
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Hera: regal woman, dark hair under a tall gold crown, long marble-white robe with blue border.
+Echo: shy young nymph, long light-brown hair, pale olive-green robe.
+Hera, angry, points at Echo in a forest glade; Echo covers her mouth.
+
+--- FILE NAME: img-ai-narcissus-3　｜　「有人在這裡嗎？」
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Narcissus: beautiful youth of about sixteen, dark curly hair, hunter's tunic and spear.
+Echo: shy young nymph, long light-brown hair, pale olive-green robe.
+In a forest, Narcissus calls out with a hand at his mouth; Echo peeks from behind a tree, eager.
+
+--- FILE NAME: img-ai-narcissus-4　｜　被拒絕的厄科
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Narcissus: beautiful youth of about sixteen, dark curly hair, hunter's tunic and spear.
+Echo: shy young nymph, long light-brown hair, pale olive-green robe.
+Narcissus turns away coldly as Echo reaches toward him; she fades into the rocks of a cave.
+
+--- FILE NAME: img-ai-narcissus-5　｜　一個祈禱
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+A rejected young man raises his hands to the sky at dusk; a faint golden figure of a goddess listens in the clouds.
+
+--- FILE NAME: img-ai-narcissus-6　｜　水中的倒影
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Narcissus: beautiful youth of about sixteen, dark curly hair, hunter's tunic and spear.
+Narcissus kneels at a still clear pool, gazing in fascination at his reflection.
+
+--- FILE NAME: img-ai-narcissus-7　｜　水仙花
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+By the empty pool, a single white narcissus flower with a gold center grows where the youth had been.
+
+==================================================
+故事 8／10：伊卡洛斯　(STORY 8: story-icarus)
+雲端子資料夾：伊卡洛斯
+==================================================
+
+--- FILE NAME: img-ai-icarus-1　｜　被困在島上
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Daedalus: grey-bearded inventor, leather apron, tools.
+Icarus: slim teenage boy, short curly hair, wings of feathers and wax strapped to his arms.
+Daedalus and Icarus stand on a high cliff of Crete looking at seabirds; ships guard the harbor below.
+
+--- FILE NAME: img-ai-icarus-2　｜　羽毛與蠟
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Daedalus: grey-bearded inventor, leather apron, tools.
+Icarus: slim teenage boy, short curly hair, wings of feathers and wax strapped to his arms.
+In a workshop Daedalus binds feathers with thread and wax into wings; Icarus plays with a floating feather.
+
+--- FILE NAME: img-ai-icarus-3　｜　飛在中間
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Daedalus: grey-bearded inventor, leather apron, tools.
+Icarus: slim teenage boy, short curly hair, wings of feathers and wax strapped to his arms.
+Daedalus straps the wings to Icarus and points at the middle of the sky between the sea and the sun.
+
+--- FILE NAME: img-ai-icarus-4　｜　地上的人抬頭
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Daedalus: grey-bearded inventor, leather apron, tools.
+Icarus: slim teenage boy, short curly hair, wings of feathers and wax strapped to his arms.
+A fisherman, a shepherd and a ploughman look up in awe at two winged figures flying over the sea.
+
+--- FILE NAME: img-ai-icarus-5　｜　越飛越高
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Icarus: slim teenage boy, short curly hair, wings of feathers and wax strapped to his arms.
+Icarus soars joyfully toward a huge golden sun; drops of wax begin to fall from his wings.
+
+--- FILE NAME: img-ai-icarus-6　｜　海面上的羽毛
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Daedalus: grey-bearded inventor, leather apron, tools.
+Daedalus hovers over the sea looking down at scattered feathers floating on the waves.
+
+==================================================
+故事 9／10：阿拉克涅　(STORY 9: story-arachne)
+雲端子資料夾：阿拉克涅
+==================================================
+
+--- FILE NAME: img-ai-arachne-1　｜　遠近馳名的織女
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Arachne: young Lydian weaver, simple brown dress, hair tied up, working at an upright loom.
+Arachne weaving at her loom while nymphs gather in the doorway to watch.
+
+--- FILE NAME: img-ai-arachne-2　｜　老婦人現出真身
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Arachne: young Lydian weaver, simple brown dress, hair tied up, working at an upright loom.
+Athena: tall young woman, tall-crested bronze helmet pushed up, spear, aegis cape with a small Medusa face on the chest, a small owl nearby.
+An old woman's cloak falls away revealing Athena in her helmet; Arachne stands defiant.
+
+--- FILE NAME: img-ai-arachne-3　｜　雅典娜的布
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Athena: tall young woman, tall-crested bronze helmet pushed up, spear, aegis cape with a small Medusa face on the chest, a small owl nearby.
+Athena at a loom weaving a tapestry of the twelve gods enthroned, with small warning scenes in the corners.
+
+--- FILE NAME: img-ai-arachne-4　｜　阿拉克涅的布
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Arachne: young Lydian weaver, simple brown dress, hair tied up, working at an upright loom.
+Arachne's tapestry shows stylized scenes of gods in disguise: a bull carrying a woman across the sea, a swan, a shower of gold.
+
+--- FILE NAME: img-ai-arachne-5　｜　撕碎的作品
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Athena: tall young woman, tall-crested bronze helmet pushed up, spear, aegis cape with a small Medusa face on the chest, a small owl nearby.
+Arachne: young Lydian weaver, simple brown dress, hair tied up, working at an upright loom.
+Athena tears Arachne's tapestry in anger; shredded threads fly; Arachne shrinks back.
+
+--- FILE NAME: img-ai-arachne-6　｜　永遠吊著織網
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Athena: tall young woman, tall-crested bronze helmet pushed up, spear, aegis cape with a small Medusa face on the chest, a small owl nearby.
+Athena sprinkles herb juice; a small spider hangs from a thread, weaving a web in the window light.
+
+==================================================
+故事 10／10：羅慕路斯與雷穆斯　(STORY 10: story-romulus-remus)
+雲端子資料夾：羅慕路斯與雷穆斯
+==================================================
+
+--- FILE NAME: img-ai-romulus-1　｜　被逼成女祭司
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Rhea Silvia: young Vestal priestess, white veil and robe.
+A young woman in white Vestal robes is led into a round temple by guards of a stern usurper king.
+
+--- FILE NAME: img-ai-romulus-2　｜　丟進台伯河
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Romulus and Remus: twin boys (babies or young men depending on the scene), identical dark hair.
+A servant sets a basket with twin babies on the flooding Tiber river.
+
+--- FILE NAME: img-ai-romulus-3　｜　母狼
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+She-wolf: large grey-brown wolf with a gentle expression.
+Romulus and Remus: twin boys (babies or young men depending on the scene), identical dark hair.
+On a muddy riverbank under a fig tree, a she-wolf gently nurses twin babies.
+
+--- FILE NAME: img-ai-romulus-4　｜　牧羊人的家
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Faustulus: rough bearded shepherd with a crook.
+Romulus and Remus: twin boys (babies or young men depending on the scene), identical dark hair.
+Faustulus the shepherd carries the twins home to his wife at a hut on a hill.
+
+--- FILE NAME: img-ai-romulus-5　｜　數飛鳥
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Romulus and Remus: twin boys (babies or young men depending on the scene), identical dark hair.
+The grown twins stand on two separate hills watching the sky; six vultures over one, twelve over the other.
+
+--- FILE NAME: img-ai-romulus-6　｜　跳過城牆
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Romulus and Remus: twin boys (babies or young men depending on the scene), identical dark hair.
+Remus leaps mockingly over a low new wall while Romulus turns toward him in anger. Composition stops before any violence.

@@ -3,11 +3,12 @@
 # tool：ZL 實際使用的生圖工具，生好後請改成工具名稱。
 tool: 待定（由 ZL 生圖）
 style: >-
-  Modern flat graphic-novel illustration, clean dark-brown outlines (#2B2420), flat color fills with at most one
-  simple shadow layer, limited Mediterranean palette only: terracotta orange #C8643B, Aegean blue #1F5F8B,
-  olive green #6B7F3A, marble white #F2EDE4, gold #C9A227. Ancient Greek setting and clothing. Landscape 4:3.
-  No text, no letters, no watermark. Not a vase painting, not photorealistic, not oil painting.
-  Violence only implied, no blood or gore; no explicit nudity.
+  Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting,
+  believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette:
+  terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the
+  ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters,
+  no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon.
+  Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
 characters:
   zeus: "Zeus: powerful middle-aged man, thick curly grey-black hair and full beard, Aegean-blue cloak over one shoulder, holding a golden zigzag thunderbolt."
   hera: "Hera: regal woman, dark hair under a tall gold crown, long marble-white robe with blue border."
@@ -50,7 +51,7 @@ characters:
   faustulus: "Faustulus: rough bearded shepherd with a crook."
 images:
   # 潘朵拉
-  - {id: img-ai-pandora-1, card: story-pandora, title: 宙斯的回禮, characters: [zeus, prometheus], scene: "On Mount Olympus, Zeus frowns down at the human world where small fires glow; far below, Prometheus walks away holding a fennel stalk with a flame."}
+  - {id: img-ai-pandora-1, card: story-pandora, title: 宙斯的回禮, characters: [zeus, prometheus], scene: "On Mount Olympus, Zeus frowns down at the human world where a few small warm hearth fires glow in houses (a peaceful village, nothing is burning); far below, Prometheus walks away holding a fennel stalk with a flame."}
   - {id: img-ai-pandora-2, card: story-pandora, title: 眾神打造潘朵拉, characters: [hephaestus, athena, aphrodite, hermes, pandora], scene: "Hephaestus shapes a young woman from clay at his forge; Athena drapes a woven robe on her, Aphrodite places a hand on her hair, Hermes whispers to her."}
   - {id: img-ai-pandora-3, card: story-pandora, title: 送到厄庇米修斯家, characters: [hermes, pandora, epimetheus], scene: "Hermes leads Pandora by the hand to the doorway of a simple house where Epimetheus greets them with delight."}
   - {id: img-ai-pandora-4, card: story-pandora, title: 忘了哥哥的警告, characters: [epimetheus, prometheus], scene: "Memory scene in a thought-bubble shape: Prometheus wagging a finger in warning; in the foreground Epimetheus smiles and ignores it."}
@@ -61,13 +62,13 @@ images:
   - {id: img-ai-persephone-2, card: story-persephone, title: 大地裂開, characters: [hades, persephone], scene: "The ground splits open; Hades in a golden chariot drawn by black horses sweeps Persephone away, her flowers scattering. Long shot, no violence shown."}
   - {id: img-ai-persephone-3, card: story-persephone, title: 九天九夜的尋找, characters: [demeter], scene: "Demeter walking alone at night across hills holding a torch in each hand, searching."}
   - {id: img-ai-persephone-4, card: story-persephone, title: 大地荒蕪, characters: [demeter], scene: "Barren grey fields and dead wheat; villagers kneel with empty baskets while Demeter sits grieving on a stone."}
-  - {id: img-ai-persephone-5, card: story-persephone, title: 石榴籽, characters: [hades, persephone, hermes], scene: "In a dim underworld hall Hades offers Persephone an opened pomegranate; Hermes waits at the doorway."}
+  - {id: img-ai-persephone-5, card: story-persephone, title: 石榴籽, characters: [hades, persephone, hermes], scene: "In a dim underworld hall Hades secretly slips a single pomegranate seed into Persephone's hand; Hermes waits at the doorway, not noticing."}
   - {id: img-ai-persephone-6, card: story-persephone, title: 母女重逢, characters: [demeter, persephone], scene: "Persephone rises from a cave into a blossoming meadow and runs into Demeter's arms."}
   # 特洛伊戰爭
-  - {id: img-ai-trojan-war-1, card: story-trojan-war, title: 一顆金蘋果, characters: [eris], scene: "A wedding feast of the gods; Eris, uninvited, rolls a golden apple onto the table."}
+  - {id: img-ai-trojan-war-1, card: story-trojan-war, title: 一顆金蘋果, characters: [eris], scene: "At a banquet of the gods, Eris tosses a golden apple onto the table as a prize for the most beautiful goddess; Hera, Athena and Aphrodite all turn to look at it."}
   - {id: img-ai-trojan-war-2, card: story-trojan-war, title: 帕里斯的評判, characters: [paris, hera, athena, aphrodite, hermes], scene: "On a hillside Paris, seated with his staff, hands the golden apple to Aphrodite while Hera and Athena look offended; Hermes stands behind."}
   - {id: img-ai-trojan-war-3, card: story-trojan-war, title: 帶走海倫, characters: [paris, helen], scene: "Night harbor at Sparta; Paris leads Helen onto a ship."}
-  - {id: img-ai-trojan-war-4, card: story-trojan-war, title: 奧利斯港的無風, characters: [agamemnon, iphigenia], scene: "A becalmed fleet at Aulis with slack sails; on the shore Agamemnon turns away as Iphigenia in white is led toward an altar. Composition implies sorrow, no violence."}
+  - {id: img-ai-trojan-war-4, card: story-trojan-war, title: 奧利斯港的無風, characters: [agamemnon, iphigenia], scene: "A Greek fleet stuck in the harbor of Aulis, unable to sail; on the shore Agamemnon turns away as Iphigenia in white is led toward an altar. Composition implies sorrow, no violence."}
   - {id: img-ai-trojan-war-5, card: story-trojan-war, title: 阿基里斯與赫克托耳, characters: [achilles, hector], scene: "Before the walls of Troy, Achilles and Hector face each other with spears raised; distant figures watch from the walls."}
   - {id: img-ai-trojan-war-6, card: story-trojan-war, title: 特洛伊淪陷, characters: [], scene: "Wide view of the city of Troy at night with flames rising behind the walls, a large wooden horse silhouetted inside the gates."}
   # 特洛伊木馬
@@ -85,12 +86,12 @@ images:
   - {id: img-ai-odyssey-5, card: story-odyssey, title: 海妖之歌, characters: [odysseus], scene: "Odysseus tied to the mast, straining; sailors with wax in their ears row on; bird-bodied sirens with women's heads circle the rocks."}
   - {id: img-ai-odyssey-6, card: story-odyssey, title: 卡呂普索的島, characters: [odysseus], scene: "Odysseus sits alone on a beach of a lush island staring at the sea; a nymph's cave behind him."}
   - {id: img-ai-odyssey-7, card: story-odyssey, title: 老狗阿爾戈斯, characters: [odysseus], scene: "Odysseus disguised as a ragged old beggar at a palace gate; an old dog lying on a dung heap lifts its head and wags its tail."}
-  - {id: img-ai-odyssey-8, card: story-odyssey, title: 拉開那張弓, characters: [odysseus, penelope], scene: "In a great hall, the beggar strings a great bow and aims through a row of axe heads; suitors stare; Penelope watches from the stairs."}
+  - {id: img-ai-odyssey-8, card: story-odyssey, title: 拉開那張弓, characters: [odysseus], scene: "In a great hall, the ragged beggar (Odysseus) strings a great bow and shoots an arrow through a row of twelve axe heads; the suitors stare in shock; his young son Telemachus stands ready beside him."}
   # 伊底帕斯
   - {id: img-ai-oedipus-1, card: story-oedipus, title: 被丟到山上的嬰兒, characters: [], scene: "A servant sadly carries a swaddled baby up a misty mountain path."}
   - {id: img-ai-oedipus-2, card: story-oedipus, title: 科林斯的養子, characters: [], scene: "A shepherd presents a baby to a childless king and queen of Corinth in their palace."}
   - {id: img-ai-oedipus-3, card: story-oedipus, title: 德爾菲的預言, characters: [oedipus], scene: "Young Oedipus recoils in horror at the temple of Delphi as a priestess on a tripod speaks amid smoke."}
-  - {id: img-ai-oedipus-4, card: story-oedipus, title: 三岔路口, characters: [oedipus, laius], scene: "At a crossroads in rocky hills, Oedipus raises his staff against an old man's chariot blocking the road. Long shot, no blood."}
+  - {id: img-ai-oedipus-4, card: story-oedipus, title: 三岔路口, characters: [oedipus, laius], scene: "At a crossroads in rocky hills, on a narrow road where three ways meet, Oedipus on foot argues angrily with an old man in a chariot and his herald who try to push him off the road; Oedipus raises his staff. Long shot, no blood."}
   - {id: img-ai-oedipus-5, card: story-oedipus, title: 斯芬克斯的謎題, characters: [oedipus, sphinx], scene: "Oedipus stands calmly before the Sphinx on a rock outside Thebes, one finger raised as he answers."}
   - {id: img-ai-oedipus-6, card: story-oedipus, title: 真相, characters: [oedipus, tiresias], scene: "In a palace hall the blind prophet Tiresias points at King Oedipus; Oedipus covers his eyes with his hands in despair. No injury shown."}
   # 納西瑟斯
