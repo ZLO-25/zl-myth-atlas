@@ -1,0 +1,55 @@
+眾神星圖 AI 插畫：要重生的 6 張 / 6 images to regenerate
+
+【給 Grok 的說明 / Instructions for Grok】
+1. Generate ONE image per prompt below. Use each PROMPT exactly as written.
+2. Keep each character looking the same as in the earlier images of the same story (use the character reference sheet you made before).
+3. After each image, state its FILE NAME.
+
+【給 ZL】存回雲端硬碟原本的故事子資料夾，用同一個檔名覆蓋舊圖即可。
+
+（故事：特洛伊戰爭）
+--- FILE NAME: img-ai-trojan-war-2　｜　帕里斯的評判
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Paris: handsome beardless young Trojan prince, Phrygian cap, shepherd's staff.
+Hera: regal woman, dark hair under a tall gold crown, long marble-white robe with blue border.
+Athena: tall young woman, tall-crested bronze helmet pushed up, spear, aegis cape with a small Medusa face on the chest, a small owl nearby.
+Aphrodite: young woman with long golden hair, light marble-white robe, a white dove nearby.
+Hermes: slim beardless young man, wide-brimmed traveller's hat with small wings, winged sandals, short tunic, staff with two snakes.
+On a hillside Paris, seated with his staff, looks at Aphrodite (long golden hair, white dove) and places the golden apple into her outstretched hand; she smiles. Hera (gold crown) and Athena (helmet) stand apart on the other side, turning away offended. Hermes stands behind. The apple must clearly go to Aphrodite, not to Athena.
+
+（故事：奧德賽）
+--- FILE NAME: img-ai-odyssey-2　｜　獨眼巨人的山洞
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Odysseus: weathered bearded man, small conical sailor's cap, short tunic, clever eyes.
+Polyphemus: huge one-eyed giant shepherd, shaggy hair, single eye in the middle of his forehead.
+Inside a cave, the one-eyed giant lies on his back fast asleep and drunk, his single eye firmly CLOSED, an empty wine bowl beside him; Odysseus and his men lift a long sharpened olive-wood stake whose tip glows red from the fire. Tension, no injury shown.
+
+（故事：納西瑟斯）
+--- FILE NAME: img-ai-narcissus-5　｜　一個祈禱
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Nemesis: stern dignified goddess of retribution, grey-blue robe and veil, holding a bridle; no helmet, no spear, no shield, no owl (she is not Athena).
+A rejected young man raises his hands to the sky at dusk; in the clouds the faint glowing figure of Nemesis listens with a stern face.
+
+（故事：納西瑟斯）
+--- FILE NAME: img-ai-narcissus-6　｜　水中的倒影
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Narcissus: beautiful youth of about sixteen, dark curly hair, hunter's tunic and spear.
+In a wild shady forest (no buildings), Narcissus kneels at the grassy edge of a small natural spring and leans over the still water; directly below his face the water mirrors him like a mirror, the reflection joined to him at the water line. He gazes at it in fascination.
+
+（故事：納西瑟斯）
+--- FILE NAME: img-ai-narcissus-7　｜　水仙花
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+The same natural forest spring, now with nobody there: no people, no buildings. On the grassy bank where the youth had lain grows a single white narcissus flower with a yellow-orange center.
+
+（故事：伊卡洛斯）
+--- FILE NAME: img-ai-icarus-1　｜　被困在島上
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of stone, cloth, bronze and skin. Warm Mediterranean palette: terracotta, Aegean blue, olive green, marble white, gold accents. Clothing, armor and architecture of the ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters, no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Daedalus: grey-bearded inventor, leather apron, tools.
+Icarus: slim teenage boy, short curly hair, simple short tunic.
+Daedalus and Icarus, both without any wings yet, stand on a high cliff of Crete looking up at seabirds; ships guard the harbor below.
