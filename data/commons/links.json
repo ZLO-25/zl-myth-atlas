@@ -1240,19 +1240,18 @@
    "monster-minotaur/s5"
   ]
  },
- "https://whc.unesco.org/en/list/849": {
+ "https://fgh.perseids.org/read/latinLit/phi0914/phi001/perseus-eng3/1.0.6": {
+  "status": 502,
+  "checked": "2026-11-08",
+  "used": [
+   "story-romulus-remus/s6"
+  ]
+ },
+ "https://about.starbucks.com/history/the-story-of-the-siren/": {
   "status": 403,
   "checked": "2026-11-08",
   "used": [
-   "story-trojan-war/s7",
-   "troy"
-  ]
- },
- "https://www.businessinsider.in/how-amazon-got-its-name/articleshow/64068170.cms": {
-  "status": -1,
-  "checked": "2026-11-08",
-  "used": [
-   "amazon-brand"
+   "starbucks-siren"
   ]
  },
  "https://en.wikipedia.org/wiki/AFC_Ajax": {
@@ -1262,11 +1261,11 @@
    "ajax-name"
   ]
  },
- "https://fgh.perseids.org/read/latinLit/phi0914/phi001/perseus-eng3/1.0.6": {
-  "status": 502,
+ "https://www.businessinsider.in/how-amazon-got-its-name/articleshow/64068170.cms": {
+  "status": -1,
   "checked": "2026-11-08",
   "used": [
-   "story-romulus-remus/s6"
+   "amazon-brand"
   ]
  },
  "https://science.nasa.gov/solar-system/asteroids/4-vesta/": {
@@ -1276,11 +1275,12 @@
    "vesta-asteroid"
   ]
  },
- "https://about.starbucks.com/history/the-story-of-the-siren/": {
+ "https://whc.unesco.org/en/list/849": {
   "status": 403,
   "checked": "2026-11-08",
   "used": [
-   "starbucks-siren"
+   "story-trojan-war/s7",
+   "troy"
   ]
  },
  "https://www.etymonline.com/word/Amazon": {
@@ -1543,18 +1543,18 @@
    "arachnida"
   ]
  },
- "https://radiopaedia.org/articles/achilles-tendon-2": {
-  "status": 406,
-  "checked": "2026-11-08",
-  "used": [
-   "achilles-tendon"
-  ]
- },
  "https://www.etymonline.com/word/typhoon": {
   "status": 403,
   "checked": "2026-11-08",
   "used": [
    "typhoon-typhon"
+  ]
+ },
+ "https://www.etymonline.com/word/January": {
+  "status": 403,
+  "checked": "2026-11-08",
+  "used": [
+   "january"
   ]
  },
  "https://www.theoi.com/Text/OvidFasti3.html": {
@@ -1564,11 +1564,11 @@
    "march"
   ]
  },
- "https://www.etymonline.com/word/January": {
+ "https://www.etymonline.com/word/March": {
   "status": 403,
   "checked": "2026-11-08",
   "used": [
-   "january"
+   "march"
   ]
  },
  "https://www.theoi.com/Text/OvidFasti6.html": {
@@ -1585,18 +1585,18 @@
    "april-may"
   ]
  },
- "https://www.etymonline.com/word/March": {
-  "status": 403,
-  "checked": "2026-11-08",
-  "used": [
-   "march"
-  ]
- },
  "https://www.etymonline.com/word/June": {
   "status": 403,
   "checked": "2026-11-08",
   "used": [
    "june"
+  ]
+ },
+ "https://radiopaedia.org/articles/achilles-tendon-2": {
+  "status": 406,
+  "checked": "2026-11-08",
+  "used": [
+   "achilles-tendon"
   ]
  },
  "https://www.theoi.com/Text/OvidFasti4.html": {
@@ -1634,6 +1634,20 @@
    "chaos-word"
   ]
  },
+ "https://research.uniroma1.it/node/29825": {
+  "status": -1,
+  "checked": "2026-11-08",
+  "used": [
+   "story-romulus-remus/s7"
+  ]
+ },
+ "https://www.etymonline.com/word/atlas": {
+  "status": 403,
+  "checked": "2026-11-08",
+  "used": [
+   "atlas-book"
+  ]
+ },
  "https://www.etymonline.com/word/titanic": {
   "status": 403,
   "checked": "2026-11-08",
@@ -1646,13 +1660,6 @@
   "checked": "2026-11-08",
   "used": [
    "panic-word"
-  ]
- },
- "https://www.etymonline.com/word/atlas": {
-  "status": 403,
-  "checked": "2026-11-08",
-  "used": [
-   "atlas-book"
   ]
  },
  "https://www.etymonline.com/word/echo": {
@@ -1676,13 +1683,6 @@
    "nemesis-word"
   ]
  },
- "https://www.etymonline.com/word/odyssey": {
-  "status": 403,
-  "checked": "2026-11-08",
-  "used": [
-   "odyssey-word"
-  ]
- },
  "https://www.etymonline.com/word/tantalize": {
   "status": 403,
   "checked": "2026-11-08",
@@ -1704,11 +1704,11 @@
    "herculean-word"
   ]
  },
- "https://www.etymonline.com/word/museum": {
+ "https://www.etymonline.com/word/odyssey": {
   "status": 403,
   "checked": "2026-11-08",
   "used": [
-   "muse-words"
+   "odyssey-word"
   ]
  },
  "https://www.etymonline.com/word/mentor": {
@@ -1718,11 +1718,11 @@
    "mentor-word"
   ]
  },
- "https://www.etymonline.com/word/cereal": {
+ "https://www.etymonline.com/word/museum": {
   "status": 403,
   "checked": "2026-11-08",
   "used": [
-   "cereal-word"
+   "muse-words"
   ]
  },
  "https://www.etymonline.com/word/music": {
@@ -1840,11 +1840,11 @@
    "費埃克斯人的國度（斯克里亞）"
   ]
  },
- "https://www.merriam-webster.com/dictionary/Achilles%27%20heel": {
+ "https://www.etymonline.com/word/cereal": {
   "status": 403,
   "checked": "2026-11-08",
   "used": [
-   "achilles-heel"
+   "cereal-word"
   ]
  },
  "https://www.etymonline.com/word/volcano": {
@@ -1854,11 +1854,11 @@
    "volcano-word"
   ]
  },
- "https://research.uniroma1.it/node/29825": {
-  "status": -1,
+ "https://www.merriam-webster.com/dictionary/Achilles%27%20heel": {
+  "status": 403,
   "checked": "2026-11-08",
   "used": [
-   "story-romulus-remus/s7"
+   "achilles-heel"
   ]
  },
  "https://classical-inquiries.chs.harvard.edu/olympus-as-mountain-and-olympia-as-venue-for-the-olympics-a-question-about-the-naming-of-these-places/": {
