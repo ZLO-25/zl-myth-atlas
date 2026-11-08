@@ -13,6 +13,9 @@ export function imgSrc(im: ImageItem): string {
   return /^https?:/.test(u) ? u : import.meta.env.BASE_URL + u.replace(/^\//, '');
 }
 
+/** 中華神話的卡片（其餘是希臘羅馬） */
+export const isChinese = (c?: { myth_system: string[] }) => !!c?.myth_system.includes('chinese');
+
 export const TYPE_ORDER = ['原始神', '泰坦', '神', '英雄', '凡人', '故事', '怪物', '地點', '物品'];
 
 /** 卡片的「頭像」：第一張圖 */
@@ -34,8 +37,14 @@ export function familyOf(id: string) {
   const parentsBack: L[] = [];
   const childrenBack: L[] = [];
   const consortsBack: L[] = [];
+  const predBack: L[] = [];
+  const succBack: L[] = [];
+  const foesBack: L[] = [];
   for (const o of site.cards) {
     if (o.id === id) continue;
+    for (const k of o.family?.successors ?? []) if (k.id === id) predBack.push({ id: o.id, variant: k.variant, src: k.src, from: o.id });
+    for (const k of o.family?.predecessors ?? []) if (k.id === id) succBack.push({ id: o.id, variant: k.variant, src: k.src, from: o.id });
+    for (const k of o.family?.foes ?? []) if (k.id === id) foesBack.push({ id: o.id, variant: k.variant, src: k.src, from: o.id });
     for (const k of o.family?.children ?? []) if (k.id === id) parentsBack.push({ id: o.id, variant: k.variant, src: k.src, from: o.id });
     for (const k of o.family?.parents ?? []) if (k.id === id) childrenBack.push({ id: o.id, variant: k.variant, src: k.src, from: o.id });
     for (const k of o.family?.consorts ?? []) if (k.id === id) consortsBack.push({ id: o.id, variant: k.variant, src: k.src, from: o.id });
@@ -44,5 +53,8 @@ export function familyOf(id: string) {
     parents: merge(tag(f.parents, id), parentsBack),
     consorts: merge(tag(f.consorts, id), consortsBack),
     children: merge(tag(f.children, id), childrenBack),
+    predecessors: merge(tag(f.predecessors, id), predBack),
+    successors: merge(tag(f.successors, id), succBack),
+    foes: merge(tag(f.foes, id), foesBack),
   };
 }

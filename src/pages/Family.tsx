@@ -1,12 +1,12 @@
 import { select } from 'd3-selection';
 import { zoom, zoomIdentity } from 'd3-zoom';
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { avatarOf, cardById, familyOf, imgSrc, site } from '../lib/data';
+import { avatarOf, cardById, eraById, familyOf, imgSrc, isChinese, site } from '../lib/data';
 import { href } from '../lib/router';
 import { cardNames, looseNames, type NameParts } from '../lib/names';
 
 const TWELVE = ['god-zeus', 'god-hera', 'god-poseidon', 'god-demeter', 'god-athena', 'god-apollo', 'god-artemis', 'god-ares', 'god-aphrodite', 'god-hephaestus', 'god-hermes', 'god-hestia', 'god-dionysus'];
-const HEROES = site.cards.filter((c) => c.type === '英雄').map((c) => c.id);
+const HEROES = site.cards.filter((c) => c.type === '英雄' && !isChinese(c)).map((c) => c.id);
 
 interface Node {
   key: string;
@@ -20,6 +20,8 @@ interface Edge {
   a: string;
   b: string;
   variant?: string;
+  /** 中華神話傳承圖用：血緣、夫妻、傳位、對戰 */
+  kind?: 'blood' | 'consort' | 'succ' | 'foe';
 }
 
 const W = 148;
@@ -27,13 +29,13 @@ const H = 68;
 
 /** 族譜：中間是焦點人物，上面父母、兩側配偶、下面子女；點任何人就換成他當焦點 */
 export function Family({ focus }: { focus?: string }) {
-  const [mode, setMode] = useState<'root' | 'all' | 'twelve' | 'hero'>(focus && cardById.has(focus) ? 'all' : 'root');
+  const [mode, setMode] = useState<'root' | 'all' | 'twelve' | 'hero' | 'cn'>(focus && cardById.has(focus) ? (isChinese(cardById.get(focus)) ? 'cn' : 'all') : 'root');
   const [hero, setHero] = useState(HEROES[0] ?? '');
   const start = focus && cardById.has(focus) ? focus : 'god-zeus';
   const [cur, setCur] = useState(start);
   useEffect(() => setCur(start), [start]);
 
-  const { nodes, edges } = useMemo(() => (mode === 'hero' ? lineage(hero) : mode === 'root' ? fromRoots() : around(cur, mode === 'twelve')), [cur, mode, hero]);
+  const { nodes, edges } = useMemo(() => (mode === 'cn' ? chineseGraph() : mode === 'hero' ? lineage(hero) : mode === 'root' ? fromRoots() : around(cur, mode === 'twelve')), [cur, mode, hero]);
   const svgRef = useRef<SVGSVGElement>(null);
   const gRef = useRef<SVGGElement>(null);
   useEffect(() => {
@@ -46,6 +48,8 @@ export function Family({ focus }: { focus?: string }) {
     svg.call(z);
     const box = svgRef.current.getBoundingClientRect();
     const xs = nodes.map((n) => n.x);
+    // 中華傳承圖左邊有年代名稱，要一起框進畫面
+    if (nodes.some((n) => n.key.startsWith('n:')) || nodes.some((n) => n.id && isChinese(cardById.get(n.id)))) xs.push(Math.min(...xs) - 120);
     const ys = nodes.map((n) => n.y);
     const cx = (Math.min(...xs) + Math.max(...xs)) / 2;
     const cy = (Math.min(...ys) + Math.max(...ys)) / 2;
@@ -71,12 +75,13 @@ export function Family({ focus }: { focus?: string }) {
   return (
     <div className="page family-page">
       <h1>族譜</h1>
-      <p className="lead">「完整家譜」從卡厄斯、蓋亞、烏拉諾斯一路往下排到奧林帕斯諸神；點任何一位，就切換成「以他為中心」展開父母、配偶與子女。可以拖曳、用滾輪或兩指縮放。虛線＝「另有一說」。</p>
+      <p className="lead">「完整家譜」從卡厄斯、蓋亞、烏拉諾斯一路往下排到奧林帕斯諸神；點任何一位，就切換成「以他為中心」展開父母、配偶與子女。可以拖曳、用滾輪或兩指縮放。虛線＝「另有一說」。中華神話請按「中華神話：家族、傳位與對戰」。</p>
       <div className="filters">
         <button className={mode === 'root' ? 'on' : ''} onClick={() => setMode('root')}>從原始神開始（完整家譜）</button>
         <button className={mode === 'all' ? 'on' : ''} onClick={() => setMode('all')}>以一位為中心</button>
         <button className={mode === 'twelve' ? 'on' : ''} onClick={() => setMode('twelve')}>只看奧林帕斯十二神</button>
         <button className={mode === 'hero' ? 'on' : ''} onClick={() => setMode('hero')}>看英雄的血統</button>
+        <button className={mode === 'cn' ? 'on' : ''} onClick={() => setMode('cn')}>中華神話：家族、傳位與對戰</button>
         {mode === 'hero' && (
           <select value={hero} onChange={(e) => setHero(e.target.value)} aria-label="選擇英雄">
             {HEROES.map((h) => (
@@ -87,10 +92,19 @@ export function Family({ focus }: { focus?: string }) {
       </div>
       <div className="family-wrap">
         <svg ref={svgRef} className="family-svg" role="img" aria-label="族譜圖">
+          <defs>
+            <marker id="succ-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0 0L10 5L0 10z" className="succ-arrow" />
+            </marker>
+          </defs>
           <g ref={gRef}>
+            {mode === 'cn' && rowLabels(nodes).map((r) => (
+              <text key={r.label} x={r.x} y={r.y + 4} textAnchor="end" className="row-label">{r.label}</text>
+            ))}
             {edges.map((e, i) => {
               const a = pos.get(e.a.replace(/^m:/, ''))!;
               const b = pos.get(e.b)!;
+              if (e.kind) return <CnEdge key={i} e={e} a={a} b={b} />;
               const consort = (e.a === 'focus' && e.b.startsWith('c')) || e.a.startsWith('m:');
               const vertical = !consort && Math.abs(a.y - b.y) > 10;
               const d = vertical ? `M${a.x},${a.y + H / 2} C${a.x},${(a.y + b.y) / 2} ${b.x},${(a.y + b.y) / 2} ${b.x},${b.y - H / 2}` : `M${a.x + (b.x > a.x ? W / 2 : -W / 2)},${a.y} L${b.x + (b.x > a.x ? -W / 2 : W / 2)},${b.y}`;
@@ -117,7 +131,8 @@ export function Family({ focus }: { focus?: string }) {
                   className={`fnode role-${n.role}${card ? ' clickable' : ''}${TWELVE.includes(n.id ?? '') ? ' twelve' : ''}`}
                   transform={`translate(${n.x - W / 2},${n.y - H / 2})`}
                   onClick={() => {
-                    if (card && (mode === 'all' || mode === 'twelve')) setCur(card.id);
+                    if (card && mode === 'cn') location.hash = href('card', card.id);
+                    else if (card && (mode === 'all' || mode === 'twelve')) setCur(card.id);
                     else if (card) {
                       setMode('all');
                       setCur(card.id);
@@ -138,6 +153,18 @@ export function Family({ focus }: { focus?: string }) {
           </g>
         </svg>
       </div>
+      {mode === 'cn' && (
+        <>
+          <p className="family-legend">
+            <span className="lg lg-blood">── 血緣</span>
+            <span className="lg lg-consort">══ 夫妻</span>
+            <span className="lg lg-succ">┈▶ 傳位（王位交給誰）</span>
+            <span className="lg lg-foe">✖ 對戰</span>
+            <span className="lg">虛線框＝還沒有卡片的人物</span>
+          </p>
+          <p className="muted small">中華神話沒有一本《神譜》定下全家譜，血緣多半來自《史記》替古帝王排的世系，所以除了血緣，這裡也畫出「王位傳給誰」和「誰跟誰打過」。每一列大致對應一個神話年代（左邊的名稱），越往下越接近歷史；沒有卡片的人物（虛線框）放在和他相連的人物上一列或下一列。點有卡片的人物會打開他的卡片。</p>
+        </>
+      )}
       {c && (mode === 'all' || mode === 'twelve') && (
         <p>
           目前焦點：<a href={href('card', c.id)}>{c.name_zh}的卡片 →</a>
@@ -272,4 +299,109 @@ function fromRoots(): { nodes: Node[]; edges: Edge[] } {
     }
   }
   return { nodes: nodes.map((n) => ({ ...n, key: n.key })), edges };
+}
+
+/** 中華神話傳承圖：每列是一個神話年代（越往下越接近歷史）；沒有卡片的人物放在和他相連的卡片的上一列或下一列 */
+const ROW_GAP = 130;
+const CN_KINDS = new Set(['原始神', '神', '英雄', '凡人']);
+
+function chineseGraph(): { nodes: Node[]; edges: Edge[] } {
+  const cards = site.cards.filter((c) => isChinese(c) && CN_KINDS.has(c.type));
+  const row = new Map<string, number>();
+  const order: string[] = [];
+  /** next：放在某人旁邊（同一列的配偶放右邊、對手放左邊），免得連線要繞過別人 */
+  const put = (key: string, r: number, next?: { to: string; side: 'left' | 'right' }) => {
+    if (row.has(key)) return;
+    row.set(key, r);
+    const at = next ? order.indexOf(next.to) : -1;
+    if (at < 0) order.push(key);
+    else order.splice(next!.side === 'right' ? at + 1 : at, 0, key);
+  };
+  const edges: Edge[] = [];
+  const seen = new Set<string>();
+  const link = (a: string, b: string, kind: Edge['kind'], variant?: string) => {
+    const k = kind === 'consort' || kind === 'foe' ? [a, b].sort().join('|') + kind : `${a}>${b}${kind}`;
+    if (seen.has(k)) return;
+    seen.add(k);
+    edges.push({ a, b, kind, variant });
+  };
+  const sorted = [...cards].sort((x, y) => (eraById.get(x.era)?.order ?? 0) - (eraById.get(y.era)?.order ?? 0));
+  for (const c of sorted) put(c.id, (eraById.get(c.era)?.order ?? 1) - 1);
+  for (const c of sorted) {
+    const r = row.get(c.id)!;
+    const f = familyOf(c.id);
+    const keyOf = (x: { id?: string; name?: string }) => (x.id && cardById.has(x.id) ? x.id : 'n:' + x.name);
+    for (const p of f.parents) { put(keyOf(p), r - 1); link(keyOf(p), c.id, 'blood', p.variant); }
+    for (const p of f.children) { put(keyOf(p), r + 1); link(c.id, keyOf(p), 'blood', p.variant); }
+    for (const p of f.predecessors) { put(keyOf(p), r - 1); link(keyOf(p), c.id, 'succ', p.variant); }
+    for (const p of f.successors) { put(keyOf(p), r + 1); link(c.id, keyOf(p), 'succ', p.variant); }
+    for (const p of f.consorts) {
+      const k = keyOf(p);
+      // 夫妻都已經有位置、又在同一列：把配偶移到旁邊
+      if (row.get(k) === r && Math.abs(order.indexOf(k) - order.indexOf(c.id)) > 1) {
+        order.splice(order.indexOf(k), 1);
+        order.splice(order.indexOf(c.id) + 1, 0, k);
+      }
+      put(k, r, { to: c.id, side: 'right' });
+      link(c.id, k, 'consort', p.variant);
+    }
+    const mates = new Set(f.consorts.map(keyOf));
+    for (const p of f.foes) {
+      const i = order.indexOf(c.id);
+      const leftIsMate = mates.has(order.at(i - 1) ?? '');
+      put(keyOf(p), r, { to: c.id, side: leftIsMate ? 'right' : 'left' });
+      link(c.id, keyOf(p), 'foe', p.variant);
+    }
+  }
+  const rows = new Map<number, string[]>();
+  for (const k of order) (rows.get(row.get(k)!) ?? rows.set(row.get(k)!, []).get(row.get(k)!)!).push(k);
+  const nodes: Node[] = [];
+  const GAP = W + 26;
+  for (const [r, keys] of rows) {
+    keys.forEach((k, i) => {
+      const id = k.startsWith('n:') ? undefined : k;
+      nodes.push({ key: k, id, name: id ? cardById.get(id)!.name_zh : k.slice(2), x: (i - (keys.length - 1) / 2) * GAP, y: r * ROW_GAP, role: id ? 'ancestor' : 'child' });
+    });
+  }
+  return { nodes, edges };
+}
+
+/** 每一列左邊標上神話年代名稱 */
+function rowLabels(nodes: Node[]) {
+  const eras = site.eras.filter((e) => e.system === 'chinese');
+  const minX = Math.min(...nodes.map((n) => n.x)) - W / 2 - 16;
+  const ys = [...new Set(nodes.map((n) => n.y))];
+  return ys.map((y) => ({ y, x: minX, label: eras.find((e) => e.order - 1 === Math.round(y / ROW_GAP))?.name ?? '' })).filter((r) => r.label);
+}
+
+function CnEdge({ e, a, b }: { e: Edge; a: Node; b: Node }) {
+  const sameRow = Math.abs(a.y - b.y) < 10;
+  let d: string;
+  let mid: [number, number];
+  if (sameRow) {
+    const [l, r] = a.x < b.x ? [a, b] : [b, a];
+    const adjacent = r.x - l.x <= W + 30;
+    if (adjacent) {
+      d = `M${l.x + W / 2},${l.y} L${r.x - W / 2},${r.y}`;
+      mid = [(l.x + r.x) / 2, l.y];
+    } else {
+      // 不相鄰：從框的上緣拱過去，免得穿過中間的人
+      const lift = 40 + (r.x - l.x) / 12;
+      d = `M${l.x},${l.y - H / 2} C${l.x},${l.y - H / 2 - lift} ${r.x},${r.y - H / 2 - lift} ${r.x},${r.y - H / 2}`;
+      mid = [(l.x + r.x) / 2, l.y - H / 2 - lift * 0.75];
+    }
+  } else {
+    const [t, u] = a.y < b.y ? [a, b] : [b, a];
+    d = `M${t.x},${t.y + H / 2} C${t.x},${(t.y + u.y) / 2} ${u.x},${(t.y + u.y) / 2} ${u.x},${u.y - H / 2}`;
+    mid = [(t.x + u.x) / 2, (t.y + u.y) / 2];
+  }
+  return (
+    <g className={`cn-edge cn-${e.kind}`}>
+      <path d={d} className={`edge edge-${e.kind}${e.variant ? ' edge-variant' : ''}`} markerEnd={e.kind === 'succ' ? 'url(#succ-arrow)' : undefined} />
+      {e.kind === 'consort' && <path d={d} className="edge edge-consort-inner" />}
+      {e.kind === 'foe' && <text x={mid[0]} y={mid[1] + 5} textAnchor="middle" className="foe-mark">✖</text>}
+      {e.kind === 'succ' && <text x={mid[0] + 6} y={mid[1]} className="edge-label">傳位</text>}
+      {e.variant && <text x={mid[0] + 6} y={mid[1] + 14} className="edge-label">另有一說</text>}
+    </g>
+  );
 }
