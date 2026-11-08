@@ -29,9 +29,9 @@ test('首頁與各主要頁面都能打開、不會左右捲動', async ({ page 
   expect(errors).toEqual([]);
 });
 
-test('全部 45 張卡片都能打開，有三句話、來源清單，且不會左右捲動', async ({ page }) => {
+test('全部卡片（希羅 45 張＋中華）都能打開，有三句話、來源清單，且不會左右捲動', async ({ page }) => {
   const errors = watchErrors(page);
-  expect(cardIds.length).toBe(45);
+  expect(site.cards.filter((c: { myth_system: string[] }) => !c.myth_system.includes('chinese')).length).toBe(45);
   for (const id of cardIds) {
     await page.goto(`#/card/${id}`);
     await expect(page.locator('h1').first(), id).toBeVisible();
@@ -68,6 +68,8 @@ test('搜尋：繁體、羅馬名、簡體都找得到', async ({ page }) => {
     ['雅典娜', '雅典娜'],
     ['Jupiter', '宙斯'],
     ['阿波罗', '阿波羅'],
+    ['女娲', '女媧'],
+    ['Yellow Emperor', '黃帝'],
   ]) {
     await box.fill(q);
     await expect(page.locator('.search-results'), q).toContainText(expectText);
@@ -89,4 +91,23 @@ test('正文裡的 ASCII 示意圖會畫成方塊，不會露出 ```', async ({ 
   await expect(page.locator('.body pre.ascii').first()).toBeVisible();
   await expect(page.locator('.body')).not.toContainText('```');
   await expect(page.locator('.toc a').first()).toBeVisible();
+});
+
+test('中華神話：卡片顯示拼音、傳承圖有傳位與對戰、年代可切換', async ({ page }) => {
+  const errors = watchErrors(page);
+  await page.goto('#/card/primordial-nuwa');
+  await expect(page.locator('h1').first()).toContainText('女媧');
+  await expect(page.locator('.page')).toContainText('Nǚwā');
+  await expect(page.locator('.sys-chip').first()).toHaveText('中華');
+  await page.goto('#/family/god-huangdi');
+  await expect(page.locator('.family-svg .fname', { hasText: '蚩尤' })).toBeVisible();
+  expect(await page.locator('.family-svg .cn-foe').count()).toBeGreaterThanOrEqual(1);
+  expect(await page.locator('.family-svg .cn-succ').count()).toBeGreaterThanOrEqual(1);
+  await expect(page.locator('.family-svg .fname', { hasText: '宙斯' })).toHaveCount(0);
+  await page.goto('#/timeline');
+  await page.getByRole('button', { name: /中華/ }).click();
+  await expect(page.locator('.era-name').first()).toContainText('開天闢地');
+  await expect(page.locator('.era-cards')).toContainText(['盤古']);
+  await noHorizontalScroll(page);
+  expect(errors).toEqual([]);
 });

@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { CardLink } from '../components/bits';
 import { site } from '../lib/data';
 
@@ -6,7 +6,9 @@ const fmt = (y: number) => (y < 0 ? `前 ${-y}` : `西元 ${y}`);
 
 /** 上半：神話年代（故事順序）。下半：真實歷史參照軸（這些故事何時被寫下來） */
 export function Timeline() {
-  const eras = [...site.eras].sort((a, b) => a.order - b.order);
+  const want = new URLSearchParams(location.hash.split('?')[1] ?? '').get('era');
+  const [sys, setSys] = useState<'west' | 'chinese'>(site.eras.find((e) => e.id === want)?.system === 'chinese' ? 'chinese' : 'west');
+  const eras = [...site.eras].filter((e) => (e.system === 'chinese') === (sys === 'chinese')).sort((a, b) => a.order - b.order);
   const hist = [...site.history].sort((a, b) => a.start - b.start);
   const min = Math.min(-1700, ...hist.map((h) => h.start));
   const max = Math.max(50, ...hist.map((h) => h.end));
@@ -27,8 +29,17 @@ export function Timeline() {
     <div className="page timeline-page">
       <h1>神話年代</h1>
       <p className="lead">
-        <strong>注意：</strong>神話年代是「故事發生的先後順序」，不是真實年份。宙斯什麼時候打敗泰坦，沒有年份可言。下面另有一條真實歷史軸，告訴你這些故事是什麼時候被寫下來的。
+        <strong>注意：</strong>神話年代是「故事發生的先後順序」，不是真實年份。
+        {sys === 'chinese' ? '中華神話的特別之處是：越後面的年代，神越像古代帝王，最後接上歷史上的夏朝。但「最早」的盤古，其實是最晚（三國時代）才被寫進書裡的。' : '宙斯什麼時候打敗泰坦，沒有年份可言。下面另有一條真實歷史軸，告訴你這些故事是什麼時候被寫下來的。'}
       </p>
+      <div className="filters" aria-label="選擇神話體系">
+        <button className={sys === 'west' ? 'on' : ''} onClick={() => setSys('west')}>希臘羅馬：從混沌到羅馬建國</button>
+        <button className={sys === 'chinese' ? 'on' : ''} onClick={() => setSys('chinese')}>中華：從盤古到夏朝</button>
+      </div>
+      {sys === 'chinese' && (
+        <pre className="ascii">{`開天闢地 → 補天造人 → 三皇教化 → 炎黃之戰 → 堯舜時代 → 洪水與治水 → 夏朝開始
+←──────── 神的成分多 ─────────────────────── 人的成分多 ────────→`}</pre>
+      )}
       <ol className="eras">
         {eras.map((e) => (
           <li key={e.id} className="era" id={`era-${e.id}`}>
@@ -48,6 +59,7 @@ export function Timeline() {
         ))}
       </ol>
 
+      {sys === 'west' && (<>
       <h2>真實歷史參照：故事何時被寫下來</h2>
       <div className="hist-axis" role="list">
         <div className="hist-ticks" aria-hidden>
@@ -75,6 +87,7 @@ export function Timeline() {
           </div>
         ))}
       </div>
+      </>)}
     </div>
   );
 }
