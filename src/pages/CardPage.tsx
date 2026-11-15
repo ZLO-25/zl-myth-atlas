@@ -7,6 +7,7 @@ import { Quiz, hasQuiz } from '../components/Quiz';
 import { cardById, eraById, familyOf, isChinese, site, todayById } from '../lib/data';
 import { href } from '../lib/router';
 import { pathsOf } from '../lib/paths';
+import { isOrigHidden } from '../lib/prefs';
 import { cardNames, enOrig, looseNames, origLang, origOf, romanNames } from '../lib/names';
 import { CardTile } from './simple';
 
@@ -57,6 +58,7 @@ export function CardPage({ id }: { id: string }) {
   const c = cardById.get(id);
   if (!c) return <div className="page"><p>找不到這張卡：{id}</p></div>;
   const fam = familyOf(c.id);
+  const hideOrig = isOrigHidden();
   const era = eraById.get(c.era);
   const orig = origOf(c.name_orig);
   const translit = c.name_orig.split(' / ')[1]?.trim();
@@ -103,10 +105,10 @@ export function CardPage({ id }: { id: string }) {
         </div>
         <h1>
           {c.name_zh} <span className="name-en">{c.name_en}</span>
-          {headOrig && headOrig !== c.name_en && <span className="name-en name-orig-h">（{headOrig}）</span>}
+          {!hideOrig && headOrig && headOrig !== c.name_en && <span className="name-en name-orig-h">（{headOrig}）</span>}
         </h1>
         <p className="name-orig">
-          {orig && (
+          {orig && !hideOrig && (
             <>
               原文：<span lang={({ 希臘文: 'grc', 漢字: 'zh', 古諾斯語: 'non' } as Record<string, string>)[origLang(orig, c.myth_system)] ?? 'la'}>{orig}</span>（{origLang(orig, c.myth_system)}
               {translit && translit !== orig ? `，${origLang(orig, c.myth_system) === '漢字' ? '拼音' : '拉丁字母寫作'} ${translit}` : ''}）
@@ -114,7 +116,7 @@ export function CardPage({ id }: { id: string }) {
           )}
           {c.roman && (
             <>
-              {orig ? '｜' : ''}羅馬：{c.roman.card ? <CardLink id={c.roman.card}>{c.roman.name_zh}</CardLink> : c.roman.name_zh} {enOrig(romanNames(c)!)}
+              {orig && !hideOrig ? '｜' : ''}羅馬：{c.roman.card ? <CardLink id={c.roman.card}>{c.roman.name_zh}</CardLink> : c.roman.name_zh} {enOrig(romanNames(c)!)}
             </>
           )}
         </p>

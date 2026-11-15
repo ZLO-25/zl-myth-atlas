@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { avatarOf, cardById, eraById, familyOf, imgSrc, isChinese, site } from '../lib/data';
 import { href, queryParam } from '../lib/router';
 import { cardNames, looseNames, type NameParts } from '../lib/names';
+import { isOrigHidden } from '../lib/prefs';
 
 const TWELVE = ['god-zeus', 'god-hera', 'god-poseidon', 'god-demeter', 'god-athena', 'god-apollo', 'god-artemis', 'god-ares', 'god-aphrodite', 'god-hephaestus', 'god-hermes', 'god-hestia', 'god-dionysus'];
 const HEROES = site.cards.filter((c) => c.type === '英雄' && !isChinese(c)).map((c) => c.id);
@@ -177,7 +178,7 @@ export function Family({ focus }: { focus?: string }) {
                     else goCard(card.id);
                   }}
                 >
-                  <title>{[nm.zh, nm.en, nm.orig].filter(Boolean).join(' · ') + (card ? `｜${card.type}` : '｜（無卡片）')}</title>
+                  <title>{[nm.zh, nm.en, isOrigHidden() ? undefined : nm.orig].filter(Boolean).join(' · ') + (card ? `｜${card.type}` : '｜（無卡片）')}</title>
                   <rect width={W} height={H} rx={10} />
                   {av && <image href={imgSrc(av)} x={6} y={(H - 44) / 2} width={44} height={44} preserveAspectRatio="xMidYMid slice" clipPath="inset(0 round 8px)" />}
                   <text x={tx} y={22} textAnchor={anchor} className="fname">{n.name}</text>

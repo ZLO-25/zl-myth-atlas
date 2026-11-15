@@ -249,7 +249,7 @@ export function Compare() {
           <thead>
             <tr>
               <th>希臘名</th>
-              <th>希臘原文</th>
+              <th className="col-orig">希臘原文</th>
               <th>羅馬名</th>
               <th>拉丁文</th>
               <th>英文</th>
@@ -260,7 +260,7 @@ export function Compare() {
             {site.greekRoman.map((r) => (
               <tr key={r.latin}>
                 <td className="nw">{r.card ? <CardLink id={r.card}>{r.greek}</CardLink> : r.greek}</td>
-                <td lang="grc" className="nw">{greekOrig(r.card)}</td>
+                <td lang="grc" className="nw col-orig">{greekOrig(r.card)}</td>
                 <td className="nw">{r.roman}</td>
                 <td className="nw">{r.latin}</td>
                 <td className="nw">{r.english}</td>

@@ -7,6 +7,7 @@ import { CardList, Compare, Home, TodayPage, TopicPage } from './pages/simple';
 import { Timeline } from './pages/Timeline';
 import { href, useRoute } from './lib/router';
 import { search, type Hit } from './lib/search';
+import { setOrigHidden, useOrigHidden } from './lib/prefs';
 
 const NAV: [string, string][] = [
   ['overview', '總覽'],
@@ -20,6 +21,7 @@ const NAV: [string, string][] = [
 
 export default function App() {
   const r = useRoute();
+  const hideOrig = useOrigHidden(); // 開關一變，整個網站重畫一次，名字就會跟著換
   let page;
   switch (r[0]) {
     case 'card':
@@ -60,6 +62,14 @@ export default function App() {
         </a>
         <NavBar current={r[0]} />
         <SearchBox />
+        <button
+          type="button"
+          className="orig-toggle"
+          title={hideOrig ? '名字旁邊會再出現希臘文、拉丁文等原文' : '名字只留中文與英文，比較不會眼花'}
+          onClick={() => setOrigHidden(!hideOrig)}
+        >
+          {hideOrig ? '顯示原文' : '隱藏原文'}
+        </button>
       </header>
       <main>{page}</main>
       <footer className="site-footer">

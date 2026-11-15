@@ -303,3 +303,60 @@ test('第二波 5：今日影子「猜猜看」四選一，答完顯示說明，
   await expect(page.locator('.today-list')).toHaveCount(1);
   await noHScroll(page);
 });
+
+test('第二波 6：隱藏原文開關：預設顯示原文，切換後全站只剩中文與英文，並記住', async ({ page }) => {
+  const greek = /[Ͱ-Ͽἀ-῿]/;
+  const toggle = page.locator('button.orig-toggle');
+  // 預設：和以前一樣，有原文
+  await page.goto('#/card/god-zeus');
+  await expect(toggle).toHaveText('隱藏原文');
+  await expect(page.locator('h1').first()).toContainText('Ζεύς');
+  await expect(page.locator('.name-orig')).toContainText('原文：');
+  await page.goto('#/cards');
+  await expect(page.locator('a.tile', { hasText: '宙斯' }).first()).toContainText('Zeus（Ζεύς）');
+
+  // 切換（不重新整理）
+  await toggle.click();
+  await expect(toggle).toHaveText('顯示原文');
+  const tile = page.locator('a.tile', { hasText: '宙斯' }).first();
+  await expect(tile).toContainText('Zeus');
+  expect(await tile.innerText()).not.toMatch(greek);
+  expect(await tile.innerText()).not.toContain('Ζεύς');
+  expect(await page.locator('.card-grid').first().innerText()).not.toMatch(greek);
+  await page.goto('#/card/god-zeus');
+  await expect(page.locator('h1').first()).toContainText('宙斯');
+  await expect(page.locator('h1').first()).toContainText('Zeus');
+  expect(await page.locator('h1').first().innerText()).not.toMatch(greek);
+  await expect(page.locator('.name-orig')).not.toContainText('原文：');
+  await expect(page.locator('.name-orig')).toContainText('羅馬：');
+  // 中華卡：拼音括號也拿掉
+  await page.goto('#/card/primordial-nuwa');
+  expect(await page.locator('h1').first().innerText()).not.toContain('（');
+  // 族譜與對照表
+  await page.goto('#/compare');
+  await expect(page.locator('th', { hasText: '希臘原文' })).toBeHidden();
+  expect(await page.locator('table.compare').first().innerText()).not.toMatch(greek);
+  await page.goto('#/family');
+  await expect(page.locator('.family-svg .fname', { hasText: '蓋亞' })).toBeVisible();
+  expect(await page.locator('.family-svg .forig').evaluateAll((els) => els.every((e) => getComputedStyle(e).display === 'none'))).toBe(true);
+
+  // 重新整理還記得；再切回來就恢復原樣
+  await page.reload();
+  await expect(toggle).toHaveText('顯示原文');
+  await toggle.click();
+  await expect(toggle).toHaveText('隱藏原文');
+  await page.goto('#/compare');
+  await expect(page.locator('th', { hasText: '希臘原文' })).toBeVisible();
+  await page.goto('#/card/god-zeus');
+  await expect(page.locator('h1').first()).toContainText('Ζεύς');
+  await noHScroll(page);
+});
+
+test('第二波 6：讀不到 localStorage 時開關照樣能用', async ({ page }) => {
+  await page.addInitScript(() => {
+    Object.defineProperty(window, 'localStorage', { get() { throw new Error('blocked'); } });
+  });
+  await page.goto('#/card/god-zeus');
+  await page.locator('button.orig-toggle').click();
+  expect(await page.locator('h1').first().innerText()).not.toMatch(/[Ͱ-Ͽἀ-῿]/);
+});

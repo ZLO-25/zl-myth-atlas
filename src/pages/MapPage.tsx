@@ -3,6 +3,7 @@ import 'leaflet/dist/leaflet.css';
 import { useEffect, useRef, useState } from 'react';
 import { CardLink } from '../components/bits';
 import { cardNames, enOrig, fullName } from '../lib/names';
+import { useOrigHidden } from '../lib/prefs';
 import { cardById, site } from '../lib/data';
 import { href } from '../lib/router';
 
@@ -25,6 +26,7 @@ function RealMap({ china }: { china: boolean }) {
   const places = site.places.filter((x) => (x.system === 'chinese') === china);
   const ref = useRef<HTMLDivElement>(null);
   const [showRoute, setShowRoute] = useState(!china);
+  const hideOrig = useOrigHidden(); // 彈出視窗的名字是文字串，開關變了要重畫地圖
   useEffect(() => {
     if (!ref.current) return;
     const map = L.map(ref.current, { scrollWheelZoom: false });
@@ -63,7 +65,7 @@ function RealMap({ china }: { china: boolean }) {
     return () => {
       map.remove();
     };
-  }, [showRoute, china]);
+  }, [showRoute, china, hideOrig]);
   return (
     <>
       <p className="lead">{china ? '橘點＝中華神話與古書裡出現、今天找得到的地點。傳說地點是不是故事真正發生的地方，學界多半沒有定論；扶桑、不周山這類神話地點沒有真實位置，所以不上地圖。' : '橘點＝神話裡出現、今天找得到的真實地點，點一下看考古狀況。'}</p>

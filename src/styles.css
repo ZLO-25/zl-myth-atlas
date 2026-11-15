@@ -438,3 +438,12 @@ pre.ascii { background: var(--surface); border: 1px solid var(--line); padding: 
 .today-head-row .today-toggle { flex: none; min-height: 2rem; padding: 0.1rem 0.8rem; font-size: 0.9rem; }
 .today-first { margin: 0.2rem 0 0.2rem; }
 @media (max-width: 760px) { .today-item { padding: 0.5rem 0.8rem; } .today-item p { margin: 0.25rem 0; } .today-head-row h3 { font-size: 1.05rem; line-height: 1.35; } }
+
+/* 隱藏原文：族譜與對照表的原文用 CSS 藏起來；其他地方由 names.ts 決定要不要輸出 */
+.hide-orig .forig, .hide-orig .col-orig { display: none; }
+.orig-toggle { flex: none; min-height: 2.2rem; padding: 0.2rem 0.9rem; border: 1px solid var(--line); border-radius: 999px; background: var(--bg); color: var(--ink); font: inherit; font-size: 0.9rem; cursor: pointer; white-space: nowrap; }
+.orig-toggle:hover { border-color: var(--aegean); color: var(--aegean); }
+@media (max-width: 760px) {
+  .search { flex: 1 1 6rem; }
+  .orig-toggle { padding: 0.2rem 0.6rem; font-size: 0.85rem; }
+}
