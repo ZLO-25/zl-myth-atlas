@@ -17,3 +17,33 @@ test('第一波 1：總覽時間標示與極短版', async ({ page }) => {
   await quick.locator('li a').nth(2).click();
   await expect(page).toHaveURL(/#\/card\/god-zeus/);
 });
+
+test('第一波 2：導覽列在窄螢幕有橫滑提示，目前項目會捲進可視範圍', async ({ page, viewport }) => {
+  const narrow = viewport!.width < 500;
+  await page.goto('#/today');
+  const nav = page.locator('.site-header nav');
+  const on = nav.locator('a.on');
+  await expect(on).toHaveText('今日影子');
+  // 目前項目整個在導覽列的可視範圍內
+  const inView = async () => {
+    const [n, a] = await Promise.all([nav.boundingBox(), on.boundingBox()]);
+    return a!.x >= n!.x - 1 && a!.x + a!.width <= n!.x + n!.width + 1;
+  };
+  await expect.poll(inView).toBe(true);
+  if (!narrow) {
+    await expect(page.locator('.nav-wrap')).not.toHaveClass(/more-right|more-left/);
+    return;
+  }
+  // 窄螢幕：導覽列確實放不下，而且左邊有「還有東西」的提示、右邊已到底
+  expect(await nav.evaluate((e) => e.scrollWidth > e.clientWidth)).toBe(true);
+  await expect(page.locator('.nav-wrap')).toHaveClass(/more-left/);
+  await expect(page.locator('.nav-wrap')).not.toHaveClass(/more-right/);
+  // 回到首頁：從最左開始，右邊有提示；漸層真的畫出來（opacity 1）
+  await page.goto('#/overview');
+  await expect(page.locator('.nav-wrap')).toHaveClass(/more-right/);
+  await expect.poll(() => page.locator('.nav-wrap').evaluate((e) => getComputedStyle(e, '::after').opacity)).toBe('1');
+  // 換到「年代」之類中間的頁面，它也要在可視範圍內
+  await page.goto('#/map');
+  await expect(nav.locator('a.on')).toHaveText('地圖');
+  await expect.poll(inView).toBe(true);
+});

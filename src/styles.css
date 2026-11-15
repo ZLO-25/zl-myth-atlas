@@ -252,7 +252,9 @@ pre.ascii { background: var(--surface); border: 1px solid var(--line); padding: 
 @media (max-width: 760px) {
   body { font-size: 16px; }
   .site-header { gap: 0.4rem; }
-  .site-header nav { order: 3; width: 100%; overflow-x: auto; flex-wrap: nowrap; }
+  .nav-wrap { order: 3; width: 100%; }
+  .site-header nav { overflow-x: auto; flex-wrap: nowrap; scrollbar-width: none; }
+  .site-header nav::-webkit-scrollbar { display: none; }
   .site-header nav a { white-space: nowrap; }
   .search { min-width: 0; flex: 1 1 10rem; }
   .hero h1 { font-size: 2rem; }
@@ -327,3 +329,10 @@ pre.ascii { background: var(--surface); border: 1px solid var(--line); padding: 
 .quick li { display: grid; grid-template-columns: 6.2em 1fr; gap: 0.6rem; margin: 0.25rem 0; font-size: 0.95rem; }
 .quick li a { flex: none; font-weight: 700; min-width: 4.5em; }
 .quick li span { color: var(--muted); }
+
+/* 手機導覽列：左右緣漸層提示可以橫滑 */
+.nav-wrap { position: relative; min-width: 0; }
+.nav-wrap::before, .nav-wrap::after { content: ''; position: absolute; top: 0; bottom: 0; width: 2rem; pointer-events: none; opacity: 0; transition: opacity 0.15s; z-index: 1; }
+.nav-wrap::before { left: 0; background: linear-gradient(to right, var(--surface), transparent); }
+.nav-wrap::after { right: 0; background: linear-gradient(to left, var(--surface) 20%, transparent); }
+.nav-wrap.more-left::before, .nav-wrap.more-right::after { opacity: 1; }
