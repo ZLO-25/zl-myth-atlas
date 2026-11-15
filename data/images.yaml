@@ -997,58 +997,48 @@
   commons: "File:Anonymous-Fuxi and Nüwa.jpg"
   title: 〈伏羲女媧圖〉
   period: ancient
-  look: TODO
-  artist: TODO
-  date: TODO
-  museum: TODO
+  look: 唐代絹畫：伏羲和女媧各舉一件工具（一般認為是矩和規），上半身像人、下半身是蛇尾，緊緊交纏在一起。畫面上方有太陽、下方有月亮，四周的小圓點用線連起來，是星星。
+  artist: 佚名
+  date: 唐代（8 世紀中）
+  museum: 吐魯番阿斯塔那古墓出土
 
 - id: img-huangdi-portrait
   kind: work
   commons: "File:Portraits of Famous Men - Yellow Emperor (Huangdi).jpg"
   title: 〈黃帝像〉
   period: ancient
-  look: TODO
-  artist: TODO
-  date: TODO
-  museum: TODO
+  look: 清代絹本人像：黃帝蓄著鬍鬚，頭上戴著平板形的冕，前後垂下一串串細珠簾，身穿藍領的袍子。畫的是清代人想像的黃帝，不是真實長相。
+  artist: 佚名
+  date: 19 世紀至 20 世紀初
+  museum: 清代人像畫冊
 
 - id: img-xiwangmu-songshan
   kind: work
   commons: "File:Queen Mother of the West - Rubbing (山東嘉祥宋山).jpg"
   title: 〈西王母〉畫像石拓本
   period: ancient
-  look: TODO
-  artist: TODO
-  date: TODO
-  museum: TODO
+  look: 漢代畫像石拓本，山東嘉祥宋山出土：正中是坐在山丘上的西王母，兩旁各有一位長著翅膀的侍者，一個捧杯、一個持物；上方有雲氣和龍形的紋飾。
+  artist: 佚名
+  date: 漢代
+  museum: 山東嘉祥宋山出土
 
 - id: img-shennong-kano
   kind: work
   commons: "File:Kano Tan'yū - Portrait of Emperor Shennong - 14.76.27 - Metropolitan Museum of Art.jpg"
   title: 〈神農像〉
   period: ancient
-  look: TODO
-  artist: TODO
-  date: TODO
-  museum: TODO
-
-- id: img-cangjie
-  kind: work
-  commons: "File:CANG JIE 1 b.jpg"
-  title: 〈倉頡〉
-  period: ancient
-  look: TODO
-  artist: TODO
-  date: TODO
-  museum: TODO
+  look: 日本江戶時代畫家狩野探幽畫的神農：一位白鬍子老人，頭戴小帽、身披寬袍，從雲氣裡半身浮現。這是日本畫家筆下的中國神農，大部分畫面是留白與裝裱的絲綢。
+  artist: 狩野探幽
+  date: 1665 年
+  museum: 紐約大都會藝術博物館
 
 - id: img-cowherd-weaver-qing
   kind: work
   commons: "File:清唐培華牛郎織女.png"
   title: 〈牛郎織女〉
   period: ancient
-  look: TODO
-  artist: TODO
-  date: TODO
-  museum: TODO
+  look: 清代唐培華畫在扇面上的牛郎織女：左邊的織女衣帶飄起，右邊的牛郎牽著一頭牛，四周是雲氣和幾隻飛鳥。
+  artist: 唐培華
+  date: 清代
+  museum: 館藏編號：國贈031175
 
