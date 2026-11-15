@@ -170,3 +170,34 @@ test('第一波 5：中華族譜一進來字就讀得清楚、從最上面開始
   const px = await page.locator('.family-svg .fname', { hasText: '盤古' }).evaluate((e) => (e as SVGTextElement).getBoundingClientRect().height);
   expect(px).toBeGreaterThanOrEqual(12);
 });
+
+test('第一波 6：對照表的中文名不逐字斷行，窄螢幕可橫滑並有提示', async ({ page, viewport }) => {
+  await page.goto('#/compare');
+  // 羅馬名欄的每一格文字都排在同一行上（同一行的字 top 相同），不會一字一行
+  const lines = await page.locator('table.compare').first().locator('tbody tr td:nth-child(3)').evaluateAll((tds) =>
+    tds.map((t) => {
+      const r = document.createRange();
+      r.selectNodeContents(t);
+      return new Set([...r.getClientRects()].map((x) => Math.round(x.top))).size;
+    }),
+  );
+  expect(lines.length).toBeGreaterThanOrEqual(21);
+  for (const n of lines) expect(n).toBe(1);
+  const wrap = page.locator('.table-scroll').first();
+  const over = await wrap.locator('.table-wrap').evaluate((e) => e.scrollWidth > e.clientWidth + 4);
+  if (viewport!.width < 500) {
+    expect(over).toBe(true);
+    await expect(wrap.locator('.scroll-hint')).toBeVisible();
+    await expect(wrap).toHaveClass(/more-right/);
+    await expect.poll(() => wrap.evaluate((e) => getComputedStyle(e, '::after').opacity)).toBe('1');
+    // 滑到底之後右側提示消失
+    await wrap.locator('.table-wrap').evaluate((e) => { e.scrollLeft = e.scrollWidth; });
+    await expect(wrap).not.toHaveClass(/more-right/);
+    await expect(wrap).toHaveClass(/more-left/);
+  } else {
+    await expect(wrap).not.toHaveClass(/more-right/);
+  }
+  // 整頁不會左右捲動（橫滑只發生在表格裡面）
+  const pageOver = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
+  expect(pageOver).toBeLessThanOrEqual(1);
+});

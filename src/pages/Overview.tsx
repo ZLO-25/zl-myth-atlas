@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { CardLink } from '../components/bits';
+import { CardLink, ScrollTable } from '../components/bits';
 import { fullName, romanNames } from '../lib/names';
 import { cardById, site } from '../lib/data';
 import { href } from '../lib/router';
@@ -195,7 +195,7 @@ export function Overview() {
           這個家一點也不和睦：希拉一輩子追殺丈夫的情人與私生子；阿芙蘿黛蒂嫁給赫菲斯托斯卻和阿瑞斯偷情，被丈夫用一張看不見的網當場網住，叫眾神來看笑話。<Ref k="odyssey8" /> 這就是希臘神話的第二個主題：<strong>神像人，只是更大</strong>。他們會嫉妒、外遇、哭著找爸爸，不是道德榜樣，而是把人性放大給你看。
         </p>
         <p>所謂「奧林帕斯十二主神」，就是這一家人。名單古代就有兩種版本，差別在算不算住在冥界的黑帝斯。<Ref k="theoiOlympians" /> 每一格都點得進去：</p>
-        <div className="table-wrap">
+        <ScrollTable>
           <table className="compare twelve-table">
             <thead>
               <tr>
@@ -216,7 +216,7 @@ export function Overview() {
               ))}
             </tbody>
           </table>
-        </div>
+        </ScrollTable>
         <Recap items={['宙斯吞下墨提斯，擋掉第三次政變；雅典娜從他頭裡出生', '十二主神就是宙斯這一家：兄弟姊妹（希拉、波賽頓、狄蜜特、赫斯提亞）＋子女', '神像人，只是更大：外遇、嫉妒、報復，全是家務事']} />
       </section>
 

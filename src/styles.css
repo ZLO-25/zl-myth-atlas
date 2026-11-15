@@ -350,3 +350,11 @@ pre.ascii { background: var(--surface); border: 1px solid var(--line); padding: 
 .edge-then { stroke: var(--olive); stroke-dasharray: 1 6; stroke-width: 2.4; stroke-linecap: round; }
 .then-arrow { fill: var(--olive); }
 .cn-consort-sw { stroke-width: 5; }
+
+/* 對照表：中文名不逐字斷行，整張表可橫滑並有提示 */
+.compare td.nw, .compare th { white-space: nowrap; }
+.compare td.wide { min-width: 13rem; }
+.table-scroll { position: relative; }
+.table-scroll::after { content: ''; position: absolute; top: 0; bottom: 0; right: 0; width: 2rem; pointer-events: none; opacity: 0; transition: opacity 0.15s; background: linear-gradient(to left, rgba(0, 0, 0, 0.18), transparent); border-radius: 0 6px 6px 0; }
+.table-scroll.more-right::after { opacity: 1; }
+.scroll-hint { margin: 0 0 0.3rem; font-size: 0.85rem; color: var(--muted); text-align: right; }

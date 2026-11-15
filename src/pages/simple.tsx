@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { TODAY_CATEGORIES } from '../../scripts/lib/types';
 import { eraById } from '../lib/data';
-import { CardLink, MiniCard } from '../components/bits';
+import { CardLink, MiniCard, ScrollTable } from '../components/bits';
 import { cardNames, enOrig, fullName, origLang, origOf, romanNames } from '../lib/names';
 import { avatarOf, cardById, imgSrc, site, todayById, TYPE_ORDER } from '../lib/data';
 
@@ -226,7 +226,7 @@ export function Compare() {
       <section id="gr-rome">
       <h2>希臘 vs 羅馬</h2>
       <p className="lead">羅馬人把很多希臘神「對應」到自己原有的神上，但個性、地位常常不一樣。下面是名字對照；點神名看每位神的真正差異。</p>
-      <div className="table-wrap">
+      <ScrollTable>
         <table className="compare">
           <thead>
             <tr>
@@ -241,12 +241,12 @@ export function Compare() {
           <tbody>
             {site.greekRoman.map((r) => (
               <tr key={r.latin}>
-                <td>{r.card ? <CardLink id={r.card}>{r.greek}</CardLink> : r.greek}</td>
-                <td lang="grc">{greekOrig(r.card)}</td>
-                <td>{r.roman}</td>
-                <td>{r.latin}</td>
-                <td>{r.english}</td>
-                <td>
+                <td className="nw">{r.card ? <CardLink id={r.card}>{r.greek}</CardLink> : r.greek}</td>
+                <td lang="grc" className="nw">{greekOrig(r.card)}</td>
+                <td className="nw">{r.roman}</td>
+                <td className="nw">{r.latin}</td>
+                <td className="nw">{r.english}</td>
+                <td className="wide">
                   {r.today}
                   {r.note && <span className="muted">｜{r.note}</span>}
                 </td>
@@ -254,7 +254,7 @@ export function Compare() {
             ))}
           </tbody>
         </table>
-      </div>
+      </ScrollTable>
       </section>
       <BorrowStory />
       <ChineseWestern />
@@ -264,7 +264,7 @@ export function Compare() {
 
 function CwCell({ side }: { side: { text: string; cards: string[] } }) {
   return (
-    <td>
+    <td className="wide">
       {side.text}
       {side.cards.length > 0 && (
         <div className="small">
@@ -289,7 +289,7 @@ function ChineseWestern() {
                      │
                      ▼
               差在哪裡？（最右欄）`}</pre>
-      <div className="table-wrap">
+      <ScrollTable>
         <table className="compare">
           <thead>
             <tr>
@@ -302,15 +302,15 @@ function ChineseWestern() {
           <tbody>
             {site.chineseWestern.map((r) => (
               <tr key={r.theme}>
-                <td>{r.theme}</td>
+                <td className="nw">{r.theme}</td>
                 <CwCell side={r.chinese} />
                 <CwCell side={r.western} />
-                <td>{r.diff}</td>
+                <td className="wide">{r.diff}</td>
               </tr>
             ))}
           </tbody>
         </table>
-      </div>
+      </ScrollTable>
     </section>
   );
 }
