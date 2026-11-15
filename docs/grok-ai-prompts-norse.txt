@@ -1,0 +1,145 @@
+眾神星圖 北歐神話 AI 插畫工作單（共 15 張）
+Myth Atlas Norse mythology illustration job sheet — 15 images
+
+【給 Grok 的說明 / Instructions for Grok】
+1. This file contains 15 image prompts, grouped into 3 stories. Generate ONE image per prompt, in the order listed.
+2. Use each "PROMPT" block exactly as written. Every image: realistic cinematic digital painting, landscape 4:3 (1600x1200), no text, letters or written runes in the image.
+3. Viking-age Scandinavian look only: wool and linen clothing, longhouses, longships. NO horned helmets, NO Marvel-style or superhero costumes, NO modern fantasy armour.
+4. Keep characters consistent within a story: the same person must have the same face, hair, age and clothing in every frame. Before the first frame of each story, first create a character reference sheet from the character lines, then reuse it.
+5. After each image, state its FILE NAME (for example img-ai-ragnarok-1) so the user can save it with that name.
+6. Work one story at a time. When a story is finished, say "Story finished: <story name>" and wait for the user before starting the next story.
+
+【給 ZL 的提醒】
+- 生好的圖存進 Google 雲端硬碟資料夾「(grok)眾神AI生圖」：
+  https://drive.google.com/drive/folders/1W6TqZwA4FtzlSbEI9mBjEs7vXE46lbVA
+  每個故事開一個子資料夾（例如「諸神黃昏」），檔名用每張的 FILE NAME（例如 img-ai-ragnarok-1.png），PNG、JPG 都可以。
+- 一個故事存完，就在 thread 告訴 Claude「某某故事好了」，Claude 會抓圖、轉檔、對照原典檢查、上傳網站。
+- 在圖生好之前，網站這三張故事卡會先顯示佔位圖，標示「尚未生圖」。
+
+
+==================================================
+故事 1／3：諸神黃昏　(STORY 1: story-ragnarok)
+雲端子資料夾：諸神黃昏
+==================================================
+
+--- FILE NAME: img-ai-ragnarok-1　｜　芬布爾之冬
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of wool, linen, leather, iron, timber, carved wood and weathered stone. Palette: cold sea blue-grey, fjord green, peat brown, undyed wool cream, iron grey, with firelight amber accents. Clothing, ships and buildings of Viking-age Scandinavia (about 9th-11th century): wool tunics and trousers, long wool and linen dresses with oval shoulder brooches, leather belts and shoes, round wooden shields, longhouses and clinker-built longships. NO horned helmets (no horns or wings on any helmet), NO Marvel-style or superhero costumes, NO modern fantasy armour (no plate armour, no oversized pauldrons, no glowing ornate armour), no medieval castles or knights. Landscape 4:3, 1600x1200. No text, no letters, no written runes, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+A harsh unending winter: snow and ice cover a Viking-age settlement and a fjord under a dark sky; high above, a huge wolf has its jaws closed around the sun, which is almost gone.
+
+--- FILE NAME: img-ai-ragnarok-2　｜　海姆達爾吹號角
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of wool, linen, leather, iron, timber, carved wood and weathered stone. Palette: cold sea blue-grey, fjord green, peat brown, undyed wool cream, iron grey, with firelight amber accents. Clothing, ships and buildings of Viking-age Scandinavia (about 9th-11th century): wool tunics and trousers, long wool and linen dresses with oval shoulder brooches, leather belts and shoes, round wooden shields, longhouses and clinker-built longships. NO horned helmets (no horns or wings on any helmet), NO Marvel-style or superhero costumes, NO modern fantasy armour (no plate armour, no oversized pauldrons, no glowing ornate armour), no medieval castles or knights. Landscape 4:3, 1600x1200. No text, no letters, no written runes, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Heimdall: a tall, alert man dressed all in white and cream wool, his teeth gleam gold when he speaks, watchful eyes.
+Heimdall stands on the glowing rainbow bridge Bifrost and blows a great horn that sounds across all the worlds; behind him a vast ash tree, the world tree Yggdrasil, shakes, its branches swaying.
+
+--- FILE NAME: img-ai-ragnarok-3　｜　指甲船與火巨人
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of wool, linen, leather, iron, timber, carved wood and weathered stone. Palette: cold sea blue-grey, fjord green, peat brown, undyed wool cream, iron grey, with firelight amber accents. Clothing, ships and buildings of Viking-age Scandinavia (about 9th-11th century): wool tunics and trousers, long wool and linen dresses with oval shoulder brooches, leather belts and shoes, round wooden shields, longhouses and clinker-built longships. NO horned helmets (no horns or wings on any helmet), NO Marvel-style or superhero costumes, NO modern fantasy armour (no plate armour, no oversized pauldrons, no glowing ornate armour), no medieval castles or knights. Landscape 4:3, 1600x1200. No text, no letters, no written runes, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Loki: a lean, handsome man with sharp features, quick restless eyes and a knowing smile, dark hair, well-made dark green wool tunic with trim.
+Surtr: a towering fire giant, charred dark skin cracked with glowing embers, wreathed in flame.
+A huge ship built of fingernails sails out over a stormy sea with Loki at the steering oar; to the south, on the horizon, the fire giant Surtr advances with flames behind him.
+
+--- FILE NAME: img-ai-ragnarok-4　｜　一組一組的對戰
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of wool, linen, leather, iron, timber, carved wood and weathered stone. Palette: cold sea blue-grey, fjord green, peat brown, undyed wool cream, iron grey, with firelight amber accents. Clothing, ships and buildings of Viking-age Scandinavia (about 9th-11th century): wool tunics and trousers, long wool and linen dresses with oval shoulder brooches, leather belts and shoes, round wooden shields, longhouses and clinker-built longships. NO horned helmets (no horns or wings on any helmet), NO Marvel-style or superhero costumes, NO modern fantasy armour (no plate armour, no oversized pauldrons, no glowing ornate armour), no medieval castles or knights. Landscape 4:3, 1600x1200. No text, no letters, no written runes, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Odin: a tall, weathered old man with long grey hair and a long grey beard, ONE eye only (the other eye socket closed and scarred), dark blue-grey wool cloak over a long wool tunic, leather belt.
+Fenrir: an enormous grey wolf as big as a longship, lean and powerful, pale eyes, realistic wolf anatomy.
+Thor: a very broad-shouldered, powerfully built man in his prime, thick reddish-brown beard and hair, plain wool tunic and trousers with a wide leather belt, no helmet.
+Jormungand: an enormous dark-scaled sea serpent, thick as a ship's hull, long enough to encircle the land.
+A wide shattered battlefield showing two fights side by side. On the left, Odin faces the enormous wolf Fenrir as it lunges with open jaws. On the right, Thor swings his hammer at the Midgard serpent rearing out of the sea. Violence only implied, no blood.
+
+--- FILE NAME: img-ai-ragnarok-5　｜　大地再度升起
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of wool, linen, leather, iron, timber, carved wood and weathered stone. Palette: cold sea blue-grey, fjord green, peat brown, undyed wool cream, iron grey, with firelight amber accents. Clothing, ships and buildings of Viking-age Scandinavia (about 9th-11th century): wool tunics and trousers, long wool and linen dresses with oval shoulder brooches, leather belts and shoes, round wooden shields, longhouses and clinker-built longships. NO horned helmets (no horns or wings on any helmet), NO Marvel-style or superhero costumes, NO modern fantasy armour (no plate armour, no oversized pauldrons, no glowing ornate armour), no medieval castles or knights. Landscape 4:3, 1600x1200. No text, no letters, no written runes, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+After the great fire: a calm sea from which fresh green land rises again, blackened ground in the foreground giving way to green hills and clear water, soft morning light.
+
+
+==================================================
+故事 2／3：巴德爾之死　(STORY 2: story-baldr-death)
+雲端子資料夾：巴德爾之死
+==================================================
+
+--- FILE NAME: img-ai-baldr-death-1　｜　惡夢與誓言
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of wool, linen, leather, iron, timber, carved wood and weathered stone. Palette: cold sea blue-grey, fjord green, peat brown, undyed wool cream, iron grey, with firelight amber accents. Clothing, ships and buildings of Viking-age Scandinavia (about 9th-11th century): wool tunics and trousers, long wool and linen dresses with oval shoulder brooches, leather belts and shoes, round wooden shields, longhouses and clinker-built longships. NO horned helmets (no horns or wings on any helmet), NO Marvel-style or superhero costumes, NO modern fantasy armour (no plate armour, no oversized pauldrons, no glowing ornate armour), no medieval castles or knights. Landscape 4:3, 1600x1200. No text, no letters, no written runes, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Frigg: a mature woman of the highest rank, calm and serious, long linen dress with a deep blue wool overdress fastened by two oval brooches, hair covered by a plain linen headcloth.
+Baldr: a very handsome young man, clean-shaven with light hair, his body gives off a soft golden glow, pale cream wool tunic.
+Frigg stands at the centre of an open landscape asking for vows: around her are a small fire, a stream, iron tools, a stone, a tree, birds, animals and a snake, each shown as if listening. In the distance Baldr watches, his body faintly glowing.
+
+--- FILE NAME: img-ai-baldr-death-2　｜　眾神丟東西取樂
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of wool, linen, leather, iron, timber, carved wood and weathered stone. Palette: cold sea blue-grey, fjord green, peat brown, undyed wool cream, iron grey, with firelight amber accents. Clothing, ships and buildings of Viking-age Scandinavia (about 9th-11th century): wool tunics and trousers, long wool and linen dresses with oval shoulder brooches, leather belts and shoes, round wooden shields, longhouses and clinker-built longships. NO horned helmets (no horns or wings on any helmet), NO Marvel-style or superhero costumes, NO modern fantasy armour (no plate armour, no oversized pauldrons, no glowing ornate armour), no medieval castles or knights. Landscape 4:3, 1600x1200. No text, no letters, no written runes, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Baldr: a very handsome young man, clean-shaven with light hair, his body gives off a soft golden glow, pale cream wool tunic.
+Thor: a very broad-shouldered, powerfully built man in his prime, thick reddish-brown beard and hair, plain wool tunic and trousers with a wide leather belt, no helmet.
+Odin: a tall, weathered old man with long grey hair and a long grey beard, ONE eye only (the other eye socket closed and scarred), dark blue-grey wool cloak over a long wool tunic, leather belt.
+On an open assembly field, Baldr stands in the middle, glowing, while gods around him laugh and toss things at him as a game.
+
+--- FILE NAME: img-ai-baldr-death-3　｜　洛基套話
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of wool, linen, leather, iron, timber, carved wood and weathered stone. Palette: cold sea blue-grey, fjord green, peat brown, undyed wool cream, iron grey, with firelight amber accents. Clothing, ships and buildings of Viking-age Scandinavia (about 9th-11th century): wool tunics and trousers, long wool and linen dresses with oval shoulder brooches, leather belts and shoes, round wooden shields, longhouses and clinker-built longships. NO horned helmets (no horns or wings on any helmet), NO Marvel-style or superhero costumes, NO modern fantasy armour (no plate armour, no oversized pauldrons, no glowing ornate armour), no medieval castles or knights. Landscape 4:3, 1600x1200. No text, no letters, no written runes, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Loki: a lean, handsome man with sharp features, quick restless eyes and a knowing smile, dark hair, well-made dark green wool tunic with trim.
+Frigg: a mature woman of the highest rank, calm and serious, long linen dress with a deep blue wool overdress fastened by two oval brooches, hair covered by a plain linen headcloth.
+Inside the hall Fensalir, Frigg listens to a woman who is really Loki in disguise, in a woman's dress and headcloth; Loki's sly eyes show he is after a secret.
+
+--- FILE NAME: img-ai-baldr-death-4　｜　槲寄生的箭
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of wool, linen, leather, iron, timber, carved wood and weathered stone. Palette: cold sea blue-grey, fjord green, peat brown, undyed wool cream, iron grey, with firelight amber accents. Clothing, ships and buildings of Viking-age Scandinavia (about 9th-11th century): wool tunics and trousers, long wool and linen dresses with oval shoulder brooches, leather belts and shoes, round wooden shields, longhouses and clinker-built longships. NO horned helmets (no horns or wings on any helmet), NO Marvel-style or superhero costumes, NO modern fantasy armour (no plate armour, no oversized pauldrons, no glowing ornate armour), no medieval castles or knights. Landscape 4:3, 1600x1200. No text, no letters, no written runes, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Loki: a lean, handsome man with sharp features, quick restless eyes and a knowing smile, dark hair, well-made dark green wool tunic with trim.
+Hodr: a young man who is blind, eyes closed, plain grey wool tunic, careful hands feeling the air.
+Baldr: a very handsome young man, clean-shaven with light hair, his body gives off a soft golden glow, pale cream wool tunic.
+Odin: a tall, weathered old man with long grey hair and a long grey beard, ONE eye only (the other eye socket closed and scarred), dark blue-grey wool cloak over a long wool tunic, leather belt.
+A circle of stunned gods on the assembly field. In the centre Baldr falls to the ground, his glow fading. Beside the circle blind Hodr holds a small mistletoe shaft, with Loki standing close behind him guiding his aim. Odin's face is full of grief. No blood.
+
+--- FILE NAME: img-ai-baldr-death-5　｜　火葬的船
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of wool, linen, leather, iron, timber, carved wood and weathered stone. Palette: cold sea blue-grey, fjord green, peat brown, undyed wool cream, iron grey, with firelight amber accents. Clothing, ships and buildings of Viking-age Scandinavia (about 9th-11th century): wool tunics and trousers, long wool and linen dresses with oval shoulder brooches, leather belts and shoes, round wooden shields, longhouses and clinker-built longships. NO horned helmets (no horns or wings on any helmet), NO Marvel-style or superhero costumes, NO modern fantasy armour (no plate armour, no oversized pauldrons, no glowing ornate armour), no medieval castles or knights. Landscape 4:3, 1600x1200. No text, no letters, no written runes, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Odin: a tall, weathered old man with long grey hair and a long grey beard, ONE eye only (the other eye socket closed and scarred), dark blue-grey wool cloak over a long wool tunic, leather belt.
+Thor: a very broad-shouldered, powerfully built man in his prime, thick reddish-brown beard and hair, plain wool tunic and trousers with a wide leather belt, no helmet.
+On a shore, a giantess pushes a great Viking-age ship down to the water, the funeral pyre built on its deck. Mourners stand on the beach. Thor raises his hammer to bless the pyre; Odin lays a gold ring on the pyre. A woman, Baldr's wife Nanna, lies still beside the pyre.
+
+
+==================================================
+故事 3／3：索爾扮新娘　(STORY 3: story-thor-bride)
+雲端子資料夾：索爾扮新娘
+==================================================
+
+--- FILE NAME: img-ai-thor-bride-1　｜　錘子不見了
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of wool, linen, leather, iron, timber, carved wood and weathered stone. Palette: cold sea blue-grey, fjord green, peat brown, undyed wool cream, iron grey, with firelight amber accents. Clothing, ships and buildings of Viking-age Scandinavia (about 9th-11th century): wool tunics and trousers, long wool and linen dresses with oval shoulder brooches, leather belts and shoes, round wooden shields, longhouses and clinker-built longships. NO horned helmets (no horns or wings on any helmet), NO Marvel-style or superhero costumes, NO modern fantasy armour (no plate armour, no oversized pauldrons, no glowing ornate armour), no medieval castles or knights. Landscape 4:3, 1600x1200. No text, no letters, no written runes, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Thor: a very broad-shouldered, powerfully built man in his prime, thick reddish-brown beard and hair, plain wool tunic and trousers with a wide leather belt, no helmet.
+Freyja: a dignified woman with long fair hair in a braid, Viking-age long dress: a wool underdress with a linen overdress fastened by two oval brooches at the shoulders.
+Loki: a lean, handsome man with sharp features, quick restless eyes and a knowing smile, dark hair, well-made dark green wool tunic with trim.
+Inside Thor's hall at dawn: Thor sits up and stares at the empty place where his hammer lay. In the doorway Freyja hands a cloak of falcon feathers to Loki.
+
+--- FILE NAME: img-ai-thor-bride-2　｜　芙蕾雅拒絕
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of wool, linen, leather, iron, timber, carved wood and weathered stone. Palette: cold sea blue-grey, fjord green, peat brown, undyed wool cream, iron grey, with firelight amber accents. Clothing, ships and buildings of Viking-age Scandinavia (about 9th-11th century): wool tunics and trousers, long wool and linen dresses with oval shoulder brooches, leather belts and shoes, round wooden shields, longhouses and clinker-built longships. NO horned helmets (no horns or wings on any helmet), NO Marvel-style or superhero costumes, NO modern fantasy armour (no plate armour, no oversized pauldrons, no glowing ornate armour), no medieval castles or knights. Landscape 4:3, 1600x1200. No text, no letters, no written runes, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Freyja: a dignified woman with long fair hair in a braid, Viking-age long dress: a wool underdress with a linen overdress fastened by two oval brooches at the shoulders.
+Thor: a very broad-shouldered, powerfully built man in his prime, thick reddish-brown beard and hair, plain wool tunic and trousers with a wide leather belt, no helmet.
+Loki: a lean, handsome man with sharp features, quick restless eyes and a knowing smile, dark hair, well-made dark green wool tunic with trim.
+Freyja stands before Thor and Loki in the hall of the gods, furious; her necklace bursts apart with gold beads flying as she refuses to marry the giant.
+
+--- FILE NAME: img-ai-thor-bride-3　｜　新娘頭紗
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of wool, linen, leather, iron, timber, carved wood and weathered stone. Palette: cold sea blue-grey, fjord green, peat brown, undyed wool cream, iron grey, with firelight amber accents. Clothing, ships and buildings of Viking-age Scandinavia (about 9th-11th century): wool tunics and trousers, long wool and linen dresses with oval shoulder brooches, leather belts and shoes, round wooden shields, longhouses and clinker-built longships. NO horned helmets (no horns or wings on any helmet), NO Marvel-style or superhero costumes, NO modern fantasy armour (no plate armour, no oversized pauldrons, no glowing ornate armour), no medieval castles or knights. Landscape 4:3, 1600x1200. No text, no letters, no written runes, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Heimdall: a tall, alert man dressed all in white and cream wool, his teeth gleam gold when he speaks, watchful eyes.
+Thor: a very broad-shouldered, powerfully built man in his prime, thick reddish-brown beard and hair, plain wool tunic and trousers with a wide leather belt, no helmet.
+Loki: a lean, handsome man with sharp features, quick restless eyes and a knowing smile, dark hair, well-made dark green wool tunic with trim.
+In the hall of the gods, Heimdall holds up a white bridal veil. Thor, broad and grim, looks reluctant; Loki grins and leans in to persuade him.
+
+--- FILE NAME: img-ai-thor-bride-4　｜　驚人的食量
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of wool, linen, leather, iron, timber, carved wood and weathered stone. Palette: cold sea blue-grey, fjord green, peat brown, undyed wool cream, iron grey, with firelight amber accents. Clothing, ships and buildings of Viking-age Scandinavia (about 9th-11th century): wool tunics and trousers, long wool and linen dresses with oval shoulder brooches, leather belts and shoes, round wooden shields, longhouses and clinker-built longships. NO horned helmets (no horns or wings on any helmet), NO Marvel-style or superhero costumes, NO modern fantasy armour (no plate armour, no oversized pauldrons, no glowing ornate armour), no medieval castles or knights. Landscape 4:3, 1600x1200. No text, no letters, no written runes, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Thor: a very broad-shouldered, powerfully built man in his prime, thick reddish-brown beard and hair, plain wool tunic and trousers with a wide leather belt, no helmet.
+Loki: a lean, handsome man with sharp features, quick restless eyes and a knowing smile, dark hair, well-made dark green wool tunic with trim.
+Thrym: a giant chieftain, huge and heavy compared with people around him, wild hair and beard, furs over a coarse wool tunic.
+A giant's feast hall: Thor, wearing a bridal veil, sits at the high table in front of the remains of a whole ox, eight salmon and three barrels of mead, his eyes burning like fire. Beside him Loki, dressed as a maid, whispers excuses to the staring giants. Thrym watches.
+
+--- FILE NAME: img-ai-thor-bride-5　｜　錘子放在膝上
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of wool, linen, leather, iron, timber, carved wood and weathered stone. Palette: cold sea blue-grey, fjord green, peat brown, undyed wool cream, iron grey, with firelight amber accents. Clothing, ships and buildings of Viking-age Scandinavia (about 9th-11th century): wool tunics and trousers, long wool and linen dresses with oval shoulder brooches, leather belts and shoes, round wooden shields, longhouses and clinker-built longships. NO horned helmets (no horns or wings on any helmet), NO Marvel-style or superhero costumes, NO modern fantasy armour (no plate armour, no oversized pauldrons, no glowing ornate armour), no medieval castles or knights. Landscape 4:3, 1600x1200. No text, no letters, no written runes, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Thor: a very broad-shouldered, powerfully built man in his prime, thick reddish-brown beard and hair, plain wool tunic and trousers with a wide leather belt, no helmet.
+Thrym: a giant chieftain, huge and heavy compared with people around him, wild hair and beard, furs over a coarse wool tunic.
+Loki: a lean, handsome man with sharp features, quick restless eyes and a knowing smile, dark hair, well-made dark green wool tunic with trim.
+In the giant's hall, the hammer lies across the veiled bride's lap as Thrym ordered, and Thor's hand closes around it. Thrym and the giants are frozen in surprise; Loki stands to one side as a maid. Violence only implied, no blood.

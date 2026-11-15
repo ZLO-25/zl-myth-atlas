@@ -17,6 +17,17 @@ style_chinese: >-
   or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature.
   Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity;
   tasteful for adult general audiences.
+style_norse: >-
+  Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable
+  anatomy and detailed textures of wool, linen, leather, iron, timber, carved wood and weathered stone.
+  Palette: cold sea blue-grey, fjord green, peat brown, undyed wool cream, iron grey, with firelight amber accents.
+  Clothing, ships and buildings of Viking-age Scandinavia (about 9th-11th century): wool tunics and trousers, long
+  wool and linen dresses with oval shoulder brooches, leather belts and shoes, round wooden shields, longhouses
+  and clinker-built longships. NO horned helmets (no horns or wings on any helmet), NO Marvel-style or superhero
+  costumes, NO modern fantasy armour (no plate armour, no oversized pauldrons, no glowing ornate armour), no
+  medieval castles or knights. Landscape 4:3, 1600x1200. No text, no letters, no written runes, no watermark,
+  no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit
+  nudity; tasteful for adult general audiences.
 characters:
   zeus: "Zeus: powerful middle-aged man, thick curly grey-black hair and full beard, Aegean-blue cloak over one shoulder, holding a golden zigzag thunderbolt."
   hera: "Hera: regal woman, dark hair under a tall gold crown, long marble-white robe with blue border."
@@ -81,6 +92,19 @@ characters:
   zhurong: "Zhurong: a red-faced fire god general with a black beard, red armor and a flowing crimson robe, standing on the backs of two dragons, with flames curling around him."
   shennong: "Shennong: a barefoot old farmer-god in a robe of green leaves, two small horns on his head, white beard, holding a handful of herbs and a bamboo basket of plants."
   gonggong_ancient: "Gonggong (ancient description): a figure with a human face and red hair, the upper body of a man in a dark blue-green robe and the lower body of a long red-brown serpent, rising out of dark water; fierce expression."
+  # ===== 北歐神話（style_norse）：只放每一格都會有的特徵，只在部分場景出現的道具寫在場景裡 =====
+  odin: "Odin: a tall, weathered old man with long grey hair and a long grey beard, ONE eye only (the other eye socket closed and scarred), dark blue-grey wool cloak over a long wool tunic, leather belt."
+  thor: "Thor: a very broad-shouldered, powerfully built man in his prime, thick reddish-brown beard and hair, plain wool tunic and trousers with a wide leather belt, no helmet."
+  loki: "Loki: a lean, handsome man with sharp features, quick restless eyes and a knowing smile, dark hair, well-made dark green wool tunic with trim."
+  freyja: "Freyja: a dignified woman with long fair hair in a braid, Viking-age long dress: a wool underdress with a linen overdress fastened by two oval brooches at the shoulders."
+  frigg: "Frigg: a mature woman of the highest rank, calm and serious, long linen dress with a deep blue wool overdress fastened by two oval brooches, hair covered by a plain linen headcloth."
+  baldr: "Baldr: a very handsome young man, clean-shaven with light hair, his body gives off a soft golden glow, pale cream wool tunic."
+  hodr: "Hodr: a young man who is blind, eyes closed, plain grey wool tunic, careful hands feeling the air."
+  heimdall: "Heimdall: a tall, alert man dressed all in white and cream wool, his teeth gleam gold when he speaks, watchful eyes."
+  thrym: "Thrym: a giant chieftain, huge and heavy compared with people around him, wild hair and beard, furs over a coarse wool tunic."
+  fenrir: "Fenrir: an enormous grey wolf as big as a longship, lean and powerful, pale eyes, realistic wolf anatomy."
+  jormungandr: "Jormungand: an enormous dark-scaled sea serpent, thick as a ship's hull, long enough to encircle the land."
+  surtr: "Surtr: a towering fire giant, charred dark skin cracked with glowing embers, wreathed in flame."
 images:
   # 潘朵拉
   - {id: img-ai-pandora-1, card: story-pandora, title: 宙斯的回禮, characters: [zeus, prometheus], scene: "On Mount Olympus, Zeus frowns down at the human world where a few small warm hearth fires glow in houses (a peaceful village, nothing is burning); far below, Prometheus walks away holding a fennel stalk with a flame."}
@@ -206,3 +230,19 @@ images:
   - {id: img-ai-portrait-xiwangmu, card: god-xiwangmu, system: chinese, title: 西王母, characters: [xiwangmu], scene: "Xiwangmu sits on a throne of carved stone on Kunlun Mountain among clouds, wearing a sheng headdress (a horizontal bar with ends like small scrolls), one hand holding a small jade vessel; a white rabbit pounds medicine beside her. No other creatures."}
   - {id: img-ai-portrait-pangu, card: primordial-pangu, system: chinese, title: 盤古, characters: [pangu], scene: "Inside a vast dark cosmic egg splitting open: light, clear air rises above to become sky and heavy murk sinks below to become earth, while Pangu stands between them with arms raised, holding them apart."}
   - {id: img-ai-portrait-fuxi, card: primordial-fuxi, system: chinese, title: 伏羲, characters: [fuxi], scene: "Fuxi on a riverbank at dawn, serpent body coiled on the ground, looking at the stars and at patterns in the river sand, tracing eight simple three-line symbols (the eight trigrams: each made of three horizontal lines, solid or broken) in the earth with his finger; no readable text or letters."}
+  # ===== 北歐神話（style_norse）=====
+  - {id: img-ai-ragnarok-1, card: story-ragnarok, system: norse, title: 芬布爾之冬, characters: [], scene: "A harsh unending winter: snow and ice cover a Viking-age settlement and a fjord under a dark sky; high above, a huge wolf has its jaws closed around the sun, which is almost gone."}
+  - {id: img-ai-ragnarok-2, card: story-ragnarok, system: norse, title: 海姆達爾吹號角, characters: [heimdall], scene: "Heimdall stands on the glowing rainbow bridge Bifrost and blows a great horn that sounds across all the worlds; behind him a vast ash tree, the world tree Yggdrasil, shakes, its branches swaying."}
+  - {id: img-ai-ragnarok-3, card: story-ragnarok, system: norse, title: 指甲船與火巨人, characters: [loki, surtr], scene: "A huge ship built of fingernails sails out over a stormy sea with Loki at the steering oar; to the south, on the horizon, the fire giant Surtr advances with flames behind him."}
+  - {id: img-ai-ragnarok-4, card: story-ragnarok, system: norse, title: 一組一組的對戰, characters: [odin, fenrir, thor, jormungandr], scene: "A wide shattered battlefield showing two fights side by side. On the left, Odin faces the enormous wolf Fenrir as it lunges with open jaws. On the right, Thor swings his hammer at the Midgard serpent rearing out of the sea. Violence only implied, no blood."}
+  - {id: img-ai-ragnarok-5, card: story-ragnarok, system: norse, title: 大地再度升起, characters: [], scene: "After the great fire: a calm sea from which fresh green land rises again, blackened ground in the foreground giving way to green hills and clear water, soft morning light."}
+  - {id: img-ai-baldr-death-1, card: story-baldr-death, system: norse, title: 惡夢與誓言, characters: [frigg, baldr], scene: "Frigg stands at the centre of an open landscape asking for vows: around her are a small fire, a stream, iron tools, a stone, a tree, birds, animals and a snake, each shown as if listening. In the distance Baldr watches, his body faintly glowing."}
+  - {id: img-ai-baldr-death-2, card: story-baldr-death, system: norse, title: 眾神丟東西取樂, characters: [baldr, thor, odin], scene: "On an open assembly field, Baldr stands in the middle, glowing, while gods around him laugh and toss things at him as a game."}
+  - {id: img-ai-baldr-death-3, card: story-baldr-death, system: norse, title: 洛基套話, characters: [loki, frigg], scene: "Inside the hall Fensalir, Frigg listens to a woman who is really Loki in disguise, in a woman's dress and headcloth; Loki's sly eyes show he is after a secret."}
+  - {id: img-ai-baldr-death-4, card: story-baldr-death, system: norse, title: 槲寄生的箭, characters: [loki, hodr, baldr, odin], scene: "A circle of stunned gods on the assembly field. In the centre Baldr falls to the ground, his glow fading. Beside the circle blind Hodr holds a small mistletoe shaft, with Loki standing close behind him guiding his aim. Odin's face is full of grief. No blood."}
+  - {id: img-ai-baldr-death-5, card: story-baldr-death, system: norse, title: 火葬的船, characters: [odin, thor], scene: "On a shore, a giantess pushes a great Viking-age ship down to the water, the funeral pyre built on its deck. Mourners stand on the beach. Thor raises his hammer to bless the pyre; Odin lays a gold ring on the pyre. A woman, Baldr's wife Nanna, lies still beside the pyre."}
+  - {id: img-ai-thor-bride-1, card: story-thor-bride, system: norse, title: 錘子不見了, characters: [thor, freyja, loki], scene: "Inside Thor's hall at dawn: Thor sits up and stares at the empty place where his hammer lay. In the doorway Freyja hands a cloak of falcon feathers to Loki."}
+  - {id: img-ai-thor-bride-2, card: story-thor-bride, system: norse, title: 芙蕾雅拒絕, characters: [freyja, thor, loki], scene: "Freyja stands before Thor and Loki in the hall of the gods, furious; her necklace bursts apart with gold beads flying as she refuses to marry the giant."}
+  - {id: img-ai-thor-bride-3, card: story-thor-bride, system: norse, title: 新娘頭紗, characters: [heimdall, thor, loki], scene: "In the hall of the gods, Heimdall holds up a white bridal veil. Thor, broad and grim, looks reluctant; Loki grins and leans in to persuade him."}
+  - {id: img-ai-thor-bride-4, card: story-thor-bride, system: norse, title: 驚人的食量, characters: [thor, loki, thrym], scene: "A giant's feast hall: Thor, wearing a bridal veil, sits at the high table in front of the remains of a whole ox, eight salmon and three barrels of mead, his eyes burning like fire. Beside him Loki, dressed as a maid, whispers excuses to the staring giants. Thrym watches."}
+  - {id: img-ai-thor-bride-5, card: story-thor-bride, system: norse, title: 錘子放在膝上, characters: [thor, thrym, loki], scene: "In the giant's hall, the hammer lies across the veiled bride's lap as Thrym ordered, and Thor's hand closes around it. Thrym and the giants are frozen in surprise; Loki stands to one side as a maid. Violence only implied, no blood."}
