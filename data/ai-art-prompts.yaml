@@ -9,6 +9,14 @@ style: >-
   ancient Greek world (or early Italy for Roman scenes). Landscape 4:3, 1600x1200. No text, no letters,
   no watermark, no signature. Not a photograph, not a vase painting, not anime or cartoon.
   Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+style_chinese: >-
+  Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting,
+  believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red,
+  stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty
+  Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese
+  or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature.
+  Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity;
+  tasteful for adult general audiences.
 characters:
   zeus: "Zeus: powerful middle-aged man, thick curly grey-black hair and full beard, Aegean-blue cloak over one shoulder, holding a golden zigzag thunderbolt."
   hera: "Hera: regal woman, dark hair under a tall gold crown, long marble-white robe with blue border."
@@ -50,6 +58,24 @@ characters:
   romulus_remus: "Romulus and Remus: twin boys (babies or young men depending on the scene), identical dark hair."
   she_wolf: "She-wolf: large grey-brown wolf with a gentle expression."
   faustulus: "Faustulus: rough bearded shepherd with a crook."
+  nuwa: "Nuwa: goddess with a human head and upper body and a long serpent lower body, in the Han-dynasty tomb-art convention; hair in a high bun, flowing robe of cinnabar red and pale ivory."
+  gonggong: "Gonggong: fierce bearded water-god warrior with wild dark hair and a blue-green robe, a rough horn-like helmet."
+  zhuanxu: "Zhuanxu: calm young king in Han-style black and red court robes with a flat-topped beaded crown."
+  huangdi: "Huangdi (Yellow Emperor): dignified bearded ruler in a yellow-ochre Han-style robe with a beaded crown, a bronze sword."
+  chiyou: "Chiyou: imposing war-chief with a horned helmet, bronze weapons, dark armor with red trim."
+  yinglong: "Yinglong: a winged auspicious dragon with long serpentine body, deer-like antlers and four clawed legs, deep azure scales, associated with water; no fire breathing."
+  nuba: "Nuba (drought goddess): slender woman in plain pale-green robe, bald or with very short hair, quiet and sorrowful, the ground around her cracked and dry."
+  houyi: "Hou Yi: strong archer in Han-style short tunic, leather armor and a long red bow, topknot, calm focused expression."
+  xihe: "Xihe: dignified goddess in vermilion robes driving a chariot of light, a bright round sun at her side."
+  change: "Chang'e: graceful woman in long flowing sleeves of pale ivory and stone-blue Han-style dress, hair in a high bun with a jade hairpin, a small white rabbit nearby when on the moon."
+  xiwangmu: "Xiwangmu (Queen Mother of the West): majestic woman with an ornate hair ornament called a sheng, long jade-green robe, seated on a mountain throne."
+  yu: "Yu the Great: tough lean man in rough hemp clothes, a work spade or digging tool, sun-tanned, calloused hands, straw hat optional."
+  gun: "Gun: older bearded man in rough clothes, tired expression, carrying a pouch of glowing earth."
+  yao: "Yao: elderly wise ruler in simple Han-style robe, grey hair and beard."
+  shun: "Shun: humble sincere young farmer in plain hemp clothes."
+  cowherd: "Cowherd (Niulang): young herdsman in simple blue-grey Han-style tunic, an old ox beside him."
+  weaver: "Weaver Girl (Zhinu): graceful young woman in brilliant cloud-colored silk robes, working at a loom of light."
+  magpies: "Magpies: a large flock of black-and-white magpies forming a bridge across the Milky Way."
 images:
   # 潘朵拉
   - {id: img-ai-pandora-1, card: story-pandora, title: 宙斯的回禮, characters: [zeus, prometheus], scene: "On Mount Olympus, Zeus frowns down at the human world where a few small warm hearth fires glow in houses (a peaceful village, nothing is burning); far below, Prometheus walks away holding a fennel stalk with a flame."}
@@ -124,3 +150,44 @@ images:
   - {id: img-ai-romulus-4, card: story-romulus-remus, title: 牧羊人的家, characters: [faustulus, romulus_remus], scene: "Faustulus the shepherd carries the twins home to his wife at a hut on a hill."}
   - {id: img-ai-romulus-5, card: story-romulus-remus, title: 數飛鳥, characters: [romulus_remus], scene: "The grown twins stand on two separate hills watching the sky; six vultures over one, twelve over the other."}
   - {id: img-ai-romulus-6, card: story-romulus-remus, title: 跳過城牆, characters: [romulus_remus], scene: "Remus leaps mockingly over a low new wall while Romulus turns toward him in anger. Composition stops before any violence."}
+  # ===== 中華神話（style_chinese）=====
+  - {id: img-ai-nuwa-sky-1, card: story-nuwa-mends-sky, system: chinese, title: 天柱崩壞, characters: [nuwa], scene: "A vast cracked sky with a gaping hole, cracked earth below, pillars of the sky collapsing; small figures flee. Nuwa stands on a cliff looking up."}
+  - {id: img-ai-nuwa-sky-2, card: story-nuwa-mends-sky, system: chinese, title: 煉五色石, characters: [nuwa], scene: "Nuwa tends a huge bronze cauldron of molten colored stones in five hues (blue, red, yellow, white, black), sparks rising."}
+  - {id: img-ai-nuwa-sky-3, card: story-nuwa-mends-sky, system: chinese, title: 補天, characters: [nuwa], scene: "Nuwa rising into the sky, pressing glowing multicolored stone into the hole in the sky."}
+  - {id: img-ai-nuwa-sky-4, card: story-nuwa-mends-sky, system: chinese, title: 龜足撐四極, characters: [nuwa], scene: "A giant sea turtle's legs standing like pillars at the four corners of the sky while Nuwa watches."}
+  - {id: img-ai-nuwa-sky-5, card: story-nuwa-mends-sky, system: chinese, title: 殺黑龍、止洪水, characters: [nuwa], scene: "Nuwa near a black dragon lying defeated on a plain; behind her, a pile of grey reed ash forming a dam against rising floodwater, relieved villagers."}
+  - {id: img-ai-buzhou-1, card: story-buzhou, system: chinese, title: 爭當天帝, characters: [gonggong, zhuanxu], scene: "Gonggong and Zhuanxu face each other with armies behind them on a wide plain, tension, ancient Chinese banners."}
+  - {id: img-ai-buzhou-2, card: story-buzhou, system: chinese, title: 共工敗了, characters: [gonggong], scene: "Gonggong defeated and furious, bleeding-free, kneeling on one knee on a rocky field, looking up at a towering mountain in the northwest."}
+  - {id: img-ai-buzhou-3, card: story-buzhou, system: chinese, title: 撞向不周山, characters: [gonggong], scene: "Gonggong slams his head against a huge pillar-like mountain, rock cracking, dust and rubble."}
+  - {id: img-ai-buzhou-4, card: story-buzhou, system: chinese, title: 天傾西北, characters: [], scene: "The sky tilting toward the northwest with sun, moon and stars drifting to that side; Chinese landscape below."}
+  - {id: img-ai-buzhou-5, card: story-buzhou, system: chinese, title: 地陷東南, characters: [], scene: "Broad rivers flowing southeast toward the sea across a mountainous Chinese landscape, large panoramic view."}
+  - {id: img-ai-zhuolu-1, card: story-zhuolu, system: chinese, title: 蚩尤作亂, characters: [chiyou], scene: "Chiyou with horned helmet forging bronze weapons at a fire, his troops behind him."}
+  - {id: img-ai-zhuolu-2, card: story-zhuolu, system: chinese, title: 應龍蓄水, characters: [yinglong, huangdi], scene: "Yinglong dragon swooping over the plain of Jizhou and gathering a vast flood of water, Huangdi watching from a hill."}
+  - {id: img-ai-zhuolu-3, card: story-zhuolu, system: chinese, title: 風伯雨師, characters: [chiyou], scene: "Wind and rain gods summoned by Chiyou's side: giant gale and sheets of rain sweeping across the battlefield, banners whipping."}
+  - {id: img-ai-zhuolu-4, card: story-zhuolu, system: chinese, title: 天女魃, characters: [nuba, huangdi], scene: "Nuba descending to the flooded battlefield; where she steps the rain stops and the ground dries, clouds clearing."}
+  - {id: img-ai-zhuolu-5, card: story-zhuolu, system: chinese, title: 涿鹿的原野, characters: [huangdi, chiyou], scene: "Huangdi's army standing victorious on the plain of Zhuolu, Chiyou's banners fallen, no gore."}
+  - {id: img-ai-houyi-suns-1, card: story-houyi-suns, system: chinese, title: 扶桑上的十個太陽, characters: [xihe], scene: "A giant sacred mulberry tree (Fusang) at the eastern edge of the world, ten glowing suns resting on its branches, a calm morning; no birds depicted."}
+  - {id: img-ai-houyi-suns-2, card: story-houyi-suns, system: chinese, title: 十日並出, characters: [], scene: "Ten suns blazing together in the sky, scorched fields, cracked earth and withered crops, villagers shielding their eyes."}
+  - {id: img-ai-houyi-suns-3, card: story-houyi-suns, system: chinese, title: 六種怪獸, characters: [], scene: "A scorched land where six strange monsters (a long-toothed beast, a nine-headed serpent, a great boar, a huge bird of wind, a giant snake, a savage beast) menace the people in the distance."}
+  - {id: img-ai-houyi-suns-4, card: story-houyi-suns, system: chinese, title: 羿張弓, characters: [houyi], scene: "Hou Yi on a mountaintop drawing a long bow toward the ten suns, wind in his clothes."}
+  - {id: img-ai-houyi-suns-5, card: story-houyi-suns, system: chinese, title: 留下一個太陽, characters: [houyi], scene: "Dawn: a single sun rising calmly over green recovering fields, Hou Yi lowering his bow, relieved villagers."}
+  - {id: img-ai-change-moon-1, card: story-change-moon, system: chinese, title: 羿求藥, characters: [houyi, xiwangmu], scene: "Hou Yi bowing humbly before Xiwangmu on her mountain throne; she holds out a small jade vessel."}
+  - {id: img-ai-change-moon-2, card: story-change-moon, system: chinese, title: 藥只夠一個人, characters: [houyi, change], scene: "Hou Yi and Chang'e in their home, the small vessel on a table between them, warm lamplight."}
+  - {id: img-ai-change-moon-3, card: story-change-moon, system: chinese, title: 偷藥, characters: [change], scene: "Chang'e alone at night in a quiet room, holding the vessel, hesitating."}
+  - {id: img-ai-change-moon-4, card: story-change-moon, system: chinese, title: 飛向月亮, characters: [change], scene: "Chang'e rising into the night sky in her robes toward a huge luminous full moon."}
+  - {id: img-ai-change-moon-5, card: story-change-moon, system: chinese, title: 悵然若失, characters: [houyi], scene: "Hou Yi standing in a courtyard at night looking up at the full moon, a lonely figure, bow lowered."}
+  - {id: img-ai-yu-flood-1, card: story-yu-flood, system: chinese, title: 洪水滔天, characters: [], scene: "A vast flood covering the plains, villagers on rooftops and hills, grey sky, ancient Chinese settlement."}
+  - {id: img-ai-yu-flood-2, card: story-yu-flood, system: chinese, title: 鯀的息壤, characters: [gun], scene: "Gun building a giant earthen dam from glowing earth that grows by itself, floodwater pressing against it."}
+  - {id: img-ai-yu-flood-3, card: story-yu-flood, system: chinese, title: 羽山, characters: [gun], scene: "A somber mountain (Yushan) at dusk; Gun's silhouette fallen, no violence shown, a faint glow of earth, mist."}
+  - {id: img-ai-yu-flood-4, card: story-yu-flood, system: chinese, title: 禹開河道, characters: [yu], scene: "Yu leading workers digging channels through hills to guide the flood toward the sea, torches and tools."}
+  - {id: img-ai-yu-flood-5, card: story-yu-flood, system: chinese, title: 過家門不入, characters: [yu], scene: "Yu passing his own house at dawn without stopping, his family waiting in the doorway watching him go."}
+  - {id: img-ai-yao-shun-1, card: story-yao-shun, system: chinese, title: 堯找接班人, characters: [yao], scene: "Yao at court listening to ministers recommend someone; scrolls and bamboo slips on the table."}
+  - {id: img-ai-yao-shun-2, card: story-yao-shun, system: chinese, title: 孝順的舜, characters: [shun], scene: "Shun farming in a field, helping his stubborn family kindly; a humble farmhouse in the distance."}
+  - {id: img-ai-yao-shun-3, card: story-yao-shun, system: chinese, title: 考驗, characters: [yao, shun], scene: "Yao observing Shun tending to official duties with ministers in a hall, thoughtful."}
+  - {id: img-ai-yao-shun-4, card: story-yao-shun, system: chinese, title: 禪讓, characters: [yao, shun], scene: "Yao ceremonially handing a jade tablet to Shun in a courtyard of ministers."}
+  - {id: img-ai-yao-shun-5, card: story-yao-shun, system: chinese, title: 再讓給禹, characters: [shun, yu], scene: "Shun handing a ceremonial tablet to Yu, who bows; the flood-control work behind them."}
+  - {id: img-ai-cowherd-weaver-1, card: story-cowherd-weaver, system: chinese, title: 天上的兩顆星, characters: [weaver], scene: "The Weaver Girl weaving brilliant cloud-colored silk in the sky palace on one bank of the Milky Way, a bright star beside her."}
+  - {id: img-ai-cowherd-weaver-2, card: story-cowherd-weaver, system: chinese, title: 牛郎與牛, characters: [cowherd], scene: "The Cowherd with his ox in a green valley under a sky showing the Milky Way."}
+  - {id: img-ai-cowherd-weaver-3, card: story-cowherd-weaver, system: chinese, title: 相遇與成家, characters: [cowherd, weaver], scene: "The Cowherd and Weaver Girl meeting by a river at dusk, smiling shyly."}
+  - {id: img-ai-cowherd-weaver-4, card: story-cowherd-weaver, system: chinese, title: 被銀河分開, characters: [weaver], scene: "The Weaver Girl pulled back to the sky by celestial attendants, the Cowherd reaching after her across a glowing Milky Way river."}
+  - {id: img-ai-cowherd-weaver-5, card: story-cowherd-weaver, system: chinese, title: 七夕鵲橋, characters: [cowherd, weaver, magpies], scene: "On the seventh night, magpies form a bridge across the Milky Way and the Cowherd and Weaver Girl meet in the middle."}

@@ -12,6 +12,12 @@ three_lines:
   - 共工和顓頊爭當天帝失敗，怒撞不周山，天往西北歪、地往東南塌。
   - 古人用它解釋兩件看得到的事：星星為什麼往西北移，中國的大河為什麼往東流。
 hook: 共工撞山：一次發脾氣，把天撞歪、讓大河從此往東流。
+panels:
+  - {image: img-ai-buzhou-1, text: 共工和顓頊爭當天帝。, src: [s1]}
+  - {image: img-ai-buzhou-2, text: 共工輸了，怒不可遏。, src: [s1]}
+  - {image: img-ai-buzhou-3, text: 他一頭撞向不周山，撐天的柱子折斷了。, src: [s1]}
+  - {image: img-ai-buzhou-4, text: 天向西北傾斜，所以日月星辰都往西北移動。, src: [s1]}
+  - {image: img-ai-buzhou-5, text: 地向東南凹陷，所以江河的水都往東南流。, src: [s1, s3]}
 causes:
   - {id: god-gonggong, rel: 直接引發, why: 共工和顓頊爭當天帝打輸，怒而撞山。, src: [s1]}
 effects:

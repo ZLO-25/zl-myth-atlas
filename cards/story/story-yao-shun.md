@@ -12,6 +12,12 @@ three_lines:
   - 堯覺得自己的兒子不成材，考驗舜多年之後把天下讓給他；舜後來又讓給治水有功的禹。
   - 儒家把這段當成理想政治的典範；到了禹的兒子啟，王位開始父傳子。
 hook: 堯舜禪讓：王位讓給最能幹的人，不一定是自己的兒子。
+panels:
+  - {image: img-ai-yao-shun-1, text: 堯老了，覺得兒子丹朱不成材，想找個更好的人。, src: [s1, s3]}
+  - {image: img-ai-yao-shun-2, text: 大臣推薦了一個以孝順出名的平民：舜。, src: [s1, s2]}
+  - {image: img-ai-yao-shun-3, text: 堯讓舜處理政事多年，觀察他的表現。, src: [s1]}
+  - {image: img-ai-yao-shun-4, text: 最後堯把王位讓給舜。, src: [s1]}
+  - {image: img-ai-yao-shun-5, text: 舜也照樣把王位讓給治水有功的禹；禹死後，王位改成傳給兒子啟。, src: [s1]}
 effects:
   - {id: hero-yu, rel: 直接引發, why: 舜把王位讓給了治水有功的禹。, src: [s1]}
 sources:

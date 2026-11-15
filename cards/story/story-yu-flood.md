@@ -12,6 +12,12 @@ three_lines:
   - 鯀用堵的方法治水九年失敗被殺；禹改用疏導，開通河道把水引進大海。
   - 「三過家門而不入」「堵不如疏」都出自這個故事。
 hook: 大禹治水：堵不住，就讓水有路可走。
+panels:
+  - {image: img-ai-yu-flood-1, text: 洪水滔天，百姓流離失所。, src: [s1]}
+  - {image: img-ai-yu-flood-2, text: 鯀偷了天帝的息壤去堵洪水，治了九年都沒成功。, src: [s1, s2]}
+  - {image: img-ai-yu-flood-3, text: 鯀沒等天帝同意，最後在羽山被處死。, src: [s2]}
+  - {image: img-ai-yu-flood-4, text: 禹接手後，不再堵水，而是疏通河道、把水引進大海。, src: [s1]}
+  - {image: img-ai-yu-flood-5, text: 他在外奔波多年，經過家門都沒有進去。, src: [s1, s3]}
 causes:
   - {id: hero-gun, rel: 直接引發, why: 鯀治水失敗被處死，禹接手父親未完成的工作。, src: [s1, s2]}
 effects:
