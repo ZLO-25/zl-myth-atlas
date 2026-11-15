@@ -127,7 +127,7 @@ export interface TodayItem {
 export interface Era {
   id: string;
   /** 屬於哪個神話體系的年代；沒寫＝希臘羅馬 */
-  system?: 'chinese';
+  system?: 'chinese' | 'norse';
   name: string;
   order: number;
   summary: string;
