@@ -201,3 +201,27 @@ test('第一波 6：對照表的中文名不逐字斷行，窄螢幕可橫滑並
   const pageOver = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
   expect(pageOver).toBeLessThanOrEqual(1);
 });
+
+test('第一波 7：句尾來源小字 [s1] 可點範圍至少 24×24，字還是小字', async ({ page }) => {
+  for (const route of ['#/card/god-zeus', '#/overview']) {
+    await page.goto(route);
+    const cites = page.locator('.cite a');
+    expect(await cites.count(), route).toBeGreaterThan(5);
+    const sizes = await cites.evaluateAll((els) =>
+      els.map((e) => {
+        const r = e.getBoundingClientRect();
+        return { w: r.width, h: r.height, fs: parseFloat(getComputedStyle(e).fontSize) };
+      }),
+    );
+    for (const s of sizes) {
+      expect(s.w, route).toBeGreaterThanOrEqual(24);
+      expect(s.h, route).toBeGreaterThanOrEqual(24);
+      expect(s.fs, '字級不變').toBeLessThan(13);
+    }
+  }
+  // 點小字仍然跳到下面的來源，不會換頁
+  await page.goto('#/card/god-zeus');
+  await page.locator('.cite a').first().click();
+  await expect(page).toHaveURL(/#\/card\/god-zeus$/);
+  await expect(page.locator('h1').first()).toContainText('宙斯');
+});

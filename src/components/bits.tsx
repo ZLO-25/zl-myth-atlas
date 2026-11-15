@@ -53,14 +53,17 @@ export function Inline({ text, cardId }: { text: string; cardId?: string }) {
   while ((m = re.exec(text))) {
     if (m.index > last) parts.push(text.slice(last, m.index));
     if (m[1]) parts.push(<CardLink key={k++} id={m[1]}>{m[2]}</CardLink>);
-    else if (m[3])
+    else if (m[3]) {
+      // 先把編號存起來：點擊時 m 早已被迴圈改成 null，直接用 m[3] 會出錯、整頁跳到首頁
+      const sid = `src-${cardId ?? ''}-${m[3]}`;
       parts.push(
         <sup key={k++} className="cite">
-          <a href={`#src-${cardId ?? ''}-${m[3]}`} onClick={(e) => jumpTo(e, `src-${cardId ?? ''}-${m![3]}`)}>
+          <a href={`#${sid}`} onClick={(e) => jumpTo(e, sid)}>
             {m[3]}
           </a>
         </sup>,
       );
+    }
     else if (m[4]) parts.push(<strong key={k++}>{m[4]}</strong>);
     last = re.lastIndex;
   }
