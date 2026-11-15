@@ -5,7 +5,7 @@ import { href } from '../lib/router';
 import { buildQuiz, type Question } from '../lib/quiz';
 
 /** 一道選擇題：選了立刻顯示對錯與正解；answered 由外面管，方便「重做」整組 */
-export function QuizQuestion({ q, no, picked, onPick }: { q: Question; no?: number; picked?: string; onPick: (id: string) => void }) {
+export function QuizQuestion({ q, no, picked, onPick, link = true }: { q: Question; no?: number; picked?: string; onPick: (id: string) => void; link?: boolean }) {
   const done = picked !== undefined;
   const right = picked === q.answer;
   const answerName = cardById.get(q.answer)?.name_zh ?? q.answer;
@@ -31,7 +31,7 @@ export function QuizQuestion({ q, no, picked, onPick }: { q: Question; no?: numb
       {done && (
         <p className={`quiz-result ${right ? 'ok' : 'no'}`} role="status">
           {right ? '答對了！' : `答錯了，正解是「${answerName}」。`}
-          {q.todayId && (
+          {link && q.todayId && (
             <>
               {' '}
               <a href={href('today', q.todayId)}>看這個梗的說明</a>

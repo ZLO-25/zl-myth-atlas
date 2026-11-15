@@ -417,3 +417,24 @@ pre.ascii { background: var(--surface); border: 1px solid var(--line); padding: 
 .panel-cover p { margin: 0; }
 .panel-reveal { display: flex; flex-direction: column; align-items: flex-start; gap: 0.5rem; }
 .panel-reveal .reveal { font-size: 0.85rem; min-height: 2rem; border-color: var(--line); color: var(--muted); font-weight: 400; }
+
+/* 今日影子：預設收合、篩選、猜猜看 */
+.today-list { align-items: start; }
+.today-first { color: var(--ink); }
+.today-toggle { min-height: 2.4rem; padding: 0.2rem 1rem; border: 1px solid var(--aegean); border-radius: 999px; background: var(--surface); color: var(--aegean); font: inherit; font-weight: 700; cursor: pointer; }
+.today-toggle:hover { background: var(--aegean); color: var(--bg); }
+.today-tools { display: flex; flex-wrap: wrap; gap: 0.6rem 1rem; align-items: center; margin: 1rem 0 0; }
+.mode-switch { display: inline-flex; border: 1px solid var(--aegean); border-radius: 999px; overflow: hidden; }
+.mode-switch button { min-height: 2.4rem; padding: 0.2rem 1.1rem; border: 0; background: var(--surface); color: var(--aegean); font: inherit; font-weight: 700; cursor: pointer; }
+.mode-switch button[aria-pressed='true'] { background: var(--aegean); color: var(--bg); }
+.today-filter { flex: 1 1 14rem; min-width: 0; max-width: 26rem; min-height: 2.4rem; padding: 0.3rem 0.9rem; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); font: inherit; }
+.linkish { border: 0; background: none; color: var(--aegean); text-decoration: underline; font: inherit; cursor: pointer; padding: 0.3rem 0.2rem; min-height: 24px; }
+.guess-box { max-width: 46rem; margin: 1rem 0; }
+.guess-explain { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--olive); border-radius: 0 12px 12px 0; padding: 0.4rem 1rem 0.8rem; }
+.guess-explain h3 { margin: 0.5rem 0; }
+.today-item header .unverified { margin-left: 0.5rem; }
+.today-head-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 0.6rem; }
+.today-head-row h3 { margin: 0.1rem 0 0.3rem; }
+.today-head-row .today-toggle { flex: none; min-height: 2rem; padding: 0.1rem 0.8rem; font-size: 0.9rem; }
+.today-first { margin: 0.2rem 0 0.2rem; }
+@media (max-width: 760px) { .today-item { padding: 0.5rem 0.8rem; } .today-item p { margin: 0.25rem 0; } .today-head-row h3 { font-size: 1.05rem; line-height: 1.35; } }

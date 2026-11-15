@@ -1,4 +1,6 @@
-import { useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
+import { QuizQuestion } from '../components/Quiz';
+import { rng, shuffle, todayQuestion } from '../lib/quiz';
 import { clearProgress, useReadSet } from '../lib/progress';
 import { TODAY_CATEGORIES } from '../../scripts/lib/types';
 import { eraById } from '../lib/data';
@@ -363,15 +365,42 @@ function BorrowStory() {
   );
 }
 
+/** 第一句：收合時只露出這一句 */
+function firstSentence(text: string): string {
+  const i = text.search(/[。！？]/);
+  return i < 0 ? text : text.slice(0, i + 1);
+}
+
+const matches = (t: (typeof site.today)[number], q: string) => {
+  if (!q) return true;
+  const hay = [t.title, t.what, t.category, ...(t.search_simp ?? []), ...t.cards.flatMap((id) => [cardById.get(id)?.name_zh ?? '', cardById.get(id)?.name_en ?? ''])].join(' ').toLowerCase();
+  return q
+    .toLowerCase()
+    .split(/\s+/)
+    .filter(Boolean)
+    .every((w) => hay.includes(w));
+};
+
 export function TodayPage({ id }: { id?: string }) {
   const [cat, setCat] = useState<string>('全部');
+  const [q, setQ] = useState('');
+  const [mode, setMode] = useState<'list' | 'guess'>('list');
+  const [open, setOpen] = useState<Set<string>>(new Set());
   const one = id ? todayById.get(id) : undefined;
-  const list = site.today.filter((t) => cat === '全部' || t.category === cat);
+  const list = site.today.filter((t) => (cat === '全部' || t.category === cat) && matches(t, q.trim()) && t.id !== one?.id);
+  const toggle = (tid: string) => setOpen((s) => { const n = new Set(s); if (n.has(tid)) n.delete(tid); else n.add(tid); return n; });
   return (
     <div className="page">
       <h1>今日影子</h1>
-      <p className="lead">神話留在今天的單字、品牌、電影與星空裡。每一條都寫了「和原典差在哪」。</p>
-      {one && <TodayItemView id={one.id} highlight />}
+      <p className="lead">神話留在今天的單字、品牌、電影與星空裡。每一條都寫了「和原典差在哪」。點一條展開說明，或切到「猜猜看」玩一玩。</p>
+      {one && mode === 'list' && <TodayItemView id={one.id} highlight open onToggle={() => {}} />}
+      <div className="today-tools">
+        <div className="mode-switch" role="group" aria-label="瀏覽方式">
+          <button type="button" aria-pressed={mode === 'list'} onClick={() => setMode('list')}>逐條看</button>
+          <button type="button" aria-pressed={mode === 'guess'} onClick={() => setMode('guess')}>猜猜看</button>
+        </div>
+        <input type="search" className="today-filter" placeholder="篩選：輸入關鍵字，例如 月份、Nike、電影…" aria-label="篩選今日影子" value={q} onChange={(e) => setQ(e.target.value)} />
+      </div>
       <div className="filters">
         {['全部', ...TODAY_CATEGORIES.filter((c) => site.today.some((t) => t.category === c))].map((c) => (
           <button key={c} className={c === cat ? 'on' : ''} onClick={() => setCat(c)}>
@@ -379,49 +408,145 @@ export function TodayPage({ id }: { id?: string }) {
           </button>
         ))}
       </div>
-      <div className="today-list">
-        {list.map((t) => (
-          <TodayItemView key={t.id} id={t.id} />
-        ))}
-      </div>
+      {mode === 'guess' ? (
+        <TodayGuess list={site.today.filter((t) => (cat === '全部' || t.category === cat) && matches(t, q.trim()))} />
+      ) : (
+        <>
+          <p className="muted small today-count">
+            共 {list.length} 條
+            {list.length > 1 && (
+              <>
+                {' '}｜<button type="button" className="linkish" onClick={() => setOpen(new Set(list.map((t) => t.id)))}>全部展開</button>
+                {' '}<button type="button" className="linkish" onClick={() => setOpen(new Set())}>全部收合</button>
+              </>
+            )}
+          </p>
+          {list.length === 0 && <p className="muted">沒有符合的梗，換個關鍵字或分類試試看。</p>}
+          <div className="today-list">
+            {list.map((t) => (
+              <TodayItemView key={t.id} id={t.id} open={open.has(t.id)} onToggle={() => toggle(t.id)} />
+            ))}
+          </div>
+        </>
+      )}
     </div>
   );
 }
 
-function TodayItemView({ id, highlight }: { id: string; highlight?: boolean }) {
-  const t = todayById.get(id)!;
+/** 猜猜看：給今日影子的標題（名字遮掉），四選一猜來自哪張卡，答完顯示說明 */
+function TodayGuess({ list }: { list: typeof site.today }) {
+  const [round, setRound] = useState(0);
+  const [n, setN] = useState(0);
+  const [picked, setPicked] = useState<string | undefined>();
+  const [right, setRight] = useState(0);
+  const key = list.map((t) => t.id).join(',');
+  const qs = useMemo(() => {
+    const items = shuffle(list, rng(round * 7919 + 17)).flatMap((t) => {
+      const c = cardById.get(t.cards[0]);
+      const q = c && todayQuestion(t, c, 'guess');
+      return q ? [{ t, q }] : [];
+    });
+    return items;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [key, round]);
+  useEffect(() => {
+    setN(0);
+    setPicked(undefined);
+    setRight(0);
+  }, [key]);
+  if (!qs.length) return <p className="muted">這個範圍沒有可以出題的梗，換個分類或清掉關鍵字試試看。</p>;
+  if (n >= qs.length)
+    return (
+      <div className="guess-box">
+        <p><strong>這一輪結束了！答對 {right} / {qs.length} 題。</strong></p>
+        <button type="button" className="quiz-redo" onClick={() => { setRound((r) => r + 1); setN(0); setPicked(undefined); setRight(0); }}>再來一輪</button>
+      </div>
+    );
+  const { t, q } = qs[n];
   return (
-    <article className={`today-item${highlight ? ' hl' : ''}`} id={`today-${t.id}`}>
-      <header>
-        <span className="muted">{t.category}</span>
-        <h3>
-          <a href={href('today', t.id)}>{t.title}</a>
-        </h3>
-        {t.status === '說法未證實' && <span className="unverified">說法未證實</span>}
-      </header>
-      <p>{t.what}</p>
-      <p className="diff">
-        <strong>和原典差在哪：</strong>
-        {t.diff}
-      </p>
+    <div className="guess-box">
       <p className="muted small">
-        相關卡片：
-        {t.cards.map((c, i) => (
-          <span key={c}>
-            {i > 0 && '、'}
-            <CardLink id={c} />
-          </span>
-        ))}
-        ｜來源：
-        {t.sources.map((s, i) => (
-          <span key={i}>
-            {i > 0 && '；'}
-            <a href={s.url} target="_blank" rel="noreferrer">
-              {s.cite}
-            </a>
-          </span>
-        ))}
+        第 {n + 1} / {qs.length} 題｜答對 {right} 題｜分類：{t.category}
       </p>
+      <QuizQuestion
+        q={q}
+        picked={picked}
+        link={false}
+        onPick={(id) => {
+          setPicked(id);
+          if (id === q.answer) setRight((r) => r + 1);
+        }}
+      />
+      {picked !== undefined && (
+        <div className="guess-explain">
+          <h3>{t.title}</h3>
+          <p>{t.what}</p>
+          <p className="diff"><strong>和原典差在哪：</strong>{t.diff}</p>
+          <p className="small">
+            <a href={href('today', t.id)}>看這一條</a>
+            {t.cards.map((c) => (
+              <span key={c}>{'｜'}<CardLink id={c} /></span>
+            ))}
+          </p>
+          <button type="button" className="quiz-redo" onClick={() => { setN(n + 1); setPicked(undefined); }}>
+            {n + 1 >= qs.length ? '看結果' : '下一題'}
+          </button>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function TodayItemView({ id, highlight, open, onToggle }: { id: string; highlight?: boolean; open: boolean; onToggle: () => void }) {
+  const t = todayById.get(id)!;
+  const body = `today-body-${t.id}`;
+  return (
+    <article className={`today-item${highlight ? ' hl' : ''}${open ? ' open' : ''}`} id={highlight ? undefined : `today-${t.id}`}>
+      <header>
+        <span className="muted">
+          {t.category}
+          {t.status === '說法未證實' && <span className="unverified">說法未證實</span>}
+        </span>
+        <div className="today-head-row">
+          <h3>
+            <a href={href('today', t.id)}>{t.title}</a>
+          </h3>
+          {!highlight && (
+            <button type="button" className="today-toggle" aria-expanded={open} aria-controls={open ? body : undefined} onClick={onToggle}>
+              {open ? '收合' : '展開'}
+            </button>
+          )}
+        </div>
+      </header>
+      {open ? (
+        <div id={body}>
+          <p>{t.what}</p>
+          <p className="diff">
+            <strong>和原典差在哪：</strong>
+            {t.diff}
+          </p>
+          <p className="muted small">
+            相關卡片：
+            {t.cards.map((c, i) => (
+              <span key={c}>
+                {i > 0 && '、'}
+                <CardLink id={c} />
+              </span>
+            ))}
+            ｜來源：
+            {t.sources.map((s, i) => (
+              <span key={i}>
+                {i > 0 && '；'}
+                <a href={s.url} target="_blank" rel="noreferrer">
+                  {s.cite}
+                </a>
+              </span>
+            ))}
+          </p>
+        </div>
+      ) : (
+        <p className="today-first">{firstSentence(t.what)}</p>
+      )}
     </article>
   );
 }

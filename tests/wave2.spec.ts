@@ -227,3 +227,79 @@ test('第二波 4：分格故事可以切成只看圖、蓋住說明，每格能
   await expect(page.locator('article.card-page h1').first()).toContainText(noPanels.name_zh);
   await expect(page.getByRole('button', { name: /講給別人聽/ })).toHaveCount(0);
 });
+
+test('第二波 5：今日影子預設收合，點了展開，可篩選，單條連結進來是展開的', async ({ page, viewport }) => {
+  await page.goto('#/today');
+  const items = page.locator('.today-list .today-item');
+  expect(await items.count()).toBe(site.today.length);
+  // 預設全部收合：看不到「和原典差在哪」，每條只有按鈕與第一句
+  await expect(page.locator('.today-item .diff')).toHaveCount(0);
+  const first = items.first();
+  const btn = first.getByRole('button', { name: '展開' });
+  await expect(btn).toHaveAttribute('aria-expanded', 'false');
+  expect((await btn.boundingBox())!.height).toBeGreaterThanOrEqual(24);
+  // 頁面高度：手機上原本約 31,000px，收合後要短得多
+  const h = await page.evaluate(() => document.documentElement.scrollHeight);
+  expect(h, '收合後頁面高度').toBeLessThan(viewport!.width < 500 ? 15000 : 8000);
+  // 展開：說明、和原典差在哪、相關卡片、來源都在
+  await btn.click();
+  await expect(first.getByRole('button', { name: '收合' })).toHaveAttribute('aria-expanded', 'true');
+  await expect(first.locator('.diff')).toContainText('和原典差在哪');
+  await expect(first).toContainText('相關卡片：');
+  await expect(first).toContainText('來源：');
+  await first.getByRole('button', { name: '收合' }).click();
+  await expect(first.locator('.diff')).toHaveCount(0);
+
+  // 篩選
+  const box = page.getByLabel('篩選今日影子');
+  await box.fill('Nike');
+  await expect.poll(() => items.count()).toBeLessThan(site.today.length);
+  expect(await items.count()).toBeGreaterThan(0);
+  await expect(page.locator('.today-count')).toContainText('共');
+  await box.fill('完全不存在的詞xyzzy');
+  await expect(items).toHaveCount(0);
+  await expect(page.getByText('沒有符合的梗')).toBeVisible();
+  await box.fill('');
+  await expect(items).toHaveCount(site.today.length);
+
+  // 全部展開
+  await page.getByRole('button', { name: '全部展開' }).click();
+  expect(await page.locator('.today-item .diff').count()).toBe(site.today.length);
+  await page.getByRole('button', { name: '全部收合' }).click();
+  await expect(page.locator('.today-item .diff')).toHaveCount(0);
+
+  // 單條連結：那一條是展開的
+  const t = site.today[3];
+  await page.goto('#/today/' + t.id);
+  const hl = page.locator('.today-item.hl');
+  await expect(hl).toContainText(t.title);
+  await expect(hl.locator('.diff')).toBeVisible();
+  await expect(hl).toContainText('相關卡片：');
+  await noHScroll(page);
+});
+
+test('第二波 5：今日影子「猜猜看」四選一，答完顯示說明，標題裡的名字被遮掉', async ({ page }) => {
+  await page.goto('#/today');
+  await page.getByRole('button', { name: '猜猜看' }).click();
+  await expect(page.locator('.today-list')).toHaveCount(0);
+  const q = page.locator('.guess-box .quiz-q');
+  await expect(q).toBeVisible();
+  await expect(q.locator('.quiz-opt')).toHaveCount(4);
+  const stem = await q.locator('.quiz-stem').innerText();
+  expect(stem.length).toBeGreaterThan(0);
+  // 答完才出現說明與下一題
+  await expect(page.locator('.guess-explain')).toHaveCount(0);
+  await q.locator('.quiz-opt').first().click();
+  await expect(q.locator('.quiz-result')).toBeVisible();
+  await expect(page.locator('.guess-explain .diff')).toContainText('和原典差在哪');
+  await page.getByRole('button', { name: '下一題' }).click();
+  await expect(page.locator('.guess-explain')).toHaveCount(0);
+  await expect(page.locator('.guess-box .quiz-stem')).not.toHaveText(stem);
+  // 分類篩選也套用在猜猜看
+  await page.getByRole('button', { name: '時間', exact: true }).click();
+  await expect(page.locator('.guess-box .muted.small').first()).toContainText('分類：時間');
+  // 切回逐條看
+  await page.getByRole('button', { name: '逐條看' }).click();
+  await expect(page.locator('.today-list')).toHaveCount(1);
+  await noHScroll(page);
+});
