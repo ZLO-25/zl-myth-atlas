@@ -220,7 +220,7 @@ test('北歐：對照頁有「北歐對照」三方表格，4 列，跳轉鈕可
   await expect(sec.locator('thead')).toContainText('北歐神話');
   for (const theme of ['世界怎麼開始', '世界會不會結束', '誰是主神', '愛搗蛋的角色']) await expect(sec).toContainText(theme);
   await expect(sec).toContainText('不是說哪一邊影響了哪一邊');
-  await expect(sec).toContainText('沒有寫世界會怎麼結束');
+  await expect(sec).toContainText('沒有世界末日的故事');
   await expect(sec.locator('a[href="#/card/primordial-ymir"]')).toBeVisible();
   await expect(sec.locator('a[href="#/card/story-ragnarok"]')).toBeVisible();
   await expect(sec.locator('a[href="#/card/god-odin"]')).toBeVisible();
