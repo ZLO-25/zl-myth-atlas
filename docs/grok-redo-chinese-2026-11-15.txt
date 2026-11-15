@@ -1,0 +1,46 @@
+眾神星圖 中華神話 重生工作單（共 5 張）
+Myth Atlas Chinese mythology redo sheet — 5 images
+
+【給 Grok 的說明 / Instructions for Grok】
+Generate ONE image per prompt. Use each PROMPT exactly as written. Landscape 4:3 (1600x1200), no text, letters, calligraphy or seals. State the FILE NAME after each image.
+For the three "houyi-suns" images, the number of suns must be EXACTLY TEN. Count them before answering; if there are more or fewer than ten, regenerate.
+For the two "cowherd-weaver" images, keep the Cowherd in a plain blue-grey tunic (no armor, no hat) and the Weaver Girl in cream and vermilion silk robes, same as the earlier frames.
+
+【給 ZL 的提醒】
+存進雲端硬碟對應的故事子資料夾（后羿射日、牛郎織女），用同樣的檔名覆蓋或另存都可以（若另存，請在檔名後加 -redo）。
+
+
+--- FILE NAME: img-ai-houyi-suns-1　｜　扶桑上的十個太陽
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Xihe: dignified goddess in vermilion robes driving a chariot of light, a bright round sun at her side.
+A giant sacred mulberry tree (Fusang) at the eastern edge of the world with EXACTLY TEN glowing round suns resting on its branches (count them: ten, no more and no fewer: nine on the lower branches and one on the top branch), calm morning; Xihe stands beside the tree. No birds depicted.
+
+
+--- FILE NAME: img-ai-houyi-suns-2　｜　十日並出
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Exactly TEN suns blazing in the sky, arranged in two neat rows of five (count them: ten, no more and no fewer), scorched fields, cracked earth and withered crops, villagers shielding their eyes.
+
+
+--- FILE NAME: img-ai-houyi-suns-4　｜　羿張弓
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Hou Yi: strong archer in Han-style short tunic, leather armor and a long red bow, topknot, calm focused expression.
+Hou Yi on a mountaintop drawing a long bow toward the sky where EXACTLY TEN suns are arranged in two neat rows of five (count them: ten, no more and no fewer), wind in his clothes.
+
+
+--- FILE NAME: img-ai-cowherd-weaver-4　｜　被銀河分開
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Weaver Girl (Zhinu): graceful young woman in brilliant cloud-colored silk robes, working at a loom of light.
+The Weaver Girl is lifted away by two celestial attendants toward the Milky Way; the Cowherd, in his plain blue-grey tunic with no armor and no hat, a simple cloth headband only, reaches after her with both hands, his ox beside him.
+
+
+--- FILE NAME: img-ai-cowherd-weaver-5　｜　七夕鵲橋
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Cowherd (Niulang): young herdsman in simple blue-grey Han-style tunic, an old ox beside him.
+Weaver Girl (Zhinu): graceful young woman in brilliant cloud-colored silk robes, working at a loom of light.
+Magpies: a large flock of black-and-white magpies forming a bridge across the Milky Way.
+A bridge made of hundreds of black-and-white magpies, wings spread and linked together, stretches in a straight line across the Milky Way from one bank to the other; the Cowherd (plain blue-grey tunic) stands on the bridge from the left and the Weaver Girl stands on the bridge from the right, and they meet in the middle holding hands.
