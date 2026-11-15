@@ -12,6 +12,7 @@ three_lines:
   - 應龍蓄水，蚩尤召來風伯雨師；黃帝請天女魃讓雨停下，才打敗並殺了蚩尤。
   - 戰後黃帝被尊為天子，《史記》從這裡開始寫中國的歷史。
 hook: 涿鹿之戰：龍、風雨與旱神交手的天地大戰。
+images: [img-chiyou-wuliang]
 panels:
   - {image: img-ai-zhuolu-1, text: 蚩尤造出兵器，攻打黃帝。, src: [s1]}
   - {image: img-ai-zhuolu-2, text: 黃帝派會蓄水的應龍在冀州的原野迎戰。, src: [s1]}

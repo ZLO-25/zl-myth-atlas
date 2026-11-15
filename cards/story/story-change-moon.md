@@ -12,6 +12,7 @@ three_lines:
   - 羿向西王母求來不死藥，妻子姮娥偷吃後奔向月亮，羿再也求不到第二份藥。
   - 今天中秋節常講這個故事，中國的探月工程也叫「嫦娥」。
 hook: 嫦娥奔月：一顆不死藥，讓夫妻從此一個在天上、一個在人間。
+images: [img-mawangdui-banner]
 panels:
   - {image: img-ai-change-moon-1, text: 羿向西王母求來不死藥。, src: [s1]}
   - {image: img-ai-change-moon-2, text: 這份藥只有一份，羿把它交給妻子保管。, src: [s1]}
