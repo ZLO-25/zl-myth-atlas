@@ -12,7 +12,7 @@ const SYS: Record<string, string> = { greek: '希臘', roman: '羅馬', norse: '
 function pronoun(type: string) {
   if (type === '故事') return '這個故事';
   if (type === '地點') return '這個地方';
-  if (type === '怪物') return '牠';
+  if (type === '怪物' || type === '神獸') return '牠';
   if (type === '物品') return '它';
   return '他';
 }

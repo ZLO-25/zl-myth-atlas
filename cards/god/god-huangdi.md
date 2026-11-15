@@ -35,6 +35,7 @@ sources:
   - {id: s3, kind: modern, cite: 大英百科「Huangdi」, url: 'https://www.britannica.com/topic/Huangdi', accessed: '2026-11-07'}
   - {id: s4, kind: modern, cite: 大英百科「Chinese mythology」, url: 'https://www.britannica.com/topic/Chinese-mythology', accessed: '2026-11-07'}
 era: cn-yanhuang
+places: [zhuolu, huangdi-tomb]
 topics: [戰爭, 神話變歷史]
 disputed:
   - claim: 黃帝是神，還是真實的古代君主？

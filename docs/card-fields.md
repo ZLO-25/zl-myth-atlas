@@ -26,8 +26,8 @@ cards/god/god-zeus.md
 
 | 欄位 | 必填 | 說明 |
 |---|---|---|
-| `id` | ✔ | 英文小寫連字號，和檔名相同，例 `god-zeus`、`story-trojan-war`。前綴：`primordial-` `titan-` `god-` `hero-` `story-` `event-` `monster-` `place-` |
-| `type` | ✔ | 原始神／泰坦／神／英雄／凡人／怪物／故事／地點／物品 |
+| `id` | ✔ | 英文小寫連字號，和檔名相同，例 `god-zeus`、`story-trojan-war`。前綴：`primordial-` `titan-` `god-` `hero-` `story-` `event-` `monster-` `beast-` `place-` |
+| `type` | ✔ | 原始神／泰坦／神／英雄／凡人／怪物／神獸（中華神話的祥獸，如龍、鳳凰）／故事／地點／物品 |
 | `myth_system` | ✔ | `[greek]`、`[roman]`、`[greek, roman]`，或中華神話 `[chinese]`（不和其他體系混用） |
 | `name_zh` | ✔ | 台灣最通行譯名 |
 | `aliases` | ✔ | 其他中文譯名（含中國大陸譯名）、稱號、英文別名；全部可搜尋。簡體寫法由建置程式自動產生 |

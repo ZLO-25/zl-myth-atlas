@@ -15,3 +15,4 @@
 - {id: cn-yaoshun, system: chinese, order: 5, name: 堯舜時代, summary: 堯在位時十個太陽一起出來，后羿射日；堯把王位讓給舜。}
 - {id: cn-flood, system: chinese, order: 6, name: 洪水與治水, summary: 大洪水淹沒天下，鯀堵水失敗，兒子禹疏導成功。}
 - {id: cn-xia, system: chinese, order: 7, name: 夏朝開始, summary: 禹的兒子啟繼位，「讓賢」變成「傳子」；從這裡開始，故事慢慢變成歷史。}
+- {id: cn-world, system: chinese, order: 8, name: 神話世界（不分年代）, summary: 龍、鳳凰、九尾狐這些神獸，崑崙山、扶桑樹這些神話地點，以及牛郎織女這種年代說不準的民間故事。}

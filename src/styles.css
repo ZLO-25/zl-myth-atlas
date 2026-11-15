@@ -102,6 +102,7 @@ main { min-height: 70vh; }
 .t-英雄 { background: var(--terra); border-color: var(--terra); }
 .t-故事 { background: var(--olive); border-color: var(--olive); }
 .t-怪物, .t-地點 { background: #6b5b4b; border-color: #6b5b4b; }
+.t-神獸 { background: #2e5e7e; border-color: #2e5e7e; }
 .r-神話裡有歷史影子, .r-真實歷史 { border-color: var(--gold); color: var(--gold); }
 
 /* 卡片頁 */

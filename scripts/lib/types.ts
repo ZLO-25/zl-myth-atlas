@@ -1,6 +1,6 @@
 // 全站共用的資料型別。欄位說明見 docs/card-fields.md（兩者不一致時以文件為準並修正這裡）。
 
-export const CARD_TYPES = ['原始神', '泰坦', '神', '英雄', '凡人', '怪物', '故事', '地點', '物品'] as const;
+export const CARD_TYPES = ['原始神', '泰坦', '神', '英雄', '凡人', '怪物', '神獸', '故事', '地點', '物品'] as const;
 export type CardType = (typeof CARD_TYPES)[number];
 
 export const MYTH_SYSTEMS = ['greek', 'roman', 'norse', 'chinese'] as const;
@@ -146,6 +146,8 @@ export interface Place {
   name_zh: string;
   name_en: string;
   name_orig?: string; // 古代原文，例如 Δελφοί
+  /** 屬於哪個神話體系；沒寫＝希臘羅馬 */
+  system?: 'chinese';
   kind: 'real' | 'mythic';
   lat?: number;
   lng?: number;
