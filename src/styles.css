@@ -202,7 +202,10 @@ pre.ascii { background: var(--surface); border: 1px solid var(--line); padding: 
 .edge-foe { stroke: #b23a2e; stroke-width: 2; }
 .foe-mark { fill: #b23a2e; font-size: 16px; font-weight: 700; }
 .row-label { font-size: 14px; font-weight: 700; fill: var(--terra); }
-.family-legend { display: flex; flex-wrap: wrap; gap: 0.4rem 1.2rem; margin: 0.8rem 0 0.2rem; font-size: 0.9rem; }
+.family-legend { display: flex; flex-wrap: wrap; gap: 0.4rem 1.4rem; margin: 0.8rem 0 0.4rem; padding: 0; list-style: none; font-size: 0.9rem; }
+.family-legend li { display: inline-flex; align-items: center; gap: 0.4rem; }
+.lg-swatch { flex: none; overflow: visible; }
+.lg-box { display: inline-block; width: 1.6rem; height: 0.9rem; border: 1.5px dashed var(--muted); border-radius: 4px; }
 .lg-consort { color: var(--terra); }
 .lg-succ { color: var(--aegean); }
 .lg-foe { color: #b23a2e; }
@@ -342,3 +345,8 @@ pre.ascii { background: var(--surface); border: 1px solid var(--line); padding: 
 .jump-btns button { border: 1px solid var(--aegean); background: var(--surface); color: var(--aegean); padding: 0.45rem 1rem; min-height: 2.4rem; border-radius: 999px; font: inherit; font-weight: 700; cursor: pointer; }
 .jump-btns button:hover { background: var(--aegean); color: #fff; }
 #gr-rome, #cn-west { scroll-margin-top: 5.5rem; }
+
+/* 族譜：卡厄斯 → 蓋亞「接著出現」 */
+.edge-then { stroke: var(--olive); stroke-dasharray: 1 6; stroke-width: 2.4; stroke-linecap: round; }
+.then-arrow { fill: var(--olive); }
+.cn-consort-sw { stroke-width: 5; }
