@@ -142,7 +142,7 @@ function SearchBox() {
     <div className="search" ref={box}>
       <input
         type="search"
-        placeholder="搜尋：宙斯、Jupiter、雅典娜…"
+        placeholder="搜尋：宙斯、女媧、奧丁…"
         value={q}
         aria-label="搜尋卡片"
         onChange={(e) => {

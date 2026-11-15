@@ -16,6 +16,9 @@ export function imgSrc(im: ImageItem): string {
 /** 中華神話的卡片（其餘是希臘羅馬） */
 export const isChinese = (c?: { myth_system: string[] }) => !!c?.myth_system.includes('chinese');
 
+/** 北歐神話的卡片 */
+export const isNorse = (c?: { myth_system: string[] }) => !!c?.myth_system.includes('norse');
+
 export const TYPE_ORDER = ['原始神', '泰坦', '神', '英雄', '凡人', '故事', '怪物', '神獸', '地點', '物品'];
 
 /** 卡片的「頭像」：第一張圖 */
