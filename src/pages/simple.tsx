@@ -45,7 +45,7 @@ export function Home() {
           <a href={href('family')}><strong>族譜</strong><span>點一位神展開家族；中華神話看傳位與對戰</span></a>
           <a href={href('timeline')}><strong>神話年代</strong><span>從混沌到羅馬建國；從盤古到夏朝</span></a>
           <a href={href('map')}><strong>地圖</strong><span>真實地點與冥界</span></a>
-          <a href={href('compare')}><strong>希臘 vs 羅馬</strong><span>不只是換名字</span></a>
+          <a href={href('compare')}><strong>對照</strong><span>希臘 vs 羅馬、中西神話：不只是換名字</span></a>
           <a href={href('today')}><strong>今日影子</strong><span>{site.today.length} 個你看過的梗</span></a>
         </div>
       </section>
@@ -210,10 +210,21 @@ function greekOrig(id?: string) {
   return o && origLang(o) === '希臘文' ? o : '—';
 }
 
+function jumpTo(id: string) {
+  document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
 export function Compare() {
   return (
     <div className="page">
-      <h1>希臘 vs 羅馬</h1>
+      <h1>對照</h1>
+      <p className="lead">這一頁放兩種對照：希臘神和羅馬神怎麼對應，以及中華神話和希臘羅馬神話怎麼回答同樣的問題。</p>
+      <div className="jump-btns" aria-label="頁內跳轉">
+        <button type="button" onClick={() => jumpTo('gr-rome')}>希臘 vs 羅馬</button>
+        <button type="button" onClick={() => jumpTo('cn-west')}>中西神話對照</button>
+      </div>
+      <section id="gr-rome">
+      <h2>希臘 vs 羅馬</h2>
       <p className="lead">羅馬人把很多希臘神「對應」到自己原有的神上，但個性、地位常常不一樣。下面是名字對照；點神名看每位神的真正差異。</p>
       <div className="table-wrap">
         <table className="compare">
@@ -244,6 +255,7 @@ export function Compare() {
           </tbody>
         </table>
       </div>
+      </section>
       <BorrowStory />
       <ChineseWestern />
     </div>

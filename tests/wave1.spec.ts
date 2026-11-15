@@ -47,3 +47,20 @@ test('第一波 2：導覽列在窄螢幕有橫滑提示，目前項目會捲進
   await expect(nav.locator('a.on')).toHaveText('地圖');
   await expect.poll(inView).toBe(true);
 });
+
+test('第一波 3：導覽與首頁磚塊改叫「對照」，頁內有兩個跳轉鈕', async ({ page }) => {
+  await page.goto('');
+  await expect(page.locator('.site-header nav a[href="#/compare"]')).toHaveText('對照');
+  await expect(page.locator('.site-header nav')).not.toContainText('希臘 vs 羅馬');
+  await expect(page.locator('.tiles a[href="#/compare"] strong')).toHaveText('對照');
+  await page.locator('.tiles a[href="#/compare"]').click();
+  await expect(page).toHaveURL(/#\/compare$/);
+  await expect(page.locator('h1')).toHaveText('對照');
+  const btns = page.locator('.jump-btns button');
+  await expect(btns).toHaveText(['希臘 vs 羅馬', '中西神話對照']);
+  await btns.nth(1).click();
+  await expect.poll(async () => (await page.locator('#cn-west').boundingBox())!.y).toBeLessThan(250);
+  await btns.nth(0).click();
+  await expect.poll(async () => (await page.locator('#gr-rome').boundingBox())!.y).toBeLessThan(250);
+  await expect(page).toHaveURL(/#\/compare$/);
+});

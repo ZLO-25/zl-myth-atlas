@@ -336,3 +336,9 @@ pre.ascii { background: var(--surface); border: 1px solid var(--line); padding: 
 .nav-wrap::before { left: 0; background: linear-gradient(to right, var(--surface), transparent); }
 .nav-wrap::after { right: 0; background: linear-gradient(to left, var(--surface) 20%, transparent); }
 .nav-wrap.more-left::before, .nav-wrap.more-right::after { opacity: 1; }
+
+/* 對照頁：頁內跳轉鈕 */
+.jump-btns { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.8rem 0 1.2rem; }
+.jump-btns button { border: 1px solid var(--aegean); background: var(--surface); color: var(--aegean); padding: 0.45rem 1rem; min-height: 2.4rem; border-radius: 999px; font: inherit; font-weight: 700; cursor: pointer; }
+.jump-btns button:hover { background: var(--aegean); color: #fff; }
+#gr-rome, #cn-west { scroll-margin-top: 5.5rem; }

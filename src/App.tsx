@@ -14,7 +14,7 @@ const NAV: [string, string][] = [
   ['family', '族譜'],
   ['timeline', '年代'],
   ['map', '地圖'],
-  ['compare', '希臘 vs 羅馬'],
+  ['compare', '對照'],
   ['today', '今日影子'],
 ];
 
