@@ -35,6 +35,8 @@ for (const c of cards) {
 }
 
 const GOD_TYPES = new Set(['神', '原始神', '泰坦']);
+const FAMILY_RELS = ['parents', 'consorts', 'children', 'siblings', 'predecessors', 'successors', 'foes'] as const;
+const isChinese = (c: Card) => c.myth_system?.includes('chinese');
 
 for (const c of cards) {
   const w = c.file ?? c.id;
@@ -42,13 +44,16 @@ for (const c of cards) {
   const expectFile = path.basename(c.file!, '.md');
   if (expectFile !== c.id) err(w, `檔名要和 id 一樣（${c.id}.md）`);
   if (!CARD_TYPES.includes(c.type)) err(w, `type 必須是 ${CARD_TYPES.join('／')}`);
-  if (!Array.isArray(c.myth_system) || !c.myth_system.length || c.myth_system.some((s) => !MYTH_SYSTEMS.includes(s))) err(w, 'myth_system 要列出 greek／roman／norse');
+  if (!Array.isArray(c.myth_system) || !c.myth_system.length || c.myth_system.some((s) => !MYTH_SYSTEMS.includes(s))) err(w, `myth_system 要列出 ${MYTH_SYSTEMS.join('／')}`);
   for (const k of ['name_zh', 'name_en', 'name_orig', 'hook', 'era'] as const) if (!c[k]) err(w, `缺少 ${k}`);
   if (!Array.isArray(c.aliases) || !c.aliases.length) err(w, 'aliases 至少 1 個（其他譯名、英文、稱號）');
   if (!Array.isArray(c.three_lines) || c.three_lines.length !== 3) err(w, 'three_lines 要剛好 3 句');
   if (!c.reality || !REALITY_LEVELS.includes(c.reality.level)) err(w, `reality.level 必須是 ${REALITY_LEVELS.join('／')}`);
   else if (c.reality.level !== '純神話' && (!c.reality.evidence || !c.reality.src?.length)) err(w, 'reality 不是純神話時要寫 evidence 與 src');
   if (c.era && !eraIds.has(c.era)) err(w, `era「${c.era}」不在 data/eras.yaml`);
+  else if (c.era && (eras.find((e) => e.id === c.era)?.system === 'chinese') !== !!isChinese(c)) err(w, `era「${c.era}」和 myth_system 不同體系（中華卡片要用 system: chinese 的年代）`);
+  if (isChinese(c) && !/^\S+ \/ \S/.test(c.name_orig ?? '')) err(w, 'name_orig 寫成「漢字 / 拼音」，例如「女媧 / Nǚwā」');
+  if (isChinese(c) && c.myth_system.length > 1) err(w, 'myth_system 寫了 chinese 就不要再混其他體系');
   if (!c.topics?.length) err(w, 'topics 至少 1 個');
   for (const t of c.topics ?? []) if (!topicNames.has(t)) err(w, `主題標籤「${t}」不在 data/topics.yaml`);
   if (!c.body || !/##\s*故事/.test(c.body)) err(w, '正文要有「## 故事」段落');
@@ -76,7 +81,7 @@ for (const c of cards) {
 
   // 族譜
   const fam = c.family ?? {};
-  for (const rel of ['parents', 'consorts', 'children', 'siblings'] as const) {
+  for (const rel of FAMILY_RELS) {
     for (const f of (fam[rel] ?? []) as FamilyLink[]) {
       if (!f.id && !f.name) err(w, `family.${rel} 每筆要有 id 或 name`);
       if (f.id && !cardIds.has(f.id)) err(w, `family.${rel} 的 ${f.id} 沒有這張卡（沒有卡的人物改用 name）`);
@@ -130,7 +135,7 @@ for (const c of cards) {
 
 // 名稱格式「中文 English（原文）」：沒有卡片的人物要在 data/names.yaml 補英文與原文
 for (const c of cards) {
-  for (const k of ['parents', 'consorts', 'children', 'siblings'] as const) {
+  for (const k of FAMILY_RELS) {
     for (const f of c.family?.[k] ?? []) {
       if (f.id || !f.name) continue;
       const n = names[f.name];

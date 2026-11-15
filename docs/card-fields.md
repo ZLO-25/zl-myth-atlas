@@ -28,17 +28,17 @@ cards/god/god-zeus.md
 |---|---|---|
 | `id` | ✔ | 英文小寫連字號，和檔名相同，例 `god-zeus`、`story-trojan-war`。前綴：`primordial-` `titan-` `god-` `hero-` `story-` `event-` `monster-` `place-` |
 | `type` | ✔ | 原始神／泰坦／神／英雄／凡人／怪物／故事／地點／物品 |
-| `myth_system` | ✔ | `[greek]`、`[roman]` 或 `[greek, roman]` |
+| `myth_system` | ✔ | `[greek]`、`[roman]`、`[greek, roman]`，或中華神話 `[chinese]`（不和其他體系混用） |
 | `name_zh` | ✔ | 台灣最通行譯名 |
 | `aliases` | ✔ | 其他中文譯名（含中國大陸譯名）、稱號、英文別名；全部可搜尋。簡體寫法由建置程式自動產生 |
-| `name_en`、`name_orig` | ✔ | 英文；原文（希臘文附拉丁轉寫，如 `Ζεύς / Zeus`） |
+| `name_en`、`name_orig` | ✔ | 英文；原文（希臘文附拉丁轉寫，如 `Ζεύς / Zeus`；中華神話寫「漢字 / 帶聲調拼音」，如 `女媧 / Nǚwā`，網站會顯示成「女媧 Nuwa（Nǚwā）」） |
 | `roman` | | `{name_zh, name_la, name_en?, card?, note?}` 對應的羅馬名 |
 | `reality` | ✔ | `{level: 純神話｜神話裡有歷史影子｜真實歷史, evidence?, src?}`；後兩者必須寫 evidence 與 src |
 | `three_lines` | ✔ | 剛好三句：他是誰、最有名的故事、為什麼今天你會遇到他 |
 | `hook` | ✔ | 一句話記住他 |
 | `domains` | 神祇必填 | `{roles: [...], symbols: [...]}` |
 | `how_to_recognize` | 神祇必填 | 名畫雕像裡怎麼認出他 |
-| `family` | | `parents`／`consorts`／`children`／`siblings`，每筆 `{id 或 name, src, variant?}`。`variant` 有值＝「另有一說」，族譜畫虛線 |
+| `family` | | `parents`／`consorts`／`children`／`siblings`，每筆 `{id 或 name, src, variant?}`。`variant` 有值＝「另有一說」，族譜畫虛線。中華神話另有 `predecessors`（王位從誰接來）、`successors`（王位傳給誰）、`foes`（對戰），在「中華神話：家族、傳位與對戰」圖裡畫成傳位箭頭與 ✖ |
 | `panels` | 重要故事必填 | 4–8 格，每格 `{image?, text, src}` |
 | `images` | 神祇至少 2 張真實作品 | `data/images.yaml` 的 id |
 | `sources` | ✔ | 至少 1 個 `kind: ancient` 古代原典＋1 個 `kind: modern` 現代可靠來源（維基百科不算） |
@@ -46,7 +46,7 @@ cards/god/god-zeus.md
 | `greek_vs_roman` | 奧林帕斯神必填 | `{text, src}`，寫真正的差異，不只是換名字 |
 | `today` | | 今日影子 id 清單 |
 | `places` | | `data/places.yaml` 的 id 或地點卡 id |
-| `era` | ✔ | `data/eras.yaml` 的 id |
+| `era` | ✔ | `data/eras.yaml` 的 id；中華卡片只能用 `system: chinese` 的年代（`cn-` 開頭） |
 | `topics` | ✔ | `data/topics.yaml` 的名稱 |
 | `disputed` | | `[{claim, views: [{view, src}]}]` |
 | `history_river` | | `{url, label}`，連到歷史長河的真實歷史卡 |

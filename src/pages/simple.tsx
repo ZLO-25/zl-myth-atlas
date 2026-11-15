@@ -18,21 +18,32 @@ const STARTER_PATH: [string, string][] = [
 ];
 import { href } from '../lib/router';
 
+/** 中華神話新手路線：從開天闢地讀到夏朝，看神怎麼一步步「變成」古代帝王 */
+const CN_PATH: [string, string][] = [
+  ['primordial-pangu', '天地像一顆蛋，巨人盤古把它撐開，死後化成山川日月'],
+  ['primordial-nuwa', '女媧捏土造人；天塌了，她煉五色石把天補好'],
+  ['primordial-fuxi', '伏羲畫八卦、教人結網捕魚：不打仗的「文化英雄」'],
+  ['god-huangdi', '黃帝在涿鹿打敗蚩尤，後來被《史記》寫成第一位君主'],
+  ['hero-houyi', '十個太陽一起出來，后羿把它們射下來'],
+  ['hero-change', '嫦娥吃了不死藥飛上月亮，中秋的故事從這裡開始'],
+  ['hero-yu', '大禹疏導洪水，他的兒子開啟夏朝：神話接上歷史'],
+];
+
 export function Home() {
   const featured = ['god-zeus', 'god-athena', 'story-pandora', 'hero-odysseus', 'story-trojan-horse', 'monster-medusa'].map((id) => cardById.get(id)).filter(Boolean);
   return (
     <div className="page home">
       <section className="hero">
         <h1>眾神星圖</h1>
-        <p className="lead">希臘與羅馬神話：認得眾神與英雄，能把故事講給別人聽，也看得懂今天電影、品牌、英文單字裡的神話梗。每件事都附來源。</p>
+        <p className="lead">希臘羅馬神話與中華神話：認得眾神與英雄，能把故事講給別人聽，也看得懂今天電影、品牌、英文單字、太空任務裡的神話梗。每件事都附來源。</p>
         <a className="overview-cta" href={href('overview')}>
           <strong>第一次來？先看總覽</strong>
           <span>五分鐘講完：世界長什麼樣、誰是誰、故事從哪來、為什麼今天還要懂 →</span>
         </a>
         <div className="tiles">
           <a href={href('cards')}><strong>卡片</strong><span>{site.cards.length} 張神、英雄、故事</span></a>
-          <a href={href('family')}><strong>族譜</strong><span>點一位神展開家族</span></a>
-          <a href={href('timeline')}><strong>神話年代</strong><span>從混沌到羅馬建國</span></a>
+          <a href={href('family')}><strong>族譜</strong><span>點一位神展開家族；中華神話看傳位與對戰</span></a>
+          <a href={href('timeline')}><strong>神話年代</strong><span>從混沌到羅馬建國；從盤古到夏朝</span></a>
           <a href={href('map')}><strong>地圖</strong><span>真實地點與冥界</span></a>
           <a href={href('compare')}><strong>希臘 vs 羅馬</strong><span>不只是換名字</span></a>
           <a href={href('today')}><strong>今日影子</strong><span>{site.today.length} 個你看過的梗</span></a>
@@ -45,7 +56,7 @@ export function Home() {
           <li><strong>聽故事</strong><span>分格故事 → 正文 → 名畫。句尾的小字 [s1] 可以點，直接跳到原典。</span></li>
           <li><strong>認出今天的影子</strong><span>卡片底部「這個梗你看過」：單字、品牌、電影，每條都寫明「和原典差在哪」。</span></li>
         </ol>
-        <p className="muted small">本站的神話全部來自古代原典（荷馬、赫西俄德、奧維德……），句尾的小字來源可以直接點開英譯本對照。</p>
+        <p className="muted small">本站的神話全部來自古代原典（荷馬、赫西俄德、奧維德、《山海經》、《淮南子》、《史記》……），句尾的小字來源可以直接點開原文或英譯本對照。</p>
       </section>
       <section>
         <h2>新手路線：照順序讀 8 張，就有整部神話的骨架</h2>
@@ -68,6 +79,28 @@ export function Home() {
           })}
         </ol>
         <p className="muted small">讀完這 8 張，再用上面的「族譜」「年代」「地圖」把人物和地方串起來。</p>
+      </section>
+      <section>
+        <h2>中華神話新手路線：從盤古讀到大禹</h2>
+        <p className="muted">希臘神話是一棵家譜樹，主線是「兒子推翻父親」；中華神話比較像一條時間線，越往後神越像古代帝王，主線是「替人類解決問題」。</p>
+        <ol className="path">
+          {CN_PATH.map(([id, why], i) => {
+            const c = cardById.get(id);
+            if (!c) return null;
+            const era = eraById.get(c.era);
+            return (
+              <li key={id}>
+                <a href={href('card', id)}>
+                  <span className="path-no">{i + 1}</span>
+                  <span className="path-body">
+                    <strong>{c.name_zh}</strong> <span className="muted">{enOrig(cardNames(c))}｜{era?.name}</span>
+                    <span className="path-why">{why}</span>
+                  </span>
+                </a>
+              </li>
+            );
+          })}
+        </ol>
       </section>
       {featured.length > 0 && (
         <section>
@@ -133,7 +166,7 @@ export function CardList() {
         ))}
       </div>
       <div className="filters" aria-label="依神話系統篩選">
-        {[['全部', '希臘＋羅馬'], ['greek', '有希臘版本'], ['roman', '有羅馬版本']].map(([k, label]) => (
+        {[['全部', '全部'], ['greek', '希臘'], ['roman', '羅馬'], ['chinese', '中華']].map(([k, label]) => (
           <button key={k} className={k === sys ? 'on' : ''} onClick={() => setSys(k)}>
             {label}
           </button>

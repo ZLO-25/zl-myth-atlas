@@ -3,7 +3,7 @@
 export const CARD_TYPES = ['原始神', '泰坦', '神', '英雄', '凡人', '怪物', '故事', '地點', '物品'] as const;
 export type CardType = (typeof CARD_TYPES)[number];
 
-export const MYTH_SYSTEMS = ['greek', 'roman', 'norse'] as const;
+export const MYTH_SYSTEMS = ['greek', 'roman', 'norse', 'chinese'] as const;
 export type MythSystem = (typeof MYTH_SYSTEMS)[number];
 
 export const REALITY_LEVELS = ['純神話', '神話裡有歷史影子', '真實歷史'] as const;
@@ -55,7 +55,18 @@ export interface Card {
   how_to_recognize_src?: string[];
   /** 古代與後世作品真的很少時，說明原因（有寫就不要求 2 張作品圖） */
   few_images?: string;
-  family?: { parents?: FamilyLink[]; consorts?: FamilyLink[]; children?: FamilyLink[]; siblings?: FamilyLink[] };
+  family?: {
+    parents?: FamilyLink[];
+    consorts?: FamilyLink[];
+    children?: FamilyLink[];
+    siblings?: FamilyLink[];
+    /** 傳位：王位從誰手上接來（中華神話的堯→舜→禹） */
+    predecessors?: FamilyLink[];
+    /** 傳位：王位傳給誰 */
+    successors?: FamilyLink[];
+    /** 對戰：和誰打過（黃帝對蚩尤） */
+    foes?: FamilyLink[];
+  };
   panels?: Panel[];
   images?: string[];
   sources: Source[];
@@ -115,6 +126,8 @@ export interface TodayItem {
 
 export interface Era {
   id: string;
+  /** 屬於哪個神話體系的年代；沒寫＝希臘羅馬 */
+  system?: 'chinese';
   name: string;
   order: number;
   summary: string;

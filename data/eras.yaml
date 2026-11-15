@@ -7,3 +7,11 @@
 - {id: trojan-war, order: 6, name: 特洛伊戰爭, summary: 希臘聯軍圍攻特洛伊十年，英雄時代最大的一場戰爭。}
 - {id: returns, order: 7, name: 返鄉與後代, summary: 戰後英雄們各自返鄉，有人漂流十年，有人死在家門口。}
 - {id: rome, order: 8, name: 羅馬建國, summary: 特洛伊人埃涅阿斯的後代在義大利建立羅馬。}
+# 中華神話（system: chinese）：同樣是故事順序。越往後，神越像「古代帝王」，最後接上歷史上的夏朝。
+- {id: cn-creation, system: chinese, order: 1, name: 開天闢地, summary: 天地像一顆蛋，盤古在裡面長大，把天地撐開；死後身體變成山川日月。}
+- {id: cn-mending, system: chinese, order: 2, name: 補天造人, summary: 女媧用黃土捏出人類；天塌地裂時，她煉五色石補天。}
+- {id: cn-sages, system: chinese, order: 3, name: 三皇教化, summary: 伏羲、神農等「文化英雄」教人捕魚、畫八卦、種田、嘗藥。}
+- {id: cn-yanhuang, system: chinese, order: 4, name: 炎黃之戰, summary: 黃帝先後和炎帝、蚩尤大戰，成為「五帝」之首。}
+- {id: cn-yaoshun, system: chinese, order: 5, name: 堯舜時代, summary: 堯在位時十個太陽一起出來，后羿射日；堯把王位讓給舜。}
+- {id: cn-flood, system: chinese, order: 6, name: 洪水與治水, summary: 大洪水淹沒天下，鯀堵水失敗，兒子禹疏導成功。}
+- {id: cn-xia, system: chinese, order: 7, name: 夏朝開始, summary: 禹的兒子啟繼位，「讓賢」變成「傳子」；從這裡開始，故事慢慢變成歷史。}

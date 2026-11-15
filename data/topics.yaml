@@ -17,3 +17,7 @@
 - {id: curse, name: 家族詛咒, desc: 罪行讓詛咒一代傳一代。}
 - {id: humans, name: 人類起源, desc: 人類從哪來、為什麼會受苦。}
 - {id: homecoming, name: 返鄉, desc: 漫長的回家之路。}
+- {id: culture-hero, name: 文化英雄, desc: 發明火、農業、文字、醫藥的神或先祖，教人類怎麼過日子。}
+- {id: flood, name: 洪水, desc: 淹沒天下的大水，以及人類怎麼活下來。}
+- {id: myth-to-history, name: 神話變歷史, desc: 神話人物被古代史書寫成真實的帝王（例如《史記》的黃帝、堯、舜、禹）。}
+- {id: sun-moon, name: 日月星辰, desc: 用神話解釋太陽、月亮與星星。}
