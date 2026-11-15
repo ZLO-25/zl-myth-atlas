@@ -447,3 +447,10 @@ pre.ascii { background: var(--surface); border: 1px solid var(--line); padding: 
   .search { flex: 1 1 6rem; }
   .orig-toggle { padding: 0.2rem 0.6rem; font-size: 0.85rem; }
 }
+
+/* 總覽：每幕回顧先問問題，按「看答案」才展開 */
+.recap-q { margin: 0.2rem 0 0.5rem; }
+.recap-q strong { margin-right: 0.6rem; }
+.recap-btn { min-height: 2.4rem; padding: 0.2rem 1.1rem; border: 1px solid var(--olive); border-radius: 999px; background: var(--surface); color: var(--olive); font: inherit; font-weight: 700; cursor: pointer; }
+.recap-btn:hover, .recap-btn[aria-expanded='true'] { background: var(--olive); color: var(--bg); }
+.recap-body { margin-top: 0.6rem; }

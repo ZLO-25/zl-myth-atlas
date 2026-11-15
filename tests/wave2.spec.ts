@@ -360,3 +360,34 @@ test('第二波 6：讀不到 localStorage 時開關照樣能用', async ({ page
   await page.locator('button.orig-toggle').click();
   expect(await page.locator('h1').first().innerText()).not.toMatch(/[Ͱ-Ͽἀ-῿]/);
 });
+
+test('第二波 7：總覽每幕結尾先問問題，按「看答案」才展開回顧', async ({ page }) => {
+  await page.goto('#/overview');
+  const recaps = page.locator('aside.recap');
+  await expect(recaps).toHaveCount(8);
+  // 預設：每一幕都只有問題與按鈕，沒有答案
+  await expect(page.getByText('讀到這裡你已經知道')).toHaveCount(0);
+  for (const r of await recaps.all()) {
+    await expect(r.locator('.recap-q')).toContainText('先想一想');
+    expect((await r.locator('.recap-q').innerText()).length).toBeGreaterThan(12);
+    await expect(r.getByRole('button', { name: '看答案' })).toHaveAttribute('aria-expanded', 'false');
+  }
+  // 問題在回顧之前（問題文字出現在答案文字之前）
+  const first = recaps.first();
+  const btn = first.getByRole('button', { name: '看答案' });
+  expect((await btn.boundingBox())!.height).toBeGreaterThanOrEqual(24);
+  await btn.scrollIntoViewIfNeeded();
+  await btn.click();
+  await expect(first.getByRole('button', { name: '收起答案' })).toHaveAttribute('aria-expanded', 'true');
+  await expect(first.locator('.recap-body')).toContainText('讀到這裡你已經知道');
+  await expect(first.locator('.recap-body li')).toHaveCount(3);
+  const qY = (await first.locator('.recap-q').boundingBox())!.y;
+  const bodyY = (await first.locator('.recap-body').boundingBox())!.y;
+  expect(qY).toBeLessThan(bodyY);
+  // 其他幕不受影響
+  await expect(page.getByText('讀到這裡你已經知道')).toHaveCount(1);
+  // 再按一次收起
+  await first.getByRole('button', { name: '收起答案' }).click();
+  await expect(page.getByText('讀到這裡你已經知道')).toHaveCount(0);
+  await noHScroll(page);
+});
