@@ -12,7 +12,8 @@ three_lines:
   - 他抬頭看天、低頭看地，畫出了八卦；又學蜘蛛結網，教人用網子打獵捕魚。
   - 太極八卦圖、算命攤上的八卦，傳說都從伏羲開始。
 hook: 伏羲：看天看地畫出八卦、學蜘蛛結網，教人類捕魚的文化英雄。
-images: [img-fuxi-nuwa-astana]
+images: [img-fuxi-nuwa-astana, img-ai-portrait-fuxi]
+few_images: 古代流傳下來的公有領域圖很少，本站另補一張 AI 示意圖
 domains:
   roles: [八卦, 漁獵, 教化]
   symbols: [八卦, 曲尺（直角尺）, 漁網, 太陽]

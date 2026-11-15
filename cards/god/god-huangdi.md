@@ -12,7 +12,8 @@ three_lines:
   - 他先在阪泉打敗炎帝，再在涿鹿和戰神蚩尤大戰，靠應龍和天女魃才贏。
   - 「炎黃子孫」說的就是他；中醫經典《黃帝內經》也掛他的名字（其實是後人所寫）。
 hook: 黃帝：打敗蚩尤的天帝，被司馬遷寫成了中國歷史的第一頁。
-images: [img-huangdi-portrait]
+images: [img-huangdi-portrait, img-ai-portrait-huangdi]
+few_images: 古代流傳下來的公有領域圖很少，本站另補一張 AI 示意圖
 domains:
   roles: [天帝, 五帝之首, 戰爭, 發明（後世傳說）]
   symbols: [黃色, 冕冠, 應龍]

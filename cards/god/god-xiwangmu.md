@@ -12,7 +12,8 @@ three_lines:
   - 最早的《山海經》把她寫成豹尾虎齒、披頭散髮的可怕神靈；后羿就是向她求來不死藥。
   - 後來她越變越美，成了《西遊記》裡開蟠桃會的「王母娘娘」。
 hook: 西王母：從豹尾虎齒的山神，變成開蟠桃會的王母娘娘。
-images: [img-xiwangmu-songshan]
+images: [img-xiwangmu-songshan, img-ai-portrait-xiwangmu]
+few_images: 古代流傳下來的公有領域圖很少，本站另補一張 AI 示意圖
 domains:
   roles: [不死藥, 長生, 西方仙境]
   symbols: [勝（一種頭飾）, 蟠桃, 三青鳥, 玉兔搗藥]
