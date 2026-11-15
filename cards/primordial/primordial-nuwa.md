@@ -12,7 +12,7 @@ three_lines:
   - 她用黃土捏出人類；天塌地裂時，又煉五色石把天補好，砍下大龜的腳撐住四方。
   - 「女媧補天」是成語，《紅樓夢》開頭那塊通靈寶玉，就是她補天剩下的石頭。
 hook: 女媧：捏土造人、煉石補天，把破掉的世界修好的媽媽。
-images: [img-mawangdui-banner]
+images: [img-mawangdui-banner, img-fuxi-nuwa-astana]
 domains:
   roles: [造人, 補天, 婚姻（後世說法）]
   symbols: [五色石, 圓規, 蛇身]
