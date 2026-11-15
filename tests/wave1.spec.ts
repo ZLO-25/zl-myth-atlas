@@ -78,9 +78,9 @@ test('第一波 4：搜尋容錯、搜內文、不相干的詞顯示找不到', 
   await box.fill('四季');
   await expect(page.locator('.search-results')).toContainText('波瑟芬妮被擄');
   // 不相干：找不到，沒有雜訊
-  await box.fill('Thor');
+  await box.fill('Quetzalcoatl');
   await expect(items).toHaveCount(1);
-  await expect(items.first()).toContainText('找不到「Thor」');
+  await expect(items.first()).toContainText('找不到「Quetzalcoatl」');
   // 原本就對的搜尋結果不變
   await box.fill('Jupiter');
   await expect(items).toHaveCount(1);

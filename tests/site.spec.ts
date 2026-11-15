@@ -29,9 +29,9 @@ test('首頁與各主要頁面都能打開、不會左右捲動', async ({ page 
   expect(errors).toEqual([]);
 });
 
-test('全部卡片（希羅 45 張＋中華）都能打開，有三句話、來源清單，且不會左右捲動', async ({ page }) => {
+test('全部卡片（希羅 45 張＋中華＋北歐）都能打開，有三句話、來源清單，且不會左右捲動', async ({ page }) => {
   const errors = watchErrors(page);
-  expect(site.cards.filter((c: { myth_system: string[] }) => !c.myth_system.includes('chinese')).length).toBe(45);
+  expect(site.cards.filter((c: { myth_system: string[] }) => !c.myth_system.includes('chinese') && !c.myth_system.includes('norse')).length).toBe(45);
   for (const id of cardIds) {
     await page.goto(`#/card/${id}`);
     await expect(page.locator('h1').first(), id).toBeVisible();
