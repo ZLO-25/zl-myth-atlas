@@ -111,3 +111,16 @@ test('中華神話：卡片顯示拼音、傳承圖有傳位與對戰、年代�
   await noHorizontalScroll(page);
   expect(errors).toEqual([]);
 });
+
+test('中華神話：32 張卡、中國地圖與傳承圖', async ({ page }) => {
+  const errors = watchErrors(page);
+  expect(site.cards.filter((c: { myth_system: string[] }) => c.myth_system.includes('chinese')).length).toBe(32);
+  await page.goto('#/map');
+  await page.getByRole('button', { name: /中國/ }).click();
+  await expect(page.locator('.place-list li', { hasText: '涿鹿' })).toBeVisible();
+  await expect(page.locator('.place-list li', { hasText: '德爾菲' })).toHaveCount(0);
+  await page.goto('#/family/hero-yu');
+  expect(await page.locator('.family-svg .fname').count()).toBeGreaterThan(15);
+  await noHorizontalScroll(page);
+  expect(errors).toEqual([]);
+});

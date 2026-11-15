@@ -7,28 +7,30 @@ import { cardById, site } from '../lib/data';
 import { href } from '../lib/router';
 
 export function MapPage() {
-  const [tab, setTab] = useState<'real' | 'underworld'>('real');
+  const [tab, setTab] = useState<'real' | 'china' | 'underworld'>('real');
   return (
     <div className="page map-page">
       <h1>地圖</h1>
       <div className="filters">
-        <button className={tab === 'real' ? 'on' : ''} onClick={() => setTab('real')}>真實地圖</button>
+        <button className={tab === 'real' ? 'on' : ''} onClick={() => setTab('real')}>真實地圖：地中海</button>
+        <button className={tab === 'china' ? 'on' : ''} onClick={() => setTab('china')}>真實地圖：中國</button>
         <button className={tab === 'underworld' ? 'on' : ''} onClick={() => setTab('underworld')}>神話世界：冥界</button>
       </div>
-      {tab === 'real' ? <RealMap /> : <Underworld />}
+      {tab === 'underworld' ? <Underworld /> : <RealMap key={tab} china={tab === 'china'} />}
     </div>
   );
 }
 
-function RealMap() {
+function RealMap({ china }: { china: boolean }) {
+  const places = site.places.filter((x) => (x.system === 'chinese') === china);
   const ref = useRef<HTMLDivElement>(null);
-  const [showRoute, setShowRoute] = useState(true);
+  const [showRoute, setShowRoute] = useState(!china);
   useEffect(() => {
     if (!ref.current) return;
     const map = L.map(ref.current, { scrollWheelZoom: false });
     const pts: [number, number][] = [
-      ...site.places.filter((x) => x.kind === 'real' && x.lat != null).map((x) => [x.lat!, x.lng!] as [number, number]),
-      ...(showRoute ? site.odysseyRoute.map((x) => [x.lat, x.lng] as [number, number]) : []),
+      ...places.filter((x) => x.kind === 'real' && x.lat != null).map((x) => [x.lat!, x.lng!] as [number, number]),
+      ...(showRoute && !china ? site.odysseyRoute.map((x) => [x.lat, x.lng] as [number, number]) : []),
     ];
     if (pts.length) map.fitBounds(L.latLngBounds(pts), { padding: [24, 24] });
     else map.setView([38.5, 22], 5);
@@ -36,7 +38,7 @@ function RealMap() {
       maxZoom: 12,
       attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     }).addTo(map);
-    for (const p of site.places.filter((x) => x.kind === 'real' && x.lat != null)) {
+    for (const p of places.filter((x) => x.kind === 'real' && x.lat != null)) {
       const cards = p.cards.map((id) => { const c = cardById.get(id); return `<a href="${href('card', id)}">${c ? fullName(cardNames(c)) : id}</a>`; }).join('、');
       const src = p.src.map((s) => `<a href="${s.url}" target="_blank" rel="noreferrer">${s.cite}</a>`).join('；');
       L.circleMarker([p.lat!, p.lng!], { radius: 8, color: '#1F5F8B', fillColor: '#C4622D', fillOpacity: 0.9, weight: 2 })
@@ -44,7 +46,7 @@ function RealMap() {
         .bindPopup(`<strong>${p.name_zh}</strong> <span>${enOrig({ zh: p.name_zh, en: p.name_en, orig: p.name_orig })}</span><p>${p.archaeology ?? ''}</p><p>相關卡片：${cards}</p><p class="small">來源：${src}</p>`);
     }
     let route: L.LayerGroup | undefined;
-    if (showRoute && site.odysseyRoute.length) {
+    if (showRoute && !china && site.odysseyRoute.length) {
       route = L.layerGroup().addTo(map);
       L.polyline(
         site.odysseyRoute.map((s) => [s.lat, s.lng] as [number, number]),
@@ -61,18 +63,18 @@ function RealMap() {
     return () => {
       map.remove();
     };
-  }, [showRoute]);
+  }, [showRoute, china]);
   return (
     <>
-      <p className="lead">橘點＝神話裡出現、今天找得到的真實地點，點一下看考古狀況。</p>
-      {site.odysseyRoute.length > 0 && (
+      <p className="lead">{china ? '橘點＝中華神話與古書裡出現、今天找得到的地點。傳說地點是不是故事真正發生的地方，學界多半沒有定論；扶桑、不周山這類神話地點沒有真實位置，所以不上地圖。' : '橘點＝神話裡出現、今天找得到的真實地點，點一下看考古狀況。'}</p>
+      {!china && site.odysseyRoute.length > 0 && (
         <label className="check">
           <input type="checkbox" checked={showRoute} onChange={(e) => setShowRoute(e.target.checked)} /> 顯示奧德修斯可能的航線（<strong>學者推測，眾說紛紜</strong>：古代地理學家埃拉托斯特尼就說過，等你找到替風神縫風袋的鞋匠，才找得到奧德修斯漂流的地方；見<a href="https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/1B*.html" target="_blank" rel="noreferrer">史特拉波《地理學》1.2.15</a>）
         </label>
       )}
       <div ref={ref} className="leaflet-box" role="region" aria-label="真實地點地圖" />
       <ul className="place-list">
-        {site.places
+        {places
           .filter((p) => p.kind === 'real')
           .map((p) => (
             <li key={p.id}>

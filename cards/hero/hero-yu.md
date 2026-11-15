@@ -17,7 +17,7 @@ three_lines:
 hook: 大禹：把父親沒治好的洪水治好，經過家門三次都沒進去。
 family:
   parents:
-    - {name: 鯀, src: [s1, s2]}
+    - {id: hero-gun, src: [s1, s2]}
   predecessors:
     - {name: 舜, src: [s1]}
   successors:
@@ -30,6 +30,7 @@ sources:
   - {id: s4, kind: modern, cite: 大英百科「Gun」, url: 'https://www.britannica.com/topic/Gun-Chinese-mythological-figure', accessed: '2026-11-07'}
   - {id: s5, kind: modern, cite: 大英百科「Xia dynasty」, url: 'https://www.britannica.com/topic/Xia-dynasty', accessed: '2026-11-07'}
 era: cn-flood
+places: [kuaiji-yu]
 topics: [洪水, 神話變歷史, 王權更替]
 disputed:
   - claim: 禹在外治水幾年？
