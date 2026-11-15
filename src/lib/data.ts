@@ -21,10 +21,14 @@ export const isNorse = (c?: { myth_system: string[] }) => !!c?.myth_system.inclu
 
 export const TYPE_ORDER = ['原始神', '泰坦', '神', '英雄', '凡人', '故事', '怪物', '神獸', '地點', '物品'];
 
-/** 卡片的「頭像」：第一張圖 */
+/** 把 [[god-zeus|宙斯]] 這種卡片連結標記還原成純文字「宙斯」（搜尋、小卡浮窗用） */
+export const stripLinks = (s: string) => s.replace(/\[\[[a-z0-9-]+(?:\|([^\]]+))?\]\]/g, (_m, n?: string) => n ?? '');
+
+/** 卡片的「頭像」：第一張圖；還沒生圖的 AI 佔位圖不當頭像（磚塊會改顯示名字的第一個字） */
 export function avatarOf(c: Card): ImageItem | undefined {
   const id = c.images?.[0] ?? c.panels?.find((p) => p.image)?.image;
-  return id ? imageById.get(id) : undefined;
+  const im = id ? imageById.get(id) : undefined;
+  return im?.placeholder ? undefined : im;
 }
 
 /** 反向連結：哪些卡把我列為子女／父母／配偶 */

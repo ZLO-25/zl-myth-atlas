@@ -27,7 +27,7 @@ export function Home() {
           <a href={href('family')}><strong>族譜</strong><span>點一位神展開家族；北歐以奧丁為中心；中華神話看傳位與對戰</span></a>
           <a href={href('timeline')}><strong>神話年代</strong><span>從混沌到羅馬建國；從創世到諸神黃昏；從盤古到夏朝</span></a>
           <a href={href('map')}><strong>地圖</strong><span>真實地點與冥界</span></a>
-          <a href={href('compare')}><strong>對照</strong><span>希臘 vs 羅馬、中西神話：不只是換名字</span></a>
+          <a href={href('compare')}><strong>對照</strong><span>希臘 vs 羅馬、中西神話、北歐對照：不只是換名字</span></a>
           <a href={href('today')}><strong>今日影子</strong><span>{site.today.length} 個你看過的梗</span></a>
         </div>
       </section>
@@ -241,10 +241,11 @@ export function Compare() {
   return (
     <div className="page">
       <h1>對照</h1>
-      <p className="lead">這一頁放兩種對照：希臘神和羅馬神怎麼對應，以及中華神話和希臘羅馬神話怎麼回答同樣的問題。</p>
+      <p className="lead">這一頁放三種對照：希臘神和羅馬神怎麼對應、中華神話和希臘羅馬神話怎麼回答同樣的問題，以及再加上北歐神話的三方對照。</p>
       <div className="jump-btns" aria-label="頁內跳轉">
         <button type="button" onClick={() => jumpTo('gr-rome')}>希臘 vs 羅馬</button>
         <button type="button" onClick={() => jumpTo('cn-west')}>中西神話對照</button>
+        <button type="button" onClick={() => jumpTo('norse-compare')}>北歐對照</button>
       </div>
       <section id="gr-rome">
       <h2>希臘 vs 羅馬</h2>
@@ -281,6 +282,7 @@ export function Compare() {
       </section>
       <BorrowStory />
       <ChineseWestern />
+      <NorseCompare />
     </div>
   );
 }
@@ -328,6 +330,45 @@ function ChineseWestern() {
                 <td className="nw">{r.theme}</td>
                 <CwCell side={r.chinese} />
                 <CwCell side={r.western} />
+                <td className="wide">{r.diff}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </ScrollTable>
+    </section>
+  );
+}
+
+function NorseCompare() {
+  return (
+    <section className="borrow" id="norse-compare">
+      <h2>北歐對照</h2>
+      <p className="muted">這張表把四個相似的問題放在一起，看中華、希臘羅馬、北歐各怎麼回答；只比想法，不是說哪一邊影響了哪一邊。本站卡片沒寫的地方，會直接說沒寫。</p>
+      <pre className="ascii">{`同一個問題 ──┬─► 中華神話怎麼回答
+             ├─► 希臘羅馬神話怎麼回答
+             └─► 北歐神話怎麼回答
+                     │
+                     ▼
+              差在哪裡？（最右欄）`}</pre>
+      <ScrollTable>
+        <table className="compare">
+          <thead>
+            <tr>
+              <th>問題</th>
+              <th>中華神話</th>
+              <th>希臘羅馬神話</th>
+              <th>北歐神話</th>
+              <th>差在哪</th>
+            </tr>
+          </thead>
+          <tbody>
+            {site.threeWay.map((r) => (
+              <tr key={r.theme}>
+                <td className="nw">{r.theme}</td>
+                <CwCell side={r.chinese} />
+                <CwCell side={r.greek} />
+                <CwCell side={r.norse} />
                 <td className="wide">{r.diff}</td>
               </tr>
             ))}

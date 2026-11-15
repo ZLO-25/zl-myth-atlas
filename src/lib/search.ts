@@ -1,4 +1,4 @@
-import { site } from './data';
+import { site, stripLinks } from './data';
 
 export interface Hit {
   kind: 'card' | 'today';
@@ -36,7 +36,7 @@ const entries: Entry[] = [
       sub: [c.type, c.name_en, c.roman ? `羅馬：${c.roman.name_zh}` : ''].filter(Boolean).join('｜'),
       names,
       tokens: tokensOf(names),
-      text: [...c.three_lines, c.hook, ...(c.topics ?? []).flatMap((t) => [t, topicDesc.get(t) ?? ''])].filter(Boolean).map(norm),
+      text: [...c.three_lines.map(stripLinks), c.hook, ...(c.topics ?? []).flatMap((t) => [t, topicDesc.get(t) ?? ''])].filter(Boolean).map(norm),
     };
   }),
   ...site.today.map((t) => {

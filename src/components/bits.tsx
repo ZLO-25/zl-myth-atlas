@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState, type ReactNode } from 'react';
 import type { Card, ImageItem, Source } from '../../scripts/lib/types';
-import { avatarOf, cardById, imageById, imgSrc } from '../lib/data';
+import { avatarOf, cardById, imageById, imgSrc, stripLinks } from '../lib/data';
 import { href } from '../lib/router';
 import { cardNames, enOrig } from '../lib/names';
 
@@ -35,7 +35,7 @@ export function MiniCard({ c }: { c: Card }) {
         <strong>{c.name_zh}</strong> <span className="muted">{enOrig(cardNames(c))}</span>
         {c.three_lines.map((l, i) => (
           <span key={i} className="mini-line">
-            {l}
+            {stripLinks(l)}
           </span>
         ))}
       </span>
