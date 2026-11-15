@@ -186,3 +186,44 @@ test('第二波 3：全部卡片的題目都遮掉名字與別名，錯誤選項
     }
   }
 });
+
+test('第二波 4：分格故事可以切成只看圖、蓋住說明，每格能翻開看原文', async ({ page }) => {
+  await page.goto('#/card/story-pandora');
+  const panels = page.locator('[aria-label="分格故事"]');
+  const toggle = panels.getByRole('button', { name: /講給別人聽/ });
+  await expect(toggle).toHaveAttribute('aria-pressed', 'false');
+  await expect(panels.locator('.panel-text')).toBeVisible();
+  const text1 = await panels.locator('.panel-text').innerText();
+
+  await toggle.click();
+  await expect(toggle).toHaveAttribute('aria-pressed', 'true');
+  await expect(panels.locator('.panel-text')).toHaveCount(0);
+  await expect(panels.locator('.panel-frame img').first()).toBeVisible(); // 圖還在
+  const reveal = panels.getByRole('button', { name: '翻開看原文' });
+  await expect(reveal).toHaveAttribute('aria-expanded', 'false');
+  expect((await reveal.boundingBox())!.height).toBeGreaterThanOrEqual(24);
+  await reveal.click();
+  await expect(panels.locator('.panel-text')).toHaveText(text1);
+
+  // 下一格仍然是蓋住的：每格各自翻開
+  await panels.getByRole('button', { name: '下一格' }).click();
+  await expect(panels.locator('.panel-text')).toHaveCount(0);
+  await expect(panels.getByRole('button', { name: '翻開看原文' })).toBeVisible();
+  // 回第一格：剛翻開的還開著，可以再蓋起來
+  await panels.getByRole('button', { name: '上一格' }).click();
+  await expect(panels.locator('.panel-text')).toBeVisible();
+  await panels.getByRole('button', { name: '再蓋起來' }).click();
+  await expect(panels.locator('.panel-text')).toHaveCount(0);
+
+  // 關掉模式：說明文字回來
+  await toggle.click();
+  await expect(toggle).toHaveAttribute('aria-pressed', 'false');
+  await expect(panels.locator('.panel-text')).toHaveText(text1);
+  await noHScroll(page);
+  // 沒有分格故事的卡沒有這個按鈕
+  const noPanels = site.cards.find((c: C & { panels?: unknown[] }) => !c.panels?.length);
+  expect(noPanels).toBeTruthy();
+  await page.goto('#/card/' + noPanels.id);
+  await expect(page.locator('article.card-page h1').first()).toContainText(noPanels.name_zh);
+  await expect(page.getByRole('button', { name: /講給別人聽/ })).toHaveCount(0);
+});

@@ -407,3 +407,13 @@ pre.ascii { background: var(--surface); border: 1px solid var(--line); padding: 
 .quiz-redo { min-height: 2.4rem; padding: 0.3rem 1.2rem; border: 1px solid var(--aegean); border-radius: 999px; background: var(--surface); color: var(--aegean); font: inherit; font-weight: 700; cursor: pointer; }
 .quiz-redo:hover { background: var(--aegean); color: #fff; }
 @media (max-width: 760px) { .quiz-options { grid-template-columns: 1fr; } }
+
+/* 分格故事：講給別人聽（蓋住說明文字） */
+.panel-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem 0.8rem; margin-bottom: 0.8rem; }
+.cover-toggle, .panel-cover .reveal, .panel-reveal .reveal { min-height: 2.4rem; padding: 0.3rem 1rem; border: 1px solid var(--aegean); border-radius: 999px; background: var(--surface); color: var(--aegean); font: inherit; font-weight: 700; cursor: pointer; }
+.cover-toggle[aria-pressed='true'] { background: var(--aegean); color: var(--bg); }
+.cover-toggle:hover, .reveal:hover { filter: brightness(0.95); }
+.panel-cover { display: flex; flex-direction: column; align-items: flex-start; gap: 0.5rem; padding: 1rem; border: 2px dashed var(--line); border-radius: 12px; min-height: 8rem; justify-content: center; }
+.panel-cover p { margin: 0; }
+.panel-reveal { display: flex; flex-direction: column; align-items: flex-start; gap: 0.5rem; }
+.panel-reveal .reveal { font-size: 0.85rem; min-height: 2rem; border-color: var(--line); color: var(--muted); font-weight: 400; }
