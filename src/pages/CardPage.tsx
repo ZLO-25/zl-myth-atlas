@@ -3,6 +3,7 @@ import { markRead } from '../lib/progress';
 import type { Card } from '../../scripts/lib/types';
 import { CardLink, NameTag, Cites, Figure, Markdown, SourceList } from '../components/bits';
 import { Panels } from '../components/Panels';
+import { Quiz, hasQuiz } from '../components/Quiz';
 import { cardById, eraById, familyOf, isChinese, site, todayById } from '../lib/data';
 import { href } from '../lib/router';
 import { pathsOf } from '../lib/paths';
@@ -77,6 +78,7 @@ export function CardPage({ id }: { id: string }) {
   if (hasCauses) toc.push(['causes', '前因後果']);
   if (c.disputed?.length) toc.push(['disputed', '說法不一']);
   if (c.today?.length) toc.push(['today', '這個梗你看過']);
+  if (hasQuiz(c)) toc.push(['quiz', '考考自己']);
   toc.push(['sources', '來源']);
 
   const jump = (e: React.MouseEvent, anchor: string) => {
@@ -290,6 +292,8 @@ export function CardPage({ id }: { id: string }) {
           ))}
         </p>
       )}
+
+      <Quiz key={c.id} card={c} />
 
       <section id="sec-sources">
         <h2>來源</h2>

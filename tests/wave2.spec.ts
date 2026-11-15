@@ -1,4 +1,8 @@
 import { test, expect, type Page } from '@playwright/test';
+import fs from 'node:fs';
+
+const site = JSON.parse(fs.readFileSync('src/generated/site-data.json', 'utf8'));
+type C = { id: string; name_zh: string; name_en: string; aliases: string[]; roman?: { name_zh: string; name_la: string; name_en?: string } };
 
 const noHScroll = async (page: Page) => {
   const over = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
@@ -96,4 +100,89 @@ test('第二波 1：讀不到 localStorage 時網站照常運作', async ({ page
   // 存不進瀏覽器，但這次瀏覽還是記得
   await expect(page.locator('.path-count').first()).toHaveText('已讀 1/8');
   expect(errors).toEqual([]);
+});
+
+test('第二波 3：考考自己，題目自動產生、遮掉名字、選了立刻看對錯、可以重做', async ({ page }) => {
+  await page.goto('#/card/god-zeus');
+  const quiz = page.locator('section#sec-quiz');
+  await expect(quiz.locator('h2')).toHaveText('考考自己');
+  await expect(quiz.locator('.quiz-q')).toHaveCount(3);
+  await expect(page.locator('.toc a', { hasText: '考考自己' })).toBeVisible();
+  // 放在來源之前
+  expect((await quiz.boundingBox())!.y).toBeLessThan((await page.locator('#sec-sources').boundingBox())!.y);
+  const q1 = quiz.locator('.quiz-q').nth(0);
+  const stem = await q1.locator('.quiz-stem').innerText();
+  expect(stem).toContain('＿＿');
+  expect(stem).not.toMatch(/宙斯|Zeus|Jupiter|朱比特/i);
+  await expect(q1.locator('.quiz-opt')).toHaveCount(4);
+  const labels = await q1.locator('.quiz-opt').allInnerTexts();
+  expect(labels.some((l) => l.trim() === '宙斯')).toBe(true);
+
+  // 答錯：顯示正解
+  await q1.locator('.quiz-opt', { hasNotText: '宙斯' }).first().click();
+  await expect(q1.locator('.quiz-result')).toContainText('答錯了，正解是「宙斯」');
+  await expect(q1.locator('.quiz-opt.right')).toContainText('宙斯');
+  await expect(q1.locator('.quiz-opt.wrong')).toHaveCount(1);
+  await expect(q1.locator('.quiz-opt:not([disabled])')).toHaveCount(0);
+  // 答對
+  const q2 = quiz.locator('.quiz-q').nth(1);
+  await q2.locator('.quiz-opt', { hasText: '宙斯' }).click();
+  await expect(q2.locator('.quiz-result')).toContainText('答對了');
+  // 第三題是今日影子，答完附連結
+  const q3 = quiz.locator('.quiz-q').nth(2);
+  await q3.locator('.quiz-opt').first().click();
+  await expect(q3.locator('.quiz-result a')).toHaveAttribute('href', /#\/today\//);
+  await expect(quiz.locator('.quiz-foot')).toContainText('/ 3 題');
+  // 重做
+  await quiz.getByRole('button', { name: '重做' }).click();
+  await expect(quiz.locator('.quiz-result')).toHaveCount(0);
+  await expect(quiz.locator('.quiz-opt:not([disabled])')).toHaveCount(12);
+
+  // 同一張卡每次題目與選項順序都一樣
+  const snap = () => quiz.locator('.quiz-q').evaluateAll((qs) => qs.map((q) => q.textContent));
+  const before = await snap();
+  await page.reload();
+  expect(await snap()).toEqual(before);
+});
+
+test('第二波 3：中華卡也有題目；資料不夠的卡不顯示這一區', async ({ page }) => {
+  await page.goto('#/card/primordial-nuwa');
+  const q = page.locator('section#sec-quiz .quiz-q').first();
+  await expect(q.locator('.quiz-stem')).not.toContainText('女媧');
+  const labels = await q.locator('.quiz-opt').allInnerTexts();
+  expect(labels).toContain('女媧');
+  // 一句話裡沒有名字的卡：略過「看一句話」那題，沒有其他題型時整區不出現
+  const noName = site.cards.filter((c: C & { hook: string }) => !c.hook.includes(c.name_zh));
+  expect(noName.length).toBeGreaterThan(0);
+  await page.goto('#/card/story-buzhou');
+  await expect(page.locator('h1').first()).toContainText('不周山');
+  await expect(page.locator('#sec-quiz')).toHaveCount(0);
+  await expect(page.locator('.toc a', { hasText: '考考自己' })).toHaveCount(0);
+});
+
+test('第二波 3：全部卡片的題目都遮掉名字與別名，錯誤選項不含正解的別名', async ({ page }) => {
+  test.setTimeout(120_000);
+  await page.goto('');
+  for (const c of site.cards as C[]) {
+    await page.evaluate((id) => (location.hash = '#/card/' + id), c.id);
+    await expect(page.locator('article.card-page h1').first()).toContainText(c.name_zh);
+    const qs = await page.locator('#sec-quiz .quiz-q').evaluateAll((els) =>
+      els.map((e) => ({ stem: e.querySelector('.quiz-stem')!.textContent ?? '', opts: [...e.querySelectorAll('.quiz-opt')].map((o) => (o.textContent ?? '').trim()) })),
+    );
+    expect(qs.length, c.id).toBeLessThanOrEqual(3);
+    const names = [c.name_zh, c.name_en, ...c.aliases, c.roman?.name_zh, c.roman?.name_la, c.roman?.name_en].filter((x): x is string => !!x && x.length > 0);
+    for (const q of qs) {
+      expect(q.opts.length, c.id).toBe(4);
+      expect(new Set(q.opts).size, c.id).toBe(4);
+      expect(q.opts, c.id).toContain(c.name_zh);
+      for (const n of names) {
+        if (/^[\x00-\x7f]+$/.test(n)) expect(q.stem.toLowerCase().includes(n.toLowerCase()) && new RegExp(`(?<![A-Za-z])${n.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?![A-Za-z])`, 'i').test(q.stem), `${c.id} 題幹漏了 ${n}`).toBe(false);
+        else expect(q.stem.includes(n), `${c.id} 題幹漏了 ${n}`).toBe(false);
+      }
+      // 錯誤選項不能是正解的別名或羅馬名
+      for (const o of q.opts.filter((x) => x !== c.name_zh)) {
+        expect(names.map((n) => n.toLowerCase()), `${c.id} 錯誤選項 ${o} 是正解的別名`).not.toContain(o.toLowerCase());
+      }
+    }
+  }
 });

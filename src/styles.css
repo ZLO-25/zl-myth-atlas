@@ -387,3 +387,23 @@ pre.ascii { background: var(--surface); border: 1px solid var(--line); padding: 
 .progress-box { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 0.4rem 1rem 0.8rem; margin-top: 2rem; max-width: 46rem; }
 .progress-box button { border: 1px solid var(--line); background: var(--bg); color: var(--ink); min-height: 2.4rem; padding: 0.3rem 1rem; border-radius: 999px; font: inherit; cursor: pointer; margin-right: 0.5rem; }
 .progress-box button.danger { background: var(--terra); border-color: var(--terra); color: #fff; }
+
+/* 考考自己 */
+.quiz-q { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 0.8rem 1rem; margin: 0.8rem 0; max-width: 46rem; box-shadow: var(--shadow); }
+.quiz-prompt { margin: 0 0 0.3rem; font-weight: 700; }
+.quiz-no { display: inline-flex; align-items: center; justify-content: center; width: 1.6rem; height: 1.6rem; margin-right: 0.5rem; border-radius: 50%; background: var(--aegean); color: var(--bg); font-size: 0.9rem; }
+.quiz-stem { margin: 0.3rem 0 0.8rem; padding: 0.4rem 0.8rem; border-left: 4px solid var(--gold); background: var(--bg); border-radius: 0 8px 8px 0; }
+.quiz-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.5rem; }
+.quiz-opt { min-height: 2.8rem; padding: 0.4rem 0.8rem; border: 1px solid var(--line); border-radius: 10px; background: var(--bg); color: var(--ink); font: inherit; text-align: left; cursor: pointer; }
+.quiz-opt:hover:not(:disabled) { border-color: var(--aegean); }
+.quiz-opt:disabled { cursor: default; }
+.quiz-opt.right { border-color: var(--olive); background: color-mix(in srgb, var(--olive) 22%, var(--surface)); font-weight: 700; }
+.quiz-opt.wrong { border-color: var(--terra); background: color-mix(in srgb, var(--terra) 22%, var(--surface)); }
+.quiz-opt.dim { opacity: 0.6; }
+.quiz-result { margin: 0.6rem 0 0; font-weight: 700; }
+.quiz-result.ok { color: var(--olive); }
+.quiz-result.no { color: var(--terra); }
+.quiz-foot { margin: 0.5rem 0; }
+.quiz-redo { min-height: 2.4rem; padding: 0.3rem 1.2rem; border: 1px solid var(--aegean); border-radius: 999px; background: var(--surface); color: var(--aegean); font: inherit; font-weight: 700; cursor: pointer; }
+.quiz-redo:hover { background: var(--aegean); color: #fff; }
+@media (max-width: 760px) { .quiz-options { grid-template-columns: 1fr; } }
