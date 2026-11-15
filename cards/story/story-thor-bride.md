@@ -5,7 +5,7 @@ myth_system: [norse]
 name_zh: 索爾扮新娘
 aliases: [索爾的錘子被偷, 索列姆之歌, 錘子失竊, 索爾穿上新娘頭紗, Thrymskvitha, Thor Dresses as a Bride]
 name_en: Thor Dresses as a Bride
-name_orig: Thrymskvitha
+name_orig: Þrymskviða / Thrymskvitha
 reality: {level: 純神話}
 three_lines:
   - 索爾醒來，發現錘子不見了；巨人索列姆說，要娶芙蕾雅才肯還。
