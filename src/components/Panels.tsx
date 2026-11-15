@@ -5,9 +5,13 @@ import { Figure, Inline } from './bits';
 /** 分格故事：一格＝一張圖＋2–4 句，可按鈕、鍵盤左右鍵或手指滑動翻頁 */
 export function Panels({ panels, cardId }: { panels: Panel[]; cardId: string }) {
   const [i, setI] = useState(0);
+  const [cover, setCover] = useState(false); // 「講給別人聽」：只看圖，說明文字蓋住
+  const [shown, setShown] = useState<Set<number>>(new Set());
   const startX = useRef<number | null>(null);
   const go = (d: number) => setI((x) => Math.min(panels.length - 1, Math.max(0, x + d)));
   const p = panels[i];
+  const hidden = cover && !shown.has(i);
+  const flip = (on: boolean) => setShown((x) => { const n = new Set(x); if (on) n.add(i); else n.delete(i); return n; });
   return (
     <section
       className="panels"
@@ -25,11 +29,41 @@ export function Panels({ panels, cardId }: { panels: Panel[]; cardId: string }) 
         startX.current = null;
       }}
     >
+      <div className="panel-tools">
+        <button
+          type="button"
+          className="cover-toggle"
+          aria-pressed={cover}
+          onClick={() => {
+            setCover((v) => !v);
+            setShown(new Set());
+          }}
+        >
+          {cover ? '看說明文字（離開講給別人聽）' : '講給別人聽：只看圖、蓋住說明'}
+        </button>
+        {cover && <span className="muted small">看著圖，試著用自己的話把這一格講出來，再翻開對照。</span>}
+      </div>
       <div className="panel-frame">
         {p.image ? <Figure id={p.image} compact /> : <div className="panel-noimg" />}
-        <p className="panel-text">
-          <Inline text={p.text} cardId={cardId} /> <Inline text={p.src.map((s) => `[${s}]`).join('')} cardId={cardId} />
-        </p>
+        {hidden ? (
+          <div className="panel-cover">
+            <p className="muted">這一格的說明文字蓋住了。</p>
+            <button type="button" className="reveal" aria-expanded={false} onClick={() => flip(true)}>
+              翻開看原文
+            </button>
+          </div>
+        ) : (
+          <div className="panel-reveal">
+            <p className="panel-text">
+              <Inline text={p.text} cardId={cardId} /> <Inline text={p.src.map((s) => `[${s}]`).join('')} cardId={cardId} />
+            </p>
+            {cover && (
+              <button type="button" className="reveal" aria-expanded={true} onClick={() => flip(false)}>
+                再蓋起來
+              </button>
+            )}
+          </div>
+        )}
       </div>
       <div className="panel-nav">
         <button onClick={() => go(-1)} disabled={i === 0} aria-label="上一格">

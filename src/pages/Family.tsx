@@ -2,8 +2,9 @@ import { select } from 'd3-selection';
 import { zoom, zoomIdentity } from 'd3-zoom';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { avatarOf, cardById, eraById, familyOf, imgSrc, isChinese, site } from '../lib/data';
-import { href } from '../lib/router';
+import { href, queryParam } from '../lib/router';
 import { cardNames, looseNames, type NameParts } from '../lib/names';
+import { isOrigHidden } from '../lib/prefs';
 
 const TWELVE = ['god-zeus', 'god-hera', 'god-poseidon', 'god-demeter', 'god-athena', 'god-apollo', 'god-artemis', 'god-ares', 'god-aphrodite', 'god-hephaestus', 'god-hermes', 'god-hestia', 'god-dionysus'];
 const HEROES = site.cards.filter((c) => c.type === '英雄' && !isChinese(c)).map((c) => c.id);
@@ -21,19 +22,35 @@ interface Edge {
   b: string;
   variant?: string;
   /** 中華神話傳承圖用：血緣、夫妻、傳位、對戰 */
-  kind?: 'blood' | 'consort' | 'succ' | 'foe';
+  kind?: 'blood' | 'consort' | 'succ' | 'foe' | 'then';
 }
 
 const W = 148;
 const H = 68;
 
 /** 族譜：中間是焦點人物，上面父母、兩側配偶、下面子女；點任何人就換成他當焦點 */
+type Mode = 'root' | 'all' | 'twelve' | 'hero' | 'cn';
+const MODES: Mode[] = ['root', 'all', 'twelve', 'hero', 'cn'];
+
+/** 族譜的狀態全部放在網址裡：#/family?mode=cn、#/family/god-zeus?mode=twelve、#/family?mode=hero&hero=hero-perseus
+ *  這樣重新整理、上一頁、分享連結都會回到同一個畫面。沒寫 mode 時，有指定人物就以他為中心，否則看完整家譜。 */
+function familyHref(mode: Mode, focus?: string, hero?: string) {
+  if (mode === 'root') return href('family');
+  if (mode === 'hero') return `${href('family')}?mode=hero${hero ? `&hero=${encodeURIComponent(hero)}` : ''}`;
+  if (mode === 'cn') return `${href('family')}?mode=cn`;
+  return `${focus ? href('family', focus) : href('family')}?mode=${mode}`;
+}
+
 export function Family({ focus }: { focus?: string }) {
-  const [mode, setMode] = useState<'root' | 'all' | 'twelve' | 'hero' | 'cn'>(focus && cardById.has(focus) ? (isChinese(cardById.get(focus)) ? 'cn' : 'all') : 'root');
-  const [hero, setHero] = useState(HEROES[0] ?? '');
-  const start = focus && cardById.has(focus) ? focus : 'god-zeus';
-  const [cur, setCur] = useState(start);
-  useEffect(() => setCur(start), [start]);
+  const has = !!focus && cardById.has(focus);
+  const asked = queryParam('mode') as Mode | null;
+  const mode: Mode = asked && MODES.includes(asked) ? asked : has ? (isChinese(cardById.get(focus!)) ? 'cn' : 'all') : 'root';
+  const heroParam = queryParam('hero');
+  const hero = heroParam && HEROES.includes(heroParam) ? heroParam : has && HEROES.includes(focus!) ? focus! : HEROES[0] ?? '';
+  const cur = has ? focus! : 'god-zeus';
+  const goCard = (id: string) => {
+    location.hash = familyHref('all', id);
+  };
 
   const { nodes, edges } = useMemo(() => (mode === 'cn' ? chineseGraph() : mode === 'hero' ? lineage(hero) : mode === 'root' ? fromRoots() : around(cur, mode === 'twelve')), [cur, mode, hero]);
   const svgRef = useRef<SVGSVGElement>(null);
@@ -56,6 +73,14 @@ export function Family({ focus }: { focus?: string }) {
     const span = Math.max(Math.max(...xs) - Math.min(...xs) + W + 40, 300);
     const spanY = Math.max(Math.max(...ys) - Math.min(...ys) + H + 40, 200);
     const k = Math.min(1.2, box.width / span, box.height / spanY);
+    if (mode === 'cn') {
+      // 中華傳承圖很寬，整張縮進畫面人名會小到看不清：固定用讀得清楚的大小，從最上面開始，往下、往左右拖曳
+      const kc = box.width < 600 ? 0.9 : 1;
+      svg.call(z.transform, zoomIdentity.translate(box.width / 2 - cx * kc, 30 - (Math.min(...ys) - H / 2) * kc).scale(kc));
+      return () => {
+        svg.on('.zoom', null);
+      };
+    }
     if (box.width < 600 && nodes.length > 12) {
       // 手機：全部縮進去字會小到看不清，改成可讀大小、從最上面（蓋亞）開始，往下拖曳瀏覽
       const k2 = 0.8;
@@ -68,7 +93,7 @@ export function Family({ focus }: { focus?: string }) {
     return () => {
       svg.on('.zoom', null);
     };
-  }, [nodes]);
+  }, [nodes, mode]);
 
   const pos = new Map(nodes.map((n) => [n.key, n]));
   const c = cardById.get(cur);
@@ -77,13 +102,13 @@ export function Family({ focus }: { focus?: string }) {
       <h1>族譜</h1>
       <p className="lead">「完整家譜」從卡厄斯、蓋亞、烏拉諾斯一路往下排到奧林帕斯諸神；點任何一位，就切換成「以他為中心」展開父母、配偶與子女。可以拖曳、用滾輪或兩指縮放。虛線＝「另有一說」。中華神話請按「中華神話：家族、傳位與對戰」。</p>
       <div className="filters">
-        <button className={mode === 'root' ? 'on' : ''} onClick={() => setMode('root')}>從原始神開始（完整家譜）</button>
-        <button className={mode === 'all' ? 'on' : ''} onClick={() => setMode('all')}>以一位為中心</button>
-        <button className={mode === 'twelve' ? 'on' : ''} onClick={() => setMode('twelve')}>只看奧林帕斯十二神</button>
-        <button className={mode === 'hero' ? 'on' : ''} onClick={() => setMode('hero')}>看英雄的血統</button>
-        <button className={mode === 'cn' ? 'on' : ''} onClick={() => setMode('cn')}>中華神話：家族、傳位與對戰</button>
+        {([['root', '從原始神開始（完整家譜）'], ['all', '以一位為中心'], ['twelve', '只看奧林帕斯十二神'], ['hero', '看英雄的血統'], ['cn', '中華神話：家族、傳位與對戰']] as [Mode, string][]).map(([m, label]) => (
+          <button key={m} className={mode === m ? 'on' : ''} aria-pressed={mode === m} onClick={() => (location.hash = familyHref(m, cur, hero))}>
+            {label}
+          </button>
+        ))}
         {mode === 'hero' && (
-          <select value={hero} onChange={(e) => setHero(e.target.value)} aria-label="選擇英雄">
+          <select value={hero} onChange={(e) => (location.hash = familyHref('hero', undefined, e.target.value))} aria-label="選擇英雄">
             {HEROES.map((h) => (
               <option key={h} value={h}>{cardById.get(h)?.name_zh} {cardById.get(h)?.name_en}</option>
             ))}
@@ -96,6 +121,9 @@ export function Family({ focus }: { focus?: string }) {
             <marker id="succ-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
               <path d="M0 0L10 5L0 10z" className="succ-arrow" />
             </marker>
+            <marker id="then-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0 0L10 5L0 10z" className="then-arrow" />
+            </marker>
           </defs>
           <g ref={gRef}>
             {mode === 'cn' && rowLabels(nodes).map((r) => (
@@ -104,6 +132,13 @@ export function Family({ focus }: { focus?: string }) {
             {edges.map((e, i) => {
               const a = pos.get(e.a.replace(/^m:/, ''))!;
               const b = pos.get(e.b)!;
+              if (e.kind === 'then')
+                return (
+                  <g key={i} className="edge-then-g">
+                    <path d={`M${a.x},${a.y + H / 2} L${b.x},${b.y - H / 2}`} className="edge edge-then" markerEnd="url(#then-arrow)" />
+                    <text x={(a.x + b.x) / 2 + 6} y={(a.y + b.y) / 2 + 4} className="edge-label">接著出現</text>
+                  </g>
+                );
               if (e.kind) return <CnEdge key={i} e={e} a={a} b={b} />;
               const consort = (e.a === 'focus' && e.b.startsWith('c')) || e.a.startsWith('m:');
               const vertical = !consort && Math.abs(a.y - b.y) > 10;
@@ -132,16 +167,18 @@ export function Family({ focus }: { focus?: string }) {
                   transform={`translate(${n.x - W / 2},${n.y - H / 2})`}
                   onClick={() => {
                     if (card && mode === 'cn') location.hash = href('card', card.id);
-                    else if (card && (mode === 'all' || mode === 'twelve')) setCur(card.id);
-                    else if (card) {
-                      setMode('all');
-                      setCur(card.id);
-                    }
+                    else if (card && mode === 'twelve') location.hash = familyHref('twelve', card.id);
+                    else if (card) goCard(card.id);
                   }}
                   tabIndex={card ? 0 : -1}
-                  onKeyDown={(e) => e.key === 'Enter' && card && setCur(card.id)}
+                  onKeyDown={(e) => {
+                    if (e.key !== 'Enter' || !card) return;
+                    if (mode === 'cn') location.hash = href('card', card.id);
+                    else if (mode === 'twelve') location.hash = familyHref('twelve', card.id);
+                    else goCard(card.id);
+                  }}
                 >
-                  <title>{[nm.zh, nm.en, nm.orig].filter(Boolean).join(' · ') + (card ? `｜${card.type}` : '｜（無卡片）')}</title>
+                  <title>{[nm.zh, nm.en, isOrigHidden() ? undefined : nm.orig].filter(Boolean).join(' · ') + (card ? `｜${card.type}` : '｜（無卡片）')}</title>
                   <rect width={W} height={H} rx={10} />
                   {av && <image href={imgSrc(av)} x={6} y={(H - 44) / 2} width={44} height={44} preserveAspectRatio="xMidYMid slice" clipPath="inset(0 round 8px)" />}
                   <text x={tx} y={22} textAnchor={anchor} className="fname">{n.name}</text>
@@ -153,17 +190,9 @@ export function Family({ focus }: { focus?: string }) {
           </g>
         </svg>
       </div>
+      <Legend mode={mode} />
       {mode === 'cn' && (
-        <>
-          <p className="family-legend">
-            <span className="lg lg-blood">── 血緣</span>
-            <span className="lg lg-consort">══ 夫妻</span>
-            <span className="lg lg-succ">┈▶ 傳位（王位交給誰）</span>
-            <span className="lg lg-foe">✖ 對戰</span>
-            <span className="lg">虛線框＝還沒有卡片的人物</span>
-          </p>
-          <p className="muted small">中華神話沒有一本《神譜》定下全家譜，血緣多半來自《史記》替古帝王排的世系，所以除了血緣，這裡也畫出「王位傳給誰」和「誰跟誰打過」。每一列大致對應一個神話年代（左邊的名稱），越往下越接近歷史；沒有卡片的人物（虛線框）放在和他相連的人物上一列或下一列。點有卡片的人物會打開他的卡片。</p>
-        </>
+        <p className="muted small">中華神話沒有一本《神譜》定下全家譜，血緣多半來自《史記》替古帝王排的世系，所以除了血緣，這裡也畫出「王位傳給誰」和「誰跟誰打過」。每一列大致對應一個神話年代（左邊的名稱），越往下越接近歷史；沒有卡片的人物（虛線框）放在和他相連的人物上一列或下一列。點有卡片的人物會打開他的卡片。一進來是看得清楚的大小、從最上面開始：往下、往左右拖曳瀏覽，滾輪或兩指可以縮小看全貌。</p>
       )}
       {c && (mode === 'all' || mode === 'twelve') && (
         <p>
@@ -171,6 +200,34 @@ export function Family({ focus }: { focus?: string }) {
         </p>
       )}
     </div>
+  );
+}
+
+/** 圖例：每種線的意思。小圖用的是和族譜圖同一組樣式，所以畫出來一定一樣 */
+function Legend({ mode }: { mode: Mode }) {
+  const cn = mode === 'cn';
+  const Swatch = ({ cls, extra, mark }: { cls: string; extra?: string; mark?: string }) => (
+    <svg className="lg-swatch" width="44" height="14" viewBox="0 0 44 14" aria-hidden="true">
+      <defs>
+        <marker id={`lg-${cls}`} viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+          <path d="M0 0L10 5L0 10z" className={cls.includes('then') ? 'then-arrow' : 'succ-arrow'} />
+        </marker>
+      </defs>
+      <path d="M2 7 L40 7" className={`edge ${cls}`} markerEnd={cls.includes('succ') || cls.includes('then') ? `url(#lg-${cls})` : undefined} />
+      {extra && <path d="M2 7 L42 7" className={`edge ${extra}`} />}
+      {mark && <text x="22" y="12" textAnchor="middle" className="foe-mark">{mark}</text>}
+    </svg>
+  );
+  return (
+    <ul className="family-legend" aria-label="圖例">
+      <li><Swatch cls="edge-blood" />{cn ? '血緣（上一列是父母）' : '親子（上面是父母）'}</li>
+      <li><Swatch cls="edge-variant" />虛線＝另有一說（各家講法不同）</li>
+      <li>{cn ? <Swatch cls="edge-consort cn-consort-sw" extra="edge-consort-inner" /> : <Swatch cls="edge-consort" />}夫妻</li>
+      {mode === 'root' && <li><Swatch cls="edge-then" />接著出現（不是親子）</li>}
+      {cn && <li><Swatch cls="edge-succ" />傳位（王位交給誰）</li>}
+      {cn && <li><Swatch cls="edge-foe" mark="✖" />對戰</li>}
+      {cn && <li><span className="lg-box" />虛線框＝還沒有卡片的人物</li>}
+    </ul>
   );
 }
 
@@ -285,7 +342,8 @@ function fromRoots(): { nodes: Node[]; edges: Edge[] } {
   });
   const edges: Edge[] = [];
   for (const [p, list] of kids) if (depth.has(p)) for (const k of list) edges.push({ a: p, b: k.id, variant: k.variant });
-  edges.push({ a: 'primordial-chaos', b: 'primordial-gaia' });
+  // 赫西俄德只說蓋亞在卡厄斯「之後」出現，沒說她是卡厄斯生的：用不同樣式的線，不畫成親子
+  edges.push({ a: 'primordial-chaos', b: 'primordial-gaia', kind: 'then' });
   // 夫妻（同一層、彼此相鄰）畫一條短橫線
   const seenPair = new Set<string>();
   for (const id of depth.keys()) {

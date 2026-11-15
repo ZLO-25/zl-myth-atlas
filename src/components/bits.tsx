@@ -1,4 +1,4 @@
-import { useState, type ReactNode } from 'react';
+import { useEffect, useRef, useState, type ReactNode } from 'react';
 import type { Card, ImageItem, Source } from '../../scripts/lib/types';
 import { avatarOf, cardById, imageById, imgSrc } from '../lib/data';
 import { href } from '../lib/router';
@@ -53,14 +53,17 @@ export function Inline({ text, cardId }: { text: string; cardId?: string }) {
   while ((m = re.exec(text))) {
     if (m.index > last) parts.push(text.slice(last, m.index));
     if (m[1]) parts.push(<CardLink key={k++} id={m[1]}>{m[2]}</CardLink>);
-    else if (m[3])
+    else if (m[3]) {
+      // 先把編號存起來：點擊時 m 早已被迴圈改成 null，直接用 m[3] 會出錯、整頁跳到首頁
+      const sid = `src-${cardId ?? ''}-${m[3]}`;
       parts.push(
         <sup key={k++} className="cite">
-          <a href={`#src-${cardId ?? ''}-${m[3]}`} onClick={(e) => jumpTo(e, `src-${cardId ?? ''}-${m![3]}`)}>
+          <a href={`#${sid}`} onClick={(e) => jumpTo(e, sid)}>
             {m[3]}
           </a>
         </sup>,
       );
+    }
     else if (m[4]) parts.push(<strong key={k++}>{m[4]}</strong>);
     last = re.lastIndex;
   }
@@ -175,4 +178,28 @@ export function SourceList({ sources, cardId }: { sources: Source[]; cardId: str
 
 export function Cites({ ids, cardId }: { ids: string[]; cardId: string }) {
   return <Inline text={ids.map((i) => `[${i}]`).join('')} cardId={cardId} />;
+}
+
+/** 寬表格的外框：放不下時可以橫滑，右緣（或左緣）有漸層，上面有一行「左右滑動」的提示 */
+export function ScrollTable({ children }: { children: ReactNode }) {
+  const box = useRef<HTMLDivElement>(null);
+  const [st, setSt] = useState({ over: false, left: false, right: false });
+  const update = () => {
+    const el = box.current;
+    if (!el) return;
+    setSt({ over: el.scrollWidth > el.clientWidth + 4, left: el.scrollLeft > 4, right: el.scrollLeft + el.clientWidth < el.scrollWidth - 4 });
+  };
+  useEffect(() => {
+    update();
+    window.addEventListener('resize', update);
+    return () => window.removeEventListener('resize', update);
+  }, []);
+  return (
+    <div className={`table-scroll${st.left ? ' more-left' : ''}${st.right ? ' more-right' : ''}`}>
+      {st.over && <p className="scroll-hint" aria-hidden="true">← 左右滑動，看整張表 →</p>}
+      <div className="table-wrap" ref={box} onScroll={update}>
+        {children}
+      </div>
+    </div>
+  );
 }

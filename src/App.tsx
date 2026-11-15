@@ -7,6 +7,7 @@ import { CardList, Compare, Home, TodayPage, TopicPage } from './pages/simple';
 import { Timeline } from './pages/Timeline';
 import { href, useRoute } from './lib/router';
 import { search, type Hit } from './lib/search';
+import { setOrigHidden, useOrigHidden } from './lib/prefs';
 
 const NAV: [string, string][] = [
   ['overview', '總覽'],
@@ -14,12 +15,13 @@ const NAV: [string, string][] = [
   ['family', '族譜'],
   ['timeline', '年代'],
   ['map', '地圖'],
-  ['compare', '希臘 vs 羅馬'],
+  ['compare', '對照'],
   ['today', '今日影子'],
 ];
 
 export default function App() {
   const r = useRoute();
+  const hideOrig = useOrigHidden(); // 開關一變，整個網站重畫一次，名字就會跟著換
   let page;
   switch (r[0]) {
     case 'card':
@@ -58,14 +60,16 @@ export default function App() {
         <a className="brand" href="#/">
           <span className="brand-star">✦</span> 眾神星圖
         </a>
-        <nav>
-          {NAV.map(([k, v]) => (
-            <a key={k} href={href(k)} className={r[0] === k ? 'on' : ''}>
-              {v}
-            </a>
-          ))}
-        </nav>
+        <NavBar current={r[0]} />
         <SearchBox />
+        <button
+          type="button"
+          className="orig-toggle"
+          title={hideOrig ? '名字旁邊會再出現希臘文、拉丁文等原文' : '名字只留中文與英文，比較不會眼花'}
+          onClick={() => setOrigHidden(!hideOrig)}
+        >
+          {hideOrig ? '顯示原文' : '隱藏原文'}
+        </button>
       </header>
       <main>{page}</main>
       <footer className="site-footer">
@@ -81,6 +85,40 @@ export default function App() {
         </p>
       </footer>
     </>
+  );
+}
+
+/** 手機上導覽列放不下時可以橫滑：兩端用漸層提示還有東西，目前所在的項目會自動捲進來 */
+function NavBar({ current }: { current?: string }) {
+  const nav = useRef<HTMLElement>(null);
+  const [more, setMore] = useState({ left: false, right: false });
+  const update = () => {
+    const el = nav.current;
+    if (!el) return;
+    setMore({ left: el.scrollLeft > 4, right: el.scrollLeft + el.clientWidth < el.scrollWidth - 4 });
+  };
+  useEffect(() => {
+    const el = nav.current;
+    if (!el) return;
+    const on = el.querySelector<HTMLElement>('a.on');
+    if (on && el.scrollWidth > el.clientWidth) {
+      // 只捲導覽列本身，不要連頁面一起捲
+      el.scrollLeft = on.offsetLeft - (el.clientWidth - on.offsetWidth) / 2;
+    }
+    update();
+    window.addEventListener('resize', update);
+    return () => window.removeEventListener('resize', update);
+  }, [current]);
+  return (
+    <div className={`nav-wrap${more.left ? ' more-left' : ''}${more.right ? ' more-right' : ''}`}>
+      <nav ref={nav} onScroll={update} aria-label="主選單">
+        {NAV.map(([k, v]) => (
+          <a key={k} href={href(k)} className={current === k ? 'on' : ''}>
+            {v}
+          </a>
+        ))}
+      </nav>
+    </div>
   );
 }
 

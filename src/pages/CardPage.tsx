@@ -1,8 +1,13 @@
+import { useEffect } from 'react';
+import { markRead } from '../lib/progress';
 import type { Card } from '../../scripts/lib/types';
 import { CardLink, NameTag, Cites, Figure, Markdown, SourceList } from '../components/bits';
 import { Panels } from '../components/Panels';
+import { Quiz, hasQuiz } from '../components/Quiz';
 import { cardById, eraById, familyOf, isChinese, site, todayById } from '../lib/data';
 import { href } from '../lib/router';
+import { pathsOf } from '../lib/paths';
+import { isOrigHidden } from '../lib/prefs';
 import { cardNames, enOrig, looseNames, origLang, origOf, romanNames } from '../lib/names';
 import { CardTile } from './simple';
 
@@ -31,10 +36,29 @@ function nextCards(c: Card, backlinks: Card[]): Card[] {
   return picked.slice(0, 3);
 }
 
+/** 讀到底：「來源」或「接著讀」捲進畫面，就記為已讀 */
+function useMarkReadAtEnd(id: string) {
+  useEffect(() => {
+    if (!cardById.has(id)) return;
+    const targets = ['sec-sources', 'sec-next'].map((x) => document.getElementById(x)).filter(Boolean) as HTMLElement[];
+    if (!targets.length || typeof IntersectionObserver === 'undefined') return;
+    const io = new IntersectionObserver((es) => {
+      if (es.some((e) => e.isIntersecting)) {
+        markRead(id);
+        io.disconnect();
+      }
+    });
+    targets.forEach((t) => io.observe(t));
+    return () => io.disconnect();
+  }, [id]);
+}
+
 export function CardPage({ id }: { id: string }) {
+  useMarkReadAtEnd(id);
   const c = cardById.get(id);
   if (!c) return <div className="page"><p>找不到這張卡：{id}</p></div>;
   const fam = familyOf(c.id);
+  const hideOrig = isOrigHidden();
   const era = eraById.get(c.era);
   const orig = origOf(c.name_orig);
   const translit = c.name_orig.split(' / ')[1]?.trim();
@@ -44,6 +68,7 @@ export function CardPage({ id }: { id: string }) {
   const hasFamily = (fam.parents.length || fam.consorts.length || fam.children.length || fam.predecessors.length || fam.successors.length || fam.foes.length) > 0;
   const hasCauses = !!(c.causes?.length || c.effects?.length || backlinks.length);
   const next = nextCards(c, backlinks);
+  const inPaths = pathsOf(c.id);
 
   // 本頁內容：只列出這張卡真的有的段落
   const toc: [string, string][] = [];
@@ -55,6 +80,7 @@ export function CardPage({ id }: { id: string }) {
   if (hasCauses) toc.push(['causes', '前因後果']);
   if (c.disputed?.length) toc.push(['disputed', '說法不一']);
   if (c.today?.length) toc.push(['today', '這個梗你看過']);
+  if (hasQuiz(c)) toc.push(['quiz', '考考自己']);
   toc.push(['sources', '來源']);
 
   const jump = (e: React.MouseEvent, anchor: string) => {
@@ -79,10 +105,10 @@ export function CardPage({ id }: { id: string }) {
         </div>
         <h1>
           {c.name_zh} <span className="name-en">{c.name_en}</span>
-          {headOrig && headOrig !== c.name_en && <span className="name-en name-orig-h">（{headOrig}）</span>}
+          {!hideOrig && headOrig && headOrig !== c.name_en && <span className="name-en name-orig-h">（{headOrig}）</span>}
         </h1>
         <p className="name-orig">
-          {orig && (
+          {orig && !hideOrig && (
             <>
               原文：<span lang={({ 希臘文: 'grc', 漢字: 'zh', 古諾斯語: 'non' } as Record<string, string>)[origLang(orig, c.myth_system)] ?? 'la'}>{orig}</span>（{origLang(orig, c.myth_system)}
               {translit && translit !== orig ? `，${origLang(orig, c.myth_system) === '漢字' ? '拼音' : '拉丁字母寫作'} ${translit}` : ''}）
@@ -90,7 +116,7 @@ export function CardPage({ id }: { id: string }) {
           )}
           {c.roman && (
             <>
-              {orig ? '｜' : ''}羅馬：{c.roman.card ? <CardLink id={c.roman.card}>{c.roman.name_zh}</CardLink> : c.roman.name_zh} {enOrig(romanNames(c)!)}
+              {orig && !hideOrig ? '｜' : ''}羅馬：{c.roman.card ? <CardLink id={c.roman.card}>{c.roman.name_zh}</CardLink> : c.roman.name_zh} {enOrig(romanNames(c)!)}
             </>
           )}
         </p>
@@ -145,7 +171,7 @@ export function CardPage({ id }: { id: string }) {
         <section id="sec-panels">
           <h2>分格故事</h2>
           <p className="muted small">先用 {c.panels.length} 格看完整個故事，再往下讀細節。</p>
-          <Panels panels={c.panels} cardId={c.id} />
+          <Panels key={c.id} panels={c.panels} cardId={c.id} />
         </section>
       )}
 
@@ -269,13 +295,19 @@ export function CardPage({ id }: { id: string }) {
         </p>
       )}
 
+      <Quiz key={c.id} card={c} />
+
       <section id="sec-sources">
         <h2>來源</h2>
         <SourceList sources={c.sources} cardId={c.id} />
       </section>
 
+      {inPaths.map(({ path, index }) => (
+        <PathStep key={path.key} name={path.name} items={path.items} index={index} />
+      ))}
+
       {next.length > 0 && (
-        <section className="next-cards">
+        <section className="next-cards" id="sec-next">
           <h2>接著讀</h2>
           <div className="card-grid">
             {next.map((o) => (
@@ -285,6 +317,34 @@ export function CardPage({ id }: { id: string }) {
         </section>
       )}
     </article>
+  );
+}
+
+/** 這張卡在新手路線裡：第幾張、上一張、下一張 */
+function PathStep({ name, items, index }: { name: string; items: [string, string][]; index: number }) {
+  const prev = index > 0 ? cardById.get(items[index - 1][0]) : undefined;
+  const nextC = index < items.length - 1 ? cardById.get(items[index + 1][0]) : undefined;
+  return (
+    <aside className="path-step" aria-label={`${name}進度`}>
+      <p className="path-step-title">
+        <strong>{name}第 {index + 1}/{items.length} 張</strong>
+        {!nextC && <span>：這是路線的最後一張，讀完了！<a href={href()}>回首頁看路線</a></span>}
+      </p>
+      <div className="path-step-links">
+        {prev && (
+          <a className="path-prev" href={href('card', prev.id)}>
+            <span className="muted small">← 上一張</span>
+            <strong>{prev.name_zh}</strong>
+          </a>
+        )}
+        {nextC && (
+          <a className="path-next" href={href('card', nextC.id)}>
+            <span className="muted small">下一張 →</span>
+            <strong>{nextC.name_zh}</strong>
+          </a>
+        )}
+      </div>
+    </aside>
   );
 }
 

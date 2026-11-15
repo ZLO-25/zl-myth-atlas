@@ -202,7 +202,10 @@ pre.ascii { background: var(--surface); border: 1px solid var(--line); padding: 
 .edge-foe { stroke: #b23a2e; stroke-width: 2; }
 .foe-mark { fill: #b23a2e; font-size: 16px; font-weight: 700; }
 .row-label { font-size: 14px; font-weight: 700; fill: var(--terra); }
-.family-legend { display: flex; flex-wrap: wrap; gap: 0.4rem 1.2rem; margin: 0.8rem 0 0.2rem; font-size: 0.9rem; }
+.family-legend { display: flex; flex-wrap: wrap; gap: 0.4rem 1.4rem; margin: 0.8rem 0 0.4rem; padding: 0; list-style: none; font-size: 0.9rem; }
+.family-legend li { display: inline-flex; align-items: center; gap: 0.4rem; }
+.lg-swatch { flex: none; overflow: visible; }
+.lg-box { display: inline-block; width: 1.6rem; height: 0.9rem; border: 1.5px dashed var(--muted); border-radius: 4px; }
 .lg-consort { color: var(--terra); }
 .lg-succ { color: var(--aegean); }
 .lg-foe { color: #b23a2e; }
@@ -252,7 +255,9 @@ pre.ascii { background: var(--surface); border: 1px solid var(--line); padding: 
 @media (max-width: 760px) {
   body { font-size: 16px; }
   .site-header { gap: 0.4rem; }
-  .site-header nav { order: 3; width: 100%; overflow-x: auto; flex-wrap: nowrap; }
+  .nav-wrap { order: 3; width: 100%; }
+  .site-header nav { overflow-x: auto; flex-wrap: nowrap; scrollbar-width: none; }
+  .site-header nav::-webkit-scrollbar { display: none; }
   .site-header nav a { white-space: nowrap; }
   .search { min-width: 0; flex: 1 1 10rem; }
   .hero h1 { font-size: 2rem; }
@@ -320,3 +325,132 @@ pre.ascii { background: var(--surface); border: 1px solid var(--line); padding: 
 .recap li { margin: 0.15rem 0; }
 .epilogue .overview-cta { display: inline-flex; }
 @media (max-width: 760px) { .acts { top: 6.2rem; } .acts a span:last-child { display: none; } .acts a { padding-right: 0.25rem; } }
+
+/* 總覽：極短版 */
+.quick { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--gold); border-radius: 0 12px 12px 0; padding: 0.7rem 1rem; margin: 1rem 0; max-width: 46rem; box-shadow: var(--shadow); }
+.quick ol { list-style: none; padding: 0; margin: 0.4rem 0; }
+.quick li { display: grid; grid-template-columns: 6.2em 1fr; gap: 0.6rem; margin: 0.25rem 0; font-size: 0.95rem; }
+.quick li a { flex: none; font-weight: 700; min-width: 4.5em; }
+.quick li span { color: var(--muted); }
+
+/* 手機導覽列：左右緣漸層提示可以橫滑 */
+.nav-wrap { position: relative; min-width: 0; }
+.nav-wrap::before, .nav-wrap::after { content: ''; position: absolute; top: 0; bottom: 0; width: 2rem; pointer-events: none; opacity: 0; transition: opacity 0.15s; z-index: 1; }
+.nav-wrap::before { left: 0; background: linear-gradient(to right, var(--surface), transparent); }
+.nav-wrap::after { right: 0; background: linear-gradient(to left, var(--surface) 20%, transparent); }
+.nav-wrap.more-left::before, .nav-wrap.more-right::after { opacity: 1; }
+
+/* 對照頁：頁內跳轉鈕 */
+.jump-btns { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.8rem 0 1.2rem; }
+.jump-btns button { border: 1px solid var(--aegean); background: var(--surface); color: var(--aegean); padding: 0.45rem 1rem; min-height: 2.4rem; border-radius: 999px; font: inherit; font-weight: 700; cursor: pointer; }
+.jump-btns button:hover { background: var(--aegean); color: #fff; }
+#gr-rome, #cn-west { scroll-margin-top: 5.5rem; }
+
+/* 族譜：卡厄斯 → 蓋亞「接著出現」 */
+.edge-then { stroke: var(--olive); stroke-dasharray: 1 6; stroke-width: 2.4; stroke-linecap: round; }
+.then-arrow { fill: var(--olive); }
+.cn-consort-sw { stroke-width: 5; }
+
+/* 對照表：中文名不逐字斷行，整張表可橫滑並有提示 */
+.compare td.nw, .compare th { white-space: nowrap; }
+.compare td.wide { min-width: 13rem; }
+.table-scroll { position: relative; }
+.table-scroll::after { content: ''; position: absolute; top: 0; bottom: 0; right: 0; width: 2rem; pointer-events: none; opacity: 0; transition: opacity 0.15s; background: linear-gradient(to left, rgba(0, 0, 0, 0.18), transparent); border-radius: 0 6px 6px 0; }
+.table-scroll.more-right::after { opacity: 1; }
+.scroll-hint { margin: 0 0 0.3rem; font-size: 0.85rem; color: var(--muted); text-align: right; }
+
+/* 句尾小字來源 [s1]：字的大小不變，可點範圍至少 24×24（負邊界讓行距與字距維持原樣） */
+.cite a { display: inline-flex; align-items: center; justify-content: center; min-width: 24px; min-height: 24px; box-sizing: border-box; margin: -9px -3px; vertical-align: baseline; }
+
+/* 卡片頁：新手路線的上一張／下一張 */
+.path-step { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--terra); border-radius: 0 12px 12px 0; padding: 0.6rem 1rem; margin: 2rem 0 0; box-shadow: var(--shadow); }
+.path-step-title { margin: 0 0 0.4rem; }
+.path-step-title strong { color: var(--terra); }
+.path-step-links { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+.path-step-links a { display: flex; flex-direction: column; min-height: 2.8rem; min-width: 8rem; flex: 1 1 10rem; padding: 0.35rem 0.8rem; border: 1px solid var(--line); border-radius: 10px; text-decoration: none; color: var(--ink); background: var(--bg); }
+.path-step-links a:hover { border-color: var(--terra); }
+.path-step-links .path-next { text-align: right; }
+.path-step + .path-step { margin-top: 0.8rem; }
+.path-step + .next-cards h2 { margin-top: 1.5rem; }
+
+/* 已讀進度 */
+.tile-img { position: relative; }
+.read-badge { position: absolute; top: 0.4rem; right: 0.4rem; background: var(--olive); color: #fff; font-size: 0.8rem; font-weight: 700; padding: 0.1rem 0.55rem; border-radius: 999px; box-shadow: var(--shadow); }
+.tile.is-read { border-color: var(--olive); }
+.path-progress { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem 1rem; margin: 0.5rem 0; }
+.path-count { color: var(--olive); }
+.path-continue { display: inline-flex; align-items: center; min-height: 2.4rem; padding: 0.2rem 1rem; border-radius: 999px; background: var(--terra); color: #fff; text-decoration: none; font-weight: 700; }
+.path-continue:hover { filter: brightness(1.1); }
+.path-done { color: var(--olive); font-weight: 700; }
+.path li.is-read a { border-color: var(--olive); }
+.path li.is-read .path-no { background: var(--olive); }
+.progress-box { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 0.4rem 1rem 0.8rem; margin-top: 2rem; max-width: 46rem; }
+.progress-box button { border: 1px solid var(--line); background: var(--bg); color: var(--ink); min-height: 2.4rem; padding: 0.3rem 1rem; border-radius: 999px; font: inherit; cursor: pointer; margin-right: 0.5rem; }
+.progress-box button.danger { background: var(--terra); border-color: var(--terra); color: #fff; }
+
+/* 考考自己 */
+.quiz-q { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 0.8rem 1rem; margin: 0.8rem 0; max-width: 46rem; box-shadow: var(--shadow); }
+.quiz-prompt { margin: 0 0 0.3rem; font-weight: 700; }
+.quiz-no { display: inline-flex; align-items: center; justify-content: center; width: 1.6rem; height: 1.6rem; margin-right: 0.5rem; border-radius: 50%; background: var(--aegean); color: var(--bg); font-size: 0.9rem; }
+.quiz-stem { margin: 0.3rem 0 0.8rem; padding: 0.4rem 0.8rem; border-left: 4px solid var(--gold); background: var(--bg); border-radius: 0 8px 8px 0; }
+.quiz-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.5rem; }
+.quiz-opt { min-height: 2.8rem; padding: 0.4rem 0.8rem; border: 1px solid var(--line); border-radius: 10px; background: var(--bg); color: var(--ink); font: inherit; text-align: left; cursor: pointer; }
+.quiz-opt:hover:not(:disabled) { border-color: var(--aegean); }
+.quiz-opt:disabled { cursor: default; }
+.quiz-opt.right { border-color: var(--olive); background: color-mix(in srgb, var(--olive) 22%, var(--surface)); font-weight: 700; }
+.quiz-opt.wrong { border-color: var(--terra); background: color-mix(in srgb, var(--terra) 22%, var(--surface)); }
+.quiz-opt.dim { opacity: 0.6; }
+.quiz-result { margin: 0.6rem 0 0; font-weight: 700; }
+.quiz-result.ok { color: var(--olive); }
+.quiz-result.no { color: var(--terra); }
+.quiz-foot { margin: 0.5rem 0; }
+.quiz-redo { min-height: 2.4rem; padding: 0.3rem 1.2rem; border: 1px solid var(--aegean); border-radius: 999px; background: var(--surface); color: var(--aegean); font: inherit; font-weight: 700; cursor: pointer; }
+.quiz-redo:hover { background: var(--aegean); color: #fff; }
+@media (max-width: 760px) { .quiz-options { grid-template-columns: 1fr; } }
+
+/* 分格故事：講給別人聽（蓋住說明文字） */
+.panel-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem 0.8rem; margin-bottom: 0.8rem; }
+.cover-toggle, .panel-cover .reveal, .panel-reveal .reveal { min-height: 2.4rem; padding: 0.3rem 1rem; border: 1px solid var(--aegean); border-radius: 999px; background: var(--surface); color: var(--aegean); font: inherit; font-weight: 700; cursor: pointer; }
+.cover-toggle[aria-pressed='true'] { background: var(--aegean); color: var(--bg); }
+.cover-toggle:hover, .reveal:hover { filter: brightness(0.95); }
+.panel-cover { display: flex; flex-direction: column; align-items: flex-start; gap: 0.5rem; padding: 1rem; border: 2px dashed var(--line); border-radius: 12px; min-height: 8rem; justify-content: center; }
+.panel-cover p { margin: 0; }
+.panel-reveal { display: flex; flex-direction: column; align-items: flex-start; gap: 0.5rem; }
+.panel-reveal .reveal { font-size: 0.85rem; min-height: 2rem; border-color: var(--line); color: var(--muted); font-weight: 400; }
+
+/* 今日影子：預設收合、篩選、猜猜看 */
+.today-list { align-items: start; }
+.today-first { color: var(--ink); }
+.today-toggle { min-height: 2.4rem; padding: 0.2rem 1rem; border: 1px solid var(--aegean); border-radius: 999px; background: var(--surface); color: var(--aegean); font: inherit; font-weight: 700; cursor: pointer; }
+.today-toggle:hover { background: var(--aegean); color: var(--bg); }
+.today-tools { display: flex; flex-wrap: wrap; gap: 0.6rem 1rem; align-items: center; margin: 1rem 0 0; }
+.mode-switch { display: inline-flex; border: 1px solid var(--aegean); border-radius: 999px; overflow: hidden; }
+.mode-switch button { min-height: 2.4rem; padding: 0.2rem 1.1rem; border: 0; background: var(--surface); color: var(--aegean); font: inherit; font-weight: 700; cursor: pointer; }
+.mode-switch button[aria-pressed='true'] { background: var(--aegean); color: var(--bg); }
+.today-filter { flex: 1 1 14rem; min-width: 0; max-width: 26rem; min-height: 2.4rem; padding: 0.3rem 0.9rem; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); font: inherit; }
+.linkish { border: 0; background: none; color: var(--aegean); text-decoration: underline; font: inherit; cursor: pointer; padding: 0.3rem 0.2rem; min-height: 24px; }
+.guess-box { max-width: 46rem; margin: 1rem 0; }
+.guess-explain { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--olive); border-radius: 0 12px 12px 0; padding: 0.4rem 1rem 0.8rem; }
+.guess-explain h3 { margin: 0.5rem 0; }
+.today-item header .unverified { margin-left: 0.5rem; }
+.today-head-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 0.6rem; }
+.today-head-row h3 { margin: 0.1rem 0 0.3rem; }
+.today-head-row .today-toggle { flex: none; min-height: 2rem; padding: 0.1rem 0.8rem; font-size: 0.9rem; }
+.today-first { margin: 0.2rem 0 0.2rem; }
+@media (max-width: 760px) { .today-item { padding: 0.5rem 0.8rem; } .today-item p { margin: 0.25rem 0; } .today-head-row h3 { font-size: 1.05rem; line-height: 1.35; } }
+
+/* 隱藏原文：族譜與對照表的原文用 CSS 藏起來；其他地方由 names.ts 決定要不要輸出 */
+.hide-orig .forig, .hide-orig .col-orig { display: none; }
+.orig-toggle { flex: none; min-height: 2.2rem; padding: 0.2rem 0.9rem; border: 1px solid var(--line); border-radius: 999px; background: var(--bg); color: var(--ink); font: inherit; font-size: 0.9rem; cursor: pointer; white-space: nowrap; }
+.orig-toggle:hover { border-color: var(--aegean); color: var(--aegean); }
+@media (max-width: 760px) {
+  .search { flex: 1 1 6rem; }
+  .orig-toggle { padding: 0.2rem 0.6rem; font-size: 0.85rem; }
+}
+
+/* 總覽：每幕回顧先問問題，按「看答案」才展開 */
+.recap-q { margin: 0.2rem 0 0.5rem; }
+.recap-q strong { margin-right: 0.6rem; }
+.recap-btn { min-height: 2.4rem; padding: 0.2rem 1.1rem; border: 1px solid var(--olive); border-radius: 999px; background: var(--surface); color: var(--olive); font: inherit; font-weight: 700; cursor: pointer; }
+.recap-btn:hover, .recap-btn[aria-expanded='true'] { background: var(--olive); color: var(--bg); }
+.recap-body { margin-top: 0.6rem; }

@@ -3,6 +3,7 @@
 // 沒有卡片的人物（族譜裡的配偶、子女）查 data/names.yaml。
 import type { Card } from '../../scripts/lib/types';
 import { site } from './data';
+import { isOrigHidden } from './prefs';
 
 export interface NameParts {
   zh: string;
@@ -45,6 +46,8 @@ export function looseNames(label: string): NameParts {
 
 /** 「Zeus（Ζεύς）」：原文和英文一樣時就不重複 */
 export function enOrig({ en, orig }: NameParts): string {
+  // 「隱藏原文」開啟時只留英文
+  if (isOrigHidden()) return en ?? '';
   if (!en && !orig) return '';
   if (!orig || orig === en) return en ?? '';
   if (!en) return `（${orig}）`;

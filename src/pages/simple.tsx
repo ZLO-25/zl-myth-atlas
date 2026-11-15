@@ -1,33 +1,15 @@
-import { useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
+import { QuizQuestion } from '../components/Quiz';
+import { rng, shuffle, todayQuestion } from '../lib/quiz';
+import { clearProgress, useReadSet } from '../lib/progress';
 import { TODAY_CATEGORIES } from '../../scripts/lib/types';
 import { eraById } from '../lib/data';
-import { CardLink, MiniCard } from '../components/bits';
+import { CardLink, MiniCard, ScrollTable } from '../components/bits';
 import { cardNames, enOrig, fullName, origLang, origOf, romanNames } from '../lib/names';
 import { avatarOf, cardById, imgSrc, site, todayById, TYPE_ORDER } from '../lib/data';
 
-/** 新手路線：照故事順序讀這 8 張，就有整部神話的骨架 */
-const STARTER_PATH: [string, string][] = [
-  ['primordial-gaia', '一切從大地開始：她生出天空，也策畫了第一次政變'],
-  ['titan-cronus', '兒子推翻父親，又怕被兒子推翻，於是吞掉孩子'],
-  ['god-zeus', '被藏起來的么兒長大，打贏十年泰坦之戰，抽籤分天下'],
-  ['titan-prometheus', '神與人的關係：偷火、潘朵拉，人類從此要受苦'],
-  ['story-persephone', '女兒被冥王擄走，母親讓大地停止生長：四季的由來'],
-  ['story-trojan-war', '一顆金蘋果引爆神話中最大的一場戰爭'],
-  ['story-odyssey', '戰後十年返鄉路：獨眼巨人、海妖、冥界'],
-  ['hero-aeneas', '特洛伊的敗將逃到義大利，變成羅馬人的祖先'],
-];
 import { href } from '../lib/router';
-
-/** 中華神話新手路線：從開天闢地讀到夏朝，看神怎麼一步步「變成」古代帝王 */
-const CN_PATH: [string, string][] = [
-  ['primordial-pangu', '天地像一顆蛋，巨人盤古把它撐開，死後化成山川日月'],
-  ['primordial-nuwa', '女媧捏土造人；天塌了，她煉五色石把天補好'],
-  ['primordial-fuxi', '伏羲畫八卦、教人結網捕魚：不打仗的「文化英雄」'],
-  ['god-huangdi', '黃帝在涿鹿打敗蚩尤，後來被《史記》寫成第一位君主'],
-  ['hero-houyi', '十個太陽一起出來，后羿把它們射下來'],
-  ['hero-change', '嫦娥吃了不死藥飛上月亮，中秋的故事從這裡開始'],
-  ['hero-yu', '大禹疏導洪水，他的兒子開啟夏朝：神話接上歷史'],
-];
+import { CN_PATH, STARTER_PATH } from '../lib/paths';
 
 export function Home() {
   const featured = ['god-zeus', 'god-athena', 'story-pandora', 'hero-odysseus', 'story-trojan-horse', 'monster-medusa'].map((id) => cardById.get(id)).filter(Boolean);
@@ -38,14 +20,14 @@ export function Home() {
         <p className="lead">希臘羅馬神話與中華神話：認得眾神與英雄，能把故事講給別人聽，也看得懂今天電影、品牌、英文單字、太空任務裡的神話梗。每件事都附來源。</p>
         <a className="overview-cta" href={href('overview')}>
           <strong>第一次來？先看總覽</strong>
-          <span>五分鐘講完：世界長什麼樣、誰是誰、故事從哪來、為什麼今天還要懂 →</span>
+          <span>約 20 分鐘讀完：世界長什麼樣、誰是誰、故事從哪來、為什麼今天還要懂。趕時間？頁首有 1 分鐘極短版 →</span>
         </a>
         <div className="tiles">
           <a href={href('cards')}><strong>卡片</strong><span>{site.cards.length} 張神、英雄、故事</span></a>
           <a href={href('family')}><strong>族譜</strong><span>點一位神展開家族；中華神話看傳位與對戰</span></a>
           <a href={href('timeline')}><strong>神話年代</strong><span>從混沌到羅馬建國；從盤古到夏朝</span></a>
           <a href={href('map')}><strong>地圖</strong><span>真實地點與冥界</span></a>
-          <a href={href('compare')}><strong>希臘 vs 羅馬</strong><span>不只是換名字</span></a>
+          <a href={href('compare')}><strong>對照</strong><span>希臘 vs 羅馬、中西神話：不只是換名字</span></a>
           <a href={href('today')}><strong>今日影子</strong><span>{site.today.length} 個你看過的梗</span></a>
         </div>
       </section>
@@ -60,48 +42,15 @@ export function Home() {
       </section>
       <section>
         <h2>新手路線：照順序讀 8 張，就有整部神話的骨架</h2>
-        <ol className="path">
-          {STARTER_PATH.map(([id, why], i) => {
-            const c = cardById.get(id);
-            if (!c) return null;
-            const era = eraById.get(c.era);
-            return (
-              <li key={id}>
-                <a href={href('card', id)}>
-                  <span className="path-no">{i + 1}</span>
-                  <span className="path-body">
-                    <strong>{c.name_zh}</strong> <span className="muted">{enOrig(cardNames(c))}｜{era?.name}</span>
-                    <span className="path-why">{why}</span>
-                  </span>
-                </a>
-              </li>
-            );
-          })}
-        </ol>
+        <PathList items={STARTER_PATH} />
         <p className="muted small">讀完這 8 張，再用上面的「族譜」「年代」「地圖」把人物和地方串起來。</p>
       </section>
       <section>
         <h2>中華神話新手路線：從盤古讀到大禹</h2>
         <p className="muted">希臘神話是一棵家譜樹，主線是「兒子推翻父親」；中華神話比較像一條時間線，越往後神越像古代帝王，主線是「替人類解決問題」。</p>
-        <ol className="path">
-          {CN_PATH.map(([id, why], i) => {
-            const c = cardById.get(id);
-            if (!c) return null;
-            const era = eraById.get(c.era);
-            return (
-              <li key={id}>
-                <a href={href('card', id)}>
-                  <span className="path-no">{i + 1}</span>
-                  <span className="path-body">
-                    <strong>{c.name_zh}</strong> <span className="muted">{enOrig(cardNames(c))}｜{era?.name}</span>
-                    <span className="path-why">{why}</span>
-                  </span>
-                </a>
-              </li>
-            );
-          })}
-        </ol>
+        <PathList items={CN_PATH} />
       </section>
+      <ProgressBox />
       {featured.length > 0 && (
         <section>
           <h2>最多人認識的 6 張</h2>
@@ -130,13 +79,82 @@ export function Home() {
   );
 }
 
+/** 新手路線：已讀幾張、繼續讀下一張，每一張前面有編號或勾勾 */
+function PathList({ items }: { items: [string, string][] }) {
+  const read = useReadSet();
+  const done = items.filter(([id]) => read.has(id)).length;
+  const nextId = items.find(([id]) => !read.has(id))?.[0];
+  const nextCard = nextId ? cardById.get(nextId) : undefined;
+  return (
+    <>
+      <p className="path-progress">
+        <strong className="path-count">已讀 {done}/{items.length}</strong>
+        {nextCard ? (
+          <a className="path-continue" href={href('card', nextCard.id)}>
+            {done > 0 ? '繼續讀下一張' : '從第一張開始'}：{nextCard.name_zh} →
+          </a>
+        ) : (
+          <span className="path-done">這條路線全部讀完了</span>
+        )}
+      </p>
+      <ol className="path">
+        {items.map(([id, why], i) => {
+          const c = cardById.get(id);
+          if (!c) return null;
+          const era = eraById.get(c.era);
+          const isRead = read.has(id);
+          return (
+            <li key={id} className={isRead ? 'is-read' : ''}>
+              <a href={href('card', id)}>
+                <span className="path-no">{isRead ? <span aria-label="已讀">✓</span> : i + 1}</span>
+                <span className="path-body">
+                  <strong>{c.name_zh}</strong> <span className="muted">{enOrig(cardNames(c))}｜{era?.name}</span>
+                  <span className="path-why">{why}</span>
+                </span>
+              </a>
+            </li>
+          );
+        })}
+      </ol>
+    </>
+  );
+}
+
+/** 全站已讀張數與清除進度 */
+function ProgressBox() {
+  const read = useReadSet();
+  const [ask, setAsk] = useState(false);
+  const n = site.cards.filter((c) => read.has(c.id)).length;
+  if (n === 0) return null;
+  return (
+    <section className="progress-box">
+      <p>
+        你已經讀完 <strong>{n}</strong> / {site.cards.length} 張卡（在卡片頁讀到「來源」就會自動記下來，只存在這個瀏覽器裡）。
+      </p>
+      {ask ? (
+        <p className="progress-ask">
+          確定要清除嗎？<button type="button" className="danger" onClick={() => { clearProgress(); setAsk(false); }}>確定清除</button>
+          <button type="button" onClick={() => setAsk(false)}>取消</button>
+        </p>
+      ) : (
+        <button type="button" className="clear-progress" onClick={() => setAsk(true)}>清除讀書進度</button>
+      )}
+    </section>
+  );
+}
+
 export function CardTile({ id }: { id: string }) {
   const c = cardById.get(id);
+  const read = useReadSet();
   if (!c) return null;
   const av = avatarOf(c);
+  const isRead = read.has(c.id);
   return (
-    <a className="tile" href={href('card', c.id)}>
-      <div className="tile-img">{av ? <img src={imgSrc(av)} alt="" loading="lazy" /> : <span className="tile-initial">{c.name_zh[0]}</span>}</div>
+    <a className={`tile${isRead ? ' is-read' : ''}`} href={href('card', c.id)}>
+      <div className="tile-img">
+        {av ? <img src={imgSrc(av)} alt="" loading="lazy" /> : <span className="tile-initial">{c.name_zh[0]}</span>}
+        {isRead && <span className="read-badge">✓ 已讀</span>}
+      </div>
       <div className="tile-body">
         <span className={`type-chip t-${c.type}`}>{c.type}</span>
         <strong>{c.name_zh}</strong>
@@ -210,17 +228,28 @@ function greekOrig(id?: string) {
   return o && origLang(o) === '希臘文' ? o : '—';
 }
 
+function jumpTo(id: string) {
+  document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
 export function Compare() {
   return (
     <div className="page">
-      <h1>希臘 vs 羅馬</h1>
+      <h1>對照</h1>
+      <p className="lead">這一頁放兩種對照：希臘神和羅馬神怎麼對應，以及中華神話和希臘羅馬神話怎麼回答同樣的問題。</p>
+      <div className="jump-btns" aria-label="頁內跳轉">
+        <button type="button" onClick={() => jumpTo('gr-rome')}>希臘 vs 羅馬</button>
+        <button type="button" onClick={() => jumpTo('cn-west')}>中西神話對照</button>
+      </div>
+      <section id="gr-rome">
+      <h2>希臘 vs 羅馬</h2>
       <p className="lead">羅馬人把很多希臘神「對應」到自己原有的神上，但個性、地位常常不一樣。下面是名字對照；點神名看每位神的真正差異。</p>
-      <div className="table-wrap">
+      <ScrollTable>
         <table className="compare">
           <thead>
             <tr>
               <th>希臘名</th>
-              <th>希臘原文</th>
+              <th className="col-orig">希臘原文</th>
               <th>羅馬名</th>
               <th>拉丁文</th>
               <th>英文</th>
@@ -230,12 +259,12 @@ export function Compare() {
           <tbody>
             {site.greekRoman.map((r) => (
               <tr key={r.latin}>
-                <td>{r.card ? <CardLink id={r.card}>{r.greek}</CardLink> : r.greek}</td>
-                <td lang="grc">{greekOrig(r.card)}</td>
-                <td>{r.roman}</td>
-                <td>{r.latin}</td>
-                <td>{r.english}</td>
-                <td>
+                <td className="nw">{r.card ? <CardLink id={r.card}>{r.greek}</CardLink> : r.greek}</td>
+                <td lang="grc" className="nw col-orig">{greekOrig(r.card)}</td>
+                <td className="nw">{r.roman}</td>
+                <td className="nw">{r.latin}</td>
+                <td className="nw">{r.english}</td>
+                <td className="wide">
                   {r.today}
                   {r.note && <span className="muted">｜{r.note}</span>}
                 </td>
@@ -243,7 +272,8 @@ export function Compare() {
             ))}
           </tbody>
         </table>
-      </div>
+      </ScrollTable>
+      </section>
       <BorrowStory />
       <ChineseWestern />
     </div>
@@ -252,7 +282,7 @@ export function Compare() {
 
 function CwCell({ side }: { side: { text: string; cards: string[] } }) {
   return (
-    <td>
+    <td className="wide">
       {side.text}
       {side.cards.length > 0 && (
         <div className="small">
@@ -277,7 +307,7 @@ function ChineseWestern() {
                      │
                      ▼
               差在哪裡？（最右欄）`}</pre>
-      <div className="table-wrap">
+      <ScrollTable>
         <table className="compare">
           <thead>
             <tr>
@@ -290,15 +320,15 @@ function ChineseWestern() {
           <tbody>
             {site.chineseWestern.map((r) => (
               <tr key={r.theme}>
-                <td>{r.theme}</td>
+                <td className="nw">{r.theme}</td>
                 <CwCell side={r.chinese} />
                 <CwCell side={r.western} />
-                <td>{r.diff}</td>
+                <td className="wide">{r.diff}</td>
               </tr>
             ))}
           </tbody>
         </table>
-      </div>
+      </ScrollTable>
     </section>
   );
 }
@@ -335,15 +365,42 @@ function BorrowStory() {
   );
 }
 
+/** 第一句：收合時只露出這一句 */
+function firstSentence(text: string): string {
+  const i = text.search(/[。！？]/);
+  return i < 0 ? text : text.slice(0, i + 1);
+}
+
+const matches = (t: (typeof site.today)[number], q: string) => {
+  if (!q) return true;
+  const hay = [t.title, t.what, t.category, ...(t.search_simp ?? []), ...t.cards.flatMap((id) => [cardById.get(id)?.name_zh ?? '', cardById.get(id)?.name_en ?? ''])].join(' ').toLowerCase();
+  return q
+    .toLowerCase()
+    .split(/\s+/)
+    .filter(Boolean)
+    .every((w) => hay.includes(w));
+};
+
 export function TodayPage({ id }: { id?: string }) {
   const [cat, setCat] = useState<string>('全部');
+  const [q, setQ] = useState('');
+  const [mode, setMode] = useState<'list' | 'guess'>('list');
+  const [open, setOpen] = useState<Set<string>>(new Set());
   const one = id ? todayById.get(id) : undefined;
-  const list = site.today.filter((t) => cat === '全部' || t.category === cat);
+  const list = site.today.filter((t) => (cat === '全部' || t.category === cat) && matches(t, q.trim()) && t.id !== one?.id);
+  const toggle = (tid: string) => setOpen((s) => { const n = new Set(s); if (n.has(tid)) n.delete(tid); else n.add(tid); return n; });
   return (
     <div className="page">
       <h1>今日影子</h1>
-      <p className="lead">神話留在今天的單字、品牌、電影與星空裡。每一條都寫了「和原典差在哪」。</p>
-      {one && <TodayItemView id={one.id} highlight />}
+      <p className="lead">神話留在今天的單字、品牌、電影與星空裡。每一條都寫了「和原典差在哪」。點一條展開說明，或切到「猜猜看」玩一玩。</p>
+      {one && mode === 'list' && <TodayItemView id={one.id} highlight open onToggle={() => {}} />}
+      <div className="today-tools">
+        <div className="mode-switch" role="group" aria-label="瀏覽方式">
+          <button type="button" aria-pressed={mode === 'list'} onClick={() => setMode('list')}>逐條看</button>
+          <button type="button" aria-pressed={mode === 'guess'} onClick={() => setMode('guess')}>猜猜看</button>
+        </div>
+        <input type="search" className="today-filter" placeholder="篩選：輸入關鍵字，例如 月份、Nike、電影…" aria-label="篩選今日影子" value={q} onChange={(e) => setQ(e.target.value)} />
+      </div>
       <div className="filters">
         {['全部', ...TODAY_CATEGORIES.filter((c) => site.today.some((t) => t.category === c))].map((c) => (
           <button key={c} className={c === cat ? 'on' : ''} onClick={() => setCat(c)}>
@@ -351,49 +408,145 @@ export function TodayPage({ id }: { id?: string }) {
           </button>
         ))}
       </div>
-      <div className="today-list">
-        {list.map((t) => (
-          <TodayItemView key={t.id} id={t.id} />
-        ))}
-      </div>
+      {mode === 'guess' ? (
+        <TodayGuess list={site.today.filter((t) => (cat === '全部' || t.category === cat) && matches(t, q.trim()))} />
+      ) : (
+        <>
+          <p className="muted small today-count">
+            共 {list.length} 條
+            {list.length > 1 && (
+              <>
+                {' '}｜<button type="button" className="linkish" onClick={() => setOpen(new Set(list.map((t) => t.id)))}>全部展開</button>
+                {' '}<button type="button" className="linkish" onClick={() => setOpen(new Set())}>全部收合</button>
+              </>
+            )}
+          </p>
+          {list.length === 0 && <p className="muted">沒有符合的梗，換個關鍵字或分類試試看。</p>}
+          <div className="today-list">
+            {list.map((t) => (
+              <TodayItemView key={t.id} id={t.id} open={open.has(t.id)} onToggle={() => toggle(t.id)} />
+            ))}
+          </div>
+        </>
+      )}
     </div>
   );
 }
 
-function TodayItemView({ id, highlight }: { id: string; highlight?: boolean }) {
-  const t = todayById.get(id)!;
+/** 猜猜看：給今日影子的標題（名字遮掉），四選一猜來自哪張卡，答完顯示說明 */
+function TodayGuess({ list }: { list: typeof site.today }) {
+  const [round, setRound] = useState(0);
+  const [n, setN] = useState(0);
+  const [picked, setPicked] = useState<string | undefined>();
+  const [right, setRight] = useState(0);
+  const key = list.map((t) => t.id).join(',');
+  const qs = useMemo(() => {
+    const items = shuffle(list, rng(round * 7919 + 17)).flatMap((t) => {
+      const c = cardById.get(t.cards[0]);
+      const q = c && todayQuestion(t, c, 'guess');
+      return q ? [{ t, q }] : [];
+    });
+    return items;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [key, round]);
+  useEffect(() => {
+    setN(0);
+    setPicked(undefined);
+    setRight(0);
+  }, [key]);
+  if (!qs.length) return <p className="muted">這個範圍沒有可以出題的梗，換個分類或清掉關鍵字試試看。</p>;
+  if (n >= qs.length)
+    return (
+      <div className="guess-box">
+        <p><strong>這一輪結束了！答對 {right} / {qs.length} 題。</strong></p>
+        <button type="button" className="quiz-redo" onClick={() => { setRound((r) => r + 1); setN(0); setPicked(undefined); setRight(0); }}>再來一輪</button>
+      </div>
+    );
+  const { t, q } = qs[n];
   return (
-    <article className={`today-item${highlight ? ' hl' : ''}`} id={`today-${t.id}`}>
-      <header>
-        <span className="muted">{t.category}</span>
-        <h3>
-          <a href={href('today', t.id)}>{t.title}</a>
-        </h3>
-        {t.status === '說法未證實' && <span className="unverified">說法未證實</span>}
-      </header>
-      <p>{t.what}</p>
-      <p className="diff">
-        <strong>和原典差在哪：</strong>
-        {t.diff}
-      </p>
+    <div className="guess-box">
       <p className="muted small">
-        相關卡片：
-        {t.cards.map((c, i) => (
-          <span key={c}>
-            {i > 0 && '、'}
-            <CardLink id={c} />
-          </span>
-        ))}
-        ｜來源：
-        {t.sources.map((s, i) => (
-          <span key={i}>
-            {i > 0 && '；'}
-            <a href={s.url} target="_blank" rel="noreferrer">
-              {s.cite}
-            </a>
-          </span>
-        ))}
+        第 {n + 1} / {qs.length} 題｜答對 {right} 題｜分類：{t.category}
       </p>
+      <QuizQuestion
+        q={q}
+        picked={picked}
+        link={false}
+        onPick={(id) => {
+          setPicked(id);
+          if (id === q.answer) setRight((r) => r + 1);
+        }}
+      />
+      {picked !== undefined && (
+        <div className="guess-explain">
+          <h3>{t.title}</h3>
+          <p>{t.what}</p>
+          <p className="diff"><strong>和原典差在哪：</strong>{t.diff}</p>
+          <p className="small">
+            <a href={href('today', t.id)}>看這一條</a>
+            {t.cards.map((c) => (
+              <span key={c}>{'｜'}<CardLink id={c} /></span>
+            ))}
+          </p>
+          <button type="button" className="quiz-redo" onClick={() => { setN(n + 1); setPicked(undefined); }}>
+            {n + 1 >= qs.length ? '看結果' : '下一題'}
+          </button>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function TodayItemView({ id, highlight, open, onToggle }: { id: string; highlight?: boolean; open: boolean; onToggle: () => void }) {
+  const t = todayById.get(id)!;
+  const body = `today-body-${t.id}`;
+  return (
+    <article className={`today-item${highlight ? ' hl' : ''}${open ? ' open' : ''}`} id={highlight ? undefined : `today-${t.id}`}>
+      <header>
+        <span className="muted">
+          {t.category}
+          {t.status === '說法未證實' && <span className="unverified">說法未證實</span>}
+        </span>
+        <div className="today-head-row">
+          <h3>
+            <a href={href('today', t.id)}>{t.title}</a>
+          </h3>
+          {!highlight && (
+            <button type="button" className="today-toggle" aria-expanded={open} aria-controls={open ? body : undefined} onClick={onToggle}>
+              {open ? '收合' : '展開'}
+            </button>
+          )}
+        </div>
+      </header>
+      {open ? (
+        <div id={body}>
+          <p>{t.what}</p>
+          <p className="diff">
+            <strong>和原典差在哪：</strong>
+            {t.diff}
+          </p>
+          <p className="muted small">
+            相關卡片：
+            {t.cards.map((c, i) => (
+              <span key={c}>
+                {i > 0 && '、'}
+                <CardLink id={c} />
+              </span>
+            ))}
+            ｜來源：
+            {t.sources.map((s, i) => (
+              <span key={i}>
+                {i > 0 && '；'}
+                <a href={s.url} target="_blank" rel="noreferrer">
+                  {s.cite}
+                </a>
+              </span>
+            ))}
+          </p>
+        </div>
+      ) : (
+        <p className="today-first">{firstSentence(t.what)}</p>
+      )}
     </article>
   );
 }
