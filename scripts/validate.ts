@@ -207,6 +207,14 @@ for (const r of data.chineseWestern) {
   if (!r.chinese?.cards?.length) err(w, '中華這一側至少連到 1 張卡');
 }
 
+// 北歐對照（中華、希臘羅馬、北歐三方）
+for (const r of data.threeWay) {
+  const w = `data/three-way.yaml（${r.theme}）`;
+  if (!r.chinese?.text || !r.greek?.text || !r.norse?.text || !r.diff) err(w, '要有 chinese、greek、norse、diff');
+  for (const side of [r.chinese, r.greek, r.norse]) for (const id of side?.cards ?? []) if (!cardIds.has(id)) err(w, `卡片 ${id} 不存在`);
+  if (!r.norse?.cards?.length) err(w, '北歐這一側至少連到 1 張卡');
+}
+
 // 地點
 for (const p of places) {
   const w = `data/places.yaml（${p.id}）`;

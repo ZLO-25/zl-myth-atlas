@@ -176,6 +176,7 @@ export interface SiteData {
   topics: Topic[];
   greekRoman: GreekRomanRow[];
   chineseWestern: ChineseWesternRow[];
+  threeWay: ThreeWayRow[];
   odysseyRoute: RouteStop[];
   builtAt: string;
 }
@@ -202,6 +203,14 @@ export interface RouteStop {
 }
 
 export interface CwSide { text: string; cards: string[] }
+/** 北歐對照：同一個問題，中華、希臘羅馬、北歐各怎麼回答（cards 可以是空的，表示本站還沒有這張卡） */
+export interface ThreeWayRow {
+  theme: string;
+  chinese: CwSide;
+  greek: CwSide;
+  norse: CwSide;
+  diff: string;
+}
 export interface ChineseWesternRow {
   theme: string;
   chinese: CwSide;

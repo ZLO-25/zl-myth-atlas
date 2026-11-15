@@ -2,7 +2,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import YAML from 'yaml';
-import type { Card, ChineseWesternRow, Era, GreekRomanRow, HistoryRef, ImageItem, NameTable, Place, RouteStop, SiteData, TodayItem, Topic } from './types.ts';
+import type { Card, ChineseWesternRow, Era, GreekRomanRow, HistoryRef, ImageItem, NameTable, Place, RouteStop, SiteData, ThreeWayRow, TodayItem, Topic } from './types.ts';
 
 export const ROOT = path.resolve(import.meta.dirname, '..', '..');
 
@@ -56,8 +56,9 @@ interface AiPromptFile {
   tool: string;
   style: string;
   style_chinese?: string;
+  style_norse?: string;
   characters: Record<string, string>;
-  images: { id: string; card: string; system?: 'chinese'; title: string; characters?: string[]; scene: string }[];
+  images: { id: string; card: string; system?: 'chinese' | 'norse'; title: string; characters?: string[]; scene: string }[];
 }
 
 /** data/ai-art-prompts.yaml → AI 插畫清單。圖檔放到 public/images/ai/<卡片 id>/<圖 id>.webp 後，佔位圖會自動換成真圖。 */
@@ -73,7 +74,7 @@ export function loadAiImages(): ImageItem[] {
       ai: true,
       title: a.title,
       tool: f.tool,
-      prompt: [a.system === 'chinese' ? f.style_chinese ?? f.style : f.style, ...chars, a.scene].join('\n'),
+      prompt: [a.system === 'chinese' ? f.style_chinese ?? f.style : a.system === 'norse' ? f.style_norse ?? f.style : f.style, ...chars, a.scene].join('\n'),
       file,
       placeholder: !fs.existsSync(path.join(ROOT, 'public', file)),
     } as ImageItem;
@@ -94,6 +95,7 @@ export function loadAll(): SiteData {
     names: readYaml<NameTable>('data/names.yaml', {}),
     greekRoman: readYaml<GreekRomanRow[]>('data/greek-roman.yaml', []),
     chineseWestern: readYaml<ChineseWesternRow[]>('data/chinese-western.yaml', []),
+    threeWay: readYaml<ThreeWayRow[]>('data/three-way.yaml', []),
     odysseyRoute: readYaml<RouteStop[]>('data/odyssey-route.yaml', []),
     builtAt: new Date().toISOString(),
   };
