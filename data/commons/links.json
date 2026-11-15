@@ -303,6 +303,13 @@
    "god-athena/s7"
   ]
  },
+ "https://www.britannica.com/topic/Diana-Roman-religion": {
+  "status": 403,
+  "checked": "2026-11-15",
+  "used": [
+   "god-artemis/s7"
+  ]
+ },
  "https://www.theoi.com/Olympios/Demeter.html": {
   "status": 200,
   "checked": "2026-11-02",
@@ -503,6 +510,14 @@
    "versace-medusa"
   ]
  },
+ "https://www.britannica.com/topic/Huangdi": {
+  "status": 403,
+  "checked": "2026-11-15",
+  "used": [
+   "god-chiyou/s3",
+   "god-huangdi/s3"
+  ]
+ },
  "https://www.theoi.com/Olympios/Poseidon.html": {
   "status": 200,
   "checked": "2026-11-02",
@@ -523,6 +538,13 @@
   "checked": "2026-11-02",
   "used": [
    "god-zeus/s5"
+  ]
+ },
+ "https://www.britannica.com/topic/Jupiter-Roman-god": {
+  "status": 403,
+  "checked": "2026-11-15",
+  "used": [
+   "god-zeus/s8"
   ]
  },
  "https://www.theoi.com/Text/HomerIliad9.html": {
@@ -645,6 +667,32 @@
    "hero-aeneas/s8"
   ]
  },
+ "https://ctext.org/shan-hai-jing/da-huang-bei-jing/zh": {
+  "status": 200,
+  "checked": "2026-11-15",
+  "used": [
+   "god-chiyou/s1",
+   "god-huangdi/s2"
+  ]
+ },
+ "https://ctext.org/shiji/feng-chan-shu/zh": {
+  "status": 200,
+  "checked": "2026-11-15",
+  "used": [
+   "god-chiyou/s4"
+  ]
+ },
+ "https://www.britannica.com/topic/Chinese-mythology": {
+  "status": 403,
+  "checked": "2026-11-15",
+  "used": [
+   "god-chiyou/s5",
+   "god-huangdi/s4",
+   "primordial-fuxi/s3",
+   "primordial-nuwa/s4",
+   "primordial-pangu/s4"
+  ]
+ },
  "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0151:book=1:chapter=7": {
   "status": 200,
   "checked": "2026-11-02",
@@ -657,6 +705,28 @@
   "checked": "2026-11-02",
   "used": [
    "hero-heracles/s8"
+  ]
+ },
+ "https://ctext.org/shiji/wu-di-ben-ji/zh": {
+  "status": 200,
+  "checked": "2026-11-15",
+  "used": [
+   "god-chiyou/s2",
+   "god-huangdi/s1"
+  ]
+ },
+ "https://www.britannica.com/topic/Change-Chinese-deity": {
+  "status": 403,
+  "checked": "2026-11-15",
+  "used": [
+   "hero-change/s2"
+  ]
+ },
+ "https://www.britannica.com/technology/Change-Chinese-lunar-probes": {
+  "status": 403,
+  "checked": "2026-11-15",
+  "used": [
+   "hero-change/s3"
   ]
  },
  "https://www.theoi.com/Text/Apollodorus1.html": {
@@ -792,6 +862,44 @@
    "hero-theseus/s3"
   ]
  },
+ "https://www.britannica.com/topic/Hou-Yi": {
+  "status": 403,
+  "checked": "2026-11-15",
+  "used": [
+   "hero-houyi/s4"
+  ]
+ },
+ "https://ctext.org/huainanzi/lan-ming-xun/zh": {
+  "status": 200,
+  "checked": "2026-11-15",
+  "used": [
+   "hero-change/s1",
+   "hero-houyi/s2",
+   "primordial-nuwa/s1"
+  ]
+ },
+ "https://ctext.org/huainanzi/ben-jing-xun/zh": {
+  "status": 200,
+  "checked": "2026-11-15",
+  "used": [
+   "hero-houyi/s1"
+  ]
+ },
+ "https://ctext.org/chu-ci/tian-wen/zh": {
+  "status": 200,
+  "checked": "2026-11-15",
+  "used": [
+   "hero-houyi/s3",
+   "primordial-nuwa/s3"
+  ]
+ },
+ "https://ctext.org/shiji/xia-ben-ji/zh": {
+  "status": 200,
+  "checked": "2026-11-15",
+  "used": [
+   "hero-yu/s1"
+  ]
+ },
  "https://www.theoi.com/Pontios/Gorgones.html": {
   "status": 200,
   "checked": "2026-11-02",
@@ -840,6 +948,13 @@
    "olympus"
   ]
  },
+ "https://www.britannica.com/topic/Gun-Chinese-mythological-figure": {
+  "status": 403,
+  "checked": "2026-11-15",
+  "used": [
+   "hero-yu/s4"
+  ]
+ },
  "https://www.worldhistory.org/Olympia/": {
   "status": 200,
   "checked": "2026-11-02",
@@ -885,11 +1000,61 @@
    "primordial-chaos/s4"
   ]
  },
+ "https://ctext.org/shan-hai-jing/hai-nei-jing/zh": {
+  "status": 200,
+  "checked": "2026-11-15",
+  "used": [
+   "hero-yu/s2"
+  ]
+ },
+ "https://www.britannica.com/topic/Xia-dynasty": {
+  "status": 403,
+  "checked": "2026-11-15",
+  "used": [
+   "hero-yu/s5"
+  ]
+ },
  "https://www.theoi.com/Protogenos/Gaia.html": {
   "status": 200,
   "checked": "2026-11-02",
   "used": [
    "primordial-gaia/s5"
+  ]
+ },
+ "https://www.britannica.com/topic/Fu-Xi": {
+  "status": 403,
+  "checked": "2026-11-15",
+  "used": [
+   "primordial-fuxi/s2"
+  ]
+ },
+ "https://ctext.org/mengzi/teng-wen-gong-i/zh": {
+  "status": 200,
+  "checked": "2026-11-15",
+  "used": [
+   "hero-yu/s3"
+  ]
+ },
+ "https://www.britannica.com/topic/Nu-Gua": {
+  "status": 403,
+  "checked": "2026-11-15",
+  "used": [
+   "primordial-nuwa/s5"
+  ]
+ },
+ "https://cts.perseids.org/read/greekLit/tlg0548/tlg001/perseus-eng2/3.15.6-3.16.2": {
+  "status": 200,
+  "checked": "2026-11-15",
+  "used": [
+   "god-poseidon/s7",
+   "monster-minotaur/s5"
+  ]
+ },
+ "https://ctext.org/book-of-changes/xi-ci-xia/zh": {
+  "status": 200,
+  "checked": "2026-11-15",
+  "used": [
+   "primordial-fuxi/s1"
   ]
  },
  "https://www.theoi.com/Protogenos/Ouranos.html": {
@@ -1054,11 +1219,18 @@
    "羅馬傳統建城年"
   ]
  },
- "https://www.britannica.com/topic/Diana-Roman-religion": {
+ "https://www.britannica.com/topic/Pan-Gu": {
   "status": 403,
-  "checked": "2026-11-08",
+  "checked": "2026-11-15",
   "used": [
-   "god-artemis/s7"
+   "primordial-pangu/s3"
+  ]
+ },
+ "https://zh.wikisource.org/zh/%E5%A4%AA%E5%B9%B3%E5%BE%A1%E8%A6%BD/0078": {
+  "status": 200,
+  "checked": "2026-11-15",
+  "used": [
+   "primordial-nuwa/s2"
   ]
  },
  "https://www.theoi.com/Text/HomerOdyssey4.html": {
@@ -1089,11 +1261,11 @@
    "story-trojan-war/s5"
   ]
  },
- "https://www.britannica.com/topic/Jupiter-Roman-god": {
-  "status": 403,
-  "checked": "2026-11-08",
+ "https://zh.wikisource.org/zh-hant/%E7%B9%B9%E5%8F%B2_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)/%E5%85%A8%E8%A6%BD1": {
+  "status": 200,
+  "checked": "2026-11-15",
   "used": [
-   "god-zeus/s8"
+   "primordial-pangu/s2"
   ]
  },
  "https://www.worldhistory.org/troy/": {
@@ -1232,26 +1404,26 @@
    "starbucks-siren"
   ]
  },
- "https://cts.perseids.org/read/greekLit/tlg0548/tlg001/perseus-eng2/3.15.6-3.16.2": {
-  "status": 502,
-  "checked": "2026-11-08",
+ "https://zh.wikisource.org/wiki/%E8%97%9D%E6%96%87%E9%A1%9E%E8%81%9A/%E5%8D%B7001": {
+  "status": 200,
+  "checked": "2026-11-15",
   "used": [
-   "god-poseidon/s7",
-   "monster-minotaur/s5"
+   "primordial-pangu/s1"
   ]
  },
- "https://fgh.perseids.org/read/latinLit/phi0914/phi001/perseus-eng3/1.0.6": {
-  "status": 502,
-  "checked": "2026-11-08",
-  "used": [
-   "story-romulus-remus/s6"
-  ]
- },
- "https://about.starbucks.com/history/the-story-of-the-siren/": {
+ "https://whc.unesco.org/en/list/849": {
   "status": 403,
-  "checked": "2026-11-08",
+  "checked": "2026-11-15",
   "used": [
-   "starbucks-siren"
+   "story-trojan-war/s7",
+   "troy"
+  ]
+ },
+ "https://www.businessinsider.in/how-amazon-got-its-name/articleshow/64068170.cms": {
+  "status": -1,
+  "checked": "2026-11-15",
+  "used": [
+   "amazon-brand"
   ]
  },
  "https://en.wikipedia.org/wiki/AFC_Ajax": {
@@ -1261,11 +1433,11 @@
    "ajax-name"
   ]
  },
- "https://www.businessinsider.in/how-amazon-got-its-name/articleshow/64068170.cms": {
-  "status": -1,
-  "checked": "2026-11-08",
+ "https://about.starbucks.com/history/the-story-of-the-siren/": {
+  "status": 403,
+  "checked": "2026-11-15",
   "used": [
-   "amazon-brand"
+   "starbucks-siren"
   ]
  },
  "https://science.nasa.gov/solar-system/asteroids/4-vesta/": {
@@ -1275,17 +1447,16 @@
    "vesta-asteroid"
   ]
  },
- "https://whc.unesco.org/en/list/849": {
+ "https://www.etymonline.com/word/bacchanal": {
   "status": 403,
-  "checked": "2026-11-08",
+  "checked": "2026-11-15",
   "used": [
-   "story-trojan-war/s7",
-   "troy"
+   "bacchanal-word"
   ]
  },
  "https://www.etymonline.com/word/Amazon": {
   "status": 403,
-  "checked": "2026-11-08",
+  "checked": "2026-11-15",
   "used": [
    "amazon-brand"
   ]
@@ -1304,11 +1475,11 @@
    "perseids"
   ]
  },
- "https://www.etymonline.com/word/bacchanal": {
+ "https://www.etymonline.com/word/July": {
   "status": 403,
-  "checked": "2026-11-08",
+  "checked": "2026-11-15",
   "used": [
-   "bacchanal-word"
+   "july"
   ]
  },
  "https://www.esa.int/Science_Exploration/Space_Science/Gaia": {
@@ -1346,11 +1517,11 @@
    "madeline-miller"
   ]
  },
- "https://www.etymonline.com/word/July": {
+ "https://www.etymonline.com/word/labyrinth": {
   "status": 403,
-  "checked": "2026-11-08",
+  "checked": "2026-11-15",
   "used": [
-   "july"
+   "labyrinth-word"
   ]
  },
  "https://en.wikipedia.org/wiki/Achilles_tendon": {
@@ -1397,7 +1568,7 @@
  },
  "https://www.etymonline.com/word/astronaut": {
   "status": 403,
-  "checked": "2026-11-08",
+  "checked": "2026-11-15",
   "used": [
    "argonaut-astronaut"
   ]
@@ -1522,11 +1693,11 @@
    "saturn-moons"
   ]
  },
- "https://www.etymonline.com/word/labyrinth": {
-  "status": 403,
-  "checked": "2026-11-08",
+ "https://radiopaedia.org/articles/achilles-tendon-2": {
+  "status": 406,
+  "checked": "2026-11-15",
   "used": [
-   "labyrinth-word"
+   "achilles-tendon"
   ]
  },
  "https://www.lockheedmartin.com/en-us/products/aegis-combat-system.html": {
@@ -1538,21 +1709,21 @@
  },
  "https://www.etymonline.com/word/arachnid": {
   "status": 403,
-  "checked": "2026-11-08",
+  "checked": "2026-11-15",
   "used": [
    "arachnida"
   ]
  },
- "https://www.etymonline.com/word/typhoon": {
-  "status": 403,
-  "checked": "2026-11-08",
+ "https://fgh.perseids.org/read/latinLit/phi0914/phi001/perseus-eng3/1.0.6": {
+  "status": 200,
+  "checked": "2026-11-15",
   "used": [
-   "typhoon-typhon"
+   "story-romulus-remus/s6"
   ]
  },
  "https://www.etymonline.com/word/January": {
   "status": 403,
-  "checked": "2026-11-08",
+  "checked": "2026-11-15",
   "used": [
    "january"
   ]
@@ -1564,11 +1735,11 @@
    "march"
   ]
  },
- "https://www.etymonline.com/word/March": {
+ "https://www.etymonline.com/word/typhoon": {
   "status": 403,
-  "checked": "2026-11-08",
+  "checked": "2026-11-15",
   "used": [
-   "march"
+   "typhoon-typhon"
   ]
  },
  "https://www.theoi.com/Text/OvidFasti6.html": {
@@ -1585,18 +1756,18 @@
    "april-may"
   ]
  },
- "https://www.etymonline.com/word/June": {
+ "https://www.etymonline.com/word/March": {
   "status": 403,
-  "checked": "2026-11-08",
+  "checked": "2026-11-15",
   "used": [
-   "june"
+   "march"
   ]
  },
- "https://radiopaedia.org/articles/achilles-tendon-2": {
-  "status": 406,
-  "checked": "2026-11-08",
+ "https://www.etymonline.com/word/April": {
+  "status": 403,
+  "checked": "2026-11-15",
   "used": [
-   "achilles-tendon"
+   "april-may"
   ]
  },
  "https://www.theoi.com/Text/OvidFasti4.html": {
@@ -1606,88 +1777,88 @@
    "april-may"
   ]
  },
- "https://www.etymonline.com/word/April": {
+ "https://www.etymonline.com/word/June": {
   "status": 403,
-  "checked": "2026-11-08",
+  "checked": "2026-11-15",
   "used": [
-   "april-may"
+   "june"
   ]
  },
  "https://www.etymonline.com/word/May": {
   "status": 403,
-  "checked": "2026-11-08",
+  "checked": "2026-11-15",
   "used": [
    "april-may"
   ]
  },
  "https://www.etymonline.com/word/Saturday": {
   "status": 403,
-  "checked": "2026-11-08",
+  "checked": "2026-11-15",
   "used": [
    "saturday"
   ]
  },
  "https://www.etymonline.com/word/chaos": {
   "status": 403,
-  "checked": "2026-11-08",
+  "checked": "2026-11-15",
   "used": [
    "chaos-word"
   ]
  },
- "https://research.uniroma1.it/node/29825": {
-  "status": -1,
-  "checked": "2026-11-08",
-  "used": [
-   "story-romulus-remus/s7"
-  ]
- },
- "https://www.etymonline.com/word/atlas": {
-  "status": 403,
-  "checked": "2026-11-08",
-  "used": [
-   "atlas-book"
-  ]
- },
  "https://www.etymonline.com/word/titanic": {
   "status": 403,
-  "checked": "2026-11-08",
+  "checked": "2026-11-15",
   "used": [
    "titanic-word"
   ]
  },
  "https://www.etymonline.com/word/panic": {
   "status": 403,
-  "checked": "2026-11-08",
+  "checked": "2026-11-15",
   "used": [
    "panic-word"
   ]
  },
+ "https://www.etymonline.com/word/atlas": {
+  "status": 403,
+  "checked": "2026-11-15",
+  "used": [
+   "atlas-book"
+  ]
+ },
  "https://www.etymonline.com/word/echo": {
   "status": 403,
-  "checked": "2026-11-08",
+  "checked": "2026-11-15",
   "used": [
    "echo-word"
   ]
  },
  "https://www.etymonline.com/word/narcissism": {
   "status": 403,
-  "checked": "2026-11-08",
+  "checked": "2026-11-15",
   "used": [
    "narcissism-word"
   ]
  },
  "https://www.etymonline.com/word/nemesis": {
   "status": 403,
-  "checked": "2026-11-08",
+  "checked": "2026-11-15",
   "used": [
    "nemesis-word"
   ]
  },
  "https://www.etymonline.com/word/tantalize": {
   "status": 403,
-  "checked": "2026-11-08",
+  "checked": "2026-11-15",
   "used": [
    "tantalize-word"
+  ]
+ },
+ "https://www.etymonline.com/word/herculean": {
+  "status": 403,
+  "checked": "2026-11-15",
+  "used": [
+   "herculean-word"
   ]
  },
  "https://csrc.nist.gov/glossary/term/trojan_horse": {
@@ -1697,37 +1868,37 @@
    "trojan-malware"
   ]
  },
- "https://www.etymonline.com/word/herculean": {
-  "status": 403,
-  "checked": "2026-11-08",
-  "used": [
-   "herculean-word"
-  ]
- },
  "https://www.etymonline.com/word/odyssey": {
   "status": 403,
-  "checked": "2026-11-08",
+  "checked": "2026-11-15",
   "used": [
    "odyssey-word"
   ]
  },
  "https://www.etymonline.com/word/mentor": {
   "status": 403,
-  "checked": "2026-11-08",
+  "checked": "2026-11-15",
   "used": [
    "mentor-word"
   ]
  },
  "https://www.etymonline.com/word/museum": {
   "status": 403,
-  "checked": "2026-11-08",
+  "checked": "2026-11-15",
   "used": [
    "muse-words"
   ]
  },
+ "https://www.merriam-webster.com/dictionary/Achilles%27%20heel": {
+  "status": 403,
+  "checked": "2026-11-15",
+  "used": [
+   "achilles-heel"
+  ]
+ },
  "https://www.etymonline.com/word/music": {
   "status": 403,
-  "checked": "2026-11-08",
+  "checked": "2026-11-15",
   "used": [
    "muse-words"
   ]
@@ -1842,28 +2013,28 @@
  },
  "https://www.etymonline.com/word/cereal": {
   "status": 403,
-  "checked": "2026-11-08",
+  "checked": "2026-11-15",
   "used": [
    "cereal-word"
   ]
  },
  "https://www.etymonline.com/word/volcano": {
   "status": 403,
-  "checked": "2026-11-08",
+  "checked": "2026-11-15",
   "used": [
    "volcano-word"
   ]
  },
- "https://www.merriam-webster.com/dictionary/Achilles%27%20heel": {
-  "status": 403,
-  "checked": "2026-11-08",
+ "https://research.uniroma1.it/node/29825": {
+  "status": -1,
+  "checked": "2026-11-15",
   "used": [
-   "achilles-heel"
+   "story-romulus-remus/s7"
   ]
  },
  "https://classical-inquiries.chs.harvard.edu/olympus-as-mountain-and-olympia-as-venue-for-the-olympics-a-question-about-the-naming-of-these-places/": {
   "status": -1,
-  "checked": "2026-11-08",
+  "checked": "2026-11-15",
   "used": [
    "place-olympus/s4",
    "olympus"
@@ -1871,7 +2042,7 @@
  },
  "https://www.olympics.com/ioc/ancient-olympic-games": {
   "status": -1,
-  "checked": "2026-11-08",
+  "checked": "2026-11-15",
   "used": [
    "olympics-not-olympus"
   ]
