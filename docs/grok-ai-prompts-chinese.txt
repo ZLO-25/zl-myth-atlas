@@ -1,0 +1,310 @@
+眾神星圖 中華神話 AI 插畫工作單（共 40 張）
+Myth Atlas Chinese mythology illustration job sheet — 40 images
+
+【給 Grok 的說明 / Instructions for Grok】
+1. This file contains 40 image prompts, grouped into 8 stories. Generate ONE image per prompt, in the order listed.
+2. Use each "PROMPT" block exactly as written. Every image: realistic cinematic digital painting, landscape 4:3 (1600x1200), no text, letters, calligraphy or seals in the image.
+3. Keep characters consistent within a story: the same person must have the same face, hair, age and clothing in every frame. Before the first frame of each story, first create a character reference sheet from the character lines, then reuse it.
+4. After each image, state its FILE NAME (for example img-ai-buzhou-1) so the user can save it with that name.
+5. Work one story at a time. When a story is finished, say "Story finished: <story name>" and wait for the user before starting the next story.
+
+【給 ZL 的提醒】
+- 生好的圖存進 Google 雲端硬碟資料夾「(grok)眾神AI生圖」：
+  https://drive.google.com/drive/folders/1W6TqZwA4FtzlSbEI9mBjEs7vXE46lbVA
+  每個故事開一個子資料夾（例如「女媧補天」），檔名用每張的 FILE NAME（例如 img-ai-nuwa-sky-1.png），PNG、JPG 都可以。
+- 一個故事存完，就在 thread 告訴 Claude「某某故事好了」，Claude 會抓圖、轉檔、對照原典檢查、上傳網站。
+
+
+==================================================
+故事 1／8：女媧補天　(STORY 1: story-nuwa-mends-sky)
+雲端子資料夾：女媧補天
+==================================================
+
+--- FILE NAME: img-ai-nuwa-sky-1　｜　天柱崩壞
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Nuwa: goddess with a human head and upper body and a long serpent lower body, in the Han-dynasty tomb-art convention; hair in a high bun, flowing robe of cinnabar red and pale ivory.
+A vast cracked sky with a gaping hole, cracked earth below, pillars of the sky collapsing; small figures flee. Nuwa stands on a cliff looking up.
+
+--- FILE NAME: img-ai-nuwa-sky-2　｜　煉五色石
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Nuwa: goddess with a human head and upper body and a long serpent lower body, in the Han-dynasty tomb-art convention; hair in a high bun, flowing robe of cinnabar red and pale ivory.
+Nuwa tends a huge bronze cauldron of molten colored stones in five hues (blue, red, yellow, white, black), sparks rising.
+
+--- FILE NAME: img-ai-nuwa-sky-3　｜　補天
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Nuwa: goddess with a human head and upper body and a long serpent lower body, in the Han-dynasty tomb-art convention; hair in a high bun, flowing robe of cinnabar red and pale ivory.
+Nuwa rising into the sky, pressing glowing multicolored stone into the hole in the sky.
+
+--- FILE NAME: img-ai-nuwa-sky-4　｜　龜足撐四極
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Nuwa: goddess with a human head and upper body and a long serpent lower body, in the Han-dynasty tomb-art convention; hair in a high bun, flowing robe of cinnabar red and pale ivory.
+A giant sea turtle's legs standing like pillars at the four corners of the sky while Nuwa watches.
+
+--- FILE NAME: img-ai-nuwa-sky-5　｜　殺黑龍、止洪水
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Nuwa: goddess with a human head and upper body and a long serpent lower body, in the Han-dynasty tomb-art convention; hair in a high bun, flowing robe of cinnabar red and pale ivory.
+Nuwa near a black dragon lying defeated on a plain; behind her, a pile of grey reed ash forming a dam against rising floodwater, relieved villagers.
+
+
+==================================================
+故事 2／8：共工怒觸不周山　(STORY 2: story-buzhou)
+雲端子資料夾：共工怒觸不周山
+==================================================
+
+--- FILE NAME: img-ai-buzhou-1　｜　爭當天帝
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Gonggong: fierce bearded water-god warrior with wild dark hair and a blue-green robe, a rough horn-like helmet.
+Zhuanxu: calm young king in Han-style black and red court robes with a flat-topped beaded crown.
+Gonggong and Zhuanxu face each other with armies behind them on a wide plain, tension, ancient Chinese banners.
+
+--- FILE NAME: img-ai-buzhou-2　｜　共工敗了
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Gonggong: fierce bearded water-god warrior with wild dark hair and a blue-green robe, a rough horn-like helmet.
+Gonggong defeated and furious, bleeding-free, kneeling on one knee on a rocky field, looking up at a towering mountain in the northwest.
+
+--- FILE NAME: img-ai-buzhou-3　｜　撞向不周山
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Gonggong: fierce bearded water-god warrior with wild dark hair and a blue-green robe, a rough horn-like helmet.
+Gonggong slams his head against a huge pillar-like mountain, rock cracking, dust and rubble.
+
+--- FILE NAME: img-ai-buzhou-4　｜　天傾西北
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+The sky tilting toward the northwest with sun, moon and stars drifting to that side; Chinese landscape below.
+
+--- FILE NAME: img-ai-buzhou-5　｜　地陷東南
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Broad rivers flowing southeast toward the sea across a mountainous Chinese landscape, large panoramic view.
+
+
+==================================================
+故事 3／8：涿鹿之戰　(STORY 3: story-zhuolu)
+雲端子資料夾：涿鹿之戰
+==================================================
+
+--- FILE NAME: img-ai-zhuolu-1　｜　蚩尤作亂
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Chiyou: imposing war-chief with a horned helmet, bronze weapons, dark armor with red trim.
+Chiyou with horned helmet forging bronze weapons at a fire, his troops behind him.
+
+--- FILE NAME: img-ai-zhuolu-2　｜　應龍蓄水
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Yinglong: a winged auspicious dragon with long serpentine body, deer-like antlers and four clawed legs, deep azure scales, associated with water; no fire breathing.
+Huangdi (Yellow Emperor): dignified bearded ruler in a yellow-ochre Han-style robe with a beaded crown, a bronze sword.
+Yinglong dragon swooping over the plain of Jizhou and gathering a vast flood of water, Huangdi watching from a hill.
+
+--- FILE NAME: img-ai-zhuolu-3　｜　風伯雨師
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Chiyou: imposing war-chief with a horned helmet, bronze weapons, dark armor with red trim.
+Wind and rain gods summoned by Chiyou's side: giant gale and sheets of rain sweeping across the battlefield, banners whipping.
+
+--- FILE NAME: img-ai-zhuolu-4　｜　天女魃
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Nuba (drought goddess): slender woman in plain pale-green robe, bald or with very short hair, quiet and sorrowful, the ground around her cracked and dry.
+Huangdi (Yellow Emperor): dignified bearded ruler in a yellow-ochre Han-style robe with a beaded crown, a bronze sword.
+Nuba descending to the flooded battlefield; where she steps the rain stops and the ground dries, clouds clearing.
+
+--- FILE NAME: img-ai-zhuolu-5　｜　涿鹿的原野
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Huangdi (Yellow Emperor): dignified bearded ruler in a yellow-ochre Han-style robe with a beaded crown, a bronze sword.
+Chiyou: imposing war-chief with a horned helmet, bronze weapons, dark armor with red trim.
+Huangdi's army standing victorious on the plain of Zhuolu, Chiyou's banners fallen, no gore.
+
+
+==================================================
+故事 4／8：后羿射日　(STORY 4: story-houyi-suns)
+雲端子資料夾：后羿射日
+==================================================
+
+--- FILE NAME: img-ai-houyi-suns-1　｜　扶桑上的十個太陽
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Xihe: dignified goddess in vermilion robes driving a chariot of light, a bright round sun at her side.
+A giant sacred mulberry tree (Fusang) at the eastern edge of the world, ten glowing suns resting on its branches, a calm morning; no birds depicted.
+
+--- FILE NAME: img-ai-houyi-suns-2　｜　十日並出
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Ten suns blazing together in the sky, scorched fields, cracked earth and withered crops, villagers shielding their eyes.
+
+--- FILE NAME: img-ai-houyi-suns-3　｜　六種怪獸
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+A scorched land where six strange monsters (a long-toothed beast, a nine-headed serpent, a great boar, a huge bird of wind, a giant snake, a savage beast) menace the people in the distance.
+
+--- FILE NAME: img-ai-houyi-suns-4　｜　羿張弓
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Hou Yi: strong archer in Han-style short tunic, leather armor and a long red bow, topknot, calm focused expression.
+Hou Yi on a mountaintop drawing a long bow toward the ten suns, wind in his clothes.
+
+--- FILE NAME: img-ai-houyi-suns-5　｜　留下一個太陽
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Hou Yi: strong archer in Han-style short tunic, leather armor and a long red bow, topknot, calm focused expression.
+Dawn: a single sun rising calmly over green recovering fields, Hou Yi lowering his bow, relieved villagers.
+
+
+==================================================
+故事 5／8：嫦娥奔月　(STORY 5: story-change-moon)
+雲端子資料夾：嫦娥奔月
+==================================================
+
+--- FILE NAME: img-ai-change-moon-1　｜　羿求藥
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Hou Yi: strong archer in Han-style short tunic, leather armor and a long red bow, topknot, calm focused expression.
+Xiwangmu (Queen Mother of the West): majestic woman with an ornate hair ornament called a sheng, long jade-green robe, seated on a mountain throne.
+Hou Yi bowing humbly before Xiwangmu on her mountain throne; she holds out a small jade vessel.
+
+--- FILE NAME: img-ai-change-moon-2　｜　藥只夠一個人
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Hou Yi: strong archer in Han-style short tunic, leather armor and a long red bow, topknot, calm focused expression.
+Chang'e: graceful woman in long flowing sleeves of pale ivory and stone-blue Han-style dress, hair in a high bun with a jade hairpin, a small white rabbit nearby when on the moon.
+Hou Yi and Chang'e in their home, the small vessel on a table between them, warm lamplight.
+
+--- FILE NAME: img-ai-change-moon-3　｜　偷藥
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Chang'e: graceful woman in long flowing sleeves of pale ivory and stone-blue Han-style dress, hair in a high bun with a jade hairpin, a small white rabbit nearby when on the moon.
+Chang'e alone at night in a quiet room, holding the vessel, hesitating.
+
+--- FILE NAME: img-ai-change-moon-4　｜　飛向月亮
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Chang'e: graceful woman in long flowing sleeves of pale ivory and stone-blue Han-style dress, hair in a high bun with a jade hairpin, a small white rabbit nearby when on the moon.
+Chang'e rising into the night sky in her robes toward a huge luminous full moon.
+
+--- FILE NAME: img-ai-change-moon-5　｜　悵然若失
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Hou Yi: strong archer in Han-style short tunic, leather armor and a long red bow, topknot, calm focused expression.
+Hou Yi standing in a courtyard at night looking up at the full moon, a lonely figure, bow lowered.
+
+
+==================================================
+故事 6／8：大禹治水　(STORY 6: story-yu-flood)
+雲端子資料夾：大禹治水
+==================================================
+
+--- FILE NAME: img-ai-yu-flood-1　｜　洪水滔天
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+A vast flood covering the plains, villagers on rooftops and hills, grey sky, ancient Chinese settlement.
+
+--- FILE NAME: img-ai-yu-flood-2　｜　鯀的息壤
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Gun: older bearded man in rough clothes, tired expression, carrying a pouch of glowing earth.
+Gun building a giant earthen dam from glowing earth that grows by itself, floodwater pressing against it.
+
+--- FILE NAME: img-ai-yu-flood-3　｜　羽山
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Gun: older bearded man in rough clothes, tired expression, carrying a pouch of glowing earth.
+A somber mountain (Yushan) at dusk; Gun's silhouette fallen, no violence shown, a faint glow of earth, mist.
+
+--- FILE NAME: img-ai-yu-flood-4　｜　禹開河道
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Yu the Great: tough lean man in rough hemp clothes, a work spade or digging tool, sun-tanned, calloused hands, straw hat optional.
+Yu leading workers digging channels through hills to guide the flood toward the sea, torches and tools.
+
+--- FILE NAME: img-ai-yu-flood-5　｜　過家門不入
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Yu the Great: tough lean man in rough hemp clothes, a work spade or digging tool, sun-tanned, calloused hands, straw hat optional.
+Yu passing his own house at dawn without stopping, his family waiting in the doorway watching him go.
+
+
+==================================================
+故事 7／8：堯舜禪讓　(STORY 7: story-yao-shun)
+雲端子資料夾：堯舜禪讓
+==================================================
+
+--- FILE NAME: img-ai-yao-shun-1　｜　堯找接班人
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Yao: elderly wise ruler in simple Han-style robe, grey hair and beard.
+Yao at court listening to ministers recommend someone; scrolls and bamboo slips on the table.
+
+--- FILE NAME: img-ai-yao-shun-2　｜　孝順的舜
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Shun: humble sincere young farmer in plain hemp clothes.
+Shun farming in a field, helping his stubborn family kindly; a humble farmhouse in the distance.
+
+--- FILE NAME: img-ai-yao-shun-3　｜　考驗
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Yao: elderly wise ruler in simple Han-style robe, grey hair and beard.
+Shun: humble sincere young farmer in plain hemp clothes.
+Yao observing Shun tending to official duties with ministers in a hall, thoughtful.
+
+--- FILE NAME: img-ai-yao-shun-4　｜　禪讓
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Yao: elderly wise ruler in simple Han-style robe, grey hair and beard.
+Shun: humble sincere young farmer in plain hemp clothes.
+Yao ceremonially handing a jade tablet to Shun in a courtyard of ministers.
+
+--- FILE NAME: img-ai-yao-shun-5　｜　再讓給禹
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Shun: humble sincere young farmer in plain hemp clothes.
+Yu the Great: tough lean man in rough hemp clothes, a work spade or digging tool, sun-tanned, calloused hands, straw hat optional.
+Shun handing a ceremonial tablet to Yu, who bows; the flood-control work behind them.
+
+
+==================================================
+故事 8／8：牛郎織女　(STORY 8: story-cowherd-weaver)
+雲端子資料夾：牛郎織女
+==================================================
+
+--- FILE NAME: img-ai-cowherd-weaver-1　｜　天上的兩顆星
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Weaver Girl (Zhinu): graceful young woman in brilliant cloud-colored silk robes, working at a loom of light.
+The Weaver Girl weaving brilliant cloud-colored silk in the sky palace on one bank of the Milky Way, a bright star beside her.
+
+--- FILE NAME: img-ai-cowherd-weaver-2　｜　牛郎與牛
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Cowherd (Niulang): young herdsman in simple blue-grey Han-style tunic, an old ox beside him.
+The Cowherd with his ox in a green valley under a sky showing the Milky Way.
+
+--- FILE NAME: img-ai-cowherd-weaver-3　｜　相遇與成家
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Cowherd (Niulang): young herdsman in simple blue-grey Han-style tunic, an old ox beside him.
+Weaver Girl (Zhinu): graceful young woman in brilliant cloud-colored silk robes, working at a loom of light.
+The Cowherd and Weaver Girl meeting by a river at dusk, smiling shyly.
+
+--- FILE NAME: img-ai-cowherd-weaver-4　｜　被銀河分開
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Weaver Girl (Zhinu): graceful young woman in brilliant cloud-colored silk robes, working at a loom of light.
+The Weaver Girl pulled back to the sky by celestial attendants, the Cowherd reaching after her across a glowing Milky Way river.
+
+--- FILE NAME: img-ai-cowherd-weaver-5　｜　七夕鵲橋
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Cowherd (Niulang): young herdsman in simple blue-grey Han-style tunic, an old ox beside him.
+Weaver Girl (Zhinu): graceful young woman in brilliant cloud-colored silk robes, working at a loom of light.
+Magpies: a large flock of black-and-white magpies forming a bridge across the Milky Way.
+On the seventh night, magpies form a bridge across the Milky Way and the Cowherd and Weaver Girl meet in the middle.
