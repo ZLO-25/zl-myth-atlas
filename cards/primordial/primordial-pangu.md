@@ -12,7 +12,8 @@ three_lines:
   - 天地原本混在一起像一顆蛋，盤古在裡面一天長高一丈，把天推高、把地壓厚；他死後，身體變成了風雲、日月、山川。
   - 「盤古開天」今天是成語，也常被拿來和北歐巨人伊米爾、希臘的混沌比較。
 hook: 盤古：在一顆蛋裡長大、把天地撐開，死後自己變成了整個世界。
-images: [img-pangu-sancai]
+images: [img-pangu-sancai, img-ai-portrait-pangu]
+few_images: 古代流傳下來的公有領域圖很少，本站另補一張 AI 示意圖
 domains:
   roles: [開天闢地, 創世]
   symbols: [斧頭（後世畫像才有）, 天地之蛋]

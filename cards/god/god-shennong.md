@@ -12,7 +12,8 @@ three_lines:
   - 他做出農具教人耕種，又親口嘗遍百草，傳說一天中毒七十次。
   - 台灣各地都有「神農大帝」廟；中醫藥書《神農本草經》也掛他的名字（其實是漢代人寫的）。
 hook: 神農：親口嘗遍百草、一天中毒七十次的農業與醫藥之神。
-images: [img-shennong-kano]
+images: [img-shennong-kano, img-ai-portrait-shennong]
+few_images: 古代流傳下來的公有領域圖很少，本站另補一張 AI 示意圖
 domains:
   roles: [農業, 醫藥, 市集]
   symbols: [耒耜（古代農具）, 草藥, 稻穗]

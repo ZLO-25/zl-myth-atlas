@@ -12,6 +12,8 @@ three_lines:
   - 他奉天帝之命，在羽山殺了偷息壤治水的鯀。
   - 中國第一輛火星車就叫「祝融號」，因為火星在中文裡是「火」星。
 hook: 祝融：乘著兩條龍的南方火神，也是處死鯀的執行者。
+images: [img-ai-portrait-zhurong]
+few_images: 古代流傳下來的公有領域圖很少，本站另補一張 AI 示意圖
 today: [zhurong-rover]
 domains:
   roles: [火, 南方]
