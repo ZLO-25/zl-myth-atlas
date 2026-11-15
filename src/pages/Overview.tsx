@@ -3,7 +3,7 @@ import { CardLink, ScrollTable } from '../components/bits';
 import { fullName, romanNames } from '../lib/names';
 import { cardById, site } from '../lib/data';
 import { href } from '../lib/router';
-import { STARTER_PATH } from './simple';
+import { STARTER_PATH } from '../lib/paths';
 
 /**
  * 總覽：把希臘羅馬神話當成「一個連續的故事」講一遍，八幕，約 20 分鐘。

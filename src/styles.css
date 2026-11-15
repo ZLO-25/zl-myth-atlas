@@ -361,3 +361,14 @@ pre.ascii { background: var(--surface); border: 1px solid var(--line); padding: 
 
 /* 句尾小字來源 [s1]：字的大小不變，可點範圍至少 24×24（負邊界讓行距與字距維持原樣） */
 .cite a { display: inline-flex; align-items: center; justify-content: center; min-width: 24px; min-height: 24px; box-sizing: border-box; margin: -9px -3px; vertical-align: baseline; }
+
+/* 卡片頁：新手路線的上一張／下一張 */
+.path-step { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--terra); border-radius: 0 12px 12px 0; padding: 0.6rem 1rem; margin: 2rem 0 0; box-shadow: var(--shadow); }
+.path-step-title { margin: 0 0 0.4rem; }
+.path-step-title strong { color: var(--terra); }
+.path-step-links { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+.path-step-links a { display: flex; flex-direction: column; min-height: 2.8rem; min-width: 8rem; flex: 1 1 10rem; padding: 0.35rem 0.8rem; border: 1px solid var(--line); border-radius: 10px; text-decoration: none; color: var(--ink); background: var(--bg); }
+.path-step-links a:hover { border-color: var(--terra); }
+.path-step-links .path-next { text-align: right; }
+.path-step + .path-step { margin-top: 0.8rem; }
+.path-step + .next-cards h2 { margin-top: 1.5rem; }

@@ -3,6 +3,7 @@ import { CardLink, NameTag, Cites, Figure, Markdown, SourceList } from '../compo
 import { Panels } from '../components/Panels';
 import { cardById, eraById, familyOf, isChinese, site, todayById } from '../lib/data';
 import { href } from '../lib/router';
+import { pathsOf } from '../lib/paths';
 import { cardNames, enOrig, looseNames, origLang, origOf, romanNames } from '../lib/names';
 import { CardTile } from './simple';
 
@@ -44,6 +45,7 @@ export function CardPage({ id }: { id: string }) {
   const hasFamily = (fam.parents.length || fam.consorts.length || fam.children.length || fam.predecessors.length || fam.successors.length || fam.foes.length) > 0;
   const hasCauses = !!(c.causes?.length || c.effects?.length || backlinks.length);
   const next = nextCards(c, backlinks);
+  const inPaths = pathsOf(c.id);
 
   // 本頁內容：只列出這張卡真的有的段落
   const toc: [string, string][] = [];
@@ -274,6 +276,10 @@ export function CardPage({ id }: { id: string }) {
         <SourceList sources={c.sources} cardId={c.id} />
       </section>
 
+      {inPaths.map(({ path, index }) => (
+        <PathStep key={path.key} name={path.name} items={path.items} index={index} />
+      ))}
+
       {next.length > 0 && (
         <section className="next-cards">
           <h2>接著讀</h2>
@@ -285,6 +291,34 @@ export function CardPage({ id }: { id: string }) {
         </section>
       )}
     </article>
+  );
+}
+
+/** 這張卡在新手路線裡：第幾張、上一張、下一張 */
+function PathStep({ name, items, index }: { name: string; items: [string, string][]; index: number }) {
+  const prev = index > 0 ? cardById.get(items[index - 1][0]) : undefined;
+  const nextC = index < items.length - 1 ? cardById.get(items[index + 1][0]) : undefined;
+  return (
+    <aside className="path-step" aria-label={`${name}進度`}>
+      <p className="path-step-title">
+        <strong>{name}第 {index + 1}/{items.length} 張</strong>
+        {!nextC && <span>：這是路線的最後一張，讀完了！<a href={href()}>回首頁看路線</a></span>}
+      </p>
+      <div className="path-step-links">
+        {prev && (
+          <a className="path-prev" href={href('card', prev.id)}>
+            <span className="muted small">← 上一張</span>
+            <strong>{prev.name_zh}</strong>
+          </a>
+        )}
+        {nextC && (
+          <a className="path-next" href={href('card', nextC.id)}>
+            <span className="muted small">下一張 →</span>
+            <strong>{nextC.name_zh}</strong>
+          </a>
+        )}
+      </div>
+    </aside>
   );
 }
 
