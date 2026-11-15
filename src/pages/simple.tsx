@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { clearProgress, useReadSet } from '../lib/progress';
 import { TODAY_CATEGORIES } from '../../scripts/lib/types';
 import { eraById } from '../lib/data';
 import { CardLink, MiniCard, ScrollTable } from '../components/bits';
@@ -39,48 +40,15 @@ export function Home() {
       </section>
       <section>
         <h2>新手路線：照順序讀 8 張，就有整部神話的骨架</h2>
-        <ol className="path">
-          {STARTER_PATH.map(([id, why], i) => {
-            const c = cardById.get(id);
-            if (!c) return null;
-            const era = eraById.get(c.era);
-            return (
-              <li key={id}>
-                <a href={href('card', id)}>
-                  <span className="path-no">{i + 1}</span>
-                  <span className="path-body">
-                    <strong>{c.name_zh}</strong> <span className="muted">{enOrig(cardNames(c))}｜{era?.name}</span>
-                    <span className="path-why">{why}</span>
-                  </span>
-                </a>
-              </li>
-            );
-          })}
-        </ol>
+        <PathList items={STARTER_PATH} />
         <p className="muted small">讀完這 8 張，再用上面的「族譜」「年代」「地圖」把人物和地方串起來。</p>
       </section>
       <section>
         <h2>中華神話新手路線：從盤古讀到大禹</h2>
         <p className="muted">希臘神話是一棵家譜樹，主線是「兒子推翻父親」；中華神話比較像一條時間線，越往後神越像古代帝王，主線是「替人類解決問題」。</p>
-        <ol className="path">
-          {CN_PATH.map(([id, why], i) => {
-            const c = cardById.get(id);
-            if (!c) return null;
-            const era = eraById.get(c.era);
-            return (
-              <li key={id}>
-                <a href={href('card', id)}>
-                  <span className="path-no">{i + 1}</span>
-                  <span className="path-body">
-                    <strong>{c.name_zh}</strong> <span className="muted">{enOrig(cardNames(c))}｜{era?.name}</span>
-                    <span className="path-why">{why}</span>
-                  </span>
-                </a>
-              </li>
-            );
-          })}
-        </ol>
+        <PathList items={CN_PATH} />
       </section>
+      <ProgressBox />
       {featured.length > 0 && (
         <section>
           <h2>最多人認識的 6 張</h2>
@@ -109,13 +77,82 @@ export function Home() {
   );
 }
 
+/** 新手路線：已讀幾張、繼續讀下一張，每一張前面有編號或勾勾 */
+function PathList({ items }: { items: [string, string][] }) {
+  const read = useReadSet();
+  const done = items.filter(([id]) => read.has(id)).length;
+  const nextId = items.find(([id]) => !read.has(id))?.[0];
+  const nextCard = nextId ? cardById.get(nextId) : undefined;
+  return (
+    <>
+      <p className="path-progress">
+        <strong className="path-count">已讀 {done}/{items.length}</strong>
+        {nextCard ? (
+          <a className="path-continue" href={href('card', nextCard.id)}>
+            {done > 0 ? '繼續讀下一張' : '從第一張開始'}：{nextCard.name_zh} →
+          </a>
+        ) : (
+          <span className="path-done">這條路線全部讀完了</span>
+        )}
+      </p>
+      <ol className="path">
+        {items.map(([id, why], i) => {
+          const c = cardById.get(id);
+          if (!c) return null;
+          const era = eraById.get(c.era);
+          const isRead = read.has(id);
+          return (
+            <li key={id} className={isRead ? 'is-read' : ''}>
+              <a href={href('card', id)}>
+                <span className="path-no">{isRead ? <span aria-label="已讀">✓</span> : i + 1}</span>
+                <span className="path-body">
+                  <strong>{c.name_zh}</strong> <span className="muted">{enOrig(cardNames(c))}｜{era?.name}</span>
+                  <span className="path-why">{why}</span>
+                </span>
+              </a>
+            </li>
+          );
+        })}
+      </ol>
+    </>
+  );
+}
+
+/** 全站已讀張數與清除進度 */
+function ProgressBox() {
+  const read = useReadSet();
+  const [ask, setAsk] = useState(false);
+  const n = site.cards.filter((c) => read.has(c.id)).length;
+  if (n === 0) return null;
+  return (
+    <section className="progress-box">
+      <p>
+        你已經讀完 <strong>{n}</strong> / {site.cards.length} 張卡（在卡片頁讀到「來源」就會自動記下來，只存在這個瀏覽器裡）。
+      </p>
+      {ask ? (
+        <p className="progress-ask">
+          確定要清除嗎？<button type="button" className="danger" onClick={() => { clearProgress(); setAsk(false); }}>確定清除</button>
+          <button type="button" onClick={() => setAsk(false)}>取消</button>
+        </p>
+      ) : (
+        <button type="button" className="clear-progress" onClick={() => setAsk(true)}>清除讀書進度</button>
+      )}
+    </section>
+  );
+}
+
 export function CardTile({ id }: { id: string }) {
   const c = cardById.get(id);
+  const read = useReadSet();
   if (!c) return null;
   const av = avatarOf(c);
+  const isRead = read.has(c.id);
   return (
-    <a className="tile" href={href('card', c.id)}>
-      <div className="tile-img">{av ? <img src={imgSrc(av)} alt="" loading="lazy" /> : <span className="tile-initial">{c.name_zh[0]}</span>}</div>
+    <a className={`tile${isRead ? ' is-read' : ''}`} href={href('card', c.id)}>
+      <div className="tile-img">
+        {av ? <img src={imgSrc(av)} alt="" loading="lazy" /> : <span className="tile-initial">{c.name_zh[0]}</span>}
+        {isRead && <span className="read-badge">✓ 已讀</span>}
+      </div>
       <div className="tile-body">
         <span className={`type-chip t-${c.type}`}>{c.type}</span>
         <strong>{c.name_zh}</strong>

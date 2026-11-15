@@ -1,3 +1,5 @@
+import { useEffect } from 'react';
+import { markRead } from '../lib/progress';
 import type { Card } from '../../scripts/lib/types';
 import { CardLink, NameTag, Cites, Figure, Markdown, SourceList } from '../components/bits';
 import { Panels } from '../components/Panels';
@@ -32,7 +34,25 @@ function nextCards(c: Card, backlinks: Card[]): Card[] {
   return picked.slice(0, 3);
 }
 
+/** 讀到底：「來源」或「接著讀」捲進畫面，就記為已讀 */
+function useMarkReadAtEnd(id: string) {
+  useEffect(() => {
+    if (!cardById.has(id)) return;
+    const targets = ['sec-sources', 'sec-next'].map((x) => document.getElementById(x)).filter(Boolean) as HTMLElement[];
+    if (!targets.length || typeof IntersectionObserver === 'undefined') return;
+    const io = new IntersectionObserver((es) => {
+      if (es.some((e) => e.isIntersecting)) {
+        markRead(id);
+        io.disconnect();
+      }
+    });
+    targets.forEach((t) => io.observe(t));
+    return () => io.disconnect();
+  }, [id]);
+}
+
 export function CardPage({ id }: { id: string }) {
+  useMarkReadAtEnd(id);
   const c = cardById.get(id);
   if (!c) return <div className="page"><p>找不到這張卡：{id}</p></div>;
   const fam = familyOf(c.id);
@@ -281,7 +301,7 @@ export function CardPage({ id }: { id: string }) {
       ))}
 
       {next.length > 0 && (
-        <section className="next-cards">
+        <section className="next-cards" id="sec-next">
           <h2>接著讀</h2>
           <div className="card-grid">
             {next.map((o) => (

@@ -372,3 +372,18 @@ pre.ascii { background: var(--surface); border: 1px solid var(--line); padding: 
 .path-step-links .path-next { text-align: right; }
 .path-step + .path-step { margin-top: 0.8rem; }
 .path-step + .next-cards h2 { margin-top: 1.5rem; }
+
+/* 已讀進度 */
+.tile-img { position: relative; }
+.read-badge { position: absolute; top: 0.4rem; right: 0.4rem; background: var(--olive); color: #fff; font-size: 0.8rem; font-weight: 700; padding: 0.1rem 0.55rem; border-radius: 999px; box-shadow: var(--shadow); }
+.tile.is-read { border-color: var(--olive); }
+.path-progress { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem 1rem; margin: 0.5rem 0; }
+.path-count { color: var(--olive); }
+.path-continue { display: inline-flex; align-items: center; min-height: 2.4rem; padding: 0.2rem 1rem; border-radius: 999px; background: var(--terra); color: #fff; text-decoration: none; font-weight: 700; }
+.path-continue:hover { filter: brightness(1.1); }
+.path-done { color: var(--olive); font-weight: 700; }
+.path li.is-read a { border-color: var(--olive); }
+.path li.is-read .path-no { background: var(--olive); }
+.progress-box { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 0.4rem 1rem 0.8rem; margin-top: 2rem; max-width: 46rem; }
+.progress-box button { border: 1px solid var(--line); background: var(--bg); color: var(--ink); min-height: 2.4rem; padding: 0.3rem 1rem; border-radius: 999px; font: inherit; cursor: pointer; margin-right: 0.5rem; }
+.progress-box button.danger { background: var(--terra); border-color: var(--terra); color: #fff; }

@@ -5,6 +5,13 @@ const noHScroll = async (page: Page) => {
   expect(over, '頁面不可橫向捲動').toBeLessThanOrEqual(1);
 };
 
+/** 打開卡片並捲到來源：IntersectionObserver 是非同步的，等一下再離開 */
+const readToEnd = async (page: Page, id: string) => {
+  await page.goto('#/card/' + id);
+  await page.locator('#sec-sources').scrollIntoViewIfNeeded();
+  await page.waitForTimeout(300);
+};
+
 test('第二波 2：卡片頁顯示新手路線第幾張、上一張與下一張', async ({ page }) => {
   await page.goto('#/card/story-persephone');
   const step = page.locator('aside.path-step');
@@ -28,4 +35,65 @@ test('第二波 2：卡片頁顯示新手路線第幾張、上一張與下一張
   await page.goto('#/card/god-apollo');
   await expect(page.locator('aside.path-step')).toHaveCount(0);
   await noHScroll(page);
+});
+
+test('第二波 1：讀到底記為已讀，磚塊與首頁路線顯示進度，可繼續讀與清除', async ({ page }) => {
+  await page.goto('');
+  await expect(page.locator('.path-count').first()).toHaveText('已讀 0/8');
+  await expect(page.locator('.path-continue').first()).toContainText('從第一張開始：蓋亞');
+  await expect(page.locator('.progress-box')).toHaveCount(0);
+
+  // 只是打開卡片、還沒讀到底：不算已讀
+  await page.goto('#/card/primordial-gaia');
+  await page.waitForTimeout(300);
+  await page.goto('');
+  await expect(page.locator('.path-count').first()).toHaveText('已讀 0/8');
+
+  // 讀到來源 → 已讀
+  await readToEnd(page, 'primordial-gaia');
+  await page.goto('');
+  await expect(page.locator('.path-count').first()).toHaveText('已讀 1/8');
+  await expect(page.locator('.path li.is-read')).toHaveCount(1);
+  await expect(page.locator('.path-continue').first()).toContainText('繼續讀下一張：克羅諾斯');
+  await expect(page.locator('.progress-box')).toContainText('1 /');
+
+  // 卡片磚塊（首頁「最多人認識的 6 張」與卡片列表）也有勾勾
+  await readToEnd(page, 'god-zeus');
+  await page.goto('#/cards');
+  await expect(page.locator('a.tile.is-read .read-badge')).toHaveCount(2);
+  await expect(page.locator('a.tile', { hasText: '宙斯' }).first().locator('.read-badge')).toHaveText('✓ 已讀');
+
+  // 首頁「繼續讀下一張」會跳過已讀的（蓋亞已讀、宙斯也已讀，下一張是克羅諾斯）
+  await page.goto('');
+  await page.locator('.path-continue').first().click();
+  await expect(page).toHaveURL(/#\/card\/titan-cronus/);
+
+  // 在同一個分頁內不用重新整理，首頁就會更新
+  await page.locator('#sec-sources').scrollIntoViewIfNeeded();
+  await page.waitForTimeout(300);
+  await page.evaluate(() => (location.hash = '#/'));
+  await expect(page.locator('.path-count').first()).toHaveText('已讀 3/8');
+
+  // 清除
+  await page.getByRole('button', { name: '清除讀書進度' }).click();
+  await page.getByRole('button', { name: '確定清除' }).click();
+  await expect(page.locator('.path-count').first()).toHaveText('已讀 0/8');
+  await expect(page.locator('.progress-box')).toHaveCount(0);
+  await page.reload();
+  await expect(page.locator('.path-count').first()).toHaveText('已讀 0/8');
+});
+
+test('第二波 1：讀不到 localStorage 時網站照常運作', async ({ page }) => {
+  await page.addInitScript(() => {
+    Object.defineProperty(window, 'localStorage', { get() { throw new Error('blocked'); } });
+  });
+  const errors: string[] = [];
+  page.on('pageerror', (e) => errors.push(e.message));
+  await page.goto('');
+  await expect(page.locator('.path-count').first()).toHaveText('已讀 0/8');
+  await readToEnd(page, 'primordial-gaia');
+  await page.evaluate(() => (location.hash = '#/'));
+  // 存不進瀏覽器，但這次瀏覽還是記得
+  await expect(page.locator('.path-count').first()).toHaveText('已讀 1/8');
+  expect(errors).toEqual([]);
 });
