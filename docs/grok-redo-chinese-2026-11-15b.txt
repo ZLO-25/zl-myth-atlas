@@ -1,0 +1,9 @@
+眾神星圖 中華神話 重生工作單（1 張）
+Generate ONE image using the prompt exactly. Landscape 4:3 (1600x1200), no text. The number of suns must be EXACTLY TEN: count them before answering; if the count is not ten, regenerate. State the FILE NAME afterwards.
+
+ 
+--- FILE NAME: img-ai-houyi-suns-1-redo2　｜　扶桑上的十個太陽
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of silk, bronze, lacquer, jade and rammed earth. Palette: cinnabar red, stone blue, malachite green, rice-paper ivory and gold accents. Clothing, armor and architecture of the Han-dynasty Chinese world (clothing and style of Han tomb paintings and reliefs; no Ming/Qing costumes, no kimono, no Japanese or Korean styling). Landscape 4:3, 1600x1200. No text, no letters, no calligraphy, no seals, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Xihe: dignified goddess in vermilion robes driving a chariot of light, a bright round sun at her side.
+Xihe stands in a chariot on the left. On the right, a large sacred mulberry tree (Fusang) shown in strict symmetry: five glowing round suns hang on its left-hand branches and five glowing round suns hang on its right-hand branches, arranged in two clear rows of five, TEN suns in total, count them and stop at ten. Nowhere else in the image is there any sun or sun-like glowing disc, not even in the sky.
