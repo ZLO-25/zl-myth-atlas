@@ -26,8 +26,8 @@ family:
     - {name: 西格恩, src: [s1]}
   children:
     - {name: 納里, src: [s1]}
-    - {name: 芬里爾, src: [s2]}
-    - {name: 耶夢加得, src: [s2]}
+    - {id: monster-fenrir, src: [s2]}
+    - {id: monster-jormungandr, src: [s2]}
     - {name: 海爾, src: [s2]}
     - {name: 斯雷普尼爾, src: [s3]}
 sources:
@@ -39,7 +39,7 @@ sources:
   - {id: s6, kind: ancient, cite: 《詩體埃達》〈洛基的爭辯〉結尾的散文說明（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
   - {id: s7, kind: ancient, cite: 《詩體埃達》〈女先知的預言〉第 35 節與 Bellows 註解, url: 'https://www.gutenberg.org/ebooks/73533'}
   - {id: s8, kind: ancient, cite: 《詩體埃達》〈女先知的預言〉第 51 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
-  - {id: s9, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 51 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+  - {id: s9, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 51 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning51-54.htm'}
   - {id: s10, kind: ancient, cite: 《詩體埃達》〈索列姆之歌〉第 3–4、20 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
   - {id: s11, kind: modern, cite: 漫威官方角色頁「Loki」, url: 'https://www.marvel.com/characters/loki', accessed: '2026-11-16'}
   - {id: s12, kind: modern, cite: World History Encyclopedia「Thor」, url: 'https://www.worldhistory.org/Thor/', accessed: '2026-11-16'}
@@ -55,6 +55,7 @@ disputed:
       - {view: 斯諾里：女巨人索克不肯哭；他說人們認為，索克其實就是洛基。, src: [s4]}
 era: no-gods
 topics: [智慧與詭計, 怪物]
+today: [marvel-thor-loki]
 ---
 
 ## 故事
@@ -65,7 +66,7 @@ topics: [智慧與詭計, 怪物]
 
 ### 他的孩子
 
-洛基和女巨人安格爾波達生下三個孩子：狼芬里爾、大蛇耶夢加得，還有海爾。[s2]
+洛基和女巨人安格爾波達生下三個孩子：狼[[monster-fenrir|芬里爾]]、大蛇[[monster-jormungandr|耶夢加得]]，還有海爾。[s2]
 
 他還「生下」一匹灰色、八隻腳的小馬，叫斯雷普尼爾。[s3] 這匹馬就是[[god-odin|奧丁]]最好的馬。[s14] 經過是這樣：有個巨人工匠和眾神打賭，洛基出主意接受了賭約。[s3] 後來他又去引開工匠的種馬斯瓦迪爾法利，之後就生下了這匹小馬。[s3]
 
@@ -75,11 +76,11 @@ topics: [智慧與詭計, 怪物]
 
 ### 借羽衣、扮侍女
 
-[[god-thor|索爾]]的錘子不見時，芙蕾雅把一件鷹羽衣借給洛基，讓他去找。[s10] 後來索爾披上新娘頭紗去拿回錘子，洛基扮成侍女，一路同行。[s10]
+[[god-thor|索爾]]的錘子不見時，[[god-freyja|芙蕾雅]]把一件鷹羽衣借給洛基，讓他去找。[s10] 後來索爾披上新娘頭紗去拿回錘子，洛基扮成侍女，一路同行。[s10] 完整的故事見[[story-thor-bride|索爾扮新娘]]。[s10]
 
 ### 害死巴德爾
 
-斯諾里說，洛基扮成女人，去找芙麗嘉，從她口中套出：槲寄生沒有發誓不傷巴德爾。[s4] 他拔來槲寄生，交給盲眼的霍德爾，還幫他瞄準，霍德爾就這樣射死了巴德爾。[s4]
+斯諾里說，洛基扮成女人，去找[[god-frigg|芙麗嘉]]，從她口中套出：槲寄生沒有發誓不傷巴德爾。[s4] 他拔來槲寄生，交給盲眼的霍德爾，還幫他瞄準，霍德爾就這樣射死了[[god-baldr|巴德爾]]。[s4] 完整的經過見[[story-baldr-death|巴德爾之死]]。[s4]
 
 ### 被綁起來
 
@@ -87,7 +88,7 @@ topics: [智慧與詭計, 怪物]
 
 ### 諸神黃昏
 
-〈女先知的預言〉說，洛基掌舵，駛來敵人的船。[s8] 斯諾里說，他和海姆達爾互相殺死對方。[s9]
+〈女先知的預言〉說，洛基掌舵，駛來敵人的船。[s8] 斯諾里說，他和[[god-heimdall|海姆達爾]]互相殺死對方。[s9]
 
 ### 兩個洛基
 
