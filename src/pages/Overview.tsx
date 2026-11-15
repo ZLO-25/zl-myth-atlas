@@ -3,9 +3,10 @@ import { CardLink } from '../components/bits';
 import { fullName, romanNames } from '../lib/names';
 import { cardById, site } from '../lib/data';
 import { href } from '../lib/router';
+import { STARTER_PATH } from './simple';
 
 /**
- * 總覽：把希臘羅馬神話當成「一個連續的故事」講一遍，八幕，約 15 分鐘。
+ * 總覽：把希臘羅馬神話當成「一個連續的故事」講一遍，八幕，約 20 分鐘。
  * 觀念、表格、希羅對照都嵌在故事該出現的地方，而不是另外列。
  */
 
@@ -106,10 +107,22 @@ export function Overview() {
 
   return (
     <article className="page overview">
-      <h1>總覽：十五分鐘，一口氣講完希臘神話</h1>
+      <h1>總覽：二十分鐘，一口氣講完希臘神話</h1>
       <p className="lead">
         希臘神話不是一堆零散的人名，而是一個連續的故事：世界怎麼來、神怎麼換了三代、神和人怎麼鬧翻、英雄怎麼出現、一場戰爭怎麼結束了英雄時代，最後怎麼傳到羅馬。下面分八幕講完。讀完這一頁，45 張卡裡的每一張你都知道放在哪裡。
       </p>
+      <aside className="quick" aria-label="極短版">
+        <strong>只有 1～2 分鐘？先讀這 8 行極短版</strong>
+        <ol>
+          {STARTER_PATH.map(([id, why]) => (
+            <li key={id}>
+              <a href={href('card', id)}>{cardById.get(id)?.name_zh}</a>
+              <span>{why}</span>
+            </li>
+          ))}
+        </ol>
+        <span className="muted small">想要完整故事，就往下讀八幕（約 20 分鐘）。</span>
+      </aside>
       <nav className="acts" aria-label="八幕">
         {ACTS.map(([a, no, title]) => (
           <a key={a} href={`#${a}`} className={cur === a ? 'on' : ''} onClick={jump(`ov-${a}`, 'start')}>

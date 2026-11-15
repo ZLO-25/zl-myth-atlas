@@ -6,7 +6,7 @@ import { cardNames, enOrig, fullName, origLang, origOf, romanNames } from '../li
 import { avatarOf, cardById, imgSrc, site, todayById, TYPE_ORDER } from '../lib/data';
 
 /** 新手路線：照故事順序讀這 8 張，就有整部神話的骨架 */
-const STARTER_PATH: [string, string][] = [
+export const STARTER_PATH: [string, string][] = [
   ['primordial-gaia', '一切從大地開始：她生出天空，也策畫了第一次政變'],
   ['titan-cronus', '兒子推翻父親，又怕被兒子推翻，於是吞掉孩子'],
   ['god-zeus', '被藏起來的么兒長大，打贏十年泰坦之戰，抽籤分天下'],
@@ -38,7 +38,7 @@ export function Home() {
         <p className="lead">希臘羅馬神話與中華神話：認得眾神與英雄，能把故事講給別人聽，也看得懂今天電影、品牌、英文單字、太空任務裡的神話梗。每件事都附來源。</p>
         <a className="overview-cta" href={href('overview')}>
           <strong>第一次來？先看總覽</strong>
-          <span>五分鐘講完：世界長什麼樣、誰是誰、故事從哪來、為什麼今天還要懂 →</span>
+          <span>約 20 分鐘讀完：世界長什麼樣、誰是誰、故事從哪來、為什麼今天還要懂。趕時間？頁首有 1 分鐘極短版 →</span>
         </a>
         <div className="tiles">
           <a href={href('cards')}><strong>卡片</strong><span>{site.cards.length} 張神、英雄、故事</span></a>

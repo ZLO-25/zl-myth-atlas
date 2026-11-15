@@ -320,3 +320,10 @@ pre.ascii { background: var(--surface); border: 1px solid var(--line); padding: 
 .recap li { margin: 0.15rem 0; }
 .epilogue .overview-cta { display: inline-flex; }
 @media (max-width: 760px) { .acts { top: 6.2rem; } .acts a span:last-child { display: none; } .acts a { padding-right: 0.25rem; } }
+
+/* 總覽：極短版 */
+.quick { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--gold); border-radius: 0 12px 12px 0; padding: 0.7rem 1rem; margin: 1rem 0; max-width: 46rem; box-shadow: var(--shadow); }
+.quick ol { list-style: none; padding: 0; margin: 0.4rem 0; }
+.quick li { display: grid; grid-template-columns: 6.2em 1fr; gap: 0.6rem; margin: 0.25rem 0; font-size: 0.95rem; }
+.quick li a { flex: none; font-weight: 700; min-width: 4.5em; }
+.quick li span { color: var(--muted); }
