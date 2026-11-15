@@ -64,3 +64,37 @@ test('第一波 3：導覽與首頁磚塊改叫「對照」，頁內有兩個跳
   await expect.poll(async () => (await page.locator('#gr-rome').boundingBox())!.y).toBeLessThan(250);
   await expect(page).toHaveURL(/#\/compare$/);
 });
+
+test('第一波 4：搜尋容錯、搜內文、不相干的詞顯示找不到', async ({ page }) => {
+  await page.goto('');
+  const box = page.locator('.search input');
+  const items = page.locator('.search-results li');
+  // 英文打錯字：第一筆是宙斯
+  await box.fill('zues');
+  await expect(items.first()).toContainText('宙斯');
+  await box.fill('Posiedon');
+  await expect(items.first()).toContainText('波賽頓');
+  // 內文（主題說明）：四季 → 波瑟芬妮被擄
+  await box.fill('四季');
+  await expect(page.locator('.search-results')).toContainText('波瑟芬妮被擄');
+  // 不相干：找不到，沒有雜訊
+  await box.fill('Thor');
+  await expect(items).toHaveCount(1);
+  await expect(items.first()).toContainText('找不到「Thor」');
+  // 原本就對的搜尋結果不變
+  await box.fill('Jupiter');
+  await expect(items).toHaveCount(1);
+  await expect(items.first()).toContainText('宙斯');
+  await box.fill('維納斯');
+  await expect(items).toHaveCount(2);
+  await expect(items.nth(0)).toContainText('阿芙蘿黛蒂');
+  await expect(items.nth(1)).toContainText('波提且利');
+  await box.fill('女媧');
+  await expect(items).toHaveCount(2);
+  await expect(items.nth(0)).toContainText('女媧');
+  await expect(items.nth(1)).toContainText('女媧補天');
+  // 按 Enter 開第一筆
+  await box.fill('zues');
+  await box.press('Enter');
+  await expect(page).toHaveURL(/#\/card\/god-zeus/);
+});
