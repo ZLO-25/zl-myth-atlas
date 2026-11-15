@@ -245,7 +245,61 @@ export function Compare() {
         </table>
       </div>
       <BorrowStory />
+      <ChineseWestern />
     </div>
+  );
+}
+
+function CwCell({ side }: { side: { text: string; cards: string[] } }) {
+  return (
+    <td>
+      {side.text}
+      {side.cards.length > 0 && (
+        <div className="small">
+          {side.cards.map((id) => (
+            <span key={id}>
+              <CardLink id={id} />{' '}
+            </span>
+          ))}
+        </div>
+      )}
+    </td>
+  );
+}
+
+function ChineseWestern() {
+  return (
+    <section className="borrow" id="cn-west">
+      <h2>中西神話對照</h2>
+      <p className="muted">這張表只把「相似的問題」放在一起比，看兩邊各怎麼回答；不是說哪一邊影響了哪一邊。</p>
+      <pre className="ascii">{`同一個問題 ──┬─► 中華神話怎麼回答
+             └─► 希臘羅馬神話怎麼回答
+                     │
+                     ▼
+              差在哪裡？（最右欄）`}</pre>
+      <div className="table-wrap">
+        <table className="compare">
+          <thead>
+            <tr>
+              <th>問題</th>
+              <th>中華神話</th>
+              <th>希臘羅馬神話</th>
+              <th>差在哪</th>
+            </tr>
+          </thead>
+          <tbody>
+            {site.chineseWestern.map((r) => (
+              <tr key={r.theme}>
+                <td>{r.theme}</td>
+                <CwCell side={r.chinese} />
+                <CwCell side={r.western} />
+                <td>{r.diff}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
   );
 }
 

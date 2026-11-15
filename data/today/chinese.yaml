@@ -1,0 +1,61 @@
+# 今日影子：中華神話在今天的太空任務
+- id: change-program
+  category: 天文與太空
+  title: 嫦娥探月工程
+  cards: [hero-change, story-change-moon]
+  what: 中國的探月計畫（中國探月工程）也叫「嫦娥工程」，探測器以神話裡飛上月亮的女神命名。
+  diff: 神話裡的嫦娥是吃了不死藥、孤身飛到月宮的人，故事偏向孤獨與思念；現代的嫦娥探測器則是一顆顆去月球做調查的機器，兩者只有名字相連。
+  status: 已查證
+  sources:
+    - {cite: The World of Chinese〈Romantic Naming of Chinese Space Missions〉（2021-09-19）, url: 'https://www.theworldofchinese.com/2021/09/romantic-naming-of-chinese-space-missions/'}
+    - {cite: EarthDate〈Chinese Moon Missions〉, url: 'https://www.earthdate.org/episodes/chinese-moon-missions'}
+- id: yutu-rover
+  category: 天文與太空
+  title: 玉兔號月球車
+  cards: [hero-change, story-change-moon]
+  what: 嫦娥系列的月球車叫「玉兔」（Yutu，Jade Rabbit），名字取自傳說中陪著嫦娥住在月亮上的白兔。
+  diff: 在傳說裡，玉兔是月宮裡搗藥的兔子；中國古代看月亮表面的陰影，把它想像成兔子。把它拿來命名一台會在月球表面行走的車，是把古人眼中的月影變成真正的月面探索。
+  status: 已查證
+  sources:
+    - {cite: 大英百科全書「Yutu」, url: 'https://www.britannica.com/topic/Yutu'}
+    - {cite: The World of Chinese〈Romantic Naming of Chinese Space Missions〉（2021-09-19）, url: 'https://www.theworldofchinese.com/2021/09/romantic-naming-of-chinese-space-missions/'}
+- id: queqiao-relay
+  category: 天文與太空
+  title: 鵲橋中繼衛星
+  cards: [story-cowherd-weaver]
+  what: 2018 年 5 月 21 日發射的「鵲橋」中繼衛星，負責在地球與月球背面的嫦娥四號之間傳遞通訊。
+  diff: 月球永遠以同一面朝向地球，背面的訊號被月亮擋住，需要一座「橋」。名字取自牛郎織女的故事：七夕那天喜鵲在銀河上搭橋，讓被分開的兩人相會。故事裡的橋連接兩個戀人，衛星的橋連接地球和月背。
+  status: 已查證
+  sources:
+    - {cite: 新華社「China launches relay satellite to explore Moon's far side」（2018-05-21）, url: 'https://www.xinhuanet.com/english/2018-05/21/c_137194776.htm'}
+    - {cite: 行星學會「Chang'e 4 relay satellite, Queqiao」（2018-05-19）, url: 'https://www.planetary.org/articles/0519-change-4-relay-satellite'}
+- id: zhurong-rover
+  category: 天文與太空
+  title: 祝融號火星車與天問一號
+  cards: [god-zhurong]
+  what: 2021 年 4 月 24 日，中國把第一台火星車命名為「祝融」，是神話中的火神；火星任務本身叫「天問一號」，取自屈原的長詩《天問》。
+  diff: 火星在中文裡叫「熒惑」，和「火」有關，所以火神祝融被選去替它開路。《天問》則是兩千多年前詩人對天地、神話發出的一連串問題，用它當任務名，有「向天發問」的意思。神話裡的祝融是處死鯀的火神，現代的祝融號是一台太陽能火星車，兩者只共用名字。
+  status: 已查證
+  sources:
+    - {cite: 中國日報「China announces name for first Mars rover」（2021-04-24）, url: 'https://govt.chinadaily.com.cn/s/202104/24/WS60867419498e7a02c6f6b2c6/china-announces-name-for-first-mars-rover.html'}
+    - {cite: 中國國務院英文網（2021-04-22）, url: 'https://english.www.gov.cn/statecouncil/ministries/202104/22/content_WS6080ca91c6d0df57f98d85e2.html'}
+    - {cite: The World of Chinese〈Romantic Naming of Chinese Space Missions〉（2021-09-19）, url: 'https://www.theworldofchinese.com/2021/09/romantic-naming-of-chinese-space-missions/'}
+- id: kuafu-1
+  category: 天文與太空
+  title: 夸父一號太陽觀測衛星
+  cards: [hero-kuafu]
+  what: 先進天基太陽天文台（ASO-S）別名「夸父一號」，2022 年 10 月 9 日從酒泉發射，用來觀測太陽。
+  diff: 神話裡的夸父追著太陽跑，最後渴死在半路；現代的夸父一號則是真的繞著地球、長期盯著太陽看，把「追日」這件事用科學做到了。
+  status: 已查證
+  sources:
+    - {cite: 中國科學院「China Launches Space-based Observatory to Unravel the Sun's Secrets」（2022-10-10）, url: 'https://english.cas.cn/newsroom/news--archives/2022/cas-in-media/202210/t20221010_1125985.shtml'}
+    - {cite: CGTN（2022-10-09）, url: 'https://news.cgtn.com/news/2022-10-09/Why-China-launched-another-solar-probe-when-there-are-dozens-in-space-1dZOeJRacgg/index.html'}
+- id: xihe-1
+  category: 天文與太空
+  title: 羲和號太陽探測衛星
+  cards: [god-xihe]
+  what: 中國的 CHASE 太陽探測衛星（Chinese H-Alpha Solar Explorer）別名「羲和號」，2021 年發射，進入太陽同步軌道，專門拍攝太陽的 Hα 波段。
+  diff: 神話裡的羲和是十個太陽的母親，每天駕車送太陽上天；用她的名字替一顆天天看著太陽的衛星命名，剛好呼應。報導只說明了衛星的別名，沒有交代取名理由，所以「為什麼選她」是合理的聯想，不是官方說法。
+  status: 已查證
+  sources:
+    - {cite: CGTN（2022-10-09）, url: 'https://news.cgtn.com/news/2022-10-09/Why-China-launched-another-solar-probe-when-there-are-dozens-in-space-1dZOeJRacgg/index.html'}

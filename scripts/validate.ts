@@ -195,6 +195,14 @@ for (const t of today) {
   if (!t.sources?.length || t.sources.some((s) => !/^https?:\/\//.test(s.url ?? ''))) err(w, '至少 1 個有網址的來源');
 }
 
+// 中西對照
+for (const r of data.chineseWestern) {
+  const w = `data/chinese-western.yaml（${r.theme}）`;
+  if (!r.chinese?.text || !r.western?.text || !r.diff) err(w, '要有 chinese、western、diff');
+  for (const id of [...(r.chinese?.cards ?? []), ...(r.western?.cards ?? [])]) if (!cardIds.has(id)) err(w, `卡片 ${id} 不存在`);
+  if (!r.chinese?.cards?.length) err(w, '中華這一側至少連到 1 張卡');
+}
+
 // 地點
 for (const p of places) {
   const w = `data/places.yaml（${p.id}）`;

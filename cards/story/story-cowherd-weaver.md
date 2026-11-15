@@ -12,6 +12,13 @@ three_lines:
   - 他們每年只能在七月七日見一次面，喜鵲搭起橋讓他們過河。
   - 這是七夕情人節的由來；夜空裡的織女星和牛郎星（牽牛星）真的隔著銀河。
 hook: 牛郎織女：被銀河分開的戀人，一年只能在鵲橋上見一次。
+panels:
+  - {image: img-ai-cowherd-weaver-1, text: 織女本來在天上織出彩雲般的錦緞。, src: [s1, s4]}
+  - {image: img-ai-cowherd-weaver-2, text: 牛郎是個牧牛的年輕人。, src: [s3]}
+  - {image: img-ai-cowherd-weaver-3, text: 兩人相遇、成了夫妻。, src: [s3, s4]}
+  - {image: img-ai-cowherd-weaver-4, text: 織女荒廢了織布，被罰回到銀河對岸。, src: [s4]}
+  - {image: img-ai-cowherd-weaver-5, text: 每年七月七日，喜鵲搭成橋，他們才能相會一次。, src: [s3, s4]}
+today: [queqiao-relay]
 sources:
   - {id: s1, kind: ancient, cite: 《詩經·小雅·大東》, url: 'https://ctext.org/book-of-poetry/da-dong/zh'}
   - {id: s2, kind: ancient, cite: 〈迢迢牽牛星〉（《古詩十九首》之十，東漢）, url: 'https://zh.wikisource.org/wiki/%E5%8F%A4%E8%A9%A9%E5%8D%81%E4%B9%9D%E9%A6%96'}

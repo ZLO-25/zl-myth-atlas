@@ -175,6 +175,7 @@ export interface SiteData {
   places: Place[];
   topics: Topic[];
   greekRoman: GreekRomanRow[];
+  chineseWestern: ChineseWesternRow[];
   odysseyRoute: RouteStop[];
   builtAt: string;
 }
@@ -198,4 +199,12 @@ export interface RouteStop {
   book: string; // 《奧德賽》卷數
   note: string;
   src: { cite: string; url: string }[];
+}
+
+export interface CwSide { text: string; cards: string[] }
+export interface ChineseWesternRow {
+  theme: string;
+  chinese: CwSide;
+  western: CwSide;
+  diff: string;
 }

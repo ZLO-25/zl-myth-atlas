@@ -12,6 +12,12 @@ three_lines:
   - 她煉五色石補天，砍下大龜的腳撐起四方，殺黑龍、堆蘆灰擋住洪水。
   - 《紅樓夢》開頭的通靈寶玉，就是女媧補天剩下的一塊石頭。
 hook: 女媧補天：天破了洞，女神用五色石把它補好。
+panels:
+  - {image: img-ai-nuwa-sky-1, text: 撐天的四根柱子壞了，天蓋不住大地，九州也裂開了。, src: [s1]}
+  - {image: img-ai-nuwa-sky-2, text: 女媧熔煉五種顏色的石頭。, src: [s1]}
+  - {image: img-ai-nuwa-sky-3, text: 她用煉好的石頭補好蒼天。, src: [s1]}
+  - {image: img-ai-nuwa-sky-4, text: 她砍下大海龜的四隻腳，撐起天的四個角。, src: [s1]}
+  - {image: img-ai-nuwa-sky-5, text: 她殺死黑龍救了冀州，又堆起蘆灰擋住洪水，百姓終於能安心過日子。, src: [s1]}
 causes:
   - {id: story-buzhou, rel: 背景, why: 後世常說是共工撞斷天柱，女媧才去補天；但《淮南子》補天的段落沒提到共工，兩件事是後來才被串起來的。, src: [s1, s2]}
 sources:
