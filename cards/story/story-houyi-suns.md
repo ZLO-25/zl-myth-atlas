@@ -12,6 +12,7 @@ three_lines:
   - 堯的時代，大地被曬焦，怪獸四處害人；羿奉命上射太陽、下除六害。
   - 為什麼現在只剩一個太陽？後世的說法是：羿射下九個，留下了一個。
 hook: 后羿射日：十個太陽一起上班，大地快被烤焦了。
+images: [img-mawangdui-banner]
 panels:
   - {image: img-ai-houyi-suns-1, text: 十個太陽是羲和的孩子，住在東方扶桑樹上，本來應該輪流上天。, src: [s2, s4]}
   - {image: img-ai-houyi-suns-2, text: 堯的時代，十個太陽一起出現，莊稼燒焦，百姓沒東西吃。, src: [s1]}

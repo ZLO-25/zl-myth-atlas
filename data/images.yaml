@@ -961,3 +961,33 @@
   date: 約前 460–450 年
   museum: 美國紐約大都會藝術博物館
   look: 瑞亞（左）雙手捧著一個包在襁褓裡的「嬰兒」，遞給拄著權杖的克羅諾斯；他伸手要接。古希臘觀眾都知道布裡包的是石頭，這一刻決定了宙斯能不能活下來。
+
+- id: img-pangu-sancai
+  kind: work
+  commons: "File:Pangu.jpg"
+  title: 〈盤古氏〉
+  period: ancient
+  look: 黑白木刻版畫：盤古滿臉鬍鬚，頭頂長出一對小角，全身披著長毛，雙手在胸前合攏。這是明代《三才圖會》裡的盤古像；盤古的故事最早見於三國時代，圖卻是一千多年後才畫的，所以長相是後人想像出來的。
+  artist: 王圻（《三才圖會》）
+  date: 約 1607 年
+  museum: 書籍插圖
+
+- id: img-chiyou-wuliang
+  kind: work
+  commons: "File:Chi You Rubbing Wu family shrines Han.jpg"
+  title: 〈蚩尤〉武氏祠畫像石拓本
+  period: ancient
+  look: 黑白拓本：一個長著獸頭、拿著兵器的戰神，身體扭動，一旁有弓和長兵器。拓本是把石刻拓印到紙上的黑白複製品，所以只看得到輪廓，沒有顏色。蚩尤的形象是兇猛的戰神，不是壞人的臉。
+  artist: 佚名（東漢石刻）
+  date: 東漢（約 2 世紀）
+  museum: 山東嘉祥武氏祠
+
+- id: img-mawangdui-banner
+  kind: work
+  commons: "File:Mawangdui silk banner from tomb no1.jpg"
+  title: 〈馬王堆一號墓 T 形帛畫〉
+  period: ancient
+  look: 紅褐色的 T 形絲綢旗幡，分成天上、人間、地下三層。最上方右邊的紅色圓日裡有一隻黑鳥，左邊是彎月；這是漢代人心中的日月。畫面上層的神，一般認為包含女媧。
+  artist: 佚名
+  date: 約西元前 168 年
+  museum: 湖南省博物館

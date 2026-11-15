@@ -1598,5 +1598,53 @@
   "description": "The Titan Rhea is shown handing her husband, Cronus, a stone wrapped in swaddled clothes for him to swallow. Detail of an Attic terracotta pelike, attributed to the Nausicaä Painter, produced c. 460–450 BC. Metropolitan Museum of Art 06.1021.144. Beazley Archive 214648. LIMC Cronus 22; see LIMC, Vol. 6, p. 145.",
   "object": "Rhea handing a swaddled stone to Cronus, Attic terracotta pelike, c. 460–450 BC, Met 06.1021.144.jpg (cropped)",
   "restrictions": ""
+ },
+ "img-pangu-sancai": {
+  "file": "File:Pangu.jpg",
+  "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pangu.jpg",
+  "original": "https://upload.wikimedia.org/wikipedia/commons/8/82/Pangu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/82/Pangu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "width": 1014,
+  "height": 1546,
+  "license": "Public domain",
+  "license_url": "",
+  "author": "Wang Qi",
+  "credit": "A copy of Sancai Tuhui from the Asian Library in the University of British Columbia",
+  "date": "circa 1607date QS:P,+1607-00-00T00:00:00Z/9,P1480,Q5727902",
+  "description": "A portrait of Pangu from Sancai Tuhui.",
+  "object": "Pangu",
+  "restrictions": ""
+ },
+ "img-chiyou-wuliang": {
+  "file": "File:Chi You Rubbing Wu family shrines Han.jpg",
+  "descriptionurl": "https://commons.wikimedia.org/wiki/File:Chi_You_Rubbing_Wu_family_shrines_Han.jpg",
+  "original": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Chi_You_Rubbing_Wu_family_shrines_Han.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Chi_You_Rubbing_Wu_family_shrines_Han.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "width": 1028,
+  "height": 1400,
+  "license": "Public domain",
+  "license_url": "",
+  "author": "Unknown authorUnknown author",
+  "credit": "KOBIJUTSU, Number 26,June, 1969, SAMSAI-SHA, Tokyo, 1969",
+  "date": "2025-07-27",
+  "description": "Rubbing of the relief on stone walls in Wu Family Shrine(ACE2nd century). Chiyou",
+  "object": "Chi You Rubbing Wu family shrines Han",
+  "restrictions": ""
+ },
+ "img-mawangdui-banner": {
+  "file": "File:Mawangdui silk banner from tomb no1.jpg",
+  "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mawangdui_silk_banner_from_tomb_no1.jpg",
+  "original": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Mawangdui_silk_banner_from_tomb_no1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Mawangdui_silk_banner_from_tomb_no1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "width": 903,
+  "height": 2250,
+  "license": "Public domain",
+  "license_url": "",
+  "author": "anonymous",
+  "credit": "Screenshot stitched from the Flash website: 马王堆汉墓陈列全景数字展厅. Changsha: Hunan Provincial Museum.",
+  "date": "circa 168 BCdate QS:P,-0168-00-00T00:00:00Z/9,P1480,Q5727902",
+  "description": "The painting on silk depicts the heaven (upper part), the human realm (middle part), and the netherworld (bottom part). Heaven: Nüwa, depicted as a human with a serpent's body Sun with its golden crow Another eight suns in the Fusang tree Toad on the moon Chang'e flying to the moon Heavenly gate separating heaven and earth as well as its gatekeepers Human realm: Xin Zhui (the deceased occupant of the tomb), accompanied by three maids of honor and welcomed by two minor officials, traveling over the road to heaven People who are offering sacrifices and prayers in a memorial service Netherworld: ",
+  "object": "Chinese (China): 《马王堆一号汉墓T形帛画 》T-shaped Painting on Silktitle QS:P1476,zh-cn:\"马王堆一号汉墓T形帛画 \"label QS:Lzh-cn,\"马王堆一号汉墓T形帛画 \"label QS:Lsl,\"slika na svili v obliki črke T\"label QS:Len,\"T-shaped Painting on Silk\"label QS:Lpl,\"Jedwabna chorągiew z grobu Damy Dai w Mawangdui\"label QS:Lzh,\"马王堆一号汉墓帛画\"",
+  "restrictions": ""
  }
 }
