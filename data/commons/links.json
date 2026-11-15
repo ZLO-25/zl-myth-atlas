@@ -380,11 +380,11 @@
    "huangdi-tomb"
   ]
  },
- "https://www.britannica.com/topic/Longwang": {
+ "https://www.britannica.com/topic/fenghuang": {
   "status": 403,
   "checked": "2026-11-15",
   "used": [
-   "beast-dragon/s4"
+   "beast-fenghuang/s3"
   ]
  },
  "https://ctext.org/shiji/feng-chan-shu/zh": {
@@ -651,11 +651,26 @@
    "god-shennong/s2"
   ]
  },
- "https://www.britannica.com/topic/phoenix-mythological-bird": {
+ "https://www.britannica.com/topic/Chinese-mythology": {
   "status": 403,
   "checked": "2026-11-15",
   "used": [
-   "beast-fenghuang/s4"
+   "beast-four-symbols/s3",
+   "beast-ninetail-fox/s3",
+   "god-chiyou/s5",
+   "god-gonggong/s4",
+   "god-huangdi/s4",
+   "god-xihe/s4",
+   "god-zhurong/s3",
+   "hero-jingwei/s3",
+   "hero-kuafu/s3",
+   "hero-xingtian/s3",
+   "place-fusang/s3",
+   "place-kunlun/s4",
+   "primordial-fuxi/s3",
+   "primordial-nuwa/s4",
+   "primordial-pangu/s4",
+   "story-buzhou/s3"
   ]
  },
  "https://ctext.org/shan-hai-jing/da-huang-nan-jing/zh": {
@@ -710,33 +725,20 @@
    "story-nuwa-mends-sky/s1"
   ]
  },
- "https://www.britannica.com/topic/fenghuang": {
+ "https://www.britannica.com/topic/Diana-Roman-religion": {
   "status": 403,
   "checked": "2026-11-15",
   "used": [
-   "beast-fenghuang/s3"
+   "god-artemis/s7"
   ]
  },
- "https://www.britannica.com/topic/Chinese-mythology": {
+ "https://www.britannica.com/topic/Huangdi": {
   "status": 403,
   "checked": "2026-11-15",
   "used": [
-   "beast-four-symbols/s3",
-   "beast-ninetail-fox/s3",
-   "god-chiyou/s5",
-   "god-gonggong/s4",
-   "god-huangdi/s4",
-   "god-xihe/s4",
-   "god-zhurong/s3",
-   "hero-jingwei/s3",
-   "hero-kuafu/s3",
-   "hero-xingtian/s3",
-   "place-fusang/s3",
-   "place-kunlun/s4",
-   "primordial-fuxi/s3",
-   "primordial-nuwa/s4",
-   "primordial-pangu/s4",
-   "story-buzhou/s3"
+   "god-chiyou/s3",
+   "god-huangdi/s3",
+   "story-zhuolu/s3"
   ]
  },
  "https://www.theoi.com/Olympios/Zeus.html": {
@@ -746,11 +748,11 @@
    "god-zeus/s5"
   ]
  },
- "https://www.britannica.com/topic/Diana-Roman-religion": {
+ "https://www.britannica.com/topic/Longwang": {
   "status": 403,
   "checked": "2026-11-15",
   "used": [
-   "god-artemis/s7"
+   "beast-dragon/s4"
   ]
  },
  "https://ctext.org/shan-hai-jing/hai-wai-nan-jing/zh": {
@@ -896,20 +898,11 @@
    "hero-cangjie/s2"
   ]
  },
- "https://www.britannica.com/topic/Huangdi": {
+ "https://www.britannica.com/topic/phoenix-mythological-bird": {
   "status": 403,
   "checked": "2026-11-15",
   "used": [
-   "god-chiyou/s3",
-   "god-huangdi/s3",
-   "story-zhuolu/s3"
-  ]
- },
- "https://www.britannica.com/topic/Shennong": {
-  "status": 403,
-  "checked": "2026-11-15",
-  "used": [
-   "god-shennong/s3"
+   "beast-fenghuang/s4"
   ]
  },
  "https://www.britannica.com/topic/pantao": {
@@ -917,6 +910,13 @@
   "checked": "2026-11-15",
   "used": [
    "god-xiwangmu/s4"
+  ]
+ },
+ "https://www.britannica.com/topic/Shennong": {
+  "status": 403,
+  "checked": "2026-11-15",
+  "used": [
+   "god-shennong/s3"
   ]
  },
  "https://ctext.org/shiji/xia-ben-ji/zh": {
@@ -938,11 +938,11 @@
    "primordial-nuwa/s3"
   ]
  },
- "https://www.britannica.com/topic/Taoism/Symbolism-and-mythology": {
+ "https://www.britannica.com/topic/Jupiter-Roman-god": {
   "status": 403,
   "checked": "2026-11-15",
   "used": [
-   "god-xiwangmu/s5"
+   "god-zeus/s8"
   ]
  },
  "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0151:book=1:chapter=7": {
@@ -959,11 +959,11 @@
    "hero-heracles/s8"
   ]
  },
- "https://www.britannica.com/topic/Jupiter-Roman-god": {
+ "https://www.britannica.com/topic/Taoism/Symbolism-and-mythology": {
   "status": 403,
   "checked": "2026-11-15",
   "used": [
-   "god-zeus/s8"
+   "god-xiwangmu/s5"
   ]
  },
  "https://www.theoi.com/Text/Apollodorus1.html": {
@@ -1259,12 +1259,11 @@
    "primordial-chaos/s4"
   ]
  },
- "https://www.britannica.com/topic/Gun-Chinese-mythological-figure": {
+ "https://www.britannica.com/technology/Change-Chinese-lunar-probes": {
   "status": 403,
   "checked": "2026-11-15",
   "used": [
-   "hero-gun/s4",
-   "hero-yu/s4"
+   "hero-change/s3"
   ]
  },
  "https://www.theoi.com/Protogenos/Gaia.html": {
@@ -1281,11 +1280,12 @@
    "primordial-nuwa/s2"
   ]
  },
- "https://www.britannica.com/technology/Change-Chinese-lunar-probes": {
+ "https://www.britannica.com/topic/Hou-Yi": {
   "status": 403,
   "checked": "2026-11-15",
   "used": [
-   "hero-change/s3"
+   "hero-houyi/s4",
+   "story-houyi-suns/s5"
   ]
  },
  "https://zh.wikisource.org/wiki/%E8%97%9D%E6%96%87%E9%A1%9E%E8%81%9A/%E5%8D%B7001": {
@@ -1302,12 +1302,12 @@
    "primordial-pangu/s2"
   ]
  },
- "https://www.britannica.com/topic/Hou-Yi": {
+ "https://www.britannica.com/topic/Gun-Chinese-mythological-figure": {
   "status": 403,
   "checked": "2026-11-15",
   "used": [
-   "hero-houyi/s4",
-   "story-houyi-suns/s5"
+   "hero-gun/s4",
+   "hero-yu/s4"
   ]
  },
  "https://www.theoi.com/Protogenos/Ouranos.html": {
@@ -1360,19 +1360,19 @@
    "story-cowherd-weaver/s2"
   ]
  },
+ "https://www.britannica.com/topic/Fu-Xi": {
+  "status": 403,
+  "checked": "2026-11-15",
+  "used": [
+   "primordial-fuxi/s2"
+  ]
+ },
  "https://www.britannica.com/topic/Xia-dynasty": {
   "status": 403,
   "checked": "2026-11-15",
   "used": [
    "hero-yu/s5",
    "story-yu-flood/s4"
-  ]
- },
- "https://www.britannica.com/topic/Fu-Xi": {
-  "status": 403,
-  "checked": "2026-11-15",
-  "used": [
-   "primordial-fuxi/s2"
   ]
  },
  "https://www.worldhistory.org/Daedalus/": {
@@ -1516,12 +1516,11 @@
    "story-romulus-remus/s6"
   ]
  },
- "https://www.britannica.com/topic/Nu-Gua": {
+ "https://www.britannica.com/topic/Pan-Gu": {
   "status": 403,
   "checked": "2026-11-15",
   "used": [
-   "primordial-nuwa/s5",
-   "story-nuwa-mends-sky/s3"
+   "primordial-pangu/s3"
   ]
  },
  "https://www.theoi.com/Text/HomerOdyssey4.html": {
@@ -1552,11 +1551,12 @@
    "story-trojan-war/s5"
   ]
  },
- "https://www.britannica.com/topic/Pan-Gu": {
+ "https://www.britannica.com/topic/Nu-Gua": {
   "status": 403,
   "checked": "2026-11-15",
   "used": [
-   "primordial-pangu/s3"
+   "primordial-nuwa/s5",
+   "story-nuwa-mends-sky/s3"
   ]
  },
  "https://www.worldhistory.org/troy/": {
@@ -1575,18 +1575,18 @@
    "story-yao-shun/s2"
   ]
  },
- "https://www.britannica.com/topic/Niu-Lang": {
-  "status": 403,
-  "checked": "2026-11-15",
-  "used": [
-   "story-cowherd-weaver/s3"
-  ]
- },
  "https://www.britannica.com/topic/Zhi-Nu": {
   "status": 403,
   "checked": "2026-11-15",
   "used": [
    "story-cowherd-weaver/s4"
+  ]
+ },
+ "https://www.britannica.com/topic/Niu-Lang": {
+  "status": 403,
+  "checked": "2026-11-15",
+  "used": [
+   "story-cowherd-weaver/s3"
   ]
  },
  "https://www.theoi.com/Titan/TitanAtlas.html": {
@@ -1716,14 +1716,6 @@
    "starbucks-siren"
   ]
  },
- "https://whc.unesco.org/en/list/849": {
-  "status": 403,
-  "checked": "2026-11-15",
-  "used": [
-   "story-trojan-war/s7",
-   "troy"
-  ]
- },
  "https://www.britannica.com/topic/Yao-Chinese-mythological-emperor": {
   "status": 403,
   "checked": "2026-11-15",
@@ -1736,6 +1728,14 @@
   "checked": "2026-11-15",
   "used": [
    "story-yao-shun/s5"
+  ]
+ },
+ "https://whc.unesco.org/en/list/849": {
+  "status": 403,
+  "checked": "2026-11-15",
+  "used": [
+   "story-trojan-war/s7",
+   "troy"
   ]
  },
  "https://en.wikipedia.org/wiki/AFC_Ajax": {
@@ -1811,11 +1811,11 @@
    "xihe-1"
   ]
  },
- "https://www.etymonline.com/word/Amazon": {
+ "https://www.britannica.com/topic/Yutu": {
   "status": 403,
   "checked": "2026-11-15",
   "used": [
-   "amazon-brand"
+   "yutu-rover"
   ]
  },
  "https://science.nasa.gov/solar-system/asteroids/4-vesta/": {
@@ -1825,18 +1825,18 @@
    "vesta-asteroid"
   ]
  },
- "https://www.britannica.com/topic/Yutu": {
+ "https://www.etymonline.com/word/Amazon": {
   "status": 403,
   "checked": "2026-11-15",
   "used": [
-   "yutu-rover"
+   "amazon-brand"
   ]
  },
- "https://www.etymonline.com/word/bacchanal": {
+ "https://www.etymonline.com/word/July": {
   "status": 403,
   "checked": "2026-11-15",
   "used": [
-   "bacchanal-word"
+   "july"
   ]
  },
  "https://www.hadestown.com/": {
@@ -1853,11 +1853,11 @@
    "perseids"
   ]
  },
- "https://www.etymonline.com/word/July": {
+ "https://www.etymonline.com/word/bacchanal": {
   "status": 403,
   "checked": "2026-11-15",
   "used": [
-   "july"
+   "bacchanal-word"
   ]
  },
  "https://www.esa.int/Science_Exploration/Space_Science/Gaia": {
@@ -2085,13 +2085,6 @@
    "aegis-ships"
   ]
  },
- "https://radiopaedia.org/articles/achilles-tendon-2": {
-  "status": 406,
-  "checked": "2026-11-15",
-  "used": [
-   "achilles-tendon"
-  ]
- },
  "https://www.etymonline.com/word/typhoon": {
   "status": 403,
   "checked": "2026-11-15",
@@ -2106,6 +2099,13 @@
    "january"
   ]
  },
+ "https://radiopaedia.org/articles/achilles-tendon-2": {
+  "status": 406,
+  "checked": "2026-11-15",
+  "used": [
+   "achilles-tendon"
+  ]
+ },
  "https://www.theoi.com/Text/OvidFasti3.html": {
   "status": 200,
   "checked": "2026-11-02",
@@ -2113,11 +2113,11 @@
    "march"
   ]
  },
- "https://research.uniroma1.it/node/29825": {
-  "status": -1,
+ "https://www.etymonline.com/word/March": {
+  "status": 403,
   "checked": "2026-11-15",
   "used": [
-   "story-romulus-remus/s7"
+   "march"
   ]
  },
  "https://www.theoi.com/Text/OvidFasti6.html": {
@@ -2134,11 +2134,11 @@
    "april-may"
   ]
  },
- "https://www.etymonline.com/word/March": {
+ "https://www.etymonline.com/word/June": {
   "status": 403,
   "checked": "2026-11-15",
   "used": [
-   "march"
+   "june"
   ]
  },
  "https://www.etymonline.com/word/April": {
@@ -2153,13 +2153,6 @@
   "checked": "2026-11-02",
   "used": [
    "april-may"
-  ]
- },
- "https://www.etymonline.com/word/June": {
-  "status": 403,
-  "checked": "2026-11-15",
-  "used": [
-   "june"
   ]
  },
  "https://www.etymonline.com/word/May": {
@@ -2190,13 +2183,6 @@
    "titanic-word"
   ]
  },
- "https://www.etymonline.com/word/panic": {
-  "status": 403,
-  "checked": "2026-11-15",
-  "used": [
-   "panic-word"
-  ]
- },
  "https://www.etymonline.com/word/atlas": {
   "status": 403,
   "checked": "2026-11-15",
@@ -2211,18 +2197,11 @@
    "echo-word"
   ]
  },
- "https://english.cas.cn/newsroom/news--archives/2022/cas-in-media/202210/t20221010_1125985.shtml": {
-  "status": -1,
-  "checked": "2026-11-15",
-  "used": [
-   "kuafu-1"
-  ]
- },
- "https://www.etymonline.com/word/tantalize": {
+ "https://www.etymonline.com/word/panic": {
   "status": 403,
   "checked": "2026-11-15",
   "used": [
-   "tantalize-word"
+   "panic-word"
   ]
  },
  "https://www.etymonline.com/word/narcissism": {
@@ -2239,6 +2218,27 @@
    "nemesis-word"
   ]
  },
+ "https://www.etymonline.com/word/herculean": {
+  "status": 403,
+  "checked": "2026-11-15",
+  "used": [
+   "herculean-word"
+  ]
+ },
+ "https://www.etymonline.com/word/tantalize": {
+  "status": 403,
+  "checked": "2026-11-15",
+  "used": [
+   "tantalize-word"
+  ]
+ },
+ "https://www.etymonline.com/word/odyssey": {
+  "status": 403,
+  "checked": "2026-11-15",
+  "used": [
+   "odyssey-word"
+  ]
+ },
  "https://csrc.nist.gov/glossary/term/trojan_horse": {
   "status": 200,
   "checked": "2026-11-02",
@@ -2253,18 +2253,11 @@
    "mentor-word"
   ]
  },
- "https://www.etymonline.com/word/herculean": {
+ "https://www.merriam-webster.com/dictionary/Achilles%27%20heel": {
   "status": 403,
   "checked": "2026-11-15",
   "used": [
-   "herculean-word"
-  ]
- },
- "https://www.etymonline.com/word/odyssey": {
-  "status": 403,
-  "checked": "2026-11-15",
-  "used": [
-   "odyssey-word"
+   "achilles-heel"
   ]
  },
  "https://www.etymonline.com/word/museum": {
@@ -2279,6 +2272,13 @@
   "checked": "2026-11-15",
   "used": [
    "muse-words"
+  ]
+ },
+ "https://www.etymonline.com/word/cereal": {
+  "status": 403,
+  "checked": "2026-11-15",
+  "used": [
+   "cereal-word"
   ]
  },
  "https://whc.unesco.org/en/list/393": {
@@ -2396,11 +2396,11 @@
    "費埃克斯人的國度（斯克里亞）"
   ]
  },
- "https://www.etymonline.com/word/cereal": {
-  "status": 403,
+ "https://research.uniroma1.it/node/29825": {
+  "status": -1,
   "checked": "2026-11-15",
   "used": [
-   "cereal-word"
+   "story-romulus-remus/s7"
   ]
  },
  "https://www.etymonline.com/word/volcano": {
@@ -2410,11 +2410,11 @@
    "volcano-word"
   ]
  },
- "https://www.merriam-webster.com/dictionary/Achilles%27%20heel": {
-  "status": 403,
+ "https://english.cas.cn/newsroom/news--archives/2022/cas-in-media/202210/t20221010_1125985.shtml": {
+  "status": 200,
   "checked": "2026-11-15",
   "used": [
-   "achilles-heel"
+   "kuafu-1"
   ]
  },
  "https://classical-inquiries.chs.harvard.edu/olympus-as-mountain-and-olympia-as-venue-for-the-olympics-a-question-about-the-naming-of-these-places/": {
