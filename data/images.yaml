@@ -991,3 +991,64 @@
   artist: 佚名
   date: 約西元前 168 年
   museum: 湖南省博物館
+
+- id: img-fuxi-nuwa-astana
+  kind: work
+  commons: "File:Anonymous-Fuxi and Nüwa.jpg"
+  title: 〈伏羲女媧圖〉
+  period: ancient
+  look: TODO
+  artist: TODO
+  date: TODO
+  museum: TODO
+
+- id: img-huangdi-portrait
+  kind: work
+  commons: "File:Portraits of Famous Men - Yellow Emperor (Huangdi).jpg"
+  title: 〈黃帝像〉
+  period: ancient
+  look: TODO
+  artist: TODO
+  date: TODO
+  museum: TODO
+
+- id: img-xiwangmu-songshan
+  kind: work
+  commons: "File:Queen Mother of the West - Rubbing (山東嘉祥宋山).jpg"
+  title: 〈西王母〉畫像石拓本
+  period: ancient
+  look: TODO
+  artist: TODO
+  date: TODO
+  museum: TODO
+
+- id: img-shennong-kano
+  kind: work
+  commons: "File:Kano Tan'yū - Portrait of Emperor Shennong - 14.76.27 - Metropolitan Museum of Art.jpg"
+  title: 〈神農像〉
+  period: ancient
+  look: TODO
+  artist: TODO
+  date: TODO
+  museum: TODO
+
+- id: img-cangjie
+  kind: work
+  commons: "File:CANG JIE 1 b.jpg"
+  title: 〈倉頡〉
+  period: ancient
+  look: TODO
+  artist: TODO
+  date: TODO
+  museum: TODO
+
+- id: img-cowherd-weaver-qing
+  kind: work
+  commons: "File:清唐培華牛郎織女.png"
+  title: 〈牛郎織女〉
+  period: ancient
+  look: TODO
+  artist: TODO
+  date: TODO
+  museum: TODO
+
