@@ -9,7 +9,7 @@ name_orig: 羲和 / Xīhé
 reality: {level: 純神話}
 three_lines:
   - 太陽的母親，也是替太陽駕車的女神。
-  - 《山海經》說她是帝俊的妻子，生了十個太陽，每天在湯谷替太陽洗澡。
+  - 《山海經》說她是帝俊的妻子，生了十個太陽，每天在甘淵替太陽洗澡。
   - 中國第一顆太陽探測衛星就叫「羲和號」。
 hook: 羲和：十個太陽的媽媽，每天幫孩子洗澡、駕車送他們上天。
 images: [img-ai-portrait-xihe]
@@ -17,7 +17,7 @@ few_images: 古代流傳下來的公有領域圖很少，另補一張 AI 示意�
 today: [xihe-1]
 domains:
   roles: [太陽, 曆法]
-  symbols: [太陽, 車駕, 湯谷]
+  symbols: [太陽, 車駕, 甘淵]
 how_to_recognize: 古代畫像很少；後世多畫成駕著車、載著太陽的女神。
 family:
   consorts:
