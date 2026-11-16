@@ -1,0 +1,76 @@
+---
+id: story-underworld-punishments
+type: 故事
+myth_system: [greek, roman]
+name_zh: 冥界的刑罰
+aliases: [塔爾塔洛斯的罪人, 薛西弗斯, 西西弗斯, 坦塔洛斯, 伊克西翁, 達那伊得斯, 提堤俄斯, Tartarus punishments, Sisyphus, Tantalus, Ixion]
+name_en: Punishments in the Underworld
+name_orig: Κόλασις / Kolasis
+reality: {level: 純神話}
+three_lines:
+  - 希臘人想像冥界有幾位罪人永遠受罰：推石頭的薛西弗斯、吃喝都碰不到的坦塔洛斯、綁在火輪上的伊克西翁。
+  - 他們各自犯了不同的錯：騙過死神、洩露神的祕密、對天后無禮，刑罰與罪行互相呼應。
+  - 薛西弗斯推石頭的形象，啟發了卡繆的《薛西弗斯的神話》。
+hook: 冥界的刑罰：永遠做不完、也永遠到不了終點的懲罰。
+panels:
+  - {short: 提堤俄斯，被禿鷹啄肝, text: 奧德修斯在冥界看到提堤俄斯躺在地上，身體伸展開來占了九羅德（英譯的長度單位）那麼長，兩隻禿鷹啄食他的肝臟。他曾對宙斯的妻子勒托施暴。, src: [s1]}
+  - {short: 坦塔洛斯，水與果子都收走, text: 他站在水池裡，水到下巴，一低頭水就退去；頭頂的果樹，一伸手風就把樹枝吹向雲端。, src: [s1]}
+  - {short: 薛西弗斯，石頭永遠滾回來, text: 他用雙手把大石推上山頂，快到頂時石頭又滾回平地，他只能重新再推。, src: [s1]}
+  - {short: 伊克西翁，綁在轉動的輪子上, text: 他想侵犯赫拉，宙斯用雲做了赫拉的樣子，他吹嘘自己得手後，被綁在風中轉動的輪子上。, src: [s2]}
+  - {short: 達那伊得斯姊妹，永遠倒不完的水, text: 奧維德把殺死新郎的達那伊得斯姊妹放進冥界，說她們永遠在舀不盡的水。, src: [s3]}
+sources:
+  - {id: s1, kind: ancient, cite: 荷馬《奧德賽》11.576–600, url: 'https://www.theoi.com/Text/HomerOdyssey11.html'}
+  - {id: s2, kind: ancient, cite: 阿波羅多洛斯《書庫》摘要 1.20（伊克西翁）、《書庫》1.9.3（薛西弗斯）、1.4.1（提堤俄斯）、摘要 2.1（坦塔洛斯）, url: 'https://www.theoi.com/Text/ApollodorusE.html'}
+  - {id: s3, kind: ancient, cite: 奧維德《變形記》4.457–463, url: 'https://www.theoi.com/Text/OvidMetamorphoses4.html'}
+  - {id: s4, kind: ancient, cite: 阿波羅多洛斯《書庫》2.1.5（達那伊得斯殺夫）, url: 'https://www.theoi.com/Text/Apollodorus2.html'}
+  - {id: s5, kind: ancient, cite: 維吉爾《埃涅阿斯紀》6.580–601, url: 'https://www.theoi.com/Text/VirgilAeneid6.html'}
+  - {id: s6, kind: modern, cite: 大英百科全書「Sisyphus」, url: 'https://www.britannica.com/topic/Sisyphus', accessed: '2026-11-16'}
+  - {id: s7, kind: modern, cite: Theoi Project「Pelops」（引坦塔洛斯受罰的古代文獻）, url: 'https://www.theoi.com/Heros/Pelops.html', accessed: '2026-11-16'}
+disputed:
+  - claim: 坦塔洛斯為什麼受罰？
+    views:
+      - {view: 《奧德賽》只描述刑罰，沒有說原因。, src: [s1]}
+      - {view: 阿波羅多洛斯：有人說他向人洩露眾神的祕密、想把神食分給同伴。, src: [s2]}
+      - {view: Theoi 引的古代說法：他為了測試神的能力，把兒子珀羅普斯當菜端給眾神。, src: [s7]}
+  - claim: 薛西弗斯為什麼受罰？
+    views:
+      - {view: 阿波羅多洛斯：他向河神洩露了宙斯偷偷帶走埃癸娜的祕密。, src: [s2]}
+      - {view: 大英百科：他綁住死神，騙過死亡。, src: [s6]}
+causes:
+  - {id: place-underworld, rel: 背景, why: 這些刑罰都發生在冥界。, src: [s1]}
+era: olympian
+topics: [傲慢與懲罰, 死後世界, 冥界之旅]
+---
+
+## 故事
+
+[[place-underworld|冥界]]裡有幾位受罰的罪人，最完整的一組描寫來自《奧德賽》第 11 卷：奧德修斯下到冥界，親眼看到他們。[s1]
+
+### 提堤俄斯、坦塔洛斯與薛西弗斯
+
+提堤俄斯躺在地上，兩隻禿鷹啄食他的肝；荷馬說，他曾對勒托施暴。[s1] 阿波羅多洛斯補充，他是宙斯之子，被勒托的孩子射死。[s2] 坦塔洛斯站在水池中，想喝水，水就退走；想摘果子，風就把樹枝吹上雲端。[s1] 薛西弗斯推著大石頭上山，到山頂石頭又滾下來。[s1]
+
+### 為什麼受罰
+
+荷馬只寫了提堤俄斯的罪行。[s1] 坦塔洛斯的罪，阿波羅多洛斯說有人認為是洩露眾神祕密，又想把神的食物分給同伴。[s2] 薛西弗斯，阿波羅多洛斯說是他把宙斯偷偷帶走埃癸娜的事告訴她的父親；[s2] 大英百科則說，他曾綁住死神、騙過死亡，才被永遠懲罰。[s6]
+
+### 伊克西翁與達那伊得斯
+
+伊克西翁愛上赫拉並想強迫她，赫拉報告宙斯，宙斯做了一朵像赫拉的雲，伊克西翁炫耀自己得手後，被綁在輪子上，由風帶著在空中旋轉。[s2] 達那伊得斯是達那俄斯的五十個女兒，她們在新郎睡著時殺了他們；[s4] 奧維德把她們放進冥界，永遠舀著不斷漏掉的水。[s3]
+
+```
+罪人      刑罰          罪（出處）
+提堤俄斯  禿鷹啄肝      侵犯勒托
+坦塔洛斯  吃喝碰不到    洩密／殺子
+薛西弗斯  推石頭        洩密／騙死神
+伊克西翁  綁在轉輪      想侵犯赫拉
+達那伊得斯 舀漏水       殺夫
+```
+
+## 各書怎麼說
+
+《奧德賽》只寫提堤俄斯、坦塔洛斯與薛西弗斯三位，沒有伊克西翁與達那伊得斯。[s1] 維吉爾寫的冥界又加入拉庇泰人伊克西翁與皮里蘇斯，還把頭頂懸著大石的坦塔洛斯與一席擺滿的宴席寫在一起。[s5] 奧維德才列出達那伊得斯。[s3]
+
+## 今天在哪裡遇到
+
+大英百科說，薛西弗斯的形象啟發了卡繆 1942 年的《薛西弗斯的神話》，那是一本談荒謬的存在主義名作。[s6]
