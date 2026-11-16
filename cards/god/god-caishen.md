@@ -29,6 +29,7 @@ disputed:
       - {view: 趙公明：古書裡的鬼神與瘟鬼，明代小說封為財神, src: [s1, s2, s4]}
       - {view: 比干：商紂王的親戚，因批評紂王被處死；大英百科說另有人認為他是財神, src: [s5]}
 era: cn-immortals
+today: [caishen-fifth-day]
 topics: [民間信仰, 節日與習俗]
 ---
 

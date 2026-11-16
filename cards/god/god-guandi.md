@@ -28,6 +28,7 @@ sources:
   - {id: s5, kind: modern, cite: 大英百科「Guandi」, url: 'https://www.britannica.com/topic/Guandi', accessed: '2026-11-16'}
   - {id: s6, kind: modern, cite: 《中國文化研究所學報》第 50 期（2010 年 1 月）論文, url: 'https://www.cuhk.edu.hk/ics/journal/articles/v50p219.pdf', accessed: '2026-11-16'}
 era: cn-immortals
+today: [guandi-temples]
 topics: [民間信仰, 神話變歷史]
 ---
 

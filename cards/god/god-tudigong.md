@@ -30,6 +30,7 @@ disputed:
       - {view: 大英百科：多數土地公原是生前幫助過社區的人，死後被奉為神, src: [s4]}
       - {view: 古書：祭土地的「社」是土地之神，後來演變成鄉里的土地神（台中市文化局）, src: [s1, s2, s5]}
 era: cn-immortals
+today: [tudigong-toudiya]
 topics: [民間信仰, 節日與習俗]
 ---
 

@@ -34,6 +34,7 @@ disputed:
       - {view: 《後漢書》：漢宣帝時陰子方在臘日早晨煮飯，灶神現形, src: [s5]}
       - {view: 大英百科：漢武帝在西元前 133 年祭「灶君」，與方士李少君的煉丹爐灶有關；約 7 世紀才與廚房灶神混同, src: [s8]}
 era: cn-immortals
+today: [zaoshen-xiaonian]
 topics: [民間信仰, 節日與習俗]
 ---
 

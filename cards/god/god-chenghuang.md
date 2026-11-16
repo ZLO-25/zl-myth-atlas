@@ -30,6 +30,7 @@ disputed:
       - {view: 《禮記·郊特牲》的天子八蜡有「水庸」；大英百科說唐代官員把城隍連到這位神, src: [s2, s4]}
       - {view: 《明史》收的洪武二年禮官說法：「城隍之祀，莫詳其始」，只能舉出唐宋以來的祭祀, src: [s3]}
 era: cn-immortals
+today: [hsinchu-chenghuang-festival]
 topics: [民間信仰]
 ---
 

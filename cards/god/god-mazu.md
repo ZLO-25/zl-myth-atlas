@@ -39,6 +39,7 @@ disputed:
       - {view: 多數書：姓林，莆田湄洲人, src: [s1, s2]}
       - {view: 張學禮《使琉球記》：姓蔡，閩海梅花所人，為父投海而死, src: [s2]}
 era: cn-immortals
+today: [mazu-pilgrimage]
 topics: [民間信仰, 節日與習俗]
 ---
 
