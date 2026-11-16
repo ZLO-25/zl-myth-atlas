@@ -20,7 +20,7 @@ sources:
   - {id: s1, kind: ancient, cite: 吳承恩《西遊記》第三回、第十一回（明）, url: 'https://zh.wikisource.org/wiki/西遊記/第011回'}
   - {id: s2, kind: ancient, cite: 淡癡道人《玉曆寶鈔》（維基文庫標為宋代善書）, url: 'https://zh.wikisource.org/wiki/玉歷寶鈔'}
   - {id: s3, kind: ancient, cite: 李復言《續玄怪錄·杜子春》，收於《太平廣記》卷十六（唐）, url: 'https://zh.wikisource.org/wiki/太平廣記/卷第016'}
-  - {id: s4, kind: ancient, cite: 敦煌變文《大目乾連冥間救母變文》, url: 'https://zh.wikisource.org/wiki/大目乾連冥間救母變文'}
+  - {id: s4, kind: ancient, cite: 敦煌變文[[story-mulian|《大目乾連冥間救母變文》]], url: 'https://zh.wikisource.org/wiki/大目乾連冥間救母變文'}
   - {id: s5, kind: ancient, cite: 《宋史》卷三百十六〈包拯傳〉（元）, url: 'https://zh.wikisource.org/wiki/宋史/卷316'}
   - {id: s6, kind: modern, cite: Xiao Jiang, "Dizang and the Three Kings", Religions 13(4):317 (2022), url: 'https://www.mdpi.com/2077-1444/13/4/317', accessed: '2026-11-16'}
 era: cn-immortals
@@ -31,11 +31,11 @@ topics: [死後世界, 民間信仰]
 
 ### 從印度的死神到中國的冥王
 
-「閻羅王」這個名字，是梵文 Yama-rāja 的音譯；在印度佛教裡，他是死者之地的統治者。據江曉（Xiao Jiang）的研究，佛教把業報與輪迴帶進中國，中國的佛教徒再用自己的傳統重新理解陰間。[s6] 唐代李復言的《續玄怪錄·杜子春》已經寫到，杜子春被斬之後，「魂魄被領見閻羅王」，被送進地獄，那裡還有「牛頭獄卒」。[s3]
+「閻羅王」這個名字，是梵文 Yama-rāja 的音譯；在印度佛教裡，他是死者之地的統治者。據江曉（Xiao Jiang）的研究，佛教把業報與輪迴帶進中國，中國的佛教徒再用自己的傳統重新理解[[place-youdu|陰間]]。[s6] 唐代李復言的《續玄怪錄·杜子春》已經寫到，杜子春被斬之後，「魂魄被領見閻羅王」，被送進地獄，那裡還有「牛頭獄卒」。[s3]
 
 ### 十殿閻王
 
-後來閻羅王只是十位冥王之一。江曉說，十王與地藏菩薩的信仰從唐代中晚期流行起來，《十王經》是九世紀的藏川所寫，對這個信仰的形成很重要；第五王、第七王、第十王的身分始終固定，分別是閻羅王、泰山王與轉輪王。[s6] 明代《西遊記》第十一回，唐太宗到森羅殿，迎接他的是「十代閻君」；第三回孫悟空打進地府，也被這十位冥王認作「上仙」。[s1]
+後來閻羅王只是十位冥王之一。江曉說，十王與地藏菩薩的信仰從唐代中晚期流行起來，《十王經》是九世紀的藏川所寫，對這個信仰的形成很重要；第五王、第七王、第十王的身分始終固定，分別是閻羅王、泰山王與轉輪王。[s6] 明代[[story-journey-west|《西遊記》]]第十一回，唐太宗到森羅殿，迎接他的是「十代閻君」；第三回[[hero-sun-wukong|孫悟空]]打進地府，也被這十位冥王認作「上仙」。[s1]
 
 ## 各書怎麼說
 
