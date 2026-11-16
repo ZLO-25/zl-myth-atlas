@@ -30,6 +30,7 @@ disputed:
       - {view: 神荼與鬱壘：度朔山桃樹下的兩位神人，抓惡鬼餵老虎, src: [s1, s2]}
       - {view: 秦叔寶與胡敬德（尉遲恭）：唐太宗生病時替他守宮門的兩位將軍, src: [s4, s5]}
 era: cn-immortals
+today: [menshen-new-year]
 topics: [民間信仰, 節日與習俗]
 ---
 

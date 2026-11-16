@@ -23,6 +23,7 @@ sources:
   - {id: s3, kind: ancient, cite: 《三教源流搜神大全》卷四〈觀音菩薩〉, url: 'https://zh.wikisource.org/wiki/三教源流搜神大全/卷四'}
   - {id: s4, kind: modern, cite: 大英百科「Guanyin」, url: 'https://www.britannica.com/print/article/45363', accessed: '2026-11-16'}
 era: cn-immortals
+today: [guanyin-female-image]
 topics: [民間信仰]
 ---
 

@@ -28,6 +28,7 @@ sources:
   - {id: s2, kind: ancient, cite: 趙翼《陔餘叢考》卷三十四〈十二相屬〉〈十二相屬起於後漢〉（清代）, url: 'https://zh.wikisource.org/wiki/陔餘叢考/34'}
   - {id: s3, kind: modern, cite: 大英百科「Chinese zodiac」, url: 'https://www.britannica.com/topic/Chinese-zodiac', accessed: '2026-11-16'}
 era: cn-world
+today: [zodiac-years]
 topics: [節日與習俗]
 ---
 

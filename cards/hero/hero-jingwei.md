@@ -24,6 +24,7 @@ sources:
   - {id: s6, kind: ancient, cite: 歐陽詢等《藝文類聚》卷九十二（唐）, url: 'https://zh.wikisource.org/wiki/藝文類聚/卷092'}
   - {id: s7, kind: ancient, cite: 葛洪《抱朴子·內篇·釋滯》（東晉）, url: 'https://zh.wikisource.org/wiki/抱朴子/卷08'}
 era: cn-yanhuang
+today: [jingwei-idiom]
 topics: [變形]
 ---
 
