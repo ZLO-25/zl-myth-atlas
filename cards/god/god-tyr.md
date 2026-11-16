@@ -15,7 +15,7 @@ hook: 提爾：最勇敢的神，為了綁住芬里爾，把右手放進狼嘴�
 domains:
   roles: [勇敢, 勝利]
   symbols: [被狼咬斷的右手]
-how_to_recognize: 故事裡的特徵：他失去了右手，是被狼芬里爾咬斷的。這是故事裡的描述，本站還沒有收錄名畫的畫法。
+how_to_recognize: 故事裡的特徵：他失去了右手，是被狼芬里爾咬斷的。這是故事裡的描述。
 how_to_recognize_src: [s1, s2]
 few_images: 這批還沒有收錄作品圖。
 sources:

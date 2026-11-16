@@ -15,7 +15,7 @@ hook: 維達：不說話的神，穿著厚鞋踩住芬里爾的下顎，替奧�
 domains:
   roles: [復仇, 力量]
   symbols: [厚鞋]
-how_to_recognize: 故事裡的特徵：腳上穿著一雙厚鞋；很少說話。這些是故事裡的描述，本站還沒有收錄名畫的畫法。
+how_to_recognize: 故事裡的特徵：腳上穿著一雙厚鞋；很少說話。這些是故事裡的描述。
 how_to_recognize_src: [s1, s3]
 few_images: 這張卡還沒有收錄圖片。
 family:

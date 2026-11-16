@@ -15,7 +15,7 @@ hook: 伊登：蘋果的保管者，她一被擄走，眾神就變老。
 domains:
   roles: [青春, 春天與更新]
   symbols: [梣木盒子裡的蘋果]
-how_to_recognize: 故事裡的特徵：身邊有一盒蘋果。這是故事裡的描述，本站還沒有收錄名畫的畫法。
+how_to_recognize: 故事裡的特徵：身邊有一盒蘋果。這是故事裡的描述。
 how_to_recognize_src: [s1, s3]
 few_images: 這張卡還沒有收錄圖片。
 family:

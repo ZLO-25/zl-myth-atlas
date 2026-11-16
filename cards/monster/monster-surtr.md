@@ -16,7 +16,7 @@ few_images: 這張卡還沒有收錄圖片。
 domains:
   roles: [穆斯貝爾的火巨人, 諸神黃昏燒毀世界的人]
   symbols: [火焰劍, 大火]
-how_to_recognize: 故事裡的特徵：騎在最前面，前後都有火，手上的劍比太陽還亮。本站還沒有收錄名畫的畫法。
+how_to_recognize: 故事裡的特徵：騎在最前面，前後都有火，手上的劍比太陽還亮。
 how_to_recognize_src: [s1]
 sources:
   - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 4 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning1-10.htm'}

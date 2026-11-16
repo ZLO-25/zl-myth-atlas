@@ -15,7 +15,7 @@ hook: 絲卡蒂：為父報仇的山中女巨人，只看腳挑丈夫，結果�
 domains:
   roles: [雪鞋與狩獵, 山地]
   symbols: [雪鞋, 山中的家斯里姆海姆（Thrymheim）]
-how_to_recognize: 故事裡的特徵：全副武裝的巨人之女；穿雪鞋在山裡打獵。這些是故事裡的描述，本站還沒有收錄名畫的畫法。
+how_to_recognize: 故事裡的特徵：全副武裝的巨人之女；穿雪鞋在山裡打獵。這些是故事裡的描述。
 how_to_recognize_src: [s1]
 few_images: 這張卡還沒有收錄圖片。
 family:

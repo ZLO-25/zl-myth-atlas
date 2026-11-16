@@ -15,7 +15,7 @@ hook: 布拉基：最會說話、最會作詩的神，名字和一位 9 世紀�
 domains:
   roles: [詩歌, 口才, 智慧]
   symbols: [長鬍子]
-how_to_recognize: 故事裡的特徵：留著長鬍子；在宴會上講述眾神的故事。這些是故事裡的描述，本站還沒有收錄名畫的畫法。
+how_to_recognize: 故事裡的特徵：留著長鬍子；在宴會上講述眾神的故事。這些是故事裡的描述。
 how_to_recognize_src: [s5]
 few_images: 這張卡還沒有收錄圖片。
 family:

@@ -15,7 +15,7 @@ hook: 女武神：替奧丁把戰死的人送進英靈殿，再為他們斟酒�
 domains:
   roles: [帶走戰死者, 在英靈殿斟酒, 奧丁的隨從]
   symbols: [英靈殿, 飲酒的角杯]
-how_to_recognize: 故事裡的特徵：在英靈殿捧著角杯送酒、騎馬去戰場；World History Encyclopedia 說，有些手拿角杯的小型女性雕像，可能代表她們。本站還沒有收錄名畫的畫法。
+how_to_recognize: 故事裡的特徵：在英靈殿捧著角杯送酒、騎馬去戰場；World History Encyclopedia 說，有些手拿角杯的小型女性雕像，可能代表她們。
 how_to_recognize_src: [s1, s2, s3]
 few_images: 這張卡還沒有收錄圖片。
 sources:

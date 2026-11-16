@@ -15,7 +15,7 @@ hook: 尼奧爾德：海風與財富之神，被當成人質來到阿薩，婚�
 domains:
   roles: [風, 海, 海上的財富, 航行與狩獵時被祈求]
   symbols: [海邊的家諾阿通]
-how_to_recognize: 故事裡的特徵：住在海邊；航海和打獵的人向他祈求。這些是故事裡的描述，本站還沒有收錄名畫的畫法。
+how_to_recognize: 故事裡的特徵：住在海邊；航海和打獵的人向他祈求。這些是故事裡的描述。
 how_to_recognize_src: [s1, s10]
 few_images: 這張卡還沒有收錄圖片。
 family:

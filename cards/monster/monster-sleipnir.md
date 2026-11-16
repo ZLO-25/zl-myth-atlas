@@ -15,7 +15,7 @@ hook: 斯雷普尼爾：奧丁的八腳灰馬，連冥界的門都跳得過去�
 domains:
   roles: [奧丁的坐騎, 洛基生下的孩子, 能去冥界的馬]
   symbols: [八隻腳, 灰色的毛]
-how_to_recognize: 故事裡的特徵：灰色、有八隻腳的馬。World History Encyclopedia 說，維京時代的畫像石上有奧丁騎斯雷普尼爾的圖像；本站還沒有收錄圖片。
+how_to_recognize: 故事裡的特徵：灰色、有八隻腳的馬。World History Encyclopedia 說，維京時代的畫像石上有奧丁騎斯雷普尼爾的圖像。
 how_to_recognize_src: [s2, s3]
 few_images: 這張卡還沒有收錄圖片。
 family:

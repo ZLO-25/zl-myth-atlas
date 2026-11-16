@@ -15,7 +15,7 @@ hook: 希芙：索爾的妻子，金髮被洛基剪掉；矮人替她打造的�
 domains:
   roles: [索爾的妻子]
   symbols: [金色長髮]
-how_to_recognize: 傳統上被畫成留著金色長髮的女神。這是現代整理的說法，本站還沒有收錄名畫的畫法。
+how_to_recognize: 傳統上被畫成留著金色長髮的女神。這是現代整理的說法。
 how_to_recognize_src: [s3, s5]
 few_images: 這張卡還沒有收錄圖片。
 family:
