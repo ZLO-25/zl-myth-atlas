@@ -44,7 +44,7 @@ disputed:
     views:
       - {view: 《荷馬詩體頌歌》：眾神覺得他「使所有（pan）人心裡歡喜」，所以叫他 Pan。, src: [s1]}
       - {view: Theoi：古典時代的希臘人把他的名字連到 pan（全部），但真正來源是阿卡迪亞古字「鄉野」。, src: [s5]}
-today: []
+today: [panic-word]
 era: olympian
 topics: [怪物, 變形, 愛與慾望]
 ---

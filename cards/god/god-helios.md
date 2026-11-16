@@ -45,7 +45,7 @@ disputed:
     views:
       - {view: 辭典：兩者本來完全不同，從來沒有完全合併；沒有一位希臘詩人讓阿波羅駕太陽車，羅馬人是維吉爾之後才有這種說法。, src: [s8]}
       - {view: 辭典：阿波羅頭上有光線、象徵太陽的畫像，要到羅馬帝國時代才有。, src: [s8]}
-today: []
+today: [helium-word]
 era: titans
 topics: [日月星辰, 愛與慾望]
 ---

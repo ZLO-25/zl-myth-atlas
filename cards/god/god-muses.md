@@ -39,7 +39,7 @@ disputed:
     views:
       - {view: Theoi：這是「後來」才指定的專門領域，赫西俄德並沒有分工。, src: [s5]}
       - {view: 大英百科：這份分工是「常見但絕非固定」的清單，各處說法不同。, src: [s7]}
-today: []
+today: [muse-words]
 era: olympian
 topics: [創世, 文化英雄]
 ---

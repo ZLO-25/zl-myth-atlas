@@ -40,6 +40,7 @@ causes:
   - {id: god-zeus, rel: 回應, why: 宙斯擊敗堤豐，才穩住統治權，眾神請他正式登位。, src: [s1]}
 effects:
   - {id: primordial-gaia, rel: 背景, why: 蓋亞在泰坦戰敗後，生下最小的孩子堤豐。, src: [s1]}
+today: [typhoon-typhon]
 era: titanomachy
 topics: [怪物, 王權更替]
 ---

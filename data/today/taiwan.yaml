@@ -22,7 +22,7 @@
 - id: typhoon-typhon
   category: 台灣生活
   title: 颱風 typhoon 與巨怪堤豐
-  cards: [god-zeus]
+  cards: [god-zeus, monster-typhon]
   what: 英文 typhoon（颱風）常被說成來自希臘神話中被宙斯打敗的百頭巨怪堤豐（Typhon）。
   diff: 字源其實混雜了好幾條線：希臘文的 typhon（旋風）、阿拉伯文的 tufan，以及中文「大風」「颱風」的讀音，學者看法不一。堤豐的神話確實是希臘人用來解釋狂風的方式之一。
   status: 說法未證實

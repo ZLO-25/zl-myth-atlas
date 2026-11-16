@@ -46,7 +46,7 @@ disputed:
     views:
       - {view: 阿波羅多洛斯主要說法：母親是色薩利的科洛尼斯，她被殺後，阿波羅從火葬堆上搶出嬰兒，交給半人馬凱隆。, src: [s1]}
       - {view: 另一說：母親是阿爾西諾厄；或是科洛尼斯在埃皮達魯斯生下他，把他遺棄在山上，由山羊餵奶、牧羊犬守護。, src: [s5, s6]}
-today: []
+today: [caduceus-confusion]
 era: olympian
 topics: [冥界之旅, 傲慢與懲罰, 文化英雄]
 ---
