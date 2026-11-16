@@ -2,10 +2,10 @@ import { test, expect } from '@playwright/test';
 
 test('第一波 1：總覽時間標示與極短版', async ({ page }) => {
   await page.goto('');
-  await expect(page.locator('.overview-cta')).toContainText('約 20 分鐘');
+  await expect(page.locator('.overview-cta')).toContainText('10～20 分鐘');
   await expect(page.locator('.overview-cta')).not.toContainText('五分鐘');
   await page.goto('#/overview');
-  await expect(page.locator('h1').first()).toContainText('二十分鐘');
+  await expect(page.locator('h1').first()).toContainText('三套神話');
   const quick = page.locator('aside.quick');
   await expect(quick).toBeVisible();
   expect(await quick.locator('li').count()).toBeLessThanOrEqual(8);

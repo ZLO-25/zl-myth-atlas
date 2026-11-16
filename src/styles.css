@@ -454,3 +454,28 @@ pre.ascii { background: var(--surface); border: 1px solid var(--line); padding: 
 .recap-btn { min-height: 2.4rem; padding: 0.2rem 1.1rem; border: 1px solid var(--olive); border-radius: 999px; background: var(--surface); color: var(--olive); font: inherit; font-weight: 700; cursor: pointer; }
 .recap-btn:hover, .recap-btn[aria-expanded='true'] { background: var(--olive); color: var(--bg); }
 .recap-body { margin-top: 0.6rem; }
+
+/* 總覽：三部（希臘羅馬、北歐、中華）各用一個顏色 */
+.overview .part-greek { --part: var(--terra); }
+.overview .part-norse { --part: var(--aegean); }
+.overview .part-chinese { --part: var(--olive); }
+.part-head { margin: 3rem 0 1rem; padding: 1rem 1.2rem; border-radius: 14px; background: var(--surface); border: 1px solid var(--line); border-top: 6px solid var(--part); box-shadow: var(--shadow); max-width: 46rem; }
+.part-head .part-no { margin: 0; font-size: 0.85rem; font-weight: 700; color: var(--part); letter-spacing: 0.05em; }
+.part-head .part-title { margin: 0.2rem 0 0.4rem; font-size: 1.6rem; }
+.part-head p:last-child { margin: 0; }
+.act-group { display: inline-flex; gap: 0.3rem; align-items: center; flex: none; }
+.act-group + .act-group { margin-left: 0.5rem; padding-left: 0.6rem; border-left: 2px solid var(--line); }
+.acts a.part-label { font-weight: 700; color: var(--part); border-color: var(--part); padding: 0.2rem 0.6rem; }
+.act-group .act-no { background: var(--part); }
+.acts .act-group a.on { border-color: var(--part); background: var(--part); }
+.acts .act-group a.on .act-no { color: var(--part); }
+.overview section[id^="ov-n"] h2 .act-no { background: var(--aegean); }
+.overview section[id^="ov-c"] h2 .act-no { background: var(--olive); }
+.quick-tabs { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0.5rem 0 0.2rem; }
+.quick-tabs button { min-height: 32px; border: 1px solid var(--part); background: var(--surface); color: var(--ink); padding: 0.2rem 0.8rem; border-radius: 999px; cursor: pointer; font: inherit; font-size: 0.9rem; }
+.quick-tabs button.on { background: var(--part); color: #fff; }
+.overview ul.notes { max-width: 46rem; padding-left: 1.2rem; }
+.overview ul.notes li { margin: 0.4rem 0; }
+.src-table td { vertical-align: top; min-width: 12rem; }
+.src-table td.nw { min-width: 0; width: 5.5rem; font-weight: 700; }
+.acts a.part-label.on { background: var(--part); color: #fff; }

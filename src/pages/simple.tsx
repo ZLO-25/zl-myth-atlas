@@ -20,7 +20,7 @@ export function Home() {
         <p className="lead">希臘羅馬、北歐與中華神話：認得眾神與英雄，能把故事講給別人聽，也看得懂今天電影、品牌、英文單字、太空任務裡的神話梗。每件事都附來源。</p>
         <a className="overview-cta" href={href('overview')}>
           <strong>第一次來？先看總覽</strong>
-          <span>約 20 分鐘讀完：世界長什麼樣、誰是誰、故事從哪來、為什麼今天還要懂。趕時間？頁首有 1 分鐘極短版 →</span>
+          <span>希臘羅馬、北歐、中華三套神話各講成一個故事：每套約 10～20 分鐘，可以只讀一套。先講清楚每套神話是誰寫下來的、哪些說法可靠。趕時間？頁首有 1 分鐘極短版 →</span>
         </a>
         <div className="tiles">
           <a href={href('cards')}><strong>卡片</strong><span>{site.cards.length} 張神、英雄、故事</span></a>
