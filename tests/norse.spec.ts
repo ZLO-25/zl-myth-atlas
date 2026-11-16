@@ -237,7 +237,8 @@ test('北歐：對照頁有「三套神話對照」三方表格，跳轉鈕可�
   await expect.poll(async () => (await page.locator('#norse-compare').boundingBox())!.y).toBeLessThan(250);
   const sec = page.locator('#norse-compare');
   await expect(sec.locator('h2')).toHaveText('三套神話對照');
-  await expect(sec.locator('tbody tr')).toHaveCount(6);
+  await expect(sec.locator('tbody tr')).toHaveCount(site.threeWay.length);
+  expect(site.threeWay.length).toBeGreaterThanOrEqual(6);
   await expect(sec.locator('thead')).toContainText('北歐神話');
   for (const theme of ['世界怎麼開始', '世界會不會結束', '誰是主神', '愛搗蛋的角色', '大洪水', '龍']) await expect(sec).toContainText(theme);
   await expect(sec).toContainText('不是說哪一邊影響了哪一邊');

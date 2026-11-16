@@ -129,7 +129,8 @@ test('中華神話：中西對照表與中國太空任務今日影子', async ({
   const errors = watchErrors(page);
   await page.goto('#/compare');
   await expect(page.getByRole('heading', { name: '中華與希臘羅馬' })).toBeVisible();
-  await expect(page.locator('#cn-west tbody tr')).toHaveCount(3);
+  await expect(page.locator('#cn-west tbody tr')).toHaveCount(site.chineseWestern.length);
+  expect(site.chineseWestern.length).toBeGreaterThanOrEqual(3);
   await expect(page.locator('#cn-west')).toContainText('不是說哪一邊影響了哪一邊');
   await page.goto('#/card/god-zhurong');
   await expect(page.getByText('祝融號火星車與天問一號')).toBeVisible();
