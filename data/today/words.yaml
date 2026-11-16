@@ -31,7 +31,7 @@
 - id: panic-word
   category: 英文單字與成語
   title: panic（恐慌）
-  cards: [god-hermes]
+  cards: [god-hermes, god-pan]
   what: panic 來自牧神潘（Pan）。古希臘人相信，荒野中莫名其妙讓人或牲畜驚慌奔逃的恐懼，是潘造成的。
   diff: 潘是荷米斯的兒子，形象是半人半羊、愛吹笛子的山野之神；今天的「恐慌」只保留了他嚇人的那一面。
   status: 已查證
@@ -143,7 +143,7 @@
 - id: muse-words
   category: 英文單字與成語
   title: museum 與 music
-  cards: [god-zeus]
+  cards: [god-zeus, god-muses]
   what: 博物館（museum）原意是「繆斯的殿堂」，音樂（music）原意是「繆斯的技藝」。
   diff: 繆斯是宙斯與記憶女神謨涅摩緒涅的九個女兒，後世說她們各自掌管詩歌、歷史、天文等學問與藝術，不只是音樂。
   status: 已查證
@@ -171,3 +171,12 @@
   sources:
     - {cite: Etymonline「volcano」, url: 'https://www.etymonline.com/word/volcano'}
     - {cite: World History Encyclopedia「Vulcan」, url: 'https://www.worldhistory.org/Vulcan/'}
+- id: helium-word
+  category: 英文單字與成語
+  title: helium（氦）
+  cards: [god-helios]
+  what: 氦的英文 helium 來自希臘文 hēlios（太陽）。1868 年 8 月 18 日日食時，人們在太陽光譜裡先偵測到這個元素，直到 1895 年才真的取得它。
+  diff: 名字只借用了希臘文的「太陽」一詞；元素本身和太陽神赫利俄斯的神話沒有故事上的關係。
+  status: 已查證
+  sources:
+    - {cite: Etymonline「helium」, url: 'https://www.etymonline.com/word/helium', accessed: '2026-11-16'}

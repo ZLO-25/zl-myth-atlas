@@ -5,10 +5,12 @@ const site = JSON.parse(fs.readFileSync('src/generated/site-data.json', 'utf8'))
 type C = { id: string; name_zh: string; body: string; myth_system: string[]; sources: { id: string }[] };
 const norse: C[] = site.cards.filter((c: C) => c.myth_system.includes('norse'));
 const DEMO = ['primordial-ymir', 'god-odin', 'god-thor', 'god-loki', 'story-ragnarok'];
-const ALL15 = [
+// 最初的 15 張核心卡；北歐現在共 43 張，這 15 張必須還在
+const CORE15 = [
   'primordial-ymir', 'god-odin', 'god-thor', 'god-loki', 'god-freyja', 'god-frigg', 'god-baldr', 'god-tyr',
   'god-heimdall', 'monster-fenrir', 'monster-jormungandr', 'place-yggdrasil', 'story-baldr-death', 'story-thor-bride', 'story-ragnarok',
 ];
+const norseEras = site.eras.filter((e: { system?: string }) => e.system === 'norse').length;
 const PATH7 = ['primordial-ymir', 'god-odin', 'god-thor', 'god-loki', 'story-thor-bride', 'story-baldr-death', 'story-ragnarok'];
 
 const noHScroll = async (page: Page) => {
@@ -24,10 +26,16 @@ const brokenImages = (page: Page) =>
     return imgs.filter((i) => !i.complete || i.naturalWidth === 0).length;
   });
 
-test('北歐 15 張卡都在，正文每句都標來源，來源代號都存在', () => {
-  expect(norse.map((c) => c.id).sort()).toEqual([...ALL15].sort());
+test('北歐 43 張卡都在（含最初 15 張），正文每句都標來源，來源代號都存在', () => {
+  expect(norse.length).toBe(43);
+  expect(norse.map((c) => c.id)).toEqual(expect.arrayContaining(CORE15));
   for (const c of norse) {
-    const lines = c.body.split('\n').filter((l) => l.trim() && !l.startsWith('#') && !l.startsWith('```'));
+    // 正文每個段落都要標來源；``` 圍起來的 ASCII 圖表（對照表、流程圖）不是句子，不在此限，其內容由前後段落與來源清單負責
+    let inFence = false;
+    const lines = c.body.split('\n').filter((l) => {
+      if (l.startsWith('```')) { inFence = !inFence; return false; }
+      return !inFence && l.trim() && !l.startsWith('#');
+    });
     for (const l of lines) expect(l, `${c.id} 這一段沒有標來源：${l.slice(0, 20)}`).toMatch(/\[s\d+\]/);
     const ids = new Set(c.sources.map((s) => s.id));
     for (const m of c.body.matchAll(/\[(s\d+)\]/g)) expect(ids.has(m[1]), `${c.id} 引用不存在的 ${m[1]}`).toBe(true);
@@ -38,10 +46,13 @@ test('北歐：卡片列表可篩選「北歐」；沒有圖也正常顯示', as
   await page.goto('#/cards');
   await page.locator('.sys-tabs button', { hasText: '北歐' }).click();
   await expect(page).toHaveURL(/#\/cards\?sys=norse$/);
-  await expect(page.locator('.card-grid .tile')).toHaveCount(15);
-  // 三張故事卡已有真圖（封面），其餘 12 張還沒有圖，顯示文字縮寫
-  await expect(page.locator('.card-grid .tile img')).toHaveCount(3);
-  await expect(page.locator('.card-grid .tile .tile-initial')).toHaveCount(12);
+  await expect(page.locator('.card-grid .tile')).toHaveCount(norse.length);
+  // 有圖的卡顯示封面，沒圖的顯示文字縮寫；兩者加起來等於全部（張數從資料算）
+  const nImg = await page.locator('.card-grid .tile img').count();
+  const nInit = await page.locator('.card-grid .tile .tile-initial').count();
+  expect(nImg + nInit).toBe(norse.length);
+  expect(nImg).toBeGreaterThanOrEqual(3);
+  expect(nInit).toBeGreaterThan(0);
   for (const n of ['芙蕾雅', '芙麗嘉', '巴德爾', '提爾', '海姆達爾', '芬里爾', '耶夢加得', '世界樹', '巴德爾之死', '索爾扮新娘']) await expect(page.locator('.card-grid')).toContainText(n);
   await expect(page.locator('.card-grid')).toContainText('尤彌爾');
   await noHScroll(page);
@@ -111,14 +122,14 @@ test('北歐：新手路線 7 張，卡片頁的上一張／下一張照路線�
 test('北歐：神話年代有北歐分頁，卡片的年代標籤會跳到北歐分頁', async ({ page }) => {
   await page.goto('#/timeline');
   await page.getByRole('button', { name: /北歐/ }).click();
-  await expect(page.locator('ol.eras > li')).toHaveCount(4);
+  await expect(page.locator('ol.eras > li')).toHaveCount(norseEras);
   await expect(page.locator('#era-no-creation')).toContainText('尤彌爾');
   await expect(page.locator('#era-no-gods')).toContainText('洛基');
   await expect(page.locator('#era-no-ragnarok')).toContainText('諸神黃昏');
   await page.goto('#/card/god-thor');
   await page.locator('.era-chip').click();
   await expect(page).toHaveURL(/#\/timeline\?era=no-gods/);
-  await expect(page.locator('ol.eras > li')).toHaveCount(4);
+  await expect(page.locator('ol.eras > li')).toHaveCount(norseEras);
   await expect(page.locator('#era-no-gods')).toContainText('索爾');
   await noHScroll(page);
 });
@@ -197,7 +208,7 @@ test('北歐：每張卡打得開、不橫向捲動、沒有壞圖', async ({ pa
 });
 
 test('北歐：今日影子有 8 條北歐項目，連得回卡片，每條有「和原典差在哪」', async ({ page }) => {
-  const norseToday = site.today.filter((t: { cards: string[] }) => t.cards.some((id) => ALL15.includes(id)));
+  const norseToday = site.today.filter((t: { cards: string[] }) => t.cards.some((id) => CORE15.includes(id)));
   expect(norseToday.length).toBeGreaterThanOrEqual(8);
   for (const t of norseToday) {
     expect(t.diff.length, t.id).toBeGreaterThan(20);
@@ -226,7 +237,8 @@ test('北歐：對照頁有「三套神話對照」三方表格，跳轉鈕可�
   await expect.poll(async () => (await page.locator('#norse-compare').boundingBox())!.y).toBeLessThan(250);
   const sec = page.locator('#norse-compare');
   await expect(sec.locator('h2')).toHaveText('三套神話對照');
-  await expect(sec.locator('tbody tr')).toHaveCount(6);
+  await expect(sec.locator('tbody tr')).toHaveCount(site.threeWay.length);
+  expect(site.threeWay.length).toBeGreaterThanOrEqual(6);
   await expect(sec.locator('thead')).toContainText('北歐神話');
   for (const theme of ['世界怎麼開始', '世界會不會結束', '誰是主神', '愛搗蛋的角色', '大洪水', '龍']) await expect(sec).toContainText(theme);
   await expect(sec).toContainText('不是說哪一邊影響了哪一邊');

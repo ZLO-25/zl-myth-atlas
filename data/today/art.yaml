@@ -41,3 +41,12 @@
   sources:
     - {cite: 維基共享資源作品頁（Landscape with the Fall of Icarus）, url: 'https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_Landscape_with_the_Fall_of_Icarus_-_Brussels,_Royal_Museums_of_Fine_Arts_of_Belgium_-_Google_Arts_%26_Culture.jpg'}
     - {cite: 奧維德《變形記》8.183–235, url: 'https://www.theoi.com/Text/OvidMetamorphoses8.html'}
+- id: bernini-proserpina
+  category: 名畫與雕塑
+  title: 貝尼尼〈搶奪普洛塞庇娜〉
+  cards: [story-persephone, god-hades]
+  what: 貝尼尼的大理石雕塑，題材是冥界之王擄走波瑟芬妮（羅馬名普洛塞庇娜），目前收藏在羅馬的博爾蓋塞美術館。
+  diff: 雕塑採用羅馬名「普洛塞庇娜」與「普魯托」，故事則是希臘神話裡黑帝斯擄走狄蜜特女兒的那一段。
+  status: 已查證
+  sources:
+    - {cite: 英文維基百科「The Rape of Proserpina」（輔助）, url: 'https://en.wikipedia.org/wiki/The_Rape_of_Proserpina', accessed: '2026-11-16'}

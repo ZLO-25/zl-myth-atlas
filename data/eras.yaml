@@ -15,9 +15,12 @@
 - {id: cn-yaoshun, system: chinese, order: 5, name: 堯舜時代, summary: 堯在位時十個太陽一起出來，后羿射日；堯把王位讓給舜。}
 - {id: cn-flood, system: chinese, order: 6, name: 洪水與治水, summary: 大洪水淹沒天下，鯀堵水失敗，兒子禹疏導成功。}
 - {id: cn-xia, system: chinese, order: 7, name: 夏朝開始, summary: 禹的兒子啟繼位，「讓賢」變成「傳子」；從這裡開始，故事慢慢變成歷史。}
-- {id: cn-world, system: chinese, order: 8, name: 神話世界（不分年代）, summary: 龍、鳳凰、九尾狐這些神獸，崑崙山、扶桑樹這些神話地點，以及牛郎織女這種年代說不準的民間故事。}
+- {id: cn-immortals, system: chinese, order: 8, name: 後世神仙（漢代以後）, summary: 道教、佛教與民間信仰裡的神：玉皇大帝、觀音、媽祖、關公、土地公。祂們比上古神話晚出現，很多到今天廟裡還在拜。}
+- {id: cn-novels, system: chinese, order: 9, name: 小說與民間故事（唐代到清代）, summary: 《西遊記》《封神演義》這些小說，加上白蛇傳、梁祝、孟姜女等民間故事，塑造了今天大家最熟的神仙形象。}
+- {id: cn-world, system: chinese, order: 10, name: 神話世界（不分年代）, summary: 龍、鳳凰、九尾狐這些神獸，崑崙山、扶桑樹這些神話地點，以及牛郎織女這種年代說不準的民間故事。}
 # 北歐神話（system: norse）：故事順序。很多完整情節只見於 13 世紀斯諾里的《散文埃達》。
 - {id: no-creation, system: norse, order: 1, name: 創世, summary: 最初只有一道張開的裂口，兩邊是霜與熱；霜融成巨人尤彌爾，他被殺後，身體變成了世界。}
 - {id: no-gods, system: norse, order: 2, name: 眾神的時代, summary: 世界造好之後，阿薩神族與巨人、怪物之間的故事：奧丁、索爾、洛基都在這裡。}
-- {id: no-ragnarok, system: norse, order: 3, name: 諸神黃昏, summary: 神、巨人與怪物的最後一戰；世界被火燒毀，之後大地又從海裡升起。}
-- {id: no-world, system: norse, order: 4, name: 神話世界（不分年代）, summary: 世界樹、九個世界這類地方，不屬於哪一個年代。}
+- {id: no-heroes, system: norse, order: 3, name: 英雄傳說, summary: 人間英雄的故事：屠龍的齊格魯德、被詛咒的黃金指環。這些故事裡，奧丁常常親自下場插手。}
+- {id: no-ragnarok, system: norse, order: 4, name: 諸神黃昏, summary: 神、巨人與怪物的最後一戰；世界被火燒毀，之後大地又從海裡升起。}
+- {id: no-world, system: norse, order: 5, name: 神話世界（不分年代）, summary: 世界樹、九個世界這類地方，不屬於哪一個年代。}

@@ -32,6 +32,10 @@ sources:
   - {id: s7, kind: ancient, cite: 荷馬《奧德賽》卷 21–22（射箭比賽與殺死求婚者）, url: 'https://www.theoi.com/Text/HomerOdyssey21.html'}
   - {id: s8, kind: ancient, cite: 荷馬《奧德賽》23.173–230（床的祕密）, url: 'https://www.theoi.com/Text/HomerOdyssey23.html'}
   - {id: s9, kind: modern, cite: World History Encyclopedia「Odysseus」, url: 'https://www.worldhistory.org/odysseus/', accessed: '2026-11-02'}
+  - {id: s11, kind: ancient, cite: 荷馬《奧德賽》卷 1、卷 2 與雅典娜的指示（特勒馬科斯去皮洛斯與斯巴達；Butler 英譯）, url: 'https://www.gutenberg.org/ebooks/1727'}
+  - {id: s12, kind: ancient, cite: 荷馬《奧德賽》卷 6、卷 13、卷 14（瑙西卡、費埃克斯人送他回伊塔卡、歐邁奧斯的小屋，Butler 英譯）, url: 'https://www.gutenberg.org/ebooks/1727'}
+  - {id: s13, kind: ancient, cite: 荷馬《奧德賽》卷 16（特勒馬科斯數求婚者）、卷 19（歐律克勒亞認出傷疤）, url: 'https://www.gutenberg.org/ebooks/1727'}
+  - {id: s14, kind: ancient, cite: 荷馬《奧德賽》卷 22、卷 24（殺求婚者與父親拉厄爾忒斯，Butler 英譯）, url: 'https://www.gutenberg.org/ebooks/1727'}
 images: [img-odyssey-waterhouse, img-odysseus-sirens, img-odysseus-polyphemus]
 causes:
   - {id: story-trojan-war, rel: 背景, why: 特洛伊陷落後，奧德修斯才踏上返鄉之路。, src: [s9]}
@@ -52,3 +56,25 @@ topics: [返鄉, 冒險與試煉, 智慧與詭計, 冥界之旅, 怪物]
 ### 只有他們知道的床
 
 奧德修斯殺光求婚者後，潘妮洛普還是不敢相信眼前的人是丈夫。她故意吩咐侍女把臥房的床搬出來。奧德修斯一聽就急了：那張床是他親手用一棵橄欖樹的樹幹做成的，床腳還連著樹根，根本搬不動！只有真正的奧德修斯知道這個祕密，潘妮洛普這才哭著抱住他。[s8]
+
+### 兒子出門找父親
+
+家裡這邊，眾神議事時，[[god-athena|雅典娜]]提議去伊塔卡鼓舞[[hero-odysseus|奧德修斯]]的兒子忒勒馬科斯，要他向求婚者說話，並帶他去斯巴達和皮洛斯打聽父親的消息；後來給他的指點是先去皮洛斯問涅斯托爾，再去斯巴達找墨涅拉俄斯。[s11] 這趟旅程讓少年從被求婚者欺負的孩子，變成能在父親身邊並肩作戰的人。
+
+### 被送回家的人
+
+奧德修斯在卡呂普索島上待了七年，到第八年，女神才放他乘木筏離開。[s5] 他先被沖到費埃克斯人的國度，遇到來洗衣的公主瑙西卡，由她帶進城；他在宮裡，向國王和宮廷講完前半部的冒險；對方派船送他走，他到伊塔卡時還在熟睡，被抬到沙灘上，禮物則堆在橄欖樹根旁邊。[s12] 他接著先到豬倌歐邁奧斯的小屋，沒有直接回宮。
+
+### 一百零八個對手，一步步被認出來
+
+忒勒馬科斯向父親數過對手：杜利基翁來五十二人、薩墨二十四人、扎金索斯二十人、伊塔卡本地十二人，合計一百零八，還不算隨從。[s13] 奧德修斯回家後，身份是一個一個被認出的：
+
+```
+老狗阿爾戈斯   17 卷  認出，隨後死去
+歐律克勒亞     19 卷  洗腳時摸到野豬留下的傷疤
+弓與十二把斧頭 21 卷  證明自己是主人（求婚者殺光於 22 卷）
+潘妮洛普       23 卷  用床的祕密確認
+父親拉厄爾忒斯 24 卷  最後相認，並肩對抗求婚者家屬
+```
+
+老奶媽歐律克勒亞認出他的時候，他伸手掐住她的喉嚨，要她別出聲。[s13] 殺光求婚者後，最後的衝突發生在拉厄爾忒斯的田莊，是雅典娜出面喝止，雙方才停手。[s14]

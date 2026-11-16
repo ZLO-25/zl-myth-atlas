@@ -8,7 +8,7 @@
   status: 已查證
   sources:
     - {cite: Online Etymology Dictionary「Tuesday」, url: 'https://www.etymonline.com/word/Tuesday', accessed: '2026-11-16'}
-    - {cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 25、34 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+    - {cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 25、34 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning21-30.htm'}
 - id: wednesday-odin
   category: 時間
   title: 星期三 Wednesday
@@ -28,7 +28,7 @@
   status: 已查證
   sources:
     - {cite: Online Etymology Dictionary「Thursday」, url: 'https://www.etymonline.com/word/Thursday', accessed: '2026-11-16'}
-    - {cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 21 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+    - {cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 21 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning21-30.htm'}
 - id: friday-frigg
   category: 時間
   title: 星期五 Friday
@@ -39,7 +39,7 @@
   sources:
     - {cite: Online Etymology Dictionary「Friday」, url: 'https://www.etymonline.com/word/Friday', accessed: '2026-11-16'}
     - {cite: World History Encyclopedia「Frigg」, url: 'https://www.worldhistory.org/Frigg/', accessed: '2026-11-16'}
-    - {cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 35 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+    - {cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 35 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning31-40.htm'}
 - id: thorium
   category: 科學與醫學
   title: 元素釷 thorium
@@ -81,3 +81,52 @@
   sources:
     - {cite: World History Encyclopedia「Ragnarök」, url: 'https://www.worldhistory.org/Ragnarok/', accessed: '2026-11-16'}
     - {cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 51 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning51-54.htm', accessed: '2026-11-16'}
+- id: hell-word
+  category: 英文單字與成語
+  title: 英文 hell（地獄）
+  cards: [god-hel]
+  what: 英文 hell 來自古英語 hel，意思是「陰間、死者的居所」，和北歐女神赫爾的名字是同一個字根。
+  diff: 詞源字典說，字根是「覆蓋、藏起來」；女神的名字，也來自「把東西蓋住、藏起來的人」。但在埃達裡，赫爾是洛基的女兒，統治死者之國；詞源字典說，這是把異教概念轉成基督教神學用語的結果。
+  status: 已查證
+  sources:
+    - {cite: Online Etymology Dictionary「hell」, url: 'https://www.etymonline.com/word/hell', accessed: '2026-11-16'}
+    - {cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 34 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning31-40.htm', accessed: '2026-11-16'}
+- id: scandinavia-skadi
+  category: 英文單字與成語
+  title: Scandinavia 與絲卡蒂
+  cards: [god-skadi]
+  what: 有人說，Scandinavia 這個地名和女神絲卡蒂（Skaði）的名字有關。
+  diff: 詞源字典說，Scandinavia 是 Scadinavia 的誤寫，第一部分的來源不確定，第二部分是「水邊的東西」，條目沒有提到絲卡蒂。所以這只是有人提出的說法。
+  status: 說法未證實
+  sources:
+    - {cite: Online Etymology Dictionary「Scandinavia」, url: 'https://www.etymonline.com/word/Scandinavia', accessed: '2026-11-16'}
+- id: surtsey-island
+  category: 科學與醫學
+  title: 蘇爾特塞島 Surtsey
+  cards: [monster-surtr]
+  what: 1963 年 11 月，冰島南岸外一次火山噴發造出一座新島，1965 年由冰島政府命名為蘇爾特塞島（Surtsey）。
+  diff: 大英百科說，這個名字取自冰島神話裡的「火神」蘇爾特；北歐原典（斯諾里）說的是火巨人，他在諸神黃昏用火燒世界。
+  status: 已查證
+  sources:
+    - {cite: 大英百科全書「Surtsey」, url: 'https://www.britannica.com/place/Surtsey', accessed: '2026-11-16'}
+    - {cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 4 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning1-10.htm', accessed: '2026-11-16'}
+- id: wagner-siegfried
+  category: 文學
+  title: 華格納的歌劇《齊格飛》
+  cards: [story-sigurd]
+  what: 華格納的歌劇《齊格飛》（Siegfried），以齊格魯德的故事為基礎。
+  diff: Bellows 說，華格納用〈法夫尼爾之歌〉當基礎，輪廓幾乎沒有改；第三幕的許多內容，則是用〈西格德莉法之歌〉開頭的幾節寫成。這裡只確認 Bellows 的說法，沒有比較歌劇的細節。
+  status: 已查證
+  sources:
+    - {cite: 《詩體埃達》〈法夫尼爾之歌〉導言（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533', accessed: '2026-11-16'}
+    - {cite: 《詩體埃達》〈西格德莉法之歌〉導言（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533', accessed: '2026-11-16'}
+- id: ramsund-carving
+  category: 名畫與雕塑
+  title: 瑞典拉姆松德的齊格魯德石刻
+  cards: [story-sigurd]
+  what: 瑞典拉姆松德（Ramsund）有一幅 11 世紀的「齊格魯德石刻」，圖上有齊格魯德烤龍心、燙到手指、聽懂鳥語，雷金被殺、旁邊散落鑄匠的工具，以及馬匹格拉尼馱著寶物。
+  diff: 這些畫面對得上〈法夫尼爾之歌〉與〈雷金之歌〉的情節：烤龍心、嘗血、聽懂鳥說話、殺死雷金。石刻是故事的圖像，不是文字原典。
+  status: 已查證
+  sources:
+    - {cite: 艾斯基爾蒂納市政府「Sigurd Carving (Ramsund)」說明（英文 PDF）, url: 'https://arrangera.eskilstuna.se/download/18.2b162e85172e510106a21e35/1594199385241/Sigurdsristningen%20eng.pdf', accessed: '2026-11-16'}
+    - {cite: 《詩體埃達》〈法夫尼爾之歌〉第 1–44 節與散文（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533', accessed: '2026-11-16'}

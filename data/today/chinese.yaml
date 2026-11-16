@@ -59,3 +59,144 @@
   status: 已查證
   sources:
     - {cite: CGTN（2022-10-09）, url: 'https://news.cgtn.com/news/2022-10-09/Why-China-launched-another-solar-probe-when-there-are-dozens-in-space-1dZOeJRacgg/index.html'}
+- id: mazu-pilgrimage
+  category: 台灣生活
+  title: 媽祖遶境
+  cards: [god-mazu]
+  what: 聯合國教科文組織在 2009 年把媽祖信俗列入人類非物質文化遺產代表作名錄，全世界約有 5,000 座媽祖廟。台灣的媽祖遶境多半在媽祖生辰（農曆三月）前後舉行，白沙屯媽祖步行到北港朝天宮約 400 公里，啟程日期由廟方擲筊決定。
+  diff: 媽祖信仰最早是沿海居民的海神信仰，今天在台灣變成大型的徒步遶境活動；路線與日期由神明決定（擲筊），而不是照固定時刻表。
+  status: 已查證
+  sources:
+    - {cite: 聯合國教科文組織「Mazu belief and customs」, url: 'https://ich.unesco.org/en/RL/mazu-belief-and-customs-00227'}
+    - {cite: 中央社「2017 媽祖專題」, url: 'https://www.cna.com.tw/project/2017_matsu/2017_matsu.html'}
+- id: guandi-temples
+  category: 台灣生活
+  title: 關帝廟與武廟
+  cards: [god-guandi]
+  what: 大英百科說，各地蓋了幾千座武廟，有些由國家出錢，每年在農曆二月十五與五月十三致祭。清代山西商人也蓋廟、蓋會館，印製關帝的勸善書。
+  diff: 清代拜關帝的有皇帝、商人、文人、武官與民間教派，所以今天的關帝廟是歷代各種人一層層加上去的信仰。
+  status: 已查證
+  sources:
+    - {cite: 大英百科「Guandi」, url: 'https://www.britannica.com/topic/Guandi'}
+- id: tudigong-toudiya
+  category: 台灣生活
+  title: 土地公生日與「做牙」
+  cards: [god-tudigong]
+  what: 台中市文化局說，農曆二月初二是土地公生日，信徒每月初一、十五到庄頭廟上香；中央社說，台灣習俗每月初二、十六拜土地公叫「做牙」，二月初二叫「頭牙」，台中市政府還呼籲民眾「燒一炷心香、不燒紙錢」。
+  diff: 土地公是離百姓最近的神，所以祭拜的日子最頻繁，一個月就有好幾次；今天的新變化是用環保的「心香」取代紙錢。
+  status: 已查證
+  sources:
+    - {cite: 台中市政府文化局〈認識福德祠〉, url: 'https://community.culture.taichung.gov.tw/df_ufiles/a/認識福德祠(簡).pdf'}
+    - {cite: 中央社〈不燒紙錢燒心香　向土地公祝壽別忘環保〉（2018）, url: 'https://www.cna.com.tw/news/aloc/201803180129.aspx'}
+- id: hsinchu-chenghuang-festival
+  category: 台灣生活
+  title: 新竹的竹塹中元城隍祭
+  cards: [god-chenghuang]
+  what: 新竹都城隍廟有 278 年歷史，每年農曆七月舉辦「竹塹中元城隍祭」，被新竹市列為市定無形民俗文化資產；高潮是「遶境賑孤」，城隍爺帶著神將巡視地方，象徵祭祀孤魂、勸人行善積福。
+  diff: 大英百科說城隍每年會有一兩次繞行城市街道的巡視；新竹把這個「巡視」做成中元節的遶境，並加上賑濟孤魂的儀式。
+  status: 已查證
+  sources:
+    - {cite: 聯合報〈竹塹中元城隍祭「遶境賑孤」盛大登場〉, url: 'https://udn.com/news/story/6656/9718306'}
+    - {cite: 大英百科「Cheng Huang」, url: 'https://www.britannica.com/topic/Cheng-Huang'}
+- id: menshen-new-year
+  category: 時間
+  title: 過年貼門神
+  cards: [god-menshen, story-festivals]
+  what: 大英百科說，門神的武將畫像貼在大門的兩扇門板上，過新年時，畫像會用鮮豔的顏色重新畫過。南朝《荊楚歲時記》已經記載正月一日造桃板掛在門上，畫兩位神，左神荼、右鬱壘，「俗謂之門神」。
+  diff: 漢代書說最早的門神是神荼、鬱壘兩兄弟；明代小說《西遊記》又說唐太宗生病時由秦叔寶、尉遲恭守門，所以今天門上畫的武將有不同來歷。
+  status: 已查證
+  sources:
+    - {cite: 大英百科「Men Shen」, url: 'https://www.britannica.com/topic/Men-Shen'}
+    - {cite: 宗懍《荊楚歲時記》（南朝梁）, url: 'https://zh.wikisource.org/wiki/荊楚歲時記'}
+- id: caishen-fifth-day
+  category: 時間
+  title: 正月初五迎財神
+  cards: [god-caishen]
+  what: 大英百科說，新年兩週的慶祝期間，人們會到財神廟上香，特別是正月初五。
+  diff: 財神屬於漢代以後的民間信仰（本站放在「後世神仙」年代），今天仍然跟著新年的日曆走：過年初五是拜財神的日子。
+  status: 已查證
+  sources:
+    - {cite: 大英百科「Caishen」, url: 'https://www.britannica.com/topic/Caishen'}
+- id: zaoshen-xiaonian
+  category: 時間
+  title: 小年送灶王爺
+  cards: [god-zaoshen]
+  what: 新華網（2025）說，送灶日期北方在臘月二十三，南方在二十四；供品一定有麥芽糖，又甜又黏，人們希望灶王爺多說「甜言蜜語」，灶邊常貼「上天言好事」這類對聯。
+  diff: 晉代《抱朴子》只說灶神每月最後一天上天報告人的罪狀；宋代《東京夢華錄》只寫到賣「膠牙餳」，沒有說是用來黏灶神的嘴；用麥芽糖讓灶王爺多說好話，是新華網記錄的今日做法。
+  status: 已查證
+  sources:
+    - {cite: 新華網〈年味讀年畫：臘月二十三，祭灶神，過小年〉（2025）, url: 'https://www.news.cn/politics/20250121/c0548354f4c6490487dbd97c96eaa546/c.html'}
+    - {cite: 葛洪《抱朴子·內篇·微旨》（東晉）, url: 'https://zh.wikisource.org/wiki/抱朴子/卷06'}
+    - {cite: 孟元老《東京夢華錄》卷十（宋）, url: 'https://zh.wikisource.org/wiki/東京夢華錄/卷十'}
+- id: yuelao-riyuetan
+  category: 台灣生活
+  title: 日月潭的月下老人祠
+  cards: [god-yuelao]
+  what: 聯合報專文說，月老在台灣多半是廟裡的「屬神」，較少有專屬廟宇；1980 年南投縣為推廣觀光，在日月潭蓋了月下老人祠。拜月老的方式包括求紅線佩帶、吃喜糖、塗緣粉、戴月老符、求月老籤、點姻緣燈。
+  diff: 月老在台灣多半是廟裡的屬神；專屬的月下老人祠，是 1980 年為了推廣觀光才蓋的。
+  status: 已查證
+  sources:
+    - {cite: 聯合報「月下老人與紅娘」專文（udn 鳴人堂）, url: 'https://udn.com/news/story/7272/8683818'}
+- id: zhongkui-palace-painting
+  category: 名畫與雕塑
+  title: 故宮的〈鍾馗送嫁〉
+  cards: [god-zhongkui]
+  what: 國立故宮博物院典藏一卷〈鍾馗送嫁〉，目錄題為元代王振鵬所作，用白描畫出鍾馗頭簪花、騎驢，率領二十多名鬼卒護送妹妹出嫁；但研究者認為是後代畫家託名之作，年代不詳。
+  diff: 古書最早說鍾馗是年底驅邪的神（唐玄宗夢見捉鬼），「嫁妹」的故事是更晚才畫出來的；本站查不到嫁妹情節最早出自哪本書。
+  status: 已查證
+  sources:
+    - {cite: 國立故宮博物院書畫處典藏〈元王振鵬鍾馗送嫁 卷〉數位典藏說明, url: 'https://catalog.digitalarchives.tw/item/00/08/38/90.html'}
+    - {cite: 沈括《夢溪筆談·補筆談》卷三〈雜誌〉（北宋）, url: 'https://zh.wikisource.org/wiki/夢溪筆談/補筆談'}
+- id: zodiac-years
+  category: 時間
+  title: 十二生肖年
+  cards: [story-zodiac]
+  what: 生肖依序是鼠、牛、虎、兔、龍、蛇、馬、羊、猴、雞、狗、豬，十二年一輪，配在十二地支上。大英百科只說起源不清楚，戰國、秦、漢三種說法都有人主張。
+  diff: 最早有原文的配對是東漢王充《論衡·物勢篇》；大家熟知的「動物賽跑」故事，大英百科只是轉述，查無古代出處。
+  status: 已查證
+  sources:
+    - {cite: 大英百科「Chinese zodiac」, url: 'https://www.britannica.com/topic/Chinese-zodiac'}
+    - {cite: 王充《論衡·物勢篇》（東漢）, url: 'https://zh.wikisource.org/wiki/論衡/14'}
+- id: jingwei-idiom
+  category: 英文單字與成語
+  title: 精衛填海
+  cards: [hero-jingwei]
+  what: 「精衛填海」今天常用來形容意志堅定、不怕艱難。成語出自《山海經·北山經》：炎帝的小女兒女娃在東海淹死，化成精衛鳥，常銜西山的木石丟進東海。
+  diff: 《山海經》只寫她銜木石填海；陶淵明〈讀山海經〉才特別稱讚她的「猛志」；南朝《述異記》又加上她與海燕生子、誓不飲東海水等細節。
+  status: 已查證
+  sources:
+    - {cite: 《山海經·北山經》, url: 'https://zh.wikisource.org/wiki/山海經/北山經'}
+    - {cite: 陶淵明〈讀山海經〉其十（東晉）, url: 'https://zh.wikisource.org/wiki/讀《山海經》'}
+    - {cite: 大英百科「Chinese mythology」, url: 'https://www.britannica.com/topic/Chinese-mythology'}
+- id: guanyin-female-image
+  category: 台灣生活
+  title: 廟裡的女相觀音
+  cards: [god-guanyin]
+  what: 大英百科說，宋代以前的觀音像明顯是男性，宋代有男相、兼具兩性、帶淡鬍鬚的女子等並存，至少從 11 世紀起，觀音主要以年輕女子的形象受人供奉。
+  diff: 〈普門品〉說觀世音會看對象現各種身分；今天常見的女相觀音，是傳進中國以後逐步形成的，並加上妙善公主等中國自己的故事。
+  status: 已查證
+  sources:
+    - {cite: 大英百科「Guanyin」, url: 'https://www.britannica.com/print/article/45363'}
+    - {cite: 《三教源流搜神大全》卷四〈觀音菩薩〉, url: 'https://zh.wikisource.org/wiki/三教源流搜神大全/卷四'}
+- id: dragon-boat-festival
+  category: 時間
+  title: 端午節
+  cards: [story-festivals]
+  what: 大英百科說，端午節在農曆五月五日，特色是龍舟競賽和粽子；最流行的傳說是紀念戰國詩人屈原，此外還有伍子胥、曹娥等人。南朝《續齊諧記》說楚人哀憐屈原，用竹筒盛米投水祭祀。
+  diff: 端午紀念誰，古書沒有定論：《荊楚歲時記》引《曹娥碑》說五月五日是迎伍子胥，還說五月俗稱「惡月」、多禁忌；屈原說只是最流行的一種。
+  status: 已查證
+  sources:
+    - {cite: 大英百科「Dragon Boat Festival」, url: 'https://www.britannica.com/topic/Dragon-Boat-Festival'}
+    - {cite: 吳均《續齊諧記》（南朝梁）, url: 'https://zh.wikisource.org/wiki/續齊諧記'}
+    - {cite: 宗懍《荊楚歲時記》（南朝梁）, url: 'https://zh.wikisource.org/wiki/荊楚歲時記'}
+- id: nian-beast
+  category: 時間
+  title: 「年獸」的傳說
+  cards: [story-festivals]
+  what: 過年的「年獸」故事廣為流傳，但《荊楚歲時記》《東京夢華錄》《夢粱錄》裡的過年記載，只有爆竹、桃板與門神，沒有年獸。
+  diff: 這三本書裡查不到年獸，所以本站不把它當成古老的傳說；古書裡的爆竹是用來趕「山臊惡鬼」。
+  status: 說法未證實
+  sources:
+    - {cite: 宗懍《荊楚歲時記》（南朝梁）, url: 'https://zh.wikisource.org/wiki/荊楚歲時記'}
+    - {cite: 孟元老《東京夢華錄》（宋）, url: 'https://zh.wikisource.org/wiki/東京夢華錄'}
+    - {cite: 吳自牧《夢粱錄》卷六（南宋）, url: 'https://zh.wikisource.org/wiki/夢粱錄/卷06'}

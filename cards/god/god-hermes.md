@@ -21,9 +21,9 @@ how_to_recognize_src: [s6]
 family:
   parents:
     - {id: god-zeus, src: [s1]}
-    - {name: 邁亞（泰坦亞特拉斯的女兒）, src: [s1]}
+    - {name: 邁亞（泰坦阿特拉斯的女兒）, src: [s1]}
   children:
-    - {name: 牧神潘, src: [s3]}
+    - {id: god-pan, src: [s3]}
 images: [img-hermes-praxiteles, img-hermes-giambologna, img-hermes-berlin]
 sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》938–939, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
@@ -33,6 +33,7 @@ sources:
   - {id: s5, kind: ancient, cite: 奧維德《變形記》1.668–723（殺死百眼巨人阿爾戈斯）, url: 'https://www.theoi.com/Text/OvidMetamorphoses1.html'}
   - {id: s6, kind: modern, cite: Theoi.com「Hermes」, url: 'https://www.theoi.com/Olympios/Hermes.html', accessed: '2026-11-02'}
   - {id: s7, kind: modern, cite: World History Encyclopedia「Mercury (Deity)」（Donald L. Wasson, 2018）, url: 'https://www.worldhistory.org/Mercury_(Deity)/', accessed: '2026-11-02'}
+  - {id: s8, kind: modern, cite: 《希臘羅馬傳記與神話辭典》「Hermes」條（Theoi 轉載）, url: 'https://www.theoi.com/Olympios/Hermes.html', accessed: '2026-11-16'}
 greek_vs_roman:
   text: 羅馬的墨丘利幾乎只管一件事：做生意。他的名字可能和拉丁文 merx（貨物）有關，前 495 年左右，羅馬人在大競技場附近替他蓋了神廟，5 月 15 日是紀念他神廟落成的節日。
   src: [s7]
@@ -45,7 +46,7 @@ topics: [智慧與詭計, 冥界之旅]
 
 ### 出生第一天
 
-荷米斯是[[god-zeus|宙斯]]與仙女邁亞的兒子，邁亞是泰坦[[titan-atlas|亞特拉斯]]的女兒。[s1] 他在阿卡迪亞的山洞裡出生，頌歌把他的第一天寫得像一部喜劇：[s2]
+荷米斯是[[god-zeus|宙斯]]與仙女邁亞的兒子，邁亞是泰坦[[titan-atlas|阿特拉斯]]的女兒。[s1] 他在阿卡迪亞的山洞裡出生，頌歌把他的第一天寫得像一部喜劇：[s2]
 
 ```
 清晨  出生
@@ -60,8 +61,25 @@ topics: [智慧與詭計, 冥界之旅]
 
 ### 眾神的跑腿
 
-荷米斯腳步最快，所以宙斯的命令幾乎都由他傳送。宙斯愛上少女伊俄、把她變成母牛藏起來時，希拉派了一百隻眼睛的巨人阿爾戈斯看守；宙斯就派荷米斯去，他吹笛、講故事，讓阿爾戈斯一隻一隻閉上眼睛，再一劍砍下他的頭。希拉把巨人的眼睛放到孔雀的尾巴上。[s5]
+荷米斯腳步最快，所以宙斯的命令幾乎都由他傳送。宙斯愛上少女伊俄、把她變成母牛藏起來時，[[god-hera|希拉]]派了一百隻眼睛的巨人阿爾戈斯看守；宙斯就派荷米斯去，他吹笛、講故事，讓阿爾戈斯一隻一隻閉上眼睛，再一劍砍下他的頭。希拉把巨人的眼睛放到孔雀的尾巴上。[s5]
 
 ### 帶亡魂走最後一段路
 
-荷米斯也負責引導亡魂前往冥界。《奧德賽》結尾，他拿著金手杖，把被奧德修斯殺死的求婚者亡魂召出來，亡魂像蝙蝠一樣吱吱叫著，跟在他身後走向冥界。[s4]
+荷米斯也負責引導亡魂前往[[place-underworld|冥界]]。《奧德賽》結尾，他拿著金手杖，把被[[hero-odysseus|奧德修斯]]殺死的求婚者亡魂召出來，亡魂像蝙蝠一樣吱吱叫著，跟在他身後走向冥界。[s4]
+
+### 各書怎麼說
+
+偷牛的故事主要見於《荷馬詩體頌歌》第 4 首，辭典指出《伊利亞特》和《奧德賽》都沒有這段，另有說法把偷牛放到荷米斯長大以後（阿波羅多洛斯、安東尼努斯．利貝拉利斯）。[s8] 幾個細節各書也不一致：
+
+| 問題 | 說法 |
+|---|---|
+| 偷牛的時間 | 頌歌：出生當天；阿波羅多洛斯等：較晚的時期 [s8] |
+| 七弦琴有幾根弦 | 有人說三根，有人說七根，弦用牛腸或羊腸 [s8] |
+| 阿波羅有沒有傳授占卜 | 辭典概述：阿波羅送他金牧杖、教他用骰子占卜；頌歌：阿波羅拒絕教他預言，只讓他管牲畜與牧場 [s8] |
+| 手杖上的蛇 | 荷馬詩只提到能開闔人眼的魔杖，沒有蛇；原本纏在傳令杖上的白色緞帶，後來的藝術家改成兩條蛇 [s8] |
+
+### 後來怎麼變
+
+荷米斯的職務在傳統裡不斷增加：宙斯讓他當自己的傳令官，也當冥界諸神的傳令官；辭典列出他送普里阿摩斯去見[[hero-achilles|阿基里斯]]取回[[hero-hector|赫克托]]遺體、替綁在山上的[[titan-prometheus|普羅米修斯]]上鎖、帶三位女神去見帕里斯等差事。[s8] 後世還把字母、數字、天文、音樂等發明都記在他名下。[s8] 他的外號「阿爾戈斯的殺手」（Argeiphontes）就來自殺死阿爾戈斯的故事。[s8]
+
+到了羅馬，他變成專管買賣的墨丘利，在大競技場邊有自己的神廟。[s7]

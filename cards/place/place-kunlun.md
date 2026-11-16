@@ -3,7 +3,7 @@ id: place-kunlun
 type: 地點
 myth_system: [chinese]
 name_zh: 崑崙山
-aliases: [昆仑山, 崑崙之丘, 崑崙之虛, 帝之下都, Mount Kunlun, Kunlun]
+aliases: [昆仑山, 昆侖山, 崑崙之丘, 崑崙之虛, 帝之下都, Mount Kunlun, Kunlun]
 name_en: Mount Kunlun
 name_orig: 崑崙 / Kūnlún
 reality: {level: 純神話}
@@ -13,10 +13,13 @@ three_lines:
   - 今天中國西部真的有一條「崑崙山脈」，是漢代才用神話的名字替它命名的。
 hook: 崑崙山：天帝在人間的都城，中華神話的奧林帕斯。
 sources:
-  - {id: s1, kind: ancient, cite: 《山海經·西山經》, url: 'https://ctext.org/shan-hai-jing/xi-shan-jing/zh'}
-  - {id: s2, kind: ancient, cite: 《山海經·海內西經》, url: 'https://ctext.org/shan-hai-jing/hai-nei-xi-jing/zh'}
-  - {id: s3, kind: ancient, cite: 司馬遷《史記·大宛列傳》（漢武帝替河源之山命名崑崙）, url: 'https://ctext.org/shiji/da-yuan-lie-zhuan/zh'}
+  - {id: s1, kind: ancient, cite: 《山海經·西山經》, url: 'https://zh.wikisource.org/wiki/山海經/西山經'}
+  - {id: s2, kind: ancient, cite: 《山海經·海內西經》, url: 'https://zh.wikisource.org/wiki/山海經/海內西經'}
+  - {id: s3, kind: ancient, cite: 司馬遷《史記·大宛列傳》（漢武帝替河源之山命名崑崙）, url: 'https://zh.wikisource.org/wiki/史記/卷123'}
   - {id: s4, kind: modern, cite: 大英百科「Chinese mythology」, url: 'https://www.britannica.com/topic/Chinese-mythology', accessed: '2026-11-15'}
+  - {id: s5, kind: ancient, cite: 《淮南子·墜形訓》（西漢，劉安主編）, url: 'https://zh.wikisource.org/wiki/淮南子/墜形訓'}
+  - {id: s6, kind: ancient, cite: 《列子·周穆王篇》（題為戰國列禦寇撰）, url: 'https://zh.wikisource.org/wiki/列子/周穆王篇'}
+  - {id: s7, kind: ancient, cite: 《山海經·大荒西經》（先秦至漢，作者不詳）, url: 'https://zh.wikisource.org/wiki/山海經/大荒西經'}
 era: cn-world
 places: [kunlun-range]
 topics: [創世]
@@ -24,11 +27,32 @@ topics: [創世]
 
 ## 故事
 
-《山海經·西山經》說，崑崙之丘「是實惟帝之下都」，是天帝在人間的都城，由一位叫陸吾的神看守。[s1] 〈海內西經〉說崑崙在西北方，方圓八百里，高萬仞，是「百神之所在」。[s2] [[god-xiwangmu|西王母]]也住在這一帶。
+《山海經·西山經》說，崑崙之丘「是實惟帝之下都」，是天帝在人間的都城，由神陸吾看守；這位神「狀虎身而九尾，人面而虎爪」，掌管「天之九部及帝之囿時」，也就是天界的九個區域和天帝苑囿的季節。[s1] 〈海內西經〉說：「昆侖之虛，在西北，帝之下都。昆侖之虛，方八百里，高萬仞。」山上有九口井、九道門，門由開明獸守著，是「百神之所在」。[s2] 同一段還補了一句：「非仁羿莫能上岡之巖」，意思是只有像[[hero-houyi|羿]]那樣的人，才爬得上去。[s2]
+
+〈大荒西經〉說崑崙之丘有人「戴勝，虎齒，有豹尾，穴處，名曰西王母」，所以[[god-xiwangmu|西王母]]也住在這一帶。[s7]
 
 ### 神話的山，真實的山
 
-漢武帝派人尋找黃河的源頭，找到一座山，就依照古書把它命名為「崑崙」。[s3] 所以今天地圖上的崑崙山脈，是用神話的名字替真實的山命名，而不是神話根據真實的山而來。[s4]
+《史記·大宛列傳》說，漢使追查河源，「天子案古圖書，名河所出山曰崑崙云」。[s3] 漢武帝按古書，把黃河發源的山叫做「崑崙」。[s3] 所以今天地圖上的崑崙山脈，是用神話的名字替真實的山命名，而不是神話根據真實的山而來。[s4] 太史公自己也很保留：「窮河源，惡睹本紀所謂崑崙者乎？」並說《山海經》裡的怪物，「余不敢言之也」。[s3]
+
+## 各書怎麼說
+
+- 《山海經·西山經》：帝之下都，陸吾守護。[s1]
+- 《山海經·海內西經》：方八百里、高萬仞，百神所在。[s2]
+- 《淮南子·墜形訓》（西漢）：崑崙之丘有三層：「或上倍之，是謂涼風之山，登之而不死。或上倍之，是謂懸圃，登之乃靈，能使風雨。或上倍之，乃維上天，登之乃神，是謂太帝之居。」[s5] 越往上越高，爬上第一層不死，第二層有靈力，第三層成神，是天帝的住處。[s5] 這一篇還說山中有九重的增城，西邊有不死樹。[s5]
+- 《列子·周穆王篇》：周穆王「宿於崑崙之阿，赤水之陽。別日升於崑崙之丘，以觀黃帝之宮」，崑崙在這裡又是[[god-huangdi|黃帝]]的宮室所在。[s6]
+- 《史記·大宛列傳》（西漢）：太史公引《禹本紀》說「河出崑崙」，並對照漢使實際看到的河源，表示懷疑。[s3]
+
+```
+先秦   帝之下都、百神所在     （山海經）
+西漢   三層登天的仙山         （淮南子）
+漢武帝 依古書命名真實的山脈   （史記）
+今天   崑崙山脈（地圖上的名字）
+```
+
+## 後來怎麼變
+
+神話裡的崑崙從天帝的人間都城，到西漢時被描述成能登天成神的三層山；漢武帝再用古書上的名字替河源之山命名，於是真實的山脈與神話的山重疊在一起。[s3][s4][s5] 今天中國西部的崑崙山脈，名字就是這樣來的。[s4]
 
 ### 和希臘神話比一比
 
