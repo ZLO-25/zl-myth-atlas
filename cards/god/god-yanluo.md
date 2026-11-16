@@ -20,7 +20,7 @@ sources:
   - {id: s1, kind: ancient, cite: 吳承恩《西遊記》第三回、第十一回（明）, url: 'https://zh.wikisource.org/wiki/西遊記/第011回'}
   - {id: s2, kind: ancient, cite: 淡癡道人《玉曆寶鈔》（維基文庫標為宋代善書）, url: 'https://zh.wikisource.org/wiki/玉歷寶鈔'}
   - {id: s3, kind: ancient, cite: 李復言《續玄怪錄·杜子春》，收於《太平廣記》卷十六（唐）, url: 'https://zh.wikisource.org/wiki/太平廣記/卷第016'}
-  - {id: s4, kind: ancient, cite: 敦煌變文[[story-mulian|《大目乾連冥間救母變文》]], url: 'https://zh.wikisource.org/wiki/大目乾連冥間救母變文'}
+  - {id: s4, kind: ancient, cite: 敦煌變文《大目乾連冥間救母變文》, url: 'https://zh.wikisource.org/wiki/大目乾連冥間救母變文'}
   - {id: s5, kind: ancient, cite: 《宋史》卷三百十六〈包拯傳〉（元）, url: 'https://zh.wikisource.org/wiki/宋史/卷316'}
   - {id: s6, kind: modern, cite: Xiao Jiang, "Dizang and the Three Kings", Religions 13(4):317 (2022), url: 'https://www.mdpi.com/2077-1444/13/4/317', accessed: '2026-11-16'}
 era: cn-immortals
@@ -61,7 +61,7 @@ topics: [死後世界, 民間信仰]
 
 - **孟婆湯**：《玉曆寶鈔》說孟婆神「生於前漢」，一輩子勸人戒殺、吃素；上天後來命她造「醧忘臺」，用藥物合成「似酒非酒之湯」，讓轉世的亡魂喝下，「使忘前先各事」。臺在第十殿殿前的六座橋之外。[s2]
 - **奈何橋**：同一本書說，第十殿設有「金、銀、玉、石、木板、奈何」等六座橋；[s2] 《西遊記》第十一回則寫唐太宗過「奈河惡水」。[s1]
-- **牛頭馬面**：敦煌變文《大目乾連冥間救母變文》寫阿鼻地獄的獄卒「總是牛頭馬面」。[s4] 《玉曆寶鈔》也寫他們把鬼犯押到望鄉臺。[s2]
+- **牛頭馬面**：敦煌變文[[story-mulian|《大目乾連冥間救母變文》]]寫阿鼻地獄的獄卒「總是牛頭馬面」。[s4] 《玉曆寶鈔》也寫他們把鬼犯押到望鄉臺。[s2]
 - **黑白無常**：《玉曆寶鈔》寫的是兩個鬼：一個戴烏紗、穿錦襖，叫「活無常」；一個穿白衫、愁眉苦臉，叫「死有分」。[s2] 書裡並沒有「黑白無常」這四個字，兩者怎麼變成後來的形象，這裡查無可靠出處。
 
 ## 地藏菩薩與包公
