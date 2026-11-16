@@ -26,10 +26,11 @@ family:
   children:
     - {name: 玄囂, src: [s1]}
     - {name: 昌意, src: [s1]}
+    - {id: god-nvba, src: [s2]}
   successors:
     - {name: 顓頊（黃帝的孫子）, src: [s1]}
   foes:
-    - {name: 炎帝, src: [s1]}
+    - {id: god-yandi, src: [s1]}
     - {id: god-chiyou, src: [s1, s2]}
 sources:
   - {id: s1, kind: ancient, cite: 司馬遷《史記·五帝本紀》（西漢）, url: 'https://zh.wikisource.org/wiki/史記/卷001'}

@@ -14,7 +14,7 @@ three_lines:
 hook: 精衛：淹死的女孩化成小鳥，一顆一顆銜石頭要把大海填平。
 family:
   parents:
-    - {name: 炎帝, src: [s1]}
+    - {id: god-yandi, src: [s1]}
 sources:
   - {id: s1, kind: ancient, cite: 《山海經·北山經》, url: 'https://zh.wikisource.org/wiki/山海經/北山經'}
   - {id: s2, kind: ancient, cite: 陶淵明〈讀山海經〉其十（東晉）, url: 'https://zh.wikisource.org/wiki/讀《山海經》'}
