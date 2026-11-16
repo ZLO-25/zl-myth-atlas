@@ -15,7 +15,7 @@ hook: 灶神：每個家裡都有的小神，年底上天打小報告。
 few_images: 這張卡還沒有收錄圖片。
 domains:
   roles: [家庭, 火與廚房, 記錄善惡]
-  symbols: [灶台, 麥芽糖, 灶神像]
+  symbols: [灶台, 麥芽糖]
 how_to_recognize: 灶神像多貼在廚房灶邊，旁邊常配「上天言好事」這類對聯。
 sources:
   - {id: s1, kind: ancient, cite: 《論語·八佾》, url: 'https://chinesenotes.com/lunyu/lunyu003.html'}

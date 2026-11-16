@@ -15,8 +15,8 @@ hook: 土地公：最小、最近、最親民的神，管的是你家附近那�
 few_images: 這張卡還沒有收錄圖片。
 domains:
   roles: [地方平安, 土地, 農作]
-  symbols: [土地公廟（福德祠）, 白鬍子老人]
-how_to_recognize: 廟裡的土地公多是白鬍子、笑瞇瞇的老人；有時旁邊還有土地婆。
+  symbols: [福德祠]
+how_to_recognize: 多在福德祠裡；有些地方旁邊還供土地婆。
 sources:
   - {id: s1, kind: ancient, cite: 《白虎通》（東漢）與《左傳》注（轉述自台中市政府文化局〈認識福德祠〉）, url: 'https://community.culture.taichung.gov.tw/df_ufiles/a/認識福德祠(簡).pdf'}
   - {id: s2, kind: modern, cite: 大英百科「Tudi Gong」, url: 'https://www.britannica.com/topic/Tudi-Gong', accessed: '2026-11-16'}

@@ -18,8 +18,8 @@ hook: 關公：從三國武將，一路被封為王、為帝，最後成了神�
 few_images: 這張卡還沒有收錄圖片。
 domains:
   roles: [戰爭, 忠義, 守護行業, 驅邪]
-  symbols: [青龍偃月刀, 紅臉, 長鬍]
-how_to_recognize: 紅臉、長鬍、手持大刀（青龍偃月刀）的將軍；常與周倉、關平同在一座廟裡。
+  symbols: [武廟]
+how_to_recognize: 大英百科說，戲曲裡他過關時臉變成紅色；廟的名稱常叫「武廟」或「武聖廟」。
 sources:
   - {id: s1, kind: ancient, cite: 陳壽《三國志·蜀書·關羽傳》（西晉）, url: 'https://zh.wikisource.org/zh-hant/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B736'}
   - {id: s2, kind: modern, cite: 大英百科「Guandi」, url: 'https://www.britannica.com/topic/Guandi', accessed: '2026-11-16'}

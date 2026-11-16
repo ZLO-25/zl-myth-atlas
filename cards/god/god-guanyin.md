@@ -15,8 +15,8 @@ hook: 觀音：從印度來的菩薩，在中國變成最多人求助的慈悲�
 few_images: 這張卡還沒有收錄圖片。
 domains:
   roles: [慈悲, 救苦救難, 求子]
-  symbols: [淨瓶, 楊柳枝, 蓮花]
-how_to_recognize: 後世多畫成白衣、手持淨瓶與楊柳枝的女子；宋代以前的像比較偏男相。
+  symbols: [慈悲]
+how_to_recognize: 宋代以前的像明顯是男相；11 世紀起主要是年輕女子的形象。
 sources:
   - {id: s1, kind: ancient, cite: 鳩摩羅什譯《妙法蓮華經·觀世音菩薩普門品》（姚秦）, url: 'https://www.6laws.net/99life/lawbook/%E8%A7%80%E4%B8%96%E9%9F%B3%E8%8F%A9%E8%96%A9%E6%99%AE%E9%96%80%E5%93%81.htm'}
   - {id: s2, kind: modern, cite: 大英百科「Guanyin」, url: 'https://www.britannica.com/print/article/45363', accessed: '2026-11-16'}

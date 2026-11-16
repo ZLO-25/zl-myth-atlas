@@ -15,8 +15,8 @@ hook: 財神：從會帶來瘟疫的鬼將軍，變成人人想拜的財神。
 few_images: 這張卡還沒有收錄圖片。
 domains:
   roles: [財富, 生意, 驅邪]
-  symbols: [元寶, 黑虎, 鋼鞭]
-how_to_recognize: 武財神趙公明多是黑臉、鬍鬚濃密、騎黑虎、手持鋼鞭的武將；文財神穿官服、捧元寶。
+  symbols: [財富]
+how_to_recognize: 廟裡的財神有文、武之分；武財神指趙公明。外觀細節這次沒有查到可靠來源，先不寫。
 sources:
   - {id: s1, kind: ancient, cite: 《封神演義》（明代）, url: 'https://zh.wikisource.org/wiki/%E5%B0%81%E7%A5%9E%E6%BC%94%E7%BE%A9'}
   - {id: s2, kind: modern, cite: 大英百科「Caishen」, url: 'https://www.britannica.com/topic/Caishen', accessed: '2026-11-16'}
