@@ -3,7 +3,7 @@ id: place-kunlun
 type: 地點
 myth_system: [chinese]
 name_zh: 崑崙山
-aliases: [昆仑山, 崑崙之丘, 崑崙之虛, 帝之下都, Mount Kunlun, Kunlun]
+aliases: [昆仑山, 昆侖山, 崑崙之丘, 崑崙之虛, 帝之下都, Mount Kunlun, Kunlun]
 name_en: Mount Kunlun
 name_orig: 崑崙 / Kūnlún
 reality: {level: 純神話}
@@ -17,7 +17,7 @@ sources:
   - {id: s2, kind: ancient, cite: 《山海經·海內西經》, url: 'https://zh.wikisource.org/wiki/山海經/海內西經'}
   - {id: s3, kind: ancient, cite: 司馬遷《史記·大宛列傳》（漢武帝替河源之山命名崑崙）, url: 'https://zh.wikisource.org/wiki/史記/卷123'}
   - {id: s4, kind: modern, cite: 大英百科「Chinese mythology」, url: 'https://www.britannica.com/topic/Chinese-mythology', accessed: '2026-11-15'}
-  - {id: s5, kind: ancient, cite: 《淮南子·墬形訓》（西漢，劉安主編）, url: 'https://zh.wikisource.org/wiki/淮南子/墬形訓'}
+  - {id: s5, kind: ancient, cite: 《淮南子·墜形訓》（西漢，劉安主編）, url: 'https://zh.wikisource.org/wiki/淮南子/墜形訓'}
   - {id: s6, kind: ancient, cite: 《列子·周穆王篇》（題為戰國列禦寇撰）, url: 'https://zh.wikisource.org/wiki/列子/周穆王篇'}
   - {id: s7, kind: ancient, cite: 《山海經·大荒西經》（先秦至漢，作者不詳）, url: 'https://zh.wikisource.org/wiki/山海經/大荒西經'}
 era: cn-world
@@ -39,8 +39,8 @@ topics: [創世]
 
 - 《山海經·西山經》：帝之下都，陸吾守護。[s1]
 - 《山海經·海內西經》：方八百里、高萬仞，百神所在。[s2]
-- 《淮南子·墬形訓》（西漢）：崑崙之丘有三層：「或上倍之，是謂涼風之山，登之而不死。或上倍之，是謂懸圃，登之乃靈，能使風雨。或上倍之，乃維上天，登之乃神，是謂太帝之居。」[s5] 越往上越高，爬上第一層不死，第二層有靈力，第三層成神，是天帝的住處。[s5] 這一篇還說山中有九重的增城，西邊有不死樹。[s5]
-- 《列子·周穆王篇》：周穆王「宿於崑崙之阿，赤水之陽。別日升於崑崙之丘，以觀黃帝之宮」，崑崙在這裡又是黃帝的宮室所在。[s6]
+- 《淮南子·墜形訓》（西漢）：崑崙之丘有三層：「或上倍之，是謂涼風之山，登之而不死。或上倍之，是謂懸圃，登之乃靈，能使風雨。或上倍之，乃維上天，登之乃神，是謂太帝之居。」[s5] 越往上越高，爬上第一層不死，第二層有靈力，第三層成神，是天帝的住處。[s5] 這一篇還說山中有九重的增城，西邊有不死樹。[s5]
+- 《列子·周穆王篇》：周穆王「宿於崑崙之阿，赤水之陽。別日升於崑崙之丘，以觀黃帝之宮」，崑崙在這裡又是[[god-huangdi|黃帝]]的宮室所在。[s6]
 - 《史記·大宛列傳》（西漢）：太史公引《禹本紀》說「河出崑崙」，並對照漢使實際看到的河源，表示懷疑。[s3]
 
 ```

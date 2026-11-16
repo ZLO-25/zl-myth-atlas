@@ -20,7 +20,7 @@ sources:
   - {id: s1, kind: ancient, cite: 《山海經·海外北經》（郭璞注引《淮南子》見四庫全書本卷八）, url: 'https://zh.wikisource.org/wiki/山海經/海外北經'}
   - {id: s2, kind: ancient, cite: 《山海經·大荒北經》, url: 'https://zh.wikisource.org/wiki/山海經/大荒北經'}
   - {id: s3, kind: ancient, cite: 屈原《楚辭·天問》與王逸《楚辭章句》注（東漢）, url: 'https://zh.wikisource.org/wiki/楚辭章句/卷03'}
-  - {id: s4, kind: ancient, cite: 《淮南子·墬形訓》（西漢）, url: 'https://zh.wikisource.org/wiki/淮南子/墜形訓'}
+  - {id: s4, kind: ancient, cite: 《淮南子·墜形訓》（西漢）, url: 'https://zh.wikisource.org/wiki/淮南子/墜形訓'}
   - {id: s5, kind: ancient, cite: 郭璞《山海經》注（晉，四庫全書本）, url: 'https://zh.wikisource.org/wiki/山海經_(四庫全書本)/卷08'}
   - {id: s6, kind: ancient, cite: 洪興祖《楚辭補註》（宋）, url: 'https://zh.wikisource.org/wiki/楚辭補註/卷第三'}
   - {id: s7, kind: modern, cite: 大英百科「Chinese mythology」, url: 'https://www.britannica.com/topic/Chinese-mythology', accessed: '2026-11-16'}
@@ -29,7 +29,7 @@ disputed:
     views:
       - {view: 《山海經·海外北經》：鍾山之神名叫燭陰，住在鍾山下，在無啓之東。, src: [s1]}
       - {view: 《山海經·大荒北經》：西北海外、赤水之北的章尾山有一位神，叫燭龍。, src: [s2]}
-      - {view: 《淮南子·墬形訓》：燭龍在雁門北、被委羽山擋住不見太陽，是人面龍身而沒有腳。郭璞注《山海經》時引的《淮南子》卻寫成「龍身一足」。, src: [s4, s5]}
+      - {view: 《淮南子·墜形訓》：燭龍在雁門北、被委羽山擋住不見太陽，是人面龍身而沒有腳。郭璞注《山海經》時引的《淮南子》卻寫成「龍身一足」。, src: [s4, s5]}
 era: cn-world
 topics: [日月星辰, 怪物]
 ---
