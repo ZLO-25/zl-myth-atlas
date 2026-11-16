@@ -538,3 +538,37 @@ pre.ascii { background: var(--surface); border: 1px solid var(--line); padding: 
 .realm-names { display: flex; flex-wrap: wrap; gap: 0.3rem 0.6rem; padding: 0; list-style: none; }
 .realm-names li { border: 1px solid var(--line); border-radius: 999px; padding: 0.05rem 0.7rem; background: var(--surface); }
 .hist-text .small a + a { margin-left: 0.8rem; }
+
+/* 30 秒看完：既有插畫自動播放（慢推鏡頭＋一句字幕） */
+.panel-tools[hidden], .panel-frame[hidden], .panel-nav[hidden] { display: none; }
+.quick-start { min-height: 2.4rem; padding: 0.3rem 1.1rem; border: 0; border-radius: 999px; background: var(--terra); color: #fff; font: inherit; font-weight: 700; cursor: pointer; }
+.qp { outline: none; }
+.qp-stage { position: relative; aspect-ratio: 4 / 3; max-height: 70vh; margin: 0 auto; overflow: hidden; border-radius: 12px; background: #111; cursor: pointer; }
+.qp-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity 0.6s ease; animation: qp-in linear both; will-change: transform; }
+.qp-img.on { opacity: 1; }
+.qp-img.hold { animation-play-state: paused; }
+.qp-move-0 { animation-name: qp-in; }
+.qp-move-1 { animation-name: qp-left; }
+.qp-move-2 { animation-name: qp-out; }
+.qp-move-3 { animation-name: qp-right; }
+@keyframes qp-in { from { transform: scale(1); } to { transform: scale(1.14); } }
+@keyframes qp-out { from { transform: scale(1.14); } to { transform: scale(1); } }
+@keyframes qp-left { from { transform: scale(1.12) translateX(3%); } to { transform: scale(1.12) translateX(-3%); } }
+@keyframes qp-right { from { transform: scale(1.12) translateX(-3%); } to { transform: scale(1.12) translateX(3%); } }
+.qp-cap { position: absolute; left: 0; right: 0; bottom: 0; margin: 0; padding: 2.2rem 1rem 1rem; text-align: center; color: #fff; font-size: clamp(1.05rem, 2.6vw, 1.5rem); font-weight: 700; line-height: 1.4; background: linear-gradient(transparent, rgba(0, 0, 0, 0.78)); animation: qp-cap 0.5s ease both; }
+@keyframes qp-cap { from { opacity: 0; transform: translateY(0.4rem); } to { opacity: 1; transform: none; } }
+.qp-stage .ai-badge { left: 0.5rem; top: 0.5rem; bottom: auto; z-index: 2; }
+.qp-paused { position: absolute; top: 0.5rem; right: 0.5rem; padding: 0.15rem 0.6rem; border-radius: 6px; background: rgba(0, 0, 0, 0.65); color: #fff; font-size: 0.85rem; }
+.qp-end { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1rem; padding: 1rem; text-align: center; background: rgba(0, 0, 0, 0.7); color: #fff; cursor: default; }
+.qp-end p { margin: 0; font-size: clamp(1.05rem, 2.6vw, 1.4rem); font-weight: 700; }
+.qp-end-btns { display: flex; flex-wrap: wrap; gap: 0.6rem; justify-content: center; }
+.qp-end-btns button, .qp-ctl button { min-height: 2.4rem; padding: 0.3rem 1rem; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--ink); font: inherit; font-weight: 700; cursor: pointer; }
+.qp-ctl button:disabled { opacity: 0.4; cursor: default; }
+.qp-bar { display: flex; gap: 4px; margin-top: 0.6rem; }
+.qp-bar button { flex: 1; height: 0.9rem; padding: 0.3rem 0; border: 0; background: none; cursor: pointer; }
+.qp-bar button::before { content: ''; display: block; height: 0.3rem; margin-bottom: -0.3rem; border-radius: 3px; background: var(--line); }
+.qp-bar span { display: block; height: 0.3rem; border-radius: 3px; background: var(--terra); position: relative; }
+.qp-ctl { display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; margin-top: 0.5rem; }
+@media (prefers-reduced-motion: reduce) {
+  .qp-img, .qp-cap { animation: none; }
+}
