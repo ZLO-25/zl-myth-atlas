@@ -16,6 +16,14 @@ const noHScroll = async (page: Page) => {
   expect(over, '頁面不可橫向捲動').toBeLessThanOrEqual(1);
 };
 
+const brokenImages = (page: Page) =>
+  page.evaluate(async () => {
+    const imgs = [...document.images];
+    imgs.forEach((i) => { i.loading = 'eager'; });
+    await Promise.all(imgs.map((i) => (i.complete ? null : new Promise((r) => { i.onload = i.onerror = () => r(null); setTimeout(() => r(null), 4000); }))));
+    return imgs.filter((i) => !i.complete || i.naturalWidth === 0).length;
+  });
+
 test('北歐 15 張卡都在，正文每句都標來源，來源代號都存在', () => {
   expect(norse.map((c) => c.id).sort()).toEqual([...ALL15].sort());
   for (const c of norse) {
@@ -30,8 +38,9 @@ test('北歐：卡片列表可篩選「北歐」；沒有圖也正常顯示', as
   await page.goto('#/cards');
   await page.getByRole('button', { name: '北歐', exact: true }).click();
   await expect(page.locator('.card-grid .tile')).toHaveCount(15);
-  await expect(page.locator('.card-grid .tile img')).toHaveCount(0);
-  await expect(page.locator('.card-grid .tile .tile-initial')).toHaveCount(15);
+  // 三張故事卡已有真圖（封面），其餘 12 張還沒有圖，顯示文字縮寫
+  await expect(page.locator('.card-grid .tile img')).toHaveCount(3);
+  await expect(page.locator('.card-grid .tile .tile-initial')).toHaveCount(12);
   for (const n of ['芙蕾雅', '芙麗嘉', '巴德爾', '提爾', '海姆達爾', '芬里爾', '耶夢加得', '世界樹', '巴德爾之死', '索爾扮新娘']) await expect(page.locator('.card-grid')).toContainText(n);
   await expect(page.locator('.card-grid')).toContainText('尤彌爾');
   await noHScroll(page);
@@ -181,7 +190,7 @@ test('北歐：每張卡打得開、不橫向捲動、沒有壞圖', async ({ pa
     await expect(page.locator('h1').first()).toContainText(c.name_zh);
     await expect(page.locator('ol.sources li').first()).toBeVisible();
     await noHScroll(page);
-    const broken = await page.evaluate(() => [...document.images].filter((i) => !i.complete || i.naturalWidth === 0).length);
+    const broken = await brokenImages(page);
     expect(broken, c.id).toBe(0);
   }
 });
@@ -256,14 +265,21 @@ test('北歐：世界樹卡明講「九個世界沒有一致的名單」', async
   await page.screenshot({ path: 'test-results/norse-yggdrasil.png', fullPage: true });
 });
 
-test('北歐：三張故事卡有 5 格分格，圖是佔位圖（沒有壞圖），可以翻頁', async ({ page }) => {
+test('北歐：三張故事卡有 5 格分格，沒有壞圖（還沒生圖的格子顯示佔位圖），可以翻頁', async ({ page }) => {
   for (const id of ['story-ragnarok', 'story-baldr-death', 'story-thor-bride']) {
     await page.goto('#/card/' + id);
     const panels = page.locator('#sec-panels');
     await expect(panels, id).toBeVisible();
     await expect(panels.locator('.panel-frame img').first()).toBeVisible();
-    await expect(panels).toContainText('尚未生圖');
-    const broken = await page.evaluate(() => [...document.images].filter((i) => !i.complete || i.naturalWidth === 0).length);
+    // 諸神黃昏 5 張都已生圖；巴德爾之死第 4 格、索爾扮新娘第 5 格還在等重生，仍是佔位圖
+    const waiting: Record<string, number> = { 'story-baldr-death': 4, 'story-thor-bride': 5 };
+    for (let n = 1; n <= 5; n++) {
+      await panels.getByRole('button', { name: `第 ${n} 格` }).click();
+      if (waiting[id] === n) await expect(panels, `${id} 第 ${n} 格`).toContainText('尚未生圖');
+      else await expect(panels, `${id} 第 ${n} 格`).not.toContainText('尚未生圖');
+    }
+    await panels.getByRole('button', { name: '第 1 格' }).click();
+    const broken = await brokenImages(page);
     expect(broken, id).toBe(0);
     await noHScroll(page);
   }

@@ -1,0 +1,31 @@
+眾神星圖 北歐神話 重生工作單（共 2 張）
+Myth Atlas Norse mythology redo sheet — 2 images
+
+【給 Grok 的說明 / Instructions for Grok】
+Generate ONE image per prompt. Use each PROMPT exactly as written. Landscape 4:3 (1600x1200), no text, letters, written runes or watermark. State the FILE NAME after each image.
+For "img-ai-baldr-death-4", nobody in the picture may wear a helmet (the earlier try had a horned helmet on a background figure), and Odin must clearly have exactly one eye.
+For "img-ai-thor-bride-5", the veiled bride must BE Thor (his bearded face visible under the veil); do not draw a second, faceless veiled person. Loki must wear a maid's dress and headcloth.
+Keep the characters the same as the earlier frames of each story (same faces, hair and clothing).
+
+【給 ZL 的提醒】
+存進雲端硬碟對應的故事子資料夾（巴德爾之死、索爾扮新娘），用同樣的檔名覆蓋或另存都可以（若另存，請在檔名後加 -redo）。
+（雲端硬碟裡有兩個都叫「巴德爾之死」的資料夾，內容不同；這次重生的圖請存進較新、你最後整理的那一個，並告訴 Claude 是哪一個。）
+
+
+--- FILE NAME: img-ai-baldr-death-4　｜　槲寄生的箭
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of wool, linen, leather, iron, timber, carved wood and weathered stone. Palette: cold sea blue-grey, fjord green, peat brown, undyed wool cream, iron grey, with firelight amber accents. Clothing, ships and buildings of Viking-age Scandinavia (about 9th-11th century): wool tunics and trousers, long wool and linen dresses with oval shoulder brooches, leather belts and shoes, round wooden shields, longhouses and clinker-built longships. NO horned helmets (no horns or wings on any helmet), NO Marvel-style or superhero costumes, NO modern fantasy armour (no plate armour, no oversized pauldrons, no glowing ornate armour), no medieval castles or knights. Landscape 4:3, 1600x1200. No text, no letters, no written runes, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Loki: a lean, handsome man with sharp features, quick restless eyes and a knowing smile, dark hair, well-made dark green wool tunic with trim.
+Hodr: a young man who is blind, eyes closed, plain grey wool tunic, careful hands feeling the air.
+Baldr: a very handsome young man, clean-shaven with light hair, his body gives off a soft golden glow, pale cream wool tunic.
+Odin: a tall, weathered old man with long grey hair and a long grey beard, ONE eye only (the other eye socket closed and scarred), dark blue-grey wool cloak over a long wool tunic, leather belt.
+A circle of stunned Viking-age gods and villagers on the assembly field, all bareheaded or in plain wool hoods: NO helmets of any kind on anyone in this image, and absolutely no horns. In the centre Baldr falls to the ground, his glow fading, no blood. Beside the circle blind Hodr, eyes closed or blindfolded with a plain cloth, holds one small sprig of mistletoe (a thin green twig, not a weapon or sword), with Loki standing close behind him, his hand guiding Hodr's arm to aim. Odin stands at the edge with a face full of grief; show Odin with EXACTLY ONE eye open and the other eye socket closed and scarred, face turned toward the viewer so this is clearly visible.
+
+
+--- FILE NAME: img-ai-thor-bride-5　｜　錘子放在膝上
+PROMPT:
+Realistic cinematic digital painting, semi-realistic historical illustration with natural lighting, believable anatomy and detailed textures of wool, linen, leather, iron, timber, carved wood and weathered stone. Palette: cold sea blue-grey, fjord green, peat brown, undyed wool cream, iron grey, with firelight amber accents. Clothing, ships and buildings of Viking-age Scandinavia (about 9th-11th century): wool tunics and trousers, long wool and linen dresses with oval shoulder brooches, leather belts and shoes, round wooden shields, longhouses and clinker-built longships. NO horned helmets (no horns or wings on any helmet), NO Marvel-style or superhero costumes, NO modern fantasy armour (no plate armour, no oversized pauldrons, no glowing ornate armour), no medieval castles or knights. Landscape 4:3, 1600x1200. No text, no letters, no written runes, no watermark, no signature. Not a photograph, not anime or cartoon. Violence only implied, no blood or gore; no explicit nudity; tasteful for adult general audiences.
+Thor: a very broad-shouldered, powerfully built man in his prime, thick reddish-brown beard and hair, plain wool tunic and trousers with a wide leather belt, no helmet.
+Thrym: a giant chieftain, huge and heavy compared with people around him, wild hair and beard, furs over a coarse wool tunic.
+Loki: a lean, handsome man with sharp features, quick restless eyes and a knowing smile, dark hair, well-made dark green wool tunic with trim.
+In the giant's hall, ONE person only is the veiled bride, and that bride IS Thor himself: a broad-shouldered, red-bearded man sitting at the feast table wearing a white bridal veil and a bridal dress, his beard and strong jaw visible under the veil, his face NOT hidden. A giant servant has just laid the great hammer Mjollnir across Thor's lap, and Thor's own hand closes around the hammer handle, a fierce grin on his face. Thrym, the huge giant chieftain, and the other giants are frozen in surprise. Loki stands to one side dressed as a maid in a long wool dress and a headcloth (clearly a woman's dress, not his green tunic). No separate bride figure, exactly one veiled person. Violence only implied, no blood.
