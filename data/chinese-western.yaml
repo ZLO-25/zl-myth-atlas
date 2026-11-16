@@ -1,8 +1,6 @@
-# 中西神話對照：只比較「想法」，不主張任何一方影響了另一方。每一列的細節請看連到的卡片。
-- theme: 世界怎麼開始
-  chinese: {text: 盤古在一顆蛋裡長大，把天地撐開；他死後身體變成山川日月。, cards: [primordial-pangu]}
-  western: {text: 最初是卡厄斯（一道張開的裂縫），接著出現大地蓋亞。, cards: [primordial-chaos, primordial-gaia]}
-  diff: 一個是「一個巨人的身體變成世界」，一個是「世界從空隙裡一代代長出來」。
+# 中華與希臘羅馬對照：只比較「想法」，不主張任何一方影響了另一方。每一列的細節請看連到的卡片。
+# 北歐卡片已經寫了相關內容的題目（世界怎麼開始、大洪水、龍）放在 three-way.yaml，這裡不重複；
+# 留在這裡的題目，本站的北歐卡片沒有對應內容，所以只比兩邊。
 - theme: 誰撐著天
   chinese: {text: 共工撞斷撐天的柱子、天破了洞，女媧煉五色石把它補好。, cards: [story-buzhou, story-nuwa-mends-sky]}
   western: {text: 泰坦阿特拉斯在世界盡頭用肩膀撐著天。, cards: [titan-atlas]}
@@ -11,14 +9,6 @@
   chinese: {text: 鯀偷了天帝的息壤去擋洪水，被天帝處死。, cards: [hero-gun]}
   western: {text: 普羅米修斯偷火給人類，被罰每天被老鷹啄肝。, cards: [titan-prometheus]}
   diff: 兩個人都因為偷神的東西幫人而被重罰；不同的是，鯀的失敗後來由兒子大禹接手完成。
-- theme: 大洪水
-  chinese: {text: 大禹不再築堤堵水，而是挖河道讓水流走，《史記》說他為此在外奔走十三年。, cards: [story-yu-flood, hero-yu]}
-  western: {text: 希臘也有洪水神話（丟卡利翁與皮拉的故事），本站目前沒有這張卡。, cards: []}
-  diff: 中國的洪水故事主角是「治水的人」，後來成為夏朝的起點；希臘的洪水故事則是神降下的懲罰，倖存者重新創造人類。
-- theme: 龍
-  chinese: {text: 龍是帶來雨水的祥獸，常是英雄的幫手。, cards: [beast-dragon]}
-  western: {text: dragon 多半是噴火的惡獸，是英雄要殺的對象。, cards: []}
-  diff: 兩個詞在中文裡常被翻成同一個字，但身分幾乎相反。
 - theme: 鳳凰與 phoenix
   chinese: {text: 鳳凰是天下太平才出現的祥鳥，不會浴火重生。, cards: [beast-fenghuang]}
   western: {text: 西方的 phoenix 是會在火中重生的不死鳥。, cards: []}

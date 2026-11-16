@@ -4,15 +4,37 @@ import { rng, shuffle, todayQuestion } from '../lib/quiz';
 import { clearProgress, useReadSet } from '../lib/progress';
 import { TODAY_CATEGORIES } from '../../scripts/lib/types';
 import { eraById } from '../lib/data';
-import { CardLink, MiniCard, ScrollTable } from '../components/bits';
+import { CardLink, MiniCard, ScrollTable, SysTabs } from '../components/bits';
 import { cardNames, enOrig, fullName, origLang, origOf, romanNames } from '../lib/names';
 import { avatarOf, cardById, imgSrc, site, todayById, TYPE_ORDER } from '../lib/data';
 
-import { href } from '../lib/router';
+import { href, queryParam } from '../lib/router';
 import { CN_PATH, NORSE_PATH, STARTER_PATH } from '../lib/paths';
+import { SYSTEMS, parseSys, sysLabel, sysOf, sysOfToday, type Sys } from '../lib/systems';
+
+/** 首頁三張入口卡：特色一句話改寫自總覽頁；原典出自總覽「主要的書」那一列 */
+const DOORS: Record<Sys, { feature: string; books: string; links: [string, string][] }> = {
+  west: {
+    feature: '神換了三代，英雄一個個出現，最後傳到羅馬。主線是「兒子推翻父親」。',
+    books: '荷馬、赫西俄德、奧維德、維吉爾',
+    links: [['族譜', href('family')], ['年代', href('timeline')]],
+  },
+  norse: {
+    feature: '眾神殺了巨人，用他的身體造出世界，卻早就知道自己最後會死。主線是「一個早就寫好的結局」。',
+    books: '《詩體埃達》與斯諾里的《散文埃達》',
+    links: [['族譜', `${href('family')}?mode=norse`], ['年代', `${href('timeline')}?era=no-creation`]],
+  },
+  chinese: {
+    feature: '巨人撐開天地，女神補好破掉的天，最後大禹治好洪水。主線是「有人出來把世界修好」。',
+    books: '《山海經》《淮南子》《史記》',
+    links: [['族譜', `${href('family')}?mode=cn`], ['年代', `${href('timeline')}?era=cn-creation`]],
+  },
+};
+
+const FEATURED = ['god-zeus', 'story-trojan-horse', 'story-baldr-death', 'story-ragnarok', 'primordial-nuwa', 'primordial-pangu'];
 
 export function Home() {
-  const featured = ['god-zeus', 'god-athena', 'story-pandora', 'hero-odysseus', 'story-trojan-horse', 'monster-medusa'].map((id) => cardById.get(id)).filter(Boolean);
+  const count = (k: Sys) => site.cards.filter((c) => sysOf(c) === k).length;
   return (
     <div className="page home">
       <section className="hero">
@@ -22,13 +44,30 @@ export function Home() {
           <strong>第一次來？先看總覽</strong>
           <span>希臘羅馬、北歐、中華三套神話各講成一個故事：每套約 10～20 分鐘，可以只讀一套。先講清楚每套神話是誰寫下來的、哪些說法可靠。趕時間？頁首有 1 分鐘極短版 →</span>
         </a>
+        <h2 className="doors-title">三套神話，從哪一套開始都可以</h2>
+        <div className="sys-doors" aria-label="三套神話入口">
+          {SYSTEMS.map((s) => (
+            <article key={s.key} className={`sys-door ${s.cls}`} data-sys={s.key}>
+              <h3>{s.label}</h3>
+              <p className="muted small">{count(s.key)} 張卡</p>
+              <p>{DOORS[s.key].feature}</p>
+              <p className="muted small">主要原典：{DOORS[s.key].books}</p>
+              <div className="sys-door-links">
+                <a href={`${href('cards')}?sys=${s.key}`}>卡片</a>
+                {DOORS[s.key].links.map(([label, to]) => (
+                  <a key={label} href={to}>{label}</a>
+                ))}
+              </div>
+            </article>
+          ))}
+        </div>
         <div className="tiles">
-          <a href={href('cards')}><strong>卡片</strong><span>{site.cards.length} 張神、英雄、故事</span></a>
-          <a href={href('family')}><strong>族譜</strong><span>點一位神展開家族；北歐以奧丁為中心；中華神話看傳位與對戰</span></a>
+          <a href={href('cards')}><strong>卡片</strong><span>{site.cards.length} 張神、英雄、故事，三套神話都有</span></a>
+          <a href={href('family')}><strong>族譜</strong><span>希臘羅馬看家譜；北歐以奧丁為中心；中華神話看傳位與對戰</span></a>
           <a href={href('timeline')}><strong>神話年代</strong><span>從混沌到羅馬建國；從創世到諸神黃昏；從盤古到夏朝</span></a>
-          <a href={href('map')}><strong>地圖</strong><span>真實地點與冥界</span></a>
-          <a href={href('compare')}><strong>對照</strong><span>希臘 vs 羅馬、中西神話、北歐對照：不只是換名字</span></a>
-          <a href={href('today')}><strong>今日影子</strong><span>{site.today.length} 個你看過的梗</span></a>
+          <a href={href('map')}><strong>地圖</strong><span>地中海、北歐、中國的真實地點，與各自的神話世界</span></a>
+          <a href={href('compare')}><strong>對照</strong><span>三套神話對照、中華與希臘羅馬、希臘 vs 羅馬：不只是換名字</span></a>
+          <a href={href('today')}><strong>今日影子</strong><span>{site.today.length} 個你看過的梗，可以挑一套神話來看</span></a>
         </div>
       </section>
       <section className="howto">
@@ -38,44 +77,42 @@ export function Home() {
           <li><strong>聽故事</strong><span>分格故事 → 正文 → 名畫。句尾的小字 [s1] 可以點，直接跳到原典。</span></li>
           <li><strong>認出今天的影子</strong><span>卡片底部「這個梗你看過」：單字、品牌、電影，每條都寫明「和原典差在哪」。</span></li>
         </ol>
-        <p className="muted small">本站的神話全部來自古代原典（荷馬、赫西俄德、奧維德、《山海經》、《淮南子》、《史記》……），句尾的小字來源可以直接點開原文或英譯本對照。</p>
+        <p className="muted small">本站的神話全部來自古代原典（荷馬、赫西俄德、奧維德、《詩體埃達》、斯諾里《散文埃達》、《山海經》、《淮南子》、《史記》……），句尾的小字來源可以直接點開原文或英譯本對照。</p>
       </section>
       <section>
-        <h2>新手路線：照順序讀 8 張，就有整部神話的骨架</h2>
+        <h2>希臘羅馬新手路線：從蓋亞讀到埃涅阿斯</h2>
+        <p className="muted path-intro">希臘羅馬神話像一棵家譜樹，主線是「兒子推翻父親」；這條路線照故事順序讀 8 張，從大地蓋亞讀到逃出特洛伊的埃涅阿斯，他後來成了羅馬人的祖先。</p>
         <PathList items={STARTER_PATH} />
-        <p className="muted small">讀完這 8 張，再用上面的「族譜」「年代」「地圖」把人物和地方串起來。</p>
       </section>
       <section>
-        <h2>中華神話新手路線：從盤古讀到大禹</h2>
-        <p className="muted">希臘神話是一棵家譜樹，主線是「兒子推翻父親」；中華神話比較像一條時間線，越往後神越像古代帝王，主線是「替人類解決問題」。</p>
-        <PathList items={CN_PATH} />
-      </section>
-      <section>
-        <h2>北歐神話新手路線：從尤彌爾讀到諸神黃昏</h2>
-        <p className="muted">北歐神話的故事，很多只見於 13 世紀冰島作者斯諾里的《散文埃達》；每張卡都會標明哪些是古詩說的、哪些是斯諾里說的。</p>
+        <h2>北歐新手路線：從尤彌爾讀到諸神黃昏</h2>
+        <p className="muted path-intro">北歐神話的主線是「一個早就寫好的結局」；很多故事只見於 13 世紀冰島作者斯諾里的《散文埃達》，每張卡都會標明哪些是古詩說的、哪些是斯諾里說的。</p>
         <PathList items={NORSE_PATH} />
       </section>
+      <section>
+        <h2>中華新手路線：從盤古讀到大禹</h2>
+        <p className="muted path-intro">中華神話像一條時間線，越往後，神越像古代帝王，主線是「有人出來把世界修好」；這條路線從盤古讀到大禹，他的兒子開啟夏朝。</p>
+        <PathList items={CN_PATH} />
+      </section>
       <ProgressBox />
-      {featured.length > 0 && (
-        <section>
-          <h2>最多人認識的 6 張</h2>
-          <div className="card-grid">
-            {featured.map((c) => (
-              <CardTile key={c!.id} id={c!.id} />
-            ))}
-          </div>
-        </section>
-      )}
+      <section>
+        <h2>三套神話各挑兩張：從這裡開始也可以</h2>
+        <div className="card-grid featured-grid">
+          {FEATURED.map((id) => (
+            <CardTile key={id} id={id} />
+          ))}
+        </div>
+      </section>
       <section className="notice">
         <h2>關於本站的圖</h2>
         <div className="legend">
           <div className="legend-work">
             <strong>真實作品</strong>
-            <p>陶瓶、雕像、壁畫、名畫。每張都有作者、年代、館藏與授權，代表「古人或畫家怎麼想像」。</p>
+            <p>陶瓶、雕像、壁畫、名畫，以及漢代的畫像石拓本與帛畫。每張都有作者、年代、館藏與授權，代表「古人或畫家怎麼想像」。</p>
           </div>
           <div className="legend-ai">
             <strong>AI 插畫</strong>
-            <p>角落固定標「AI 插畫」，只用來讓分格故事連貫，是本站的示意，不是古代作品。</p>
+            <p>角落固定標「AI 插畫」，只用來讓分格故事連貫，是本站的示意，不是古代作品。目前北歐的圖都是這一類。</p>
           </div>
         </div>
         <p className="muted">古典雕像與名畫裡常有裸體，這是藝術史的常態，本站照常收錄。神話裡的暴力、性與殘酷懲罰照原典寫，不刻意隱晦也不渲染。</p>
@@ -172,35 +209,60 @@ export function CardTile({ id }: { id: string }) {
 }
 
 export function CardList() {
-  const [type, setType] = useState<string>('全部');
-  const [sys, setSys] = useState<string>('全部');
-  const types = TYPE_ORDER.filter((t) => site.cards.some((c) => c.type === t));
-  const list = site.cards.filter((c) => (type === '全部' || c.type === type) && (sys === '全部' || c.myth_system.includes(sys as 'greek')));
-  const count = (t: string) => site.cards.filter((c) => t === '全部' || c.type === t).length;
+  // 篩選狀態放在網址：#/cards?sys=norse&type=神
+  const sys = parseSys(queryParam('sys')) ?? 'all';
+  const inSys = (c: (typeof site.cards)[number]) => sys === 'all' || sysOf(c) === sys;
+  const sysCards = site.cards.filter(inSys);
+  const types = TYPE_ORDER.filter((t) => sysCards.some((c) => c.type === t));
+  const askedType = queryParam('type');
+  // 切換神話後，原本選的類型如果沒有卡，就回到「全部」
+  const type = askedType && types.includes(askedType) ? askedType : '全部';
+  const go = (nextSys: Sys | 'all', nextType: string) => {
+    const q = new URLSearchParams();
+    if (nextSys !== 'all') q.set('sys', nextSys);
+    if (nextType !== '全部') q.set('type', nextType);
+    const qs = q.toString();
+    location.hash = href('cards') + (qs ? `?${qs}` : '');
+  };
+  const typeOk = (c: (typeof site.cards)[number]) => type === '全部' || c.type === type;
+  const list = sysCards.filter(typeOk);
+  const sysCount = (k: Sys | 'all') => site.cards.filter((c) => k === 'all' || sysOf(c) === k).length;
+  const typeCount = (t: string) => sysCards.filter((c) => t === '全部' || c.type === t).length;
   return (
     <div className="page">
       <h1>全部卡片</h1>
-      <p className="lead">先按類型挑，點進去每張卡都先給你三句話。</p>
+      <p className="lead">先選一套神話，再按類型挑，點進去每張卡都先給你三句話。</p>
+      <SysTabs all value={sys} label="依神話篩選" counts={{ all: sysCount('all'), west: sysCount('west'), norse: sysCount('norse'), chinese: sysCount('chinese') }} onChange={(k) => go(k, type)} />
       <div className="filters" aria-label="依類型篩選">
         {['全部', ...types].map((t) => (
-          <button key={t} className={t === type ? 'on' : ''} onClick={() => setType(t)}>
-            {t} <span className="count">{count(t)}</span>
-          </button>
-        ))}
-      </div>
-      <div className="filters" aria-label="依神話系統篩選">
-        {[['全部', '全部'], ['greek', '希臘'], ['roman', '羅馬'], ['norse', '北歐'], ['chinese', '中華']].map(([k, label]) => (
-          <button key={k} className={k === sys ? 'on' : ''} onClick={() => setSys(k)}>
-            {label}
+          <button key={t} className={t === type ? 'on' : ''} aria-pressed={t === type} onClick={() => go(sys, t)}>
+            {t} <span className="count">{typeCount(t)}</span>
           </button>
         ))}
       </div>
       <p className="muted small">共 {list.length} 張</p>
-      <div className="card-grid">
-        {list.map((c) => (
-          <CardTile key={c.id} id={c.id} />
-        ))}
-      </div>
+      {sys === 'all' ? (
+        SYSTEMS.map((s) => {
+          const part = list.filter((c) => sysOf(c) === s.key);
+          if (!part.length) return null;
+          return (
+            <section key={s.key} className={`sys-section ${s.cls}`} data-sys={s.key}>
+              <h2 className="sys-section-title">{s.label}（{part.length} 張）</h2>
+              <div className="card-grid">
+                {part.map((c) => (
+                  <CardTile key={c.id} id={c.id} />
+                ))}
+              </div>
+            </section>
+          );
+        })
+      ) : (
+        <div className="card-grid">
+          {list.map((c) => (
+            <CardTile key={c.id} id={c.id} />
+          ))}
+        </div>
+      )}
     </div>
   );
 }
@@ -241,14 +303,17 @@ export function Compare() {
   return (
     <div className="page">
       <h1>對照</h1>
-      <p className="lead">這一頁放三種對照：希臘神和羅馬神怎麼對應、中華神話和希臘羅馬神話怎麼回答同樣的問題，以及再加上北歐神話的三方對照。</p>
+      <p className="lead">這一頁放三種對照：三套神話怎麼回答同樣的問題、中華神話和希臘羅馬神話怎麼對應，以及希臘神和羅馬神怎麼對應。</p>
       <div className="jump-btns" aria-label="頁內跳轉">
+        <button type="button" onClick={() => jumpTo('norse-compare')}>三套神話對照</button>
+        <button type="button" onClick={() => jumpTo('cn-west')}>中華與希臘羅馬</button>
         <button type="button" onClick={() => jumpTo('gr-rome')}>希臘 vs 羅馬</button>
-        <button type="button" onClick={() => jumpTo('cn-west')}>中西神話對照</button>
-        <button type="button" onClick={() => jumpTo('norse-compare')}>北歐對照</button>
       </div>
+      <ThreeWayCompare />
+      <ChineseWestern />
       <section id="gr-rome">
       <h2>希臘 vs 羅馬</h2>
+      <p className="muted">這一段只談希臘羅馬內部。</p>
       <p className="lead">羅馬人把很多希臘神「對應」到自己原有的神上，但個性、地位常常不一樣。下面是名字對照；點神名看每位神的真正差異。</p>
       <ScrollTable>
         <table className="compare">
@@ -281,8 +346,6 @@ export function Compare() {
       </ScrollTable>
       </section>
       <BorrowStory />
-      <ChineseWestern />
-      <NorseCompare />
     </div>
   );
 }
@@ -307,8 +370,8 @@ function CwCell({ side }: { side: { text: string; cards: string[] } }) {
 function ChineseWestern() {
   return (
     <section className="borrow" id="cn-west">
-      <h2>中西神話對照</h2>
-      <p className="muted">這張表只把「相似的問題」放在一起比，看兩邊各怎麼回答；不是說哪一邊影響了哪一邊。</p>
+      <h2>中華與希臘羅馬</h2>
+      <p className="muted">這張表只把「相似的問題」放在一起比，看兩邊各怎麼回答；不是說哪一邊影響了哪一邊。這幾題本站的北歐卡片沒有對應內容，所以只比兩邊；北歐卡片有寫的題目（世界怎麼開始、大洪水、龍），放在上面的三套神話對照。</p>
       <pre className="ascii">{`同一個問題 ──┬─► 中華神話怎麼回答
              └─► 希臘羅馬神話怎麼回答
                      │
@@ -340,14 +403,14 @@ function ChineseWestern() {
   );
 }
 
-function NorseCompare() {
+function ThreeWayCompare() {
   return (
     <section className="borrow" id="norse-compare">
-      <h2>北歐對照</h2>
-      <p className="muted">這張表把四個相似的問題放在一起，看中華、希臘羅馬、北歐各怎麼回答；只比想法，不是說哪一邊影響了哪一邊。本站卡片沒寫的地方，會直接說沒寫。</p>
-      <pre className="ascii">{`同一個問題 ──┬─► 中華神話怎麼回答
-             ├─► 希臘羅馬神話怎麼回答
-             └─► 北歐神話怎麼回答
+      <h2>三套神話對照</h2>
+      <p className="muted">這張表把相似的問題放在一起，看希臘羅馬、北歐、中華各怎麼回答；只比想法，不是說哪一邊影響了哪一邊。本站卡片沒寫的地方，會直接說沒寫。</p>
+      <pre className="ascii">{`同一個問題 ──┬─► 希臘羅馬神話怎麼回答
+             ├─► 北歐神話怎麼回答
+             └─► 中華神話怎麼回答
                      │
                      ▼
               差在哪裡？（最右欄）`}</pre>
@@ -356,9 +419,9 @@ function NorseCompare() {
           <thead>
             <tr>
               <th>問題</th>
-              <th>中華神話</th>
               <th>希臘羅馬神話</th>
               <th>北歐神話</th>
+              <th>中華神話</th>
               <th>差在哪</th>
             </tr>
           </thead>
@@ -366,9 +429,9 @@ function NorseCompare() {
             {site.threeWay.map((r) => (
               <tr key={r.theme}>
                 <td className="nw">{r.theme}</td>
-                <CwCell side={r.chinese} />
                 <CwCell side={r.greek} />
                 <CwCell side={r.norse} />
+                <CwCell side={r.chinese} />
                 <td className="wide">{r.diff}</td>
               </tr>
             ))}
@@ -428,34 +491,42 @@ const matches = (t: (typeof site.today)[number], q: string) => {
 };
 
 export function TodayPage({ id }: { id?: string }) {
+  const [sys, setSys] = useState<Sys | 'all'>('all');
   const [cat, setCat] = useState<string>('全部');
   const [q, setQ] = useState('');
   const [mode, setMode] = useState<'list' | 'guess'>('list');
   const [open, setOpen] = useState<Set<string>>(new Set());
   const one = id ? todayById.get(id) : undefined;
-  const list = site.today.filter((t) => (cat === '全部' || t.category === cat) && matches(t, q.trim()) && t.id !== one?.id);
+  const inSys = site.today.filter((t) => sys === 'all' || sysOfToday(t) === sys);
+  const cats = TODAY_CATEGORIES.filter((c) => inSys.some((t) => t.category === c));
+  // 換了神話之後，原本選的分類如果沒有條目，就當作「全部」
+  const curCat = cat !== '全部' && !cats.includes(cat as (typeof cats)[number]) ? '全部' : cat;
+  const pool = inSys.filter((t) => (curCat === '全部' || t.category === curCat) && matches(t, q.trim()));
+  const list = pool.filter((t) => t.id !== one?.id);
+  const sysCount = (k: Sys | 'all') => site.today.filter((t) => k === 'all' || sysOfToday(t) === k).length;
   const toggle = (tid: string) => setOpen((s) => { const n = new Set(s); if (n.has(tid)) n.delete(tid); else n.add(tid); return n; });
   return (
     <div className="page">
       <h1>今日影子</h1>
-      <p className="lead">神話留在今天的單字、品牌、電影與星空裡。每一條都寫了「和原典差在哪」。點一條展開說明，或切到「猜猜看」玩一玩。</p>
+      <p className="lead">希臘羅馬、北歐、中華神話留在今天的單字、品牌、電影與星空裡。每一條都寫了「和原典差在哪」。可以先挑一套神話，點一條展開說明，或切到「猜猜看」玩一玩。</p>
       {one && mode === 'list' && <TodayItemView id={one.id} highlight open onToggle={() => {}} />}
       <div className="today-tools">
         <div className="mode-switch" role="group" aria-label="瀏覽方式">
           <button type="button" aria-pressed={mode === 'list'} onClick={() => setMode('list')}>逐條看</button>
           <button type="button" aria-pressed={mode === 'guess'} onClick={() => setMode('guess')}>猜猜看</button>
         </div>
-        <input type="search" className="today-filter" placeholder="篩選：輸入關鍵字，例如 月份、Nike、電影…" aria-label="篩選今日影子" value={q} onChange={(e) => setQ(e.target.value)} />
+        <input type="search" className="today-filter" placeholder="篩選：輸入關鍵字，例如 一月、Thursday、嫦娥…" aria-label="篩選今日影子" value={q} onChange={(e) => setQ(e.target.value)} />
       </div>
-      <div className="filters">
-        {['全部', ...TODAY_CATEGORIES.filter((c) => site.today.some((t) => t.category === c))].map((c) => (
-          <button key={c} className={c === cat ? 'on' : ''} onClick={() => setCat(c)}>
+      <SysTabs all value={sys} label="依神話挑選" counts={{ all: sysCount('all'), west: sysCount('west'), norse: sysCount('norse'), chinese: sysCount('chinese') }} onChange={setSys} />
+      <div className="filters" aria-label="依類別篩選">
+        {['全部', ...cats].map((c) => (
+          <button key={c} className={c === curCat ? 'on' : ''} onClick={() => setCat(c)}>
             {c}
           </button>
         ))}
       </div>
       {mode === 'guess' ? (
-        <TodayGuess list={site.today.filter((t) => (cat === '全部' || t.category === cat) && matches(t, q.trim()))} />
+        <TodayGuess list={pool} />
       ) : (
         <>
           <p className="muted small today-count">
@@ -550,7 +621,7 @@ function TodayItemView({ id, highlight, open, onToggle }: { id: string; highligh
     <article className={`today-item${highlight ? ' hl' : ''}${open ? ' open' : ''}`} id={highlight ? undefined : `today-${t.id}`}>
       <header>
         <span className="muted">
-          {t.category}
+          <span className={`sys-hit ${SYSTEMS.find((x) => x.key === sysOfToday(t))!.cls}`}>{sysLabel(sysOfToday(t))}</span>｜{t.category}
           {t.status === '說法未證實' && <span className="unverified">說法未證實</span>}
         </span>
         <div className="today-head-row">

@@ -1,4 +1,5 @@
 import { site, stripLinks } from './data';
+import { sysLabel, sysOf, sysOfToday } from './systems';
 
 export interface Hit {
   kind: 'card' | 'today';
@@ -33,7 +34,7 @@ const entries: Entry[] = [
       kind: 'card' as const,
       id: c.id,
       title: c.name_zh,
-      sub: [c.type, c.name_en, c.roman ? `羅馬：${c.roman.name_zh}` : ''].filter(Boolean).join('｜'),
+      sub: [c.type, sysLabel(sysOf(c)), c.name_en, c.roman ? `羅馬：${c.roman.name_zh}` : ''].filter(Boolean).join('｜'),
       names,
       tokens: tokensOf(names),
       text: [...c.three_lines.map(stripLinks), c.hook, ...(c.topics ?? []).flatMap((t) => [t, topicDesc.get(t) ?? ''])].filter(Boolean).map(norm),
@@ -41,7 +42,7 @@ const entries: Entry[] = [
   }),
   ...site.today.map((t) => {
     const names = [t.title, ...(t.search_simp ?? [])].filter(Boolean).map(norm);
-    return { kind: 'today' as const, id: t.id, title: t.title, sub: `今日影子｜${t.category}`, names, tokens: tokensOf(names), text: [t.what].filter(Boolean).map(norm) };
+    return { kind: 'today' as const, id: t.id, title: t.title, sub: `今日影子｜${sysLabel(sysOfToday(t))}｜${t.category}`, names, tokens: tokensOf(names), text: [t.what].filter(Boolean).map(norm) };
   }),
 ];
 
