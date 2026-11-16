@@ -27,6 +27,7 @@ sources:
   - {id: s6, kind: modern, cite: World History Encyclopedia「Nine Realms of Norse Cosmology」, url: 'https://www.worldhistory.org/article/1305/nine-realms-of-norse-cosmology/', accessed: '2026-11-16'}
   - {id: s7, kind: modern, cite: 大英百科全書「Surtsey」, url: 'https://www.britannica.com/place/Surtsey', accessed: '2026-11-16'}
 era: no-ragnarok
+today: [surtsey-island]
 topics: [末日與重生, 戰爭, 怪物]
 ---
 

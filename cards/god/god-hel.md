@@ -41,6 +41,7 @@ disputed:
       - {view: Bellows 註解〈巴德爾的夢〉：過惡人生的人，或另一種傳統說的「沒有戰死的人」。, src: [s5]}
       - {view: Bellows 註解〈女先知的預言〉第 38 節：赫爾統治的亡者之地納斯特隆德，壞人在那裡受折磨。, src: [s4]}
 era: no-gods
+today: [hell-word]
 topics: [死後世界, 冥界之旅]
 ---
 

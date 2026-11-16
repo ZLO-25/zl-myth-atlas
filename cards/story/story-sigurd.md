@@ -31,6 +31,7 @@ sources:
 causes:
   - {id: god-loki, rel: 直接引發, why: 洛基打死水獺，又從安德瓦利手中搶走金環，引出整個詛咒。, src: [s3]}
 era: no-heroes
+today: [wagner-siegfried, ramsund-carving]
 topics: [冒險與試煉, 家族詛咒, 怪物]
 ---
 

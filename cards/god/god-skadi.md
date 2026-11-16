@@ -46,6 +46,7 @@ disputed:
       - {view: 詞源字典：這個字來自日耳曼語源，第一部分的來源不確定，沒有提到絲卡蒂。, src: [s8]}
       - {view: 有人把 Scandinavia 和絲卡蒂連在一起；詞源字典的條目沒有提到這個說法。, src: [s8]}
 era: no-gods
+today: [scandinavia-skadi]
 topics: [愛與慾望, 智慧與詭計]
 ---
 
