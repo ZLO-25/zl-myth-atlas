@@ -130,25 +130,25 @@ const PARTS: [Part, string, string][] = [
   ['norse', '第二部', '北歐'],
   ['chinese', '第三部', '中華'],
 ];
-/** [錨點, 幕次, 標題, 屬於哪一部] */
-const ACTS: [string, string, string, Part][] = [
-  ['act1', '一', '開天闢地：一把鐮刀', 'greek'],
-  ['act2', '二', '吞子與石頭：宙斯登基', 'greek'],
-  ['act3', '三', '奧林帕斯這一家', 'greek'],
-  ['act4', '四', '神與人：火、罐子、石榴籽', 'greek'],
-  ['act5', '五', '凡人的傲慢，神的嫉妒', 'greek'],
-  ['act6', '六', '英雄時代', 'greek'],
-  ['act7', '七', '特洛伊戰爭', 'greek'],
-  ['act8', '八', '返鄉，以及羅馬', 'greek'],
-  ['n1', '一', '霜與火之間：巨人的身體', 'norse'],
-  ['n2', '二', '眾神付出的代價', 'norse'],
-  ['n3', '三', '洛基與巴德爾之死', 'norse'],
-  ['n4', '四', '諸神黃昏，以及之後', 'norse'],
-  ['c1', '一', '開天與補天', 'chinese'],
-  ['c2', '二', '發明東西的人', 'chinese'],
-  ['c3', '三', '涿鹿之戰：神變成帝王', 'chinese'],
-  ['c4', '四', '十個太陽與一顆月亮', 'chinese'],
-  ['c5', '五', '洪水與夏朝', 'chinese'],
+/** [錨點, 幕次, 標題, 屬於哪一部, 目錄用的短標題（4 字內，手機一格放得下）] */
+const ACTS: [string, string, string, Part, string][] = [
+  ['act1', '一', '開天闢地：一把鐮刀', 'greek', '鐮刀開天'],
+  ['act2', '二', '吞子與石頭：宙斯登基', 'greek', '宙斯登基'],
+  ['act3', '三', '奧林帕斯這一家', 'greek', '奧林帕斯'],
+  ['act4', '四', '神與人：火、罐子、石榴籽', 'greek', '火與罐子'],
+  ['act5', '五', '凡人的傲慢，神的嫉妒', 'greek', '凡人傲慢'],
+  ['act6', '六', '英雄時代', 'greek', '英雄時代'],
+  ['act7', '七', '特洛伊戰爭', 'greek', '特洛伊'],
+  ['act8', '八', '返鄉，以及羅馬', 'greek', '返鄉羅馬'],
+  ['n1', '一', '霜與火之間：巨人的身體', 'norse', '巨人身體'],
+  ['n2', '二', '眾神付出的代價', 'norse', '眾神代價'],
+  ['n3', '三', '洛基與巴德爾之死', 'norse', '巴德爾死'],
+  ['n4', '四', '諸神黃昏，以及之後', 'norse', '諸神黃昏'],
+  ['c1', '一', '開天與補天', 'chinese', '開天補天'],
+  ['c2', '二', '發明東西的人', 'chinese', '發明家'],
+  ['c3', '三', '涿鹿之戰：神變成帝王', 'chinese', '涿鹿之戰'],
+  ['c4', '四', '十個太陽與一顆月亮', 'chinese', '射日奔月'],
+  ['c5', '五', '洪水與夏朝', 'chinese', '大禹治水'],
 ];
 
 /** 每幕結尾：先問一個問題，按「看答案」才展開「讀到這裡你已經知道」 */
@@ -201,19 +201,42 @@ export function Overview() {
   const twelve = TWELVE.map((id) => cardById.get(id)).filter(Boolean);
   const [cur, setCur] = useState('');
   const [quick, setQuick] = useState<Part>('greek');
-  // 讀到哪一幕：讓頂端的進度列亮起來
+  // 讀到哪一幕：讓頂端的目錄亮起來。
+  // 用「哪一段的開頭已經捲過目錄底下那條線」來判斷，捲動當下就更新（不等標題捲到畫面中間）
   useEffect(() => {
     const ids = [...PARTS.map(([p]) => `part-${p}`), ...ACTS.map(([a]) => a)];
     const els = ids.map((a) => document.getElementById(`ov-${a}`)).filter(Boolean) as HTMLElement[];
-    const io = new IntersectionObserver(
-      (es) => {
-        for (const e of es) if (e.isIntersecting) setCur(e.target.id.replace('ov-', ''));
-      },
-      { rootMargin: '-40% 0px -55% 0px' },
-    );
-    els.forEach((el) => io.observe(el));
-    return () => io.disconnect();
+    els.sort((a, b) => (a.compareDocumentPosition(b) & Node.DOCUMENT_POSITION_FOLLOWING ? -1 : 1));
+    let raf = 0;
+    const update = () => {
+      raf = 0;
+      const nav = document.querySelector('nav.acts');
+      const line = (nav?.getBoundingClientRect().bottom ?? 0) + 96;
+      let found = '';
+      for (const el of els) {
+        if (el.getBoundingClientRect().top <= line) found = el.id.replace('ov-', '');
+        else break;
+      }
+      setCur(found);
+    };
+    const onScroll = () => {
+      if (!raf) raf = requestAnimationFrame(update);
+    };
+    update();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', onScroll);
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+      window.removeEventListener('resize', onScroll);
+      if (raf) cancelAnimationFrame(raf);
+    };
   }, []);
+  // 點目錄：立刻亮起、立刻跳過去（不用慢慢滑）
+  const go = (target: string) => (e: React.MouseEvent) => {
+    e.preventDefault();
+    setCur(target);
+    document.getElementById(`ov-${target}`)?.scrollIntoView({ behavior: 'auto', block: 'start' });
+  };
   // 目前讀到哪一部：決定下排列出哪幾幕
   const curPart: Part = (cur.startsWith('part-') ? (cur.slice(5) as Part) : ACTS.find(([a]) => a === cur)?.[3]) ?? 'greek';
 
@@ -251,7 +274,7 @@ export function Overview() {
               href={`#part-${part}`}
               className={`part-tab part-${part}${part === curPart && cur ? ' on' : ''}`}
               aria-current={part === curPart && cur ? 'true' : undefined}
-              onClick={jump(`ov-part-${part}`, 'start')}
+              onClick={go(`part-${part}`)}
             >
               {name}
               <span className="part-count">{ACTS.filter((x) => x[3] === part).length} 幕</span>
@@ -259,10 +282,10 @@ export function Overview() {
           ))}
         </div>
         <div className="act-chips">
-          {ACTS.filter((x) => x[3] === curPart).map(([a, no, title]) => (
-            <a key={a} href={`#${a}`} className={cur === a ? 'on' : ''} title={title} aria-label={`第${no}幕：${title}`} onClick={jump(`ov-${a}`, 'start')}>
+          {ACTS.filter((x) => x[3] === curPart).map(([a, no, title, , label]) => (
+            <a key={a} href={`#${a}`} className={cur === a ? 'on' : ''} title={title} aria-label={`第${no}幕：${title}`} aria-current={cur === a ? 'true' : undefined} onClick={go(a)}>
               <span className="act-no">{no}</span>
-              {cur === a && <span className="act-title">{title}</span>}
+              <span className="act-title">{label}</span>
             </a>
           ))}
         </div>

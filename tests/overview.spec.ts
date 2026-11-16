@@ -21,11 +21,18 @@ test('總覽：三套神話並列（開頭的來源說明、三部、極短版�
   await tabs.nth(1).click();
   await expect(tabs.nth(1)).toHaveClass(/on/);
   await expect(nav.locator('.act-chips a')).toHaveCount(4);
-  await page.locator('#ov-c3').scrollIntoViewIfNeeded();
+  // 用滾輪捲到中華第三幕：目錄跟著換（不必等標題捲到畫面中間）
+  await page.locator('#ov-c3').evaluate((e) => e.scrollIntoView());
   await expect(tabs.nth(2)).toHaveClass(/on/);
   await expect(nav.locator('.act-chips a')).toHaveCount(5);
   await expect(nav.locator('.act-chips a.on')).toContainText('涿鹿之戰');
   expect(await noScroll()).toBe(true);
+  // 下排每一幕都有短標題；點一下立刻亮起，標題就在目錄正下方、沒被擋住
+  await expect(nav.locator('.act-chips .act-title')).toHaveText(['開天補天', '發明家', '涿鹿之戰', '射日奔月', '大禹治水']);
+  await nav.locator('.act-chips a').nth(4).click();
+  await expect(nav.locator('.act-chips a.on')).toContainText('大禹治水', { timeout: 300 });
+  const gap = await page.evaluate(() => document.querySelector('#ov-c5 h2')!.getBoundingClientRect().top - document.querySelector('nav.acts')!.getBoundingClientRect().bottom);
+  expect(gap).toBeGreaterThanOrEqual(0);
   await page.evaluate(() => window.scrollTo(0, 0));
   // 極短版：預設希臘羅馬 8 行，切到北歐 7 行、中華 7 行
   const quick = page.locator('aside.quick');
