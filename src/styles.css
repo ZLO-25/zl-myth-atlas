@@ -311,7 +311,7 @@ pre.ascii { background: var(--surface); border: 1px solid var(--line); padding: 
 .ideas { grid-template-columns: 1fr 1fr; }
 @media (max-width: 760px) { .ideas { grid-template-columns: 1fr; } }
 /* 總覽：八幕故事 */
-.acts { position: sticky; top: 3.4rem; z-index: 5; display: flex; gap: 0.3rem; overflow-x: auto; padding: 0.4rem 0; margin: 0.5rem 0 1rem; background: var(--bg); border-bottom: 1px solid var(--line); }
+.acts { position: sticky; top: 3.4rem; z-index: 5; display: flex; flex-direction: column; gap: 0.35rem; padding: 0.4rem 0; margin: 0.5rem 0 1rem; background: var(--bg); border-bottom: 1px solid var(--line); }
 .acts a { flex: none; display: inline-flex; align-items: center; gap: 0.35rem; text-decoration: none; color: var(--ink); font-size: 0.85rem; padding: 0.2rem 0.6rem 0.2rem 0.25rem; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); white-space: nowrap; }
 .acts a.on { border-color: var(--terra); background: var(--terra); color: #fff; }
 .acts a.on .act-no { background: #fff; color: var(--terra); }
@@ -324,7 +324,7 @@ pre.ascii { background: var(--surface); border: 1px solid var(--line); padding: 
 .recap ul { margin: 0.3rem 0 0; padding-left: 1.2rem; font-size: 0.95rem; }
 .recap li { margin: 0.15rem 0; }
 .epilogue .overview-cta { display: inline-flex; }
-@media (max-width: 760px) { .acts { top: 6.2rem; } .acts a span:last-child { display: none; } .acts a { padding-right: 0.25rem; } }
+@media (max-width: 760px) { .acts { top: 6.2rem; } }
 
 /* 總覽：極短版 */
 .quick { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--gold); border-radius: 0 12px 12px 0; padding: 0.7rem 1rem; margin: 1rem 0; max-width: 46rem; box-shadow: var(--shadow); }
@@ -463,12 +463,6 @@ pre.ascii { background: var(--surface); border: 1px solid var(--line); padding: 
 .part-head .part-no { margin: 0; font-size: 0.85rem; font-weight: 700; color: var(--part); letter-spacing: 0.05em; }
 .part-head .part-title { margin: 0.2rem 0 0.4rem; font-size: 1.6rem; }
 .part-head p:last-child { margin: 0; }
-.act-group { display: inline-flex; gap: 0.3rem; align-items: center; flex: none; }
-.act-group + .act-group { margin-left: 0.5rem; padding-left: 0.6rem; border-left: 2px solid var(--line); }
-.acts a.part-label { font-weight: 700; color: var(--part); border-color: var(--part); padding: 0.2rem 0.6rem; }
-.act-group .act-no { background: var(--part); }
-.acts .act-group a.on { border-color: var(--part); background: var(--part); }
-.acts .act-group a.on .act-no { color: var(--part); }
 .overview section[id^="ov-n"] h2 .act-no { background: var(--aegean); }
 .overview section[id^="ov-c"] h2 .act-no { background: var(--olive); }
 .quick-tabs { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0.5rem 0 0.2rem; }
@@ -478,4 +472,23 @@ pre.ascii { background: var(--surface); border: 1px solid var(--line); padding: 
 .overview ul.notes li { margin: 0.4rem 0; }
 .src-table td { vertical-align: top; min-width: 12rem; }
 .src-table td.nw { min-width: 0; width: 5.5rem; font-weight: 700; }
-.acts a.part-label.on { background: var(--part); color: #fff; }
+
+/* 總覽目錄：上排三套神話分頁，下排該神話的幕次（只有目前這一幕顯示標題） */
+.acts .part-tabs { display: flex; gap: 0.3rem; }
+.acts a.part-tab { flex: 1 1 0; justify-content: center; min-height: 34px; padding: 0.2rem 0.6rem; font-weight: 700; font-size: 0.9rem; color: var(--part); border-color: var(--part); }
+.acts a.part-tab .part-count { font-weight: 400; font-size: 0.75rem; opacity: 0.8; }
+.acts a.part-tab.on { background: var(--part); color: #fff; }
+.acts .act-chips { display: flex; flex-wrap: wrap; gap: 0.3rem; align-items: center; }
+.acts .act-chips a { padding: 0.2rem; min-height: 32px; min-width: 32px; justify-content: center; }
+.acts .act-chips a.on { padding-right: 0.7rem; border-color: var(--part); background: var(--part); color: #fff; }
+.acts .act-chips .act-no { background: var(--part); margin-right: 0; }
+.acts .act-chips a.on .act-no { background: #fff; color: var(--part); }
+.acts .act-title { white-space: nowrap; }
+@media (min-width: 761px) { .acts .part-tabs { max-width: 30rem; } }
+/* 手機：幕次只留數字、平均分配一排放得下（標題就在下方的章節標題，不重複） */
+@media (max-width: 760px) {
+  .acts .act-chips { flex-wrap: nowrap; }
+  .acts .act-chips a { flex: 1 1 0; min-width: 0; }
+  .acts .act-chips a.on { padding-right: 0.2rem; }
+  .acts .act-title { display: none; }
+}

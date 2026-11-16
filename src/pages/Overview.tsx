@@ -214,14 +214,8 @@ export function Overview() {
     els.forEach((el) => io.observe(el));
     return () => io.disconnect();
   }, []);
-  // 讀到北歐、中華時，把幕次導覽橫向捲到亮起的那一顆（只捲導覽列本身，不動整頁）
-  useEffect(() => {
-    const nav = document.querySelector<HTMLElement>('nav.acts');
-    const on = nav?.querySelector<HTMLElement>('a.on');
-    if (!nav || !on) return;
-    const left = on.getBoundingClientRect().left - nav.getBoundingClientRect().left + nav.scrollLeft;
-    if (left < nav.scrollLeft || left + on.offsetWidth > nav.scrollLeft + nav.clientWidth) nav.scrollTo({ left: Math.max(0, left - 8), behavior: 'smooth' });
-  }, [cur]);
+  // 目前讀到哪一部：決定下排列出哪幾幕
+  const curPart: Part = (cur.startsWith('part-') ? (cur.slice(5) as Part) : ACTS.find(([a]) => a === cur)?.[3]) ?? 'greek';
 
   return (
     <article className="page overview">
@@ -248,18 +242,30 @@ export function Overview() {
         </ol>
         <span className="muted small">想要完整故事，就往下讀：希臘羅馬八幕、北歐四幕、中華五幕。</span>
       </aside>
-      <nav className="acts" aria-label="幕次">
-        {PARTS.map(([part, , name]) => (
-          <span key={part} className={`act-group part-${part}`}>
-            <a href={`#part-${part}`} className={`part-label${cur === `part-${part}` ? ' on' : ''}`} onClick={jump(`ov-part-${part}`, 'start')}>{name}</a>
-            {ACTS.filter((x) => x[3] === part).map(([a, no, title]) => (
-              <a key={a} href={`#${a}`} className={cur === a ? 'on' : ''} onClick={jump(`ov-${a}`, 'start')}>
-                <span className="act-no">{no}</span>
-                <span>{title}</span>
-              </a>
-            ))}
-          </span>
-        ))}
+      {/* 目錄兩排：上排選神話（三顆永遠看得到），下排只列這套神話的幕；不必橫向捲動 */}
+      <nav className={`acts part-${curPart}`} aria-label="目錄">
+        <div className="part-tabs">
+          {PARTS.map(([part, , name]) => (
+            <a
+              key={part}
+              href={`#part-${part}`}
+              className={`part-tab part-${part}${part === curPart && cur ? ' on' : ''}`}
+              aria-current={part === curPart && cur ? 'true' : undefined}
+              onClick={jump(`ov-part-${part}`, 'start')}
+            >
+              {name}
+              <span className="part-count">{ACTS.filter((x) => x[3] === part).length} 幕</span>
+            </a>
+          ))}
+        </div>
+        <div className="act-chips">
+          {ACTS.filter((x) => x[3] === curPart).map(([a, no, title]) => (
+            <a key={a} href={`#${a}`} className={cur === a ? 'on' : ''} title={title} aria-label={`第${no}幕：${title}`} onClick={jump(`ov-${a}`, 'start')}>
+              <span className="act-no">{no}</span>
+              {cur === a && <span className="act-title">{title}</span>}
+            </a>
+          ))}
+        </div>
       </nav>
 
       {/* ───────── 開頭：三套神話怎麼留下來 ───────── */}
