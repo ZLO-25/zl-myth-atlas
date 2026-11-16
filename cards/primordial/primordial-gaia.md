@@ -27,7 +27,8 @@ family:
     - {name: 其他泰坦（俄刻阿諾斯、忒彌斯、謨涅摩緒涅等）, src: [s1]}
     - {name: 獨眼巨人, src: [s1]}
     - {name: 百臂巨人, src: [s1]}
-    - {name: 巨怪堤豐, src: [s4]}
+    - {id: god-furies, src: [s6]}
+    - {id: monster-typhon, src: [s4]}
 images: [img-gaia-pergamon, img-gaia-erichthonius, img-tellus-mosaic]
 sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》116–153（蓋亞與她的子女）, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}

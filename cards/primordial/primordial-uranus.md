@@ -28,7 +28,8 @@ family:
     - {id: titan-rhea, src: [s1]}
     - {name: 獨眼巨人, src: [s1]}
     - {name: 百臂巨人, src: [s1]}
-    - {name: 復仇女神、巨人族（由他的血生出）, src: [s2]}
+    - {id: god-furies, src: [s2]}
+    - {name: 巨人族, src: [s2]}
     - {id: god-aphrodite, src: [s2], variant: 赫西俄德說法：由他落海的生殖器與海沫生出}
 few_images: 烏拉諾斯是「天空本身」，本站找到的授權清楚圖像很少，目前只收錄一件他被克羅諾斯推翻的畫作。
 images: [img-uranus-vasari]

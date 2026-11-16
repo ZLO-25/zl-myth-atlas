@@ -20,7 +20,7 @@ how_to_recognize_src: [s3, s4]
 family:
   children:
     - {name: 厄瑞玻斯（幽暗）, src: [s1]}
-    - {name: 倪克斯（黑夜）, src: [s1]}
+    - {id: primordial-nyx, src: [s1]}
 few_images: 混沌不是有臉孔的神，而是「最初的那片空隙」。本站找不到授權清楚、可靠的古代混沌圖像，目前只收錄一件 19 世紀的畫作。
 images: [img-chaos-watts]
 sources:
