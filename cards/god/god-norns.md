@@ -15,11 +15,11 @@ hook: 諾恩三女神：在世界樹下決定人命運的三位女性。
 domains:
   roles: [命運, 照顧世界樹]
   symbols: [烏爾德之泉, 世界樹, 泉水]
-how_to_recognize: 故事裡的特徵：在世界樹根下的泉邊，用泉水澆樹。本站還沒有收錄名畫的畫法。
+how_to_recognize: 故事裡的特徵：在世界樹根下的泉邊，用泉水澆樹。
 how_to_recognize_src: [s1, s2]
 few_images: 這張卡還沒有收錄圖片。
 sources:
-  - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 15–16 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+  - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 15–16 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning11-20.htm'}
   - {id: s2, kind: ancient, cite: 《詩體埃達》〈女先知的預言〉第 19–20 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
   - {id: s3, kind: modern, cite: World History Encyclopedia「Nine Realms of Norse Cosmology」, url: 'https://www.worldhistory.org/article/1305/nine-realms-of-norse-cosmology/', accessed: '2026-11-16'}
   - {id: s4, kind: ancient, cite: 《詩體埃達》〈法夫尼爾之歌〉第 12–13 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
@@ -33,7 +33,7 @@ topics: [宿命, 預言]
 
 ### 三位大諾恩
 
-〈女先知的預言〉第 20 節說，從世界樹下的大廳走出三位極有智慧的少女：烏爾德、薇兒丹蒂和詩寇蒂。[s2] 詩接著說，她們在木頭上刻下符號，訂下律法，替人類的孩子分配生命，決定他們的命運。[s2] Bellows 的註解說，這三個名字的意思是「過去」「現在」「未來」，刻在木頭上的符號指的是控制命運的盧恩文字。[s2] 斯諾里也說，這三位少女決定人的壽命。[s1] World History Encyclopedia 則說，諾恩住在世界樹根旁，替神與人編織命運，她們的決定不能推翻。[s3]
+〈女先知的預言〉第 20 節說，從[[place-yggdrasil|世界樹]]下的大廳走出三位極有智慧的少女：烏爾德、薇兒丹蒂和詩寇蒂。[s2] 詩接著說，她們在木頭上刻下符號，訂下律法，替人類的孩子分配生命，決定他們的命運。[s2] Bellows 的註解說，這三個名字的意思是「過去」「現在」「未來」，刻在木頭上的符號指的是控制命運的盧恩文字。[s2] 斯諾里也說，這三位少女決定人的壽命。[s1] World History Encyclopedia 則說，諾恩住在世界樹根旁，替神與人編織命運，她們的決定不能推翻。[s3]
 
 ### 烏爾德之泉
 
@@ -47,7 +47,7 @@ topics: [宿命, 預言]
 
 ### 和女武神的交會
 
-斯諾里在談女武神時說，古德、羅塔和最年輕的諾恩詩寇蒂，常常騎馬去帶走戰死的人、決定戰事。[s6] 〈女先知的預言〉第 31 節的女武神名單裡，也有「詩寇蒂扛著盾牌」。[s2] 另外，〈瓦夫蘇魯特尼爾之歌〉第 49 節說，有三批少女會越過山丘來，保護世上的人，不過她們是巨人的親族。[s5] 〈女先知的預言〉第 8 節的「三位巨人少女」，Bellows 也猜可能就是諾恩。[s5]
+斯諾里在談[[god-valkyries|女武神]]時說，古德、羅塔和最年輕的諾恩詩寇蒂，常常騎馬去帶走戰死的人、決定戰事。[s6] 〈女先知的預言〉第 31 節的女武神名單裡，也有「詩寇蒂扛著盾牌」。[s2] 另外，〈瓦夫蘇魯特尼爾之歌〉第 49 節說，有三批少女會越過山丘來，保護世上的人，不過她們是巨人的親族。[s5] 〈女先知的預言〉第 8 節的「三位巨人少女」，Bellows 也猜可能就是諾恩。[s5]
 
 ## 各書怎麼說
 
@@ -63,4 +63,4 @@ topics: [宿命, 預言]
 
 ## 和希臘命運三女神
 
-希臘神話也有三位掌管命運的女性，本站另有一張卡。兩邊是各自獨立的故事：北歐的諾恩住在泉邊，還要照顧世界樹，而且人數不只三位。[s1][s2][s4]
+希臘神話也有三位掌管命運的女性（見[[god-fates|命運三女神]]）。兩邊是各自獨立的故事：北歐的諾恩住在泉邊，還要照顧世界樹，而且人數不只三位。[s1][s2][s4]

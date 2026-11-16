@@ -4,7 +4,7 @@
 - theme: 世界怎麼開始
   chinese: {text: 盤古在一顆蛋裡長大，把天地撐開；他死後身體變成山川日月。, cards: [primordial-pangu]}
   greek: {text: 最初是卡厄斯（一道張開的裂縫），接著出現大地蓋亞。, cards: [primordial-chaos, primordial-gaia]}
-  norse: {text: 最初只有一道張開的裂口；霜融成巨人尤彌爾，他被包爾的兒子們殺死後，身體變成大地、海和天空。, cards: [primordial-ymir]}
+  norse: {text: 最初只有一道張開的裂口；霜融成巨人尤彌爾，他被包爾的兒子們殺死後，身體變成大地、海和天空。, cards: [primordial-ymir, story-norse-creation]}
   diff: 盤古和尤彌爾都是「一個巨人的身體變成世界」：盤古是自己撐開天地，尤彌爾是被殺死、被拆開。希臘則是從張開的裂縫一代代長出來；北歐也是從一道張開的裂口開始，但接著出現的是巨人。
 - theme: 世界會不會結束
   chinese: {text: 本站的中華神話卡片裡，沒有世界末日的故事。, cards: []}
@@ -19,15 +19,15 @@
 - theme: 愛搗蛋的角色
   chinese: {text: 本站的中華神話卡片裡，沒有專門搗蛋的角色。, cards: []}
   greek: {text: 荷米斯出生當天就偷走哥哥阿波羅的牛，後來成為眾神的信使；普羅米修斯用詭計騙宙斯，又把火偷給人類。, cards: [god-hermes, titan-prometheus]}
-  norse: {text: 洛基：會變身、出主意，也陪索爾扮侍女去拿回錘子；他引導霍德爾射死巴德爾，被眾神綁起來；諸神黃昏時掌舵駛來敵船。, cards: [god-loki]}
+  norse: {text: 洛基：會變身、出主意，也陪索爾扮侍女去拿回錘子；他引導霍德爾射死巴德爾，被眾神綁起來；諸神黃昏時掌舵駛來敵船。, cards: [god-loki, story-thor-bride, story-baldr-death, story-loki-punishment]}
   diff: 荷米斯的惡作劇最後變成他的差事；洛基既陪索爾去拿回錘子，也害死了巴德爾，最後被眾神綁起來。
 - theme: 大洪水
   chinese: {text: 大禹不再築堤堵水，而是挖河道讓水流走，《史記》說他居外十三年，過家門不敢入。, cards: [story-yu-flood, hero-yu]}
   greek: {text: 希臘也有洪水神話（丟卡利翁與皮拉的故事），本站目前沒有這張卡。, cards: []}
-  norse: {text: 包爾的兒子殺了尤彌爾，他的血多到淹死了霜巨人，只有貝格爾米爾一家搭「船」逃走（那個字的字面意思是「磨坊箱」）。, cards: [primordial-ymir]}
+  norse: {text: 包爾的兒子殺了尤彌爾，他的血多到淹死了霜巨人，只有貝格爾米爾一家搭「船」逃走（那個字的字面意思是「磨坊箱」）。, cards: [primordial-ymir, story-norse-creation]}
   diff: 中華的洪水故事主角是「治水的人」，後來成為夏朝的起點；北歐的大水是尤彌爾的血，發生在世界造好的時候，只有一家人逃出來。希臘羅馬這邊，本站還沒有卡片可以比。
 - theme: 龍
   chinese: {text: 龍是帶來雨水的祥獸，黃帝靠會蓄水的應龍去打蚩尤。, cards: [beast-dragon]}
   greek: {text: 伊阿宋要拿金羊毛，得先讓看守它、從不睡覺的巨龍睡著；米蒂亞用藥幫了他。, cards: [hero-jason]}
-  norse: {text: 毒龍尼德霍格在世界樹的一條根下面，一直啃著這條根。, cards: [place-yggdrasil]}
+  norse: {text: 毒龍尼德霍格在世界樹的一條根下面，一直啃著這條根；另一條龍是法夫尼爾，他殺了父親、獨占黃金，變成龍躺在上面，被英雄齊格魯德刺穿心臟。, cards: [place-yggdrasil, story-sigurd]}
   diff: 中華的龍掌管雨水，是吉祥的象徵；本站希臘羅馬卡片裡的巨龍是看守寶物、擋在英雄前面的怪物；北歐的龍則是啃世界樹根的毒龍。三套神話的「龍」身分不一樣。

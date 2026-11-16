@@ -15,17 +15,17 @@ hook: 芙麗嘉：奧丁的妻子、女神之首，要萬物發誓不傷巴德�
 domains:
   roles: [女神之首, 知道所有人的命運]
   symbols: [宮殿芬撒里爾]
-how_to_recognize: 本站的來源沒有交代她固定的外貌或隨身物品，所以這裡只列故事裡的特徵：她是女神之首，住在宮殿芬撒里爾，知道所有人的命運卻不說出預言。本站還沒有收錄名畫的畫法。
+how_to_recognize: 來源沒有交代她固定的外貌或隨身物品，所以這裡只列故事裡的特徵：她是女神之首，住在宮殿芬撒里爾，知道所有人的命運卻不說出預言。
 how_to_recognize_src: [s2, s3]
 few_images: 這批還沒有收錄作品圖。
 family:
   consorts:
     - {id: god-odin, src: [s1]}
 sources:
-  - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 9 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s2, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 20 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s3, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 35 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s4, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 49 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+  - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 9 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning1-10.htm'}
+  - {id: s2, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 20 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning11-20.htm'}
+  - {id: s3, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 35 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning31-40.htm'}
+  - {id: s4, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 49 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning41-50.htm'}
   - {id: s5, kind: ancient, cite: 《詩體埃達》〈女先知的預言〉第 34 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
   - {id: s6, kind: modern, cite: World History Encyclopedia「Frigg」, url: 'https://www.worldhistory.org/Frigg/', accessed: '2026-11-16'}
   - {id: s7, kind: modern, cite: Online Etymology Dictionary「Friday」, url: 'https://www.etymonline.com/word/Friday', accessed: '2026-11-16'}
@@ -70,17 +70,17 @@ today: [friday-frigg]
 
 ### 在洛基的指責裡
 
-〈洛基的爭辯〉裡，芙麗嘉勸洛基別說從前的事。[s9] 洛基說她是「費約爾金的妻子」，而且維利和維都和她同床；芙麗嘉回答：如果現在宴會上有一個像巴德爾那樣的兒子，洛基就別想離開。[s9] 洛基說巴德爾不再騎回大廳，就是他的過錯；芙蕾雅替芙麗嘉說話：芙麗嘉知道所有人的命運，雖然她自己不說。[s9]
+〈[[story-loki-punishment|洛基的爭辯]]〉裡，芙麗嘉勸洛基別說從前的事。[s9] 洛基說她是「費約爾金的妻子」，而且維利和維都和她同床；芙麗嘉回答：如果現在宴會上有一個像巴德爾那樣的兒子，洛基就別想離開。[s9] 洛基說巴德爾不再騎回大廳，就是他的過錯；[[god-freyja|芙蕾雅]]替芙麗嘉說話：芙麗嘉知道所有人的命運，雖然她自己不說。[s9]
 
 斯諾里在〈英林加薩迦〉裡寫過這件事的另一個版本：奧丁離家太久，人們以為他不會回來，他的兄弟維利和維分了他的產業，兩人都把芙麗嘉當作妻子，後來奧丁回來，把她接回。[s10]
 
 ### 想把巴德爾救回來
 
-巴德爾死了以後，芙麗嘉問眾神：誰願意騎到冥界去救巴德爾？[s4] 赫爾莫德自願去。[s4]
+巴德爾死了以後，芙麗嘉問眾神：誰願意騎到冥界去救巴德爾？[s4] [[god-hel|赫爾]]莫德自願去。[s4]
 
-### 為瓦爾哈拉哭泣
+### 為英靈殿哭泣
 
-〈女先知的預言〉第 34 節說，她在芬撒里爾，為瓦爾哈拉的災禍哭泣。[s5]
+〈女先知的預言〉第 34 節說，她在芬撒里爾，為[[place-valhalla|英靈殿]]的災禍哭泣。[s5]
 
 ### 各書怎麼說
 

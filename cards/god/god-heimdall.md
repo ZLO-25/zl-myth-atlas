@@ -15,14 +15,14 @@ hook: 海姆達爾：守著彩虹橋的白神，看得遠、聽得細，諸神�
 domains:
   roles: [眾神的守衛]
   symbols: [金牙, 金鬃（他的馬）, 號角加拉爾, 彩虹橋畢弗羅斯特]
-how_to_recognize: 故事裡的特徵：有一口金牙；騎的馬叫金鬃；手邊有號角加拉爾，聲音響徹所有世界；住在彩虹橋畢弗羅斯特旁。這些是故事裡的描述，本站還沒有收錄名畫的畫法。
+how_to_recognize: 故事裡的特徵：有一口金牙；騎的馬叫金鬃；手邊有號角加拉爾，聲音響徹所有世界；住在彩虹橋畢弗羅斯特旁。這些是故事裡的描述。
 how_to_recognize_src: [s1]
 few_images: 這批還沒有收錄作品圖。
 sources:
-  - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 27 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+  - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 27 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning21-30.htm'}
   - {id: s2, kind: ancient, cite: 《詩體埃達》〈索列姆之歌〉第 14 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
   - {id: s3, kind: ancient, cite: 《詩體埃達》〈女先知的預言〉第 46 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
-  - {id: s4, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 13 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+  - {id: s4, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 13 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning11-20.htm'}
   - {id: s5, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 51 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning51-54.htm'}
   - {id: s6, kind: ancient, cite: 《詩體埃達》〈女先知的預言〉（Bellows 英譯，全詩）, url: 'https://www.gutenberg.org/ebooks/73533'}
   - {id: s7, kind: modern, cite: World History Encyclopedia「Heimdall」, url: 'https://www.worldhistory.org/Heimdall/', accessed: '2026-11-16'}
@@ -49,7 +49,7 @@ topics: [戰爭, 末日與重生]
 
 斯諾里引用〈海姆達爾的咒語〉，說海姆達爾自己說：「我是九位母親的兒子，是九位姊妹的兒子。」[s1] 〈詩語法〉也叫他「九位母親的兒子」。[s8]
 
-斯諾里在〈詩語法〉裡還說，「劍」又叫「海姆達爾的頭」，因為他曾被一顆人的頭刺穿，故事講在〈海姆達爾的咒語〉裡；同一章又說，海姆達爾也是奧丁的兒子。[s8]
+斯諾里在〈詩語法〉裡還說，「劍」又叫「海姆達爾的頭」，因為他曾被一顆人的頭刺穿，故事講在〈海姆達爾的咒語〉裡；同一章又說，海姆達爾也是[[god-odin|奧丁]]的兒子。[s8]
 
 ### 眾神的守衛
 
@@ -67,7 +67,7 @@ topics: [戰爭, 末日與重生]
 
 ### 和洛基的糾葛
 
-〈洛基的爭辯〉裡，海姆達爾勸洛基別再喝，免得胡言亂語；洛基回答：你早就被命運安排，必須永遠挺直背脊，站著守天。[s10] 斯諾里在〈詩語法〉說，海姆達爾又叫「洛基的敵人」「尋找芙蕾雅項鍊的人」，他們曾變成海豹，為了布里辛嘉曼項鍊在海邊爭鬥；斯諾里說，詩人烏夫·烏加松寫過這個故事，詩裡他們是海豹的樣子。[s8]
+〈[[story-loki-punishment|洛基的爭辯]]〉裡，海姆達爾勸[[god-loki|洛基]]別再喝，免得胡言亂語；洛基回答：你早就被命運安排，必須永遠挺直背脊，站著守天。[s10] 斯諾里在〈詩語法〉說，海姆達爾又叫「洛基的敵人」「尋找[[god-freyja|芙蕾雅]]項鍊的人」，他們曾變成海豹，為了布里辛嘉曼項鍊在海邊爭鬥；斯諾里說，詩人烏夫·烏加松寫過這個故事，詩裡他們是海豹的樣子。[s8]
 
 ### 諸神黃昏
 

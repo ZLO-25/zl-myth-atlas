@@ -15,7 +15,7 @@ hook: 耶夢加得：長到環繞大地、咬住自己尾巴的大蛇，諸神�
 domains:
   roles: [洛基的孩子, 米德加爾德大蛇]
   symbols: [環繞大地的身體, 咬住自己的尾巴]
-how_to_recognize: 故事裡的畫面：一條大到環繞大地的蛇，咬著自己的尾巴；或是被索爾釣上船的蛇。這些是故事裡的描述，本站還沒有收錄名畫的畫法。
+how_to_recognize: 故事裡的畫面：一條大到環繞大地的蛇，咬著自己的尾巴；或是被索爾釣上船的蛇。這些是故事裡的描述。
 how_to_recognize_src: [s1, s3]
 few_images: 這批還沒有收錄作品圖。
 family:
@@ -26,9 +26,9 @@ family:
     - {id: monster-fenrir, src: [s1]}
     - {id: god-hel, src: [s1]}
 sources:
-  - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 34 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s2, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 47 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s3, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 48 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+  - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 34 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning31-40.htm'}
+  - {id: s2, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 47 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning41-50.htm'}
+  - {id: s3, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 48 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning41-50.htm'}
   - {id: s4, kind: ancient, cite: 《詩體埃達》〈女先知的預言〉第 50 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
   - {id: s5, kind: ancient, cite: 《詩體埃達》〈女先知的預言〉第 55–56 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
   - {id: s6, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 51 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning51-54.htm'}
@@ -52,7 +52,7 @@ topics: [怪物, 宿命]
 
 ### 洛基的孩子
 
-耶夢加得（Jǫrmungandr）是[[god-loki|洛基]]和女巨人安格爾波達的孩子，又叫米德加爾德大蛇。[s1] 牠的兄弟姊妹是狼[[monster-fenrir|芬里爾]]和[[god-hel|海爾]]。[s1] 眾神從預言得知這一家人會帶來災禍，奧丁就派人把孩子抓來。[s1]
+耶夢加得（Jǫrmungandr）是[[god-loki|洛基]]和女巨人安格爾波達的孩子，又叫米德加爾德大蛇。[s1] 牠的兄弟姊妹是狼[[monster-fenrir|芬里爾]]和[[god-hel|赫爾]]。[s1] 眾神從預言得知這一家人會帶來災禍，[[god-odin|奧丁]]就派人把孩子抓來。[s1]
 
 ### 被丟進深海
 

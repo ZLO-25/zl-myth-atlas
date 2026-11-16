@@ -3,7 +3,7 @@ id: story-dwarf-treasures
 type: 故事
 myth_system: [norse]
 name_zh: 矮人的寶物
-aliases: [希芙的頭髮, 洛基剪頭髮, 眾神的寶物, 伊瓦第之子, 伊瓦爾迪之子, 布洛克與辛德里, 雷神之錘的由來, Ívaldi's Sons, Brokkr, Sindri, Eitri, Skíðblaðnir, Gungnir, Draupnir, Gullinbursti, Treasures of the Gods]
+aliases: [希芙的頭髮, 洛基剪頭髮, 眾神的寶物, 伊瓦第之子, 伊瓦爾迪之子, 布洛克與辛德里, 雷神之錘的由來, Ívaldi's Sons, Brokkr, Sindri, Eitri, Skíðblaðnir, Gungnir, Draupnir, Gullinbursti, Treasures of the Gods, 貢尼爾, 斯基德普拉尼爾, 伊瓦爾迪]
 name_en: The Treasures of the Gods
 name_orig: Skíðblaðnir / The Treasures of the Gods
 reality: {level: 純神話}

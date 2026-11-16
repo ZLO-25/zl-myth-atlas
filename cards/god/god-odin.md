@@ -15,7 +15,7 @@ hook: 奧丁：押上一隻眼睛、把自己吊在樹上的眾神之父，最�
 domains:
   roles: [眾神之父, 陣亡者之父, 吊死者之神, 智慧, 戰爭（備戰時祈求的神）, 詩歌, 亡者, 盧恩文字, 魔法]
   symbols: [押在泉裡的一隻眼睛, 兩隻烏鴉胡金與穆寧, 兩匹狼基利與庫力奇, 八隻腳的馬斯雷普尼爾, 高座至高王座]
-how_to_recognize: 故事裡的特徵：只有一隻眼睛；身邊有兩隻烏鴉（胡金與穆寧）和兩匹狼（基利與庫力奇）；騎的是八隻腳的馬斯雷普尼爾。這些是故事裡的描述，本站還沒有收錄名畫的畫法。
+how_to_recognize: 故事裡的特徵：只有一隻眼睛；身邊有兩隻烏鴉（胡金與穆寧）和兩匹狼（基利與庫力奇）；騎的是八隻腳的馬斯雷普尼爾。這些是故事裡的描述。
 how_to_recognize_src: [s2, s6]
 few_images: 這批還沒有收錄作品圖。
 family:
@@ -32,28 +32,28 @@ family:
     - {id: god-baldr, src: [s15]}
     - {id: god-vidar, src: [s9]}
 sources:
-  - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 3 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s2, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 15 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s3, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 20 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+  - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 3 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning1-10.htm'}
+  - {id: s2, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 15 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning11-20.htm'}
+  - {id: s3, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 20 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning11-20.htm'}
   - {id: s4, kind: ancient, cite: 《詩體埃達》〈女先知的預言〉第 27、29 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
   - {id: s5, kind: ancient, cite: 《詩體埃達》〈女先知的預言〉第 47 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
-  - {id: s6, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 38 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s7, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 36、39、41 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s8, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 9、17 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+  - {id: s6, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 38 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning31-40.htm'}
+  - {id: s7, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 36、39、41 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning31-40.htm'}
+  - {id: s8, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 9、17 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning1-10.htm'}
   - {id: s9, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 51 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning51-54.htm'}
   - {id: s10, kind: ancient, cite: 《詩體埃達》〈高人的箴言〉第 139–140 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533', note: 這裡用 Bellows 的節號；別的譯本編號不同（奧丁吊在樹上，Bellows 是 139 節，別的譯本是 138 節）。Bellows 認為第 141 節可能是後人加的。}
-  - {id: s11, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 6 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+  - {id: s11, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 6 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning1-10.htm'}
   - {id: s12, kind: ancient, cite: 《詩體埃達》〈女先知的預言〉第 53 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
-  - {id: s13, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 7 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s14, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 9 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s15, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 22 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+  - {id: s13, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 7 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning1-10.htm'}
+  - {id: s14, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 9 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning1-10.htm'}
+  - {id: s15, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 22 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning21-30.htm'}
   - {id: s16, kind: ancient, cite: 《詩體埃達》〈洛基的爭辯〉第 9 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
-  - {id: s17, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 42 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+  - {id: s17, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 42 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning41-50.htm'}
   - {id: s18, kind: modern, cite: World History Encyclopedia「Odin」, url: 'https://www.worldhistory.org/Odin/', accessed: '2026-11-16'}
   - {id: s19, kind: modern, cite: Online Etymology Dictionary「Wednesday」, url: 'https://www.etymonline.com/word/Wednesday', accessed: '2026-11-16'}
   - {id: s20, kind: ancient, cite: 《詩體埃達》（Bellows 英譯，全書）, url: 'https://www.gutenberg.org/ebooks/73533'}
-  - {id: s22, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 34 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s21, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉（Brodeur 英譯，全篇）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+  - {id: s22, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 34 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning31-40.htm'}
+  - {id: s21, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉（Brodeur 英譯，全篇）, url: 'https://www.voluspa.org/gylfaginning1-10.htm'}
   - {id: s23, kind: ancient, cite: 《詩體埃達》〈格里姆尼爾之歌〉開頭的散文與第 8、14、19–20、46–54 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
   - {id: s24, kind: ancient, cite: 《詩體埃達》〈高人的箴言〉第 138–146 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
   - {id: s25, kind: ancient, cite: 斯諾里《挪威諸王傳》〈英林加薩迦〉第 2、6–7 章（Laing 英譯，Anderson 收入《少埃達》英譯本）, url: 'https://www.gutenberg.org/ebooks/18947'}
@@ -81,7 +81,7 @@ today: [wednesday-odin]
 
 ### 眾神之父
 
-斯諾里說，奧丁是「眾神之父」，有十二個名字。[s1] 他是阿薩神族裡最高、最年長的神，妻子是[[god-frigg|芙麗嘉]]。[s3] 人們也叫他「陣亡者之父」和「吊死者之神」。[s3] 戰死的人歸他的瓦爾哈拉。[s3]
+斯諾里說，奧丁是「眾神之父」，有十二個名字。[s1] 他是阿薩神族裡最高、最年長的神，妻子是[[god-frigg|芙麗嘉]]。[s3] 人們也叫他「陣亡者之父」和「吊死者之神」。[s3] 戰死的人歸他的[[place-valhalla|英靈殿]]。[s3]
 
 他是包爾和貝絲特拉的兒子，有兩個兄弟：維利和維。[s11] 包爾的兒子殺了巨人[[primordial-ymir|尤彌爾]]，用他的身體造出世界。[s13] 他的兒子有[[god-thor|索爾]]；斯諾里說，[[god-baldr|巴德爾]]是他的次子。[s14][s15]
 
@@ -91,7 +91,7 @@ World History Encyclopedia 稱奧丁是「極有智慧的獨眼老人」。[s18]
 
 ### 押在泉裡的一隻眼睛
 
-奧丁為了喝密米爾之泉的水，把自己的一隻眼睛押在泉裡。[s4][s2] 這個說法，〈女先知的預言〉和斯諾里都有。[s4][s2] 不過〈女先知的預言〉第 47 節又說，奧丁向「密米爾的頭」問計，兩種說法對不起來。[s5]
+奧丁為了喝密米爾之泉的水，把自己的一隻眼睛押在泉裡。[s4][s2] 這個說法，〈女先知的預言〉和斯諾里都有。[s4][s2] 不過〈女先知的預言〉第 47 節又說，奧丁向「[[god-mimir|密米爾]]的頭」問計，兩種說法對不起來。[s5]
 
 ### 吊在樹上九夜
 
@@ -111,9 +111,9 @@ World History Encyclopedia 稱奧丁是「極有智慧的獨眼老人」。[s18]
 
 〈高人的箴言〉第 141 節接在吊樹的故事後面：奧丁說他從包爾索恩的兒子那裡學到九首強大的歌，還喝到從奧德羅里爾倒出的蜜酒。[s24] 接著他開始成長、得到智慧。[s24] 第 144 節說，奧丁為眾神寫盧恩，達因為精靈、督瓦林為矮人、阿爾斯維斯為巨人和所有人類，「有些是我自己寫的」。[s24] 這個故事見[[story-odin-runes|奧丁的犧牲]]。Bellows 在註解裡認為第 141 節可能是後人加的。[s10]
 
-### 瓦爾哈拉和高座
+### 英靈殿和高座
 
-陣亡者歸奧丁的[[place-valhalla|瓦爾哈拉]]。[s7] [[god-valkyries|女武神]]在那裡斟酒，山羊海德倫供應蜜酒。[s7] 英靈戰士每天打鬥，打完再一起宴飲。[s7]
+陣亡者歸奧丁的[[place-valhalla|英靈殿]]。[s7] [[god-valkyries|女武神]]在那裡斟酒，山羊海德倫供應蜜酒。[s7] 英靈戰士每天打鬥，打完再一起宴飲。[s7]
 
 奧丁有一個高座，叫至高王座。[s8] 他坐在上面，看得見所有的世界。[s8]
 
@@ -123,7 +123,7 @@ World History Encyclopedia 稱奧丁是「極有智慧的獨眼老人」。[s18]
 
 ### 和洛基是血盟兄弟
 
-〈洛基的爭辯〉裡，洛基提醒奧丁：「我們曾經混過血。」意思是兩人結過血盟兄弟。[s16] 奧丁還答應過，有酒必同飲。[s16]
+〈[[story-loki-punishment|洛基的爭辯]]〉裡，洛基提醒奧丁：「我們曾經混過血。」意思是兩人結過血盟兄弟。[s16] 奧丁還答應過，有酒必同飲。[s16]
 
 ### 各書怎麼說
 
@@ -139,7 +139,7 @@ World History Encyclopedia 稱奧丁是「極有智慧的獨眼老人」。[s18]
 
 ### 最後的下場
 
-諸神黃昏時，奧丁的對手是一隻狼。〈女先知的預言〉說他與狼搏鬥而死。[s12] 斯諾里說得更直接：狼會吞下奧丁。[s9] 這隻狼就是[[monster-fenrir|芬里爾]]。[s9] 牠是洛基的兒子。[s22]
+[[story-ragnarok|諸神黃昏]]時，奧丁的對手是一隻狼。〈女先知的預言〉說他與狼搏鬥而死。[s12] 斯諾里說得更直接：狼會吞下奧丁。[s9] 這隻狼就是[[monster-fenrir|芬里爾]]。[s9] 牠是洛基的兒子。[s22]
 
 整場大戰怎麼打，見[[story-ragnarok|諸神黃昏]]。[s9]
 

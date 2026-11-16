@@ -15,17 +15,17 @@ hook: 尤彌爾：從融化的霜裡長出來的第一個巨人，死後被拆�
 domains:
   roles: [最早的霜巨人, 造世界的材料]
   symbols: [霜, 母牛歐德姆布拉的乳汁]
-how_to_recognize: 故事裡的畫面：霜融成的人形巨人，身邊有一頭用四道乳汁餵他的母牛歐德姆布拉。以上是故事裡的特徵，本站還沒有收錄固定的古代形象。
+how_to_recognize: 故事裡的畫面：霜融成的人形巨人，身邊有一頭用四道乳汁餵他的母牛歐德姆布拉。以上是故事裡的特徵。
 how_to_recognize_src: [s2, s3]
 few_images: 這批還沒有收錄作品圖。
 sources:
   - {id: s1, kind: ancient, cite: 《詩體埃達》〈女先知的預言〉第 3 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
-  - {id: s2, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 5 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s3, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 6 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s4, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 7 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s5, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 8 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s6, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 9 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s7, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 14 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+  - {id: s2, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 5 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning1-10.htm'}
+  - {id: s3, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 6 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning1-10.htm'}
+  - {id: s4, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 7 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning1-10.htm'}
+  - {id: s5, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 8 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning1-10.htm'}
+  - {id: s6, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 9 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning1-10.htm'}
+  - {id: s7, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 14 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning11-20.htm'}
   - {id: s8, kind: ancient, cite: 《詩體埃達》〈女先知的預言〉第 9 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533', note: Bellows 的註解認為「布里米爾」與「布萊恩」這兩個名字可能就是尤彌爾}
   - {id: s9, kind: modern, cite: World History Encyclopedia「Ymir」, url: 'https://www.worldhistory.org/Ymir/', accessed: '2026-11-16'}
   - {id: s10, kind: ancient, cite: 《詩體埃達》〈瓦夫斯魯德尼爾之歌〉第 21、29–35 節與 Bellows 註解（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
