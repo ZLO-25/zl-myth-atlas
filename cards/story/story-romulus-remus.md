@@ -30,6 +30,7 @@ sources:
   - {id: s5, kind: ancient, cite: 維吉爾《埃涅阿斯紀》卷 1（維納斯之子埃涅阿斯、朱比特預言羅慕路斯）, url: 'http://classics.mit.edu/Virgil/aeneid.1.i.html'}
   - {id: s6, kind: ancient, cite: 李維《羅馬史》序言 6, url: 'https://fgh.perseids.org/read/latinLit/phi0914/phi001/perseus-eng3/1.0.6'}
   - {id: s7, kind: modern, cite: 羅馬大學研究新聞〈Solving an historical puzzle. Radiocarbon dating the Capitoline she wolf〉（Calcagnile 等）, url: 'https://research.uniroma1.it/node/29825', accessed: '2026-11-02'}
+  - {id: s8, kind: ancient, cite: 李維《羅馬史》1.8–1.9, url: 'https://www.gutenberg.org/ebooks/19725'}
 images: [img-romulus-wolf, img-romulus-rubens]
 causes:
   - {id: hero-aeneas, rel: 背景, why: 羅馬傳說把雙胞胎的祖先上溯到特洛伊英雄埃涅阿斯。, src: [s3]}
@@ -68,6 +69,16 @@ topics: [羅馬借用希臘, 預言, 家族詛咒]
 ```
 
 這樣一來，羅馬人既是愛神的後代，也是戰神的後代。[s3][s5] 希臘作家普魯塔克替羅慕路斯寫傳時，也記錄了許多彼此矛盾的建城說法，連「羅馬」這個名字從哪裡來都有好幾種解釋。[s2]
+
+### 李維怎麼講這段故事
+
+李維說，國王普羅卡的兩個兒子中，弟弟阿穆利烏斯奪走了哥哥努米托的王位，殺掉哥哥的兒子，又逼哥哥的女兒雷亞．西爾維亞當維斯塔女祭司。[s1] 雙胞胎出生後，母親把戰神說成孩子的父親，李維補了一句：她也許真的這樣相信，也許只是因為由神擔當罪名比較體面。[s1] 那年台伯河氾濫，棄嬰的人以為淺水也能淹死嬰兒，就把他們留在後來長著魯米納里斯無花果樹的地方。[s1] 找到他們的牧人叫浮士圖魯斯，妻子名叫勞倫提亞。[s1]
+
+兄弟長大後靠打獵與對付強盜出名，在盧佩卡爾節那天，強盜報復，抓走雷穆斯，交給國王，又被轉給外祖父努米托處置。[s1] 努米托看著這個不像奴隸的年輕人，想起了自己的外孫，浮士圖魯斯也坦白身世，兄弟合力殺了阿穆利烏斯。[s1] 兩人讓出阿爾巴的王位，改去當年被丟棄的地方建城，羅慕路斯選帕拉提諾山，雷穆斯選阿文提諾山。[s1]
+
+### 建城之後
+
+羅慕路斯殺了弟弟，城以他命名，這是李維的記載。[s1] 他為了增加人口，在「兩片聖林之間」設了庇護所，鄰近各邦的自由人與奴隸都跑來，這是羅馬最初的人口。[s8] 他又設了一百位元老，被稱為「父老」，後代就是貴族。[s8] 人有了，卻沒有女人，鄰邦拒絕通婚，於是有了[[story-sabine-women|搶奪薩賓婦女]]的故事。[s8]
 
 ### 卡比托利歐的母狼
 
