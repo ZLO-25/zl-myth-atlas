@@ -13,7 +13,7 @@ three_lines:
   - 中國第一顆太陽探測衛星就叫「羲和號」。
 hook: 羲和：十個太陽的媽媽，每天幫孩子洗澡、駕車送他們上天。
 images: [img-ai-portrait-xihe]
-few_images: 古代流傳下來的公有領域圖很少，本站另補一張 AI 示意圖
+few_images: 古代流傳下來的公有領域圖很少，另補一張 AI 示意圖
 today: [xihe-1]
 domains:
   roles: [太陽, 曆法]

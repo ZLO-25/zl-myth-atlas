@@ -13,7 +13,7 @@ three_lines:
   - 這個故事用來解釋：為什麼日月星辰往西北移動、中國的大河都往東南流。
 hook: 共工：打輸了就撞山的水神，把天撞歪了。
 images: [img-ai-portrait-gonggong]
-few_images: 古代流傳下來的公有領域圖很少，本站另補一張 AI 示意圖
+few_images: 古代流傳下來的公有領域圖很少，另補一張 AI 示意圖
 domains:
   roles: [水, 洪水]
   symbols: [水, 不周山]

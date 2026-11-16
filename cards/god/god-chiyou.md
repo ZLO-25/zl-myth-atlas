@@ -13,7 +13,7 @@ three_lines:
   - 他是輸家，故事多從黃帝那邊寫；但秦漢時代的人仍把他當成「兵主」（戰爭之神）祭拜。
 hook: 蚩尤：會呼風喚雨的戰神，輸給黃帝，卻沒有被人忘記。
 images: [img-chiyou-wuliang, img-ai-portrait-chiyou]
-few_images: 古代流傳下來的公有領域圖很少，本站另補一張 AI 示意圖
+few_images: 古代流傳下來的公有領域圖很少，另補一張 AI 示意圖
 domains:
   roles: [戰爭, 兵器]
   symbols: [兵器, 風雨]
