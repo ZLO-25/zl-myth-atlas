@@ -14,8 +14,8 @@ three_lines:
 hook: 雷公電母：從拍肚子的龍身神，變成一手拿錐子、一手拉連鼓的力士，身邊再多一位閃電娘娘。
 domains:
   roles: [雷, 閃電]
-  symbols: [鼓, 錐子, 龍身]
-how_to_recognize: 《山海經》的雷神是龍身人頭；東漢畫工筆下是力士的樣子，周圍連著一串鼓，左手拉鼓、右手推錐。[s1][s2] 電母的外貌，查到的古書只有一句解釋閃電的話，沒有畫像描述。[s4]
+  symbols: [鼓, 槌, 鑿子, 鏡子]
+how_to_recognize: 《山海經》的雷神是龍身人頭；東漢畫工筆下是力士的樣子，周圍連著一串鼓，左手拉鼓、右手推錐。[s1][s2] 大英百科說電母用閃動的鏡子放出閃電；古書裡對她的記載只有一句解釋閃電的話。[s4][s7]
 sources:
   - {id: s1, kind: ancient, cite: 《山海經·海內東經》, url: 'https://zh.wikisource.org/wiki/山海經/海內東經'}
   - {id: s2, kind: ancient, cite: 王充《論衡·雷虛篇》（東漢）, url: 'https://zh.wikisource.org/wiki/論衡/23'}
@@ -24,7 +24,7 @@ sources:
   - {id: s5, kind: ancient, cite: 吳承恩《西遊記》第四十五回（明代小說）, url: 'https://zh.wikisource.org/wiki/西遊記/第045回'}
   - {id: s6, kind: ancient, cite: 《楚辭·遠遊》與王逸《楚辭章句·離騷》注, url: 'https://zh.wikisource.org/wiki/楚辭/遠遊'}
   - {id: s8, kind: ancient, cite: 洪興祖《楚辭補註·離騷》, url: 'https://zh.wikisource.org/wiki/楚辭補註/卷第一'}
-  - {id: s7, kind: modern, cite: 'Mythopedia「Lei Gong」', url: 'https://mythopedia.com/topics/lei-gong/', accessed: '2026-11-16'}
+  - {id: s7, kind: modern, cite: 大英百科「Lei Gong」, url: 'https://www.britannica.com/topic/Lei-Gong', accessed: '2026-11-16'}
 era: cn-world
 topics: [民間信仰]
 disputed:
@@ -68,8 +68,8 @@ disputed:
 
 明代《西遊記》第四十五回的車遲國求雨比賽裡，國師用令牌喚雨，孫悟空在半空中問「那司風的是那個」，風婆婆和巽二郎就出來行禮；接著「南天門裡，鄧天君領著雷公、電母到當空」，並有詩寫道：「雷公奮怒，電母生嗔……亂掣金蛇離斗府。」[s5] 這時，雷公和電母已是一對一起出現的天庭官員。
 
-Mythopedia 的介紹說，今天的雷公有龍的臉、爪子和翅膀，帶著鼓和槌，在天庭替玉皇大帝盯著人間的不公不義，用槌子處罰壞人，並說他的妻子是電母。[s7] 這個「雷劈壞人」的觀念，在《論衡》那邊也有：當時人相信被雷打死是天在懲罰罪人，王充是反對這種說法的。[s2]
+大英百科說，雷公的形象是藍色身體、有爪子和蝙蝠般的翅膀、只穿一條腰布；他帶著鼓和槌製造雷聲，並用鑿子懲罰作惡的人，奉天命處罰犯了暗中罪行的人。電母（閃電之母）是他的助手之一，用閃動的鏡子讓閃電劃過天空。[s7] 這個「雷劈壞人」的觀念，在《論衡》那邊也有：當時人相信被雷打死是天在懲罰罪人，王充是反對這種說法的。[s2]
 
 ## 今天在哪裡遇到
 
-雷公電母出現在廟宇與年畫裡，也是《西遊記》改編作品常見的天庭角色；Mythopedia 說今天中國的廟裡仍可見到供奉雷公的神龕。[s7]
+雷公電母出現在廟宇與年畫裡，也是《西遊記》改編作品常見的天庭角色；大英百科說，專門供奉雷公的廟很少，但有人拜他，希望他替自己報復仇人。[s7]
