@@ -23,11 +23,11 @@ family:
     - {id: god-odin, src: [s1]}
     - {name: 約爾德（大地）, src: [s1]}
 sources:
-  - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 9 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s2, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 21 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s3, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 42 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s4, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 47 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s5, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 48 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+  - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 9 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning1-10.htm'}
+  - {id: s2, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 21 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning21-30.htm'}
+  - {id: s3, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 42 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning41-50.htm'}
+  - {id: s4, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 47 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning41-50.htm'}
+  - {id: s5, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 48 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning41-50.htm'}
   - {id: s6, kind: ancient, cite: 《詩體埃達》〈女先知的預言〉第 55–56 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
   - {id: s7, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 51 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning51-54.htm'}
   - {id: s8, kind: ancient, cite: 《詩體埃達》〈索列姆之歌〉第 1–2、7、14、20、31–32 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}

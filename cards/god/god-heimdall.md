@@ -19,10 +19,10 @@ how_to_recognize: 故事裡的特徵：有一口金牙；騎的馬叫金鬃；�
 how_to_recognize_src: [s1]
 few_images: 這批還沒有收錄作品圖。
 sources:
-  - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 27 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+  - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 27 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning21-30.htm'}
   - {id: s2, kind: ancient, cite: 《詩體埃達》〈索列姆之歌〉第 14 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
   - {id: s3, kind: ancient, cite: 《詩體埃達》〈女先知的預言〉第 46 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
-  - {id: s4, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 13 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+  - {id: s4, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 13 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning11-20.htm'}
   - {id: s5, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 51 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning51-54.htm'}
   - {id: s6, kind: ancient, cite: 《詩體埃達》〈女先知的預言〉（Bellows 英譯，全詩）, url: 'https://www.gutenberg.org/ebooks/73533'}
   - {id: s7, kind: modern, cite: World History Encyclopedia「Heimdall」, url: 'https://www.worldhistory.org/Heimdall/', accessed: '2026-11-16'}

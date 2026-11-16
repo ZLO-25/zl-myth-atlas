@@ -28,12 +28,12 @@ family:
   children:
     - {name: 赫諾斯, src: [s3]}
 sources:
-  - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 23、24、35 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s2, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 24 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s3, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 35 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s4, kind: ancient, cite: 斯諾里《散文埃達》〈詩語法〉（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURSkaldskaparmal.html'}
+  - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 23、24、35 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning21-30.htm'}
+  - {id: s2, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 24 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning21-30.htm'}
+  - {id: s3, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 35 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning31-40.htm'}
+  - {id: s4, kind: ancient, cite: 斯諾里《散文埃達》〈詩語法〉（Brodeur 英譯）, url: 'https://www.voluspa.org/skaldskaparmal1-10.htm'}
   - {id: s5, kind: ancient, cite: 《詩體埃達》〈索列姆之歌〉第 3–4 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
-  - {id: s6, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 42 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+  - {id: s6, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 42 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning41-50.htm'}
   - {id: s7, kind: ancient, cite: 《詩體埃達》〈索列姆之歌〉第 7、12 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
   - {id: s8, kind: modern, cite: World History Encyclopedia「Freyja」, url: 'https://www.worldhistory.org/Freyja/', accessed: '2026-11-16'}
   - {id: s9, kind: modern, cite: World History Encyclopedia「Frigg」, url: 'https://www.worldhistory.org/Frigg/', accessed: '2026-11-16'}

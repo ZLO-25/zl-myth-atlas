@@ -31,10 +31,10 @@ family:
     - {id: god-hel, src: [s2]}
     - {id: monster-sleipnir, src: [s3]}
 sources:
-  - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 33 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s2, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 34 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s3, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 42 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s4, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 49 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+  - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 33 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning31-40.htm'}
+  - {id: s2, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 34 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning31-40.htm'}
+  - {id: s3, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 42 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning41-50.htm'}
+  - {id: s4, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 49 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning41-50.htm'}
   - {id: s5, kind: ancient, cite: 《詩體埃達》〈洛基的爭辯〉第 9 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
   - {id: s6, kind: ancient, cite: 《詩體埃達》〈洛基的爭辯〉結尾的散文說明（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
   - {id: s7, kind: ancient, cite: 《詩體埃達》〈女先知的預言〉第 35 節與 Bellows 註解, url: 'https://www.gutenberg.org/ebooks/73533'}
@@ -43,7 +43,7 @@ sources:
   - {id: s10, kind: ancient, cite: 《詩體埃達》〈索列姆之歌〉第 3–4、20 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
   - {id: s11, kind: modern, cite: 漫威官方角色頁「Loki」, url: 'https://www.marvel.com/characters/loki', accessed: '2026-11-16'}
   - {id: s12, kind: modern, cite: World History Encyclopedia「Thor」, url: 'https://www.worldhistory.org/Thor/', accessed: '2026-11-16'}
-  - {id: s14, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 15 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+  - {id: s14, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 15 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning11-20.htm'}
   - {id: s13, kind: modern, cite: World History Encyclopedia「Loki」, url: 'https://www.worldhistory.org/Loki/', accessed: '2026-11-16'}
   - {id: s15, kind: ancient, cite: 斯諾里《散文埃達》〈詩語法〉第 2–3 章（Brodeur 英譯）, url: 'https://www.voluspa.org/skaldskaparmal1-10.htm'}
   - {id: s16, kind: ancient, cite: 斯諾里《散文埃達》〈詩語法〉第 23 章（Brodeur 英譯）, url: 'https://www.voluspa.org/skaldskaparmal21-30.htm'}

@@ -19,8 +19,8 @@ how_to_recognize: 故事裡的特徵：他失去了右手，是被狼芬里爾�
 how_to_recognize_src: [s1, s2]
 few_images: 這批還沒有收錄作品圖。
 sources:
-  - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 25 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s2, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 34 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+  - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 25 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning21-30.htm'}
+  - {id: s2, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 34 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning31-40.htm'}
   - {id: s3, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 51 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning51-54.htm'}
   - {id: s4, kind: ancient, cite: 《詩體埃達》〈女先知的預言〉（Bellows 英譯，全詩）, url: 'https://www.gutenberg.org/ebooks/73533'}
   - {id: s5, kind: modern, cite: World History Encyclopedia「Tyr」, url: 'https://www.worldhistory.org/Tyr/', accessed: '2026-11-16'}

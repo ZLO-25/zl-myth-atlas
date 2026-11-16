@@ -19,7 +19,7 @@ how_to_recognize: 故事裡沒有描述他的長相，只有泉水和一顆被�
 how_to_recognize_src: [s1, s3]
 few_images: 這張卡還沒有收錄圖片。
 sources:
-  - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 15 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+  - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 15 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning11-20.htm'}
   - {id: s2, kind: ancient, cite: 《詩體埃達》〈女先知的預言〉第 27、29、47 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
   - {id: s3, kind: ancient, cite: 斯諾里《挪威諸王傳》〈英林加薩迦〉第 4、7 章（Laing 英譯，Anderson 收入《少埃達》英譯本）, url: 'https://www.gutenberg.org/ebooks/18947'}
   - {id: s4, kind: modern, cite: World History Encyclopedia「Odin」, url: 'https://www.worldhistory.org/Odin/', accessed: '2026-11-16'}

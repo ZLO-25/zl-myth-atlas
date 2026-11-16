@@ -24,8 +24,8 @@ family:
   consorts:
     - {name: 南娜, src: [s2]}
 sources:
-  - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 22 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s2, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 49 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+  - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 22 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning21-30.htm'}
+  - {id: s2, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 49 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning41-50.htm'}
   - {id: s3, kind: ancient, cite: 《詩體埃達》〈巴德爾的夢〉第 2–4、6、9、11 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
   - {id: s4, kind: ancient, cite: 《詩體埃達》〈女先知的預言〉第 62 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
   - {id: s5, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 53 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning51-54.htm'}

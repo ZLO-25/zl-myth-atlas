@@ -14,11 +14,11 @@ three_lines:
 hook: 世界樹：長在烏爾德之泉旁的白蠟樹，三條根、一隻傳話的松鼠、一條啃根的龍；諸神黃昏時它會搖動。
 sources:
   - {id: s1, kind: ancient, cite: 《詩體埃達》〈女先知的預言〉第 19–20 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
-  - {id: s2, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 15 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s3, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 16 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+  - {id: s2, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 15 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning11-20.htm'}
+  - {id: s3, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 16 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning11-20.htm'}
   - {id: s4, kind: ancient, cite: 《詩體埃達》〈女先知的預言〉第 47 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
   - {id: s5, kind: ancient, cite: 《詩體埃達》〈女先知的預言〉第 2 節與 Bellows 註解（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
-  - {id: s6, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 34 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+  - {id: s6, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 34 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning31-40.htm'}
   - {id: s7, kind: modern, cite: World History Encyclopedia「Nine Realms of Norse Cosmology」, url: 'https://www.worldhistory.org/article/1305/nine-realms-of-norse-cosmology/', accessed: '2026-11-16'}
   - {id: s8, kind: ancient, cite: 《詩體埃達》〈格里姆尼爾之歌〉第 29–35 節與 Bellows 註解（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
   - {id: s9, kind: ancient, cite: 《詩體埃達》〈高人的箴言〉第 139 節與 Bellows 註解（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}

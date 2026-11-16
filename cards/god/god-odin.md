@@ -32,28 +32,28 @@ family:
     - {id: god-baldr, src: [s15]}
     - {id: god-vidar, src: [s9]}
 sources:
-  - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 3 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s2, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 15 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s3, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 20 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+  - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 3 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning1-10.htm'}
+  - {id: s2, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 15 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning11-20.htm'}
+  - {id: s3, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 20 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning11-20.htm'}
   - {id: s4, kind: ancient, cite: 《詩體埃達》〈女先知的預言〉第 27、29 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
   - {id: s5, kind: ancient, cite: 《詩體埃達》〈女先知的預言〉第 47 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
-  - {id: s6, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 38 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s7, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 36、39、41 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s8, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 9、17 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+  - {id: s6, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 38 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning31-40.htm'}
+  - {id: s7, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 36、39、41 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning31-40.htm'}
+  - {id: s8, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 9、17 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning1-10.htm'}
   - {id: s9, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 51 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning51-54.htm'}
   - {id: s10, kind: ancient, cite: 《詩體埃達》〈高人的箴言〉第 139–140 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533', note: 這裡用 Bellows 的節號；別的譯本編號不同（奧丁吊在樹上，Bellows 是 139 節，別的譯本是 138 節）。Bellows 認為第 141 節可能是後人加的。}
-  - {id: s11, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 6 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+  - {id: s11, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 6 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning1-10.htm'}
   - {id: s12, kind: ancient, cite: 《詩體埃達》〈女先知的預言〉第 53 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
-  - {id: s13, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 7 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s14, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 9 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s15, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 22 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+  - {id: s13, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 7 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning1-10.htm'}
+  - {id: s14, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 9 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning1-10.htm'}
+  - {id: s15, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 22 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning21-30.htm'}
   - {id: s16, kind: ancient, cite: 《詩體埃達》〈洛基的爭辯〉第 9 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
-  - {id: s17, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 42 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+  - {id: s17, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 42 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning41-50.htm'}
   - {id: s18, kind: modern, cite: World History Encyclopedia「Odin」, url: 'https://www.worldhistory.org/Odin/', accessed: '2026-11-16'}
   - {id: s19, kind: modern, cite: Online Etymology Dictionary「Wednesday」, url: 'https://www.etymonline.com/word/Wednesday', accessed: '2026-11-16'}
   - {id: s20, kind: ancient, cite: 《詩體埃達》（Bellows 英譯，全書）, url: 'https://www.gutenberg.org/ebooks/73533'}
-  - {id: s22, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 34 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
-  - {id: s21, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉（Brodeur 英譯，全篇）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+  - {id: s22, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 34 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning31-40.htm'}
+  - {id: s21, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉（Brodeur 英譯，全篇）, url: 'https://www.voluspa.org/gylfaginning1-10.htm'}
   - {id: s23, kind: ancient, cite: 《詩體埃達》〈格里姆尼爾之歌〉開頭的散文與第 8、14、19–20、46–54 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
   - {id: s24, kind: ancient, cite: 《詩體埃達》〈高人的箴言〉第 138–146 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
   - {id: s25, kind: ancient, cite: 斯諾里《挪威諸王傳》〈英林加薩迦〉第 2、6–7 章（Laing 英譯，Anderson 收入《少埃達》英譯本）, url: 'https://www.gutenberg.org/ebooks/18947'}

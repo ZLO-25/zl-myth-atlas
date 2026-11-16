@@ -19,7 +19,7 @@ how_to_recognize: 故事裡的特徵：在世界樹根下的泉邊，用泉水�
 how_to_recognize_src: [s1, s2]
 few_images: 這張卡還沒有收錄圖片。
 sources:
-  - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 15–16 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+  - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 15–16 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning11-20.htm'}
   - {id: s2, kind: ancient, cite: 《詩體埃達》〈女先知的預言〉第 19–20 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
   - {id: s3, kind: modern, cite: World History Encyclopedia「Nine Realms of Norse Cosmology」, url: 'https://www.worldhistory.org/article/1305/nine-realms-of-norse-cosmology/', accessed: '2026-11-16'}
   - {id: s4, kind: ancient, cite: 《詩體埃達》〈法夫尼爾之歌〉第 12–13 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
