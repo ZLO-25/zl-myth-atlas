@@ -57,7 +57,7 @@ topics: [怪物, 冥界之旅]
 
 ### 畫像石
 
-World History Encyclopedia 說，維京時代的畫像石上，有奧丁騎著斯雷普尼爾前往英靈殿的圖像，其中一幅標明來自 Tjängvide 畫像石。[s3] 這些石頭收藏在哪家博物館，本站沒有可靠來源，所以不寫。[s3]
+World History Encyclopedia 說，維京時代的畫像石上，有奧丁騎著斯雷普尼爾前往英靈殿的圖像，其中一幅標明來自 Tjängvide 畫像石。[s3]
 
 ## 各書怎麼說
 
