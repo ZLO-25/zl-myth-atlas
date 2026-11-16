@@ -16,7 +16,7 @@ hook: 烏拉諾斯：第一位天王，被兒子一刀推翻；他被割下的�
 domains:
   roles: [星空, 天穹]
   symbols: [覆蓋大地的星空]
-how_to_recognize: 古代偶爾把他畫成身上綴滿星星、拱身覆蓋大地的男子。本站收錄的瓦薩里天花板畫，畫的是克羅諾斯舉起鐮刀砍向他的那一幕。
+how_to_recognize: 古代偶爾把他畫成身上綴滿星星、拱身覆蓋大地的男子。瓦薩里的天花板畫，畫的是克羅諾斯舉起鐮刀砍向他的那一幕。
 how_to_recognize_src: [s3, s4]
 family:
   parents:
@@ -31,7 +31,7 @@ family:
     - {id: god-furies, src: [s2]}
     - {name: 巨人族, src: [s2]}
     - {id: god-aphrodite, src: [s2], variant: 赫西俄德說法：由他落海的生殖器與海沫生出}
-few_images: 烏拉諾斯是「天空本身」，本站找到的授權清楚圖像很少，目前只收錄一件他被克羅諾斯推翻的畫作。
+few_images: 烏拉諾斯是「天空本身」，授權清楚的圖像很少，目前只有一件他被克羅諾斯推翻的畫作。
 images: [img-uranus-vasari]
 sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》126–153, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}

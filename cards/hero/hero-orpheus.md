@@ -15,7 +15,7 @@ hook: 奧菲斯：唱動了冥界的人，卻在最後一步回了頭。
 domains:
   roles: [音樂, 詩歌]
   symbols: [七弦琴, 聽歌的動物]
-how_to_recognize: 抱著七弦琴的年輕男子。本站收錄的羅浮宮浮雕上，荷米斯輕輕拉住尤麗狄絲的手腕、要帶她回冥界，說的就是他失去妻子的那一刻。
+how_to_recognize: 抱著七弦琴的年輕男子。羅浮宮的浮雕上，荷米斯輕輕拉住尤麗狄絲的手腕、要帶她回冥界，說的就是他失去妻子的那一刻。
 how_to_recognize_src: [s5, s6]
 family:
   parents:

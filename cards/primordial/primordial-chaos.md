@@ -15,14 +15,14 @@ hook: 卡厄斯：宇宙最初那道張開的大裂縫；「亂七八糟」的�
 domains:
   roles: [宇宙最初的空隙, 黑暗與虛空的源頭]
   symbols: [無（它不是有形體的神）]
-how_to_recognize: 卡厄斯不是有臉孔的人物，而是天地之間的一道空隙，所以很難「認出」它。本站收錄的瓦茨畫作，把它畫成左邊翻騰的火與煙、右邊慢慢站起來排成隊伍的一排巨人。
+how_to_recognize: 卡厄斯不是有臉孔的人物，而是天地之間的一道空隙，所以很難「認出」它。瓦茨的畫作把它畫成左邊翻騰的火與煙、右邊慢慢站起來排成隊伍的一排巨人。
 how_to_recognize_src: [s3, s4]
 family:
   children:
     - {name: 厄瑞玻斯（幽暗）, src: [s1]}
     - {id: primordial-nyx, src: [s1]}
     - {id: god-eros, src: [s8], variant: 只有奧皮安的詩說他生自卡厄斯；赫西俄德只寫他在卡厄斯之後「接著」出現}
-few_images: 混沌不是有臉孔的神，而是「最初的那片空隙」。本站找不到授權清楚、可靠的古代混沌圖像，目前只收錄一件 19 世紀的畫作。
+few_images: 混沌不是有臉孔的神，而是「最初的那片空隙」。授權清楚、可靠的古代混沌圖像不易取得，目前只有一件 19 世紀的畫作。
 images: [img-chaos-watts]
 sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》116–125, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
