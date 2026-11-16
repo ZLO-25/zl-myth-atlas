@@ -3,7 +3,7 @@ id: place-kunlun
 type: 地點
 myth_system: [chinese]
 name_zh: 崑崙山
-aliases: [昆仑山, 崑崙之丘, 崑崙之虛, 帝之下都, Mount Kunlun, Kunlun]
+aliases: [昆仑山, 昆侖山, 崑崙之丘, 崑崙之虛, 帝之下都, Mount Kunlun, Kunlun]
 name_en: Mount Kunlun
 name_orig: 崑崙 / Kūnlún
 reality: {level: 純神話}
