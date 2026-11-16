@@ -7,8 +7,8 @@ const fmt = (y: number) => (y < 0 ? `前 ${-y}` : `西元 ${y}`);
 /** 上半：神話年代（故事順序）。下半：真實歷史參照軸（這些故事何時被寫下來） */
 export function Timeline() {
   const want = new URLSearchParams(location.hash.split('?')[1] ?? '').get('era');
-  const [sys, setSys] = useState<'west' | 'chinese'>(site.eras.find((e) => e.id === want)?.system === 'chinese' ? 'chinese' : 'west');
-  const eras = [...site.eras].filter((e) => (e.system === 'chinese') === (sys === 'chinese')).sort((a, b) => a.order - b.order);
+  const [sys, setSys] = useState<'west' | 'chinese' | 'norse'>(site.eras.find((e) => e.id === want)?.system ?? 'west');
+  const eras = [...site.eras].filter((e) => (e.system ?? 'west') === sys).sort((a, b) => a.order - b.order);
   const hist = [...site.history].sort((a, b) => a.start - b.start);
   const min = Math.min(-1700, ...hist.map((h) => h.start));
   const max = Math.max(50, ...hist.map((h) => h.end));
@@ -30,10 +30,15 @@ export function Timeline() {
       <h1>神話年代</h1>
       <p className="lead">
         <strong>注意：</strong>神話年代是「故事發生的先後順序」，不是真實年份。
-        {sys === 'chinese' ? '中華神話的特別之處是：越後面的年代，神越像古代帝王，最後接上歷史上的夏朝。但「最早」的盤古，其實是最晚（三國時代）才被寫進書裡的。' : '宙斯什麼時候打敗泰坦，沒有年份可言。下面另有一條真實歷史軸，告訴你這些故事是什麼時候被寫下來的。'}
+        {sys === 'chinese'
+          ? '中華神話的特別之處是：越後面的年代，神越像古代帝王，最後接上歷史上的夏朝。但「最早」的盤古，其實是最晚（三國時代）才被寫進書裡的。'
+          : sys === 'norse'
+            ? '北歐神話的故事從一道裂口開始，用巨人的身體造出世界，最後在諸神黃昏被火燒毀，又重新升起。這些年代是順序，不是年份；很多完整的情節只見於 13 世紀冰島作者斯諾里的《散文埃達》，不是更老的古詩。'
+            : '宙斯什麼時候打敗泰坦，沒有年份可言。下面另有一條真實歷史軸，告訴你這些故事是什麼時候被寫下來的。'}
       </p>
       <div className="filters" aria-label="選擇神話體系">
         <button className={sys === 'west' ? 'on' : ''} onClick={() => setSys('west')}>希臘羅馬：從混沌到羅馬建國</button>
+        <button className={sys === 'norse' ? 'on' : ''} onClick={() => setSys('norse')}>北歐：從創世到諸神黃昏</button>
         <button className={sys === 'chinese' ? 'on' : ''} onClick={() => setSys('chinese')}>中華：從盤古到夏朝</button>
       </div>
       {sys === 'chinese' && (

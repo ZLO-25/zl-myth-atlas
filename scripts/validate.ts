@@ -37,6 +37,9 @@ for (const c of cards) {
 const GOD_TYPES = new Set(['神', '原始神', '泰坦']);
 const FAMILY_RELS = ['parents', 'consorts', 'children', 'siblings', 'predecessors', 'successors', 'foes'] as const;
 const isChinese = (c: Card) => c.myth_system?.includes('chinese');
+const isNorse = (c: Card) => c.myth_system?.includes('norse');
+/** 卡片屬於哪個年代體系：中華、北歐，其餘（希臘羅馬）沒有 system */
+const eraSystemOf = (c: Card) => (isChinese(c) ? 'chinese' : isNorse(c) ? 'norse' : undefined);
 
 for (const c of cards) {
   const w = c.file ?? c.id;
@@ -51,9 +54,10 @@ for (const c of cards) {
   if (!c.reality || !REALITY_LEVELS.includes(c.reality.level)) err(w, `reality.level 必須是 ${REALITY_LEVELS.join('／')}`);
   else if (c.reality.level !== '純神話' && (!c.reality.evidence || !c.reality.src?.length)) err(w, 'reality 不是純神話時要寫 evidence 與 src');
   if (c.era && !eraIds.has(c.era)) err(w, `era「${c.era}」不在 data/eras.yaml`);
-  else if (c.era && (eras.find((e) => e.id === c.era)?.system === 'chinese') !== !!isChinese(c)) err(w, `era「${c.era}」和 myth_system 不同體系（中華卡片要用 system: chinese 的年代）`);
+  else if (c.era && eras.find((e) => e.id === c.era)?.system !== eraSystemOf(c)) err(w, `era「${c.era}」和 myth_system 不同體系（中華卡片要用 system: chinese 的年代，北歐卡片要用 system: norse 的年代）`);
   if (isChinese(c) && !/^\S+ \/ \S/.test(c.name_orig ?? '')) err(w, 'name_orig 寫成「漢字 / 拼音」，例如「女媧 / Nǚwā」');
   if (isChinese(c) && c.myth_system.length > 1) err(w, 'myth_system 寫了 chinese 就不要再混其他體系');
+  if (isNorse(c) && c.myth_system.length > 1) err(w, 'myth_system 寫了 norse 就不要再混其他體系');
   if (!c.topics?.length) err(w, 'topics 至少 1 個');
   for (const t of c.topics ?? []) if (!topicNames.has(t)) err(w, `主題標籤「${t}」不在 data/topics.yaml`);
   if (!c.body || !/##\s*故事/.test(c.body)) err(w, '正文要有「## 故事」段落');
@@ -201,6 +205,14 @@ for (const r of data.chineseWestern) {
   if (!r.chinese?.text || !r.western?.text || !r.diff) err(w, '要有 chinese、western、diff');
   for (const id of [...(r.chinese?.cards ?? []), ...(r.western?.cards ?? [])]) if (!cardIds.has(id)) err(w, `卡片 ${id} 不存在`);
   if (!r.chinese?.cards?.length) err(w, '中華這一側至少連到 1 張卡');
+}
+
+// 北歐對照（中華、希臘羅馬、北歐三方）
+for (const r of data.threeWay) {
+  const w = `data/three-way.yaml（${r.theme}）`;
+  if (!r.chinese?.text || !r.greek?.text || !r.norse?.text || !r.diff) err(w, '要有 chinese、greek、norse、diff');
+  for (const side of [r.chinese, r.greek, r.norse]) for (const id of side?.cards ?? []) if (!cardIds.has(id)) err(w, `卡片 ${id} 不存在`);
+  if (!r.norse?.cards?.length) err(w, '北歐這一側至少連到 1 張卡');
 }
 
 // 地點

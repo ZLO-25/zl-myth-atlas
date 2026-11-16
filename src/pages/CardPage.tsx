@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { markRead } from '../lib/progress';
 import type { Card } from '../../scripts/lib/types';
-import { CardLink, NameTag, Cites, Figure, Markdown, SourceList } from '../components/bits';
+import { CardLink, NameTag, Cites, Figure, Inline, Markdown, SourceList } from '../components/bits';
 import { Panels } from '../components/Panels';
 import { Quiz, hasQuiz } from '../components/Quiz';
 import { cardById, eraById, familyOf, isChinese, site, todayById } from '../lib/data';
@@ -123,7 +123,7 @@ export function CardPage({ id }: { id: string }) {
         {c.aliases?.length > 0 && <p className="aliases">也叫：{c.aliases.join('、')}</p>}
         <ol className="three-lines">
           {c.three_lines.map((l, i) => (
-            <li key={i}>{l}</li>
+            <li key={i}><Inline text={l} cardId={c.id} /></li>
           ))}
         </ol>
         <p className="hook">
@@ -157,7 +157,7 @@ export function CardPage({ id }: { id: string }) {
           )}
           {c.how_to_recognize && (
             <div>
-              <h3>名畫雕像裡怎麼認出{c.name_zh}</h3>
+              <h3>{works.length ? '名畫雕像裡' : '故事裡'}怎麼認出{c.name_zh}</h3>
               <p>
                 {c.how_to_recognize}{' '}
                 {c.how_to_recognize_src && <Cites ids={c.how_to_recognize_src} cardId={c.id} />}

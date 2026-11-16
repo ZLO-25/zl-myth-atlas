@@ -16,3 +16,8 @@
 - {id: cn-flood, system: chinese, order: 6, name: 洪水與治水, summary: 大洪水淹沒天下，鯀堵水失敗，兒子禹疏導成功。}
 - {id: cn-xia, system: chinese, order: 7, name: 夏朝開始, summary: 禹的兒子啟繼位，「讓賢」變成「傳子」；從這裡開始，故事慢慢變成歷史。}
 - {id: cn-world, system: chinese, order: 8, name: 神話世界（不分年代）, summary: 龍、鳳凰、九尾狐這些神獸，崑崙山、扶桑樹這些神話地點，以及牛郎織女這種年代說不準的民間故事。}
+# 北歐神話（system: norse）：故事順序。很多完整情節只見於 13 世紀斯諾里的《散文埃達》。
+- {id: no-creation, system: norse, order: 1, name: 創世, summary: 最初只有一道張開的裂口，兩邊是霜與熱；霜融成巨人尤彌爾，他被殺後，身體變成了世界。}
+- {id: no-gods, system: norse, order: 2, name: 眾神的時代, summary: 世界造好之後，阿薩神族與巨人、怪物之間的故事：奧丁、索爾、洛基都在這裡。}
+- {id: no-ragnarok, system: norse, order: 3, name: 諸神黃昏, summary: 神、巨人與怪物的最後一戰；世界被火燒毀，之後大地又從海裡升起。}
+- {id: no-world, system: norse, order: 4, name: 神話世界（不分年代）, summary: 世界樹、九個世界這類地方，不屬於哪一個年代。}

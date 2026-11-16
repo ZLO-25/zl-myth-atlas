@@ -1,0 +1,83 @@
+# 今日影子：北歐神話在今天的影子（來源：北歐來源包 2026-11-16 查核）
+- id: tuesday-tyr
+  category: 時間
+  title: 星期二 Tuesday
+  cards: [god-tyr]
+  what: 星期二 Tuesday 是提爾（古英語 Tiw）的日子。
+  diff: 在埃達裡，提爾是最勇敢、掌管勝利的神，也是把右手放進狼芬里爾嘴裡當保證的神。星期的名字只留下他的名字，沒有留下這些故事。
+  status: 已查證
+  sources:
+    - {cite: Online Etymology Dictionary「Tuesday」, url: 'https://www.etymonline.com/word/Tuesday', accessed: '2026-11-16'}
+    - {cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 25、34 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+- id: wednesday-odin
+  category: 時間
+  title: 星期三 Wednesday
+  cards: [god-odin]
+  what: 星期三 Wednesday 是奧丁（Woden）的日子。
+  diff: 在埃達裡，奧丁是「眾神之父」，也是「陣亡者之父」，還押上一隻眼睛、吊在樹上九夜。星期的名字只留下他的名字，沒有留下這些故事。
+  status: 已查證
+  sources:
+    - {cite: Online Etymology Dictionary「Wednesday」, url: 'https://www.etymonline.com/word/Wednesday', accessed: '2026-11-16'}
+    - {cite: World History Encyclopedia「Odin」, url: 'https://www.worldhistory.org/Odin/', accessed: '2026-11-16'}
+- id: thursday-thor
+  category: 時間
+  title: 星期四 Thursday
+  cards: [god-thor]
+  what: 星期四 Thursday 是索爾的日子。
+  diff: 在埃達裡，索爾是神與人之中最強的，用錘子妙爾尼爾打巨人。星期的名字只留下他的名字，沒有留下錘子和巨人的故事。
+  status: 已查證
+  sources:
+    - {cite: Online Etymology Dictionary「Thursday」, url: 'https://www.etymonline.com/word/Thursday', accessed: '2026-11-16'}
+    - {cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 21 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+- id: friday-frigg
+  category: 時間
+  title: 星期五 Friday
+  cards: [god-frigg, god-freyja]
+  what: 星期五 Friday 通常說是芙麗嘉的日子。詞源字典同時指出，芙蕾雅比較接近羅馬的維納斯，也有冰島作者把它寫成「芙蕾雅之日」。
+  diff: 在埃達裡，芙麗嘉和芙蕾雅是兩位不同的女神：斯諾里把她們分開列，芙麗嘉屬阿薩神族，芙蕾雅屬華納神族。所以星期五到底算哪一位的日子，連詞源字典都兩種說法並列。
+  status: 已查證
+  sources:
+    - {cite: Online Etymology Dictionary「Friday」, url: 'https://www.etymonline.com/word/Friday', accessed: '2026-11-16'}
+    - {cite: World History Encyclopedia「Frigg」, url: 'https://www.worldhistory.org/Frigg/', accessed: '2026-11-16'}
+    - {cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 35 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
+- id: thorium
+  category: 科學與醫學
+  title: 元素釷 thorium
+  cards: [god-thor]
+  what: 元素釷（thorium）以索爾命名，命名的人是貝吉里斯。
+  diff: 神話裡的索爾是拿錘子打巨人、掌管雷電的神；元素釷只是借用了他的名字。
+  status: 已查證
+  sources:
+    - {cite: 英國皇家化學學會元素週期表「Thorium」, url: 'https://www.rsc.org/periodic-table/element/90/thorium', accessed: '2026-11-16'}
+    - {cite: World History Encyclopedia「Thor」, url: 'https://www.worldhistory.org/Thor/', accessed: '2026-11-16'}
+- id: marvel-thor-loki
+  category: 電影、影集、遊戲
+  title: 漫威的索爾與洛基
+  cards: [god-thor, god-loki]
+  what: 漫威官方稱洛基是「索爾的兄弟」。
+  diff: 在埃達裡，洛基是奧丁的血盟兄弟，不是索爾的兄弟。〈洛基的爭辯〉裡，洛基提醒奧丁「我們曾經混過血」，World History Encyclopedia 也指出，在埃達裡索爾不是洛基的兄弟。
+  status: 已查證
+  sources:
+    - {cite: 漫威官方角色頁「Loki」, url: 'https://www.marvel.com/characters/loki', accessed: '2026-11-16'}
+    - {cite: World History Encyclopedia「Thor」, url: 'https://www.worldhistory.org/Thor/', accessed: '2026-11-16'}
+    - {cite: 《詩體埃達》〈洛基的爭辯〉第 9 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
+- id: god-of-war-ragnarok
+  category: 電影、影集、遊戲
+  title: 遊戲《戰神：諸神黃昏》
+  cards: [story-ragnarok]
+  what: 遊戲《戰神：諸神黃昏》（God of War Ragnarök）由 Sony 在 2022 年 11 月 9 日發售。
+  diff: 埃達裡的諸神黃昏，是神、巨人與怪物的最後一戰：奧丁被狼吞下，索爾殺了大蛇後倒下，世界被火燒毀，之後大地從海裡升起。本站沒有查核遊戲的劇情，所以這裡只確認遊戲的名字用了這個詞，不比較內容。
+  status: 已查證
+  sources:
+    - {cite: PlayStation 官方遊戲頁《God of War Ragnarök》, url: 'https://www.playstation.com/en-us/games/god-of-war-ragnarok/', accessed: '2026-11-16'}
+    - {cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 51 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning51-54.htm', accessed: '2026-11-16'}
+- id: thor-ragnarok-film
+  category: 電影、影集、遊戲
+  title: 電影《雷神索爾 3：諸神黃昏》
+  cards: [story-ragnarok]
+  what: 電影《雷神索爾 3：諸神黃昏》的片名用了「諸神黃昏」（Ragnarök）這個詞。World History Encyclopedia 的「Ragnarök」條目文中提到了它。
+  diff: 埃達裡的諸神黃昏，是神、巨人與怪物的最後一戰：奧丁被狼吞下，索爾殺了大蛇後倒下，世界被火燒毀。本站沒有查核電影的劇情，所以這裡只確認片名用了這個詞，不比較內容。
+  status: 已查證
+  sources:
+    - {cite: World History Encyclopedia「Ragnarök」, url: 'https://www.worldhistory.org/Ragnarok/', accessed: '2026-11-16'}
+    - {cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 51 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning51-54.htm', accessed: '2026-11-16'}

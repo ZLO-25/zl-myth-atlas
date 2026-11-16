@@ -28,7 +28,7 @@ cards/god/god-zeus.md
 |---|---|---|
 | `id` | ✔ | 英文小寫連字號，和檔名相同，例 `god-zeus`、`story-trojan-war`。前綴：`primordial-` `titan-` `god-` `hero-` `story-` `event-` `monster-` `beast-` `place-` |
 | `type` | ✔ | 原始神／泰坦／神／英雄／凡人／怪物／神獸（中華神話的祥獸，如龍、鳳凰）／故事／地點／物品 |
-| `myth_system` | ✔ | `[greek]`、`[roman]`、`[greek, roman]`，或中華神話 `[chinese]`（不和其他體系混用） |
+| `myth_system` | ✔ | `[greek]`、`[roman]`、`[greek, roman]`，，中華神話 `[chinese]`，或北歐神話 `[norse]`（中華、北歐不和其他體系混用） |
 | `name_zh` | ✔ | 台灣最通行譯名 |
 | `aliases` | ✔ | 其他中文譯名（含中國大陸譯名）、稱號、英文別名；全部可搜尋。簡體寫法由建置程式自動產生 |
 | `name_en`、`name_orig` | ✔ | 英文；原文（希臘文附拉丁轉寫，如 `Ζεύς / Zeus`；中華神話寫「漢字 / 帶聲調拼音」，如 `女媧 / Nǚwā`，網站會顯示成「女媧 Nuwa（Nǚwā）」） |
@@ -46,7 +46,7 @@ cards/god/god-zeus.md
 | `greek_vs_roman` | 奧林帕斯神必填 | `{text, src}`，寫真正的差異，不只是換名字 |
 | `today` | | 今日影子 id 清單 |
 | `places` | | `data/places.yaml` 的 id 或地點卡 id |
-| `era` | ✔ | `data/eras.yaml` 的 id；中華卡片只能用 `system: chinese` 的年代（`cn-` 開頭） |
+| `era` | ✔ | `data/eras.yaml` 的 id；中華卡片只能用 `system: chinese` 的年代（`cn-` 開頭），北歐卡片只能用 `system: norse` 的年代（`no-` 開頭） |
 | `topics` | ✔ | `data/topics.yaml` 的名稱 |
 | `disputed` | | `[{claim, views: [{view, src}]}]` |
 | `history_river` | | `{url, label}`，連到歷史長河的真實歷史卡 |

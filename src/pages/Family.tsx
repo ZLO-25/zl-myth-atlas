@@ -1,7 +1,7 @@
 import { select } from 'd3-selection';
 import { zoom, zoomIdentity } from 'd3-zoom';
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { avatarOf, cardById, eraById, familyOf, imgSrc, isChinese, site } from '../lib/data';
+import { avatarOf, cardById, eraById, familyOf, imgSrc, isChinese, isNorse, site } from '../lib/data';
 import { href, queryParam } from '../lib/router';
 import { cardNames, looseNames, type NameParts } from '../lib/names';
 import { isOrigHidden } from '../lib/prefs';
@@ -29,8 +29,9 @@ const W = 148;
 const H = 68;
 
 /** 族譜：中間是焦點人物，上面父母、兩側配偶、下面子女；點任何人就換成他當焦點 */
-type Mode = 'root' | 'all' | 'twelve' | 'hero' | 'cn';
-const MODES: Mode[] = ['root', 'all', 'twelve', 'hero', 'cn'];
+type Mode = 'root' | 'all' | 'twelve' | 'hero' | 'cn' | 'norse';
+const MODES: Mode[] = ['root', 'all', 'twelve', 'hero', 'cn', 'norse'];
+const NORSE_HOME = 'god-odin';
 
 /** 族譜的狀態全部放在網址裡：#/family?mode=cn、#/family/god-zeus?mode=twelve、#/family?mode=hero&hero=hero-perseus
  *  這樣重新整理、上一頁、分享連結都會回到同一個畫面。沒寫 mode 時，有指定人物就以他為中心，否則看完整家譜。 */
@@ -44,13 +45,15 @@ function familyHref(mode: Mode, focus?: string, hero?: string) {
 export function Family({ focus }: { focus?: string }) {
   const has = !!focus && cardById.has(focus);
   const asked = queryParam('mode') as Mode | null;
-  const mode: Mode = asked && MODES.includes(asked) ? asked : has ? (isChinese(cardById.get(focus!)) ? 'cn' : 'all') : 'root';
+  const mode: Mode = asked && MODES.includes(asked) ? asked : has ? (isChinese(cardById.get(focus!)) ? 'cn' : isNorse(cardById.get(focus!)) ? 'norse' : 'all') : 'root';
   const heroParam = queryParam('hero');
   const hero = heroParam && HEROES.includes(heroParam) ? heroParam : has && HEROES.includes(focus!) ? focus! : HEROES[0] ?? '';
-  const cur = has ? focus! : 'god-zeus';
+  const cur = has ? focus! : mode === 'norse' ? NORSE_HOME : 'god-zeus';
   const goCard = (id: string) => {
-    location.hash = familyHref('all', id);
+    location.hash = familyHref(mode === 'norse' ? 'norse' : 'all', id);
   };
+  /** 切換模式時的焦點：北歐模式要停在北歐人物上（預設奧丁），其他模式不要停在北歐人物上 */
+  const focusFor = (m: Mode) => (m === 'norse' ? (isNorse(cardById.get(cur)) ? cur : NORSE_HOME) : isNorse(cardById.get(cur)) ? 'god-zeus' : cur);
 
   const { nodes, edges } = useMemo(() => (mode === 'cn' ? chineseGraph() : mode === 'hero' ? lineage(hero) : mode === 'root' ? fromRoots() : around(cur, mode === 'twelve')), [cur, mode, hero]);
   const svgRef = useRef<SVGSVGElement>(null);
@@ -81,9 +84,9 @@ export function Family({ focus }: { focus?: string }) {
         svg.on('.zoom', null);
       };
     }
-    if (box.width < 600 && nodes.length > 12) {
+    if (box.width < 600 && (nodes.length > 12 || mode === 'norse')) {
       // 手機：全部縮進去字會小到看不清，改成可讀大小、從最上面（蓋亞）開始，往下拖曳瀏覽
-      const k2 = 0.8;
+      const k2 = mode === 'norse' ? 0.7 : 0.8;
       svg.call(z.transform, zoomIdentity.translate(box.width / 2 - cx * k2, 30 - (Math.min(...ys) - H / 2) * k2).scale(k2));
       return () => {
         svg.on('.zoom', null);
@@ -100,10 +103,10 @@ export function Family({ focus }: { focus?: string }) {
   return (
     <div className="page family-page">
       <h1>族譜</h1>
-      <p className="lead">「完整家譜」從卡厄斯、蓋亞、烏拉諾斯一路往下排到奧林帕斯諸神；點任何一位，就切換成「以他為中心」展開父母、配偶與子女。可以拖曳、用滾輪或兩指縮放。虛線＝「另有一說」。中華神話請按「中華神話：家族、傳位與對戰」。</p>
+      <p className="lead">「完整家譜」從卡厄斯、蓋亞、烏拉諾斯一路往下排到奧林帕斯諸神；點任何一位，就切換成「以他為中心」展開父母、配偶與子女。可以拖曳、用滾輪或兩指縮放。虛線＝「另有一說」。北歐神話請按「北歐神話」，從奧丁開始，點人物就換成他當中心（還沒有卡片的人物不能點）。中華神話請按「中華神話：家族、傳位與對戰」。</p>
       <div className="filters">
-        {([['root', '從原始神開始（完整家譜）'], ['all', '以一位為中心'], ['twelve', '只看奧林帕斯十二神'], ['hero', '看英雄的血統'], ['cn', '中華神話：家族、傳位與對戰']] as [Mode, string][]).map(([m, label]) => (
-          <button key={m} className={mode === m ? 'on' : ''} aria-pressed={mode === m} onClick={() => (location.hash = familyHref(m, cur, hero))}>
+        {([['root', '從原始神開始（完整家譜）'], ['all', '以一位為中心'], ['twelve', '只看奧林帕斯十二神'], ['hero', '看英雄的血統'], ['norse', '北歐神話（以奧丁為中心）'], ['cn', '中華神話：家族、傳位與對戰']] as [Mode, string][]).map(([m, label]) => (
+          <button key={m} className={mode === m ? 'on' : ''} aria-pressed={mode === m} onClick={() => (location.hash = familyHref(m, focusFor(m), hero))}>
             {label}
           </button>
         ))}
@@ -194,7 +197,7 @@ export function Family({ focus }: { focus?: string }) {
       {mode === 'cn' && (
         <p className="muted small">中華神話沒有一本《神譜》定下全家譜，血緣多半來自《史記》替古帝王排的世系，所以除了血緣，這裡也畫出「王位傳給誰」和「誰跟誰打過」。每一列大致對應一個神話年代（左邊的名稱），越往下越接近歷史；沒有卡片的人物（虛線框）放在和他相連的人物上一列或下一列。點有卡片的人物會打開他的卡片。一進來是看得清楚的大小、從最上面開始：往下、往左右拖曳瀏覽，滾輪或兩指可以縮小看全貌。</p>
       )}
-      {c && (mode === 'all' || mode === 'twelve') && (
+      {c && (mode === 'all' || mode === 'twelve' || mode === 'norse') && (
         <p>
           目前焦點：<a href={href('card', c.id)}>{c.name_zh}的卡片 →</a>
         </p>

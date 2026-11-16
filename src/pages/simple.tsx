@@ -9,7 +9,7 @@ import { cardNames, enOrig, fullName, origLang, origOf, romanNames } from '../li
 import { avatarOf, cardById, imgSrc, site, todayById, TYPE_ORDER } from '../lib/data';
 
 import { href } from '../lib/router';
-import { CN_PATH, STARTER_PATH } from '../lib/paths';
+import { CN_PATH, NORSE_PATH, STARTER_PATH } from '../lib/paths';
 
 export function Home() {
   const featured = ['god-zeus', 'god-athena', 'story-pandora', 'hero-odysseus', 'story-trojan-horse', 'monster-medusa'].map((id) => cardById.get(id)).filter(Boolean);
@@ -17,17 +17,17 @@ export function Home() {
     <div className="page home">
       <section className="hero">
         <h1>眾神星圖</h1>
-        <p className="lead">希臘羅馬神話與中華神話：認得眾神與英雄，能把故事講給別人聽，也看得懂今天電影、品牌、英文單字、太空任務裡的神話梗。每件事都附來源。</p>
+        <p className="lead">希臘羅馬、北歐與中華神話：認得眾神與英雄，能把故事講給別人聽，也看得懂今天電影、品牌、英文單字、太空任務裡的神話梗。每件事都附來源。</p>
         <a className="overview-cta" href={href('overview')}>
           <strong>第一次來？先看總覽</strong>
           <span>約 20 分鐘讀完：世界長什麼樣、誰是誰、故事從哪來、為什麼今天還要懂。趕時間？頁首有 1 分鐘極短版 →</span>
         </a>
         <div className="tiles">
           <a href={href('cards')}><strong>卡片</strong><span>{site.cards.length} 張神、英雄、故事</span></a>
-          <a href={href('family')}><strong>族譜</strong><span>點一位神展開家族；中華神話看傳位與對戰</span></a>
-          <a href={href('timeline')}><strong>神話年代</strong><span>從混沌到羅馬建國；從盤古到夏朝</span></a>
+          <a href={href('family')}><strong>族譜</strong><span>點一位神展開家族；北歐以奧丁為中心；中華神話看傳位與對戰</span></a>
+          <a href={href('timeline')}><strong>神話年代</strong><span>從混沌到羅馬建國；從創世到諸神黃昏；從盤古到夏朝</span></a>
           <a href={href('map')}><strong>地圖</strong><span>真實地點與冥界</span></a>
-          <a href={href('compare')}><strong>對照</strong><span>希臘 vs 羅馬、中西神話：不只是換名字</span></a>
+          <a href={href('compare')}><strong>對照</strong><span>希臘 vs 羅馬、中西神話、北歐對照：不只是換名字</span></a>
           <a href={href('today')}><strong>今日影子</strong><span>{site.today.length} 個你看過的梗</span></a>
         </div>
       </section>
@@ -49,6 +49,11 @@ export function Home() {
         <h2>中華神話新手路線：從盤古讀到大禹</h2>
         <p className="muted">希臘神話是一棵家譜樹，主線是「兒子推翻父親」；中華神話比較像一條時間線，越往後神越像古代帝王，主線是「替人類解決問題」。</p>
         <PathList items={CN_PATH} />
+      </section>
+      <section>
+        <h2>北歐神話新手路線：從尤彌爾讀到諸神黃昏</h2>
+        <p className="muted">北歐神話的故事，很多只見於 13 世紀冰島作者斯諾里的《散文埃達》；每張卡都會標明哪些是古詩說的、哪些是斯諾里說的。</p>
+        <PathList items={NORSE_PATH} />
       </section>
       <ProgressBox />
       {featured.length > 0 && (
@@ -184,7 +189,7 @@ export function CardList() {
         ))}
       </div>
       <div className="filters" aria-label="依神話系統篩選">
-        {[['全部', '全部'], ['greek', '希臘'], ['roman', '羅馬'], ['chinese', '中華']].map(([k, label]) => (
+        {[['全部', '全部'], ['greek', '希臘'], ['roman', '羅馬'], ['norse', '北歐'], ['chinese', '中華']].map(([k, label]) => (
           <button key={k} className={k === sys ? 'on' : ''} onClick={() => setSys(k)}>
             {label}
           </button>
@@ -236,10 +241,11 @@ export function Compare() {
   return (
     <div className="page">
       <h1>對照</h1>
-      <p className="lead">這一頁放兩種對照：希臘神和羅馬神怎麼對應，以及中華神話和希臘羅馬神話怎麼回答同樣的問題。</p>
+      <p className="lead">這一頁放三種對照：希臘神和羅馬神怎麼對應、中華神話和希臘羅馬神話怎麼回答同樣的問題，以及再加上北歐神話的三方對照。</p>
       <div className="jump-btns" aria-label="頁內跳轉">
         <button type="button" onClick={() => jumpTo('gr-rome')}>希臘 vs 羅馬</button>
         <button type="button" onClick={() => jumpTo('cn-west')}>中西神話對照</button>
+        <button type="button" onClick={() => jumpTo('norse-compare')}>北歐對照</button>
       </div>
       <section id="gr-rome">
       <h2>希臘 vs 羅馬</h2>
@@ -276,6 +282,7 @@ export function Compare() {
       </section>
       <BorrowStory />
       <ChineseWestern />
+      <NorseCompare />
     </div>
   );
 }
@@ -323,6 +330,45 @@ function ChineseWestern() {
                 <td className="nw">{r.theme}</td>
                 <CwCell side={r.chinese} />
                 <CwCell side={r.western} />
+                <td className="wide">{r.diff}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </ScrollTable>
+    </section>
+  );
+}
+
+function NorseCompare() {
+  return (
+    <section className="borrow" id="norse-compare">
+      <h2>北歐對照</h2>
+      <p className="muted">這張表把四個相似的問題放在一起，看中華、希臘羅馬、北歐各怎麼回答；只比想法，不是說哪一邊影響了哪一邊。本站卡片沒寫的地方，會直接說沒寫。</p>
+      <pre className="ascii">{`同一個問題 ──┬─► 中華神話怎麼回答
+             ├─► 希臘羅馬神話怎麼回答
+             └─► 北歐神話怎麼回答
+                     │
+                     ▼
+              差在哪裡？（最右欄）`}</pre>
+      <ScrollTable>
+        <table className="compare">
+          <thead>
+            <tr>
+              <th>問題</th>
+              <th>中華神話</th>
+              <th>希臘羅馬神話</th>
+              <th>北歐神話</th>
+              <th>差在哪</th>
+            </tr>
+          </thead>
+          <tbody>
+            {site.threeWay.map((r) => (
+              <tr key={r.theme}>
+                <td className="nw">{r.theme}</td>
+                <CwCell side={r.chinese} />
+                <CwCell side={r.greek} />
+                <CwCell side={r.norse} />
                 <td className="wide">{r.diff}</td>
               </tr>
             ))}
