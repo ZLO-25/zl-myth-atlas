@@ -125,7 +125,7 @@ test('北歐：神話年代有北歐分頁，卡片的年代標籤會跳到北�
 
 test('北歐：族譜「北歐神話」模式以奧丁為中心，模式寫進網址', async ({ page }) => {
   await page.goto('#/family');
-  await page.getByRole('button', { name: /北歐神話（以奧丁為中心）/ }).click();
+  await page.locator('.sys-tabs').getByRole('button', { name: '北歐' }).click();
   await expect(page).toHaveURL(/#\/family\/god-odin\?mode=norse$/);
   await expect(page.locator('.family-svg .fnode.role-focus')).toContainText('奧丁');
   await expect(page.locator('.family-svg .fname', { hasText: '包爾' })).toBeVisible();
@@ -133,7 +133,7 @@ test('北歐：族譜「北歐神話」模式以奧丁為中心，模式寫進�
   await expect(page.locator('.family-svg .fname', { hasText: '芙麗嘉' })).toBeVisible();
   await expect(page.locator('.family-svg image')).toHaveCount(0);
   await page.reload();
-  await expect(page.locator('.filters button.on')).toContainText('北歐神話');
+  await expect(page.locator('.sys-tabs button.on')).toHaveText('北歐');
   // 點索爾 → 以索爾為中心，仍是北歐模式
   await page.locator('.family-svg .fnode.clickable', { hasText: '索爾' }).dispatchEvent('click');
   await expect(page).toHaveURL(/#\/family\/god-thor\?mode=norse$/);
@@ -143,7 +143,7 @@ test('北歐：族譜「北歐神話」模式以奧丁為中心，模式寫進�
   await expect(page.locator('.family-svg .fnode.role-focus')).toContainText('奧丁');
   // 從卡片頁的「在族譜裡展開」進來，預設就是北歐模式
   await page.goto('#/family/god-loki');
-  await expect(page.locator('.filters button.on')).toContainText('北歐神話');
+  await expect(page.locator('.sys-tabs button.on')).toHaveText('北歐');
   await expect(page.locator('.family-svg .fname', { hasText: '西格恩' })).toBeVisible();
   await expect(page.locator('.family-legend')).toContainText('夫妻');
   await page.screenshot({ path: 'test-results/norse-family.png' });

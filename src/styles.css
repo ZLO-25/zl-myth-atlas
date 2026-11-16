@@ -516,3 +516,25 @@ pre.ascii { background: var(--surface); border: 1px solid var(--line); padding: 
 .sys-door-links a:hover { background: var(--sys); color: #fff; }
 .path-intro { max-width: 46rem; }
 .sys-hit { font-weight: 700; color: var(--sys); }
+
+/* ───────── 三套神話（B 批）：族譜、年代、地圖 ───────── */
+.hist-bar.sys-west, .hist-bar.sys-norse, .hist-bar.sys-chinese { background: var(--sys); }
+.era-range { margin: -0.4rem 0 0.8rem; }
+.family-sub { margin-top: 0; }
+.family-tip { margin: 0.4rem 0 0; }
+.map-sub { margin-top: 0; }
+.myth-world-list { list-style: none; padding: 0; display: grid; gap: 0.6rem; }
+.myth-world-list li { background: var(--surface); border: 1px solid var(--line); border-left: 5px solid var(--sys); border-radius: 10px; padding: 0.6rem 0.9rem; }
+.myth-world-list p { margin: 0.2rem 0 0; }
+.yggdrasil { width: 100%; max-width: 460px; display: block; margin: 0 auto; }
+.yg-box { fill: var(--surface); stroke: var(--line); stroke-width: 2; }
+.yg-tree { fill: color-mix(in srgb, var(--olive) 30%, var(--surface)); stroke: var(--olive); stroke-width: 2; }
+.yg-root { fill: color-mix(in srgb, var(--aegean) 22%, var(--surface)); stroke: var(--aegean); stroke-width: 2; }
+.yg-norn { fill: color-mix(in srgb, var(--gold) 30%, var(--surface)); stroke: var(--line); stroke-width: 2; }
+.yg-title { font-size: 14px; font-weight: 700; text-anchor: middle; fill: var(--ink); }
+.yg-sub { font-size: 12px; text-anchor: middle; fill: var(--muted); }
+.yg-path { stroke: var(--muted); stroke-width: 2; fill: none; }
+.yg-path.dash { stroke-dasharray: 4 4; }
+.realm-names { display: flex; flex-wrap: wrap; gap: 0.3rem 0.6rem; padding: 0; list-style: none; }
+.realm-names li { border: 1px solid var(--line); border-radius: 999px; padding: 0.05rem 0.7rem; background: var(--surface); }
+.hist-text .small a + a { margin-left: 0.8rem; }

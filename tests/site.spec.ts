@@ -116,7 +116,7 @@ test('中華神話：32 張卡、中國地圖與傳承圖', async ({ page }) => 
   const errors = watchErrors(page);
   expect(site.cards.filter((c: { myth_system: string[] }) => c.myth_system.includes('chinese')).length).toBe(32);
   await page.goto('#/map');
-  await page.getByRole('button', { name: /中國/ }).click();
+  await page.locator('.sys-tabs').getByRole('button', { name: '中華' }).click();
   await expect(page.locator('.place-list li', { hasText: '涿鹿' })).toBeVisible();
   await expect(page.locator('.place-list li', { hasText: '德爾菲' })).toHaveCount(0);
   await page.goto('#/family/hero-yu');
