@@ -6,7 +6,7 @@ name_zh: 赫利俄斯、塞勒涅與厄俄斯
 aliases: [赫利俄斯, 太陽神, 塞勒涅, 月神, 厄俄斯, 曙光女神, 黎明女神, 日月曙光三姊弟, Helios, Helius, Selene, Eos, Sol, Luna, Aurora]
 name_en: Helios, Selene and Eos
 name_orig: Ἥλιος, Σελήνη, Ἠώς / Helios, Selene, Eos
-roman: {name_zh: 索爾、露娜、奧蘿拉, name_la: Sol, Luna, Aurora, name_en: Sol, Luna, Aurora, note: 太陽、月亮、曙光三位的拉丁名}
+roman: {name_zh: 索爾與露娜與奧蘿拉, name_la: 'Sol / Luna / Aurora', name_en: 'Sol / Luna / Aurora', note: 太陽、月亮、曙光三位的拉丁名}
 reality: {level: 純神話}
 three_lines:
   - 許珀里翁與忒伊亞生下的三位第二代泰坦：太陽神赫利俄斯、月神塞勒涅、曙光女神厄俄斯。
