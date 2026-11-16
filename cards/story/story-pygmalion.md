@@ -22,15 +22,14 @@ panels:
 sources:
   - {id: s1, kind: ancient, cite: 奧維德《變形記》10.243–297, url: 'https://www.theoi.com/Text/OvidMetamorphoses10.html'}
   - {id: s4, kind: ancient, cite: 奧維德《變形記》13.738–897（海中仙女伽拉忒亞與波呂斐摩斯）, url: 'https://www.theoi.com/Text/OvidMetamorphoses13.html'}
-  - {id: s2, kind: modern, cite: 'The Collector「Pygmalion and Galatea: When Sculpted Love Comes Alive」（討論「伽拉忒亞」名字最早見於盧梭《畢馬龍》）', url: 'https://www.thecollector.com/pygmalion-and-galatea-myth/', accessed: '2026-11-16'}
+  - {id: s2, kind: modern, cite: 大英百科「Galatea」, url: 'https://www.britannica.com/topic/Galatea-Greek-mythology', accessed: '2026-11-16'}
   - {id: s3, kind: modern, cite: Encyclopedia.com「Pygmalion Effects」, url: 'https://www.encyclopedia.com/social-sciences/applied-and-social-sciences-magazines/pygmalion-effects', accessed: '2026-11-16'}
 causes:
   - {id: god-aphrodite, rel: 直接引發, why: 她在自己的節日聽見畢馬龍的祈求，讓象牙像變成真人。, src: [s1]}
 disputed:
   - claim: 雕像叫什麼名字？
     views:
-      - {view: 奧維德只稱她為雕像、「象牙少女」，沒有給她名字。, src: [s1, s2]}
-      - {view: 「伽拉忒亞」這名字最早見於盧梭的戲劇《畢馬龍》（1770）；不確定是盧梭取的，還是他只是最早記下的人。, src: [s2]}
+      - {view: 奧維德只稱她為雕像、「象牙少女」，沒有給她名字。, src: [s1]}
 era: olympian
 topics: [愛與慾望, 變形, 羅馬借用希臘]
 ---
@@ -57,14 +56,11 @@ topics: [愛與慾望, 變形, 羅馬借用希臘]
 奧維德：象牙雕像，沒有名字
         │
         ▼
-盧梭《畢馬龍》（1770）
-  最早出現「伽拉忒亞」
-        │
-        ▼
-後世的畫與戲劇都用這個名字
+某些後世版本：雕像叫「伽拉忒亞」
+（另有同名的海中仙女）
 ```
 
-古代作者包括奧維德，都沒有稱她「伽拉忒亞」，故事只叫「畢馬龍與雕像」；這個名字最早的記載是盧梭的戲劇《畢馬龍》。[s2] 古典神話裡另有一位同名的海中仙女伽拉忒亞（被獨眼巨人波呂斐摩斯追求），是兩個不同的角色。[s4]
+古代作者包括奧維德，都沒有稱她「伽拉忒亞」，故事只叫「畢馬龍與雕像」。[s1] 大英百科說，「伽拉忒亞」是「某些版本的畢馬龍故事」裡給這座雕像的名字；它同時是另一位海中仙女（涅瑞伊得斯）的名字，她被獨眼巨人波呂斐摩斯愛上，卻愛著年輕人阿喀斯，是兩個不同的角色。[s2]
 
 ## 今天在哪裡遇到
 

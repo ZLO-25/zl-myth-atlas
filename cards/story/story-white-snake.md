@@ -21,7 +21,7 @@ panels:
 sources:
   - {id: s1, kind: ancient, cite: 鄭還古《博異志·李黃》（唐代）, url: 'https://zh.wikisource.org/wiki/博異志'}
   - {id: s2, kind: ancient, cite: 馮夢龍《警世通言》第二十八卷〈白娘子永鎮雷峰塔〉（明代）, url: 'https://zh.wikisource.org/wiki/警世通言/第28卷'}
-  - {id: s3, kind: modern, cite: 維基文庫《博異志》題解（部份逸文來自《太平廣記》）, url: 'https://zh.wikisource.org/wiki/博異志', accessed: '2026-11-16'}
+  - {id: s3, kind: modern, cite: 杭州市文化廣電旅遊局「The Legend of the White Snake」, url: 'https://wgly.hangzhou.gov.cn/art/2023/8/9/art_1229740544_58948158.html', accessed: '2026-11-16'}
 era: cn-novels
 topics: [小說與戲曲]
 ---
@@ -56,4 +56,4 @@ topics: [小說與戲曲]
 
 ## 故事裡的場景
 
-杭州西湖、雷峰寺與清明借傘，都是這篇明代故事裡的場景。[s2] 《博異志》現存的版本，有些逸文是從《太平廣記》收集來的。[s3]
+杭州西湖、雷峰寺與清明借傘，都是這篇明代故事裡的場景。[s2] 杭州市文化廣電旅遊局的介紹說，白蛇傳是「流傳在杭州、在中國極受歡迎的民間故事」，講白素貞（蛇變成的女子）與許仙的愛情；雷峰塔是白素貞被關的地方，塔在 1924 年倒塌、2002 年重建，斷橋則是兩人相遇相愛的地方。[s3]
