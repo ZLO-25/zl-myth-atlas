@@ -5,7 +5,7 @@ myth_system: [chinese]
 name_zh: 湘君與湘夫人
 aliases: [湘君, 湘夫人, 湘妃, 娥皇女英, 二妃, 帝子, 湘水女神, Xiang Jun, Xiang Furen, Ehuang, Nüying]
 name_en: Lord and Lady of the Xiang
-name_orig: 湘君 湘夫人 / Xiāngjūn Xiāngfūrén
+name_orig: 湘君湘夫人 / Xiāngjūn Xiāngfūrén
 reality: {level: 純神話}
 three_lines:
   - 湘君、湘夫人是湘水的一對神，屈原《九歌》為她們各寫了一首歌。
