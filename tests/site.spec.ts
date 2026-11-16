@@ -29,9 +29,9 @@ test('首頁與各主要頁面都能打開、不會左右捲動', async ({ page 
   expect(errors).toEqual([]);
 });
 
-test('全部卡片（希羅 45 張＋中華＋北歐）都能打開，有三句話、來源清單，且不會左右捲動', async ({ page }) => {
+test('全部卡片（希羅 84 張＋中華＋北歐）都能打開，有三句話、來源清單，且不會左右捲動', async ({ page }) => {
   const errors = watchErrors(page);
-  expect(site.cards.filter((c: { myth_system: string[] }) => !c.myth_system.includes('chinese') && !c.myth_system.includes('norse')).length).toBe(45);
+  expect(site.cards.filter((c: { myth_system: string[] }) => !c.myth_system.includes('chinese') && !c.myth_system.includes('norse')).length).toBe(84);
   for (const id of cardIds) {
     await page.goto(`#/card/${id}`);
     await expect(page.locator('h1').first(), id).toBeVisible();
@@ -112,9 +112,9 @@ test('中華神話：卡片顯示拼音、傳承圖有傳位與對戰、年代�
   expect(errors).toEqual([]);
 });
 
-test('中華神話：32 張卡、中國地圖與傳承圖', async ({ page }) => {
+test('中華神話：至少 66 張卡、中國地圖與傳承圖', async ({ page }) => {
   const errors = watchErrors(page);
-  expect(site.cards.filter((c: { myth_system: string[] }) => c.myth_system.includes('chinese')).length).toBe(32);
+  expect(site.cards.filter((c: { myth_system: string[] }) => c.myth_system.includes('chinese')).length).toBeGreaterThanOrEqual(66);
   await page.goto('#/map');
   await page.locator('.sys-tabs').getByRole('button', { name: '中華' }).click();
   await expect(page.locator('.place-list li', { hasText: '涿鹿' })).toBeVisible();
