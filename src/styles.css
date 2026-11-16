@@ -317,7 +317,8 @@ pre.ascii { background: var(--surface); border: 1px solid var(--line); padding: 
 .acts a.on .act-no { background: #fff; color: var(--terra); }
 .act-no { display: inline-flex; align-items: center; justify-content: center; width: 1.5rem; height: 1.5rem; border-radius: 50%; background: var(--terra); color: #fff; font-size: 0.8rem; font-weight: 700; margin-right: 0.5rem; flex: none; }
 .overview h2 .act-no { width: 1.9rem; height: 1.9rem; font-size: 1rem; vertical-align: middle; }
-.overview section { scroll-margin-top: 7rem; }
+.overview section, .overview .part-head { scroll-margin-top: 9.5rem; }
+@media (max-width: 760px) { .overview section, .overview .part-head { scroll-margin-top: 15rem; } }
 .overview p strong { color: var(--terra); }
 .recap { background: var(--surface); border-left: 4px solid var(--olive); border-radius: 0 12px 12px 0; padding: 0.6rem 1rem; margin: 1.2rem 0 0; max-width: 46rem; box-shadow: var(--shadow); }
 .recap strong { color: var(--olive); font-size: 0.9rem; }
@@ -479,16 +480,17 @@ pre.ascii { background: var(--surface); border: 1px solid var(--line); padding: 
 .acts a.part-tab .part-count { font-weight: 400; font-size: 0.75rem; opacity: 0.8; }
 .acts a.part-tab.on { background: var(--part); color: #fff; }
 .acts .act-chips { display: flex; flex-wrap: wrap; gap: 0.3rem; align-items: center; }
-.acts .act-chips a { padding: 0.2rem; min-height: 32px; min-width: 32px; justify-content: center; }
+.acts .act-chips a { padding: 0.2rem 0.7rem 0.2rem 0.2rem; min-height: 32px; min-width: 32px; }
 .acts .act-chips a.on { padding-right: 0.7rem; border-color: var(--part); background: var(--part); color: #fff; }
 .acts .act-chips .act-no { background: var(--part); margin-right: 0; }
 .acts .act-chips a.on .act-no { background: #fff; color: var(--part); }
 .acts .act-title { white-space: nowrap; }
 @media (min-width: 761px) { .acts .part-tabs { max-width: 30rem; } }
-/* 手機：幕次只留數字、平均分配一排放得下（標題就在下方的章節標題，不重複） */
+/* 手機：幕次排成 4 欄格子，每格「數字＋短標題」，北歐、中華一排，希臘兩排 */
 @media (max-width: 760px) {
-  .acts .act-chips { flex-wrap: nowrap; }
-  .acts .act-chips a { flex: 1 1 0; min-width: 0; }
-  .acts .act-chips a.on { padding-right: 0.2rem; }
-  .acts .act-title { display: none; }
+  .acts .act-chips { display: grid; grid-template-columns: repeat(4, 1fr); }
+  .acts .act-chips a { min-width: 0; padding: 0.15rem 0.3rem 0.15rem 0.15rem; gap: 0.2rem; justify-content: flex-start; }
+  .acts .act-chips a.on { padding-right: 0.3rem; }
+  .acts .act-chips .act-no { width: 1.3rem; height: 1.3rem; font-size: 0.7rem; }
+  .acts .act-title { font-size: 0.75rem; overflow: hidden; text-overflow: clip; }
 }
