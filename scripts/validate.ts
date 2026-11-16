@@ -115,7 +115,11 @@ for (const c of cards) {
       usedImages.add(p.image);
     }
     checkSrc(`panels 第 ${i + 1} 格`, p.src);
+    if (p.short !== undefined && (typeof p.short !== 'string' || !p.short.trim() || [...p.short].length > 22))
+      err(w, `panels 第 ${i + 1} 格的 short 要 1–22 個字（30 秒字幕一眼要讀得完）`);
   }
+  const shorts = (c.panels ?? []).filter((p) => p.short !== undefined).length;
+  if (shorts > 0 && shorts !== c.panels!.length) err(w, `panels 的 short 要嘛每格都寫、要嘛都不寫（現在 ${shorts}/${c.panels!.length} 格）`);
   if (c.panels && (c.panels.length < 4 || c.panels.length > 8)) err(w, `分格故事要 4–8 格（現在 ${c.panels.length} 格）`);
 
   // 其他連結

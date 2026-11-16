@@ -1,12 +1,15 @@
 import { useRef, useState } from 'react';
 import type { Panel } from '../../scripts/lib/types';
 import { Figure, Inline } from './bits';
+import { QuickPlay } from './QuickPlay';
 
 /** 分格故事：一格＝一張圖＋2–4 句，可按鈕、鍵盤左右鍵或手指滑動翻頁 */
 export function Panels({ panels, cardId }: { panels: Panel[]; cardId: string }) {
   const [i, setI] = useState(0);
   const [cover, setCover] = useState(false); // 「講給別人聽」：只看圖，說明文字蓋住
   const [shown, setShown] = useState<Set<number>>(new Set());
+  const [quick, setQuick] = useState(false); // 「30 秒看完」自動播放
+  const canQuick = panels.every((x) => x.short && x.image);
   const startX = useRef<number | null>(null);
   const go = (d: number) => setI((x) => Math.min(panels.length - 1, Math.max(0, x + d)));
   const p = panels[i];
@@ -29,7 +32,13 @@ export function Panels({ panels, cardId }: { panels: Panel[]; cardId: string }) 
         startX.current = null;
       }}
     >
-      <div className="panel-tools">
+      {quick && <QuickPlay panels={panels} onClose={(at) => { setI(at); setQuick(false); }} />}
+      <div className="panel-tools" hidden={quick}>
+        {canQuick && (
+          <button type="button" className="quick-start" onClick={() => setQuick(true)}>
+            ▶ 30 秒看完
+          </button>
+        )}
         <button
           type="button"
           className="cover-toggle"
@@ -43,7 +52,7 @@ export function Panels({ panels, cardId }: { panels: Panel[]; cardId: string }) 
         </button>
         {cover && <span className="muted small">看著圖，試著用自己的話把這一格講出來，再翻開對照。</span>}
       </div>
-      <div className="panel-frame">
+      <div className="panel-frame" hidden={quick}>
         {p.image ? <Figure id={p.image} compact /> : <div className="panel-noimg" />}
         {hidden ? (
           <div className="panel-cover">
@@ -65,7 +74,7 @@ export function Panels({ panels, cardId }: { panels: Panel[]; cardId: string }) 
           </div>
         )}
       </div>
-      <div className="panel-nav">
+      <div className="panel-nav" hidden={quick}>
         <button onClick={() => go(-1)} disabled={i === 0} aria-label="上一格">
           ←
         </button>

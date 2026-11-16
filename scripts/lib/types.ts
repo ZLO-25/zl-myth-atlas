@@ -36,6 +36,7 @@ export interface Panel {
   image?: string; // data/images.yaml 的 id
   text: string;
   src: string[];
+  short?: string; // 「30 秒看完」用的一句字幕（22 字以內）；整個故事每格都有才會出現播放鈕
 }
 
 export interface Card {
