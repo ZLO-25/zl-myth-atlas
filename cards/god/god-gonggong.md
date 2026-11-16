@@ -24,10 +24,27 @@ family:
   foes:
     - {name: 顓頊（黃帝的孫子）, src: [s1]}
 sources:
-  - {id: s1, kind: ancient, cite: 《淮南子·天文訓》（西漢，劉安主編）, url: 'https://ctext.org/huainanzi/tian-wen-xun/zh'}
-  - {id: s2, kind: ancient, cite: 《山海經·海內經》, url: 'https://ctext.org/shan-hai-jing/hai-nei-jing/zh'}
-  - {id: s3, kind: ancient, cite: 《尚書·舜典》, url: 'https://ctext.org/shang-shu/canon-of-shun/zh'}
+  - {id: s1, kind: ancient, cite: 《淮南子·天文訓》（西漢，劉安主編）, url: 'https://zh.wikisource.org/wiki/淮南子/天文訓'}
+  - {id: s2, kind: ancient, cite: 《山海經·海內經》, url: 'https://zh.wikisource.org/wiki/山海經/海內經'}
+  - {id: s3, kind: ancient, cite: 《尚書·舜典》, url: 'https://zh.wikisource.org/wiki/尚書/舜典'}
   - {id: s4, kind: modern, cite: 大英百科「Chinese mythology」, url: 'https://www.britannica.com/topic/Chinese-mythology', accessed: '2026-11-15'}
+  - {id: s5, kind: ancient, cite: 《國語·周語下》（太子晉諫靈王）, url: 'https://zh.wikisource.org/wiki/國語/卷03'}
+  - {id: s6, kind: ancient, cite: 《國語·魯語上》（展禽論祀典）, url: 'https://zh.wikisource.org/wiki/國語/卷04'}
+  - {id: s7, kind: ancient, cite: 司馬遷《史記·五帝本紀》（西漢）, url: 'https://zh.wikisource.org/wiki/史記/卷001'}
+  - {id: s8, kind: ancient, cite: 《淮南子·本經訓》《原道訓》, url: 'https://zh.wikisource.org/wiki/淮南子/本經訓'}
+  - {id: s9, kind: ancient, cite: 《山海經·海外北經》, url: 'https://zh.wikisource.org/wiki/山海經/海外北經'}
+  - {id: s10, kind: ancient, cite: 《山海經·大荒北經》, url: 'https://zh.wikisource.org/wiki/山海經/大荒北經'}
+  - {id: s11, kind: ancient, cite: 《神異經·西北荒經》, url: 'https://zh.wikisource.org/wiki/神異經'}
+  - {id: s12, kind: ancient, cite: 《莊子·在宥》, url: 'https://zh.wikisource.org/wiki/莊子/在宥'}
+  - {id: s13, kind: ancient, cite: 屈原《楚辭·天問》王逸、洪興祖注, url: 'https://zh.wikisource.org/wiki/楚辭補註/卷第三'}
+  - {id: s14, kind: ancient, cite: 宗懍《荊楚歲時記》（南朝梁）, url: 'https://zh.wikisource.org/wiki/荊楚歲時記'}
+disputed:
+  - claim: 共工是神、是諸侯，還是罪臣
+    views:
+      - {view: 《山海經》：祝融之子，家中有相柳、相繇等蛇身九首的臣子, src: [s2, s9, s10]}
+      - {view: 《國語》：古代的諸侯，因堵塞百川而滅亡；賈逵說他是炎帝之後，與高辛爭王, src: [s5]}
+      - {view: 《尚書》《史記》：堯舜時代的官員，被流放到北方, src: [s3, s7]}
+      - {view: 《淮南子·本經訓》：舜時發大水的人, src: [s8]}
 era: cn-yanhuang
 topics: [洪水, 王權更替, 創世]
 ---
@@ -41,3 +58,28 @@ topics: [洪水, 王權更替, 創世]
 ### 同一個名字，兩種身分
 
 在《山海經》裡，共工是火神[[god-zhurong|祝融]]的兒子。[s2] 在《尚書·舜典》裡，共工卻成了被舜流放到幽州的「四罪」之一，是一個犯錯的人間官員。[s3] 這又是神話人物被寫進歷史的例子。[s4]
+
+### 各書怎麼說
+
+```
+  書              共工是誰
+  《山海經》      祝融之子，臣子九首蛇身
+  《神異經》      人面朱髮蛇身，貪惡愚頑
+  《國語》        堵塞百川而滅亡的諸侯
+  《尚書》《史記》被流放的堯舜時官員
+  《淮南子》      撞山、爭帝、興洪水
+```
+
+**《山海經》。** 〈海內經〉記世系：「祝融降處於江水，生共工。共工生術器，術器首方顚，是復土穰，以處江水。共工生后土，后土生噎鳴。」[s2] 也就是祝融生共工，共工的後代有術器，又有后土。[s2] 〈海外北經〉說：「共工之臣曰相柳氏，九首，以食于九山。相柳之所抵，厥為澤谿。禹殺相柳，其血腥，不可以樹五穀種。」意思是共工的臣子相柳有九個頭，所到之處變成沼澤；大禹殺了他，血太腥，連五穀都種不活。[s9] 〈大荒北經〉另有臣子「相繇，九首蛇身，自環，食于九土」。[s10] 這兩處又提到「共工之臺」，射箭的人都不敢朝北方射，因為怕得罪共工。[s9][s10]
+
+**《神異經》。** 〈西北荒經〉說：「西北荒有人焉，人面朱髮，蛇身人手足，而食五穀禽獸。貪惡愚頑，名曰共工。」[s11] 這就是「紅頭髮、人面蛇身」的來源，書裡同時說他是「貪惡愚頑」的人。[s11]
+
+**《國語》。** 〈周語下〉太子晉勸周靈王不要堵水，說：「昔共工棄此道也，虞于湛樂，淫失其身，欲壅防百川，墮高堙庳，以害天下。皇天弗福，庶民弗助，禍亂並興，共工用滅。」意思是共工只顧享樂，想把河流都堵起來、把高地削平、把低地填平，結果天不保佑、人民不幫忙，自己滅亡。[s5] 韋昭注裡還存有賈逵的說法：共工是炎帝之後、姜姓，在顓頊衰弱時侵凌諸侯，和高辛爭奪王位；韋昭自己不同意共工是堯時諸侯。[s5] 〈魯語上〉則說「共工氏之伯九有也，其子曰后土，能平九土」，把他寫成稱霸九州的首領，兒子后土反而管土地。[s6]
+
+**《尚書》與《史記》。** 〈舜典〉記舜處罰四個人：「流共工于幽洲，放驩兜于崇山，竄三苗于三危，殛鯀于羽山，四罪而天下咸服。」[s3] 《史記·五帝本紀》寫堯聽到有人推薦共工，說他「善言，其用僻，似恭漫天」，試用後果然行為邪僻，後來舜請求把共工流放到幽陵。[s7] 《莊子·在宥》也說「流共工於幽都」。[s12]
+
+**《淮南子》。** 除了〈天文訓〉的撞山，〈本經訓〉說：「舜之時，共工振滔洪水，以薄空桑」，大水逼得人民爬上丘陵、爬到樹上，舜只好派禹去治水。[s8] 〈原道訓〉又把撞山和與高辛爭帝連在一起，說他最後潛入深淵，宗族滅絕。[s8]
+
+### 後來怎麼變
+
+屈原〈天問〉問「康囘馮怒，墬何故以東南傾」，王逸注說康囘就是共工；洪興祖補注引書說共工是伏羲、神農之間的人，並不是堯時的共工。[s13] 這表示漢宋學者已經發現，古書裡有不只一個「共工」。[s13] 南朝《荊楚歲時記》還留下民間的說法：「共工氏有不才之子，以冬至死，為疫鬼，畏赤小豆，故冬至日作赤豆粥以禳之。」就是冬至煮紅豆粥驅除疫鬼的由來，這裡的主角是他的兒子，不是他本人。[s14]
