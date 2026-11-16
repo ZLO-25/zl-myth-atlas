@@ -90,7 +90,7 @@ export function Timeline() {
             <div className="hist-text">
               <strong>{h.label}</strong>
               <span className="muted">
-                {h.start === h.end ? `約${fmt(h.start)}年` : `約${fmt(h.start)}–${fmt(h.end).replace('西元 ', '')}年`}
+                {h.start === h.end ? `約${fmt(h.start)}年` : `約${fmt(h.start)}–${(h.start >= 0 ? fmt(h.end).replace('西元 ', '') : fmt(h.end))}年`}
               </span>
               <span>{h.note}</span>
               <span className="small">

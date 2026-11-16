@@ -12,12 +12,12 @@
 
 # ── 北歐（system: norse）：北歐神話主要靠兩部埃達留下來；這幾筆是它們被寫下的背景 ──
 - {system: norse, label: 維京時代, start: 793, end: 1066, note: 北歐人還信奉這些神的年代；這套信仰是隨著基督教的影響才慢慢改變的。, src: [{cite: World History Encyclopedia「Vikings」（Joshua J. Mark）, url: 'https://www.worldhistory.org/Vikings/'}, {cite: World History Encyclopedia「Norse Mythology」（Mark Cartwright）, url: 'https://www.worldhistory.org/Norse_Mythology/'}]}
-- {system: norse, label: 冰島改信基督教, start: 1000, end: 1000, note: 寫下《散文埃達》的斯諾里是冰島的基督徒，所以北歐神話是從基督教的角度被整理下來的。, src: [{cite: 《尼雅爾薩迦》第 105 章（冰島議會通過全民信基督教）註解「Iceland Accepts Christianity」, url: 'https://sites.pitt.edu/~dash/njal100.html'}, {cite: World History Encyclopedia「Christianization of Iceland」, url: 'https://www.worldhistory.org/article/2670/christianization-of-iceland/'}]}
+- {system: norse, label: 冰島改信基督教, start: 1000, end: 1000, note: 後來寫下《散文埃達》的斯諾里是冰島的基督徒，他是站在基督教的立場整理這些故事的。, src: [{cite: 《尼雅爾薩迦》第 105 章（冰島議會通過全民信基督教）註解「Iceland Accepts Christianity」, url: 'https://sites.pitt.edu/~dash/njal100.html'}, {cite: World History Encyclopedia「Christianization of Iceland」, url: 'https://www.worldhistory.org/article/2670/christianization-of-iceland/'}]}
 - {system: norse, label: 斯諾里寫《散文埃達》, start: 1220, end: 1220, note: 一本把北歐神話從頭到尾講清楚的整理本；很多完整的情節只見於這本書。, src: [{cite: World History Encyclopedia「Edda」, url: 'https://www.worldhistory.org/Edda/'}, {cite: World History Encyclopedia「Norse Mythology」, url: 'https://www.worldhistory.org/Norse_Mythology/'}]}
 - {system: norse, label: 《詩體埃達》編成, start: 1270, end: 1270, note: 一部古詩集，作者不明；詩很短、很跳，常常只用幾行帶過一件大事。, src: [{cite: World History Encyclopedia「Edda」, url: 'https://www.worldhistory.org/Edda/'}, {cite: World History Encyclopedia「Norse Mythology」, url: 'https://www.worldhistory.org/Norse_Mythology/'}]}
 
 # ── 中華（system: chinese）：沒有一本專講神話的書，故事散在不同時代的古書裡 ──
-- {system: chinese, label: 屈原與《楚辭》, start: -339, end: -278, note: 屈原的作品收在《楚辭》裡；〈天問〉連續問了許多關於天地與古神話的問題，本站的女媧、扶桑等卡都引用過。, src: [{cite: 大英百科「Qu Yuan」（約前 339 生，前 278 卒）, url: 'https://www.britannica.com/biography/Qu-Yuan'}]}
+- {system: chinese, label: 屈原與《楚辭》, start: -339, end: -278, note: 屈原的作品收在《楚辭》裡；本站的女媧、鯀、后羿等卡引用了其中的〈天問〉，扶桑、羲和等卡也引用《楚辭》。, src: [{cite: 大英百科「Qu Yuan」（約前 339 生，前 278 卒）, url: 'https://www.britannica.com/biography/Qu-Yuan'}]}
 - {system: chinese, label: 《山海經》, start: -300, end: 100, note: 一部記載山川、異獸與神怪的古書，本站的西王母、夸父、精衛等卡都引用它。, src: [{cite: 大英百科「Fenghuang」（《山海經》年代：前 3 世紀～西元 1 世紀）, url: 'https://www.britannica.com/topic/fenghuang'}]}
 - {system: chinese, label: 《淮南子》, start: -200, end: -101, note: 西漢淮南王劉安門下所編；女媧補天、嫦娥奔月、羿射十日等故事，本站引用的是這本書的記載。, src: [{cite: 大英百科「Huainanzi」（前 2 世紀，劉安主持編寫）, url: 'https://www.britannica.com/topic/Huainanzi'}]}
 - {system: chinese, label: 司馬遷與《史記》, start: -145, end: -87, note: 這段是司馬遷的生卒年（約前 145～前 87），大英百科沒寫《史記》完成的年份；《史記》把黃帝、堯舜禹寫成歷史人物，本站這些卡都引用它。, src: [{cite: 大英百科「Sima Qian」（約前 145 生，約前 87 卒）, url: 'https://www.britannica.com/biography/Sima-Qian'}]}
