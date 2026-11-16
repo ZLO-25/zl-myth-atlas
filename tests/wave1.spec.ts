@@ -57,10 +57,10 @@ test('第一波 3：導覽與首頁磚塊改叫「對照」，頁內有三個跳
   await expect(page).toHaveURL(/#\/compare$/);
   await expect(page.locator('h1')).toHaveText('對照');
   const btns = page.locator('.jump-btns button');
-  await expect(btns).toHaveText(['希臘 vs 羅馬', '中西神話對照', '北歐對照']);
+  await expect(btns).toHaveText(['三套神話對照', '中華與希臘羅馬', '希臘 vs 羅馬']);
   await btns.nth(1).click();
   await expect.poll(async () => (await page.locator('#cn-west').boundingBox())!.y).toBeLessThan(250);
-  await btns.nth(0).click();
+  await btns.nth(2).click();
   await expect.poll(async () => (await page.locator('#gr-rome').boundingBox())!.y).toBeLessThan(250);
   await expect(page).toHaveURL(/#\/compare$/);
 });
@@ -174,7 +174,7 @@ test('第一波 5：中華族譜一進來字就讀得清楚、從最上面開始
 test('第一波 6：對照表的中文名不逐字斷行，窄螢幕可橫滑並有提示', async ({ page, viewport }) => {
   await page.goto('#/compare');
   // 羅馬名欄的每一格文字都排在同一行上（同一行的字 top 相同），不會一字一行
-  const lines = await page.locator('table.compare').first().locator('tbody tr td:nth-child(3)').evaluateAll((tds) =>
+  const lines = await page.locator('#gr-rome table.compare').first().locator('tbody tr td:nth-child(3)').evaluateAll((tds) =>
     tds.map((t) => {
       const r = document.createRange();
       r.selectNodeContents(t);

@@ -28,10 +28,10 @@ cards/god/god-zeus.md
 |---|---|---|
 | `id` | ✔ | 英文小寫連字號，和檔名相同，例 `god-zeus`、`story-trojan-war`。前綴：`primordial-` `titan-` `god-` `hero-` `story-` `event-` `monster-` `beast-` `place-` |
 | `type` | ✔ | 原始神／泰坦／神／英雄／凡人／怪物／神獸（中華神話的祥獸，如龍、鳳凰）／故事／地點／物品 |
-| `myth_system` | ✔ | `[greek]`、`[roman]`、`[greek, roman]`，，中華神話 `[chinese]`，或北歐神話 `[norse]`（中華、北歐不和其他體系混用） |
+| `myth_system` | ✔ | 三套神話並列：希臘羅馬 `[greek]`、`[roman]` 或 `[greek, roman]`；北歐 `[norse]`；中華 `[chinese]`。北歐、中華不和其他體系混用。網站把 greek 與 roman 合成「希臘羅馬」一套 |
 | `name_zh` | ✔ | 台灣最通行譯名 |
 | `aliases` | ✔ | 其他中文譯名（含中國大陸譯名）、稱號、英文別名；全部可搜尋。簡體寫法由建置程式自動產生 |
-| `name_en`、`name_orig` | ✔ | 英文；原文（希臘文附拉丁轉寫，如 `Ζεύς / Zeus`；中華神話寫「漢字 / 帶聲調拼音」，如 `女媧 / Nǚwā`，網站會顯示成「女媧 Nuwa（Nǚwā）」） |
+| `name_en`、`name_orig` | ✔ | 英文；原文。希臘羅馬寫希臘文附拉丁轉寫，如 `Ζεύς / Zeus`；北歐寫古諾斯語附英文常用拼法，如 `Óðinn / Odin`；中華寫「漢字 / 帶聲調拼音」，如 `女媧 / Nǚwā`（只有中華有格式檢查），網站會顯示成「女媧 Nuwa（Nǚwā）」 |
 | `roman` | | `{name_zh, name_la, name_en?, card?, note?}` 對應的羅馬名 |
 | `reality` | ✔ | `{level: 純神話｜神話裡有歷史影子｜真實歷史, evidence?, src?}`；後兩者必須寫 evidence 與 src |
 | `three_lines` | ✔ | 剛好三句：他是誰、最有名的故事、為什麼今天你會遇到他 |
@@ -46,7 +46,7 @@ cards/god/god-zeus.md
 | `greek_vs_roman` | 奧林帕斯神必填 | `{text, src}`，寫真正的差異，不只是換名字 |
 | `today` | | 今日影子 id 清單 |
 | `places` | | `data/places.yaml` 的 id 或地點卡 id |
-| `era` | ✔ | `data/eras.yaml` 的 id；中華卡片只能用 `system: chinese` 的年代（`cn-` 開頭），北歐卡片只能用 `system: norse` 的年代（`no-` 開頭） |
+| `era` | ✔ | `data/eras.yaml` 的 id；要用自己那一套的年代：希臘羅馬用沒寫 `system` 的年代，北歐用 `system: norse`（`no-` 開頭），中華用 `system: chinese`（`cn-` 開頭） |
 | `topics` | ✔ | `data/topics.yaml` 的名稱 |
 | `disputed` | | `[{claim, views: [{view, src}]}]` |
 | `history_river` | | `{url, label}`，連到歷史長河的真實歷史卡 |
@@ -72,3 +72,5 @@ cards/god/god-zeus.md
 ## 今日影子（`data/today/*.yaml`）
 
 每筆 `{id, category, title, cards, what, diff, status: 已查證｜說法未證實, sources}`。`diff` 是「和原典差在哪」，一定要寫。
+
+網站依 `cards` 的**第一張卡**判斷這一條屬於希臘羅馬、北歐還是中華（今日影子頁的神話篩選、搜尋結果的標示都用它），所以北歐或中華的梗，第一張要放該套的卡。

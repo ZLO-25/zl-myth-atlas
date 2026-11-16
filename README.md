@@ -40,6 +40,12 @@ npm test           # Playwright 測試（桌機 1280、手機 390）
 3. 正文寫 `## 故事`，句尾標 `[s1]`；提到別張卡寫 `[[god-hera|希拉]]`。
 4. `npm run validate` 沒有錯誤就完成。
 
+三套神話各有要注意的欄位（以 `scripts/validate.ts` 的實際規則為準）：
+
+- `myth_system`：希臘羅馬用 `greek`、`roman`（可以並列）；北歐只寫 `[norse]`、中華只寫 `[chinese]`，這兩套不能和其他體系混。
+- `name_orig`：中華一定要寫成「漢字 / 拼音」，例如 `女媧 / Nǚwā`，格式不對會擋；希臘羅馬與北歐沒有格式檢查，慣例是希臘文或古諾斯語加英文拼法，例如 `Ζεύς / Zeus`、`Óðinn / Odin`。
+- `era`：要用自己那一套的年代。希臘羅馬用 `data/eras.yaml` 裡沒寫 `system` 的，北歐用 `system: norse`（`no-` 開頭），中華用 `system: chinese`（`cn-` 開頭），用錯會擋。
+
 ## 新增一張圖
 
 真實作品（只收公有領域或開放授權）：在 `data/images.yaml` 加一筆：
@@ -62,7 +68,7 @@ npm test           # Playwright 測試（桌機 1280、手機 390）
 
 AI 插畫：`kind: ai`、`ai: true`、`tool`、`prompt`，圖檔放 `public/images/ai/<卡片 id>/`，`file` 寫 `images/ai/<卡片 id>/<檔名>.webp`。還沒生圖時寫 `placeholder: true`。提示詞清單在 `data/ai-art-prompts.yaml`，畫風與角色設定見 [`docs/art-style.md`](docs/art-style.md)。
 
-然後在卡片的 `images:` 或 `panels:` 裡寫這個 id。
+然後在卡片的 `images:` 或 `panels:` 裡寫這個 id。三套神話的圖都一樣處理；目前漢代畫像石拓本等真實作品在中華卡片，北歐卡片的圖都是 AI 插畫，新增時照實標示 `kind`，不要把 AI 插畫標成古代作品。
 
 ## 新增一條今日影子
 
@@ -79,6 +85,8 @@ AI 插畫：`kind: ai`、`ai: true`、`tool`、`prompt`，圖檔放 `public/imag
   sources:
     - {cite: Etymonline「panic」, url: https://www.etymonline.com/word/panic}
 ```
+
+網站用 `cards` 的**第一張卡**決定這一條屬於哪一套神話（今日影子頁的篩選與搜尋結果都用它），所以北歐或中華的梗（例如 `thursday-thor` 連到索爾），第一張要放該套的卡。
 
 ## 授權
 
