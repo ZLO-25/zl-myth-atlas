@@ -22,3 +22,7 @@
 - {id: myth-to-history, name: 神話變歷史, desc: 神話人物被古代史書寫成真實的帝王（例如《史記》的黃帝、堯、舜、禹）。}
 - {id: sun-moon, name: 日月星辰, desc: 用神話解釋太陽、月亮與星星。}
 - {id: apocalypse, name: 末日與重生, desc: 世界怎麼走到盡頭，又怎麼重新開始。}
+- {id: folk-religion, name: 民間信仰, desc: 到今天廟裡還在拜的神，以及拜祂們的習俗。}
+- {id: novel, name: 小說與戲曲, desc: 後世的小說、戲曲與民間故事怎麼改寫、塑造神話人物。}
+- {id: afterlife, name: 死後世界, desc: 人死後去哪裡：冥界、英靈殿、地府，以及誰來審判。}
+- {id: festival, name: 節日與習俗, desc: 節日、星期、生肖這些日常習慣背後的神話。}
