@@ -153,7 +153,9 @@ test('地圖：北歐神話世界有世界樹示意圖，只畫卡片寫到的�
 test('地圖：中華神話世界只列清單、連到卡片、不畫圖', async ({ page }) => {
   await page.goto('#/map?sys=chinese&view=myth');
   await expect(page.getByText('沒有真實位置，所以不畫在地圖上')).toBeVisible();
-  await expect(page.locator('.myth-world-list li')).toHaveCount(3);
+  // 清單 = 年代「神話世界」的地點卡 + 不周山；張數從資料算，補進新地點卡也成立
+  const worldPlaces = site.cards.filter((c: { myth_system: string[]; type: string; era: string }) => c.myth_system.includes('chinese') && c.type === '地點' && c.era === 'cn-world').length;
+  await expect(page.locator('.myth-world-list li')).toHaveCount(worldPlaces + 1);
   for (const id of ['place-kunlun', 'place-fusang', 'story-buzhou']) await expect(page.locator(`.myth-world-list a[href="#/card/${id}"]`).first()).toBeVisible();
   await expect(page.locator('svg.yggdrasil, svg.underworld')).toHaveCount(0);
   await expect(page.locator('.leaflet-box')).toHaveCount(0);
