@@ -22,12 +22,14 @@ sources:
   - {id: s1, kind: ancient, cite: 《列子·湯問》（舊題戰國列禦寇，張湛注本）, url: 'https://zh.wikisource.org/wiki/列子/湯問篇'}
   - {id: s2, kind: ancient, cite: 《欽定四庫全書·列子》提要（清，紀昀等，乾隆四十三年）, url: 'https://zh.wikisource.org/wiki/列子_(四庫全書本)'}
   - {id: s3, kind: modern, cite: E. T. C. Werner《Myths and Legends of China》（1922，Project Gutenberg）, url: 'https://www.gutenberg.org/ebooks/15250', accessed: '2026-11-16'}
+  - {id: s4, kind: modern, cite: Herbert A. Giles《A History of Chinese Literature》（1901，Project Gutenberg）, url: 'https://www.gutenberg.org/ebooks/43711', accessed: '2026-11-16'}
 era: cn-world
 topics: [冒險與試煉]
 disputed:
   - claim: 《列子》是什麼時候寫成的
     views:
       - {view: 衛納（1922）把列子放在西元前五、四世紀, src: [s3]}
+      - {view: 翟理斯（Giles，1901）認為今本《列子》是偽作，可能出於西元一、二世紀, src: [s4]}
       - {view: 《四庫全書》提要說《湯問》提到鄒衍吹律，不可能出自列禦寇之手；但仍認為此書是秦以前的書，由弟子追記, src: [s2]}
 ---
 
@@ -58,13 +60,15 @@ disputed:
 舊題                    戰國列禦寇所寫
 衛納（1922）            列子活在西元前
                         五、四世紀
+翟理斯（1901）          今本是偽作，約
+                        西元一、二世紀
 《四庫全書》提要        湯問提到鄒衍，
                         不可能是列禦寇親筆，
                         但是秦以前的舊書，
                         由後人追記
 ```
 
-[s1][s2][s3]
+[s1][s2][s3][s4]
 
 ## 後來怎麼變
 
