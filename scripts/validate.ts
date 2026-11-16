@@ -17,7 +17,7 @@ try {
   console.error(`✖ ${(e as Error).message}`);
   process.exit(1);
 }
-const { cards, images, today, eras, places, topics, names } = data;
+const { cards, images, today, eras, places, topics, names, history } = data;
 
 const cardIds = new Set<string>();
 const imageById = new Map(images.map((i) => [i.id, i]));
@@ -216,12 +216,25 @@ for (const r of data.threeWay) {
 }
 
 // 地點
+const SYSTEM_KEYS = ['chinese', 'norse'];
 for (const p of places) {
   const w = `data/places.yaml（${p.id}）`;
   if (p.kind === 'real' && (typeof p.lat !== 'number' || typeof p.lng !== 'number')) err(w, '真實地點要有 lat／lng');
   if (!p.src?.length) err(w, '缺少來源');
+  if (p.system !== undefined && !SYSTEM_KEYS.includes(p.system)) err(w, `system 只能是 ${SYSTEM_KEYS.join('／')}（沒寫＝希臘羅馬）`);
   for (const id of p.cards ?? []) if (!cardIds.has(id)) err(w, `卡片 ${id} 不存在`);
+  if (p.system === 'norse' && !(p.cards ?? []).some((id) => isNorse(cards.find((c) => c.id === id)!))) err(w, '北歐地點至少連到 1 張北歐卡');
 }
+
+// 真實歷史參照軸（神話年代頁下半）
+for (const h of history) {
+  const w = `data/history.yaml（${h.label}）`;
+  if (h.system !== undefined && !SYSTEM_KEYS.includes(h.system)) err(w, `system 只能是 ${SYSTEM_KEYS.join('／')}（沒寫＝希臘羅馬）`);
+  if (!h.src?.length || h.src.some((s) => !s.cite || !/^https?:\/\//.test(s.url ?? ''))) err(w, '每筆歷史參照都要有來源（cite 與 url）');
+  if (typeof h.start !== 'number' || typeof h.end !== 'number' || h.end < h.start) err(w, 'start、end 要是數字，且 end 不早於 start');
+  if (!h.note) err(w, '缺少 note（這本書和神話的關係）');
+}
+for (const sys of [undefined, ...SYSTEM_KEYS]) if (history.filter((h) => h.system === sys).length < 3) err('data/history.yaml', `${sys ?? '希臘羅馬'} 的歷史參照至少要 3 筆`);
 
 const strict = process.argv.includes('--strict');
 for (const m of warnings) console.log(m);

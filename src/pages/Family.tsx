@@ -5,9 +5,11 @@ import { avatarOf, cardById, eraById, familyOf, imgSrc, isChinese, isNorse, site
 import { href, queryParam } from '../lib/router';
 import { cardNames, looseNames, type NameParts } from '../lib/names';
 import { isOrigHidden } from '../lib/prefs';
+import { SysTabs } from '../components/bits';
+import type { Sys } from '../lib/systems';
 
 const TWELVE = ['god-zeus', 'god-hera', 'god-poseidon', 'god-demeter', 'god-athena', 'god-apollo', 'god-artemis', 'god-ares', 'god-aphrodite', 'god-hephaestus', 'god-hermes', 'god-hestia', 'god-dionysus'];
-const HEROES = site.cards.filter((c) => c.type === '英雄' && !isChinese(c)).map((c) => c.id);
+const HEROES = site.cards.filter((c) => c.type === '英雄' && !isChinese(c) && !isNorse(c)).map((c) => c.id);
 
 interface Node {
   key: string;
@@ -32,6 +34,8 @@ const H = 68;
 type Mode = 'root' | 'all' | 'twelve' | 'hero' | 'cn' | 'norse';
 const MODES: Mode[] = ['root', 'all', 'twelve', 'hero', 'cn', 'norse'];
 const NORSE_HOME = 'god-odin';
+/** 每個模式屬於哪一套神話：北歐、中華各一個圖，其餘四個都是希臘羅馬 */
+const sysOfMode = (m: Mode): Sys => (m === 'norse' ? 'norse' : m === 'cn' ? 'chinese' : 'west');
 
 /** 族譜的狀態全部放在網址裡：#/family?mode=cn、#/family/god-zeus?mode=twelve、#/family?mode=hero&hero=hero-perseus
  *  這樣重新整理、上一頁、分享連結都會回到同一個畫面。沒寫 mode 時，有指定人物就以他為中心，否則看完整家譜。 */
@@ -100,24 +104,39 @@ export function Family({ focus }: { focus?: string }) {
 
   const pos = new Map(nodes.map((n) => [n.key, n]));
   const c = cardById.get(cur);
+  const sys = sysOfMode(mode);
+  /** 換一套神話：希臘羅馬回到完整家譜；北歐停在北歐人物（預設奧丁）；中華看傳承圖 */
+  const goSys = (k: Sys) => {
+    location.hash = k === 'west' ? familyHref('root') : k === 'norse' ? familyHref('norse', focusFor('norse')) : familyHref('cn');
+  };
   return (
     <div className="page family-page">
       <h1>族譜</h1>
-      <p className="lead">「完整家譜」從卡厄斯、蓋亞、烏拉諾斯一路往下排到奧林帕斯諸神；點任何一位，就切換成「以他為中心」展開父母、配偶與子女。可以拖曳、用滾輪或兩指縮放。虛線＝「另有一說」。北歐神話請按「北歐神話」，從奧丁開始，點人物就換成他當中心（還沒有卡片的人物不能點）。中華神話請按「中華神話：家族、傳位與對戰」。</p>
-      <div className="filters">
-        {([['root', '從原始神開始（完整家譜）'], ['all', '以一位為中心'], ['twelve', '只看奧林帕斯十二神'], ['hero', '看英雄的血統'], ['norse', '北歐神話（以奧丁為中心）'], ['cn', '中華神話：家族、傳位與對戰']] as [Mode, string][]).map(([m, label]) => (
-          <button key={m} className={mode === m ? 'on' : ''} aria-pressed={mode === m} onClick={() => (location.hash = familyHref(m, focusFor(m), hero))}>
-            {label}
-          </button>
-        ))}
-        {mode === 'hero' && (
-          <select value={hero} onChange={(e) => (location.hash = familyHref('hero', undefined, e.target.value))} aria-label="選擇英雄">
-            {HEROES.map((h) => (
-              <option key={h} value={h}>{cardById.get(h)?.name_zh} {cardById.get(h)?.name_en}</option>
-            ))}
-          </select>
-        )}
-      </div>
+      <SysTabs value={sys} onChange={(v) => { if (v !== 'all') goSys(v); }} label="選一套神話的族譜" />
+      <p className="lead">
+        {sys === 'west'
+          ? '希臘羅馬：「完整家譜」從卡厄斯、蓋亞、烏拉諾斯一路往下排到奧林帕斯諸神；點任何一位，就切換成「以他為中心」展開父母、配偶與子女。也可以只看十二位奧林帕斯神，或挑一位英雄看他的血統。'
+          : sys === 'norse'
+            ? '北歐：這張圖以奧丁為中心，展開他的父母、配偶與子女；點圖裡有卡片的人物，就換成他當中心（還沒有卡片的人物不能點）。畫的都是本站北歐卡片寫到的親屬關係。'
+            : '中華：沒有一本《神譜》定下全家譜，血緣多半來自《史記》替古帝王排的世系，所以除了血緣，這張圖也畫出「王位傳給誰」和「誰跟誰打過」。每一列大致對應一個神話年代，越往下越接近歷史。'}
+      </p>
+      <p className="muted small family-tip">操作：可以拖曳，用滾輪或兩指縮放；虛線＝「另有一說」。</p>
+      {sys === 'west' && (
+        <div className="filters family-sub" role="group" aria-label="希臘羅馬族譜的看法">
+          {([['root', '完整家譜'], ['all', '以一位為中心'], ['twelve', '只看奧林帕斯十二神'], ['hero', '看英雄的血統']] as [Mode, string][]).map(([m, label]) => (
+            <button key={m} className={mode === m ? 'on' : ''} aria-pressed={mode === m} onClick={() => (location.hash = familyHref(m, focusFor(m), hero))}>
+              {label}
+            </button>
+          ))}
+          {mode === 'hero' && (
+            <select value={hero} onChange={(e) => (location.hash = familyHref('hero', undefined, e.target.value))} aria-label="選擇英雄">
+              {HEROES.map((h) => (
+                <option key={h} value={h}>{cardById.get(h)?.name_zh} {cardById.get(h)?.name_en}</option>
+              ))}
+            </select>
+          )}
+        </div>
+      )}
       <div className="family-wrap">
         <svg ref={svgRef} className="family-svg" role="img" aria-label="族譜圖">
           <defs>
@@ -195,7 +214,7 @@ export function Family({ focus }: { focus?: string }) {
       </div>
       <Legend mode={mode} />
       {mode === 'cn' && (
-        <p className="muted small">中華神話沒有一本《神譜》定下全家譜，血緣多半來自《史記》替古帝王排的世系，所以除了血緣，這裡也畫出「王位傳給誰」和「誰跟誰打過」。每一列大致對應一個神話年代（左邊的名稱），越往下越接近歷史；沒有卡片的人物（虛線框）放在和他相連的人物上一列或下一列。點有卡片的人物會打開他的卡片。一進來是看得清楚的大小、從最上面開始：往下、往左右拖曳瀏覽，滾輪或兩指可以縮小看全貌。</p>
+        <p className="muted small">左邊是各列對應的神話年代名稱；沒有卡片的人物（虛線框）放在和他相連的人物上一列或下一列。點有卡片的人物會打開他的卡片。一進來是看得清楚的大小、從最上面開始：往下、往左右拖曳瀏覽，滾輪或兩指可以縮小看全貌。</p>
       )}
       {c && (mode === 'all' || mode === 'twelve' || mode === 'norse') && (
         <p>

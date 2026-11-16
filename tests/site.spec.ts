@@ -116,7 +116,7 @@ test('中華神話：32 張卡、中國地圖與傳承圖', async ({ page }) => 
   const errors = watchErrors(page);
   expect(site.cards.filter((c: { myth_system: string[] }) => c.myth_system.includes('chinese')).length).toBe(32);
   await page.goto('#/map');
-  await page.getByRole('button', { name: /中國/ }).click();
+  await page.locator('.sys-tabs').getByRole('button', { name: '中華' }).click();
   await expect(page.locator('.place-list li', { hasText: '涿鹿' })).toBeVisible();
   await expect(page.locator('.place-list li', { hasText: '德爾菲' })).toHaveCount(0);
   await page.goto('#/family/hero-yu');
@@ -128,8 +128,8 @@ test('中華神話：32 張卡、中國地圖與傳承圖', async ({ page }) => 
 test('中華神話：中西對照表與中國太空任務今日影子', async ({ page }) => {
   const errors = watchErrors(page);
   await page.goto('#/compare');
-  await expect(page.getByRole('heading', { name: '中西神話對照' })).toBeVisible();
-  await expect(page.locator('#cn-west tbody tr')).toHaveCount(6);
+  await expect(page.getByRole('heading', { name: '中華與希臘羅馬' })).toBeVisible();
+  await expect(page.locator('#cn-west tbody tr')).toHaveCount(3);
   await expect(page.locator('#cn-west')).toContainText('不是說哪一邊影響了哪一邊');
   await page.goto('#/card/god-zhurong');
   await expect(page.getByText('祝融號火星車與天問一號')).toBeVisible();

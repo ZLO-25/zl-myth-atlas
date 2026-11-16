@@ -36,7 +36,8 @@ test('北歐 15 張卡都在，正文每句都標來源，來源代號都存在'
 
 test('北歐：卡片列表可篩選「北歐」；沒有圖也正常顯示', async ({ page }) => {
   await page.goto('#/cards');
-  await page.getByRole('button', { name: '北歐', exact: true }).click();
+  await page.locator('.sys-tabs button', { hasText: '北歐' }).click();
+  await expect(page).toHaveURL(/#\/cards\?sys=norse$/);
   await expect(page.locator('.card-grid .tile')).toHaveCount(15);
   // 三張故事卡已有真圖（封面），其餘 12 張還沒有圖，顯示文字縮寫
   await expect(page.locator('.card-grid .tile img')).toHaveCount(3);
@@ -75,13 +76,13 @@ test('北歐：卡片頁名稱格式、體系標籤、年代、沒有圖時的�
 
 test('北歐：首頁有北歐新手路線（7 張），讀完會記已讀', async ({ page }) => {
   await page.goto('');
-  await expect(page.getByRole('heading', { name: /北歐神話新手路線/ })).toBeVisible();
-  const list = page.locator('section', { has: page.getByRole('heading', { name: /北歐神話新手路線/ }) });
+  await expect(page.getByRole('heading', { name: /北歐新手路線/ })).toBeVisible();
+  const list = page.locator('section', { has: page.getByRole('heading', { name: /北歐新手路線/ }) });
   await expect(list.locator('ol.path li')).toHaveCount(7);
   await expect(list.locator('.path-count')).toContainText('已讀 0/7');
   await expect(list.locator('.path-continue')).toContainText('尤彌爾');
   await page.goto('#/card/god-odin');
-  await expect(page.locator('aside.path-step')).toContainText('北歐神話新手路線第 2/7 張');
+  await expect(page.locator('aside.path-step')).toContainText('北歐新手路線第 2/7 張');
   await expect(page.locator('aside.path-step a.path-prev')).toContainText('尤彌爾');
   await expect(page.locator('aside.path-step a.path-next')).toContainText('索爾');
   await page.goto('');
@@ -94,7 +95,7 @@ test('北歐：新手路線 7 張，卡片頁的上一張／下一張照路線�
   await page.goto('#/card/' + PATH7[0]);
   for (let i = 0; i < PATH7.length; i++) {
     await expect(page).toHaveURL(new RegExp('#/card/' + PATH7[i] + '$'));
-    const step = page.locator('aside.path-step').filter({ hasText: '北歐神話新手路線' });
+    const step = page.locator('aside.path-step').filter({ hasText: '北歐新手路線' });
     await expect(step).toContainText(`第 ${i + 1}/7 張`);
     if (i === 0) await expect(step.locator('a.path-prev')).toHaveCount(0);
     else await expect(step.locator('a.path-prev')).toHaveAttribute('href', new RegExp('#/card/' + PATH7[i - 1] + '$'));
@@ -124,7 +125,7 @@ test('北歐：神話年代有北歐分頁，卡片的年代標籤會跳到北�
 
 test('北歐：族譜「北歐神話」模式以奧丁為中心，模式寫進網址', async ({ page }) => {
   await page.goto('#/family');
-  await page.getByRole('button', { name: /北歐神話（以奧丁為中心）/ }).click();
+  await page.locator('.sys-tabs').getByRole('button', { name: '北歐' }).click();
   await expect(page).toHaveURL(/#\/family\/god-odin\?mode=norse$/);
   await expect(page.locator('.family-svg .fnode.role-focus')).toContainText('奧丁');
   await expect(page.locator('.family-svg .fname', { hasText: '包爾' })).toBeVisible();
@@ -132,7 +133,7 @@ test('北歐：族譜「北歐神話」模式以奧丁為中心，模式寫進�
   await expect(page.locator('.family-svg .fname', { hasText: '芙麗嘉' })).toBeVisible();
   await expect(page.locator('.family-svg image')).toHaveCount(0);
   await page.reload();
-  await expect(page.locator('.filters button.on')).toContainText('北歐神話');
+  await expect(page.locator('.sys-tabs button.on')).toHaveText('北歐');
   // 點索爾 → 以索爾為中心，仍是北歐模式
   await page.locator('.family-svg .fnode.clickable', { hasText: '索爾' }).dispatchEvent('click');
   await expect(page).toHaveURL(/#\/family\/god-thor\?mode=norse$/);
@@ -142,7 +143,7 @@ test('北歐：族譜「北歐神話」模式以奧丁為中心，模式寫進�
   await expect(page.locator('.family-svg .fnode.role-focus')).toContainText('奧丁');
   // 從卡片頁的「在族譜裡展開」進來，預設就是北歐模式
   await page.goto('#/family/god-loki');
-  await expect(page.locator('.filters button.on')).toContainText('北歐神話');
+  await expect(page.locator('.sys-tabs button.on')).toHaveText('北歐');
   await expect(page.locator('.family-svg .fname', { hasText: '西格恩' })).toBeVisible();
   await expect(page.locator('.family-legend')).toContainText('夫妻');
   await page.screenshot({ path: 'test-results/norse-family.png' });
@@ -217,20 +218,20 @@ test('北歐：今日影子有 8 條北歐項目，連得回卡片，每條有�
   await expect(page.locator('.today-item.hl .diff')).toContainText('血盟兄弟');
 });
 
-test('北歐：對照頁有「北歐對照」三方表格，4 列，跳轉鈕可用，手機版可橫滑', async ({ page, viewport }) => {
+test('北歐：對照頁有「三套神話對照」三方表格，跳轉鈕可用，手機版可橫滑', async ({ page, viewport }) => {
   await page.goto('#/compare');
   const btns = page.locator('.jump-btns button');
-  await expect(btns).toHaveText(['希臘 vs 羅馬', '中西神話對照', '北歐對照']);
-  await btns.nth(2).click();
+  await expect(btns).toHaveText(['三套神話對照', '中華與希臘羅馬', '希臘 vs 羅馬']);
+  await btns.nth(0).click();
   await expect.poll(async () => (await page.locator('#norse-compare').boundingBox())!.y).toBeLessThan(250);
   const sec = page.locator('#norse-compare');
-  await expect(sec.locator('h2')).toHaveText('北歐對照');
-  await expect(sec.locator('tbody tr')).toHaveCount(4);
+  await expect(sec.locator('h2')).toHaveText('三套神話對照');
+  await expect(sec.locator('tbody tr')).toHaveCount(6);
   await expect(sec.locator('thead')).toContainText('北歐神話');
-  for (const theme of ['世界怎麼開始', '世界會不會結束', '誰是主神', '愛搗蛋的角色']) await expect(sec).toContainText(theme);
+  for (const theme of ['世界怎麼開始', '世界會不會結束', '誰是主神', '愛搗蛋的角色', '大洪水', '龍']) await expect(sec).toContainText(theme);
   await expect(sec).toContainText('不是說哪一邊影響了哪一邊');
   await expect(sec).toContainText('沒有世界末日的故事');
-  await expect(sec.locator('a[href="#/card/primordial-ymir"]')).toBeVisible();
+  await expect(sec.locator('a[href="#/card/primordial-ymir"]').first()).toBeVisible();
   await expect(sec.locator('a[href="#/card/story-ragnarok"]')).toBeVisible();
   await expect(sec.locator('a[href="#/card/god-odin"]')).toBeVisible();
   await expect(sec.locator('a[href="#/card/god-loki"]')).toBeVisible();

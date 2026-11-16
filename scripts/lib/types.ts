@@ -134,6 +134,8 @@ export interface Era {
 }
 
 export interface HistoryRef {
+  /** 屬於哪個神話體系的歷史參照；沒寫＝希臘羅馬 */
+  system?: 'chinese' | 'norse';
   label: string;
   start: number; // 西元前用負數
   end: number;
@@ -147,7 +149,7 @@ export interface Place {
   name_en: string;
   name_orig?: string; // 古代原文，例如 Δελφοί
   /** 屬於哪個神話體系；沒寫＝希臘羅馬 */
-  system?: 'chinese';
+  system?: 'chinese' | 'norse';
   kind: 'real' | 'mythic';
   lat?: number;
   lng?: number;

@@ -19,7 +19,7 @@ const readToEnd = async (page: Page, id: string) => {
 test('第二波 2：卡片頁顯示新手路線第幾張、上一張與下一張', async ({ page }) => {
   await page.goto('#/card/story-persephone');
   const step = page.locator('aside.path-step');
-  await expect(step).toContainText('新手路線第 5/8 張');
+  await expect(step).toContainText('希臘羅馬新手路線第 5/8 張');
   await expect(step.locator('a.path-prev')).toContainText('普羅米修斯');
   await expect(step.locator('a.path-next')).toContainText('特洛伊戰爭');
   // 放在「接著讀」上方
@@ -33,7 +33,7 @@ test('第二波 2：卡片頁顯示新手路線第幾張、上一張與下一張
   await page.goto('#/card/primordial-gaia');
   await expect(page.locator('aside.path-step a.path-prev')).toHaveCount(0);
   await page.goto('#/card/hero-yu');
-  await expect(page.locator('aside.path-step')).toContainText('中華神話新手路線第 7/7 張');
+  await expect(page.locator('aside.path-step')).toContainText('中華新手路線第 7/7 張');
   await expect(page.locator('aside.path-step a.path-next')).toHaveCount(0);
   // 不在路線裡的卡不顯示
   await page.goto('#/card/god-apollo');
@@ -61,7 +61,7 @@ test('第二波 1：讀到底記為已讀，磚塊與首頁路線顯示進度，
   await expect(page.locator('.path-continue').first()).toContainText('繼續讀下一張：克羅諾斯');
   await expect(page.locator('.progress-box')).toContainText('1 /');
 
-  // 卡片磚塊（首頁「最多人認識的 6 張」與卡片列表）也有勾勾
+  // 卡片磚塊（首頁「三套神話各挑兩張」與卡片列表）也有勾勾
   await readToEnd(page, 'god-zeus');
   await page.goto('#/cards');
   await expect(page.locator('a.tile.is-read .read-badge')).toHaveCount(2);
@@ -335,7 +335,7 @@ test('第二波 6：隱藏原文開關：預設顯示原文，切換後全站只
   // 族譜與對照表
   await page.goto('#/compare');
   await expect(page.locator('th', { hasText: '希臘原文' })).toBeHidden();
-  expect(await page.locator('table.compare').first().innerText()).not.toMatch(greek);
+  expect(await page.locator('#gr-rome table.compare').first().innerText()).not.toMatch(greek);
   await page.goto('#/family');
   await expect(page.locator('.family-svg .fname', { hasText: '蓋亞' })).toBeVisible();
   expect(await page.locator('.family-svg .forig').evaluateAll((els) => els.every((e) => getComputedStyle(e).display === 'none'))).toBe(true);

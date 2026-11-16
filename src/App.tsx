@@ -65,7 +65,7 @@ export default function App() {
         <button
           type="button"
           className="orig-toggle"
-          title={hideOrig ? '名字旁邊會再出現希臘文、拉丁文等原文' : '名字只留中文與英文，比較不會眼花'}
+          title={hideOrig ? '名字旁邊會再出現希臘文、拉丁文、古諾斯語、拼音等原文' : '名字只留中文與英文，比較不會眼花（原文包括希臘文、拉丁文、古諾斯語、拼音）'}
           onClick={() => setOrigHidden(!hideOrig)}
         >
           {hideOrig ? '顯示原文' : '隱藏原文'}

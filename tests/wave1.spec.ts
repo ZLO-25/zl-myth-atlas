@@ -57,10 +57,10 @@ test('第一波 3：導覽與首頁磚塊改叫「對照」，頁內有三個跳
   await expect(page).toHaveURL(/#\/compare$/);
   await expect(page.locator('h1')).toHaveText('對照');
   const btns = page.locator('.jump-btns button');
-  await expect(btns).toHaveText(['希臘 vs 羅馬', '中西神話對照', '北歐對照']);
+  await expect(btns).toHaveText(['三套神話對照', '中華與希臘羅馬', '希臘 vs 羅馬']);
   await btns.nth(1).click();
   await expect.poll(async () => (await page.locator('#cn-west').boundingBox())!.y).toBeLessThan(250);
-  await btns.nth(0).click();
+  await btns.nth(2).click();
   await expect.poll(async () => (await page.locator('#gr-rome').boundingBox())!.y).toBeLessThan(250);
   await expect(page).toHaveURL(/#\/compare$/);
 });
@@ -101,26 +101,26 @@ test('第一波 4：搜尋容錯、搜內文、不相干的詞顯示找不到', 
 
 test('第一波 5：族譜模式寫進網址，重新整理與上一頁都正確', async ({ page }) => {
   await page.goto('#/family');
-  await expect(page.locator('.filters button.on')).toContainText('從原始神開始');
+  await expect(page.locator('.family-sub button.on')).toContainText('完整家譜');
   // 切到中華：網址變 ?mode=cn
-  await page.getByRole('button', { name: /中華神話：家族/ }).click();
+  await page.locator('.sys-tabs').getByRole('button', { name: '中華' }).click();
   await expect(page).toHaveURL(/#\/family\?mode=cn$/);
   await expect(page.locator('.family-svg .fname', { hasText: '蚩尤' })).toBeVisible();
   // 重新整理仍是中華
   await page.reload();
-  await expect(page.locator('.filters button.on')).toContainText('中華神話');
+  await expect(page.locator('.sys-tabs button.on')).toHaveText('中華');
   await expect(page.locator('.family-svg .fname', { hasText: '蚩尤' })).toBeVisible();
   // 上一頁回到完整家譜
   await page.goBack();
   await expect(page).toHaveURL(/#\/family$/);
-  await expect(page.locator('.filters button.on')).toContainText('從原始神開始');
+  await expect(page.locator('.family-sub button.on')).toContainText('完整家譜');
   await expect(page.locator('.family-svg .fname', { hasText: '烏拉諾斯' })).toBeVisible();
   // 以某位為中心 + 十二神
   await page.goto('#/family/god-zeus?mode=twelve');
-  await expect(page.locator('.filters button.on')).toContainText('十二神');
+  await expect(page.locator('.family-sub button.on')).toContainText('十二神');
   const twelve = await page.locator('.family-svg .fname').count();
   await page.goto('#/family/god-zeus?mode=all');
-  await expect(page.locator('.filters button.on')).toContainText('以一位為中心');
+  await expect(page.locator('.family-sub button.on')).toContainText('以一位為中心');
   expect(await page.locator('.family-svg .fname').count()).toBeGreaterThan(twelve);
   // 點圖上的另一位 → 網址換成那一位，上一頁回到宙斯
   await page.locator('.family-svg .fnode.role-child.clickable').first().dispatchEvent('click');
@@ -174,7 +174,7 @@ test('第一波 5：中華族譜一進來字就讀得清楚、從最上面開始
 test('第一波 6：對照表的中文名不逐字斷行，窄螢幕可橫滑並有提示', async ({ page, viewport }) => {
   await page.goto('#/compare');
   // 羅馬名欄的每一格文字都排在同一行上（同一行的字 top 相同），不會一字一行
-  const lines = await page.locator('table.compare').first().locator('tbody tr td:nth-child(3)').evaluateAll((tds) =>
+  const lines = await page.locator('#gr-rome table.compare').first().locator('tbody tr td:nth-child(3)').evaluateAll((tds) =>
     tds.map((t) => {
       const r = document.createRange();
       r.selectNodeContents(t);

@@ -3,6 +3,7 @@ import type { Card, ImageItem, Source } from '../../scripts/lib/types';
 import { avatarOf, cardById, imageById, imgSrc, stripLinks } from '../lib/data';
 import { href } from '../lib/router';
 import { cardNames, enOrig } from '../lib/names';
+import { SYSTEMS, type Sys } from '../lib/systems';
 
 /** 卡片連結：滑過（或手機點一下旁邊的小圓點）浮出小卡。
  *  沒給 children 時顯示完整名稱「宙斯 Zeus（Ζεύς）」；正文裡的連結（有 children）維持原字，免得打斷閱讀。 */
@@ -200,6 +201,35 @@ export function ScrollTable({ children }: { children: ReactNode }) {
       <div className="table-wrap" ref={box} onScroll={update}>
         {children}
       </div>
+    </div>
+  );
+}
+
+/** 三套神話的分頁鈕：三顆同樣大小、依固定順序（希臘羅馬、北歐、中華），放不下就換行。
+ *  value 是目前選的那套（'all' 代表全部，只有加 all 才會出現「全部」那顆）；counts 可帶張數。
+ *  用法：<SysTabs value={sys} onChange={setSys} counts={{ west: 58, norse: 15, chinese: 32 }} label="選一套神話" /> */
+export function SysTabs({
+  value,
+  onChange,
+  counts,
+  all,
+  label = '選一套神話',
+}: {
+  value: Sys | 'all';
+  onChange: (v: Sys | 'all') => void;
+  counts?: Partial<Record<Sys | 'all', number>>;
+  all?: boolean;
+  label?: string;
+}) {
+  const items: { key: Sys | 'all'; label: string; cls: string }[] = [...(all ? [{ key: 'all' as const, label: '全部', cls: 'sys-all' }] : []), ...SYSTEMS];
+  return (
+    <div className="sys-tabs" role="group" aria-label={label}>
+      {items.map((s) => (
+        <button key={s.key} type="button" className={`${s.cls}${value === s.key ? ' on' : ''}`} aria-pressed={value === s.key} onClick={() => onChange(s.key)}>
+          {s.label}
+          {counts?.[s.key] != null && <span className="count">{counts[s.key]}</span>}
+        </button>
+      ))}
     </div>
   );
 }
