@@ -1,0 +1,30 @@
+import { test, expect } from '@playwright/test';
+
+test('總覽：三套神話並列（開頭的來源說明、三部、極短版可切換）', async ({ page }) => {
+  await page.goto('#/overview');
+  // 開頭先說三套神話各是怎麼留下來的，表格有三欄
+  const guide = page.locator('#ov-sources-guide');
+  await expect(guide.locator('h2')).toContainText('怎麼留到今天');
+  await expect(guide.locator('table.src-table thead th')).toHaveText(['', '希臘羅馬', '北歐', '中華']);
+  await expect(guide).toContainText('可信度');
+  // 三部的開頭橫幅，順序是希臘羅馬 → 北歐 → 中華
+  await expect(page.locator('.part-title')).toHaveText(['希臘羅馬神話：八幕', '北歐神話：四幕', '中華神話：五幕']);
+  // 幕次導覽分三組
+  await expect(page.locator('nav.acts .act-group')).toHaveCount(3);
+  await expect(page.locator('nav.acts .part-label')).toHaveText(['希臘羅馬', '北歐', '中華']);
+  // 極短版：預設希臘羅馬 8 行，切到北歐 7 行、中華 7 行
+  const quick = page.locator('aside.quick');
+  await expect(quick.locator('li a')).toHaveCount(8);
+  await quick.getByRole('button', { name: '北歐' }).click();
+  await expect(quick.locator('li a')).toHaveCount(7);
+  await expect(quick.locator('li a').first()).toHaveText('尤彌爾');
+  await quick.getByRole('button', { name: '中華' }).click();
+  await expect(quick.locator('li a').first()).toHaveText('盤古');
+  // 北歐、中華各幕裡的卡片連結都點得到
+  await page.locator('#ov-n3 a[href="#/card/god-loki"]').first().click();
+  await expect(page).toHaveURL(/#\/card\/god-loki/);
+  // 整頁不會左右捲動
+  await page.goto('#/overview');
+  const over = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
+  expect(over).toBeLessThanOrEqual(1);
+});

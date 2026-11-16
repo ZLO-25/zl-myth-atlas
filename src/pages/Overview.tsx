@@ -3,21 +3,35 @@ import { CardLink, ScrollTable } from '../components/bits';
 import { fullName, romanNames } from '../lib/names';
 import { cardById, site } from '../lib/data';
 import { href } from '../lib/router';
-import { STARTER_PATH } from '../lib/paths';
+import { CN_PATH, NORSE_PATH, STARTER_PATH } from '../lib/paths';
 
 /**
- * 總覽：把希臘羅馬神話當成「一個連續的故事」講一遍，八幕，約 20 分鐘。
- * 觀念、表格、希羅對照都嵌在故事該出現的地方，而不是另外列。
+ * 總覽：本站三套神話（希臘羅馬、北歐、中華）各講成「一個連續的故事」。
+ * 開頭先說三套神話各是怎麼留下來的、可信度差在哪；接著三部各自成篇，可以只讀一部；
+ * 尾聲把三套放在一起看。觀念、表格、對照都嵌在故事該出現的地方，而不是另外列。
+ * 這一頁只寫各卡片已經查證、寫了來源的內容。
  */
 
 const TWELVE = ['god-zeus', 'god-hera', 'god-poseidon', 'god-demeter', 'god-athena', 'god-apollo', 'god-artemis', 'god-ares', 'god-aphrodite', 'god-hephaestus', 'god-hermes', 'god-dionysus'];
 
+const PE = 'https://www.gutenberg.org/ebooks/73533';
+const GYLF = 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html';
+const GYLF51 = 'https://www.voluspa.org/gylfaginning51-54.htm';
+
 /** 本頁引用的來源：總覽不屬於任何一張卡，所以自己列。編號照出現順序 */
 const SRC = {
+  // ── 開頭：三套神話怎麼留下來 ──
   wheMyth: { k: 'modern', cite: 'World History Encyclopedia「Greek Mythology」（Mark Cartwright）', url: 'https://www.worldhistory.org/Greek_Mythology/' },
   wheHomer: { k: 'modern', cite: 'World History Encyclopedia「Homer」', url: 'https://www.worldhistory.org/homer/' },
   wheHesiod: { k: 'modern', cite: 'World History Encyclopedia「Hesiod」', url: 'https://www.worldhistory.org/hesiod/' },
   wheOvid: { k: 'modern', cite: 'World History Encyclopedia「Ovid」', url: 'https://www.worldhistory.org/Ovid/' },
+  wheNorse: { k: 'modern', cite: 'World History Encyclopedia「Norse Mythology」（《詩體埃達》約 1270 年編成、斯諾里《散文埃達》約 1220 年、斯諾里站在基督教的立場寫作）', url: 'https://www.worldhistory.org/Norse_Mythology/' },
+  poeticEdda: { k: 'ancient', cite: '《詩體埃達》（Bellows 英譯，全書）', url: PE },
+  proseEdda: { k: 'ancient', cite: '斯諾里《散文埃達》〈欺騙古魯菲〉（Brodeur 英譯，全篇）', url: GYLF },
+  britFeng: { k: 'modern', cite: '大英百科「Fenghuang」（《山海經》年代：前 3 世紀～西元 1 世紀）', url: 'https://www.britannica.com/topic/fenghuang' },
+  britCn: { k: 'modern', cite: '大英百科「Chinese mythology」', url: 'https://www.britannica.com/topic/Chinese-mythology' },
+  sanwu: { k: 'ancient', cite: '徐整《三五曆紀》（三國吳），見歐陽詢《藝文類聚》卷1〈天部上〉', url: 'https://zh.wikisource.org/wiki/%E8%97%9D%E6%96%87%E9%A1%9E%E8%81%9A/%E5%8D%B7001' },
+  // ── 第一部：希臘羅馬 ──
   theog116: { k: 'ancient', cite: '赫西俄德《神譜》116–210（卡厄斯、蓋亞、烏拉諾斯被閹割、阿芙蘿黛蒂誕生）', url: 'https://www.theoi.com/Text/HesiodTheogony.html' },
   theog453: { k: 'ancient', cite: '赫西俄德《神譜》453–506（克羅諾斯吞子、瑞亞調包）', url: 'https://www.theoi.com/Text/HesiodTheogony.html' },
   theog617: { k: 'ancient', cite: '赫西俄德《神譜》617–735（泰坦之戰、塔爾塔羅斯）', url: 'https://www.theoi.com/Text/HesiodTheogony.html' },
@@ -46,6 +60,52 @@ const SRC = {
   odyssey12: { k: 'ancient', cite: '荷馬《奧德賽》卷 12（海妖、太陽神的牛）、卷 23（床的祕密）', url: 'https://www.theoi.com/Text/HomerOdyssey12.html' },
   livy1: { k: 'ancient', cite: '李維《羅馬史》1.3–1.7（羅慕路斯與雷穆斯）', url: 'https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0151:book=1:chapter=4' },
   wheReligion: { k: 'modern', cite: 'World History Encyclopedia「Roman Religion」', url: 'https://www.worldhistory.org/Roman_Religion/' },
+  // ── 第二部：北歐 ──
+  vsp3: { k: 'ancient', cite: '《詩體埃達》〈女先知的預言〉第 2–3 節與 Bellows 註解（最初的裂口、九個世界沒有列名字）', url: PE },
+  g5: { k: 'ancient', cite: '斯諾里《散文埃達》〈欺騙古魯菲〉第 5–9 章（尤彌爾、母牛、包爾的兒子、身體變成世界、第一對人類）', url: GYLF },
+  g15: { k: 'ancient', cite: '斯諾里《散文埃達》〈欺騙古魯菲〉第 15–16 章（世界樹的三條根、密米爾之泉、樹上的住客）', url: GYLF },
+  vsp19: { k: 'ancient', cite: '《詩體埃達》〈女先知的預言〉第 19–20 節（常綠的白蠟樹、三位諾恩）', url: PE },
+  g20: { k: 'ancient', cite: '斯諾里《散文埃達》〈欺騙古魯菲〉第 20–22 章（奧丁、索爾、巴德爾）', url: GYLF },
+  vsp29: { k: 'ancient', cite: '《詩體埃達》〈女先知的預言〉第 27、29、47 節（押在泉裡的眼睛；密米爾的頭）', url: PE },
+  hav139: { k: 'ancient', cite: '《詩體埃達》〈高人的箴言〉第 139–140 節（奧丁吊在樹上九夜）', url: PE },
+  g34: { k: 'ancient', cite: '斯諾里《散文埃達》〈欺騙古魯菲〉第 25、33–34 章（提爾、洛基和他的三個孩子、綁住芬里爾）', url: GYLF },
+  g48: { k: 'ancient', cite: '斯諾里《散文埃達》〈欺騙古魯菲〉第 48 章（索爾釣大蛇）', url: GYLF },
+  etymDays: { k: 'modern', cite: 'Online Etymology Dictionary「Tuesday」「Wednesday」', url: 'https://www.etymonline.com/word/Wednesday' },
+  lok9: { k: 'ancient', cite: '《詩體埃達》〈洛基的爭辯〉第 9 節與結尾的散文說明（血盟兄弟；洛基被綁）', url: PE },
+  g42: { k: 'ancient', cite: '斯諾里《散文埃達》〈欺騙古魯菲〉第 42 章（巨人工匠與斯雷普尼爾）', url: GYLF },
+  thrym: { k: 'ancient', cite: '《詩體埃達》〈索列姆之歌〉（索爾扮新娘）', url: PE },
+  g49: { k: 'ancient', cite: '斯諾里《散文埃達》〈欺騙古魯菲〉第 49 章（巴德爾之死）', url: GYLF },
+  vsp32: { k: 'ancient', cite: '《詩體埃達》〈女先知的預言〉第 32–33 節（槲寄生與霍德爾，只有幾行）', url: PE },
+  wheThor: { k: 'modern', cite: 'World History Encyclopedia「Thor」（在埃達裡索爾不是洛基的兄弟）', url: 'https://www.worldhistory.org/Thor/' },
+  vsp44: { k: 'ancient', cite: '《詩體埃達》〈女先知的預言〉第 44–56 節（諸神黃昏）', url: PE },
+  g51: { k: 'ancient', cite: '斯諾里《散文埃達》〈欺騙古魯菲〉第 51 章（諸神黃昏的對戰）', url: GYLF51 },
+  vsp59: { k: 'ancient', cite: '《詩體埃達》〈女先知的預言〉第 59、62 節（大地再升起、巴德爾回來）', url: PE },
+  g53: { k: 'ancient', cite: '斯諾里《散文埃達》〈欺騙古魯菲〉第 53 章（活下來的神與人）', url: GYLF51 },
+  wheRagnarok: { k: 'modern', cite: 'World History Encyclopedia「Ragnarök」（重生段落可能受基督教影響）', url: 'https://www.worldhistory.org/Ragnarok/' },
+  // ── 第三部：中華 ──
+  wuyun: { k: 'ancient', cite: '徐整《五運歷年紀》，見馬驌《繹史》卷1（盤古化身）', url: 'https://zh.wikisource.org/zh-hant/%E7%B9%B9%E5%8F%B2_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)/%E5%85%A8%E8%A6%BD1' },
+  fengsu: { k: 'ancient', cite: '應劭《風俗通義》佚文，見《太平御覽》卷78〈皇王部三〉（女媧捏土造人）', url: 'https://zh.wikisource.org/zh/%E5%A4%AA%E5%B9%B3%E5%BE%A1%E8%A6%BD/0078' },
+  lanming: { k: 'ancient', cite: '《淮南子·覽冥訓》（西漢，劉安主編；女媧補天、嫦娥奔月）', url: 'https://ctext.org/huainanzi/lan-ming-xun/zh' },
+  tianwenxun: { k: 'ancient', cite: '《淮南子·天文訓》（共工撞不周山）', url: 'https://ctext.org/huainanzi/tian-wen-xun/zh' },
+  liezi: { k: 'ancient', cite: '《列子·湯問》（先講補天，再講共工）', url: 'https://ctext.org/liezi/tang-wen/zh' },
+  tianwen: { k: 'ancient', cite: '屈原《楚辭·天問》（「女媧有體，孰制匠之？」；替鯀抱不平）', url: 'https://ctext.org/chu-ci/tian-wen/zh' },
+  xici: { k: 'ancient', cite: '《周易·繫辭下》（約戰國；伏羲畫八卦、神農作耒耜）', url: 'https://ctext.org/book-of-changes/xi-ci-xia/zh' },
+  xiuwu: { k: 'ancient', cite: '《淮南子·修務訓》（神農嘗百草）', url: 'https://ctext.org/huainanzi/xiu-wu-xun/zh' },
+  benjing: { k: 'ancient', cite: '《淮南子·本經訓》（倉頡作書、羿射十日）', url: 'https://ctext.org/huainanzi/ben-jing-xun/zh' },
+  dahuangbei: { k: 'ancient', cite: '《山海經·大荒北經》（黃帝與蚩尤；天女魃；夸父「不量力」）', url: 'https://ctext.org/shan-hai-jing/da-huang-bei-jing/zh' },
+  wudi: { k: 'ancient', cite: '司馬遷《史記·五帝本紀》（西漢；阪泉、涿鹿、堯舜禪讓）', url: 'https://ctext.org/shiji/wu-di-ben-ji/zh' },
+  britHuangdi: { k: 'modern', cite: '大英百科「Huangdi」', url: 'https://www.britannica.com/topic/Huangdi' },
+  haiwaixi: { k: 'ancient', cite: '《山海經·海外西經》（形天）', url: 'https://ctext.org/shan-hai-jing/hai-wai-xi-jing/zh' },
+  dahuangnan: { k: 'ancient', cite: '《山海經·大荒南經》、〈海外東經〉（羲和生十日、扶桑）', url: 'https://ctext.org/shan-hai-jing/da-huang-nan-jing/zh' },
+  britHouyi: { k: 'modern', cite: '大英百科「Hou Yi」（「射九留一」是後世說法）', url: 'https://www.britannica.com/topic/Hou-Yi' },
+  britChange: { k: 'modern', cite: '大英百科「Chang’e」（月宮、玉兔是後來加的）', url: 'https://www.britannica.com/topic/Change-Chinese-deity' },
+  xishan: { k: 'ancient', cite: '《山海經·西山經》（西王母「豹尾虎齒」）', url: 'https://ctext.org/shan-hai-jing/xi-shan-jing/zh' },
+  haiwaibei: { k: 'ancient', cite: '《山海經·海外北經》（夸父逐日）', url: 'https://ctext.org/shan-hai-jing/hai-wai-bei-jing/zh' },
+  beishan: { k: 'ancient', cite: '《山海經·北山經》（精衛）', url: 'https://ctext.org/shan-hai-jing/bei-shan-jing/zh' },
+  haineijing: { k: 'ancient', cite: '《山海經·海內經》（鯀竊息壤、被祝融所殺）', url: 'https://ctext.org/shan-hai-jing/hai-nei-jing/zh' },
+  xiabenji: { k: 'ancient', cite: '司馬遷《史記·夏本紀》（鯀治水九年、禹疏導洪水）', url: 'https://ctext.org/shiji/xia-ben-ji/zh' },
+  mengzi: { k: 'ancient', cite: '《孟子·滕文公上》（禹三過家門不入）', url: 'https://ctext.org/mengzi/teng-wen-gong-i/zh' },
+  britXia: { k: 'modern', cite: '大英百科「Xia dynasty」', url: 'https://www.britannica.com/topic/Xia-dynasty' },
 };
 type K = keyof typeof SRC;
 const keys = Object.keys(SRC) as K[];
@@ -64,15 +124,31 @@ const Ref = ({ k }: { k: K | K[] }) => (
 );
 const C = ({ id, children }: { id: string; children?: string }) => <CardLink id={id}>{children}</CardLink>;
 
-const ACTS: [string, string, string][] = [
-  ['act1', '一', '開天闢地：一把鐮刀'],
-  ['act2', '二', '吞子與石頭：宙斯登基'],
-  ['act3', '三', '奧林帕斯這一家'],
-  ['act4', '四', '神與人：火、罐子、石榴籽'],
-  ['act5', '五', '凡人的傲慢，神的嫉妒'],
-  ['act6', '六', '英雄時代'],
-  ['act7', '七', '特洛伊戰爭'],
-  ['act8', '八', '返鄉，以及羅馬'],
+type Part = 'greek' | 'norse' | 'chinese';
+const PARTS: [Part, string, string][] = [
+  ['greek', '第一部', '希臘羅馬'],
+  ['norse', '第二部', '北歐'],
+  ['chinese', '第三部', '中華'],
+];
+/** [錨點, 幕次, 標題, 屬於哪一部] */
+const ACTS: [string, string, string, Part][] = [
+  ['act1', '一', '開天闢地：一把鐮刀', 'greek'],
+  ['act2', '二', '吞子與石頭：宙斯登基', 'greek'],
+  ['act3', '三', '奧林帕斯這一家', 'greek'],
+  ['act4', '四', '神與人：火、罐子、石榴籽', 'greek'],
+  ['act5', '五', '凡人的傲慢，神的嫉妒', 'greek'],
+  ['act6', '六', '英雄時代', 'greek'],
+  ['act7', '七', '特洛伊戰爭', 'greek'],
+  ['act8', '八', '返鄉，以及羅馬', 'greek'],
+  ['n1', '一', '霜與火之間：巨人的身體', 'norse'],
+  ['n2', '二', '眾神付出的代價', 'norse'],
+  ['n3', '三', '洛基與巴德爾之死', 'norse'],
+  ['n4', '四', '諸神黃昏，以及之後', 'norse'],
+  ['c1', '一', '開天與補天', 'chinese'],
+  ['c2', '二', '發明東西的人', 'chinese'],
+  ['c3', '三', '涿鹿之戰：神變成帝王', 'chinese'],
+  ['c4', '四', '十個太陽與一顆月亮', 'chinese'],
+  ['c5', '五', '洪水與夏朝', 'chinese'],
 ];
 
 /** 每幕結尾：先問一個問題，按「看答案」才展開「讀到這裡你已經知道」 */
@@ -102,12 +178,33 @@ function Recap({ q, items }: { q: string; items: string[] }) {
   );
 }
 
+/** 每一部的開頭橫幅 */
+function PartHead({ part, minutes, children }: { part: Part; minutes: number; children: React.ReactNode }) {
+  const [, no, name] = PARTS.find(([p]) => p === part)!;
+  const n = ACTS.filter((a) => a[3] === part).length;
+  return (
+    <header className={`part-head part-${part}`} id={`ov-part-${part}`}>
+      <p className="part-no">{no}・約 {minutes} 分鐘</p>
+      <h2 className="part-title">{name}神話：{'〇一二三四五六七八九'[n]}幕</h2>
+      <p>{children}</p>
+    </header>
+  );
+}
+
+const QUICK: [Part, string, [string, string][]][] = [
+  ['greek', '希臘羅馬', STARTER_PATH],
+  ['norse', '北歐', NORSE_PATH],
+  ['chinese', '中華', CN_PATH],
+];
+
 export function Overview() {
   const twelve = TWELVE.map((id) => cardById.get(id)).filter(Boolean);
   const [cur, setCur] = useState('');
+  const [quick, setQuick] = useState<Part>('greek');
   // 讀到哪一幕：讓頂端的進度列亮起來
   useEffect(() => {
-    const els = ACTS.map(([a]) => document.getElementById(`ov-${a}`)).filter(Boolean) as HTMLElement[];
+    const ids = [...PARTS.map(([p]) => `part-${p}`), ...ACTS.map(([a]) => a)];
+    const els = ids.map((a) => document.getElementById(`ov-${a}`)).filter(Boolean) as HTMLElement[];
     const io = new IntersectionObserver(
       (es) => {
         for (const e of es) if (e.isIntersecting) setCur(e.target.id.replace('ov-', ''));
@@ -117,34 +214,130 @@ export function Overview() {
     els.forEach((el) => io.observe(el));
     return () => io.disconnect();
   }, []);
+  // 讀到北歐、中華時，把幕次導覽橫向捲到亮起的那一顆（只捲導覽列本身，不動整頁）
+  useEffect(() => {
+    const nav = document.querySelector<HTMLElement>('nav.acts');
+    const on = nav?.querySelector<HTMLElement>('a.on');
+    if (!nav || !on) return;
+    const left = on.getBoundingClientRect().left - nav.getBoundingClientRect().left + nav.scrollLeft;
+    if (left < nav.scrollLeft || left + on.offsetWidth > nav.scrollLeft + nav.clientWidth) nav.scrollTo({ left: Math.max(0, left - 8), behavior: 'smooth' });
+  }, [cur]);
 
   return (
     <article className="page overview">
-      <h1>總覽：二十分鐘，一口氣講完希臘神話</h1>
+      <h1>總覽：三套神話，從開天闢地講到世界末日</h1>
       <p className="lead">
-        希臘神話不是一堆零散的人名，而是一個連續的故事：世界怎麼來、神怎麼換了三代、神和人怎麼鬧翻、英雄怎麼出現、一場戰爭怎麼結束了英雄時代，最後怎麼傳到羅馬。下面分八幕講完。讀完這一頁，45 張卡裡的每一張你都知道放在哪裡。
+        本站收了三套神話：<strong>希臘羅馬</strong>、<strong>北歐</strong>、<strong>中華</strong>。它們是三個不同地方的人，各自回答同樣幾個大問題：世界怎麼來的？誰在管事？人和神是什麼關係？最後會怎樣？下面分三部，每一部都當成一個連續的故事講完，可以只讀一部（全部讀完約 40 分鐘）。讀完這一頁，{site.cards.length} 張卡裡的每一張你都知道放在哪裡。
       </p>
       <aside className="quick" aria-label="極短版">
-        <strong>只有 1～2 分鐘？先讀這 8 行極短版</strong>
+        <strong>只有 1～2 分鐘？先讀極短版</strong>
+        <div className="quick-tabs" role="group" aria-label="選一套神話">
+          {QUICK.map(([part, label]) => (
+            <button key={part} type="button" className={`part-${part}${quick === part ? ' on' : ''}`} aria-pressed={quick === part} onClick={() => setQuick(part)}>
+              {label}
+            </button>
+          ))}
+        </div>
         <ol>
-          {STARTER_PATH.map(([id, why]) => (
+          {QUICK.find(([p]) => p === quick)![2].map(([id, why]) => (
             <li key={id}>
               <a href={href('card', id)}>{cardById.get(id)?.name_zh}</a>
               <span>{why}</span>
             </li>
           ))}
         </ol>
-        <span className="muted small">想要完整故事，就往下讀八幕（約 20 分鐘）。</span>
+        <span className="muted small">想要完整故事，就往下讀：希臘羅馬八幕、北歐四幕、中華五幕。</span>
       </aside>
-      <nav className="acts" aria-label="八幕">
-        {ACTS.map(([a, no, title]) => (
-          <a key={a} href={`#${a}`} className={cur === a ? 'on' : ''} onClick={jump(`ov-${a}`, 'start')}>
-            <span className="act-no">{no}</span>
-            <span>{title}</span>
-          </a>
+      <nav className="acts" aria-label="幕次">
+        {PARTS.map(([part, , name]) => (
+          <span key={part} className={`act-group part-${part}`}>
+            <a href={`#part-${part}`} className={`part-label${cur === `part-${part}` ? ' on' : ''}`} onClick={jump(`ov-part-${part}`, 'start')}>{name}</a>
+            {ACTS.filter((x) => x[3] === part).map(([a, no, title]) => (
+              <a key={a} href={`#${a}`} className={cur === a ? 'on' : ''} onClick={jump(`ov-${a}`, 'start')}>
+                <span className="act-no">{no}</span>
+                <span>{title}</span>
+              </a>
+            ))}
+          </span>
         ))}
       </nav>
 
+      {/* ───────── 開頭：三套神話怎麼留下來 ───────── */}
+      <section className="prologue" id="ov-sources-guide">
+        <h2>開始之前：這三套神話，各是怎麼留到今天的</h2>
+        <p>
+          先說一件很重要、但常被忽略的事：<strong>我們今天讀到的神話，全都是「某個人、在某個年代、寫下來的版本」</strong>。沒有一套神話有「正確版本」。<Ref k="wheMyth" /> 三套神話被寫下來的時間差了將近兩千年，寫的人和他們的立場也很不一樣，所以讀的時候要問的問題也不一樣。
+        </p>
+        <pre className="ascii">{`真實年代：這些故事「什麼時候被寫成文字」（不是故事發生的時間）
+
+前 8～7 世紀 ─● 希臘：荷馬《伊里亞德》《奧德賽》、赫西俄德《神譜》
+前 5 世紀    ─● 希臘：雅典悲劇
+前 3 世紀    ─┐
+ ～西元 1 世紀 ─● 中華：《山海經》；西漢的《淮南子》、司馬遷《史記》
+西元前後     ─● 羅馬：維吉爾、奧維德重講希臘故事
+3 世紀       ─● 中華：三國吳人徐整，第一次寫下盤古
+約 1220 年   ─● 北歐：冰島人斯諾里寫《散文埃達》
+約 1270 年   ─● 北歐：古詩被編成《詩體埃達》`}</pre>
+        <p className="muted small">
+          年代出處：荷馬、赫西俄德<Ref k={['wheHomer', 'wheHesiod']} />；奧維德<Ref k="wheOvid" />；兩部埃達<Ref k="wheNorse" />；《山海經》<Ref k="britFeng" />；盤古<Ref k={['sanwu', 'britCn']} />。
+        </p>
+        <ScrollTable>
+          <table className="compare src-table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>希臘羅馬</th>
+                <th>北歐</th>
+                <th>中華</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="nw">主要的書</td>
+                <td>荷馬、赫西俄德的史詩；雅典悲劇；羅馬詩人奧維德、維吉爾</td>
+                <td>兩本書：古詩集《詩體埃達》，和斯諾里整理的《散文埃達》</td>
+                <td>沒有一本專講神話的書。本站 32 張中華卡的原典，散在《山海經》《淮南子》《史記》《楚辭》《周易》等 16 種古書裡，每本只記幾段</td>
+              </tr>
+              <tr>
+                <td className="nw">誰寫的</td>
+                <td>許多不同時代的詩人與劇作家，各寫各的</td>
+                <td>斯諾里是 13 世紀的冰島人，站在基督教的立場寫作；古詩的作者不知道是誰<Ref k="wheNorse" /></td>
+                <td>許多不同朝代、不同身分的作者，各記一小段；司馬遷《史記》把其中一部分寫成了歷史</td>
+              </tr>
+              <tr>
+                <td className="nw">最大的問題</td>
+                <td>版本太多，同一件事常有兩三種說法；今天流行的版本常是羅馬人奧維德的<Ref k="wheOvid" /></td>
+                <td>寫下來的時間很晚；很多完整的情節，只有斯諾里一個人說過<Ref k={['wheNorse', 'proseEdda']} /></td>
+                <td>故事零碎，有些原書已經失傳，只靠後世的書引用才留下來（例如盤古<Ref k="sanwu" />）；而且很多神後來被寫成「古代的帝王」，神話被改寫成歷史<Ref k="britCn" /></td>
+              </tr>
+              <tr>
+                <td className="nw">讀的時候問自己</td>
+                <td>這是哪位詩人的版本？</td>
+                <td>這句是古詩說的，還是斯諾里說的？</td>
+                <td>這是哪本書、哪個朝代的說法？後人加了什麼？</td>
+              </tr>
+            </tbody>
+          </table>
+        </ScrollTable>
+        <h3>「可信度」在這裡是什麼意思？</h3>
+        <p>
+          這裡說的可信度，不是問「神話裡的事有沒有真的發生」，而是問：<strong>我們讀到的版本，離最早相信這些故事的人有多近？</strong>每多經過一手、多隔幾百年，就可能多改掉一點。
+        </p>
+        <pre className="ascii">{`最早的口傳 ──(幾十到幾百年)──► 寫成文字 ──► 抄本、引文留下來 ──► 今天的翻譯 ──► 電影、遊戲、小說
+                                   │
+           每一步都可能刪掉、改寫、補上一點；越往右，離原來的說法越遠`}</pre>
+        <ul className="notes">
+          <li><strong>希臘：</strong>最早的作品在前 8～7 世紀，比北歐的兩本書早了將近兩千年，而且可以互相對照的作者最多。<Ref k={['wheHomer', 'wheHesiod']} /></li>
+          <li><strong>北歐：</strong>古詩可能在 10 世紀以前、基督教傳入之前就有了，但兩本書都是 13 世紀才寫成；研究者提醒，斯諾里的書要帶著批判的眼光讀。<Ref k="wheNorse" /> 所以本站的北歐卡片，每一段都標明是「古詩說的」還是「斯諾里說的」。</li>
+          <li><strong>中華：</strong>最特別的是「書寫的時間」和「故事的時間」剛好倒過來：排在最前面的盤古，反而最晚出現在書裡。<Ref k={['sanwu', 'britCn']} /> 很多今天熟悉的情節（嫦娥的玉兔、后羿「射九留一」）原典都沒有，是後人加的。<Ref k={['britChange', 'britHouyi']} /></li>
+        </ul>
+        <p>所以本站每一句話句尾都有小字來源，點了就能看到是誰說的；古書彼此矛盾時，兩種說法都寫出來，不替古人選一個。</p>
+      </section>
+
+      {/* ═════════ 第一部：希臘羅馬 ═════════ */}
+      <PartHead part="greek" minutes={20}>
+        世界怎麼來、神怎麼換了三代、神和人怎麼鬧翻、英雄怎麼出現、一場戰爭怎麼結束了英雄時代，最後怎麼傳到羅馬。主線是<strong>兒子推翻父親</strong>。
+      </PartHead>
       <section className="prologue">
         <h2>序幕：為什麼沒有一本「希臘神話」</h2>
         <p>
@@ -335,20 +528,308 @@ export function Overview() {
         <Recap q="奧德修斯靠什麼回到家？羅馬人把自己的祖先接到誰身上？" items={['奧德賽：十年返鄉，靠的是腦袋；潘妮洛普的聰明不輸丈夫', '羅馬人把起源接到特洛伊（埃涅阿斯），再接到母狼養大的雙胞胎', '羅馬神≠希臘神換名字：地位、個性常不一樣']} />
       </section>
 
+      {/* ═════════ 第二部：北歐 ═════════ */}
+      <PartHead part="norse" minutes={10}>
+        冰與火之間冒出一個巨人，眾神殺了他、用他的身體造出世界；眾神為了智慧和秩序一再付出代價，卻早就知道自己最後會死。主線是<strong>一個早就寫好的結局</strong>。
+      </PartHead>
+
+      <section className="prologue">
+        <h2>北歐的序：先分清楚「古詩」和「斯諾里」</h2>
+        <p>
+          北歐神話主要靠兩本書留下來。<Ref k={['poeticEdda', 'proseEdda']} /> 《詩體埃達》是一部古詩集，詩寫得很短、很跳，常常只用幾行帶過一件大事；《散文埃達》是冰島人斯諾里在 13 世紀寫的整理本，把故事從頭到尾講清楚。<Ref k="wheNorse" /> 今天大家熟悉的北歐故事，很多完整情節只見於斯諾里。下面每一幕都會告訴你哪一段是誰說的。
+        </p>
+        <pre className="ascii">{`《詩體埃達》：古詩，作者不明，約 1270 年編成
+     └─► 像「重點筆記」：事件有，細節少
+
+《散文埃達》：斯諾里寫，約 1220 年
+     └─► 像「整理好的課本」：故事完整，但經過他的手`}</pre>
+      </section>
+
+      {/* ───────── 北歐第一幕 ───────── */}
+      <section id="ov-n1">
+        <h2><span className="act-no">一</span>霜與火之間：巨人的身體變成世界</h2>
+        <p>
+          一開始，沒有海、沒有沙、也沒有浪，只有一道張開的裂口，叫金倫加鴻溝。<Ref k="vsp3" /> 斯諾里接著說：裂口的一邊是尼福爾海姆的霜，另一邊是穆斯貝爾海姆的熱；霜被熱融化，滴成了人形，這就是霜巨人<C id="primordial-ymir">尤彌爾</C>。一頭母牛用乳汁餵他；母牛舔著鹹鹹的冰塊，三天舔出一個人，叫布利。布利的兒子包爾娶了巨人的女兒，生下三個兒子：<C id="god-odin">奧丁</C>、維利和維。<Ref k="g5" />
+        </p>
+        <p>
+          然後，這三兄弟殺了尤彌爾。他的血多到淹死了幾乎所有霜巨人，只有一家人逃走。三兄弟用尤彌爾的身體造出世界：肉變成大地，血變成海，骨頭變成岩石，頭蓋骨變成天空，眉毛圍成人類住的米德加爾德，腦變成雲。最後，眾神用兩棵樹，造出第一對人類。<Ref k="g5" />
+        </p>
+        <pre className="ascii">{`尤彌爾的身體          世界
+   肉        ───►   大地
+   血        ───►   海
+   骨頭      ───►   岩石
+   頭蓋骨    ───►   天空（四個角各有一個矮人撐著）
+   眉毛      ───►   圍住人間米德加爾德的牆
+   腦        ───►   雲`}</pre>
+        <p>
+          世界的中心是一棵常綠的白蠟樹：<C id="place-yggdrasil">世界樹</C>。<Ref k="vsp19" /> 斯諾里說它有三條根，一條通往眾神開會的泉、一條通往霜巨人那邊的密米爾之泉、一條在尼福爾海姆上方、被毒龍尼德霍格啃著。<Ref k="g15" /> 你可能聽過「北歐九界」，但要小心：古詩只說有「九個世界」，沒有列出名字，今天常見的九界名單是後人整理的。<Ref k="vsp3" />
+        </p>
+        <p>
+          注意這裡和希臘的不同：希臘是一代代「生」出世界，北歐是「殺」了一個巨人、拆開他的身體做成世界。而且眾神的母親本身就是巨人的女兒，<strong>神和巨人從一開始就是親戚，也是仇人</strong>。<Ref k="g5" />
+        </p>
+        <Recap q="北歐的世界是用什麼做成的？為什麼說神和巨人是親戚？" items={['世界是用被殺的霜巨人尤彌爾的身體做成的：肉是地、血是海、頭蓋骨是天', '奧丁三兄弟的母親是巨人的女兒，神和巨人本來就有血緣', '世界樹是常綠的白蠟樹；古詩只說「九個世界」，九界的名單是後人整理的']} />
+      </section>
+
+      {/* ───────── 北歐第二幕 ───────── */}
+      <section id="ov-n2">
+        <h2><span className="act-no">二</span>眾神付出的代價</h2>
+        <p>
+          <C id="god-odin">奧丁</C>是阿薩神族裡最高、最年長的神，被稱為「眾神之父」，妻子是<C id="god-frigg">芙麗嘉</C>。<Ref k="g20" /> 他最有名的故事，都和<strong>知道更多</strong>有關，而且他願意為此付出身體：他為了喝一口密米爾之泉的水，把一隻眼睛押在泉裡；<Ref k="vsp29" /> 他也在風吹的樹上吊了九夜，被矛刺傷，「自己獻給自己」，然後尖叫著拾起了盧恩文字。<Ref k="hav139" /> （古詩另一處又說奧丁向「密米爾的頭」問計，兩種說法對不起來。<Ref k="vsp29" />）
+        </p>
+        <p>
+          洛基和女巨人生了三個可怕的孩子：狼<C id="monster-fenrir">芬里爾</C>、大蛇<C id="monster-jormungandr">耶夢加得</C>，和海爾。奧丁把大蛇丟進深海，牠越長越大，環繞了整個大地。狼被眾神養在身邊，只有<C id="god-tyr">提爾</C>敢餵牠。牠掙斷了兩條鐵鍊，眾神再拿來一條矮人用「貓的腳步聲、女人的鬍子、山的根」等六樣東西做成、滑得像絲帶的繩子。狼起了疑心，要有人把手放進牠嘴裡當保證。提爾放進了右手。繩子綁住了狼，眾神不肯鬆綁，狼就咬斷了提爾的手。斯諾里寫：「除了提爾，大家都笑了。」<Ref k="g34" />
+        </p>
+        <p>
+          最強的神是奧丁的兒子<C id="god-thor">索爾</C>：拿著錘子妙爾尼爾、繫著讓力量加一半的腰帶，專打巨人。<Ref k="g20" /> 他曾經用牛頭當餌，把米德加爾德大蛇從海裡釣上來；巨人嚇得割斷了釣線。有人說索爾當場打掉了蛇頭，但斯諾里說，大蛇還活著。<Ref k="g48" /> 這筆帳，要留到世界末日才算。
+        </p>
+        <pre className="ascii">{`眾神為了「知道」和「秩序」付出的代價
+
+  奧丁 ──► 押掉一隻眼睛、吊在樹上九夜 ──► 換到智慧、盧恩文字
+  提爾 ──► 把右手放進狼嘴             ──► 換到把芬里爾綁起來
+                                              │
+                         但預言早就說了：這匹狼最後會殺死奧丁`}</pre>
+        <p>
+          為什麼不乾脆殺了狼？斯諾里說，眾神不願讓血玷汙聖地，雖然預言說這匹狼會殺死奧丁。<Ref k="g34" /> 這就是北歐神話最特別的地方：<strong>眾神知道結局，卻照樣做該做的事</strong>。今天的星期二（Tuesday）和星期三（Wednesday），原本就是提爾和奧丁的日子。<Ref k="etymDays" />
+        </p>
+        <Recap q="奧丁和提爾各付出了什麼？眾神為什麼沒有殺死芬里爾？" items={['奧丁押掉一隻眼睛、吊在樹上九夜，換來智慧與盧恩文字', '提爾用右手換到把狼綁起來；眾神不願玷汙聖地，所以沒殺牠', '預言早就說狼會殺死奧丁：北歐的神知道自己的結局']} />
+      </section>
+
+      {/* ───────── 北歐第三幕 ───────── */}
+      <section id="ov-n3">
+        <h2><span className="act-no">三</span>洛基與巴德爾之死</h2>
+        <p>
+          <C id="god-loki">洛基</C>是巨人的兒子，卻住在眾神之間。斯諾里形容他「外表俊美，心地邪惡，性情多變」。<Ref k="g34" /> 古詩裡洛基提醒奧丁：「我們曾經混過血」，他們是結拜的血盟兄弟。<Ref k="lok9" /> 洛基常常闖禍，又常常替眾神收拾：一個巨人工匠和眾神打賭，是洛基出主意接受賭約，後來又是他去引開工匠的馬，後來還「生下」一匹八隻腳的小馬，成了奧丁的坐騎。<Ref k="g42" /> 索爾的錘子被巨人偷走時，也是他陪索爾披上新娘頭紗、自己扮成侍女，一起去把錘子騙回來：這就是<C id="story-thor-bride">索爾扮新娘</C>。<Ref k="thrym" />
+        </p>
+        <p>
+          但他也做了北歐神話裡最不可原諒的事。奧丁的次子<C id="god-baldr">巴德爾</C>最俊美，身上會發光。<Ref k="g20" /> 他夢見自己有性命危險，母親芙麗嘉就讓火、水、鐵、石、樹、疾病、鳥獸、毒蛇全都發誓不傷他。眾神覺得好玩，拿東西丟他取樂。洛基扮成女人去問芙麗嘉，套出一個祕密：槲寄生太年幼，沒有發誓。他拔來槲寄生，交給盲眼的霍德爾，還幫他瞄準，巴德爾倒地而死。<Ref k="g49" />
+        </p>
+        <pre className="ascii">{`巴德爾做惡夢 ─► 萬物發誓不傷他 ─► 眾神丟東西取樂
+                                       │
+              洛基套出：只有槲寄生沒發誓
+                                       ▼
+          盲眼的霍德爾拿槲寄生一射 ─► 巴德爾死
+                                       │
+          冥界的海爾說：萬物都為他哭，就放他回來
+                                       ▼
+          只有一個女巨人不肯哭（人們認為那就是洛基）─► 巴德爾回不來`}</pre>
+        <p>
+          眾神派人騎著八腳馬，騎了九夜到冥界求情。海爾開出條件：只要世上萬物都為巴德爾哭，就放他回來。萬物都哭了，只有一個女巨人不肯，斯諾里說人們認為她就是洛基變的。<Ref k="g49" /> 洛基最後被抓住，眾神用他兒子的腸子把他綁起來，頭上掛著滴毒液的蛇；他一掙扎，大地就震動。<Ref k="lok9" />
+        </p>
+        <p>
+          要提醒的是：這個故事最完整的版本來自斯諾里，古詩〈女先知的預言〉只用幾行帶過槲寄生和霍德爾。<Ref k="vsp32" /> 也別把洛基當成索爾的兄弟：在埃達裡，他們不是兄弟。<Ref k="wheThor" />
+        </p>
+        <Recap q="洛基是眾神的朋友還是敵人？巴德爾為什麼回不來？" items={['洛基是巨人之子、奧丁的血盟兄弟：常闖禍，也常幫忙（八腳馬、扮侍女拿回錘子）', '萬物都發誓不傷巴德爾，只漏了槲寄生；洛基讓盲眼的霍德爾射死了他', '海爾要萬物都哭；只有一個女巨人（被認為是洛基）不哭，巴德爾就回不來']} />
+      </section>
+
+      {/* ───────── 北歐第四幕 ───────── */}
+      <section id="ov-n4">
+        <h2><span className="act-no">四</span>諸神黃昏，以及之後</h2>
+        <p>
+          巴德爾死後，故事就走向結局。古詩說：兄弟會互相殘殺，鎖鏈斷裂，狼芬里爾掙脫出來；<C id="god-heimdall">海姆達爾</C>吹響號角，世界樹搖動；洛基掌舵駛來敵船，火巨人蘇爾特從南方來。<Ref k="vsp44" /> 斯諾里還補上：先會來一個連續的大寒冬，狼會吞下太陽。<Ref k="g51" /> 這就是<C id="story-ragnarok">諸神黃昏</C>。
+        </p>
+        <pre className="ascii">{`最後一戰：一組一組的對手
+  奧丁       ✖ 狼芬里爾      奧丁被吞；兒子維達殺狼替他報仇
+  索爾       ✖ 大蛇耶夢加得  索爾殺死大蛇，走了九步，中毒倒下
+  弗雷       ✖ 火巨人蘇爾特  弗雷戰死
+  提爾       ✖ 惡犬加姆      同歸於盡  ┐ 這兩組只有斯諾里寫，
+  海姆達爾   ✖ 洛基          同歸於盡  ┘ 古詩沒有
+                    │
+                    ▼
+          蘇爾特的火燒毀世界`}</pre>
+        <p className="muted small">對戰出處：古詩<Ref k="vsp44" />、斯諾里<Ref k="g51" />。</p>
+        <p>
+          世界燒光了，但故事沒有結束。古詩說，大地從海中再度升起，一片翠綠；巴德爾和霍德爾從冥界回來。<Ref k="vsp59" /> 斯諾里說，有幾位神活了下來，索爾的兒子帶著那把錘子前來；一對人類躲在樹林裡、靠晨露活過大火，重新繁衍人類。<Ref k="g53" /> 不過研究者指出，這段「重生」可能受到基督教的影響。<Ref k="wheRagnarok" />
+        </p>
+        <p>
+          回頭看第二幕就懂了：奧丁押眼睛、問預言，都是為了知道結局；知道了，還是改不了。<strong>北歐的神不是不死的，他們的勇氣在於明知會輸，還是上戰場。</strong>
+        </p>
+        <Recap q="諸神黃昏時，奧丁和索爾各怎麼死？世界燒光之後呢？" items={['奧丁被狼芬里爾吞下；索爾殺了大蛇，走九步後中毒倒下', '火巨人蘇爾特的火燒毀世界；大地又從海裡升起，巴德爾回來', '重生的段落可能受基督教影響；有兩組對戰只見於斯諾里']} />
+      </section>
+
+      {/* ═════════ 第三部：中華 ═════════ */}
+      <PartHead part="chinese" minutes={10}>
+        巨人撐開天地、女神補好破掉的天，接著一位位發明家、帝王出場，最後大禹治好洪水，他的兒子開啟夏朝。主線是<strong>有人出來把世界修好</strong>，而且越往後，神越像古代的帝王。
+      </PartHead>
+
+      <section className="prologue">
+        <h2>中華的序：為什麼沒有一本「中華神話」</h2>
+        <p>
+          希臘有荷馬、北歐有斯諾里，中華神話卻沒有一位把故事從頭講到尾的作者。故事散在《山海經》、漢代的《淮南子》、屈原的詩、司馬遷的《史記》等古書裡，每本只記一兩段，有時只有一句話：本站 32 張中華卡的原典，就來自 16 種不同的古書。 下面這五幕的順序，是照「故事裡的時間」排的，但要記得它們被寫下來的時間常常是倒過來的：
+        </p>
+        <pre className="ascii">{`書寫的時間：  女媧、黃帝（戰國～漢） ──────→ 盤古（三國）
+故事的時間：  盤古（最早） ──────→ 女媧 ──────→ 黃帝 ──────→ 堯、舜、禹 ──→ 夏朝`}</pre>
+        <p>
+          還有一個中華神話獨有的現象：很多神後來被寫成了真實的古代君主，學者稱為神話的「歷史化」。<Ref k="britCn" /> 第三幕會親眼看到它怎麼發生。
+        </p>
+      </section>
+
+      {/* ───────── 中華第一幕 ───────── */}
+      <section id="ov-c1">
+        <h2><span className="act-no">一</span>開天與補天</h2>
+        <p>
+          很久很久以前，天和地混在一起，像一顆雞蛋，<C id="primordial-pangu">盤古</C>就在裡面出生。一萬八千年後天地分開：輕而清的往上成了天，重而濁的往下成了地。天每天高一丈，地每天厚一丈，盤古也每天長高一丈，就這樣把天地撐開。<Ref k="sanwu" /> 他死的時候，身體化成了世界：氣變成風雲，聲音變成雷，左眼變成太陽，右眼變成月亮，血液變成江河。<Ref k="wuyun" />
+        </p>
+        <p>
+          世上還沒有人。<C id="primordial-nuwa">女媧</C>拿黃土一個一個捏人，忙不過來，就用繩子沾泥漿一甩，濺出的泥點也變成人。<Ref k="fengsu" /> 後來撐天的四根柱子壞了，天蓋不住地，大火燒不停，洪水氾濫，猛獸吃人。女媧熔煉五色石補好天空，砍下大海龜的四隻腳撐住四方，又用蘆葦燒成的灰擋住洪水：<C id="story-nuwa-mends-sky">女媧補天</C>。<Ref k="lanming" />
+        </p>
+        <p>
+          今天常聽到「<C id="god-gonggong">共工</C>撞斷不周山，天破了，女媧才去補天」。但在《淮南子》裡，補天和<C id="story-buzhou">共工撞不周山</C>分在兩篇，彼此沒有因果關係；<Ref k={['lanming', 'tianwenxun']} /> 是後來《列子》才把兩件事放在一起講。<Ref k="liezi" /> 兩千多年前的屈原還問過一個好問題：「女媧有體，孰制匠之？」人是女媧造的，那女媧又是誰造的？<Ref k="tianwen" />
+        </p>
+        <pre className="ascii">{`盤古（巨人）：撐開天地，死後化成世界     ← 和北歐的尤彌爾很像，但盤古是自己撐、自己化
+        ↓
+女媧（女神）：捏土造人；天破了就去補     ← 希臘要兩個角色（普羅米修斯造人、阿特拉斯扛天）`}</pre>
+        <Recap q="盤古和北歐的尤彌爾有什麼一樣、什麼不一樣？共工撞山和女媧補天在原典裡是同一個故事嗎？" items={['盤古撐開天地，死後身體化成世界；尤彌爾則是被殺後被拆成世界', '女媧捏土造人、煉五色石補天：一位女神做了希臘兩個角色的事', '《淮南子》裡補天和共工撞山分在兩篇，是《列子》才把它們放在一起']} />
+      </section>
+
+      {/* ───────── 中華第二幕 ───────── */}
+      <section id="ov-c2">
+        <h2><span className="act-no">二</span>發明東西的人：伏羲、神農、倉頡</h2>
+        <p>
+          接下來出場的，不是打仗的神，而是<strong>教人過日子</strong>的人。《周易》說，<C id="primordial-fuxi">伏羲</C>抬頭看天象、低頭看地形，畫出了八卦，又結繩做網，教人打獵捕魚；他之後的<C id="god-shennong">神農</C>削木頭做成犁，教天下人耕田，又開了市集讓人交換東西。<Ref k="xici" /> 《淮南子》說神農親口嘗遍百草，讓人知道什麼能吃、什麼要避開，「一日而遇七十毒」。<Ref k="xiuwu" />
+        </p>
+        <p>
+          <C id="hero-cangjie">倉頡</C>造出文字的那天，「天雨粟，鬼夜哭」：天上下起穀子，鬼在夜裡哭泣。<Ref k="benjing" /> 原文沒有說為什麼，後人的解釋各不相同。
+        </p>
+        <pre className="ascii">{`伏羲 ──► 八卦、漁網      （認識世界、取得食物）
+神農 ──► 犁、市集、草藥  （種田、交易、治病）
+倉頡 ──► 文字            （記錄）
+          │
+          └─► 這種「靠發明被記住」的角色，學者叫「文化英雄」`}</pre>
+        <p>
+          學者把他們叫作「文化英雄」。<Ref k="britCn" /> 比一比希臘：希臘也有盜火給人類的普羅米修斯，但他是騙了宙斯、受了懲罰；中華的文化英雄做這些事，不需要和誰作對。
+        </p>
+        <Recap q="伏羲、神農、倉頡各發明了什麼？他們和希臘的普羅米修斯有什麼不同？" items={['伏羲畫八卦、結網；神農教耕田、開市集、嘗百草；倉頡造字', '他們是「文化英雄」：靠發明、而不是靠打仗被記住', '普羅米修斯送火要騙神、受罰；中華的文化英雄不需要和誰作對']} />
+      </section>
+
+      {/* ───────── 中華第三幕 ───────── */}
+      <section id="ov-c3">
+        <h2><span className="act-no">三</span>涿鹿之戰：神變成帝王</h2>
+        <p>
+          這一幕最能看出中華神話的特色，因為同一場仗有兩個版本。《山海經》說：戰神<C id="god-chiyou">蚩尤</C>造了兵器攻打<C id="god-huangdi">黃帝</C>；黃帝派會蓄水的應龍迎戰，蚩尤請來風伯雨師颳起狂風暴雨；黃帝再請天女魃下凡，她走到哪裡哪裡就乾旱，雨一停，蚩尤就被殺了。<Ref k="dahuangbei" />
+        </p>
+        <p>
+          司馬遷的《史記》卻寫成一場人間戰爭：黃帝先和炎帝在阪泉打了三仗，再召集諸侯在涿鹿擒殺作亂的蚩尤，於是諸侯尊他為天子。司馬遷還替他排了家譜：父親、妻子、繼位的孫子都有名有姓。<Ref k="wudi" /> 黃帝從此成了「中國歷史的第一頁」，也成了「炎黃子孫」說法的來源。<Ref k="britHuangdi" />
+        </p>
+        <pre className="ascii">{`《山海經》：  黃帝（天帝）派應龍、天女魃 ✖ 蚩尤召風伯雨師   ← 神打神
+                  │
+                  ▼ 寫進史書
+《史記》：    黃帝（君主）率領諸侯 ✖ 蚩尤作亂            ← 人打人
+
+這就是「神話的歷史化」：神被寫成古代帝王，神話被寫成歷史`}</pre>
+        <p>
+          輸的一方也有故事：<C id="hero-xingtian">形天</C>和天帝爭神位，被砍了頭，就用乳頭當眼睛、肚臍當嘴巴，揮著盾和斧繼續打。<Ref k="haiwaixi" /> 而黃帝之後的堯、舜，在《史記》裡把王位讓給賢能的人，而不是傳給兒子：<C id="story-yao-shun">堯舜禪讓</C>。<Ref k="wudi" /> 這些「聖王」在儒家經典裡常被當成真實的君主，但沒有考古證據，所以本站把他們放在神話這一邊。
+        </p>
+        <Recap q="涿鹿之戰在《山海經》和《史記》裡差在哪裡？什麼叫「神話的歷史化」？" items={['《山海經》是神仙大戰（應龍、風伯雨師、天女魃）；《史記》是黃帝率諸侯平亂', '神被寫成古代帝王、神話被寫成歷史，這叫「歷史化」，是中華神話最大的特色之一', '堯舜禪讓：王位讓給賢人；這些聖王沒有考古證據']} />
+      </section>
+
+      {/* ───────── 中華第四幕 ───────── */}
+      <section id="ov-c4">
+        <h2><span className="act-no">四</span>十個太陽與一顆月亮</h2>
+        <p>
+          太陽有十個，都是女神<C id="god-xihe">羲和</C>的孩子，住在東方的大樹<C id="place-fusang">扶桑</C>上，本來應該輪流上天。<Ref k="dahuangnan" /> 到了堯的時代，十個太陽一起出來，莊稼燒焦，怪獸也出來害人。堯派<C id="hero-houyi">后羿</C>出征，羿向上射太陽，向下除掉六種怪獸：<C id="story-houyi-suns">后羿射日</C>。<Ref k="benjing" /> 注意，《淮南子》只說羿「上射十日」，大家熟悉的「射九留一」是後世的說法。<Ref k="britHouyi" />
+        </p>
+        <p>
+          羿向西方的<C id="god-xiwangmu">西王母</C>求來不死藥。（最早的《山海經》裡，西王母一點也不慈祥：「豹尾虎齒而善嘯」。<Ref k="xishan" />）接下來的事，《淮南子》只寫了一句：「羿請不死之藥於西王母，姮娥竊以奔月，悵然有喪，無以續之。」<Ref k="lanming" /> 這就是<C id="story-change-moon">嫦娥奔月</C>的全部原文。嫦娥為什麼偷藥、月宮、玉兔、桂樹，原文都沒有，是後來一代代加上去的。<Ref k="britChange" />
+        </p>
+        <pre className="ascii">{`《淮南子》原文（一句話）          後人加上去的
+  羿向西王母求不死藥        ──►   嫦娥為什麼偷藥？各種說法
+  姮娥偷了藥飛奔月亮        ──►   月宮、玉兔、桂樹
+  羿悵然若失                ──►   中秋賞月`}</pre>
+        <p>
+          和太陽有關的還有兩個「不服輸」的人：<C id="hero-kuafu">夸父</C>追著太陽跑，喝乾黃河、渭水還不夠，渴死在路上，手杖化成一片桃林；<Ref k="haiwaibei" /> 《山海經》另一處卻說他「不量力」。<Ref k="dahuangbei" /> 淹死在東海的女孩化成小鳥<C id="hero-jingwei">精衛</C>，每天銜著樹枝石頭，要把東海填平。<Ref k="beishan" />
+        </p>
+        <Recap q="《淮南子》裡后羿射下了幾個太陽？嫦娥奔月的原文有寫到玉兔嗎？" items={['《淮南子》只說「上射十日」，「射九留一」是後世的說法', '嫦娥奔月的原文只有一句；月宮、玉兔、中秋都是後來加的', '夸父逐日、精衛填海：不服輸的人，但古書對夸父也有「不量力」的評語']} />
+      </section>
+
+      {/* ───────── 中華第五幕 ───────── */}
+      <section id="ov-c5">
+        <h2><span className="act-no">五</span>洪水與夏朝：神話接上歷史</h2>
+        <p>
+          洪水滔天。<C id="hero-gun">鯀</C>偷了天帝會自己長大的神土「息壤」去堵洪水，沒等天帝同意，天帝就命<C id="god-zhurong">祝融</C>在羽山殺了他；傳說他死後，肚子裡生出了禹。<Ref k="haineijing" /> 《史記》的版本則像真實政事：鯀治了九年沒成功，被舜處死。<Ref k="xiabenji" /> 屈原在〈天問〉裡還替鯀抱不平：為什麼不讓他試完？<Ref k="tianwen" />
+        </p>
+        <p>
+          兒子<C id="hero-yu">大禹</C>接手。他不再只是圍堵，而是疏通河道、把水引進大海；<Ref k="xiabenji" /> 在外奔波多年，經過家門都沒進去。<Ref k="mengzi" /> 洪水退了，舜把王位讓給他；但禹死後，諸侯都去朝見禹的兒子啟，王位從此改成父傳子，這就是夏朝。<Ref k="wudi" /> 神話在這裡接上了歷史的第一個朝代。
+        </p>
+        <pre className="ascii">{`  鯀：堵（偷息壤築堤）──► 失敗，被處死
+                              │
+  禹：導（疏通河道入海）──► 成功，受禪當王
+                              │
+  啟：禹的兒子繼位      ──► 從「讓賢」變「傳子」：夏朝開始，神話接上歷史`}</pre>
+        <p>
+          和希臘的洪水比一比：希臘是宙斯降洪水懲罰人類，人類坐船「躲」過去；中華的洪水是靠人「治」好的。<Ref k="britXia" /> 詳見<C id="story-yu-flood">大禹治水</C>。
+        </p>
+        <Recap q="鯀和禹治水的方法差在哪裡？禹之後王位怎麼傳？" items={['鯀用息壤「堵」，失敗被殺；禹「導」水入海，三過家門不入', '禹死後王位傳給兒子啟，從讓賢變成傳子：夏朝開始', '希臘的洪水是躲過去的，中華的洪水是治好的']} />
+      </section>
+
       {/* ───────── 尾聲 ───────── */}
       <section className="epilogue">
-        <h2>尾聲：這些故事今天在哪裡</h2>
+        <h2>尾聲：三套神話放在一起看</h2>
+        <p>三條主線你現在都有了：</p>
+        <pre className="ascii">{`希臘羅馬  空隙 → 大地與天空 → 泰坦 → 奧林帕斯 → 人類受苦 → 英雄 → 特洛伊 → 返鄉 → 羅馬
+          主線：兒子推翻父親；神像人，只是更大
+
+北歐      裂口 → 霜巨人被殺、身體變成世界 → 眾神付出代價 → 巴德爾之死 → 諸神黃昏 → 重生
+          主線：結局早就寫好，眾神明知會輸還是上戰場
+
+中華      盤古開天 → 女媧造人補天 → 發明家 → 黃帝 → 射日奔月 → 大禹治水 → 夏朝
+          主線：有人出來把世界修好；越往後，神越像古代的帝王`}</pre>
+        <p>放在一起，就能看出幾個有意思的差別（這裡只比想法，不是說哪一邊影響了哪一邊）：</p>
+        <ScrollTable>
+          <table className="compare">
+            <thead>
+              <tr>
+                <th>問題</th>
+                <th>希臘羅馬</th>
+                <th>北歐</th>
+                <th>中華</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="nw">世界怎麼來</td>
+                <td>一代代「生」出來：空隙、大地、天空</td>
+                <td>殺了一個巨人，用他的身體「做」出來</td>
+                <td>巨人盤古「撐」開天地，死後自己化成世界</td>
+              </tr>
+              <tr>
+                <td className="nw">誰當家</td>
+                <td>宙斯，靠推翻父親坐上王位</td>
+                <td>奧丁，「眾神之父」，知道自己會被狼殺死</td>
+                <td>黃帝，打贏涿鹿之戰，後來被寫成人間第一位君主</td>
+              </tr>
+              <tr>
+                <td className="nw">世界會結束嗎</td>
+                <td>本站的卡片裡沒有末日故事</td>
+                <td>會：諸神黃昏，燒毀後再重生</td>
+                <td>本站的卡片裡沒有末日故事</td>
+              </tr>
+              <tr>
+                <td className="nw">大洪水</td>
+                <td>神降下懲罰，人坐船躲過</td>
+                <td>（尤彌爾的血淹死霜巨人，但那是創世，不是懲罰）</td>
+                <td>鯀堵失敗，禹導成功：人把洪水治好</td>
+              </tr>
+              <tr>
+                <td className="nw">最後接到哪裡</td>
+                <td>羅馬建國</td>
+                <td>世界重生</td>
+                <td>夏朝：神話接上歷史</td>
+              </tr>
+            </tbody>
+          </table>
+        </ScrollTable>
         <p>
-          這條線你現在已經有了：<strong>空隙 → 大地與天空 → 泰坦 → 奧林帕斯 → 人類受苦 → 英雄 → 特洛伊 → 返鄉 → 羅馬</strong>。它還在你身邊：八大行星除了地球全用這些神的羅馬名；一月（雅努斯）、三月（馬爾斯）、星期六（薩圖恩）；chaos、panic、echo、mentor、odyssey、narcissism 這些單字；Nike、Hermès、Versace、Amazon 這些品牌；《戰神》《波西傑克森》《Hadestown》這些作品。本站的「<a href={href('today')}>今日影子</a>」收了 {site.today.length} 條，每條都寫明「和原典差在哪」，因為今天的用法常常已經走樣。
+          更細的三方對照（包括愛搗蛋的角色），見「<a href={href('compare')}>對照</a>」頁。這些故事今天也還在你身邊：八大行星除了地球全用希臘羅馬神的羅馬名；星期二、三、五的英文名來自北歐的神；嫦娥、夸父、羲和成了中國太空任務的名字；chaos、panic、echo 這些英文單字，《戰神》《雷神索爾》這些作品。本站的「<a href={href('today')}>今日影子</a>」收了 {site.today.length} 條，每條都寫明「和原典差在哪」，因為今天的用法常常已經走樣。
         </p>
         <pre className="ascii">{`讀完總覽之後，怎麼往下走？
 
-  想照順序深入 ──► 首頁「新手路線」8 張（蓋亞 → 克羅諾斯 → 宙斯 → 普羅米修斯 → 波瑟芬妮 → 特洛伊 → 奧德賽 → 埃涅阿斯）
-  想認識某位神 ──► 「卡片」：每張開頭三句話，30 秒知道他是誰；名畫區教你在博物館認出他
-  想看人物關係 ──► 「族譜」：點一位神展開家族；「年代」：八個時代就是本頁的八幕
-  想找今天的梗 ──► 「今日影子」：單字、品牌、電影、行星`}</pre>
+  想照順序深入 ──► 首頁三條「新手路線」：希臘羅馬 8 張、北歐 7 張、中華 7 張
+  想認識某位神 ──► 「卡片」：可依希臘、羅馬、北歐、中華篩選；每張開頭三句話，30 秒知道他是誰
+  想看人物關係 ──► 「族譜」：希臘看血緣，北歐以奧丁為中心，中華看傳位與對戰
+  想看時間順序 ──► 「年代」：希臘八個時代就是本頁的八幕；北歐從創世到諸神黃昏；中華從盤古到夏朝
+  想找今天的梗 ──► 「今日影子」：單字、品牌、電影、行星、星期、太空任務`}</pre>
         <p>
-          <a className="overview-cta" href="#/"><strong>回首頁，從新手路線第 1 張開始 →</strong><span>蓋亞：一切從大地開始</span></a>
+          <a className="overview-cta" href="#/"><strong>回首頁，挑一條新手路線開始 →</strong><span>蓋亞、尤彌爾、盤古：三個世界的起點</span></a>
         </p>
       </section>
 

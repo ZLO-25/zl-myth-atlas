@@ -364,7 +364,7 @@ test('第二波 6：讀不到 localStorage 時開關照樣能用', async ({ page
 test('第二波 7：總覽每幕結尾先問問題，按「看答案」才展開回顧', async ({ page }) => {
   await page.goto('#/overview');
   const recaps = page.locator('aside.recap');
-  await expect(recaps).toHaveCount(8);
+  await expect(recaps).toHaveCount(17); // 希臘羅馬 8＋北歐 4＋中華 5
   // 預設：每一幕都只有問題與按鈕，沒有答案
   await expect(page.getByText('讀到這裡你已經知道')).toHaveCount(0);
   for (const r of await recaps.all()) {
