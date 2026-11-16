@@ -24,7 +24,7 @@ family:
     - {id: god-zeus, src: [s2], variant: 一說只有波魯克斯是宙斯之子，卡斯托是國王廷達瑞俄斯之子}
     - {name: 斯巴達國王廷達瑞俄斯, src: [s2], variant: 另一說兩人都是宙斯之子（赫西俄德）}
   siblings:
-    - {name: 海倫（斯巴達王后）, src: [s2]}
+    - {id: hero-helen, src: [s2]}
     - {name: 克呂泰涅斯特拉, src: [s2]}
 sources:
   - {id: s1, kind: modern, cite: Theoi Project「Dioskouroi」, url: 'https://www.theoi.com/Ouranios/Dioskouroi.html', accessed: '2026-11-16'}

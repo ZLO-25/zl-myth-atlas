@@ -18,7 +18,7 @@ family:
     - {name: 阿革諾耳（腓尼基國王）, src: [s1]}
     - {name: 特勒法莎, src: [s1]}
   siblings:
-    - {name: 歐羅巴, src: [s1]}
+    - {id: story-europa, src: [s1]}
     - {name: 腓尼克斯, src: [s1]}
     - {name: 奇利克斯, src: [s1]}
   consorts:

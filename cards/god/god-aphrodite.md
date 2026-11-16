@@ -27,7 +27,7 @@ family:
     - {name: 安喀塞斯（特洛伊王族凡人）, src: [s4]}
   children:
     - {id: hero-aeneas, src: [s4]}
-    - {name: 厄洛斯（愛神，羅馬叫邱比特）, src: [s6], variant: 赫西俄德說厄洛斯是最早的原始神之一，不是她的兒子}
+    - {id: god-eros, src: [s6], variant: 赫西俄德說厄洛斯是最早的原始神之一，不是她的兒子}
 images: [img-aphrodite-milo, img-aphrodite-ludovisi, img-aphrodite-botticelli]
 sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》188–206, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}

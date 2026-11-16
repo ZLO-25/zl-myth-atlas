@@ -24,8 +24,7 @@ family:
     - {name: 赫耳彌俄涅, src: [s1]}
   siblings:
     - {name: 克呂泰涅斯特拉, src: [s1]}
-    - {name: 卡斯托, src: [s1]}
-    - {name: 波魯克斯, src: [s1]}
+    - {id: hero-castor-pollux, src: [s1]}
 sources:
   - {id: s1, kind: ancient, cite: 阿波羅多洛斯《書庫》3.10.7–3.11.1（身世、被忒修斯擄走、求婚者的誓約）, url: 'https://www.theoi.com/Text/Apollodorus3.html'}
   - {id: s2, kind: ancient, cite: 阿波羅多洛斯《書庫》摘要 3.1–3.5（帕里斯帶走海倫；海倫的幻影）, url: 'https://www.theoi.com/Text/ApollodorusE.html'}

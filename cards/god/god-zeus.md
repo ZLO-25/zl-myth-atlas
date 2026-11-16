@@ -49,7 +49,7 @@ family:
     - {id: god-aphrodite, src: [s6, s10], variant: 荷馬說是宙斯與狄奧涅之女；赫西俄德說生於海沫}
     - {id: hero-heracles, src: [s4]}
     - {id: hero-perseus, src: [s7]}
-    - {name: 波瑟芬妮, src: [s4]}
+    - {id: story-persephone, src: [s4]}
     - {id: god-muses, src: [s4]}
     - {id: god-fates, src: [s4], variant: 赫西俄德另有一說，說她們是夜神獨自生下的}
     - {id: hero-helen, src: [s15], variant: 另一說她是宙斯與涅墨西斯的女兒}

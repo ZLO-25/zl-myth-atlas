@@ -24,7 +24,7 @@ family:
   consorts:
     - {id: god-zeus, src: [s2]}
   children:
-    - {name: 波瑟芬妮, src: [s2]}
+    - {id: story-persephone, src: [s2]}
 images: [img-demeter-eleusis, img-demeter-knidos, img-persephone-hydria]
 sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》453–458, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}

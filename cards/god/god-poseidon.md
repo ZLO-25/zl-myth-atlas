@@ -27,6 +27,7 @@ family:
   children:
     - {name: 特里同, src: [s2]}
     - {name: 獨眼巨人波呂斐摩斯, src: [s3]}
+    - {id: hero-bellerophon, src: [s14, s15], variant: 《伊利亞德》與阿波羅多洛斯說柏勒洛豐的父親是格勞科斯；品達與赫西俄德殘篇說是波賽頓}
     - {id: hero-theseus, src: [s7], variant: 另一說父親是雅典國王埃勾斯}
 images: [img-poseidon-melos, img-poseidon-pinax]
 sources:
@@ -43,6 +44,8 @@ sources:
   - {id: s11, kind: ancient, cite: 荷馬《奧德賽》5.282–381、13.159–164, url: 'https://www.gutenberg.org/ebooks/1727'}
   - {id: s12, kind: ancient, cite: 阿波羅多洛斯《書庫》2.5.9（特洛伊的城牆與拉俄墨冬）, url: 'https://www.theoi.com/Text/Apollodorus2.html'}
   - {id: s13, kind: ancient, cite: 《荷馬詩體頌歌》第 22 首〈致波賽頓〉, url: 'https://www.theoi.com/Text/HomericHymns3.html'}
+  - {id: s14, kind: ancient, cite: 品達《奧林匹亞頌》13.63–92 與《地峽頌》7.44（引自 Theoi 條目）, url: 'https://www.theoi.com/Ther/HippossPegasos.html'}
+  - {id: s15, kind: ancient, cite: 赫西俄德《女子名錄》殘篇 7（引自 Theoi 條目）, url: 'https://www.theoi.com/Ther/HippossPegasos.html'}
 greek_vs_roman:
   text: 羅馬的尼普頓原本是管「淡水」的神，後來才和希臘海神波賽頓畫上等號。羅馬人不像希臘人那樣靠海維生，所以尼普頓的地位遠不如波賽頓。他的節日在 7 月 23 日盛夏，人們祈求的是別缺水。
   src: [s9]

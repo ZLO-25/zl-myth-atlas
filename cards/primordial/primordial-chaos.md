@@ -21,6 +21,7 @@ family:
   children:
     - {name: 厄瑞玻斯（幽暗）, src: [s1]}
     - {id: primordial-nyx, src: [s1]}
+    - {id: god-eros, src: [s8], variant: 只有奧皮安的詩說他生自卡厄斯；赫西俄德只寫他在卡厄斯之後「接著」出現}
 few_images: 混沌不是有臉孔的神，而是「最初的那片空隙」。本站找不到授權清楚、可靠的古代混沌圖像，目前只收錄一件 19 世紀的畫作。
 images: [img-chaos-watts]
 sources:
@@ -31,6 +32,7 @@ sources:
   - {id: s7, kind: ancient, cite: 奧爾弗斯教《狂想曲》殘篇 66、54（引自 Theoi「Khaos」條）, url: 'https://www.theoi.com/Protogenos/Khaos.html'}
   - {id: s3, kind: modern, cite: Theoi.com「Khaos」, url: 'https://www.theoi.com/Protogenos/Khaos.html', accessed: '2026-11-02'}
   - {id: s4, kind: modern, cite: 維基共享資源：瓦茨〈混沌〉作品頁, url: 'https://commons.wikimedia.org/wiki/File:Assistants_and_George_Frederic_Watts_-_Chaos_-_Google_Art_Project.jpg', accessed: '2026-11-02'}
+  - {id: s8, kind: modern, cite: Theoi Project「Eros（原始神）」, url: 'https://www.theoi.com/Protogenos/Eros.html', accessed: '2026-11-16'}
 effects:
   - {id: primordial-gaia, rel: 背景, why: 赫西俄德的順序是先有卡厄斯，接著大地蓋亞才出現。, src: [s1]}
 disputed:

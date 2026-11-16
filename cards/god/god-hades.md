@@ -28,7 +28,7 @@ family:
     - {id: god-demeter, src: [s1]}
     - {id: god-hestia, src: [s1]}
   consorts:
-    - {name: 波瑟芬妮（冥后）, src: [s3]}
+    - {id: story-persephone, src: [s3]}
 images: [img-hades-locri, img-hades-bernini, img-hades-vergina]
 sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》453–458, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}

@@ -25,10 +25,10 @@ family:
   consorts:
     - {name: 厄喀德那, src: [s2]}
   children:
-    - {name: 刻耳柏洛斯, src: [s2]}
+    - {id: monster-cerberus, src: [s2]}
     - {name: 勒拿九頭蛇, src: [s2]}
     - {name: 奇美拉, src: [s2]}
-    - {name: 斯芬克斯, src: [s2]}
+    - {id: monster-sphinx, src: [s2]}
 sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》820–880, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
   - {id: s2, kind: ancient, cite: 赫西俄德《神譜》295–332（厄喀德那與她的孩子）, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
