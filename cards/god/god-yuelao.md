@@ -19,6 +19,7 @@ how_to_recognize: 《定婚店》寫他倚著布囊坐在台階上，向著月�
 sources:
   - {id: s1, kind: ancient, cite: 李復言《續玄怪錄》卷四〈定婚店〉（唐）, url: 'https://zh.wikisource.org/wiki/續玄怪錄'}
   - {id: s2, kind: modern, cite: 聯合報「月下老人與紅娘」專文（udn 鳴人堂）, url: 'https://udn.com/news/story/7272/8683818', accessed: '2026-11-16'}
+today: [yuelao-riyuetan]
 era: cn-novels
 topics: [民間信仰, 小說與戲曲]
 ---

@@ -28,6 +28,7 @@ disputed:
       - {view: 唐玄宗夢見的捉鬼大漢，武舉落第者, src: [s1]}
       - {view: 終南進士，武德年間應考落第撞階而死（趙翼轉引，並認為是附會）, src: [s2]}
       - {view: 本是逐鬼的椎「終葵」，後來被當成人名, src: [s2]}
+today: [zhongkui-palace-painting]
 era: cn-immortals
 topics: [民間信仰, 小說與戲曲]
 ---
