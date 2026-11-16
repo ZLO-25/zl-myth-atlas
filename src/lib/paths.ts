@@ -1,12 +1,15 @@
-// 兩條新手路線：卡片頁（上一張／下一張）、首頁（進度）、總覽（極短版）共用。
+// 三條新手路線（希臘羅馬、北歐、中華，地位相同）：卡片頁（上一張／下一張）、首頁（進度）、總覽（極短版）共用。
+
+import type { Sys } from './systems';
 
 export interface ReadingPath {
   key: string;
+  sys: Sys;
   name: string;
   items: [string, string][]; // [卡片 id, 一句話理由]
 }
 
-/** 新手路線：照故事順序讀這 8 張，就有整部神話的骨架 */
+/** 希臘羅馬新手路線：照故事順序讀這 8 張，就有整部希臘羅馬神話的骨架 */
 export const STARTER_PATH: [string, string][] = [
   ['primordial-gaia', '一切從大地開始：她生出天空，也策畫了第一次政變'],
   ['titan-cronus', '兒子推翻父親，又怕被兒子推翻，於是吞掉孩子'],
@@ -41,9 +44,9 @@ export const NORSE_PATH: [string, string][] = [
 ];
 
 export const PATHS: ReadingPath[] = [
-  { key: 'starter', name: '新手路線', items: STARTER_PATH },
-  { key: 'cn', name: '中華神話新手路線', items: CN_PATH },
-  { key: 'norse', name: '北歐神話新手路線', items: NORSE_PATH },
+  { key: 'starter', sys: 'west', name: '希臘羅馬新手路線', items: STARTER_PATH },
+  { key: 'norse', sys: 'norse', name: '北歐新手路線', items: NORSE_PATH },
+  { key: 'cn', sys: 'chinese', name: '中華新手路線', items: CN_PATH },
 ];
 
 /** 這張卡在哪些路線裡、排第幾（從 0 起算） */

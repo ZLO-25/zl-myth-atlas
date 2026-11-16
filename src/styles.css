@@ -494,3 +494,25 @@ pre.ascii { background: var(--surface); border: 1px solid var(--line); padding: 
   .acts .act-chips .act-no { width: 1.3rem; height: 1.3rem; font-size: 0.7rem; }
   .acts .act-title { font-size: 0.75rem; overflow: hidden; text-overflow: clip; }
 }
+
+/* ───────── 三套神話共用（A 批）：顏色沿用總覽頁，希臘羅馬 terra、北歐 aegean、中華 olive ───────── */
+.sys-west { --sys: var(--terra); }
+.sys-norse { --sys: var(--aegean); }
+.sys-chinese { --sys: var(--olive); }
+.sys-all { --sys: var(--ink); }
+.sys-tabs { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 1rem 0; }
+.sys-tabs button { flex: 1 1 6.5rem; min-height: 2.4rem; border: 2px solid var(--sys); background: var(--surface); color: var(--ink); padding: 0.25rem 0.8rem; border-radius: 999px; cursor: pointer; font: inherit; font-weight: 700; font-size: 0.95rem; }
+.sys-tabs button.on { background: var(--sys); color: #fff; }
+.sys-tabs .count { font-size: 0.75rem; font-weight: 400; opacity: 0.8; margin-left: 0.3rem; }
+@media (prefers-color-scheme: dark) { .sys-tabs button.on { color: #17181b; } }
+.sys-chip.sys-west, .sys-chip.sys-norse, .sys-chip.sys-chinese { border-color: var(--sys); color: var(--sys); }
+.sys-section-title { border-bottom: 2px solid var(--sys); color: var(--sys); }
+.sys-doors { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 1rem; margin: 1rem 0; }
+.sys-door { background: var(--surface); border: 1px solid var(--line); border-top: 5px solid var(--sys); border-radius: 12px; padding: 0.8rem 1rem; box-shadow: var(--shadow); display: flex; flex-direction: column; gap: 0.3rem; }
+.sys-door h3 { margin: 0; color: var(--sys); font-size: 1.25rem; }
+.sys-door p { margin: 0; }
+.sys-door-links { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: auto; padding-top: 0.4rem; }
+.sys-door-links a { border: 1px solid var(--sys); color: var(--sys); border-radius: 999px; padding: 0.1rem 0.7rem; text-decoration: none; font-size: 0.9rem; font-weight: 700; }
+.sys-door-links a:hover { background: var(--sys); color: #fff; }
+.path-intro { max-width: 46rem; }
+.sys-hit { font-weight: 700; color: var(--sys); }

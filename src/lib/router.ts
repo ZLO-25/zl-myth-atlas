@@ -9,8 +9,8 @@ export function useRoute(): string[] {
     const on = () => {
       const next = read();
       setR(next);
-      // 族譜內切換模式、換中心人物只是同一頁的小變化，不要把頁面捲回頂端
-      if (!(prev === 'family' && next[0] === 'family')) window.scrollTo(0, 0);
+      // 族譜內切換模式、換中心人物，卡片列表內換篩選，只是同一頁的小變化，不要把頁面捲回頂端
+      if (!(prev === next[0] && (prev === 'family' || prev === 'cards'))) window.scrollTo(0, 0);
       prev = next[0];
     };
     window.addEventListener('hashchange', on);
