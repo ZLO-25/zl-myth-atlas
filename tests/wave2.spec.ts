@@ -65,7 +65,7 @@ test('第二波 1：讀到底記為已讀，磚塊與首頁路線顯示進度，
   await readToEnd(page, 'god-zeus');
   await page.goto('#/cards');
   await expect(page.locator('a.tile.is-read .read-badge')).toHaveCount(2);
-  await expect(page.locator('a.tile', { hasText: '宙斯' }).first().locator('.read-badge')).toHaveText('✓ 已讀');
+  await expect(page.locator('a.tile[href="#/card/god-zeus"]').first().locator('.read-badge')).toHaveText('✓ 已讀');
 
   // 首頁「繼續讀下一張」會跳過已讀的（蓋亞已讀、宙斯也已讀，下一張是克羅諾斯）
   await page.goto('');
@@ -240,7 +240,7 @@ test('第二波 5：今日影子預設收合，點了展開，可篩選，單條
   expect((await btn.boundingBox())!.height).toBeGreaterThanOrEqual(24);
   // 頁面高度：手機上原本約 31,000px，收合後要短得多
   const h = await page.evaluate(() => document.documentElement.scrollHeight);
-  expect(h, '收合後頁面高度').toBeLessThan(viewport!.width < 500 ? 15000 : 8000);
+  expect(h, '收合後頁面高度').toBeLessThan(site.today.length * (viewport!.width < 500 ? 200 : 100));
   // 展開：說明、和原典差在哪、相關卡片、來源都在
   await btn.click();
   await expect(first.getByRole('button', { name: '收合' })).toHaveAttribute('aria-expanded', 'true');
@@ -313,12 +313,12 @@ test('第二波 6：隱藏原文開關：預設顯示原文，切換後全站只
   await expect(page.locator('h1').first()).toContainText('Ζεύς');
   await expect(page.locator('.name-orig')).toContainText('原文：');
   await page.goto('#/cards');
-  await expect(page.locator('a.tile', { hasText: '宙斯' }).first()).toContainText('Zeus（Ζεύς）');
+  await expect(page.locator('a.tile[href="#/card/god-zeus"]').first()).toContainText('Zeus（Ζεύς）');
 
   // 切換（不重新整理）
   await toggle.click();
   await expect(toggle).toHaveText('顯示原文');
-  const tile = page.locator('a.tile', { hasText: '宙斯' }).first();
+  const tile = page.locator('a.tile[href="#/card/god-zeus"]').first();
   await expect(tile).toContainText('Zeus');
   expect(await tile.innerText()).not.toMatch(greek);
   expect(await tile.innerText()).not.toContain('Ζεύς');

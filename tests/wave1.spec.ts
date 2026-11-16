@@ -83,8 +83,8 @@ test('第一波 4：搜尋容錯、搜內文、不相干的詞顯示找不到', 
   await expect(items.first()).toContainText('找不到「Quetzalcoatl」');
   // 原本就對的搜尋結果不變
   await box.fill('Jupiter');
-  await expect(items).toHaveCount(1);
   await expect(items.first()).toContainText('宙斯');
+  await expect(page.locator('.search-results')).toContainText('歐羅巴'); // 新卡「歐羅巴」的別名也有 Jupiter
   await box.fill('維納斯');
   await expect(items).toHaveCount(2);
   await expect(items.nth(0)).toContainText('阿芙蘿黛蒂');
