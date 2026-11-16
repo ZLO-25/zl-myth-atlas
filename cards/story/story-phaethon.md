@@ -24,7 +24,7 @@ sources:
   - {id: s1, kind: ancient, cite: 奧維德《變形記》1.747–2.400, url: 'https://www.theoi.com/Text/OvidMetamorphoses2.html'}
   - {id: s2, kind: ancient, cite: 赫西俄德《神譜》984–991（法厄同是黎明女神與刻法羅斯之子）, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
   - {id: s3, kind: ancient, cite: 希吉努斯《寓言集》152A、154, url: 'https://www.theoi.com/Text/HyginusFabulae4.html'}
-  - {id: s4, kind: modern, cite: Theoi.com「Helios」條目（Helios Family Favour: Phaethon、The Heliades）, url: 'https://www.theoi.com/Titan/Helios.html', accessed: '2026-11-16'}
+  - {id: s4, kind: modern, cite: 'Theoi.com「Helios」條目（Helios Family Favour: Phaethon、The Heliades）', url: 'https://www.theoi.com/Titan/Helios.html', accessed: '2026-11-16'}
 disputed:
   - claim: 法厄同是誰的兒子、結局如何？
     views:
