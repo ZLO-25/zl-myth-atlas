@@ -65,4 +65,4 @@ topics: [智慧與詭計, 怪物]
 
 ## 守護者
 
-World History Encyclopedia 稱索爾是阿斯嘉特與人間的守護者。[s5] 這個故事裡，他輸給的是[[monster-jormungandr|耶夢加得]]、老年與思想這些無法用錘子打倒的東西。[s4][s5]
+World History Encyclopedia 稱索爾是阿斯嘉與人間的守護者。[s5] 這個故事裡，他輸給的是[[monster-jormungandr|耶夢加得]]、老年與思想這些無法用錘子打倒的東西。[s4][s5]
