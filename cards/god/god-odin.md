@@ -30,7 +30,7 @@ family:
   children:
     - {id: god-thor, src: [s14]}
     - {id: god-baldr, src: [s15]}
-    - {name: 維達, src: [s9]}
+    - {id: god-vidar, src: [s9]}
 sources:
   - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 3 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
   - {id: s2, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 15 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}

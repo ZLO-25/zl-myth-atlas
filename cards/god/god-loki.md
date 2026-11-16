@@ -28,8 +28,8 @@ family:
     - {name: 納里, src: [s1]}
     - {id: monster-fenrir, src: [s2]}
     - {id: monster-jormungandr, src: [s2]}
-    - {name: 海爾, src: [s2]}
-    - {name: 斯雷普尼爾, src: [s3]}
+    - {id: god-hel, src: [s2]}
+    - {id: monster-sleipnir, src: [s3]}
 sources:
   - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 33 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
   - {id: s2, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 34 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
