@@ -45,6 +45,9 @@ sources:
   - {id: s12, kind: modern, cite: World History Encyclopedia「Thor」, url: 'https://www.worldhistory.org/Thor/', accessed: '2026-11-16'}
   - {id: s14, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 15 章（Brodeur 英譯）, url: 'https://germanicmythology.com/ProseEdda/BRODEURPrologeandGylfaginning.html'}
   - {id: s13, kind: modern, cite: World History Encyclopedia「Loki」, url: 'https://www.worldhistory.org/Loki/', accessed: '2026-11-16'}
+  - {id: s15, kind: ancient, cite: 斯諾里《散文埃達》〈詩語法〉第 2–3 章（Brodeur 英譯）, url: 'https://www.voluspa.org/skaldskaparmal1-10.htm'}
+  - {id: s16, kind: ancient, cite: 斯諾里《散文埃達》〈詩語法〉第 23 章（Brodeur 英譯）, url: 'https://www.voluspa.org/skaldskaparmal21-30.htm'}
+  - {id: s17, kind: ancient, cite: 斯諾里《散文埃達》〈詩語法〉「為什麼把黃金稱為希芙的頭髮」一節（Brodeur 英譯）, url: 'https://www.voluspa.org/skaldskaparmal41-50.htm'}
 disputed:
   - claim: 綁住洛基的腸子，是他哪個兒子的？
     views:
@@ -66,9 +69,19 @@ today: [marvel-thor-loki]
 
 ### 他的孩子
 
-洛基和女巨人安格爾波達生下三個孩子：狼[[monster-fenrir|芬里爾]]、大蛇[[monster-jormungandr|耶夢加得]]，還有海爾。[s2]
+洛基和女巨人安格爾波達生下三個孩子：狼[[monster-fenrir|芬里爾]]、大蛇[[monster-jormungandr|耶夢加得]]，還有[[god-hel|赫爾]]。[s2]
 
 他還「生下」一匹灰色、八隻腳的小馬，叫斯雷普尼爾。[s3] 這匹馬就是[[god-odin|奧丁]]最好的馬。[s14] 經過是這樣：有個巨人工匠和眾神打賭，洛基出主意接受了賭約。[s3] 後來他又去引開工匠的種馬斯瓦迪爾法利，之後就生下了這匹小馬。[s3]
+
+### 偷走伊登的蘋果
+
+斯諾里說，奧丁、洛基和霍尼爾出門旅行，抓了一頭牛來煮，煮不熟，樹上的老鷹說，只要分牠一份牠就能煮熟；老鷹一下子吃掉最好的部分，洛基氣得用木棍打牠，結果手被黏在棍子上，被老鷹拖著飛，撞過石頭和樹。[s15] 老鷹是巨人夏濟，要洛基發誓把伊登和她的蘋果騙出阿斯嘉特才肯放人；洛基照做，夏濟就把伊登擄回自己家。[s15] 眾神沒有蘋果，很快變老；他們逮到洛基，威脅他，他才答應去找回，並向芙蕾雅借鷹羽衣。[s15] 他把伊登變成一顆堅果，抓著飛回阿斯嘉特；夏濟變成老鷹追來，眾神在城牆外點燃刨花，老鷹的羽毛著火，在城門前被殺。[s15] 完整的故事見[[story-idun-apples|伊登的蘋果]]。
+
+夏濟的女兒絲卡蒂來報仇，眾神提出賠償，其中一條是要逗她笑；洛基把一條繩子一端綁在山羊鬍子上、另一端綁在自己身上，兩邊拉扯尖叫，最後跌進她的膝蓋，她笑了。[s15]
+
+### 剪掉希芙的頭髮
+
+斯諾里說，洛基為了搗蛋，剪光了[[god-sif|希芙]]的頭髮。[s17] 索爾抓住他，要打斷他每一根骨頭，洛基發誓去請黑矮人用黃金做新頭髮，而且能像真頭髮一樣生長。[s17] 他找到伊瓦第的兒子們，他們做了頭髮、船斯基德布拉德尼爾和長矛貢尼爾；洛基又和矮人布洛克賭上自己的頭，說他的兄弟辛德里做不出同樣好的三件寶物。[s17] 完整的故事見[[story-dwarf-treasures|矮人的寶物]]。
 
 ### 奧丁的血盟兄弟
 
@@ -89,6 +102,22 @@ today: [marvel-thor-loki]
 ### 諸神黃昏
 
 〈女先知的預言〉說，洛基掌舵，駛來敵人的船。[s8] 斯諾里說，他和[[god-heimdall|海姆達爾]]互相殺死對方。[s9]
+
+### 他有很多名字
+
+斯諾里在〈詩語法〉列出洛基的稱號，有「奧丁的親戚與叔伯」「奧丁與阿薩神族的長椅同伴」「巨人的小偷」「伊登蘋果的小偷」「斯雷普尼爾的親戚」「西格恩的丈夫」「希芙頭髮的破壞者」「巴德爾之死的策劃者」「被綁的神」。[s16]
+
+### 各書怎麼說
+
+```
+來源             洛基的樣子
+欺騙古魯菲 33    俊美、心地邪惡
+詩語法 23        一串稱號：小偷、
+                 策劃者、被綁的神
+洛基的爭辯       酒宴上罵遍眾神
+```
+
+洛基在詩與斯諾里的書裡，是同時幫眾神解圍又給眾神惹麻煩的角色。[s1][s5][s16]
 
 ### 兩個洛基
 
