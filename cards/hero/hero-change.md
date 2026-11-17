@@ -11,6 +11,7 @@ three_lines:
   - 后羿的妻子，吃下不死藥後飛上月亮，成了住在月宮的女神。
   - 后羿從西王母那裡求來不死藥，嫦娥偷吃了，從此和丈夫分隔天上人間。
   - 中秋賞月的故事、中國的「嫦娥」探月計畫和「玉兔」月球車，都和她有關。
+images: [img-ai-portrait-change]
 hook: 嫦娥：偷吃不死藥飛上月亮，從此每年中秋被人仰望。
 today: [change-program, yutu-rover]
 family:

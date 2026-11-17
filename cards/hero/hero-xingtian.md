@@ -11,6 +11,7 @@ three_lines:
   - 被砍了頭還繼續戰鬥的巨人。
   - 他和天帝爭奪神位，被砍下頭顱埋在常羊山，卻用兩個乳頭當眼睛、肚臍當嘴巴，揮舞著盾牌和斧頭繼續作戰。
   - 陶淵明的「刑天舞干戚，猛志固常在」，讓他成了「永不屈服」的象徵。
+images: [img-ai-portrait-xingtian]
 hook: 刑天：頭被砍了，就用乳頭當眼、肚臍當嘴，繼續揮斧頭。
 sources:
   - {id: s1, kind: ancient, cite: 《山海經·海外西經》, url: 'https://zh.wikisource.org/wiki/山海經/海外西經'}
