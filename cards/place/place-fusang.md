@@ -11,6 +11,7 @@ three_lines:
   - 長在東方大海裡、讓十個太陽休息的大樹。
   - 太陽在湯谷洗完澡，九個待在下面的樹枝，一個在上面的樹枝，輪流上天。
   - 因為它在東方，後來「扶桑」也成了日本的別稱。
+images: [img-ai-portrait-fusang]
 hook: 扶桑：十個太陽輪流休息的大樹。
 sources:
   - {id: s1, kind: ancient, cite: 《山海經·海外東經》, url: 'https://zh.wikisource.org/wiki/山海經/海外東經'}

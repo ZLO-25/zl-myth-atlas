@@ -17,6 +17,7 @@ domains:
   symbols: [押在泉裡的一隻眼睛, 兩隻烏鴉胡金與穆寧, 兩匹狼基利與庫力奇, 八隻腳的馬斯雷普尼爾, 高座至高王座]
 how_to_recognize: 故事裡的特徵：只有一隻眼睛；身邊有兩隻烏鴉（胡金與穆寧）和兩匹狼（基利與庫力奇）；騎的是八隻腳的馬斯雷普尼爾。這些是故事裡的描述。
 how_to_recognize_src: [s2, s6]
+images: [img-ai-portrait-odin]
 few_images: 這批還沒有收錄作品圖。
 family:
   parents:
