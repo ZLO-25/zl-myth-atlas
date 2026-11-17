@@ -17,6 +17,7 @@ domains:
   symbols: [瀾的網, 發光的黃金, 九個女兒]
 how_to_recognize: 故事裡的特徵：埃吉爾的宴會廳被黃金照得像著了火；瀾拿著一張網撈海上的人。這些是故事裡的描述。
 how_to_recognize_src: [s2, s6]
+images: [img-ai-portrait-aegir]
 few_images: 這張卡還沒有收錄圖片。
 family:
   consorts:

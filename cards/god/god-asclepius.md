@@ -25,7 +25,7 @@ family:
   children:
     - {name: 馬卡翁（軍醫）, src: [s5]}
     - {name: 波達利里奧斯（軍醫）, src: [s5]}
-images: []
+images: [img-ai-portrait-asclepius]
 few_images: 這張卡還沒有收錄圖片。
 sources:
   - {id: s1, kind: ancient, cite: 阿波羅多洛斯《書庫》3.10.3–3.10.4, url: 'https://www.theoi.com/Text/Apollodorus3.html'}

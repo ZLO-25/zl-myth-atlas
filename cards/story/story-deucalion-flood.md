@@ -13,11 +13,11 @@ three_lines:
   - 他們的兒子赫楞，是希臘人「赫楞人」名稱的來源。
 hook: 丟卡利翁的洪水：人類被大水淹光，又靠一把石頭重新長出來。
 panels:
-  - {short: 宙斯決定用洪水毀滅人類, text: 宙斯打算毀滅青銅時代的人，大雨讓大半個希臘被淹沒。Theoi 條目說，起因是宙斯被人類的不敬激怒。, src: [s1, s3]}
-  - {short: 普羅米修斯的兒子造了船, text: 丟卡利翁聽了父親普羅米修斯的建議，造了一只大箱子，裝滿糧食，和妻子皮拉一起上去。, src: [s1]}
-  - {short: 漂了九天九夜，停在帕爾納索斯山, text: 他們漂流九天九夜，最後停在帕爾納索斯山上。雨停後，丟卡利翁向宙斯獻祭。, src: [s1]}
-  - {short: 石頭丟到身後, text: 神諭（《變形記》說是忒彌斯）叫他們蒙住頭，把「大地母親的骨頭」丟到身後；他們想通那是大地的石頭，照做了。, src: [s2, s3]}
-  - {short: 石頭變成了人, text: 丟卡利翁丟的石頭變成男人，皮拉丟的變成女人。阿波羅多洛斯用希臘文的 laos（人民）與 laas（石頭）玩了一個雙關。, src: [s1]}
+  - {image: img-ai-deucalion-flood-1, short: 宙斯決定用洪水毀滅人類, text: 宙斯打算毀滅青銅時代的人，大雨讓大半個希臘被淹沒。Theoi 條目說，起因是宙斯被人類的不敬激怒。, src: [s1, s3]}
+  - {image: img-ai-deucalion-flood-2, short: 普羅米修斯的兒子造了船, text: 丟卡利翁聽了父親普羅米修斯的建議，造了一只大箱子，裝滿糧食，和妻子皮拉一起上去。, src: [s1]}
+  - {image: img-ai-deucalion-flood-3, short: 漂了九天九夜，停在帕爾納索斯山, text: 他們漂流九天九夜，最後停在帕爾納索斯山上。雨停後，丟卡利翁向宙斯獻祭。, src: [s1]}
+  - {image: img-ai-deucalion-flood-4, short: 石頭丟到身後, text: 神諭（《變形記》說是忒彌斯）叫他們蒙住頭，把「大地母親的骨頭」丟到身後；他們想通那是大地的石頭，照做了。, src: [s2, s3]}
+  - {image: img-ai-deucalion-flood-5, short: 石頭變成了人, text: 丟卡利翁丟的石頭變成男人，皮拉丟的變成女人。阿波羅多洛斯用希臘文的 laos（人民）與 laas（石頭）玩了一個雙關。, src: [s1]}
 sources:
   - {id: s1, kind: ancient, cite: 阿波羅多洛斯《書庫》1.7.2, url: 'https://www.theoi.com/Text/Apollodorus1.html'}
   - {id: s2, kind: ancient, cite: 奧維德《變形記》1.313–415, url: 'https://www.theoi.com/Text/OvidMetamorphoses1.html'}

@@ -13,12 +13,12 @@ three_lines:
   - 錘子的柄有點短，但眾神一致判定它最好；洛基想逃，結果被矮人用錐子縫上了嘴。
 hook: 眾神最重要的寶物，竟然都是洛基一次惡作劇的副產品。
 panels:
-  - {text: 洛基為了搗蛋，把希芙的頭髮全剪光。索爾抓住他，要打斷他全身的骨頭。, src: [s1]}
-  - {text: 洛基發誓找黑精靈做一頭會像真頭髮一樣長的金髮。伊瓦第的兒子們做了金髮、一艘船和一支長矛。, src: [s1]}
-  - {text: 洛基和矮人布洛克打賭：他的兄弟辛德里做不出三件同樣好的寶物，輸了就賠上腦袋。, src: [s1]}
-  - {text: 辛德里在爐裡放進豬皮、黃金、鐵，布洛克拉風箱；蒼蠅三次叮咬，第三次他伸手去趕。, src: [s1]}
-  - {text: 眾神裁判，判定錘子最好；洛基想逃，被索爾抓回來。, src: [s1]}
-  - {text: 矮人要砍頭，洛基說只能拿頭、不能碰脖子；矮人改用錐子把他的嘴縫起來。, src: [s1]}
+  - {image: img-ai-dwarf-treasures-1, text: 洛基為了搗蛋，把希芙的頭髮全剪光。索爾抓住他，要打斷他全身的骨頭。, src: [s1]}
+  - {image: img-ai-dwarf-treasures-2, text: 洛基發誓找黑精靈做一頭會像真頭髮一樣長的金髮。伊瓦第的兒子們做了金髮、一艘船和一支長矛。, src: [s1]}
+  - {image: img-ai-dwarf-treasures-3, text: 洛基和矮人布洛克打賭：他的兄弟辛德里做不出三件同樣好的寶物，輸了就賠上腦袋。, src: [s1]}
+  - {image: img-ai-dwarf-treasures-4, text: 辛德里在爐裡放進豬皮、黃金、鐵，布洛克拉風箱；蒼蠅三次叮咬，第三次他伸手去趕。, src: [s1]}
+  - {image: img-ai-dwarf-treasures-5, text: 眾神裁判，判定錘子最好；洛基想逃，被索爾抓回來。, src: [s1]}
+  - {image: img-ai-dwarf-treasures-6, text: 矮人要砍頭，洛基說只能拿頭、不能碰脖子；矮人改用錐子把他的嘴縫起來。, src: [s1]}
 few_images: 這張卡還沒有收錄圖片。
 sources:
   - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈詩語法〉「伊瓦第之子與矮人辛德里」一節（voluspa.org 編號第 43 節，Brodeur 英譯）, url: 'https://www.voluspa.org/skaldskaparmal41-50.htm'}

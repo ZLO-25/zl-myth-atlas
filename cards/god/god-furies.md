@@ -23,7 +23,7 @@ family:
     - {id: primordial-gaia, src: [s1], variant: 赫西俄德：蓋亞吸收烏拉諾斯被割下時落下的血而生下她們}
     - {id: primordial-uranus, src: [s1], variant: 赫西俄德：由他的血而生}
     - {id: primordial-nyx, src: [s2], variant: 艾斯奇勒斯劇中她們自稱夜神之女}
-images: []
+images: [img-ai-portrait-furies]
 few_images: 這張卡還沒有收錄圖片。
 sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》176–187, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
