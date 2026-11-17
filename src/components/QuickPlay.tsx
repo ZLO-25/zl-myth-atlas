@@ -2,6 +2,9 @@ import { useEffect, useRef, useState } from 'react';
 import type { Panel } from '../../scripts/lib/types';
 import { imageById, imgSrc } from '../lib/data';
 
+const videoSrc = (v: string) => import.meta.env.BASE_URL + v.replace(/^\//, '');
+const reduceMotion = () => typeof window !== 'undefined' && !!window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+
 /** 整段固定 30 秒：每格平均分配（6 格＝每格 5 秒） */
 export const QUICK_TOTAL_MS = 30_000;
 const TICK = 100;
@@ -12,7 +15,11 @@ export function QuickPlay({ panels, onClose }: { panels: Panel[]; onClose: (at: 
   const per = QUICK_TOTAL_MS / panels.length;
   const [ms, setMs] = useState(0);
   const [paused, setPaused] = useState(false);
+  const [sound, setSound] = useState(false);
   const box = useRef<HTMLDivElement>(null);
+  const vid = useRef<HTMLVideoElement>(null);
+  const still = useRef(reduceMotion()).current; // 「減少動態效果」時只放靜態圖
+  const hasVideo = !still && panels.some((p) => p.video);
   const done = ms >= QUICK_TOTAL_MS;
   const i = Math.min(panels.length - 1, Math.floor(ms / per));
 
@@ -27,9 +34,20 @@ export function QuickPlay({ panels, onClose }: { panels: Panel[]; onClose: (at: 
     const next = panels[i + 1]?.image;
     const im = next && imageById.get(next);
     if (im) new Image().src = imgSrc(im);
+    const nv = panels[i + 1]?.video;
+    if (nv && !still) fetch(videoSrc(nv)).catch(() => {}); // 下一格的影片先抓進快取
   }, [i, panels]);
 
   useEffect(() => box.current?.focus(), []);
+
+  // 這一格有動態影片：跟著暫停／繼續；影片比這一格的秒數長就自然被下一格接走
+  const curVideo = !still && !done ? panels[i].video : undefined;
+  useEffect(() => {
+    const v = vid.current;
+    if (!v) return;
+    if (paused) v.pause();
+    else v.play().catch(() => {});
+  }, [paused, curVideo, i]);
 
   const jump = (j: number) => setMs(Math.min(panels.length - 1, Math.max(0, j)) * per);
 
@@ -54,14 +72,27 @@ export function QuickPlay({ panels, onClose }: { panels: Panel[]; onClose: (at: 
           return (
             <img
               key={j}
-              className={`qp-img qp-move-${j % 4} ${j === i ? 'on' : ''} ${paused || done ? 'hold' : ''}`}
+              className={`qp-img ${p.video && !still ? 'qp-still' : `qp-move-${j % 4}`} ${j === i ? 'on' : ''} ${paused || done ? 'hold' : ''}`}
               style={{ animationDuration: `${per + 600}ms` }}
               src={imgSrc(im)}
               alt={j === i ? im.title : ''}
             />
           );
         })}
-        <span className="ai-badge">AI 插畫</span>
+        {curVideo && (
+          <video
+            key={curVideo}
+            ref={vid}
+            className="qp-video"
+            src={videoSrc(curVideo)}
+            muted={!sound}
+            playsInline
+            autoPlay
+            preload="auto"
+            aria-hidden="true"
+          />
+        )}
+        <span className="ai-badge">{curVideo ? 'AI 動畫' : 'AI 插畫'}</span>
         {paused && !done && <span className="qp-paused">已暫停，點畫面繼續</span>}
         {done ? (
           <div className="qp-end">
@@ -89,6 +120,11 @@ export function QuickPlay({ panels, onClose }: { panels: Panel[]; onClose: (at: 
         <span className="muted small">
           第 {i + 1} / {panels.length} 格｜{Math.ceil((QUICK_TOTAL_MS - ms) / 1000)} 秒
         </span>
+        {hasVideo && (
+          <button type="button" aria-pressed={sound} onClick={() => setSound((v) => !v)}>
+            {sound ? '🔊 有聲' : '🔇 靜音'}
+          </button>
+        )}
         <button type="button" onClick={() => onClose(i)}>✕ 離開</button>
       </div>
     </div>

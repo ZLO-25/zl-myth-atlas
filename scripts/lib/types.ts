@@ -37,6 +37,7 @@ export interface Panel {
   text: string;
   src: string[];
   short?: string; // 「30 秒看完」用的一句字幕（22 字以內）；整個故事每格都有才會出現播放鈕
+  video?: string; // 「30 秒看完」這一格改播的動態影片，public/ 底下的路徑（.mp4 或 .webm）；第一格畫面要和 image 同一張
 }
 
 export interface Card {

@@ -118,6 +118,14 @@ for (const c of cards) {
     if (p.short !== undefined && (typeof p.short !== 'string' || !p.short.trim() || [...p.short].length > 22))
       err(w, `panels 第 ${i + 1} 格的 short 要 1–22 個字（30 秒字幕一眼要讀得完）`);
   }
+  for (const [i, p] of (c.panels ?? []).entries()) {
+    if (p.video === undefined) continue;
+    const f = path.join(ROOT, 'public', String(p.video));
+    if (!/^videos\/ai\/[a-z0-9-]+\/[a-z0-9-]+\.(mp4|webm)$/.test(String(p.video))) err(w, `panels 第 ${i + 1} 格的 video 要寫成 videos/ai/<卡片id>/<檔名>.mp4`);
+    else if (!fs.existsSync(f)) err(w, `panels 第 ${i + 1} 格的影片不存在：public/${p.video}`);
+    else if (fs.statSync(f).size > 3 * 1024 * 1024) err(w, `panels 第 ${i + 1} 格的影片超過 3MB，請先壓縮（手機流量與 GitHub Pages 容量）`);
+    if (!p.image || !p.short) err(w, `panels 第 ${i + 1} 格有 video 就要同時有 image（當封面）和 short（字幕）`);
+  }
   const shorts = (c.panels ?? []).filter((p) => p.short !== undefined).length;
   if (shorts > 0 && shorts !== c.panels!.length) err(w, `panels 的 short 要嘛每格都寫、要嘛都不寫（現在 ${shorts}/${c.panels!.length} 格）`);
   if (c.panels && (c.panels.length < 4 || c.panels.length > 8)) err(w, `分格故事要 4–8 格（現在 ${c.panels.length} 格）`);
