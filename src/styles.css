@@ -572,3 +572,9 @@ pre.ascii { background: var(--surface); border: 1px solid var(--line); padding: 
 @media (prefers-reduced-motion: reduce) {
   .qp-img, .qp-cap { animation: none; }
 }
+/* 30 秒看完：某一格改播動態影片（疊在同一張插畫上，第一格畫面相同所以接得起來） */
+.qp-img.qp-still { animation: none; }
+.qp-video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 1; animation: qp-fade 0.4s ease both; }
+@keyframes qp-fade { from { opacity: 0; } to { opacity: 1; } }
+.qp-cap, .qp-end, .qp-paused { z-index: 2; }
+.qp-ctl { flex-wrap: wrap; }

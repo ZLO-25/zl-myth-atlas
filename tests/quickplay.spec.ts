@@ -27,3 +27,13 @@ test('30 秒看完：沒寫字幕的故事不出現播放鈕', async ({ page }) 
   await expect(page.locator('section.panels')).toBeVisible();
   await expect(page.locator('button.quick-start')).toHaveCount(0);
 });
+
+test('30 秒看完：潘朵拉每一格播的是動態影片', async ({ page }) => {
+  await page.goto('#/card/story-pandora');
+  await page.locator('button.quick-start').click();
+  const v = page.locator('.qp .qp-video');
+  await expect(v).toHaveAttribute('src', /videos\/ai\/story-pandora\/vid-ai-pandora-1\.mp4$/);
+  await expect(page.locator('.qp .ai-badge')).toHaveText('AI 動畫');
+  await expect.poll(() => v.evaluate((el: HTMLVideoElement) => el.currentTime), { timeout: 8000 }).toBeGreaterThan(0.5);
+  expect(await v.evaluate((el: HTMLVideoElement) => el.muted)).toBe(true);
+});
