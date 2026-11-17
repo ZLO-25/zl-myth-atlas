@@ -17,6 +17,7 @@ domains:
   symbols: [英靈殿, 飲酒的角杯]
 how_to_recognize: 故事裡的特徵：在英靈殿捧著角杯送酒、騎馬去戰場；World History Encyclopedia 說，有些手拿角杯的小型女性雕像，可能代表她們。
 how_to_recognize_src: [s1, s2, s3]
+images: [img-ai-portrait-valkyries]
 few_images: 這張卡還沒有收錄圖片。
 sources:
   - {id: s1, kind: ancient, cite: 《詩體埃達》〈格里姆尼爾之歌〉第 8、14、36 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}

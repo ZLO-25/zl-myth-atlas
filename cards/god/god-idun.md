@@ -17,6 +17,7 @@ domains:
   symbols: [梣木盒子裡的蘋果]
 how_to_recognize: 故事裡的特徵：身邊有一盒蘋果。這是故事裡的描述。
 how_to_recognize_src: [s1, s3]
+images: [img-ai-portrait-idun]
 few_images: 這張卡還沒有收錄圖片。
 family:
   consorts:

@@ -14,6 +14,7 @@ three_lines:
 hook: 英靈殿：奧丁的大廳，戰死者白天打鬥、晚上喝酒。
 how_to_recognize: 故事裡的特徵：屋椽是矛，屋頂是盾牌，長椅上鋪著胸甲，西邊門上掛著一隻狼，狼上面有一隻鷹。
 how_to_recognize_src: [s1, s7]
+images: [img-ai-portrait-valhalla]
 few_images: 這張卡還沒有收錄圖片。
 sources:
   - {id: s1, kind: ancient, cite: 《詩體埃達》〈格里姆尼爾之歌〉第 8–10、14、21–23 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}

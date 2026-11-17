@@ -13,11 +13,11 @@ three_lines:
   - 英文 apple of discord（紛爭的蘋果）指小事引發的大爭端。
 hook: 帕里斯的裁判：一顆金蘋果、三份賄賂，換來一場打了十年的戰爭。
 panels:
-  - {short: 婚宴沒請不和女神, text: 珀琉斯與海中女神忒提斯結婚，眾神都來赴宴，只有不和女神厄里斯沒被邀請。她在氣頭上把一顆寫著「給最美的」金蘋果丟進宴席。, src: [s1, s5]}
-  - {short: 三位女神都說是自己的, text: 希拉、雅典娜、阿芙蘿黛蒂各自認為蘋果該歸自己，吵成一團。宙斯不想自己判，命令荷米斯帶她們到伊達山，由特洛伊王子帕里斯評判。, src: [s3, s5]}
-  - {short: 每位女神都開出條件, text: 希拉說，選她就讓他當天下所有人的王；雅典娜說，給他戰爭的勝利；阿芙蘿黛蒂說，把海倫給他當妻子。, src: [s3]}
-  - {short: 他把蘋果給了阿芙蘿黛蒂, text: 帕里斯選了阿芙蘿黛蒂。落敗的希拉與雅典娜從此對特洛伊懷恨在心。, src: [s3, s4]}
-  - {short: 海倫跟他走，戰爭種子種下, text: 帕里斯後來航向斯巴達，在墨涅拉奧斯離開時帶走了海倫，這就是特洛伊戰爭的導火線。, src: [s3]}
+  - {image: img-ai-judgement-of-paris-1, short: 婚宴沒請不和女神, text: 珀琉斯與海中女神忒提斯結婚，眾神都來赴宴，只有不和女神厄里斯沒被邀請。她在氣頭上把一顆寫著「給最美的」金蘋果丟進宴席。, src: [s1, s5]}
+  - {image: img-ai-judgement-of-paris-2, short: 三位女神都說是自己的, text: 希拉、雅典娜、阿芙蘿黛蒂各自認為蘋果該歸自己，吵成一團。宙斯不想自己判，命令荷米斯帶她們到伊達山，由特洛伊王子帕里斯評判。, src: [s3, s5]}
+  - {image: img-ai-judgement-of-paris-3, short: 每位女神都開出條件, text: 希拉說，選她就讓他當天下所有人的王；雅典娜說，給他戰爭的勝利；阿芙蘿黛蒂說，把海倫給他當妻子。, src: [s3]}
+  - {image: img-ai-judgement-of-paris-4, short: 他把蘋果給了阿芙蘿黛蒂, text: 帕里斯選了阿芙蘿黛蒂。落敗的希拉與雅典娜從此對特洛伊懷恨在心。, src: [s3, s4]}
+  - {image: img-ai-judgement-of-paris-5, short: 海倫跟他走，戰爭種子種下, text: 帕里斯後來航向斯巴達，在墨涅拉奧斯離開時帶走了海倫，這就是特洛伊戰爭的導火線。, src: [s3]}
 sources:
   - {id: s1, kind: ancient, cite: 《庫普里亞》摘要（普羅克洛斯《文選》；史詩已失傳，僅存摘要）, url: 'https://www.theoi.com/Text/EpicCycle.html'}
   - {id: s2, kind: ancient, cite: 荷馬《伊利亞德》24.25–30, url: 'https://www.theoi.com/Text/HomerIliad24.html'}
