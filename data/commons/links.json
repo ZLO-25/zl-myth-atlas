@@ -1159,11 +1159,11 @@
    "god-caishen/s4"
   ]
  },
- "https://www.britannica.com/topic/Diana-Roman-religion": {
+ "https://www.britannica.com/topic/Bragi": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "god-artemis/s7"
+   "god-bragi/s8"
   ]
  },
  "https://zh.wikisource.org/wiki/說文解字/14": {
@@ -1196,11 +1196,11 @@
    "god-tudigong/s3"
   ]
  },
- "https://www.metmuseum.org/art/collection/search/640971": {
-  "status": 429,
+ "https://www.britannica.com/topic/Diana-Roman-religion": {
+  "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "beast-ninetail-fox/s3"
+   "god-artemis/s7"
   ]
  },
  "https://udn.com/news/story/6656/9718306": {
@@ -1228,11 +1228,11 @@
    "story-zhuolu/s2"
   ]
  },
- "https://www.britannica.com/topic/Bragi": {
-  "status": 403,
+ "https://www.metmuseum.org/art/collection/search/640971": {
+  "status": 429,
   "checked": "2026-11-17",
   "used": [
-   "god-bragi/s8"
+   "beast-ninetail-fox/s3"
   ]
  },
  "https://zh.wikisource.org/wiki/史記/卷028": {
@@ -1389,12 +1389,13 @@
    "god-eight-immortals/s4"
   ]
  },
- "https://www.britannica.com/topic/Cheng-Huang": {
+ "https://www.britannica.com/topic/Huangdi": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "god-chenghuang/s4",
-   "hsinchu-chenghuang-festival"
+   "god-chiyou/s3",
+   "god-huangdi/s3",
+   "story-zhuolu/s3"
   ]
  },
  "https://zh.wikisource.org/wiki/史記/卷029": {
@@ -1430,13 +1431,12 @@
    "god-erlang/s5"
   ]
  },
- "https://www.britannica.com/topic/Huangdi": {
+ "https://www.britannica.com/topic/Cheng-Huang": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "god-chiyou/s3",
-   "god-huangdi/s3",
-   "story-zhuolu/s3"
+   "god-chenghuang/s4",
+   "hsinchu-chenghuang-festival"
   ]
  },
  "https://www.theoi.com/Protogenos/Eros.html": {
@@ -1510,28 +1510,12 @@
    "god-leigong/s5"
   ]
  },
- "https://www.britannica.com/topic/Chinese-mythology": {
+ "https://www.britannica.com/topic/Baxian": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "god-chiyou/s5",
-   "god-gonggong/s4",
-   "god-huangdi/s4",
-   "god-nvba/s8",
-   "god-xihe/s4",
-   "god-zhulong/s7",
-   "god-zhurong/s3",
-   "hero-jingwei/s3",
-   "hero-kuafu/s3",
-   "monster-xiangliu/s5",
-   "place-fusang/s3",
-   "place-kunlun/s4",
-   "primordial-fuxi/s3",
-   "primordial-hundun/s6",
-   "primordial-nuwa/s4",
-   "primordial-pangu/s4",
-   "story-buzhou/s3",
-   "jingwei-idiom"
+   "god-eight-immortals/s5",
+   "god-fulushou/s4"
   ]
  },
  "https://www.voluspa.org/gylfaginning31-40.htm": {
@@ -1559,6 +1543,30 @@
    "hell-word"
   ]
  },
+ "https://www.britannica.com/topic/Chinese-mythology": {
+  "status": 403,
+  "checked": "2026-11-17",
+  "used": [
+   "god-chiyou/s5",
+   "god-gonggong/s4",
+   "god-huangdi/s4",
+   "god-nvba/s8",
+   "god-xihe/s4",
+   "god-zhulong/s7",
+   "god-zhurong/s3",
+   "hero-jingwei/s3",
+   "hero-kuafu/s3",
+   "monster-xiangliu/s5",
+   "place-fusang/s3",
+   "place-kunlun/s4",
+   "primordial-fuxi/s3",
+   "primordial-hundun/s6",
+   "primordial-nuwa/s4",
+   "primordial-pangu/s4",
+   "story-buzhou/s3",
+   "jingwei-idiom"
+  ]
+ },
  "https://www.worldhistory.org/Baldr/": {
   "status": 403,
   "checked": "2026-11-17",
@@ -1567,19 +1575,12 @@
    "story-baldr-death/s6"
   ]
  },
- "https://www.worldhistory.org/Qilin/": {
+ "https://www.britannica.com/topic/Lei-Gong": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "beast-qilin/s8"
-  ]
- },
- "https://www.britannica.com/topic/Baxian": {
-  "status": 403,
-  "checked": "2026-11-17",
-  "used": [
-   "god-eight-immortals/s5",
-   "god-fulushou/s4"
+   "god-fengbo-yushi/s7",
+   "god-leigong/s7"
   ]
  },
  "https://www.gutenberg.org/ebooks/598": {
@@ -1589,12 +1590,11 @@
    "god-freyr/s10"
   ]
  },
- "https://www.britannica.com/topic/Lei-Gong": {
+ "https://www.worldhistory.org/Qilin/": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "god-fengbo-yushi/s7",
-   "god-leigong/s7"
+   "beast-qilin/s8"
   ]
  },
  "https://www.voluspa.org/gylfaginning1-10.htm": {
@@ -1806,15 +1806,11 @@
    "god-guandi/s2"
   ]
  },
- "https://www.worldhistory.org/Frigg/": {
+ "https://www.worldhistory.org/Freyja/": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "god-freyja/s9",
-   "god-frigg/s6",
-   "story-aesir-vanir-war/s5",
-   "story-idun-apples/s5",
-   "friday-frigg"
+   "god-freyja/s8"
   ]
  },
  "https://www.cuhk.edu.hk/ics/journal/articles/v50p219.pdf": {
@@ -1840,11 +1836,13 @@
    "story-change-moon/s8"
   ]
  },
- "https://www.worldhistory.org/Freyja/": {
+ "https://www.etymonline.com/word/Friday": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "god-freyja/s8"
+   "god-freyja/s10",
+   "god-frigg/s7",
+   "friday-frigg"
   ]
  },
  "https://www.theoi.com/Text/HomerIliad15.html": {
@@ -1968,19 +1966,19 @@
    "god-hecate/s6"
   ]
  },
+ "https://www.worldhistory.org/Freyr/": {
+  "status": 403,
+  "checked": "2026-11-17",
+  "used": [
+   "god-freyr/s11"
+  ]
+ },
  "https://www.britannica.com/topic/Guandi": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
    "god-guandi/s5",
    "guandi-temples"
-  ]
- },
- "https://www.worldhistory.org/Freyr/": {
-  "status": 403,
-  "checked": "2026-11-17",
-  "used": [
-   "god-freyr/s11"
   ]
  },
  "https://www.theoi.com/Titan/Helios.html": {
@@ -2144,11 +2142,12 @@
    "god-houji/s2"
   ]
  },
- "https://whc.unesco.org/en/list/1001": {
+ "https://www.britannica.com/print/article/45363": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "god-erlang/s6"
+   "god-guanyin/s4",
+   "guanyin-female-image"
   ]
  },
  "https://zh.wikisource.org/wiki/藝文類聚/卷039": {
@@ -2219,12 +2218,15 @@
    "monster-sleipnir/s6"
   ]
  },
- "https://www.britannica.com/print/article/45363": {
+ "https://www.worldhistory.org/Frigg/": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "god-guanyin/s4",
-   "guanyin-female-image"
+   "god-freyja/s9",
+   "god-frigg/s6",
+   "story-aesir-vanir-war/s5",
+   "story-idun-apples/s5",
+   "friday-frigg"
   ]
  },
  "https://zh.wikisource.org/wiki/三教源流搜神大全/卷一": {
@@ -2269,13 +2271,11 @@
    "god-sanqing/s5"
   ]
  },
- "https://www.etymonline.com/word/Friday": {
+ "https://www.worldhistory.org/Heimdall/": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "god-freyja/s10",
-   "god-frigg/s7",
-   "friday-frigg"
+   "god-heimdall/s7"
   ]
  },
  "https://www.theoi.com/Text/OvidFasti1.html": {
@@ -2340,19 +2340,20 @@
    "marvel-thor-loki"
   ]
  },
- "https://www.worldhistory.org/Heimdall/": {
-  "status": 403,
-  "checked": "2026-11-17",
-  "used": [
-   "god-heimdall/s7"
-  ]
- },
  "https://www.etymonline.com/word/hell": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
    "god-hel/s8",
    "hell-word"
+  ]
+ },
+ "https://www.britannica.com/topic/Hou-Ji": {
+  "status": 403,
+  "checked": "2026-11-17",
+  "used": [
+   "god-houji/s4",
+   "story-xuanniao/s7"
   ]
  },
  "https://zh.wikisource.org/wiki/洛神賦": {
@@ -2438,12 +2439,19 @@
    "god-muses/s6"
   ]
  },
- "https://www.britannica.com/topic/Hou-Ji": {
+ "https://www.worldhistory.org/Thor/": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "god-houji/s4",
-   "story-xuanniao/s7"
+   "god-loki/s12",
+   "god-thor/s9",
+   "story-asgard-wall/s3",
+   "story-loki-punishment/s3",
+   "story-thor-bride/s6",
+   "story-thor-fishing/s4",
+   "story-utgarda-loki/s5",
+   "thorium",
+   "marvel-thor-loki"
   ]
  },
  "https://zh.wikisource.org/wiki/封神演義/卷012": {
@@ -2496,6 +2504,13 @@
    "god-xiang-ladies/s1"
   ]
  },
+ "https://www.worldhistory.org/Loki/": {
+  "status": 403,
+  "checked": "2026-11-17",
+  "used": [
+   "god-loki/s13"
+  ]
+ },
  "https://www.britannica.com/topic/Men-Shen": {
   "status": 403,
   "checked": "2026-11-17",
@@ -2504,28 +2519,11 @@
    "menshen-new-year"
   ]
  },
- "https://www.worldhistory.org/Thor/": {
+ "https://www.britannica.com/topic/Muse-Greek-mythology": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "god-loki/s12",
-   "god-thor/s9",
-   "story-asgard-wall/s3",
-   "story-loki-punishment/s3",
-   "story-thor-bride/s6",
-   "story-thor-fishing/s4",
-   "story-utgarda-loki/s5",
-   "thorium",
-   "marvel-thor-loki"
-  ]
- },
- "https://www.britannica.com/biography/Qu-Yuan": {
-  "status": 403,
-  "checked": "2026-11-17",
-  "used": [
-   "god-nine-songs/s3",
-   "god-xiang-ladies/s9",
-   "屈原與《楚辭》"
+   "god-muses/s7"
   ]
  },
  "https://zh.wikisource.org/wiki/詩經/雲漢": {
@@ -2557,11 +2555,18 @@
    "monster-xiangliu/s3"
   ]
  },
- "https://www.britannica.com/topic/Muse-Greek-mythology": {
+ "https://www.worldhistory.org/Odin/": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "god-muses/s7"
+   "god-mimir/s4",
+   "god-odin/s18",
+   "god-valkyries/s3",
+   "monster-sleipnir/s3",
+   "place-valhalla/s3",
+   "story-mead-of-poetry/s4",
+   "story-odin-runes/s4",
+   "wednesday-odin"
   ]
  },
  "https://www.gutenberg.org/ebooks/2456": {
@@ -2587,11 +2592,11 @@
    "god-pan/s5"
   ]
  },
- "https://www.worldhistory.org/Loki/": {
+ "https://www.britannica.com/topic/Njord": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "god-loki/s13"
+   "god-njord/s10"
   ]
  },
  "https://www.theoi.com/Text/OvidMetamorphoses4.html": {
@@ -2645,18 +2650,13 @@
    "story-trojan-horse/s9"
   ]
  },
- "https://www.worldhistory.org/Odin/": {
+ "https://www.britannica.com/biography/Qu-Yuan": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "god-mimir/s4",
-   "god-odin/s18",
-   "god-valkyries/s3",
-   "monster-sleipnir/s3",
-   "place-valhalla/s3",
-   "story-mead-of-poetry/s4",
-   "story-odin-runes/s4",
-   "wednesday-odin"
+   "god-nine-songs/s3",
+   "god-xiang-ladies/s9",
+   "屈原與《楚辭》"
   ]
  },
  "https://zh.wikisource.org/wiki/三國志/卷08": {
@@ -2676,11 +2676,11 @@
    "story-mulian/s4"
   ]
  },
- "https://www.britannica.com/topic/Njord": {
+ "https://whc.unesco.org/en/list/1001": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "god-njord/s10"
+   "god-erlang/s6"
   ]
  },
  "https://zh.wikisource.org/wiki/西遊記/第005回": {
@@ -2714,11 +2714,17 @@
    "hero-cangjie/s6"
   ]
  },
- "https://www.britannica.com/topic/Pan-Greek-god": {
+ "https://www.worldhistory.org/article/1305/nine-realms-of-norse-cosmology/": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "god-pan/s6"
+   "god-norns/s3",
+   "monster-jotnar/s3",
+   "monster-surtr/s6",
+   "place-nine-worlds/s2",
+   "place-valhalla/s4",
+   "place-yggdrasil/s7",
+   "story-norse-creation/s4"
   ]
  },
  "https://zh.wikisource.org/wiki/白虎通/卷01": {
@@ -2746,24 +2752,26 @@
    "primordial-fuxi/s7"
   ]
  },
+ "https://www.etymonline.com/word/Wednesday": {
+  "status": 403,
+  "checked": "2026-11-17",
+  "used": [
+   "god-odin/s19",
+   "wednesday-odin"
+  ]
+ },
+ "https://www.britannica.com/topic/Pan-Greek-god": {
+  "status": 403,
+  "checked": "2026-11-17",
+  "used": [
+   "god-pan/s6"
+  ]
+ },
  "https://www.britannica.com/topic/Sanguan": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
    "god-sanguan/s4"
-  ]
- },
- "https://www.worldhistory.org/article/1305/nine-realms-of-norse-cosmology/": {
-  "status": 403,
-  "checked": "2026-11-17",
-  "used": [
-   "god-norns/s3",
-   "monster-jotnar/s3",
-   "monster-surtr/s6",
-   "place-nine-worlds/s2",
-   "place-valhalla/s4",
-   "place-yggdrasil/s7",
-   "story-norse-creation/s4"
   ]
  },
  "https://www.britannica.com/topic/Shennong": {
@@ -2773,19 +2781,11 @@
    "god-shennong/s3"
   ]
  },
- "https://www.etymonline.com/word/Wednesday": {
+ "https://www.britannica.com/topic/Skadi": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "god-odin/s19",
-   "wednesday-odin"
-  ]
- },
- "https://www.worldhistory.org/Sif/": {
-  "status": 403,
-  "checked": "2026-11-17",
-  "used": [
-   "god-sif/s3"
+   "god-skadi/s6"
   ]
  },
  "https://zh.wikisource.org/wiki/白虎通/卷02": {
@@ -2795,11 +2795,11 @@
    "god-tudigong/s2"
   ]
  },
- "https://www.britannica.com/topic/Skadi": {
+ "https://www.worldhistory.org/Sif/": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "god-skadi/s6"
+   "god-sif/s3"
   ]
  },
  "https://community.culture.taichung.gov.tw/df_ufiles/a/認識福德祠(簡).pdf": {
@@ -2818,19 +2818,20 @@
    "tudigong-toudiya"
   ]
  },
+ "https://www.etymonline.com/word/Scandinavia": {
+  "status": 403,
+  "checked": "2026-11-17",
+  "used": [
+   "god-skadi/s8",
+   "scandinavia-skadi"
+  ]
+ },
  "https://www.etymonline.com/word/Thursday": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
    "god-thor/s10",
    "thursday-thor"
-  ]
- },
- "https://www.britannica.com/topic/Tudi-Gong": {
-  "status": 403,
-  "checked": "2026-11-17",
-  "used": [
-   "god-tudigong/s4"
   ]
  },
  "https://www.gutenberg.org/ebooks/1152": {
@@ -2842,12 +2843,11 @@
    "story-sigurd/s5"
   ]
  },
- "https://www.etymonline.com/word/Scandinavia": {
+ "https://www.britannica.com/topic/Tudi-Gong": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "god-skadi/s8",
-   "scandinavia-skadi"
+   "god-tudigong/s4"
   ]
  },
  "https://www.etymonline.com/word/Tuesday": {
@@ -2907,45 +2907,19 @@
    "story-yao-shun/s3"
   ]
  },
- "https://www.worldhistory.org/Tyr/": {
-  "status": 403,
+ "https://zh.wikisource.org/wiki/尚書/胤征": {
+  "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "god-tyr/s5"
+   "god-xihe/s7"
   ]
  },
- "https://www.britannica.com/topic/Wendi-Chinese-deity": {
-  "status": 403,
+ "https://zh.wikisource.org/wiki/呂氏春秋/卷十七": {
+  "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "god-wenchang/s6"
-  ]
- },
- "https://www.britannica.com/topic/Vidar": {
-  "status": 403,
-  "checked": "2026-11-17",
-  "used": [
-   "god-vidar/s9"
-  ]
- },
- "https://www.theoi.com/Ther/HippossPegasos.html": {
-  "status": 404,
-  "checked": "2026-11-17",
-  "used": [
-   "god-poseidon/s14",
-   "god-poseidon/s15",
-   "hero-bellerophon/s3",
-   "hero-bellerophon/s5",
-   "hero-bellerophon/s6",
-   "hero-bellerophon/s7"
-  ]
- },
- "https://www.rsc.org/periodic-table/element/90/thorium": {
-  "status": 403,
-  "checked": "2026-11-17",
-  "used": [
-   "god-thor/s11",
-   "thorium"
+   "god-xihe/s8",
+   "hero-cangjie/s5"
   ]
  },
  "https://zh.wikisource.org/wiki/史記/卷026": {
@@ -2953,6 +2927,25 @@
   "checked": "2026-11-17",
   "used": [
    "god-xihe/s9"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/初學記/卷第一": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "god-xihe/s10",
+   "hero-change/s8",
+   "story-change-moon/s7"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/山海經/西山經": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "god-xiwangmu/s1",
+   "god-xiwangmu/s7",
+   "place-kunlun/s1",
+   "primordial-hundun/s2"
   ]
  },
  "https://zh.wikisource.org/wiki/山海經/大荒西經": {
@@ -2966,61 +2959,6 @@
    "primordial-nuwa/s11",
    "story-buzhou/s6",
    "story-juedi-tiantong/s3"
-  ]
- },
- "https://zh.wikisource.org/wiki/山海經/西山經": {
-  "status": 200,
-  "checked": "2026-11-17",
-  "used": [
-   "god-xiwangmu/s1",
-   "god-xiwangmu/s7",
-   "place-kunlun/s1",
-   "primordial-hundun/s2"
-  ]
- },
- "https://zh.wikisource.org/wiki/初學記/卷第一": {
-  "status": 200,
-  "checked": "2026-11-17",
-  "used": [
-   "god-xihe/s10",
-   "hero-change/s8",
-   "story-change-moon/s7"
-  ]
- },
- "https://zh.wikisource.org/wiki/呂氏春秋/卷十七": {
-  "status": 200,
-  "checked": "2026-11-17",
-  "used": [
-   "god-xihe/s8",
-   "hero-cangjie/s5"
-  ]
- },
- "https://zh.wikisource.org/wiki/尚書/胤征": {
-  "status": 200,
-  "checked": "2026-11-17",
-  "used": [
-   "god-xihe/s7"
-  ]
- },
- "https://www.britannica.com/topic/Taoism/Symbolism-and-mythology": {
-  "status": 403,
-  "checked": "2026-11-17",
-  "used": [
-   "god-xiwangmu/s5"
-  ]
- },
- "https://www.britannica.com/topic/pantao": {
-  "status": 403,
-  "checked": "2026-11-17",
-  "used": [
-   "god-xiwangmu/s4"
-  ]
- },
- "https://searchcollection.asianart.org/objects/3071/the-daoist-deity-zhenwu-the-perfected-warrior": {
-  "status": 202,
-  "checked": "2026-11-16",
-  "used": [
-   "god-xuanwu/s6"
   ]
  },
  "https://zh.wikisource.org/wiki/淮南子/覽冥訓": {
@@ -3037,12 +2975,18 @@
    "story-nuwa-mends-sky/s1"
   ]
  },
- "https://zh.wikisource.org/wiki/史記/卷123": {
-  "status": 200,
+ "https://www.britannica.com/topic/Vidar": {
+  "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "god-xiwangmu/s9",
-   "place-kunlun/s3"
+   "god-vidar/s9"
+  ]
+ },
+ "https://www.worldhistory.org/Tyr/": {
+  "status": 403,
+  "checked": "2026-11-17",
+  "used": [
+   "god-tyr/s5"
   ]
  },
  "https://zh.wikisource.org/wiki/列子/周穆王篇": {
@@ -3053,11 +2997,33 @@
    "place-kunlun/s6"
   ]
  },
- "https://ethno.ihp.sinica.edu.tw/en/research/download/論攀附：近代炎黃子孫國族建構的古代基礎.pdf": {
+ "https://zh.wikisource.org/wiki/史記/卷123": {
   "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "god-xiwangmu/s9",
+   "place-kunlun/s3"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/明史/卷44": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "god-xuanwu/s4"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/夢粱錄/卷02": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "god-xuanwu/s5"
+  ]
+ },
+ "https://searchcollection.asianart.org/objects/3071/the-daoist-deity-zhenwu-the-perfected-warrior": {
+  "status": 202,
   "checked": "2026-11-16",
   "used": [
-   "god-yandi/s9"
+   "god-xuanwu/s6"
   ]
  },
  "https://zh.wikisource.org/wiki/帝王世紀/第一": {
@@ -3068,27 +3034,6 @@
    "hero-suiren/s4",
    "primordial-fuxi/s5",
    "primordial-nuwa/s8"
-  ]
- },
- "https://zh.wikisource.org/wiki/夢粱錄/卷02": {
-  "status": 200,
-  "checked": "2026-11-17",
-  "used": [
-   "god-xuanwu/s5"
-  ]
- },
- "https://zh.wikisource.org/wiki/明史/卷44": {
-  "status": 200,
-  "checked": "2026-11-17",
-  "used": [
-   "god-xuanwu/s4"
-  ]
- },
- "https://zh.wikisource.org/wiki/西遊記/第011回": {
-  "status": 200,
-  "checked": "2026-11-17",
-  "used": [
-   "god-yanluo/s1"
   ]
  },
  "https://zh.wikisource.org/wiki/禮記正義/15": {
@@ -3105,6 +3050,20 @@
    "god-yandi/s8"
   ]
  },
+ "https://ethno.ihp.sinica.edu.tw/en/research/download/論攀附：近代炎黃子孫國族建構的古代基礎.pdf": {
+  "status": 200,
+  "checked": "2026-11-16",
+  "used": [
+   "god-yandi/s9"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/西遊記/第011回": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "god-yanluo/s1"
+  ]
+ },
  "https://zh.wikisource.org/wiki/玉歷寶鈔": {
   "status": 200,
   "checked": "2026-11-17",
@@ -3112,12 +3071,11 @@
    "god-yanluo/s2"
   ]
  },
- "https://udn.com/news/story/7272/8683818": {
+ "https://zh.wikisource.org/wiki/太平廣記/卷第016": {
   "status": 200,
-  "checked": "2026-11-16",
+  "checked": "2026-11-17",
   "used": [
-   "god-yuelao/s2",
-   "yuelao-riyuetan"
+   "god-yanluo/s3"
   ]
  },
  "https://zh.wikisource.org/wiki/大目乾連冥間救母變文": {
@@ -3129,11 +3087,18 @@
    "story-mulian/s6"
   ]
  },
- "https://zh.wikisource.org/wiki/太平廣記/卷第016": {
+ "https://zh.wikisource.org/wiki/宋史/卷316": {
   "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "god-yanluo/s3"
+   "god-yanluo/s5"
+  ]
+ },
+ "https://www.britannica.com/topic/Wendi-Chinese-deity": {
+  "status": 403,
+  "checked": "2026-11-17",
+  "used": [
+   "god-wenchang/s6"
   ]
  },
  "https://zh.wikisource.org/wiki/續玄怪錄": {
@@ -3143,11 +3108,28 @@
    "god-yuelao/s1"
   ]
  },
- "https://zh.wikisource.org/wiki/宋史/卷316": {
+ "https://udn.com/news/story/7272/8683818": {
+  "status": 200,
+  "checked": "2026-11-16",
+  "used": [
+   "god-yuelao/s2",
+   "yuelao-riyuetan"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/論語/八佾第三": {
   "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "god-yanluo/s5"
+   "god-zaoshen/s1"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/禮記/月令": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "god-zaoshen/s3",
+   "god-zhurong/s5",
+   "story-xuanniao/s5"
   ]
  },
  "https://zh.wikisource.org/wiki/抱朴子/卷06": {
@@ -3158,11 +3140,27 @@
    "zaoshen-xiaonian"
   ]
  },
- "https://www.mdpi.com/2077-1444/13/4/317": {
+ "https://zh.wikisource.org/wiki/後漢書/卷32": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "god-zaoshen/s5"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/東京夢華錄/卷十": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "god-zaoshen/s7",
+   "god-zhongkui/s4",
+   "zaoshen-xiaonian"
+  ]
+ },
+ "https://www.britannica.com/topic/pantao": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "god-yanluo/s6"
+   "god-xiwangmu/s4"
   ]
  },
  "https://www.news.cn/politics/20250121/c0548354f4c6490487dbd97c96eaa546/c.html": {
@@ -3180,13 +3178,11 @@
    "god-zeus/s5"
   ]
  },
- "https://zh.wikisource.org/wiki/禮記/月令": {
-  "status": 200,
+ "https://www.britannica.com/topic/Taoism/Symbolism-and-mythology": {
+  "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "god-zaoshen/s3",
-   "god-zhurong/s5",
-   "story-xuanniao/s5"
+   "god-xiwangmu/s5"
   ]
  },
  "https://www.theoi.com/Text/HomerIliad8.html": {
@@ -3196,49 +3192,12 @@
    "god-zeus/s11"
   ]
  },
- "https://zh.wikisource.org/wiki/論語/八佾第三": {
+ "https://zh.wikisource.org/wiki/夢溪筆談/補筆談": {
   "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "god-zaoshen/s1"
-  ]
- },
- "https://www.britannica.com/topic/Jupiter-Roman-god": {
-  "status": 403,
-  "checked": "2026-11-17",
-  "used": [
-   "god-zeus/s8"
-  ]
- },
- "https://catalog.digitalarchives.tw/item/00/08/38/90.html": {
-  "status": 200,
-  "checked": "2026-11-16",
-  "used": [
-   "god-zhongkui/s5",
+   "god-zhongkui/s1",
    "zhongkui-palace-painting"
-  ]
- },
- "https://zh.wikisource.org/wiki/後漢書/卷32": {
-  "status": 200,
-  "checked": "2026-11-17",
-  "used": [
-   "god-zaoshen/s5"
-  ]
- },
- "https://www.britannica.com/topic/Zao-Jun": {
-  "status": 403,
-  "checked": "2026-11-17",
-  "used": [
-   "god-zaoshen/s8"
-  ]
- },
- "https://zh.wikisource.org/wiki/東京夢華錄/卷十": {
-  "status": 200,
-  "checked": "2026-11-17",
-  "used": [
-   "god-zaoshen/s7",
-   "god-zhongkui/s4",
-   "zaoshen-xiaonian"
   ]
  },
  "https://zh.wikisource.org/wiki/夢粱錄/卷06": {
@@ -3249,6 +3208,14 @@
    "nian-beast"
   ]
  },
+ "https://catalog.digitalarchives.tw/item/00/08/38/90.html": {
+  "status": 200,
+  "checked": "2026-11-16",
+  "used": [
+   "god-zhongkui/s5",
+   "zhongkui-palace-painting"
+  ]
+ },
  "https://zh.wikisource.org/wiki/山海經_(四庫全書本)/卷08": {
   "status": 200,
   "checked": "2026-11-17",
@@ -3256,12 +3223,40 @@
    "god-zhulong/s5"
   ]
  },
- "https://zh.wikisource.org/wiki/夢溪筆談/補筆談": {
+ "https://zh.wikisource.org/wiki/山海經/海外南經": {
   "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "god-zhongkui/s1",
-   "zhongkui-palace-painting"
+   "god-zhurong/s1"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/史記/卷040": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "god-zhurong/s4",
+   "story-juedi-tiantong/s5"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/淮南子/時則訓": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "god-zhurong/s6"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/國語/卷01": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "god-zhurong/s8"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/莊子/胠篋": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "god-zhurong/s9"
   ]
  },
  "https://www.theoi.com/Text/HomerIliad9.html": {
@@ -3455,12 +3450,12 @@
    "story-oedipus/s5"
   ]
  },
- "https://zh.wikisource.org/wiki/史記/卷040": {
-  "status": 200,
+ "https://www.rsc.org/periodic-table/element/90/thorium": {
+  "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "god-zhurong/s4",
-   "story-juedi-tiantong/s5"
+   "god-thor/s11",
+   "thorium"
   ]
  },
  "https://www.theoi.com/Text/OvidMetamorphoses10.html": {
@@ -3509,53 +3504,11 @@
    "monster-sphinx/s6"
   ]
  },
- "https://zh.wikisource.org/wiki/山海經/海外南經": {
-  "status": 200,
-  "checked": "2026-11-17",
-  "used": [
-   "god-zhurong/s1"
-  ]
- },
- "https://www.britannica.com/topic/Antigone-Greek-mythology": {
+ "https://www.britannica.com/topic/Zao-Jun": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "hero-antigone/s4"
-  ]
- },
- "https://zh.wikisource.org/wiki/淮南子/時則訓": {
-  "status": 200,
-  "checked": "2026-11-17",
-  "used": [
-   "god-zhurong/s6"
-  ]
- },
- "https://www.worldhistory.org/Cadmus/": {
-  "status": 403,
-  "checked": "2026-11-17",
-  "used": [
-   "hero-cadmus/s5"
-  ]
- },
- "https://zh.wikisource.org/wiki/國語/卷01": {
-  "status": 200,
-  "checked": "2026-11-17",
-  "used": [
-   "god-zhurong/s8"
-  ]
- },
- "https://www.britannica.com/biography/Tsang-Chieh": {
-  "status": 403,
-  "checked": "2026-11-17",
-  "used": [
-   "hero-cangjie/s3"
-  ]
- },
- "https://zh.wikisource.org/wiki/莊子/胠篋": {
-  "status": 200,
-  "checked": "2026-11-17",
-  "used": [
-   "god-zhurong/s9"
+   "god-zaoshen/s8"
   ]
  },
  "https://zh.wikisource.org/wiki/荀子/解蔽篇": {
@@ -3565,22 +3518,16 @@
    "hero-cangjie/s2"
   ]
  },
- "https://www.theoi.com/Ouranios/Dioskouroi.html": {
-  "status": 200,
-  "checked": "2026-11-16",
-  "used": [
-   "hero-castor-pollux/s1",
-   "hero-castor-pollux/s2",
-   "hero-castor-pollux/s3",
-   "hero-castor-pollux/s4",
-   "hero-castor-pollux/s5"
-  ]
- },
- "https://zh.wikisource.org/wiki/淮南子/泰族訓": {
-  "status": 200,
+ "https://www.theoi.com/Ther/HippossPegasos.html": {
+  "status": 404,
   "checked": "2026-11-17",
   "used": [
-   "hero-cangjie/s7"
+   "god-poseidon/s14",
+   "god-poseidon/s15",
+   "hero-bellerophon/s3",
+   "hero-bellerophon/s5",
+   "hero-bellerophon/s6",
+   "hero-bellerophon/s7"
   ]
  },
  "https://zh.wikisource.org/wiki/說文解字/15": {
@@ -3590,20 +3537,11 @@
    "hero-cangjie/s4"
   ]
  },
- "https://www.britannica.com/technology/Change-Chinese-lunar-probes": {
-  "status": 403,
+ "https://zh.wikisource.org/wiki/淮南子/泰族訓": {
+  "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "hero-change/s3",
-   "story-change-moon/s6"
-  ]
- },
- "https://www.britannica.com/topic/Change-Chinese-deity": {
-  "status": 403,
-  "checked": "2026-11-17",
-  "used": [
-   "hero-change/s2",
-   "story-change-moon/s2"
+   "hero-cangjie/s7"
   ]
  },
  "https://zh.wikisource.org/wiki/論衡/19": {
@@ -3627,12 +3565,37 @@
    "hero-cangjie/s10"
   ]
  },
- "https://www.britannica.com/topic/Gun-Chinese-mythological-figure": {
+ "https://www.theoi.com/Ouranios/Dioskouroi.html": {
+  "status": 200,
+  "checked": "2026-11-16",
+  "used": [
+   "hero-castor-pollux/s1",
+   "hero-castor-pollux/s2",
+   "hero-castor-pollux/s3",
+   "hero-castor-pollux/s4",
+   "hero-castor-pollux/s5"
+  ]
+ },
+ "https://www.britannica.com/topic/Antigone-Greek-mythology": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "hero-gun/s4",
-   "hero-yu/s4"
+   "hero-antigone/s4"
+  ]
+ },
+ "https://www.worldhistory.org/Cadmus/": {
+  "status": 403,
+  "checked": "2026-11-17",
+  "used": [
+   "hero-cadmus/s5"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/後漢書/卷100": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "hero-change/s4",
+   "story-change-moon/s3"
   ]
  },
  "https://zh.wikisource.org/wiki/搜神記/第14卷": {
@@ -3641,6 +3604,45 @@
   "used": [
    "hero-change/s5",
    "story-change-moon/s4"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/藝文類聚/卷001": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "hero-change/s7",
+   "story-moon-palace/s7"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/史記/卷002": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "hero-gun/s2",
+   "hero-yu/s1",
+   "story-yao-shun/s7",
+   "story-yu-flood/s1"
+  ]
+ },
+ "https://www.britannica.com/biography/Tsang-Chieh": {
+  "status": 403,
+  "checked": "2026-11-17",
+  "used": [
+   "hero-cangjie/s3"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/國語/卷14": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "hero-gun/s7"
+  ]
+ },
+ "https://www.britannica.com/topic/Jupiter-Roman-god": {
+  "status": 403,
+  "checked": "2026-11-17",
+  "used": [
+   "god-zeus/s8"
   ]
  },
  "https://www.theoi.com/Text/HomerOdyssey4.html": {
@@ -3652,11 +3654,11 @@
    "story-trojan-horse/s4"
   ]
  },
- "https://www.britannica.com/topic/Hector-Greek-mythology": {
+ "https://www.mdpi.com/2077-1444/13/4/317": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "hero-hector/s4"
+   "god-yanluo/s6"
   ]
  },
  "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0151:book=1:chapter=7": {
@@ -3673,30 +3675,26 @@
    "hero-heracles/s8"
   ]
  },
- "https://zh.wikisource.org/wiki/後漢書/卷100": {
-  "status": 200,
+ "https://www.britannica.com/technology/Change-Chinese-lunar-probes": {
+  "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "hero-change/s4",
-   "story-change-moon/s3"
+   "hero-change/s3",
+   "story-change-moon/s6"
   ]
  },
- "https://zh.wikisource.org/wiki/史記/卷002": {
+ "https://zh.wikisource.org/wiki/孟子/離婁下": {
   "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "hero-gun/s2",
-   "hero-yu/s1",
-   "story-yao-shun/s7",
-   "story-yu-flood/s1"
+   "hero-houyi/s7"
   ]
  },
- "https://zh.wikisource.org/wiki/藝文類聚/卷001": {
+ "https://zh.wikisource.org/wiki/春秋左傳事類始末 (四庫全書本)/卷2": {
   "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "hero-change/s7",
-   "story-moon-palace/s7"
+   "hero-houyi/s8"
   ]
  },
  "https://www.worldhistory.org/article/425/jason--the-argonauts/": {
@@ -3728,40 +3726,11 @@
    "hero-medea/s2"
   ]
  },
- "https://www.britannica.com/topic/Helen-of-Troy": {
-  "status": 403,
-  "checked": "2026-11-17",
-  "used": [
-   "hero-helen/s4"
-  ]
- },
- "https://www.britannica.com/topic/Hou-Yi": {
-  "status": 403,
-  "checked": "2026-11-17",
-  "used": [
-   "hero-houyi/s4",
-   "story-houyi-suns/s5"
-  ]
- },
- "https://zh.wikisource.org/wiki/國語/卷14": {
+ "https://zh.wikisource.org/wiki/史記/卷032": {
   "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "hero-gun/s7"
-  ]
- },
- "https://www.chinesethought.cn/EN/detail.aspx?nid=114&pid=131&id=2193": {
-  "status": 200,
-  "checked": "2026-11-16",
-  "used": [
-   "hero-jiang-ziya/s4"
-  ]
- },
- "https://zh.wikisource.org/wiki/孟子/離婁下": {
-  "status": 200,
-  "checked": "2026-11-17",
-  "used": [
-   "hero-houyi/s7"
+   "hero-jiang-ziya/s1"
   ]
  },
  "https://zh.wikisource.org/wiki/列仙傳": {
@@ -3771,13 +3740,6 @@
    "hero-jiang-ziya/s2"
   ]
  },
- "https://zh.wikisource.org/wiki/春秋左傳事類始末 (四庫全書本)/卷2": {
-  "status": 200,
-  "checked": "2026-11-17",
-  "used": [
-   "hero-houyi/s8"
-  ]
- },
  "https://zh.wikisource.org/wiki/封神演義/卷023": {
   "status": 200,
   "checked": "2026-11-17",
@@ -3785,11 +3747,20 @@
    "hero-jiang-ziya/s3"
   ]
  },
- "https://zh.wikisource.org/wiki/史記/卷032": {
+ "https://www.chinesethought.cn/EN/detail.aspx?nid=114&pid=131&id=2193": {
+  "status": 200,
+  "checked": "2026-11-16",
+  "used": [
+   "hero-jiang-ziya/s4"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/山海經/北山經": {
   "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "hero-jiang-ziya/s1"
+   "hero-jingwei/s1",
+   "monster-four-fiends/s6",
+   "jingwei-idiom"
   ]
  },
  "https://zh.wikisource.org/wiki/讀《山海經》": {
@@ -3802,13 +3773,37 @@
    "jingwei-idiom"
   ]
  },
- "https://zh.wikisource.org/wiki/山海經/北山經": {
+ "https://zh.wikisource.org/wiki/博物志/卷之三": {
   "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "hero-jingwei/s1",
-   "monster-four-fiends/s6",
-   "jingwei-idiom"
+   "hero-jingwei/s4"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/藝文類聚/卷092": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "hero-jingwei/s6"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/抱朴子/卷08": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "hero-jingwei/s7"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/列子/湯問篇": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "hero-kuafu/s4",
+   "place-penglai/s3",
+   "primordial-nuwa/s7",
+   "story-buzhou/s2",
+   "story-nuwa-mends-sky/s2",
+   "story-yugong/s1"
   ]
  },
  "https://zh.wikisource.org/wiki/山海經 (四庫全書本)/卷08": {
@@ -3818,11 +3813,18 @@
    "hero-kuafu/s7"
   ]
  },
- "https://zh.wikisource.org/wiki/抱朴子/卷08": {
+ "https://zh.wikisource.org/wiki/淮南子/俶真訓": {
   "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "hero-jingwei/s7"
+   "hero-kuafu/s8"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/呂氏春秋/卷二十二": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "hero-kuafu/s9"
   ]
  },
  "https://www.gutenberg.org/ebooks/35451": {
@@ -3833,11 +3835,12 @@
    "hero-medea/s5"
   ]
  },
- "https://zh.wikisource.org/wiki/博物志/卷之三": {
-  "status": 200,
+ "https://www.britannica.com/topic/Change-Chinese-deity": {
+  "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "hero-jingwei/s4"
+   "hero-change/s2",
+   "story-change-moon/s2"
   ]
  },
  "https://www.theoi.com/Text/HomerOdyssey9.html": {
@@ -3898,11 +3901,11 @@
    "hero-perseus/s3"
   ]
  },
- "https://zh.wikisource.org/wiki/藝文類聚/卷092": {
+ "https://zh.wikisource.org/wiki/韓非子/五蠹": {
   "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "hero-jingwei/s6"
+   "hero-suiren/s1"
   ]
  },
  "https://www.gutenberg.org/ebooks/15250": {
@@ -3916,38 +3919,35 @@
    "story-yugong/s3"
   ]
  },
- "https://www.britannica.com/topic/Medea-Greek-mythology": {
-  "status": 403,
-  "checked": "2026-11-17",
-  "used": [
-   "hero-medea/s4"
-  ]
- },
- "https://zh.wikisource.org/wiki/列子/湯問篇": {
-  "status": 200,
-  "checked": "2026-11-17",
-  "used": [
-   "hero-kuafu/s4",
-   "place-penglai/s3",
-   "primordial-nuwa/s7",
-   "story-buzhou/s2",
-   "story-nuwa-mends-sky/s2",
-   "story-yugong/s1"
-  ]
- },
- "https://zh.wikisource.org/wiki/淮南子/俶真訓": {
-  "status": 200,
-  "checked": "2026-11-17",
-  "used": [
-   "hero-kuafu/s8"
-  ]
- },
  "https://zh.wikisource.org/wiki/西遊記/第001回": {
   "status": 200,
   "checked": "2026-11-17",
   "used": [
    "hero-sun-wukong/s1",
    "primordial-pangu/s8"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/大唐三藏取經詩話_(校排本)": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "hero-sun-wukong/s2",
+   "story-journey-west/s1"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/太平廣記/卷第467": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "hero-sun-wukong/s3"
+  ]
+ },
+ "https://www.britannica.com/topic/Gun-Chinese-mythological-figure": {
+  "status": 403,
+  "checked": "2026-11-17",
+  "used": [
+   "hero-gun/s4",
+   "hero-yu/s4"
   ]
  },
  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Theseus*.html": {
@@ -3972,48 +3972,48 @@
    "hero-xingtian/s3"
   ]
  },
- "https://zh.wikisource.org/wiki/呂氏春秋/卷二十二": {
+ "https://zh.wikisource.org/wiki/孟子/滕文公上": {
   "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "hero-kuafu/s9"
+   "hero-yu/s3",
+   "story-yu-flood/s3"
   ]
  },
- "https://zh.wikisource.org/wiki/韓非子/五蠹": {
-  "status": 200,
-  "checked": "2026-11-17",
-  "used": [
-   "hero-suiren/s1"
-  ]
- },
- "https://www.britannica.com/topic/Xiyouji": {
+ "https://www.britannica.com/topic/Helen-of-Troy": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "hero-sun-wukong/s4"
+   "hero-helen/s4"
   ]
  },
- "https://zh.wikisource.org/wiki/大唐三藏取經詩話_(校排本)": {
+ "https://zh.wikisource.org/wiki/尚書/禹貢": {
   "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "hero-sun-wukong/s2",
-   "story-journey-west/s1"
+   "hero-yu/s8"
   ]
  },
- "https://www.britannica.com/topic/Xia-dynasty": {
-  "status": 403,
-  "checked": "2026-11-17",
-  "used": [
-   "hero-yu/s5",
-   "story-yu-flood/s4"
-  ]
- },
- "https://zh.wikisource.org/wiki/太平廣記/卷第467": {
+ "https://zh.wikisource.org/wiki/竹書紀年_(四庫全書本)/卷上": {
   "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "hero-sun-wukong/s3"
+   "hero-yu/s11"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/國語_(四庫全書本)/卷05": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "hero-yu/s12"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/孟子/萬章上": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "hero-yu/s13",
+   "story-yao-shun/s2"
   ]
  },
  "https://www.theoi.com/Georgikos/KentauroiThessalioi.html": {
@@ -4032,11 +4032,11 @@
    "monster-centaurs/s2"
   ]
  },
- "https://zh.wikisource.org/wiki/尚書/禹貢": {
-  "status": 200,
+ "https://www.britannica.com/topic/Hector-Greek-mythology": {
+  "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "hero-yu/s8"
+   "hero-hector/s4"
   ]
  },
  "https://www.gutenberg.org/ebooks/1666": {
@@ -4056,40 +4056,40 @@
    "monster-cerberus/s7"
   ]
  },
- "https://www.britannica.com/topic/Parthenon": {
+ "https://www.britannica.com/topic/Medea-Greek-mythology": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "monster-centaurs/s7"
+   "hero-medea/s4"
   ]
  },
- "https://zh.wikisource.org/wiki/孟子/滕文公上": {
+ "https://zh.wikisource.org/wiki/春秋左傳事類始末_(四庫全書本)/卷1": {
   "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "hero-yu/s3",
-   "story-yu-flood/s3"
+   "monster-four-fiends/s1"
   ]
  },
- "https://zh.wikisource.org/wiki/竹書紀年_(四庫全書本)/卷上": {
+ "https://zh.wikisource.org/wiki/呂氏春秋/卷十六": {
   "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "hero-yu/s11"
+   "monster-four-fiends/s4"
   ]
  },
- "https://zh.wikisource.org/wiki/國語_(四庫全書本)/卷05": {
-  "status": 200,
-  "checked": "2026-11-17",
-  "used": [
-   "hero-yu/s12"
-  ]
- },
- "https://www.worldhistory.org/Fenrir/": {
+ "https://www.britannica.com/topic/Hou-Yi": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "monster-fenrir/s6"
+   "hero-houyi/s4",
+   "story-houyi-suns/s5"
+  ]
+ },
+ "https://www.britannica.com/topic/Xiyouji": {
+  "status": 403,
+  "checked": "2026-11-17",
+  "used": [
+   "hero-sun-wukong/s4"
   ]
  },
  "https://www.voluspa.org/hymiskvida21-25.htm": {
@@ -4129,11 +4129,11 @@
    "knossos"
   ]
  },
- "https://www.britannica.com/art/taotie": {
+ "https://www.britannica.com/topic/Parthenon": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "monster-four-fiends/s7"
+   "monster-centaurs/s7"
   ]
  },
  "https://www.theoi.com/Pontios/Seirenes.html": {
@@ -4144,20 +4144,19 @@
    "monster-sirens/s6"
   ]
  },
- "https://zh.wikisource.org/wiki/孟子/萬章上": {
-  "status": 200,
-  "checked": "2026-11-17",
-  "used": [
-   "hero-yu/s13",
-   "story-yao-shun/s2"
-  ]
- },
- "https://www.britannica.com/place/Surtsey": {
+ "https://www.britannica.com/topic/Xia-dynasty": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "monster-surtr/s7",
-   "surtsey-island"
+   "hero-yu/s5",
+   "story-yu-flood/s4"
+  ]
+ },
+ "https://www.britannica.com/art/taotie": {
+  "status": 403,
+  "checked": "2026-11-17",
+  "used": [
+   "monster-four-fiends/s7"
   ]
  },
  "https://www.theoi.com/Gigante/Typhoeus.html": {
@@ -4192,11 +4191,11 @@
    "delphi"
   ]
  },
- "https://www.worldhistory.org/Jormungandr/": {
+ "https://www.worldhistory.org/Fenrir/": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "monster-jormungandr/s7"
+   "monster-fenrir/s6"
   ]
  },
  "https://www.theoi.com/Ther/DrakainaPython.html": {
@@ -4206,18 +4205,18 @@
    "place-delphi/s7"
   ]
  },
- "https://zh.wikisource.org/wiki/春秋左傳事類始末_(四庫全書本)/卷1": {
+ "https://zh.wikisource.org/wiki/論衡/32": {
   "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "monster-four-fiends/s1"
+   "place-fusang/s6"
   ]
  },
- "https://www.britannica.com/place/Delphi-ancient-city-Greece": {
-  "status": 403,
+ "https://zh.wikisource.org/wiki/明史/卷322": {
+  "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "place-delphi/s6"
+   "place-fusang/s7"
   ]
  },
  "https://www.theoi.com/Text/HomerOdyssey6.html": {
@@ -4250,18 +4249,18 @@
    "place-olympus/s5"
   ]
  },
- "https://zh.wikisource.org/wiki/呂氏春秋/卷十六": {
+ "https://zh.wikisource.org/wiki/史記/卷118": {
   "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "monster-four-fiends/s4"
+   "place-penglai/s4"
   ]
  },
- "https://www.theoi.com/Text/ApolloniusArgonautica4.html": {
-  "status": 404,
+ "https://zh.wikisource.org/wiki/夢溪筆談/卷21": {
+  "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "monster-sirens/s2"
+   "place-penglai/s6"
   ]
  },
  "https://www.theoi.com/Text/HomerOdyssey10.html": {
@@ -4288,32 +4287,32 @@
    "place-underworld/s5"
   ]
  },
- "https://zh.wikisource.org/wiki/史記/卷118": {
+ "https://zh.wikisource.org/wiki/春秋左傳註疏/隱公/元年": {
   "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "place-penglai/s4"
+   "place-youdu/s1"
   ]
  },
- "https://zh.wikisource.org/wiki/論衡/32": {
+ "https://zh.wikisource.org/wiki/博物志_(四庫全書本)/卷01": {
   "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "place-fusang/s6"
+   "place-youdu/s4"
   ]
  },
- "https://zh.wikisource.org/wiki/明史/卷322": {
+ "https://zh.wikisource.org/wiki/搜神記/第16卷": {
   "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "place-fusang/s7"
+   "place-youdu/s5"
   ]
  },
- "https://zh.wikisource.org/wiki/夢溪筆談/卷21": {
+ "https://zh.wikisource.org/wiki/太平廣記/卷第099": {
   "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "place-penglai/s6"
+   "place-youdu/s7"
   ]
  },
  "https://www.theoi.com/Protogenos/Khaos.html": {
@@ -4332,46 +4331,11 @@
    "primordial-chaos/s4"
   ]
  },
- "https://zh.wikisource.org/wiki/搜神記/第16卷": {
-  "status": 200,
-  "checked": "2026-11-17",
-  "used": [
-   "place-youdu/s5"
-  ]
- },
- "https://zh.wikisource.org/wiki/春秋左傳註疏/隱公/元年": {
-  "status": 200,
-  "checked": "2026-11-17",
-  "used": [
-   "place-youdu/s1"
-  ]
- },
- "https://www.britannica.com/topic/Fu-Xi": {
+ "https://www.worldhistory.org/Jormungandr/": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "primordial-fuxi/s2"
-  ]
- },
- "https://www.theoi.com/Protogenos/Gaia.html": {
-  "status": 200,
-  "checked": "2026-11-02",
-  "used": [
-   "primordial-gaia/s5"
-  ]
- },
- "https://zh.wikisource.org/wiki/博物志_(四庫全書本)/卷01": {
-  "status": 200,
-  "checked": "2026-11-17",
-  "used": [
-   "place-youdu/s4"
-  ]
- },
- "https://zh.wikisource.org/wiki/太平廣記/卷第099": {
-  "status": 200,
-  "checked": "2026-11-17",
-  "used": [
-   "place-youdu/s7"
+   "monster-jormungandr/s7"
   ]
  },
  "https://zh.wikisource.org/wiki/風俗通義/1": {
@@ -4389,12 +4353,18 @@
    "primordial-nuwa/s9"
   ]
  },
- "https://zh.wikisource.org/wiki/太平御覽/0078": {
+ "https://www.theoi.com/Protogenos/Gaia.html": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "primordial-gaia/s5"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/莊子/應帝王": {
   "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "primordial-nuwa/s2",
-   "story-nuwa-mends-sky/s4"
+   "primordial-hundun/s1"
   ]
  },
  "https://zh.wikisource.org/wiki/淮南子/詮言訓": {
@@ -4404,12 +4374,45 @@
    "primordial-hundun/s5"
   ]
  },
- "https://www.britannica.com/topic/Nu-Gua": {
+ "https://zh.wikisource.org/wiki/太平御覽/0078": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "primordial-nuwa/s2",
+   "story-nuwa-mends-sky/s4"
+  ]
+ },
+ "https://www.britannica.com/place/Surtsey": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "primordial-nuwa/s5",
-   "story-nuwa-mends-sky/s3"
+   "monster-surtr/s7",
+   "surtsey-island"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/論衡/31": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "primordial-nuwa/s6",
+   "story-buzhou/s7",
+   "story-nuwa-mends-sky/s6"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/陔餘叢考/19": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "primordial-nuwa/s10",
+   "story-nuwa-mends-sky/s7"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/西遊記/第035回": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "primordial-nuwa/s13",
+   "story-nuwa-mends-sky/s9"
   ]
  },
  "https://www.theoi.com/Protogenos/Nyx.html": {
@@ -4438,36 +4441,32 @@
    "primordial-pangu/s2"
   ]
  },
- "https://zh.wikisource.org/wiki/莊子/應帝王": {
-  "status": 200,
-  "checked": "2026-11-17",
-  "used": [
-   "primordial-hundun/s1"
-  ]
- },
- "https://www.britannica.com/topic/Pan-Gu": {
+ "https://www.britannica.com/place/Delphi-ancient-city-Greece": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "primordial-pangu/s3",
-   "徐整寫下盤古"
+   "place-delphi/s6"
   ]
  },
- "https://zh.wikisource.org/wiki/西遊記/第035回": {
+ "https://zh.wikisource.org/wiki/太平御覽/0001": {
   "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "primordial-nuwa/s13",
-   "story-nuwa-mends-sky/s9"
+   "primordial-pangu/s5"
   ]
  },
- "https://zh.wikisource.org/wiki/論衡/31": {
+ "https://zh.wikisource.org/wiki/述異記 (四庫全書本)/卷上": {
   "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "primordial-nuwa/s6",
-   "story-buzhou/s7",
-   "story-nuwa-mends-sky/s6"
+   "primordial-pangu/s6"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/陔餘叢考/43": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "primordial-pangu/s9"
   ]
  },
  "https://www.theoi.com/Protogenos/Ouranos.html": {
@@ -4484,12 +4483,11 @@
    "primordial-uranus/s4"
   ]
  },
- "https://zh.wikisource.org/wiki/陔餘叢考/19": {
-  "status": 200,
+ "https://www.britannica.com/topic/Fu-Xi": {
+  "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "primordial-nuwa/s10",
-   "story-nuwa-mends-sky/s7"
+   "primordial-fuxi/s2"
   ]
  },
  "https://www.theoi.com/Titan/Titanes.html": {
@@ -4508,11 +4506,12 @@
    "story-adonis/s3"
   ]
  },
- "https://zh.wikisource.org/wiki/太平御覽/0001": {
-  "status": 200,
+ "https://www.britannica.com/topic/Nu-Gua": {
+  "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "primordial-pangu/s5"
+   "primordial-nuwa/s5",
+   "story-nuwa-mends-sky/s3"
   ]
  },
  "https://www.collezionegalleriaborghese.it/en/opere/apollo-and-daphne": {
@@ -4529,39 +4528,11 @@
    "story-arachne/s2"
   ]
  },
- "https://www.britannica.com/topic/Adonis-Greek-mythology": {
-  "status": 403,
-  "checked": "2026-11-17",
-  "used": [
-   "story-adonis/s4"
-  ]
- },
- "https://zh.wikisource.org/wiki/陔餘叢考/43": {
-  "status": 200,
-  "checked": "2026-11-17",
-  "used": [
-   "primordial-pangu/s9"
-  ]
- },
  "https://zh.wikisource.org/wiki/淮南子/原道訓": {
   "status": 200,
   "checked": "2026-11-17",
   "used": [
    "story-buzhou/s4"
-  ]
- },
- "https://www.worldhistory.org/Ymir/": {
-  "status": 403,
-  "checked": "2026-11-17",
-  "used": [
-   "primordial-ymir/s9"
-  ]
- },
- "https://zh.wikisource.org/wiki/述異記 (四庫全書本)/卷上": {
-  "status": 200,
-  "checked": "2026-11-17",
-  "used": [
-   "primordial-pangu/s6"
   ]
  },
  "https://zh.wikisource.org/wiki/博物志/卷之一": {
@@ -4572,20 +4543,6 @@
    "story-nuwa-mends-sky/s5"
   ]
  },
- "https://www.britannica.com/topic/Niu-Lang": {
-  "status": 403,
-  "checked": "2026-11-17",
-  "used": [
-   "story-cowherd-weaver/s3"
-  ]
- },
- "https://www.britannica.com/topic/Zhi-Nu": {
-  "status": 403,
-  "checked": "2026-11-17",
-  "used": [
-   "story-cowherd-weaver/s4"
-  ]
- },
  "https://zh.wikisource.org/wiki/初學記/卷第二十九": {
   "status": 200,
   "checked": "2026-11-17",
@@ -4594,11 +4551,57 @@
    "story-moon-palace/s8"
   ]
  },
+ "https://zh.wikisource.org/wiki/詩經/大東": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "story-cowherd-weaver/s1"
+  ]
+ },
  "https://zh.wikisource.org/wiki/迢迢牽牛星": {
   "status": 200,
   "checked": "2026-11-17",
   "used": [
    "story-cowherd-weaver/s2"
+  ]
+ },
+ "https://www.worldhistory.org/Ymir/": {
+  "status": 403,
+  "checked": "2026-11-17",
+  "used": [
+   "primordial-ymir/s9"
+  ]
+ },
+ "https://www.britannica.com/topic/Pan-Gu": {
+  "status": 403,
+  "checked": "2026-11-17",
+  "used": [
+   "primordial-pangu/s3",
+   "徐整寫下盤古"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/續齊諧記": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "story-cowherd-weaver/s7",
+   "story-festivals/s2",
+   "dragon-boat-festival"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/初學記/卷第四": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "story-cowherd-weaver/s8"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/東京夢華錄/卷八": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "story-cowherd-weaver/s9",
+   "story-mulian/s3"
   ]
  },
  "https://www.theoi.com/Ouranios/Psykhe.html": {
@@ -4630,27 +4633,26 @@
    "story-dido/s2"
   ]
  },
- "https://zh.wikisource.org/wiki/詩經/大東": {
-  "status": 200,
-  "checked": "2026-11-17",
-  "used": [
-   "story-cowherd-weaver/s1"
-  ]
- },
- "https://www.britannica.com/topic/Dido": {
+ "https://www.britannica.com/topic/Adonis-Greek-mythology": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "story-dido/s3"
+   "story-adonis/s4"
   ]
  },
- "https://zh.wikisource.org/wiki/續齊諧記": {
+ "https://zh.wikisource.org/wiki/搜神記/第01卷": {
   "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "story-cowherd-weaver/s7",
-   "story-festivals/s2",
-   "dragon-boat-festival"
+   "story-dong-yong/s1"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/董永變文": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "story-dong-yong/s2",
+   "story-dong-yong/s3"
   ]
  },
  "https://hurstwic.com/history/articles/mythology/myths/text/treasures.htm": {
@@ -4681,19 +4683,20 @@
    "story-europa/s6"
   ]
  },
- "https://zh.wikisource.org/wiki/東京夢華錄/卷八": {
+ "https://zh.wikisource.org/wiki/封神演義": {
   "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "story-cowherd-weaver/s9",
-   "story-mulian/s3"
+   "story-fengshen/s1",
+   "story-fengshen/s3"
   ]
  },
- "https://zh.wikisource.org/wiki/初學記/卷第四": {
+ "https://zh.wikisource.org/wiki/史記/卷003": {
   "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "story-cowherd-weaver/s8"
+   "story-fengshen/s2",
+   "story-xuanniao/s2"
   ]
  },
  "https://zh.wikisource.org/wiki/東京夢華錄": {
@@ -4704,34 +4707,32 @@
    "nian-beast"
   ]
  },
- "https://zh.wikisource.org/wiki/搜神記/第01卷": {
+ "https://zh.wikisource.org/wiki/史記/卷084": {
   "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "story-dong-yong/s1"
+   "story-festivals/s5"
   ]
  },
- "https://zh.wikisource.org/wiki/封神演義": {
-  "status": 200,
+ "https://www.theoi.com/Text/ApolloniusArgonautica4.html": {
+  "status": 404,
   "checked": "2026-11-17",
   "used": [
-   "story-fengshen/s1",
-   "story-fengshen/s3"
+   "monster-sirens/s2"
   ]
  },
- "https://zh.wikisource.org/wiki/搜神記/第11卷": {
-  "status": 429,
-  "checked": "2026-11-17",
-  "used": [
-   "story-ganjiang-moye/s1"
-  ]
- },
- "https://www.britannica.com/topic/Dragon-Boat-Festival": {
+ "https://www.britannica.com/topic/Niu-Lang": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "story-festivals/s6",
-   "dragon-boat-festival"
+   "story-cowherd-weaver/s3"
+  ]
+ },
+ "https://www.britannica.com/topic/Dido": {
+  "status": 403,
+  "checked": "2026-11-17",
+  "used": [
+   "story-dido/s3"
   ]
  },
  "https://www.gutenberg.org/ebooks/43711": {
@@ -4749,30 +4750,30 @@
    "story-heracles-labours/s2"
   ]
  },
- "https://zh.wikisource.org/wiki/董永變文": {
-  "status": 200,
+ "https://www.britannica.com/topic/Dragon-Boat-Festival": {
+  "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "story-dong-yong/s2",
-   "story-dong-yong/s3"
+   "story-festivals/s6",
+   "dragon-boat-festival"
   ]
  },
- "https://zh.wikisource.org/wiki/史記/卷084": {
-  "status": 200,
+ "https://www.britannica.com/topic/Zhi-Nu": {
+  "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "story-festivals/s5"
+   "story-cowherd-weaver/s4"
   ]
  },
- "https://zh.wikisource.org/wiki/吳越春秋/闔閭內傳": {
-  "status": 429,
+ "https://www.britannica.com/topic/Labours-of-Hercules": {
+  "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "story-ganjiang-moye/s2"
+   "story-heracles-labours/s3"
   ]
  },
  "https://zh.wikisource.org/wiki/莊子/齊物論": {
-  "status": 429,
+  "status": 200,
   "checked": "2026-11-17",
   "used": [
    "story-houyi-suns/s7"
@@ -4785,32 +4786,32 @@
    "story-icarus/s3"
   ]
  },
- "https://zh.wikisource.org/wiki/楚辭補註/卷第九": {
-  "status": 429,
+ "https://zh.wikisource.org/wiki/搜神記/第11卷": {
+  "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "story-houyi-suns/s8"
+   "story-ganjiang-moye/s1"
   ]
  },
  "https://zh.wikisource.org/wiki/論衡/84": {
-  "status": 429,
+  "status": 200,
   "checked": "2026-11-17",
   "used": [
    "story-houyi-suns/s9"
   ]
  },
- "https://zh.wikisource.org/wiki/西遊記": {
-  "status": 429,
+ "https://zh.wikisource.org/wiki/楚辭補註/卷第九": {
+  "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "story-journey-west/s2"
+   "story-houyi-suns/s8"
   ]
  },
- "https://zh.wikisource.org/wiki/楊東來先生批評西游記": {
-  "status": 429,
+ "https://zh.wikisource.org/wiki/吳越春秋/闔閭內傳": {
+  "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "story-journey-west/s3"
+   "story-ganjiang-moye/s2"
   ]
  },
  "https://www.theoi.com/Text/EpicCycle.html": {
@@ -4829,89 +4830,11 @@
    "story-judgement-of-paris/s5"
   ]
  },
- "https://zh.wikisource.org/wiki/史記/卷003": {
-  "status": 200,
-  "checked": "2026-11-17",
-  "used": [
-   "story-fengshen/s2",
-   "story-xuanniao/s2"
-  ]
- },
- "https://zh.wikisource.org/wiki/國語/卷18": {
-  "status": 429,
-  "checked": "2026-11-17",
-  "used": [
-   "story-juedi-tiantong/s2"
-  ]
- },
- "https://zh.wikisource.org/wiki/史記/卷130": {
-  "status": 429,
-  "checked": "2026-11-17",
-  "used": [
-   "story-juedi-tiantong/s4"
-  ]
- },
- "https://zh.wikisource.org/wiki/喻世明言/第28卷": {
-  "status": 429,
-  "checked": "2026-11-17",
-  "used": [
-   "story-liangzhu/s1"
-  ]
- },
- "https://www.britannica.com/topic/Labours-of-Hercules": {
-  "status": 403,
-  "checked": "2026-11-17",
-  "used": [
-   "story-heracles-labours/s3"
-  ]
- },
  "https://www.britannica.com/biography/Xuanzang": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
    "story-journey-west/s4"
-  ]
- },
- "https://zh.wikisource.org/wiki/陔餘叢考/42": {
-  "status": 429,
-  "checked": "2026-11-17",
-  "used": [
-   "story-liangzhu/s2"
-  ]
- },
- "https://zh.wikisource.org/wiki/國語文學史/第三編_兩宋的白話文學": {
-  "status": 429,
-  "checked": "2026-11-17",
-  "used": [
-   "story-liangzhu/s3"
-  ]
- },
- "https://zh.wikisource.org/wiki/春秋左傳事類始末_(四庫全書本)/卷3": {
-  "status": 429,
-  "checked": "2026-11-17",
-  "used": [
-   "story-mengjiangnu/s1"
-  ]
- },
- "https://zh.wikisource.org/wiki/禮記/檀弓下": {
-  "status": 429,
-  "checked": "2026-11-17",
-  "used": [
-   "story-mengjiangnu/s2"
-  ]
- },
- "https://zh.wikisource.org/wiki/列女傳/卷4": {
-  "status": 429,
-  "checked": "2026-11-17",
-  "used": [
-   "story-mengjiangnu/s3"
-  ]
- },
- "https://zh.wikisource.org/wiki/論衡_(四庫全書本)/卷05": {
-  "status": 429,
-  "checked": "2026-11-17",
-  "used": [
-   "story-mengjiangnu/s4"
   ]
  },
  "https://www.britannica.com/topic/Journey-to-the-West": {
@@ -4921,40 +4844,117 @@
    "story-journey-west/s5"
   ]
  },
- "https://zh.wikisource.org/wiki/孟姜女變文": {
+ "https://mdpi.com/2077-1444/15/4/477": {
+  "status": 403,
+  "checked": "2026-11-17",
+  "used": [
+   "story-juedi-tiantong/s6"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/楊東來先生批評西游記": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "story-journey-west/s3"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/西遊記": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "story-journey-west/s2"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/國語/卷18": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "story-juedi-tiantong/s2"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/史記/卷130": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "story-juedi-tiantong/s4"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/國語文學史/第三編_兩宋的白話文學": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "story-liangzhu/s3"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/喻世明言/第28卷": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "story-liangzhu/s1"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/陔餘叢考/42": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "story-liangzhu/s2"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/春秋左傳事類始末_(四庫全書本)/卷3": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "story-mengjiangnu/s1"
+  ]
+ },
+ "https://www.metmuseum.org/essays/phrygia-gordion-and-king-midas-in-the-late-eighth-century-b-c": {
   "status": 429,
   "checked": "2026-11-17",
   "used": [
-   "story-mengjiangnu/s5",
-   "story-mengjiangnu/s6"
+   "story-midas/s3"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/禮記/檀弓下": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "story-mengjiangnu/s2"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/列女傳/卷4": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "story-mengjiangnu/s3"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/論衡_(四庫全書本)/卷05": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "story-mengjiangnu/s4"
   ]
  },
  "https://zh.wikisource.org/wiki/淮南子/精神訓": {
-  "status": 429,
+  "status": 200,
   "checked": "2026-11-17",
   "used": [
    "story-moon-palace/s2"
   ]
  },
  "https://zh.wikisource.org/wiki/靈憲": {
-  "status": 429,
+  "status": 200,
   "checked": "2026-11-17",
   "used": [
    "story-moon-palace/s3"
   ]
  },
- "https://zh.wikisource.org/wiki/樂府詩集/034卷": {
-  "status": 429,
+ "https://zh.wikisource.org/wiki/孟姜女變文": {
+  "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "story-moon-palace/s4"
-  ]
- },
- "https://mdpi.com/2077-1444/15/4/477": {
-  "status": 403,
-  "checked": "2026-11-17",
-  "used": [
-   "story-juedi-tiantong/s6"
+   "story-mengjiangnu/s5",
+   "story-mengjiangnu/s6"
   ]
  },
  "https://www.theoi.com/Heros/Narkissos.html": {
@@ -4966,15 +4966,15 @@
    "story-narcissus/s4"
   ]
  },
- "https://zh.wikisource.org/wiki/酉陽雜俎/卷一": {
-  "status": 429,
+ "https://zh.wikisource.org/wiki/樂府詩集/034卷": {
+  "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "story-moon-palace/s5"
+   "story-moon-palace/s4"
   ]
  },
  "https://zh.wikisource.org/wiki/龍城錄": {
-  "status": 429,
+  "status": 200,
   "checked": "2026-11-17",
   "used": [
    "story-moon-palace/s6"
@@ -5077,11 +5077,11 @@
    "story-pygmalion/s4"
   ]
  },
- "https://zh.wikisource.org/wiki/佛說盂蘭盆經": {
-  "status": 429,
+ "https://www.britannica.com/topic/runic-alphabet": {
+  "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "story-mulian/s1"
+   "story-odin-runes/s5"
   ]
  },
  "https://www.encyclopedia.com/social-sciences/applied-and-social-sciences-magazines/pygmalion-effects": {
@@ -5098,11 +5098,11 @@
    "story-pyramus-thisbe/s2"
   ]
  },
- "https://zh.wikisource.org/wiki/後漢書/卷4": {
-  "status": 429,
+ "https://zh.wikisource.org/wiki/酉陽雜俎/卷一": {
+  "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "story-nuwa-mends-sky/s8"
+   "story-moon-palace/s5"
   ]
  },
  "https://www.playstation.com/en-us/games/god-of-war-ragnarok/": {
@@ -5158,11 +5158,12 @@
    "story-pygmalion/s2"
   ]
  },
- "https://www.metmuseum.org/essays/phrygia-gordion-and-king-midas-in-the-late-eighth-century-b-c": {
-  "status": 429,
+ "https://www.worldhistory.org/Ragnarok/": {
+  "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "story-midas/s3"
+   "story-ragnarok/s14",
+   "thor-ragnarok-film"
   ]
  },
  "https://arrangera.eskilstuna.se/download/18.2b162e85172e510106a21e35/1594199385241/Sigurdsristningen%20eng.pdf": {
@@ -5194,11 +5195,12 @@
    "story-trojan-war/s5"
   ]
  },
- "https://www.britannica.com/topic/runic-alphabet": {
-  "status": 403,
+ "https://whc.unesco.org/en/list/849": {
+  "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "story-odin-runes/s5"
+   "story-trojan-war/s7",
+   "troy"
   ]
  },
  "https://www.worldhistory.org/troy/": {
@@ -5210,11 +5212,11 @@
    "特洛伊遺址的城市毀壞"
   ]
  },
- "https://www.britannica.com/topic/Sabine": {
-  "status": 403,
+ "https://zh.wikisource.org/wiki/佛說盂蘭盆經": {
+  "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "story-sabine-women/s3"
+   "story-mulian/s1"
   ]
  },
  "https://www.theoi.com/Heros/Pelops.html": {
@@ -5224,6 +5226,20 @@
    "story-underworld-punishments/s7"
   ]
  },
+ "https://www.britannica.com/topic/Sabine": {
+  "status": 403,
+  "checked": "2026-11-17",
+  "used": [
+   "story-sabine-women/s3"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/後漢書/卷4": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "story-nuwa-mends-sky/s8"
+  ]
+ },
  "https://www.britannica.com/topic/Sisyphus": {
   "status": 403,
   "checked": "2026-11-17",
@@ -5231,84 +5247,53 @@
    "story-underworld-punishments/s6"
   ]
  },
- "https://zh.wikisource.org/wiki/博異志": {
-  "status": 429,
-  "checked": "2026-11-17",
-  "used": [
-   "story-white-snake/s1"
-  ]
- },
  "https://zh.wikisource.org/wiki/警世通言/第28卷": {
-  "status": 429,
+  "status": 200,
   "checked": "2026-11-17",
   "used": [
    "story-white-snake/s2"
   ]
  },
- "https://whc.unesco.org/en/list/849": {
+ "https://zh.wikisource.org/wiki/博異志": {
   "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "story-trojan-war/s7",
-   "troy"
-  ]
- },
- "https://www.worldhistory.org/Ragnarok/": {
-  "status": 403,
-  "checked": "2026-11-17",
-  "used": [
-   "story-ragnarok/s14",
-   "thor-ragnarok-film"
+   "story-white-snake/s1"
   ]
  },
  "https://zh.wikisource.org/wiki/詩經/玄鳥": {
-  "status": 429,
+  "status": 200,
   "checked": "2026-11-17",
   "used": [
    "story-xuanniao/s1"
   ]
  },
  "https://zh.wikisource.org/wiki/呂氏春秋/卷六": {
-  "status": 429,
+  "status": 200,
   "checked": "2026-11-17",
   "used": [
    "story-xuanniao/s4"
   ]
  },
  "https://zh.wikisource.org/wiki/詩經/長發": {
-  "status": 429,
+  "status": 200,
   "checked": "2026-11-17",
   "used": [
    "story-xuanniao/s6"
   ]
  },
  "https://zh.wikisource.org/wiki/史記正義_(四庫全書本)/卷001": {
-  "status": 429,
+  "status": 200,
   "checked": "2026-11-17",
   "used": [
    "story-yao-shun/s6"
   ]
  },
- "https://zh.wikisource.org/wiki/淮南子/要略": {
-  "status": 429,
+ "https://www.britannica.com/topic/Yao-Chinese-mythological-emperor": {
+  "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "story-yu-flood/s7"
-  ]
- },
- "https://zh.wikisource.org/wiki/列子_(四庫全書本)": {
-  "status": 429,
-  "checked": "2026-11-17",
-  "used": [
-   "story-yugong/s2"
-  ]
- },
- "https://zh.wikisource.org/wiki/論衡/14": {
-  "status": 429,
-  "checked": "2026-11-17",
-  "used": [
-   "story-zodiac/s1",
-   "zodiac-years"
+   "story-yao-shun/s4"
   ]
  },
  "https://www.britannica.com/topic/Shun": {
@@ -5316,6 +5301,21 @@
   "checked": "2026-11-17",
   "used": [
    "story-yao-shun/s5"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/淮南子/要略": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "story-yu-flood/s7"
+  ]
+ },
+ "https://www.britannica.com/topic/Chinese-zodiac": {
+  "status": 403,
+  "checked": "2026-11-17",
+  "used": [
+   "story-zodiac/s3",
+   "zodiac-years"
   ]
  },
  "https://www.theoi.com/Titan/TitanAtlas.html": {
@@ -5427,12 +5427,11 @@
    "icarus-landscape"
   ]
  },
- "https://www.britannica.com/topic/Chinese-zodiac": {
-  "status": 403,
+ "https://en.wikipedia.org/wiki/The_Rape_of_Proserpina": {
+  "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "story-zodiac/s3",
-   "zodiac-years"
+   "bernini-proserpina"
   ]
  },
  "https://en.wikipedia.org/wiki/Nike,_Inc.": {
@@ -5470,18 +5469,19 @@
    "starbucks-siren"
   ]
  },
- "https://www.britannica.com/topic/Yao-Chinese-mythological-emperor": {
-  "status": 403,
-  "checked": "2026-11-17",
-  "used": [
-   "story-yao-shun/s4"
-  ]
- },
- "https://en.wikipedia.org/wiki/The_Rape_of_Proserpina": {
+ "https://zh.wikisource.org/wiki/論衡/14": {
   "status": 200,
   "checked": "2026-11-17",
   "used": [
-   "bernini-proserpina"
+   "story-zodiac/s1",
+   "zodiac-years"
+  ]
+ },
+ "https://zh.wikisource.org/wiki/列子_(四庫全書本)": {
+  "status": 200,
+  "checked": "2026-11-17",
+  "used": [
+   "story-yugong/s2"
   ]
  },
  "https://www.businessinsider.in/how-amazon-got-its-name/articleshow/64068170.cms": {
@@ -5564,11 +5564,11 @@
    "xihe-1"
   ]
  },
- "https://www.britannica.com/topic/Yutu": {
+ "https://www.etymonline.com/word/Amazon": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "yutu-rover"
+   "amazon-brand"
   ]
  },
  "https://science.nasa.gov/solar-system/asteroids/4-vesta/": {
@@ -5578,11 +5578,11 @@
    "vesta-asteroid"
   ]
  },
- "https://www.etymonline.com/word/Amazon": {
+ "https://www.britannica.com/topic/Yutu": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "amazon-brand"
+   "yutu-rover"
   ]
  },
  "https://www.etymonline.com/word/bacchanal": {
@@ -5648,11 +5648,11 @@
    "madeline-miller"
   ]
  },
- "https://www.etymonline.com/word/astronaut": {
+ "https://www.etymonline.com/word/labyrinth": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "argonaut-astronaut"
+   "labyrinth-word"
   ]
  },
  "https://en.wikipedia.org/wiki/Achilles_tendon": {
@@ -5697,11 +5697,11 @@
    "promethium"
   ]
  },
- "https://www.etymonline.com/word/labyrinth": {
+ "https://www.etymonline.com/word/astronaut": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "labyrinth-word"
+   "argonaut-astronaut"
   ]
  },
  "https://www.dictionary.com/browse/atlas": {
@@ -5824,11 +5824,11 @@
    "saturn-moons"
   ]
  },
- "https://research.uniroma1.it/node/29825": {
-  "status": -1,
+ "https://www.etymonline.com/word/arachnid": {
+  "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "story-romulus-remus/s7"
+   "arachnida"
   ]
  },
  "https://www.lockheedmartin.com/en-us/products/aegis-combat-system.html": {
@@ -5838,25 +5838,25 @@
    "aegis-ships"
   ]
  },
- "https://wgly.hangzhou.gov.cn/art/2023/8/9/art_1229740544_58948158.html": {
+ "https://research.uniroma1.it/node/29825": {
   "status": -1,
   "checked": "2026-11-17",
   "used": [
-   "story-white-snake/s3"
+   "story-romulus-remus/s7"
   ]
  },
- "https://www.etymonline.com/word/arachnid": {
+ "https://www.etymonline.com/word/typhoon": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "arachnida"
+   "typhoon-typhon"
   ]
  },
- "https://radiopaedia.org/articles/achilles-tendon-2": {
-  "status": 406,
+ "https://www.etymonline.com/word/January": {
+  "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "achilles-tendon"
+   "january"
   ]
  },
  "https://www.theoi.com/Text/OvidFasti3.html": {
@@ -5866,11 +5866,11 @@
    "march"
   ]
  },
- "https://www.etymonline.com/word/typhoon": {
-  "status": 403,
+ "https://radiopaedia.org/articles/achilles-tendon-2": {
+  "status": 406,
   "checked": "2026-11-17",
   "used": [
-   "typhoon-typhon"
+   "achilles-tendon"
   ]
  },
  "https://www.theoi.com/Text/OvidFasti6.html": {
@@ -5887,18 +5887,18 @@
    "april-may"
   ]
  },
- "https://www.etymonline.com/word/January": {
-  "status": 403,
-  "checked": "2026-11-17",
-  "used": [
-   "january"
-  ]
- },
  "https://www.etymonline.com/word/March": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
    "march"
+  ]
+ },
+ "https://www.etymonline.com/word/June": {
+  "status": 403,
+  "checked": "2026-11-17",
+  "used": [
+   "june"
   ]
  },
  "https://www.theoi.com/Text/OvidFasti4.html": {
@@ -5915,25 +5915,11 @@
    "april-may"
   ]
  },
- "https://www.etymonline.com/word/June": {
-  "status": 403,
-  "checked": "2026-11-17",
-  "used": [
-   "june"
-  ]
- },
  "https://www.etymonline.com/word/May": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
    "april-may"
-  ]
- },
- "https://www.etymonline.com/word/Saturday": {
-  "status": 403,
-  "checked": "2026-11-17",
-  "used": [
-   "saturday"
   ]
  },
  "https://www.etymonline.com/word/chaos": {
@@ -5950,11 +5936,11 @@
    "titanic-word"
   ]
  },
- "https://www.etymonline.com/word/atlas": {
+ "https://www.etymonline.com/word/Saturday": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "atlas-book"
+   "saturday"
   ]
  },
  "https://www.etymonline.com/word/panic": {
@@ -5962,6 +5948,13 @@
   "checked": "2026-11-17",
   "used": [
    "panic-word"
+  ]
+ },
+ "https://www.etymonline.com/word/atlas": {
+  "status": 403,
+  "checked": "2026-11-17",
+  "used": [
+   "atlas-book"
   ]
  },
  "https://www.etymonline.com/word/echo": {
@@ -5985,20 +5978,6 @@
    "nemesis-word"
   ]
  },
- "https://www.etymonline.com/word/herculean": {
-  "status": 403,
-  "checked": "2026-11-17",
-  "used": [
-   "herculean-word"
-  ]
- },
- "https://csrc.nist.gov/glossary/term/trojan_horse": {
-  "status": 200,
-  "checked": "2026-11-02",
-  "used": [
-   "trojan-malware"
-  ]
- },
  "https://www.etymonline.com/word/tantalize": {
   "status": 403,
   "checked": "2026-11-17",
@@ -6011,6 +5990,20 @@
   "checked": "2026-11-17",
   "used": [
    "odyssey-word"
+  ]
+ },
+ "https://csrc.nist.gov/glossary/term/trojan_horse": {
+  "status": 200,
+  "checked": "2026-11-02",
+  "used": [
+   "trojan-malware"
+  ]
+ },
+ "https://www.etymonline.com/word/herculean": {
+  "status": 403,
+  "checked": "2026-11-17",
+  "used": [
+   "herculean-word"
   ]
  },
  "https://www.etymonline.com/word/mentor": {
@@ -6027,18 +6020,25 @@
    "muse-words"
   ]
  },
- "https://www.merriam-webster.com/dictionary/Achilles%27%20heel": {
-  "status": 403,
-  "checked": "2026-11-17",
-  "used": [
-   "achilles-heel"
-  ]
- },
  "https://www.etymonline.com/word/music": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
    "muse-words"
+  ]
+ },
+ "https://www.etymonline.com/word/cereal": {
+  "status": 403,
+  "checked": "2026-11-17",
+  "used": [
+   "cereal-word"
+  ]
+ },
+ "https://www.merriam-webster.com/dictionary/Achilles%27%20heel": {
+  "status": 403,
+  "checked": "2026-11-17",
+  "used": [
+   "achilles-heel"
   ]
  },
  "https://whc.unesco.org/en/list/941": {
@@ -6112,25 +6112,11 @@
    "reykholt"
   ]
  },
- "https://www.etymonline.com/word/cereal": {
-  "status": 403,
-  "checked": "2026-11-17",
-  "used": [
-   "cereal-word"
-  ]
- },
  "https://www.etymonline.com/word/volcano": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
    "volcano-word"
-  ]
- },
- "https://www.germanicmythology.com/works/uppsalatemple.html": {
-  "status": 200,
-  "checked": "2026-11-16",
-  "used": [
-   "gamla-uppsala"
   ]
  },
  "https://www.worldhistory.org/Edda/": {
@@ -6140,6 +6126,20 @@
    "reykholt",
    "斯諾里寫《散文埃達》",
    "《詩體埃達》編成"
+  ]
+ },
+ "https://www.germanicmythology.com/works/uppsalatemple.html": {
+  "status": 200,
+  "checked": "2026-11-16",
+  "used": [
+   "gamla-uppsala"
+  ]
+ },
+ "https://www.etymonline.com/word/helium": {
+  "status": 403,
+  "checked": "2026-11-17",
+  "used": [
+   "helium-word"
   ]
  },
  "https://www.worldhistory.org/Minoan_Civilization/": {
@@ -6184,11 +6184,11 @@
    "奧維德完成《變形記》"
   ]
  },
- "https://www.etymonline.com/word/helium": {
+ "https://www.worldhistory.org/Temple_at_Uppsala/": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "helium-word"
+   "gamla-uppsala"
   ]
  },
  "https://sites.pitt.edu/~dash/njal100.html": {
@@ -6196,13 +6196,6 @@
   "checked": "2026-11-16",
   "used": [
    "冰島改信基督教"
-  ]
- },
- "https://www.worldhistory.org/Vikings/": {
-  "status": 403,
-  "checked": "2026-11-17",
-  "used": [
-   "維京時代"
   ]
  },
  "https://www.worldhistory.org/Norse_Mythology/": {
@@ -6215,11 +6208,18 @@
    "《詩體埃達》編成"
   ]
  },
- "https://www.worldhistory.org/Temple_at_Uppsala/": {
+ "https://www.worldhistory.org/article/2670/christianization-of-iceland/": {
   "status": 403,
   "checked": "2026-11-17",
   "used": [
-   "gamla-uppsala"
+   "冰島改信基督教"
+  ]
+ },
+ "https://www.worldhistory.org/Vikings/": {
+  "status": 403,
+  "checked": "2026-11-17",
+  "used": [
+   "維京時代"
   ]
  },
  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/17C*.html": {
@@ -6267,19 +6267,19 @@
    "司馬遷與《史記》"
   ]
  },
- "https://www.worldhistory.org/article/2670/christianization-of-iceland/": {
-  "status": 403,
-  "checked": "2026-11-17",
-  "used": [
-   "冰島改信基督教"
-  ]
- },
  "https://classical-inquiries.chs.harvard.edu/olympus-as-mountain-and-olympia-as-venue-for-the-olympics-a-question-about-the-naming-of-these-places/": {
   "status": -1,
   "checked": "2026-11-17",
   "used": [
    "place-olympus/s4",
    "olympus"
+  ]
+ },
+ "https://wgly.hangzhou.gov.cn/art/2023/8/9/art_1229740544_58948158.html": {
+  "status": -1,
+  "checked": "2026-11-17",
+  "used": [
+   "story-white-snake/s3"
   ]
  },
  "https://www.olympics.com/ioc/ancient-olympic-games": {
