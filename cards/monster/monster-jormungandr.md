@@ -17,6 +17,7 @@ domains:
   symbols: [環繞大地的身體, 咬住自己的尾巴]
 how_to_recognize: 故事裡的畫面：一條大到環繞大地的蛇，咬著自己的尾巴；或是被索爾釣上船的蛇。這些是故事裡的描述。
 how_to_recognize_src: [s1, s3]
+images: [img-ai-portrait-jormungandr]
 few_images: 這批還沒有收錄作品圖。
 family:
   parents:

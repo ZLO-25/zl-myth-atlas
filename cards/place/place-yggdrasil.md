@@ -11,6 +11,7 @@ three_lines:
   - 北歐神話裡的世界樹，一棵常綠的白蠟樹（梣樹），長在烏爾德之泉旁。
   - 它有三條根，通到三處泉水；毒龍尼德霍格啃一條根，松鼠拉塔托斯克在樹上跑上跑下傳壞話。
   - 埃達說有「九個世界」，但沒有一致的名單；常見的九界名單是後人整理的。
+images: [img-ai-portrait-yggdrasil]
 hook: 世界樹：長在烏爾德之泉旁的白蠟樹，三條根、一隻傳話的松鼠、一條啃根的龍；諸神黃昏時它會搖動。
 sources:
   - {id: s1, kind: ancient, cite: 《詩體埃達》〈女先知的預言〉第 19–20 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}

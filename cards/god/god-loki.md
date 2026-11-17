@@ -17,6 +17,7 @@ domains:
   symbols: [鮭魚（他躲藏時變成的樣子）, 毒蛇與接毒液的碗（他被綁時）]
 how_to_recognize: 故事裡最有名的畫面是他被綁：頭上掛著一條毒蛇，妻子西格恩用碗接毒液；他一掙扎，大地就震動。他也常以偽裝出現：扮成女人，或變成鮭魚。這些是故事裡的描述。
 how_to_recognize_src: [s6, s7, s4]
+images: [img-ai-portrait-loki]
 few_images: 這批還沒有收錄作品圖。
 family:
   parents:

@@ -17,6 +17,7 @@ domains:
   symbols: [錘子妙爾尼爾, 力量腰帶, 鐵手套, 兩隻公山羊拉的車]
 how_to_recognize: 故事裡的特徵：手上有錘子妙爾尼爾，繫著力量腰帶（繫上以後力量加一半），戴著鐵手套；坐的車由兩隻公山羊拉，一隻叫咬牙者，一隻叫磨牙者。這些是故事裡的描述。
 how_to_recognize_src: [s2]
+images: [img-ai-portrait-thor]
 few_images: 這批還沒有收錄作品圖。
 family:
   parents:

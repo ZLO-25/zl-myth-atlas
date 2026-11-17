@@ -17,6 +17,7 @@ domains:
   symbols: [鎖鏈格萊普尼爾, 被劍撐開的嘴, 流成河的口水]
 how_to_recognize: 故事裡的畫面：一隻被像絲帶一樣的鎖鏈綁住的狼；眾神用劍撐開牠的嘴，口水流成河；旁邊有人把右手放在牠的嘴裡。這些是故事裡的描述。
 how_to_recognize_src: [s1]
+images: [img-ai-portrait-fenrir]
 few_images: 這批還沒有收錄作品圖。
 family:
   parents:

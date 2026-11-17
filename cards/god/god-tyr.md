@@ -17,6 +17,7 @@ domains:
   symbols: [被狼咬斷的右手]
 how_to_recognize: 故事裡的特徵：他失去了右手，是被狼芬里爾咬斷的。這是故事裡的描述。
 how_to_recognize_src: [s1, s2]
+images: [img-ai-portrait-tyr]
 few_images: 這批還沒有收錄作品圖。
 sources:
   - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 25 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning21-30.htm'}

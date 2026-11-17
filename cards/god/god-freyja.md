@@ -17,6 +17,7 @@ domains:
   symbols: [貓拉的車, 紅金色的眼淚, 布里辛嘉曼項鍊, 鷹羽衣]
 how_to_recognize: 故事裡的特徵：坐的車由貓拉；有一條布里辛嘉曼項鍊；流的眼淚是紅金；有一件鷹羽衣。這些是故事裡的描述。
 how_to_recognize_src: [s2, s3, s4]
+images: [img-ai-portrait-freyja]
 few_images: 這批還沒有收錄作品圖。
 family:
   parents:
