@@ -23,7 +23,7 @@ family:
     - {id: primordial-nyx, src: [s1], variant: 赫西俄德《神譜》211–217 說她們是夜神獨自生下的}
     - {id: god-zeus, src: [s1], variant: 赫西俄德《神譜》901–906 說她們是宙斯與忒彌斯的女兒}
     - {name: 忒彌斯（秩序女神）, src: [s1], variant: 另一說}
-images: []
+images: [img-ai-portrait-fates]
 few_images: 這張卡還沒有收錄圖片。
 sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》211–225、901–906, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}

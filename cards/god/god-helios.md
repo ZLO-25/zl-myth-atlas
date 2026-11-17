@@ -22,7 +22,7 @@ family:
   parents:
     - {name: 許珀里翁（泰坦）, src: [s1]}
     - {name: 忒伊亞（泰坦）, src: [s1]}
-images: []
+images: [img-ai-portrait-helios]
 few_images: 這張卡還沒有收錄圖片。
 sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》371–374, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}

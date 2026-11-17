@@ -17,6 +17,7 @@ domains:
   symbols: [海邊的家諾阿通]
 how_to_recognize: 故事裡的特徵：住在海邊；航海和打獵的人向他祈求。這些是故事裡的描述。
 how_to_recognize_src: [s1, s10]
+images: [img-ai-portrait-njord]
 few_images: 這張卡還沒有收錄圖片。
 family:
   consorts:

@@ -17,6 +17,7 @@ domains:
   symbols: [厚鞋]
 how_to_recognize: 故事裡的特徵：腳上穿著一雙厚鞋；很少說話。這些是故事裡的描述。
 how_to_recognize_src: [s1, s3]
+images: [img-ai-portrait-vidar]
 few_images: 這張卡還沒有收錄圖片。
 family:
   parents:

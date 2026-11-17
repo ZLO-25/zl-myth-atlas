@@ -22,7 +22,7 @@ family:
   parents:
     - {name: 珀爾塞斯（泰坦）, src: [s1]}
     - {name: 阿斯忒里亞（泰坦）, src: [s1]}
-images: []
+images: [img-ai-portrait-hecate]
 few_images: 這張卡還沒有收錄圖片。
 sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》404–452, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}

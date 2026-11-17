@@ -33,7 +33,7 @@ family:
     - {id: god-fates, src: [s1]}
     - {id: god-furies, src: [s3], variant: 赫西俄德說復仇女神由烏拉諾斯的血生出；艾斯奇勒斯劇中她們自稱夜神之女}
     - {id: god-eros, src: [s4], variant: 阿里斯托芬說夜神下了一顆風蛋，厄洛斯從蛋裡孵出}
-images: []
+images: [img-ai-portrait-nyx]
 few_images: 這張卡還沒有收錄圖片。
 sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》123–125、211–225, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}

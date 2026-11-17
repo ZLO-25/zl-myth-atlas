@@ -14,6 +14,7 @@ three_lines:
 hook: 九個世界：埃達只說有九個，名單是後人排出來的；彩虹橋把神和人連起來。
 how_to_recognize: 這是地方，不是人物。常見的圖都是後人畫的，九界的位置沒有統一的圖：原典沒有說它們怎麼排列。
 how_to_recognize_src: [s1, s2]
+images: [img-ai-portrait-nine-worlds]
 few_images: 這張卡還沒有收錄圖片。
 sources:
   - {id: s1, kind: ancient, cite: 《詩體埃達》〈女先知的預言〉第 2、8、37 節與註解（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}

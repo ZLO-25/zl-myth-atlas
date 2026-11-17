@@ -22,7 +22,7 @@ family:
   parents:
     - {id: god-hermes, src: [s1]}
     - {name: 德律奧普斯的女兒, src: [s1], variant: 《荷馬詩體頌歌》第 19 首的說法；另有彭奈洛佩等多種說法}
-images: []
+images: [img-ai-portrait-pan]
 few_images: 這張卡還沒有收錄圖片。
 sources:
   - {id: s1, kind: ancient, cite: 《荷馬詩體頌歌》第 19 首〈致潘〉, url: 'https://www.theoi.com/Text/HomericHymns3.html'}

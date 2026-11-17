@@ -13,11 +13,11 @@ three_lines:
   - 薛西弗斯推石頭的形象，啟發了卡繆的《薛西弗斯的神話》。
 hook: 冥界的刑罰：永遠做不完、也永遠到不了終點的懲罰。
 panels:
-  - {short: 提堤俄斯，被禿鷹啄肝, text: 奧德修斯在冥界看到提堤俄斯躺在地上，身體伸展開來占了九羅德（英譯的長度單位）那麼長，兩隻禿鷹啄食他的肝臟。他曾對宙斯的妻子勒托施暴。, src: [s1]}
-  - {short: 坦塔洛斯，水與果子都收走, text: 他站在水池裡，水到下巴，一低頭水就退去；頭頂的果樹，一伸手風就把樹枝吹向雲端。, src: [s1]}
-  - {short: 薛西弗斯，石頭永遠滾回來, text: 他用雙手把大石推上山頂，快到頂時石頭又滾回平地，他只能重新再推。, src: [s1]}
-  - {short: 伊克西翁，綁在轉動的輪子上, text: 他想侵犯希拉，宙斯用雲做了希拉的樣子，他吹嘘自己得手後，被綁在風中轉動的輪子上。, src: [s2]}
-  - {short: 達那伊得斯姊妹，永遠倒不完的水, text: 奧維德把殺死新郎的達那伊得斯姊妹放進冥界，說她們永遠在舀不盡的水。, src: [s3]}
+  - {image: img-ai-underworld-punishments-1, short: 提堤俄斯，被禿鷹啄肝, text: 奧德修斯在冥界看到提堤俄斯躺在地上，身體伸展開來占了九羅德（英譯的長度單位）那麼長，兩隻禿鷹啄食他的肝臟。他曾對宙斯的妻子勒托施暴。, src: [s1]}
+  - {image: img-ai-underworld-punishments-2, short: 坦塔洛斯，水與果子都收走, text: 他站在水池裡，水到下巴，一低頭水就退去；頭頂的果樹，一伸手風就把樹枝吹向雲端。, src: [s1]}
+  - {image: img-ai-underworld-punishments-3, short: 薛西弗斯，石頭永遠滾回來, text: 他用雙手把大石推上山頂，快到頂時石頭又滾回平地，他只能重新再推。, src: [s1]}
+  - {image: img-ai-underworld-punishments-4, short: 伊克西翁，綁在轉動的輪子上, text: 他想侵犯希拉，宙斯用雲做了希拉的樣子，他吹嘘自己得手後，被綁在風中轉動的輪子上。, src: [s2]}
+  - {image: img-ai-underworld-punishments-5, short: 達那伊得斯姊妹，永遠倒不完的水, text: 奧維德把殺死新郎的達那伊得斯姊妹放進冥界，說她們永遠在舀不盡的水。, src: [s3]}
 sources:
   - {id: s1, kind: ancient, cite: 荷馬《奧德賽》11.576–600, url: 'https://www.theoi.com/Text/HomerOdyssey11.html'}
   - {id: s2, kind: ancient, cite: 阿波羅多洛斯《書庫》摘要 1.20（伊克西翁）、《書庫》1.9.3（薛西弗斯）、1.4.1（提堤俄斯）、摘要 2.1（坦塔洛斯）, url: 'https://www.theoi.com/Text/ApollodorusE.html'}

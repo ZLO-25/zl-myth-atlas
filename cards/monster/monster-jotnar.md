@@ -17,6 +17,7 @@ domains:
   symbols: [霜, 火, 約頓海姆]
 how_to_recognize: 故事裡的特徵：住在約頓海姆、霜與火的地方，或是尤彌爾的後代。古書對巨人的樣子沒有統一描述：有的多頭，有的像洛基一樣俊美，所以沒有統一的樣子可畫。
 how_to_recognize_src: [s3, s5, s6, s2]
+images: [img-ai-portrait-jotnar]
 few_images: 這張卡還沒有收錄圖片。
 sources:
   - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 5–8 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning1-10.htm'}

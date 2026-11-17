@@ -17,6 +17,7 @@ domains:
   symbols: [烏爾德之泉, 世界樹, 泉水]
 how_to_recognize: 故事裡的特徵：在世界樹根下的泉邊，用泉水澆樹。
 how_to_recognize_src: [s1, s2]
+images: [img-ai-portrait-norns]
 few_images: 這張卡還沒有收錄圖片。
 sources:
   - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 15–16 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning11-20.htm'}

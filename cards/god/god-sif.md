@@ -17,6 +17,7 @@ domains:
   symbols: [金色長髮]
 how_to_recognize: 傳統上被畫成留著金色長髮的女神。這是現代整理的說法。
 how_to_recognize_src: [s3, s5]
+images: [img-ai-portrait-sif]
 few_images: 這張卡還沒有收錄圖片。
 family:
   consorts:

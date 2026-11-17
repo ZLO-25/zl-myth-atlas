@@ -17,6 +17,7 @@ domains:
   symbols: [長鬍子]
 how_to_recognize: 故事裡的特徵：留著長鬍子；在宴會上講述眾神的故事。這些是故事裡的描述。
 how_to_recognize_src: [s5]
+images: [img-ai-portrait-bragi]
 few_images: 這張卡還沒有收錄圖片。
 family:
   consorts:
