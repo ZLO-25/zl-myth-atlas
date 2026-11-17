@@ -11,6 +11,7 @@ three_lines:
   - 守護東南西北四個方位的四隻神獸：青龍、白虎、朱雀、玄武。
   - 它們原本是古人把天上的星星分成四大區，各用一隻動物來代表。
   - 風水說「左青龍、右白虎」，日本、韓國的古墓壁畫和不少動漫遊戲裡也都看得到它們。
+images: [img-ai-portrait-four-symbols]
 hook: 四象：東青龍、西白虎、南朱雀、北玄武，守著天空的四個方向。
 sources:
   - {id: s1, kind: ancient, cite: 《淮南子·天文訓》（西漢，劉安主編）, url: 'https://zh.wikisource.org/wiki/淮南子/天文訓'}

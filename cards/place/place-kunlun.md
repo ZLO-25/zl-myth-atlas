@@ -11,6 +11,7 @@ three_lines:
   - 中華神話裡眾神居住的仙山，地位像希臘的奧林帕斯山。
   - 《山海經》說它是天帝在人間的都城，百神聚集，西王母也住在附近。
   - 今天中國西部真的有一條「崑崙山脈」，是漢代才用神話的名字替它命名的。
+images: [img-ai-portrait-kunlun]
 hook: 崑崙山：天帝在人間的都城，中華神話的奧林帕斯。
 sources:
   - {id: s1, kind: ancient, cite: 《山海經·西山經》, url: 'https://zh.wikisource.org/wiki/山海經/西山經'}

@@ -17,6 +17,7 @@ domains:
   symbols: [宮殿芬撒里爾]
 how_to_recognize: 來源沒有交代她固定的外貌或隨身物品，所以這裡只列故事裡的特徵：她是女神之首，住在宮殿芬撒里爾，知道所有人的命運卻不說出預言。
 how_to_recognize_src: [s2, s3]
+images: [img-ai-portrait-frigg]
 few_images: 這批還沒有收錄作品圖。
 family:
   consorts:

@@ -17,6 +17,7 @@ domains:
   symbols: [霜, 母牛歐德姆布拉的乳汁]
 how_to_recognize: 故事裡的畫面：霜融成的人形巨人，身邊有一頭用四道乳汁餵他的母牛歐德姆布拉。以上是故事裡的特徵。
 how_to_recognize_src: [s2, s3]
+images: [img-ai-portrait-ymir]
 few_images: 這批還沒有收錄作品圖。
 sources:
   - {id: s1, kind: ancient, cite: 《詩體埃達》〈女先知的預言〉第 3 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}

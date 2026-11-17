@@ -17,6 +17,7 @@ domains:
   symbols: [金牙, 金鬃（他的馬）, 號角加拉爾, 彩虹橋畢弗羅斯特]
 how_to_recognize: 故事裡的特徵：有一口金牙；騎的馬叫金鬃；手邊有號角加拉爾，聲音響徹所有世界；住在彩虹橋畢弗羅斯特旁。這些是故事裡的描述。
 how_to_recognize_src: [s1]
+images: [img-ai-portrait-heimdall]
 few_images: 這批還沒有收錄作品圖。
 sources:
   - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 27 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning21-30.htm'}

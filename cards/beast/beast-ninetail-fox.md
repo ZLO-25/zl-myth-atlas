@@ -11,6 +11,7 @@ three_lines:
   - 《山海經》裡住在青丘山的九條尾巴的狐狸。
   - 牠叫聲像嬰兒、會吃人，但人吃了牠的肉，就不會被妖邪迷惑。
   - 後來的小說把牠寫成會變美女的狐狸精，日本、韓國的九尾狐傳說也從這裡流傳過去。
+images: [img-ai-portrait-ninetail-fox]
 hook: 九尾狐：一開始是吃了能避邪的怪獸，後來才變成迷人的狐狸精。
 sources:
   - {id: s1, kind: ancient, cite: 《山海經·南山經》, url: 'https://zh.wikisource.org/wiki/山海經/南山經'}

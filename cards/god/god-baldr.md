@@ -17,6 +17,7 @@ domains:
   symbols: [身上發光, 槲寄生（害死他的東西）, 住處布列達布利克]
 how_to_recognize: 故事裡的特徵：他最俊美，「身上發光」。他的死和槲寄生有關。這些是故事裡的描述。
 how_to_recognize_src: [s1, s2]
+images: [img-ai-portrait-baldr]
 few_images: 這批還沒有收錄作品圖。
 family:
   parents:
