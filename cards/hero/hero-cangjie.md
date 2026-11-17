@@ -11,6 +11,7 @@ three_lines:
   - 傳說中發明漢字的人。
   - 他造出文字的那天，天上下起穀子雨，鬼在夜裡哭泣。
   - 台灣常用的「倉頡輸入法」就是用他命名的。
+images: [img-ai-portrait-cangjie]
 hook: 倉頡：造出文字那天，天下穀子、鬼在夜裡哭。
 sources:
   - {id: s1, kind: ancient, cite: 《淮南子·本經訓》（西漢，劉安主編）, url: 'https://zh.wikisource.org/wiki/淮南子/本經訓'}
