@@ -13,12 +13,12 @@ three_lines:
   - 佛洛伊德借用他的名字，提出「伊底帕斯情結（戀母情結）」。
 hook: 伊底帕斯：越想逃離命運，越是走進命運。
 panels:
-  - {image: img-ai-oedipus-1, text: 底比斯國王萊瑤斯得到神諭：你的兒子會殺死你。孩子一出生，他就叫人刺穿嬰兒的腳踝，丟到山上。, src: [s1]}
-  - {image: img-ai-oedipus-2, text: 牧羊人救下嬰兒，送給沒有孩子的科林斯國王撫養，取名伊底帕斯，意思是「腫腳」。, src: [s1, s2]}
-  - {image: img-ai-oedipus-3, text: 長大後他在德爾菲聽到預言：你會殺父娶母。他以為科林斯國王是親生父親，嚇得再也不敢回家。, src: [s1, s2]}
-  - {image: img-ai-oedipus-4, text: 在一條狹窄的路上（索福克勒斯說是三岔路口），他和一輛馬車上的老人發生爭執，一怒之下殺了對方和他的傳令官。那人正是萊瑤斯。, src: [s1, s2]}
-  - {image: img-ai-oedipus-5, text: 底比斯城外，人面獅身的斯芬克斯出謎題：什麼東西只有一種聲音，卻會變成四條腿、兩條腿、三條腿？伊底帕斯答：人。, src: [s1]}
-  - {image: img-ai-oedipus-6, text: 他被迎為新王，娶了守寡的王后。多年後瘟疫爆發，他追查真相，才發現王后就是自己的母親。王后自盡，他刺瞎了雙眼。, src: [s1, s2]}
+  - {image: img-ai-oedipus-1, video: videos/ai/story-oedipus/vid-ai-oedipus-1.mp4, short: 神諭說兒子會弒父，嬰兒被丟上山, text: 底比斯國王萊瑤斯得到神諭：你的兒子會殺死你。孩子一出生，他就叫人刺穿嬰兒的腳踝，丟到山上。, src: [s1]}
+  - {image: img-ai-oedipus-2, video: videos/ai/story-oedipus/vid-ai-oedipus-2.mp4, short: 牧羊人救了他，科林斯國王收養, text: 牧羊人救下嬰兒，送給沒有孩子的科林斯國王撫養，取名伊底帕斯，意思是「腫腳」。, src: [s1, s2]}
+  - {image: img-ai-oedipus-3, video: videos/ai/story-oedipus/vid-ai-oedipus-3.mp4, short: 德爾菲預言：你會殺父娶母, text: 長大後他在德爾菲聽到預言：你會殺父娶母。他以為科林斯國王是親生父親，嚇得再也不敢回家。, src: [s1, s2]}
+  - {image: img-ai-oedipus-4, video: videos/ai/story-oedipus/vid-ai-oedipus-4.mp4, short: 三岔路口一場爭執，他殺了生父, text: 在一條狹窄的路上（索福克勒斯說是三岔路口），他和一輛馬車上的老人發生爭執，一怒之下殺了對方和他的傳令官。那人正是萊瑤斯。, src: [s1, s2]}
+  - {image: img-ai-oedipus-5, video: videos/ai/story-oedipus/vid-ai-oedipus-5.mp4, short: 斯芬克斯的謎題，答案是「人」, text: 底比斯城外，人面獅身的斯芬克斯出謎題：什麼東西只有一種聲音，卻會變成四條腿、兩條腿、三條腿？伊底帕斯答：人。, src: [s1]}
+  - {image: img-ai-oedipus-6, video: videos/ai/story-oedipus/vid-ai-oedipus-6.mp4, short: 真相大白：王后就是他的母親, text: 他被迎為新王，娶了守寡的王后。多年後瘟疫爆發，他追查真相，才發現王后就是自己的母親。王后自盡，他刺瞎了雙眼。, src: [s1, s2]}
 sources:
   - {id: s1, kind: ancient, cite: 阿波羅多洛斯《書庫》3.5.7–3.5.9, url: 'https://www.theoi.com/Text/Apollodorus3.html'}
   - {id: s2, kind: ancient, cite: 索福克勒斯《伊底帕斯王》（Plumptre 英譯）, url: 'https://www.gutenberg.org/ebooks/31'}
