@@ -13,12 +13,12 @@ three_lines:
   - 斯諾里自己也說，有人傳說大蛇的頭被打掉，但他認為牠還活著。
 hook: 世界上最大的一次釣魚：魚餌是牛頭，魚是環繞大地的大蛇。
 panels:
-  - {text: 索爾叫巨人希米爾把船划得更遠；希米爾說已經夠遠了。, src: [s1]}
+  - {image: img-ai-thor-fishing-1, text: 索爾叫巨人希米爾把船划得更遠；希米爾說已經夠遠了。, src: [s1]}
   - {text: 希米爾一次拉上兩條鯨魚。索爾在船尾準備自己的釣竿。, src: [s1]}
-  - {text: 索爾用牛頭當餌；環繞大地的大蛇張口吞下。, src: [s1]}
-  - {text: 〈希米爾之歌〉說，索爾把大蛇拉到船邊，用錘子打牠的頭。, src: [s1]}
-  - {text: 斯諾里說，大蛇噴毒，希米爾嚇壞了，用刀割斷釣線，大蛇沉進海裡。, src: [s2]}
-  - {text: 索爾把錘子丟過去；人們說大蛇的頭被打掉，但斯諾里認為牠還活著。, src: [s2]}
+  - {image: img-ai-thor-fishing-3, text: 索爾用牛頭當餌；環繞大地的大蛇張口吞下。, src: [s1]}
+  - {image: img-ai-thor-fishing-4, text: 〈希米爾之歌〉說，索爾把大蛇拉到船邊，用錘子打牠的頭。, src: [s1]}
+  - {image: img-ai-thor-fishing-5, text: 斯諾里說，大蛇噴毒，希米爾嚇壞了，用刀割斷釣線，大蛇沉進海裡。, src: [s2]}
+  - {image: img-ai-thor-fishing-6, text: 索爾把錘子丟過去；人們說大蛇的頭被打掉，但斯諾里認為牠還活著。, src: [s2]}
 few_images: 這張卡還沒有收錄圖片。
 sources:
   - {id: s1, kind: ancient, cite: 《詩體埃達》〈希米爾之歌〉第 21–25 節與註解（Bellows 英譯，編號依 voluspa.org）, url: 'https://www.voluspa.org/hymiskvida21-25.htm'}

@@ -17,6 +17,7 @@ domains:
   symbols: [金鬃野豬 Gullinbursti, 可以折起來的船 Skíðblaðnir, 他的劍, 亞爾夫海姆]
 how_to_recognize: 故事裡的特徵：身邊有一頭鬃毛會發光的金野豬，斯諾里說他駕著這頭豬拉的車去參加巴德爾的火葬；他有一艘能折起來放進口袋的船；他把劍送給了僕人。這些是故事裡的描述。
 how_to_recognize_src: [s4, s5]
+images: [img-ai-portrait-freyr]
 few_images: 這張卡還沒有收錄圖片。
 family:
   parents:

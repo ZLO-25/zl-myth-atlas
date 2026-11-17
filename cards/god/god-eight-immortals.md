@@ -12,6 +12,7 @@ three_lines:
   - 最有名的故事是「八仙過海」：各自把法器丟進東海，乘著它渡海，結果藍采和被龍王太子抓走。
   - 成語「八仙過海，各顯神通」就是從這個故事來的。
 hook: 八仙：八個來歷各不相同的神仙，被戲曲和小說湊成一組。
+images: [img-ai-portrait-eight-immortals]
 few_images: 這張卡還沒有收錄圖片。
 domains:
   roles: [長生, 祝壽, 民間吉祥]

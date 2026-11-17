@@ -17,6 +17,7 @@ domains:
   symbols: [雪鞋, 山中的家斯里姆海姆（Thrymheim）]
 how_to_recognize: 故事裡的特徵：全副武裝的巨人之女；穿雪鞋在山裡打獵。這些是故事裡的描述。
 how_to_recognize_src: [s1]
+images: [img-ai-portrait-skadi]
 few_images: 這張卡還沒有收錄圖片。
 family:
   parents:

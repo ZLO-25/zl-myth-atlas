@@ -23,7 +23,7 @@ family:
     - {id: god-aphrodite, src: [s7]}
     - {id: primordial-chaos, src: [s6], variant: 奧皮安的詩說他從卡厄斯而來}
     - {id: primordial-nyx, src: [s2], variant: 阿里斯托芬《鳥》說夜神生下風蛋，厄洛斯從蛋裡孵出}
-images: []
+images: [img-ai-portrait-eros]
 few_images: 這張卡還沒有收錄圖片。
 sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》116–122、188–206, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}

@@ -13,12 +13,12 @@ three_lines:
   - 阿波羅宣布月桂為他的聖樹，從此月桂冠成為勝利與榮譽的象徵；貝尼尼的大理石雕像抓住的就是變身的瞬間。
 hook: 阿波羅與達芙妮：愛神的一次報復，換來了月桂冠。
 panels:
-  - {text: 阿波羅殺死巨蟒皮同後得意洋洋，嘲笑愛神邱比特的小弓：「你的火把去玩就好，把榮耀留給我。」, src: [s1]}
-  - {text: 邱比特飛到帕納索斯山，抽出兩支箭：金箭又尖又亮，使人墜入愛河；鉛箭鈍而重，使人排斥愛情。, src: [s1]}
-  - {text: 邱比特用鉛箭射中河神的女兒達芙妮，用金箭射中阿波羅。達芙妮只想像月神一樣永遠做處女、在林中打獵。, src: [s1]}
-  - {text: 阿波羅追著達芙妮跑，一邊追一邊喊自己是宙斯之子、醫藥與預言之神，可是她愈跑愈快，直到他的氣息吹到她的頭髮。, src: [s1]}
-  - {text: 力氣用盡的達芙妮向父親河神與大地母親求救。話沒說完，她的皮膚變成樹皮，頭髮變成樹葉，雙腳變成樹根。, src: [s1]}
-  - {text: 阿波羅摸著樹幹，還感覺得到樹皮下的心跳。他說：「你雖然不能做我的新娘，至少做我的聖樹。」月桂的枝葉彷彿向他點了點頭。, src: [s1]}
+  - {image: img-ai-apollo-daphne-1, text: 阿波羅殺死巨蟒皮同後得意洋洋，嘲笑愛神邱比特的小弓：「你的火把去玩就好，把榮耀留給我。」, src: [s1]}
+  - {image: img-ai-apollo-daphne-2, text: 邱比特飛到帕納索斯山，抽出兩支箭：金箭又尖又亮，使人墜入愛河；鉛箭鈍而重，使人排斥愛情。, src: [s1]}
+  - {image: img-ai-apollo-daphne-3, text: 邱比特用鉛箭射中河神的女兒達芙妮，用金箭射中阿波羅。達芙妮只想像月神一樣永遠做處女、在林中打獵。, src: [s1]}
+  - {image: img-ai-apollo-daphne-4, text: 阿波羅追著達芙妮跑，一邊追一邊喊自己是宙斯之子、醫藥與預言之神，可是她愈跑愈快，直到他的氣息吹到她的頭髮。, src: [s1]}
+  - {image: img-ai-apollo-daphne-5, text: 力氣用盡的達芙妮向父親河神與大地母親求救。話沒說完，她的皮膚變成樹皮，頭髮變成樹葉，雙腳變成樹根。, src: [s1]}
+  - {image: img-ai-apollo-daphne-6, text: 阿波羅摸著樹幹，還感覺得到樹皮下的心跳。他說：「你雖然不能做我的新娘，至少做我的聖樹。」月桂的枝葉彷彿向他點了點頭。, src: [s1]}
 sources:
   - {id: s1, kind: ancient, cite: 奧維德《變形記》1.452–567, url: 'https://www.theoi.com/Text/OvidMetamorphoses1.html'}
   - {id: s2, kind: modern, cite: 博格賽美術館（Galleria Borghese）館藏介紹「Apollo and Daphne」, url: 'https://www.collezionegalleriaborghese.it/en/opere/apollo-and-daphne', accessed: '2026-11-16'}

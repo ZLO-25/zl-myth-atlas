@@ -12,6 +12,7 @@ three_lines:
   - 宋真宗時朝廷正式上他的聖號；《西遊記》裡他坐在靈霄寶殿，被孫悟空大鬧天宮。
   - 農曆正月初九是他的誕辰，民間叫「天公生」。
 hook: 玉皇大帝：把古代的「天」與「上帝」變成一位坐在靈霄寶殿的皇帝。
+images: [img-ai-portrait-jade-emperor]
 few_images: 這張卡還沒有收錄圖片。
 domains:
   roles: [天庭之主, 統管諸神]

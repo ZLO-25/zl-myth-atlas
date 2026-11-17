@@ -13,11 +13,11 @@ three_lines:
   - 西湖的雷峰塔、斷橋與清明借傘，都是這個故事留下的場景。
 hook: 白蛇傳：一個「蛇妖害人」的故事，慢慢被講成讓人同情的愛情故事。
 panels:
-  - {text: 唐代的〈李黃〉：男子遇見白衣美女，三天後身體化成一灘水，原來宅子是空園，樹下住著巨大的白蛇。, src: [s1]}
-  - {text: 明代：清明時節，許宣在西湖遇雨，向白娘子和青青借了一把傘。, src: [s2]}
-  - {text: 有人偷看白娘子的房間，看見一條粗如吊桶的大白蛇；許宣的姐夫也在夜裡看到。, src: [s2]}
-  - {text: 法海禪師說她是妖怪；白娘子自述是千年白蛇，青青是潭裡的青魚。, src: [s2]}
-  - {text: 法海把白蛇與青魚收進缽盂，在雷峰寺前砌成七層寶塔鎮住，許宣出家。, src: [s2]}
+  - {image: img-ai-white-snake-1, text: 唐代的〈李黃〉：男子遇見白衣美女，三天後身體化成一灘水，原來宅子是空園，樹下住著巨大的白蛇。, src: [s1]}
+  - {image: img-ai-white-snake-2, text: 明代：清明時節，許宣在西湖遇雨，向白娘子和青青借了一把傘。, src: [s2]}
+  - {image: img-ai-white-snake-3, text: 有人偷看白娘子的房間，看見一條粗如吊桶的大白蛇；許宣的姐夫也在夜裡看到。, src: [s2]}
+  - {image: img-ai-white-snake-4, text: 法海禪師說她是妖怪；白娘子自述是千年白蛇，青青是潭裡的青魚。, src: [s2]}
+  - {image: img-ai-white-snake-5, text: 法海把白蛇與青魚收進缽盂，在雷峰寺前砌成七層寶塔鎮住，許宣出家。, src: [s2]}
 sources:
   - {id: s1, kind: ancient, cite: 鄭還古《博異志·李黃》（唐代）, url: 'https://zh.wikisource.org/wiki/博異志'}
   - {id: s2, kind: ancient, cite: 馮夢龍《警世通言》第二十八卷〈白娘子永鎮雷峰塔〉（明代）, url: 'https://zh.wikisource.org/wiki/警世通言/第28卷'}

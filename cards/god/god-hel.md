@@ -17,6 +17,7 @@ domains:
   symbols: [半藍黑半膚色的身體, 高牆與大門, 飢餓之盤]
 how_to_recognize: 故事裡的特徵：身體一半藍黑色、一半是膚色，容貌嚴厲兇狠。這是故事裡的描述。
 how_to_recognize_src: [s1]
+images: [img-ai-portrait-hel]
 few_images: 這張卡還沒有收錄圖片。
 family:
   parents:

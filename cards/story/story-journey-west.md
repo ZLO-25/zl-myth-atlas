@@ -13,12 +13,12 @@ three_lines:
   - 孫悟空、豬八戒、沙和尚、白龍馬這些大家熟悉的形象，都是從這部書定型的。
 hook: 西遊記：一趟真實的取經之旅，被四百年的說書人養成了神話。
 panels:
-  - {text: 唐代的玄奘真的獨自從長安出發，經過十六年，從印度帶回 657 部佛經。, src: [s4]}
-  - {text: 宋元時代的《大唐三藏取經詩話》，第一次讓「猴行者」陪著法師上路。, src: [s1]}
-  - {text: 百回本前七回，石猴學得本領，後來大鬧天宮，被如來壓在五行山下。, src: [s2, s5]}
+  - {image: img-ai-journey-west-1, text: 唐代的玄奘真的獨自從長安出發，經過十六年，從印度帶回 657 部佛經。, src: [s4]}
+  - {image: img-ai-journey-west-2, text: 宋元時代的《大唐三藏取經詩話》，第一次讓「猴行者」陪著法師上路。, src: [s1]}
+  - {image: img-ai-journey-west-3, text: 百回本前七回，石猴學得本領，後來大鬧天宮，被如來壓在五行山下。, src: [s2, s5]}
   - {text: 唐太宗派三藏出發，路上收了孫悟空、豬八戒、沙悟淨和白龍馬。, src: [s2]}
-  - {text: 師徒一路降妖，菩薩的難簿上記到八十難，還差一難，才補滿八十一難。, src: [s2]}
-  - {text: 取回真經後，師徒五人都被如來封了職位。, src: [s2]}
+  - {image: img-ai-journey-west-5, text: 師徒一路降妖，菩薩的難簿上記到八十難，還差一難，才補滿八十一難。, src: [s2]}
+  - {image: img-ai-journey-west-6, text: 取回真經後，師徒五人都被如來封了職位。, src: [s2]}
 sources:
   - {id: s1, kind: ancient, cite: 《大唐三藏取經詩話》（作者不詳，宋元之間）, url: 'https://zh.wikisource.org/wiki/大唐三藏取經詩話_(校排本)'}
   - {id: s2, kind: ancient, cite: 《西遊記》百回本第一回、第十二回、第九十九回、第一百回（明代，通行本署吳承恩）, url: 'https://zh.wikisource.org/wiki/西遊記'}
