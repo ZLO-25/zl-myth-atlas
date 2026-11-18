@@ -53,7 +53,7 @@ export function Panels({ panels, cardId }: { panels: Panel[]; cardId: string }) 
         {cover && <span className="muted small">看著圖，試著用自己的話把這一格講出來，再翻開對照。</span>}
       </div>
       <div className="panel-frame" hidden={quick}>
-        {p.image ? <Figure id={p.image} compact /> : <div className="panel-noimg" />}
+        {p.image ? <Figure id={p.image} compact group={panels.flatMap((x) => (x.image ? [x.image] : []))} /> : <div className="panel-noimg" />}
         {hidden ? (
           <div className="panel-cover">
             <p className="muted">這一格的說明文字蓋住了。</p>
