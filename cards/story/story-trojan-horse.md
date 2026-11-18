@@ -12,13 +12,14 @@ three_lines:
   - 祭司拉奧孔警告「我怕希臘人，就算他們帶著禮物」，後來和兩個兒子一起被海蛇纏死。
   - 偽裝成正常檔案、偷偷開後門的電腦病毒，就叫「木馬程式」。
 hook: 特洛伊木馬：十年攻不破的城牆，被一份「禮物」從裡面打開。
+film: videos/ai/story-trojan-horse/film-trojan-horse.mp4
 panels:
-  - {image: img-ai-trojan-horse-1, video: videos/ai/story-trojan-horse/vid-ai-trojan-horse-1.mp4, short: 圍城十年，希臘人造了一匹大木馬, text: 圍城十年後，希臘人在雅典娜的幫助下造了一匹巨大的木馬，最勇敢的戰士躲進馬肚裡。, src: [s1]}
-  - {image: img-ai-trojan-horse-2, video: videos/ai/story-trojan-horse/vid-ai-trojan-horse-2.mp4, short: 燒掉營地、開船躲起來，假裝撤退, text: 其餘的希臘人燒掉營地，把船開到附近的小島後面躲起來，看起來像是放棄回家了。, src: [s3]}
-  - {image: img-ai-trojan-horse-3, video: videos/ai/story-trojan-horse/vid-ai-trojan-horse-3.mp4, short: 拉奧孔警告：小心帶禮物的希臘人, text: 祭司拉奧孔大喊：「不管那是什麼，我都怕希臘人，就算他們帶著禮物。」他把長矛擲向木馬。, src: [s2, s6]}
-  - {image: img-ai-trojan-horse-4, video: videos/ai/story-trojan-horse/vid-ai-trojan-horse-4.mp4, short: 西農說謊：拖進城就有神保佑, text: 一個叫西農的希臘人故意被抓，編出一套謊話：這是獻給雅典娜的祭品，拖進城就能保佑特洛伊。, src: [s2]}
-  - {image: img-ai-trojan-horse-5, video: videos/ai/story-trojan-horse/vid-ai-trojan-horse-5.mp4, short: 海蛇纏死拉奧孔，人們以為是天罰, text: 兩條巨大的海蛇從海上游來，把拉奧孔和他的兩個兒子纏死。特洛伊人認定這是神的懲罰，於是把木馬拖進城。, src: [s2]}
-  - {image: img-ai-trojan-horse-6, video: videos/ai/story-trojan-horse/vid-ai-trojan-horse-6.mp4, short: 半夜戰士爬出馬肚，打開城門, text: 深夜，戰士從馬肚爬出，打開城門。希臘大軍湧入，特洛伊在火光中淪陷。, src: [s2]}
+  - {image: img-ai-trojan-horse-1, short: 圍城十年，希臘人造了一匹大木馬, text: 圍城十年後，希臘人在雅典娜的幫助下造了一匹巨大的木馬，最勇敢的戰士躲進馬肚裡。, src: [s1]}
+  - {image: img-ai-trojan-horse-2, short: 燒掉營地、開船躲起來，假裝撤退, text: 其餘的希臘人燒掉營地，把船開到附近的小島後面躲起來，看起來像是放棄回家了。, src: [s3]}
+  - {image: img-ai-trojan-horse-3, short: 拉奧孔警告：小心帶禮物的希臘人, text: 祭司拉奧孔大喊：「不管那是什麼，我都怕希臘人，就算他們帶著禮物。」他把長矛擲向木馬。, src: [s2, s6]}
+  - {image: img-ai-trojan-horse-4, short: 西農說謊：拖進城就有神保佑, text: 一個叫西農的希臘人故意被抓，編出一套謊話：這是獻給雅典娜的祭品，拖進城就能保佑特洛伊。, src: [s2]}
+  - {image: img-ai-trojan-horse-5, short: 海蛇纏死拉奧孔，人們以為是天罰, text: 兩條巨大的海蛇從海上游來，把拉奧孔和他的兩個兒子纏死。特洛伊人認定這是神的懲罰，於是把木馬拖進城。, src: [s2]}
+  - {image: img-ai-trojan-horse-6, short: 半夜戰士爬出馬肚，打開城門, text: 深夜，戰士從馬肚爬出，打開城門。希臘大軍湧入，特洛伊在火光中淪陷。, src: [s2]}
 sources:
   - {id: s1, kind: ancient, cite: 荷馬《奧德賽》8.492–520, url: 'https://www.theoi.com/Text/HomerOdyssey8.html'}
   - {id: s2, kind: ancient, cite: 維吉爾《埃涅阿斯紀》卷 2, url: 'http://classics.mit.edu/Virgil/aeneid.2.ii.html'}

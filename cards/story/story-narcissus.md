@@ -12,14 +12,15 @@ three_lines:
   - 愛他的仙女厄科只能重複別人說的最後幾個字，憔悴到只剩聲音。
   - 「自戀」（narcissism）來自他的名字；「回聲」（echo）來自厄科；水仙花的學名 Narcissus 也是。
 hook: 納西瑟斯：愛上倒影的少年，和一個只能說別人最後一句話的女孩。
+film: videos/ai/story-narcissus/film-narcissus.mp4
 panels:
-  - {image: img-ai-narcissus-1, video: videos/ai/story-narcissus/vid-ai-narcissus-1.mp4, short: 先知說：只要他永遠不認識自己, text: 納西瑟斯出生時，盲眼先知說：「他能活到老，只要他永遠不認識自己。」, src: [s1]}
-  - {image: img-ai-narcissus-2, video: videos/ai/story-narcissus/vid-ai-narcissus-2.mp4, short: 厄科被詛咒，只能重複別人的尾音, text: 仙女厄科被天后希拉詛咒，只能重複別人說的最後幾個字。她愛上了在林中打獵的納西瑟斯。, src: [s1]}
+  - {image: img-ai-narcissus-1, short: 先知說：只要他永遠不認識自己, text: 納西瑟斯出生時，盲眼先知說：「他能活到老，只要他永遠不認識自己。」, src: [s1]}
+  - {image: img-ai-narcissus-2, short: 厄科被詛咒，只能重複別人的尾音, text: 仙女厄科被天后希拉詛咒，只能重複別人說的最後幾個字。她愛上了在林中打獵的納西瑟斯。, src: [s1]}
   - {image: img-ai-narcissus-3, short: 「有人在這裡嗎？」「這裡！」, text: 納西瑟斯喊：「有人在這裡嗎？」厄科回答：「這裡！」她跑出來想擁抱他，他卻厭惡地推開她。, src: [s1]}
-  - {image: img-ai-narcissus-4, video: videos/ai/story-narcissus/vid-ai-narcissus-4.mp4, short: 被拒絕的厄科，只剩聲音留在山谷, text: 被拒絕的厄科躲進山洞，日漸消瘦，最後身體化成石頭，只剩下聲音留在山谷裡。, src: [s1]}
-  - {image: img-ai-narcissus-5, video: videos/ai/story-narcissus/vid-ai-narcissus-5.mp4, short: 有人祈求：讓他也愛上得不到的人, text: 一位被他拒絕的人向天祈求：讓他也愛上得不到的人。報應女神涅墨西斯聽見了。, src: [s1]}
-  - {image: img-ai-narcissus-6, video: videos/ai/story-narcissus/vid-ai-narcissus-6.mp4, short: 他愛上水中倒影，再也離不開, text: 納西瑟斯在清澈的泉水邊彎腰喝水，愛上了水中的倒影。他終於明白：「那就是我！」卻再也離不開。, src: [s1]}
-  - {image: img-ai-narcissus-7, video: videos/ai/story-narcissus/vid-ai-narcissus-7.mp4, short: 他死去的地方，開出一朵水仙, text: 他在水邊憔悴而死。仙女們要為他火葬時，屍體不見了，原地開出一朵中心金黃、花瓣潔白的花。, src: [s1]}
+  - {image: img-ai-narcissus-4, short: 被拒絕的厄科，只剩聲音留在山谷, text: 被拒絕的厄科躲進山洞，日漸消瘦，最後身體化成石頭，只剩下聲音留在山谷裡。, src: [s1]}
+  - {image: img-ai-narcissus-5, short: 有人祈求：讓他也愛上得不到的人, text: 一位被他拒絕的人向天祈求：讓他也愛上得不到的人。報應女神涅墨西斯聽見了。, src: [s1]}
+  - {image: img-ai-narcissus-6, short: 他愛上水中倒影，再也離不開, text: 納西瑟斯在清澈的泉水邊彎腰喝水，愛上了水中的倒影。他終於明白：「那就是我！」卻再也離不開。, src: [s1]}
+  - {image: img-ai-narcissus-7, short: 他死去的地方，開出一朵水仙, text: 他在水邊憔悴而死。仙女們要為他火葬時，屍體不見了，原地開出一朵中心金黃、花瓣潔白的花。, src: [s1]}
 sources:
   - {id: s1, kind: ancient, cite: 奧維德《變形記》3.339–510, url: 'https://www.theoi.com/Text/OvidMetamorphoses3.html'}
   - {id: s2, kind: modern, cite: Theoi.com「Narkissos」, url: 'https://www.theoi.com/Heros/Narkissos.html', accessed: '2026-11-02'}
