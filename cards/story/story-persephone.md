@@ -13,13 +13,14 @@ three_lines:
   - 母親悲痛罷工，大地荒蕪；最後眾神妥協：女兒每年一段時間在冥界，其餘時間回到母親身邊。
   - 古希臘人用這個故事解釋季節，也成了雅典附近厄琉息斯秘儀的核心神話。
 hook: 波瑟芬妮：吃了幾顆石榴籽，從此一年有一段時間要住在冥界。
+film: videos/ai/story-persephone/film-persephone.mp4
 panels:
-  - {image: img-ai-persephone-1, video: videos/ai/story-persephone/vid-ai-persephone-1.mp4, short: 少女伸手摘水仙，大地忽然裂開, text: 少女波瑟芬妮和同伴在草地上摘花，看見一朵特別美的水仙。她伸手去摘，大地突然裂開。, src: [s1]}
-  - {image: img-ai-persephone-2, video: videos/ai/story-persephone/vid-ai-persephone-2.mp4, short: 冥王駕著馬車，把她帶往地底, text: 冥王黑帝斯駕著不死的駿馬衝出地面，把哭喊的少女拉上金色馬車，帶往地底。這件事宙斯早已私下同意。, src: [s1]}
-  - {image: img-ai-persephone-3, video: videos/ai/story-persephone/vid-ai-persephone-3.mp4, short: 母親舉著火炬，找了九天九夜, text: 母親狄蜜特聽見回音，拿著火炬找了九天九夜，不吃不喝也不洗澡。最後太陽神告訴她真相。, src: [s1]}
-  - {image: img-ai-persephone-4, video: videos/ai/story-persephone/vid-ai-persephone-4.mp4, short: 狄蜜特一怒，大地不再長穀物, text: 狄蜜特憤怒地離開奧林帕斯，讓大地不再長出任何穀物。人類快要餓死，眾神也收不到祭品。, src: [s1]}
-  - {image: img-ai-persephone-5, video: videos/ai/story-persephone/vid-ai-persephone-5.mp4, short: 臨走前，她吃下了冥界的石榴籽, text: 宙斯只好派荷米斯去冥界接人。黑帝斯答應放人，卻偷偷讓波瑟芬妮吃下石榴籽。, src: [s1]}
-  - {image: img-ai-persephone-6, video: videos/ai/story-persephone/vid-ai-persephone-6.mp4, short: 母女重逢，大地重新開花, text: 吃過冥界的食物，就不能完全離開。從此她每年一部分時間留在冥界當冥后，其餘時間回到母親身邊，大地重新開花。, src: [s1]}
+  - {image: img-ai-persephone-1, short: 少女伸手摘水仙，大地忽然裂開, text: 少女波瑟芬妮和同伴在草地上摘花，看見一朵特別美的水仙。她伸手去摘，大地突然裂開。, src: [s1]}
+  - {image: img-ai-persephone-2, short: 冥王駕著馬車，把她帶往地底, text: 冥王黑帝斯駕著不死的駿馬衝出地面，把哭喊的少女拉上金色馬車，帶往地底。這件事宙斯早已私下同意。, src: [s1]}
+  - {image: img-ai-persephone-3, short: 母親舉著火炬，找了九天九夜, text: 母親狄蜜特聽見回音，拿著火炬找了九天九夜，不吃不喝也不洗澡。最後太陽神告訴她真相。, src: [s1]}
+  - {image: img-ai-persephone-4, short: 狄蜜特一怒，大地不再長穀物, text: 狄蜜特憤怒地離開奧林帕斯，讓大地不再長出任何穀物。人類快要餓死，眾神也收不到祭品。, src: [s1]}
+  - {image: img-ai-persephone-5, short: 臨走前，她吃下了冥界的石榴籽, text: 宙斯只好派荷米斯去冥界接人。黑帝斯答應放人，卻偷偷讓波瑟芬妮吃下石榴籽。, src: [s1]}
+  - {image: img-ai-persephone-6, short: 母女重逢，大地重新開花, text: 吃過冥界的食物，就不能完全離開。從此她每年一部分時間留在冥界當冥后，其餘時間回到母親身邊，大地重新開花。, src: [s1]}
 sources:
   - {id: s1, kind: ancient, cite: 《荷馬詩體頌歌》第 2 首〈致狄蜜特〉, url: 'https://www.theoi.com/Text/HomericHymns1.html'}
   - {id: s2, kind: ancient, cite: 奧維德《變形記》5.341–571, url: 'https://www.theoi.com/Text/OvidMetamorphoses5.html'}

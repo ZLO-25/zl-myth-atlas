@@ -69,6 +69,8 @@ export interface Card {
     /** 對戰：和誰打過（黃帝對蚩尤） */
     foes?: FamilyLink[];
   };
+  /** 整支連續短片（各格片段剪接而成），「看短片」時整支播放 */
+  film?: string;
   panels?: Panel[];
   images?: string[];
   sources: Source[];

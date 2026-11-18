@@ -171,7 +171,7 @@ export function CardPage({ id }: { id: string }) {
         <section id="sec-panels">
           <h2>分格故事</h2>
           <p className="muted small">先用 {c.panels.length} 格看完整個故事，再往下讀細節。</p>
-          <Panels key={c.id} panels={c.panels} cardId={c.id} />
+          <Panels key={c.id} panels={c.panels} cardId={c.id} film={c.film} />
         </section>
       )}
 

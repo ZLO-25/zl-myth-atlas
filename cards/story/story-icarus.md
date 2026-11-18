@@ -12,10 +12,11 @@ three_lines:
   - 父親叮嚀他不要飛太高也不要飛太低；兒子越飛越高，太陽融化了蠟，墜海而死。
   - 「飛得太靠近太陽」成了形容過度自信、不聽勸告的說法；愛琴海上的伊卡利亞島據說因他得名。
 hook: 伊卡洛斯：人類第一次飛行的故事，也是第一次空難。
+film: videos/ai/story-icarus/film-icarus.mp4
 panels:
-  - {image: img-ai-icarus-1, video: videos/ai/story-icarus/vid-ai-icarus-1.mp4, short: 被困在克里特島，只剩天空沒封鎖, text: 工匠代達洛斯替克里特國王米諾斯蓋了迷宮，國王卻不讓他離開。海路和陸路都被封鎖，他抬頭看著天空。, src: [s1]}
-  - {image: img-ai-icarus-2, video: videos/ai/story-icarus/vid-ai-icarus-2.mp4, short: 用羽毛、線和蠟，做出兩對翅膀, text: 他把大小不同的羽毛排好，用線縫住中間、用蠟黏住底部，做成兩對像鳥一樣微微彎曲的翅膀。, src: [s1]}
-  - {image: img-ai-icarus-3, video: videos/ai/story-icarus/vid-ai-icarus-3.mp4, short: 父親叮嚀：飛在中間，跟著我, text: 他叮嚀兒子：「飛在中間。太低，海水會打濕羽毛；太高，太陽會燒壞翅膀。跟著我飛。」, src: [s1]}
+  - {image: img-ai-icarus-1, short: 被困在克里特島，只剩天空沒封鎖, text: 工匠代達洛斯替克里特國王米諾斯蓋了迷宮，國王卻不讓他離開。海路和陸路都被封鎖，他抬頭看著天空。, src: [s1]}
+  - {image: img-ai-icarus-2, short: 用羽毛、線和蠟，做出兩對翅膀, text: 他把大小不同的羽毛排好，用線縫住中間、用蠟黏住底部，做成兩對像鳥一樣微微彎曲的翅膀。, src: [s1]}
+  - {image: img-ai-icarus-3, short: 父親叮嚀：飛在中間，跟著我, text: 他叮嚀兒子：「飛在中間。太低，海水會打濕羽毛；太高，太陽會燒壞翅膀。跟著我飛。」, src: [s1]}
   - {image: img-ai-icarus-4, short: 地上的人抬頭，以為是天神在飛, text: 地上的漁夫、牧羊人和農夫抬頭看見他們，以為是天神在天上飛。, src: [s1]}
   - {image: img-ai-icarus-5, short: 他越飛越高，太陽融化了蠟, text: 伊卡洛斯越飛越開心，離開父親，往更高的天空飛去。太陽的熱度融化了黏羽毛的蠟。, src: [s1]}
   - {image: img-ai-icarus-6, short: 海面上只剩下漂浮的羽毛, text: 他揮動著光禿禿的手臂，喊著父親的名字，墜入大海。代達洛斯只在海面上看見漂浮的羽毛。, src: [s1]}

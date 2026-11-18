@@ -4,7 +4,7 @@ import { Figure, Inline } from './bits';
 import { QuickPlay } from './QuickPlay';
 
 /** 分格故事：一格＝一張圖＋2–4 句，可按鈕、鍵盤左右鍵或手指滑動翻頁 */
-export function Panels({ panels, cardId }: { panels: Panel[]; cardId: string }) {
+export function Panels({ panels, cardId, film }: { panels: Panel[]; cardId: string; film?: string }) {
   const [i, setI] = useState(0);
   const [cover, setCover] = useState(false); // 「講給別人聽」：只看圖，說明文字蓋住
   const [shown, setShown] = useState<Set<number>>(new Set());
@@ -32,11 +32,11 @@ export function Panels({ panels, cardId }: { panels: Panel[]; cardId: string }) 
         startX.current = null;
       }}
     >
-      {quick && <QuickPlay panels={panels} onClose={(at) => { setI(at); setQuick(false); }} />}
+      {quick && <QuickPlay panels={panels} film={film} onClose={(at) => { setI(at); setQuick(false); }} />}
       <div className="panel-tools" hidden={quick}>
         {canQuick && (
           <button type="button" className="quick-start" onClick={() => setQuick(true)}>
-            ▶ 30 秒看完
+            {film ? '▶ 看短片' : '▶ 30 秒看完'}
           </button>
         )}
         <button

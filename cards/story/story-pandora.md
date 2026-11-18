@@ -12,13 +12,14 @@ three_lines:
   - 她打開一只大罐子，疾病與苦難從此散布人間，只有「希望」留在罐子裡。
   - 「打開潘朵拉的盒子」指引發一連串無法收拾的麻煩；但古希臘原文其實是罐子，不是盒子。
 hook: 潘朵拉：被當成禮物送給人類的懲罰，打開的其實是一個罐子。
+film: videos/ai/story-pandora/film-pandora.mp4
 panels:
-  - {image: img-ai-pandora-1, video: videos/ai/story-pandora/vid-ai-pandora-1.mp4, short: 人類得到了火，宙斯決定回一份「禮物」, text: 普羅米修斯偷了天火送給人類。宙斯大怒：「我也要送人類一份禮物，讓他們一邊歡喜、一邊擁抱自己的災難。」, src: [s2]}
-  - {image: img-ai-pandora-2, video: videos/ai/story-pandora/vid-ai-pandora-2.mp4, short: 眾神合力，造出第一個女人, text: 赫菲斯托斯用土和水捏出一個少女；雅典娜教她織布，阿芙蘿黛蒂給她魅力，荷米斯給她一顆「狡猾而無恥的心」。, src: [s2]}
-  - {image: img-ai-pandora-3, video: videos/ai/story-pandora/vid-ai-pandora-3.mp4, short: 人人送了禮，所以她叫潘朵拉, text: 眾神人人送了禮，所以她叫潘朵拉：「所有的禮物」。荷米斯把她帶到普羅米修斯的弟弟厄庇米修斯家。, src: [s2]}
-  - {image: img-ai-pandora-4, video: videos/ai/story-pandora/vid-ai-pandora-4.mp4, short: 弟弟忘了警告：別收宙斯的禮物, text: 普羅米修斯早就警告過弟弟：別收宙斯的任何禮物。厄庇米修斯還是收下了，等災難上門才明白。, src: [s2]}
-  - {image: img-ai-pandora-5, video: videos/ai/story-pandora/vid-ai-pandora-5.mp4, short: 大罐子一掀開，災禍飛向人間, text: 潘朵拉掀開一只大罐子的蓋子，疾病、勞苦與各種不幸飛散到人間，從此人類不再過著沒有煩惱的日子。, src: [s2]}
-  - {image: img-ai-pandora-6, video: videos/ai/story-pandora/vid-ai-pandora-6.mp4, short: 蓋子蓋回去，罐裡只剩「希望」, text: 在宙斯的安排下，她及時蓋上蓋子，只有「希望」還留在罐口下面，沒有飛出去。, src: [s2]}
+  - {image: img-ai-pandora-1, short: 人類得到了火，宙斯決定回一份「禮物」, text: 普羅米修斯偷了天火送給人類。宙斯大怒：「我也要送人類一份禮物，讓他們一邊歡喜、一邊擁抱自己的災難。」, src: [s2]}
+  - {image: img-ai-pandora-2, short: 眾神合力，造出第一個女人, text: 赫菲斯托斯用土和水捏出一個少女；雅典娜教她織布，阿芙蘿黛蒂給她魅力，荷米斯給她一顆「狡猾而無恥的心」。, src: [s2]}
+  - {image: img-ai-pandora-3, short: 人人送了禮，所以她叫潘朵拉, text: 眾神人人送了禮，所以她叫潘朵拉：「所有的禮物」。荷米斯把她帶到普羅米修斯的弟弟厄庇米修斯家。, src: [s2]}
+  - {image: img-ai-pandora-4, short: 弟弟忘了警告：別收宙斯的禮物, text: 普羅米修斯早就警告過弟弟：別收宙斯的任何禮物。厄庇米修斯還是收下了，等災難上門才明白。, src: [s2]}
+  - {image: img-ai-pandora-5, short: 大罐子一掀開，災禍飛向人間, text: 潘朵拉掀開一只大罐子的蓋子，疾病、勞苦與各種不幸飛散到人間，從此人類不再過著沒有煩惱的日子。, src: [s2]}
+  - {image: img-ai-pandora-6, short: 蓋子蓋回去，罐裡只剩「希望」, text: 在宙斯的安排下，她及時蓋上蓋子，只有「希望」還留在罐口下面，沒有飛出去。, src: [s2]}
 sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》570–612, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
   - {id: s2, kind: ancient, cite: 赫西俄德《工作與時日》42–105, url: 'https://www.theoi.com/Text/HesiodWorksDays.html'}

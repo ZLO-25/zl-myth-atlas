@@ -578,6 +578,7 @@ pre.ascii { background: var(--surface); border: 1px solid var(--line); padding: 
 @keyframes qp-fade { from { opacity: 0; } to { opacity: 1; } }
 .qp-cap, .qp-end, .qp-paused { z-index: 2; }
 .qp-ctl { flex-wrap: wrap; }
+.qp-bar-film span { transition: width 0.25s linear; }
 
 /* 點圖放大（燈箱） */
 .fig-zoom { all: unset; position: relative; display: flex; justify-content: center; cursor: zoom-in; width: 100%; }
