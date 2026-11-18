@@ -185,7 +185,7 @@ export function CardPage({ id }: { id: string }) {
           <p className="muted small">讀完故事再看圖：每張圖下面的「看這張圖」會告訴你畫家抓的是哪一刻。</p>
           <div className="gallery-grid">
             {works.map((im) => (
-              <Figure key={im} id={im} />
+              <Figure key={im} id={im} group={works} />
             ))}
           </div>
           {c.few_images && <p className="note">{c.few_images}</p>}

@@ -4,6 +4,7 @@ import { avatarOf, cardById, imageById, imgSrc, stripLinks } from '../lib/data';
 import { href } from '../lib/router';
 import { cardNames, enOrig } from '../lib/names';
 import { SYSTEMS, type Sys } from '../lib/systems';
+import { openLightbox } from './Lightbox';
 
 /** 卡片連結：滑過（或手機點一下旁邊的小圓點）浮出小卡。
  *  沒給 children 時顯示完整名稱「宙斯 Zeus（Ζεύς）」；正文裡的連結（有 children）維持原字，免得打斷閱讀。 */
@@ -117,14 +118,24 @@ export function Markdown({ text, cardId }: { text: string; cardId?: string }) {
   );
 }
 
-/** 一張圖＋署名＋「看這張圖」。AI 插畫固定在角落標「AI 插畫」 */
-export function Figure({ id, compact }: { id: string; compact?: boolean }) {
+/** 一張圖＋署名＋「看這張圖」。AI 插畫固定在角落標「AI 插畫」。
+ *  點圖會打開燈箱放大；給 group（同一區的所有圖）時，燈箱裡可以左右切換。 */
+export function Figure({ id, compact, group }: { id: string; compact?: boolean; group?: string[] }) {
   const im = imageById.get(id);
   if (!im) return null;
   return (
     <figure className={`fig ${im.kind === 'ai' ? 'fig-ai' : 'fig-work'}`}>
       <div className="fig-img">
-        <img src={imgSrc(im)} alt={im.title} loading="lazy" />
+        <button
+          type="button"
+          className="fig-zoom"
+          onClick={() => openLightbox(group?.includes(id) ? group : [id], group?.includes(id) ? group.indexOf(id) : 0)}
+          aria-label={`放大看：${im.title}`}
+          title="點一下放大看"
+        >
+          <img src={imgSrc(im)} alt={im.title} loading="lazy" />
+          <span className="zoom-hint" aria-hidden="true">⤢ 放大</span>
+        </button>
         {im.kind === 'ai' && <span className="ai-badge">AI 插畫</span>}
         {im.kind === 'work' && im.period && <span className="period-badge">{im.period === 'ancient' ? '古代作品' : '後世名作'}</span>}
       </div>

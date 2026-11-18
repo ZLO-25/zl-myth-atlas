@@ -5,6 +5,7 @@ import { MapPage } from './pages/MapPage';
 import { Overview } from './pages/Overview';
 import { CardList, Compare, Home, TodayPage, TopicPage } from './pages/simple';
 import { Timeline } from './pages/Timeline';
+import { Lightbox } from './components/Lightbox';
 import { href, useRoute } from './lib/router';
 import { search, type Hit } from './lib/search';
 import { setOrigHidden, useOrigHidden } from './lib/prefs';
@@ -84,6 +85,7 @@ export default function App() {
           。
         </p>
       </footer>
+      <Lightbox />
     </>
   );
 }
