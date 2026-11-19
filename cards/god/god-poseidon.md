@@ -46,6 +46,7 @@ sources:
   - {id: s13, kind: ancient, cite: 《荷馬詩體頌歌》第 22 首〈致波賽頓〉, url: 'https://www.theoi.com/Text/HomericHymns3.html'}
   - {id: s14, kind: ancient, cite: 品達《奧林匹亞頌》13.63–92 與《地峽頌》7.44（引自 Theoi 條目）, url: 'https://www.theoi.com/Ther/HippossPegasos.html'}
   - {id: s15, kind: ancient, cite: 赫西俄德《女子名錄》殘篇 7（引自 Theoi 條目）, url: 'https://www.theoi.com/Ther/HippossPegasos.html'}
+  - {id: s16, kind: ancient, cite: 柏拉圖《克里提亞斯篇》113c–114a（亞特蘭提斯分給波賽頓）, url: 'https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0180:text=Critias:section=113c'}
 greek_vs_roman:
   text: 羅馬的尼普頓原本是管「淡水」的神，後來才和希臘海神波賽頓畫上等號。羅馬人不像希臘人那樣靠海維生，所以尼普頓的地位遠不如波賽頓。他的節日在 7 月 23 日盛夏，人們祈求的是別缺水。
   src: [s9]
@@ -99,3 +100,5 @@ topics: [戰爭, 神的嫉妒]
 ## 後來怎麼變
 
 波賽頓最早是什麼神？辭典說他可能是前希臘時期的水神，本來代表水滋養土地的力量，後來才成為海神；希羅多德則說他的名字與崇拜來自利比亞，但辭典認為這個說法不一定可信。[s10] 他的崇拜遍及全希臘與南義大利，特別是在伯羅奔尼撒與愛奧尼亞海岸城市；科林斯地峽有為他舉行的賽馬與戰車賽，愛奧尼亞人還在米卡列為他辦「泛愛奧尼亞節」。[s10]
+
+柏拉圖在《蒂邁歐篇》和《克里提亞斯篇》講了亞特蘭提斯的故事，說波賽頓分到這座島，是它的守護神。[s16] 不過這是柏拉圖為了講道理而編的寓言，不是古老的神話。
