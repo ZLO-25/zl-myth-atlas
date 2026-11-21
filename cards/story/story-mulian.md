@@ -14,7 +14,7 @@ three_lines:
 hook: 目連救母：七月十五這天，為什麼要供養僧人、祭拜祖先。
 panels:
   - {image: img-ai-mulian-1, text: 目連得了神通，用道眼看見亡母生在餓鬼中，皮包骨頭。, src: [s1]}
-  - {text: 他用缽盛飯送給母親，飯一入口就變成火炭。, src: [s1]}
+  - {image: img-ai-mulian-2, text: 他用缽盛飯送給母親，飯一入口就變成火炭。, src: [s1]}
   - {image: img-ai-mulian-3, text: 佛說：要在七月十五日僧人自恣之日，用百味飯食供養十方眾僧，才能救七世父母。, src: [s1]}
   - {image: img-ai-mulian-4, text: 唐五代的變文裡，母親叫青提夫人，目連一層一層地獄去找她，母親最後在佛前罪滅。, src: [s2]}
   - {image: img-ai-mulian-5, text: 北宋東京，七月十五前後有賣盂蘭盆，也從七夕開始演「目連救母」雜劇。, src: [s3]}

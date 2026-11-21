@@ -18,7 +18,7 @@ panels:
   - {image: img-ai-heracles-labours-3, short: 活捉與清掃, text: 金角鹿與野豬都要活捉，他追鹿追了一年，把野豬趕進深雪；奧革阿斯的牛棚則靠引來兩條河，一天沖乾淨。, src: [s1]}
   - {image: img-ai-heracles-labours-4, short: 鳥、牛、馬, text: 斯廷法利斯湖的怪鳥被青銅響板嚇飛後射下；克里特的公牛他抓住後放走；狄俄墨得斯的食人母馬被趕到海邊。, src: [s1]}
   - {image: img-ai-heracles-labours-5, short: 腰帶、牛群、金蘋果, text: 亞馬遜女王希波呂忒的腰帶、革律翁的牛群和赫斯珀里得斯的金蘋果，是離開希臘最遠的三項；他替阿特拉斯扛天，讓他去摘蘋果。, src: [s1]}
-  - {short: 最後一項下到冥界, text: 他從泰納隆下到冥界，冥王准他不用武器抓走看門犬，他抓住牠，直到牠屈服，帶給歐律斯透斯看了又送回去。, src: [s1]}
+  - {image: img-ai-heracles-labours-6, short: 最後一項下到冥界, text: 他從泰納隆下到冥界，冥王准他不用武器抓走看門犬，他抓住牠，直到牠屈服，帶給歐律斯透斯看了又送回去。, src: [s1]}
 sources:
   - {id: s1, kind: ancient, cite: 阿波羅多洛斯《書庫》2.5.1–2.5.12, url: 'https://www.theoi.com/Text/Apollodorus2.html'}
   - {id: s2, kind: ancient, cite: 帕烏薩尼亞斯《希臘志》5.10.9（奧林匹亞宙斯神廟的雕刻）, url: 'https://www.theoi.com/Text/Pausanias5A.html'}
