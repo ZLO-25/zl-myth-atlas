@@ -13,11 +13,11 @@ three_lines:
   - 這個故事一路從「守禮的妻子」，長成「哭倒長城的孟姜女」。
 hook: 孟姜女：從春秋的守禮寡婦，一步步變成哭倒長城的傳說。
 panels:
-  - {text: 春秋時，齊莊公攻莒，杞梁戰死。莊公在郊外遇到他的妻子，派人弔唁。, src: [s1]}
-  - {text: 杞梁妻說：丈夫若有罪，國君何必弔；若無罪，我家有舊屋，不在郊外受弔。, src: [s1, s2]}
-  - {text: 西漢劉向《列女傳》說她到城下哭夫，十天後，城牆崩塌，她投淄水而死。, src: [s3]}
-  - {text: 東漢王充說「哭倒城牆」只是傳書的說法，他認為城牆不可能因此崩塌。, src: [s4]}
-  - {text: 唐代敦煌變文寫姜女在長城下咬指滴血，認出丈夫的骸骨，丈夫是被秦朝抓去築長城的人。, src: [s5]}
+  - {image: img-ai-mengjiangnu-1, text: 春秋時，齊莊公攻莒，杞梁戰死。莊公在郊外遇到他的妻子，派人弔唁。, src: [s1]}
+  - {image: img-ai-mengjiangnu-2, text: 杞梁妻說：丈夫若有罪，國君何必弔；若無罪，我家有舊屋，不在郊外受弔。, src: [s1, s2]}
+  - {image: img-ai-mengjiangnu-3, text: 西漢劉向《列女傳》說她到城下哭夫，十天後，城牆崩塌，她投淄水而死。, src: [s3]}
+  - {image: img-ai-mengjiangnu-4, text: 東漢王充說「哭倒城牆」只是傳書的說法，他認為城牆不可能因此崩塌。, src: [s4]}
+  - {image: img-ai-mengjiangnu-5, text: 唐代敦煌變文寫姜女在長城下咬指滴血，認出丈夫的骸骨，丈夫是被秦朝抓去築長城的人。, src: [s5]}
 sources:
   - {id: s1, kind: ancient, cite: 《春秋左傳》襄公二十三年（春秋）（引自《春秋左傳事類始末》卷三）, url: 'https://zh.wikisource.org/wiki/春秋左傳事類始末_(四庫全書本)/卷3'}
   - {id: s2, kind: ancient, cite: 《禮記·檀弓下》（曾子的話）, url: 'https://zh.wikisource.org/wiki/禮記/檀弓下'}
