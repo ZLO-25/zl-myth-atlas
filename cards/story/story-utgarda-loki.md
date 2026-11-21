@@ -17,8 +17,8 @@ panels:
   - {image: img-ai-utgarda-loki-2, text: 他們在樹林裡過夜的大廳，其實是巨人斯克里米爾手套的拇指。, src: [s2]}
   - {image: img-ai-utgarda-loki-3, text: 烏特加德的王要他們比賽。洛基比吃肉輸給洛吉，夏爾菲賽跑輸給胡基三次。, src: [s3]}
   - {image: img-ai-utgarda-loki-4, text: 索爾三口喝不乾角杯，只舉得起灰貓的一隻腳，又被老太太埃利壓到跪下一膝。, src: [s3]}
-  - {text: 第二天，王說出真相：全是幻象。野火、思想、大海、大蛇、老年。, src: [s4]}
-  - {text: 索爾舉起錘子，王和城堡卻憑空消失，只剩一片平原。, src: [s4]}
+  - {image: img-ai-utgarda-loki-5, text: 第二天，王說出真相：全是幻象。野火、思想、大海、大蛇、老年。, src: [s4]}
+  - {image: img-ai-utgarda-loki-6, text: 索爾舉起錘子，王和城堡卻憑空消失，只剩一片平原。, src: [s4]}
 few_images: 這張卡還沒有收錄圖片。
 sources:
   - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 44 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning41-50.htm'}

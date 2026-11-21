@@ -13,12 +13,12 @@ three_lines:
   - 「干將」「莫邪」後來成了名劍的代稱，故事也常被改編成小說與戲劇。
 hook: 干將莫邪：劍鑄成了，鑄劍人卻沒回來；兒子帶著劍和頭去報仇。
 panels:
-  - {text: 干將和妻子莫邪替吳王造劍，爐裡的金鐵怎麼都不熔化。, src: [s2]}
-  - {text: 莫邪把頭髮、指甲投入爐中，又叫童男童女三百人鼓風裝炭，劍才煉成，陽劍叫干將，陰劍叫莫耶。, src: [s2]}
-  - {text: 《搜神記》版本：楚王嫌劍造了三年，要殺鑄劍人；干將預先留下雄劍，囑咐妻子告訴兒子「劍在松背」。, src: [s1]}
-  - {text: 兒子「赤」長大後從堂前松柱下的石頭裡找到劍，決心報仇。, src: [s1]}
-  - {text: 楚王夢見眉間寬一尺的少年要報仇，重金懸賞。赤逃進山裡，答應客人，自刎獻上頭和劍。, src: [s1]}
-  - {text: 王的湯鍋裡，頭三天不爛，客人用劍斬下王頭，也自斬己頭。三頭同煮，合葬為「三王墓」。, src: [s1]}
+  - {image: img-ai-ganjiang-moye-1, text: 干將和妻子莫邪替吳王造劍，爐裡的金鐵怎麼都不熔化。, src: [s2]}
+  - {image: img-ai-ganjiang-moye-2, text: 莫邪把頭髮、指甲投入爐中，又叫童男童女三百人鼓風裝炭，劍才煉成，陽劍叫干將，陰劍叫莫耶。, src: [s2]}
+  - {image: img-ai-ganjiang-moye-3, text: 《搜神記》版本：楚王嫌劍造了三年，要殺鑄劍人；干將預先留下雄劍，囑咐妻子告訴兒子「劍在松背」。, src: [s1]}
+  - {image: img-ai-ganjiang-moye-4, text: 兒子「赤」長大後從堂前松柱下的石頭裡找到劍，決心報仇。, src: [s1]}
+  - {image: img-ai-ganjiang-moye-5, text: 楚王夢見眉間寬一尺的少年要報仇，重金懸賞。赤逃進山裡，答應客人，自刎獻上頭和劍。, src: [s1]}
+  - {image: img-ai-ganjiang-moye-6, text: 王的湯鍋裡，頭三天不爛，客人用劍斬下王頭，也自斬己頭。三頭同煮，合葬為「三王墓」。, src: [s1]}
 sources:
   - {id: s1, kind: ancient, cite: 干寶《搜神記》卷十一（東晉）, url: 'https://zh.wikisource.org/wiki/搜神記/第11卷'}
   - {id: s2, kind: ancient, cite: 趙曄《吳越春秋·闔閭內傳》（東漢）, url: 'https://zh.wikisource.org/wiki/吳越春秋/闔閭內傳'}

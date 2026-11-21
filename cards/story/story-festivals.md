@@ -13,11 +13,11 @@ three_lines:
   - 同一個節日常有好幾種說法，這裡並列，不選一個當定論。
 hook: 節日背後的故事，大多是後來加上去的；要看是哪一本書說的。
 panels:
-  - {text: 過年：古書有桃板、爆竹與門神，但「年獸」查無古代出處。, src: [s1]}
-  - {text: 清明前的寒食，古書說是為了紀念被火焚的介子推。, src: [s1, s3]}
-  - {text: 端午：屈原說最流行，另有伍子胥、曹娥等說法並列。, src: [s1, s2, s6]}
-  - {text: 七夕與中元，一個連到牛郎織女，一個連到目連救母。, src: [s1, s2, s4]}
-  - {text: 重陽有桓景登高避災的故事，冬至有共工氏不才子的故事。, src: [s1, s2]}
+  - {image: img-ai-festivals-1, text: 過年：古書有桃板、爆竹與門神，但「年獸」查無古代出處。, src: [s1]}
+  - {image: img-ai-festivals-2, text: 清明前的寒食，古書說是為了紀念被火焚的介子推。, src: [s1, s3]}
+  - {image: img-ai-festivals-3, text: 端午：屈原說最流行，另有伍子胥、曹娥等說法並列。, src: [s1, s2, s6]}
+  - {image: img-ai-festivals-4, text: 七夕與中元，一個連到牛郎織女，一個連到目連救母。, src: [s1, s2, s4]}
+  - {image: img-ai-festivals-5, text: 重陽有桓景登高避災的故事，冬至有共工氏不才子的故事。, src: [s1, s2]}
 disputed:
   - claim: 端午節是紀念誰
     views:

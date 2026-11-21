@@ -13,11 +13,11 @@ three_lines:
   - 「七仙女」「天仙配」不見於這兩份古書，是後來才有的稱呼，目前查不到可核對的古代出處。
 hook: 董永遇仙：因為孝順，天上的織女下凡幫他還債。
 panels:
-  - {text: 漢代的董永，少年時就失去一位雙親，與父親種田；父親死後沒錢辦喪事，他把自己賣為奴。, src: [s1]}
-  - {text: 主人知道他賢孝，給他一萬錢，讓他先走；三年喪畢，他要回去做奴。, src: [s1]}
-  - {text: 路上有一位婦人說「願為子妻」，與他同行，幫主人家織了一百匹絹，十天織完。, src: [s1]}
-  - {text: 她說自己是「天之織女」，因為他至孝，天帝派她來幫忙還債；說完就凌空而去。, src: [s1]}
-  - {text: 唐五代變文又寫兒子董仲長大，到處找母親，找到孫賓先生那裡。, src: [s2]}
+  - {image: img-ai-dong-yong-1, text: 漢代的董永，少年時就失去一位雙親，與父親種田；父親死後沒錢辦喪事，他把自己賣為奴。, src: [s1]}
+  - {image: img-ai-dong-yong-2, text: 主人知道他賢孝，給他一萬錢，讓他先走；三年喪畢，他要回去做奴。, src: [s1]}
+  - {image: img-ai-dong-yong-3, text: 路上有一位婦人說「願為子妻」，與他同行，幫主人家織了一百匹絹，十天織完。, src: [s1]}
+  - {image: img-ai-dong-yong-4, text: 她說自己是「天之織女」，因為他至孝，天帝派她來幫忙還債；說完就凌空而去。, src: [s1]}
+  - {image: img-ai-dong-yong-5, text: 唐五代變文又寫兒子董仲長大，到處找母親，找到孫賓先生那裡。, src: [s2]}
 sources:
   - {id: s1, kind: ancient, cite: 干寶《搜神記》卷一〈董永〉（東晉）, url: 'https://zh.wikisource.org/wiki/搜神記/第01卷'}
   - {id: s2, kind: ancient, cite: 敦煌寫本〈董永變文〉（唐五代）, url: 'https://zh.wikisource.org/wiki/董永變文'}

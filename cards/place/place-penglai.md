@@ -11,6 +11,7 @@ three_lines:
   - 渤海海上傳說有仙人住的神山，上面有不死之藥，遠看像雲，走近卻沉到水底。
   - 《史記》說是蓬萊、方丈、瀛洲三座，《列子》說是岱輿、員嶠、方壺、瀛洲、蓬萊五座，由巨鼇用頭頂住。
   - 秦始皇派徐福帶童男女入海求仙，是這個傳說最有名的一次「真實行動」。
+images: [img-ai-portrait-penglai]
 hook: 蓬萊：望之如雲，到了卻反居水下，風一吹船就被引走。
 sources:
   - {id: s1, kind: ancient, cite: 司馬遷《史記·封禪書》（西漢）, url: 'https://zh.wikisource.org/wiki/史記/卷028'}
