@@ -112,6 +112,8 @@ export interface ImageItem {
   prompt?: string;
   file?: string; // public/ 底下的路徑
   placeholder?: boolean; // 還沒生圖，用佔位圖
+  // 由 scripts/thumbs.ts 填入
+  thumb?: boolean; // public/images/thumbs/<id>.webp 有縮圖
 }
 
 export const TODAY_CATEGORIES = ['英文單字與成語', '品牌與企業', '天文與太空', '時間', '科學與醫學', '電影、影集、遊戲', '名畫與雕塑', '文學', '台灣生活'] as const;

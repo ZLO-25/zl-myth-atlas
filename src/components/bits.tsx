@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState, type ReactNode } from 'react';
 import type { Card, ImageItem, Source } from '../../scripts/lib/types';
-import { avatarOf, cardById, imageById, imgSrc, stripLinks } from '../lib/data';
+import { avatarOf, cardById, imageById, imgSrc, stripLinks, thumbSrc } from '../lib/data';
 import { href } from '../lib/router';
 import { cardNames, enOrig } from '../lib/names';
 import { SYSTEMS, type Sys } from '../lib/systems';
@@ -32,7 +32,7 @@ export function MiniCard({ c }: { c: Card }) {
   const av = avatarOf(c);
   return (
     <span className="mini-card" role="tooltip">
-      {av && <img src={imgSrc(av)} alt="" loading="lazy" />}
+      {av && <img src={thumbSrc(av)} alt="" loading="lazy" />}
       <span className="mini-body">
         <strong>{c.name_zh}</strong> <span className="muted">{enOrig(cardNames(c))}</span>
         {c.three_lines.map((l, i) => (
