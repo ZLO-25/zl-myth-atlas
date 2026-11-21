@@ -1042,3 +1042,124 @@
   date: 清代
   museum: 館藏編號：國贈031175
 
+
+# 2026-11-21 補的中華神祇作品圖
+- id: img-luoshen-british-copy
+  kind: work
+  commons: "File:The Nymph of the Luo River, a handscroll painting.jpg"
+  title: 〈洛神賦圖〉明代摹本（英國藏本）
+  period: ancient
+  look: 絹本長卷的一段：畫面左邊的海面上，雲霧托著一列車駕和隨從，上方有龍盤旋，四周還有飛鳥，這是洛神出場的隊伍；右邊的岸上站著一群人，是曹植和他的隨從，正遙望著她。這是明代人依傳為顧愷之的〈洛神賦圖〉摹寫的，要認洛神，就找雲霧與龍簇擁的那一列。
+  artist: 佚名（摹顧愷之）
+  date: 明代
+  museum: 英國藏本（來源頁沒有寫館名）
+
+- id: img-luoshen-freer-copy-b
+  kind: work
+  commons: "File:Nymph of the Luo River (formerly attributed to Lu Tanwei).jpg"
+  title: 〈洛神賦圖〉16 世紀摹本（弗利爾藏本 B）
+  period: ancient
+  look: 這一段只用細線勾出輪廓，沒有上色：中間的洛神衣帶飄起，在水岸邊輕輕走過；天上有一隻長著翅膀的神獸飛過，右邊是穿著長袍、戴著高冠的人。畫面沒有顏色，反而容易看清衣帶和水波的線條。
+  artist: 佚名（摹顧愷之）
+  date: 16 世紀
+  museum: 美國華盛頓弗利爾美術館
+
+- id: img-nine-songs-donghuang-met
+  kind: work
+  commons: "File:元 佚名 倣趙孟頫 九歌圖 冊-Nine Songs MET DP375120.jpg"
+  title: 〈九歌圖〉冊：東皇太一
+  period: ancient
+  look: 這是一本畫冊的一頁：右頁是畫，左頁用楷書抄了〈東皇太一〉的歌詞，末行寫著「右東皇太一」。畫面裡，戴著高冠、手裡拿著長條器物的東皇太一站在雲上，旁邊的侍從舉著羽毛做的長柄扇。
+  artist: 佚名（倣趙孟頫）
+  date: 約 14 世紀
+  museum: 紐約大都會藝術博物館
+
+- id: img-nine-songs-dasiming-met
+  kind: work
+  commons: "File:元 佚名 倣趙孟頫 九歌圖 冊-Nine Songs MET DP375124.jpg"
+  title: 〈九歌圖〉冊：大司命
+  period: ancient
+  look: 同一本冊子的另一頁，左頁寫著「右大司命」和歌詞。畫面裡，頭髮豎起、張口露牙的鬼形侍從拿著長杖，站在戴冠、留鬍子的大司命身後，兩人腳下是翻湧的雲浪。九歌每一位神，在這本冊子裡都各占一頁。
+  artist: 佚名（倣趙孟頫）
+  date: 約 14 世紀
+  museum: 紐約大都會藝術博物館
+
+- id: img-hebo-met-nine-songs
+  kind: work
+  commons: "File:元 佚名 倣趙孟頫 九歌圖 冊-Nine Songs MET (J).jpg"
+  title: 〈九歌圖〉冊：河伯
+  period: ancient
+  look: 左頁寫著「右河伯」和〈河伯〉的歌詞，右頁的河伯留著鬍子、頭戴小冠，盤腿坐在一隻大魚的背上，四周是一圈圈的水波。歌詞裡寫他乘著水車、駕著兩條龍，畫家把這位黃河之神畫成「騎魚」的樣子。
+  artist: 佚名（倣趙孟頫）
+  date: 約 14 世紀
+  museum: 紐約大都會藝術博物館
+
+- id: img-xiang-ladies-wen-zhengming
+  kind: work
+  commons: "File:Portrait of the Goddess and the Lady of the Xiang, Wen Zhengming.jpg"
+  title: 〈湘君湘夫人圖〉軸
+  period: ancient
+  look: 一幅很高的立軸：上半部寫的是〈湘君〉〈湘夫人〉兩首詩，下半部留白的底子上只畫了兩位女子。左邊的一位手裡拿著羽毛扇，回頭張望；右邊的一位衣袖飄起，側身站著。這是明代的文徵明畫的，故宮說他是用古代顧愷之那種細線畫法，所以兩人衣帶柔細飄動。
+  artist: 文徵明
+  date: 1517 年
+  museum: 北京故宮博物院
+
+- id: img-xiang-jun-met
+  kind: work
+  commons: "File:元 佚名 倣趙孟頫 九歌圖 冊-Nine Songs MET DP375122.jpg"
+  title: 〈九歌圖〉冊：湘君
+  period: ancient
+  look: 左頁寫著〈湘君〉的歌詞和「右湘君」。右頁的湘君梳著雙髻，一手舉著一枝花草，腳下是水波和浪花，衣帶長長地垂向水面。（同一冊裡也有湘夫人那一頁，兩位女神各占一頁。）
+  artist: 佚名（倣趙孟頫）
+  date: 約 14 世紀
+  museum: 紐約大都會藝術博物館
+
+- id: img-zhongkui-ashmolean-bats
+  kind: work
+  commons: "File:Zhong Kui the Demon Queller with Five Bats.jpg"
+  title: 〈鍾馗與五蝠〉
+  period: ancient
+  look: 鍾馗抬頭望著天上飛的蝙蝠，一手拿著笏板，身上穿著官袍；背後跟著兩個小鬼，其中一個捧著紅珊瑚。「蝠」和「福」同音，所以五隻蝙蝠是「五福臨門」的意思。這張傳為吳偉的畫，牛津大學阿什莫林博物館認為其實是明代無名畫家的作品。
+  artist: 佚名（傳吳偉）
+  date: 16–17 世紀
+  museum: 英國牛津阿什莫林博物館
+
+- id: img-zhongkui-gongkai-excursion
+  kind: work
+  commons: "File:Gong Kai-Zhong Kui Traveling.jpg"
+  title: 〈中山出遊圖〉
+  period: ancient
+  look: 一長串的出遊隊伍：右邊坐在肩輿上、留著大鬍子的人就是鍾馗；畫家的題記說，這是鍾馗帶著妹妹出遊。前面和後面扛行李、抬轎、舉旗的，全是瘦小的小鬼。龔開把鬼畫得滑稽，鍾馗反而像是被鬼服侍的主人。
+  artist: 龔開
+  date: 13 世紀末至 14 世紀初
+  museum: 美國華盛頓弗利爾美術館
+
+- id: img-yanluo-lu-xinzhong
+  kind: work
+  commons: "File:五七閻羅大王.jpg"
+  title: 〈十王圖〉：五七閻羅大王
+  period: ancient
+  look: 畫面右上方的畫軸題著「五七閻羅大王」。閻羅王戴著冠、穿黑袍，坐在鋪紅布的大案後面；左邊穿紅袍的官員拿著簿冊念罪狀，下方有牛頭、鬼卒和跪著受審的人。他看起來像一位坐堂審案的官，不是吐舌頭的怪物。
+  artist: 陸信忠
+  date: 南宋至元代
+  museum: 日本奈良國立博物館
+
+- id: img-yanluo-ming-stoneware
+  kind: work
+  commons: "File:Yanluo (Yama), King of Hell, China, Shanxi Province, Ming dynasty, 1523 AD, glazed stoneware - Royal Ontario Museum - DSC03675.JPG"
+  title: 閻羅王像（山西，三彩釉陶）
+  period: ancient
+  look: 這是一尊明代的彩色釉陶像：閻羅王瞪大眼睛、露出牙齒，頭髮像火焰一樣豎起，身穿綠色與黃褐色的衣服，單腿屈起，一副要發怒的樣子。展場標示說這是閻羅王，出自山西，年代是 1523 年。比起畫裡坐堂的官，這裡把他塑成兇猛的武神。
+  artist: 佚名（山西工匠）
+  date: 1523 年
+  museum: 加拿大多倫多皇家安大略博物館
+
+- id: img-houji-npm-album
+  kind: work
+  commons: "File:歷代聖賢半身像 冊 后稷 (Houji).png"
+  title: 〈歷代聖賢半身像〉冊：后稷
+  period: ancient
+  look: 畫冊中的一頁：深色絹底上只畫了后稷的上半身，包著頭巾、留著小鬍子，穿著素色的長衫。右上方的小字寫著后稷教人民耕種、播下各種穀物的事蹟。他畫成一位平凡的老師，沒有神怪的樣子。
+  artist: 不詳
+  date: 不詳
+  museum: 臺北國立故宮博物院
