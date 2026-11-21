@@ -4,5 +4,3 @@
 # 工作單：grok-prompts-expand-2026-11-16.txt
 images:
   # ===== 2026-11-16 新增卡片插畫提示詞（工作單：grok-prompts-expand-2026-11-16.txt）=====
-  - {id: img-ai-heracles-labours-6, card: story-heracles-labours, title: 海克力斯的十二項任務・第6格, characters: [heracles, hades], scene: "Heracles walks out of the underworld gate leading the three-headed Cerberus on a chain, Hades watching from the shadows; cold blue light."}
-  - {id: img-ai-mulian-2, card: story-mulian, system: chinese, style: chinese_later, title: 目連救母・第2格, characters: [], scene: "A monk kneels offering a bowl of rice to a gaunt hungry ghost; as the rice reaches her mouth it turns into glowing coals."}
