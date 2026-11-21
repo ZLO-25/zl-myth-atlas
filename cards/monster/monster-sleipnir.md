@@ -17,6 +17,7 @@ domains:
   symbols: [八隻腳, 灰色的毛]
 how_to_recognize: 故事裡的特徵：灰色、有八隻腳的馬。World History Encyclopedia 說，維京時代的畫像石上有奧丁騎斯雷普尼爾的圖像。
 how_to_recognize_src: [s2, s3]
+images: [img-ai-portrait-sleipnir]
 few_images: 這張卡還沒有收錄圖片。
 family:
   parents:
