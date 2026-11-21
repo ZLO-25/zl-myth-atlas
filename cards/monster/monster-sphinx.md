@@ -34,6 +34,7 @@ sources:
   - {id: s6, kind: modern, cite: Theoi Project「Sphinx」（含《希臘羅馬傳記神話辭典》條目）, url: 'https://www.theoi.com/Ther/Sphinx.html', accessed: '2026-11-16'}
 effects:
   - {id: story-oedipus, rel: 促成, why: 伊底帕斯解開謎語，得到底比斯王位與王后，故事由此走向悲劇。, src: [s3]}
+today: [sphinx-word]
 era: heroes
 topics: [怪物, 宿命, 智慧與詭計]
 ---

@@ -26,6 +26,7 @@ sources:
   - {id: s4, kind: ancient, cite: 《詩體埃達》〈法夫尼爾之歌〉第 12–13 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
   - {id: s5, kind: ancient, cite: 《詩體埃達》〈瓦夫蘇魯特尼爾之歌〉第 49 節與〈女先知的預言〉第 8、31 節註解（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
   - {id: s6, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 36 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning31-40.htm'}
+today: [weird-word]
 era: no-world
 topics: [宿命, 預言]
 ---

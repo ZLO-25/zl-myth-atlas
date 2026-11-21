@@ -35,6 +35,7 @@ causes:
   - {id: monster-medusa, rel: 背景, why: 飛馬佩加索斯是從被斬首的梅杜莎頸中生出的。, src: [s4]}
 effects:
   - {id: god-athena, rel: 回應, why: 雅典娜在夢中給他金轡頭，才能馴服飛馬。, src: [s3]}
+today: [mobil-pegasus]
 era: heroes
 topics: [冒險與試煉, 傲慢與懲罰, 怪物]
 ---

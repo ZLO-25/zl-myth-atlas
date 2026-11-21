@@ -26,6 +26,7 @@ sources:
   - {id: s2, kind: ancient, cite: 《三教源流搜神大全》卷一「三元大帝」, url: 'https://zh.wikisource.org/wiki/三教源流搜神大全/卷一'}
   - {id: s3, kind: ancient, cite: 吳自牧《夢粱錄》卷一、卷四、卷六（南宋）, url: 'https://zh.wikisource.org/wiki/夢粱錄/卷04'}
   - {id: s4, kind: modern, cite: 大英百科「Sanguan」, url: 'https://www.britannica.com/topic/Sanguan', accessed: '2026-11-16'}
+today: [keelung-zhongyuan-festival]
 era: cn-immortals
 topics: [民間信仰, 節日與習俗]
 ---

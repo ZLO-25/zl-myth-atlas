@@ -25,6 +25,7 @@ sources:
   - {id: s4, kind: ancient, cite: 趙翼《陔餘叢考》卷三十五「文昌神」（清）, url: 'https://zh.wikisource.org/wiki/陔餘叢考/35'}
   - {id: s5, kind: ancient, cite: 吳自牧《夢粱錄》卷十九（南宋）, url: 'https://zh.wikisource.org/wiki/夢粱錄/卷19'}
   - {id: s6, kind: modern, cite: 大英百科「Wendi」, url: 'https://www.britannica.com/topic/Wendi-Chinese-deity', accessed: '2026-11-16'}
+today: [wenchang-exam-prayer]
 era: cn-immortals
 topics: [民間信仰, 日月星辰]
 ---

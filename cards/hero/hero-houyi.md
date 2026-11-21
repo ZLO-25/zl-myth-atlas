@@ -27,6 +27,7 @@ sources:
   - {id: s6, kind: ancient, cite: 《山海經·海內經》（先秦至漢，作者不詳）, url: 'https://zh.wikisource.org/wiki/山海經/海內經'}
   - {id: s7, kind: ancient, cite: 《孟子·離婁下》（戰國，孟子及弟子）, url: 'https://zh.wikisource.org/wiki/孟子/離婁下'}
   - {id: s8, kind: ancient, cite: 章沖《春秋左傳事類始末》卷二，引《左傳》襄公四年魏絳之言（南宋）, url: 'https://zh.wikisource.org/wiki/春秋左傳事類始末 (四庫全書本)/卷2'}
+today: [mid-autumn-picture-book]
 era: cn-yaoshun
 topics: [怪物, 日月星辰, 冒險與試煉]
 disputed:

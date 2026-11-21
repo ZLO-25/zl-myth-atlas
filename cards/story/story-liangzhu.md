@@ -22,6 +22,7 @@ sources:
   - {id: s1, kind: ancient, cite: 馮夢龍《喻世明言》第二十八卷〈李秀卿義結黃貞女〉開頭（明代）, url: 'https://zh.wikisource.org/wiki/喻世明言/第28卷'}
   - {id: s2, kind: ancient, cite: 趙翼《陔餘叢考》卷四十二〈女扮為男〉（清代）, url: 'https://zh.wikisource.org/wiki/陔餘叢考/42'}
   - {id: s3, kind: modern, cite: 胡適《國語文學史》第三編（引辛棄疾詞〈祝英台近〉）, url: 'https://zh.wikisource.org/wiki/國語文學史/第三編_兩宋的白話文學', accessed: '2026-11-16'}
+today: [ich-three-legends]
 era: cn-novels
 topics: [小說與戲曲]
 ---

@@ -52,6 +52,7 @@ disputed:
     views:
       - {view: 《禮記·月令》與孔穎達《正義》提到鄭玄的說法：炎帝是大庭氏；陸德明音義則說炎帝就是神農。, src: [s7]}
       - {view: 《國語·魯語上》說烈山氏有天下，韋昭注說「烈山氏，炎帝之號也」。, src: [s2]}
+today: [jingwei-idiom]
 era: cn-yanhuang
 topics: [王權更替, 戰爭, 文化英雄]
 ---

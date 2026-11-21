@@ -25,6 +25,7 @@ sources:
   - {id: s4, kind: ancient, cite: 吳自牧《夢粱錄》卷四〈七月十五日〉條（南宋）, url: 'https://zh.wikisource.org/wiki/夢粱錄/卷04'}
   - {id: s5, kind: ancient, cite: 宗懍《荊楚歲時記》（南朝梁）七月十五條, url: 'https://zh.wikisource.org/wiki/荊楚歲時記'}
   - {id: s6, kind: modern, cite: 王重民等編《敦煌變文集》（收〈大目乾連冥間救母變文〉）, url: 'https://zh.wikisource.org/wiki/大目乾連冥間救母變文', accessed: '2026-11-16'}
+today: [keelung-zhongyuan-festival]
 era: cn-novels
 topics: [節日與習俗, 民間信仰, 小說與戲曲]
 ---

@@ -37,6 +37,7 @@ sources:
   - {id: s7, kind: ancient, cite: 普魯塔克《希臘羅馬名人傳・科利奧蘭納斯》3, url: 'https://www.gutenberg.org/ebooks/14033'}
 causes:
   - {id: god-zeus, rel: 背景, why: 宙斯化成天鵝與麗達結合，生下波魯克斯與海倫。, src: [s2]}
+today: [pollux-castor-stars]
 era: heroes
 topics: [冒險與試煉, 宿命, 日月星辰]
 ---

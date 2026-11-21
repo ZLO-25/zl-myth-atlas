@@ -34,6 +34,7 @@ causes:
   - {id: hero-heracles, rel: 回應, why: 海克力斯追打半人馬時，毒箭誤傷凱隆，凱隆放棄不死。, src: [s6]}
 effects:
   - {id: hero-achilles, rel: 背景, why: 阿基里斯小時候跟凱隆學習。, src: [s2]}
+today: [chiron-centaurs]
 era: heroes
 topics: [怪物, 傲慢與懲罰, 神的嫉妒]
 ---

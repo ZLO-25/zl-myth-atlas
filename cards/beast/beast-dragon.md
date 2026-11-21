@@ -36,6 +36,7 @@ disputed:
     views:
       - {view: 《左傳》蔡墨說龍是水裡的生物（「龍，水物也」），古時有專門養龍的氏族；《說文》說牠能隱能現、春分升天、秋分入淵。, src: [s5, s6]}
       - {view: 王充認為龍有形體，會行動、會吃東西，並不是真的神；人們說「天取龍」只是附會。, src: [s8]}
+today: [idiom-hualong-dianjing, idiom-yegong-haolong, idiom-longfeng-chengxiang]
 era: cn-world
 topics: [怪物]
 ---

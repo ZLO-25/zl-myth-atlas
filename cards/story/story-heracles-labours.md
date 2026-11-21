@@ -31,6 +31,7 @@ disputed:
       - {view: 大英百科：十二項是後來才排成的一組。, src: [s3]}
 causes:
   - {id: hero-heracles, rel: 直接引發, why: 他發瘋殺子後，神諭要他服侍歐律斯透斯。, src: [s4]}
+today: [augean-word, herculean-word]
 era: heroes
 topics: [冒險與試煉, 怪物, 冥界之旅]
 ---

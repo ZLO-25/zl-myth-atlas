@@ -29,6 +29,7 @@ sources:
   - {id: s4, kind: ancient, cite: 《初學記》卷十三（唐，徐堅等）引《周禮》, url: 'https://zh.wikisource.org/wiki/初學記 (四庫全書本)/卷13'}
   - {id: s5, kind: ancient, cite: 《西遊記》第五回、第七回（明代小說）, url: 'https://zh.wikisource.org/wiki/西遊記/第007回'}
   - {id: s6, kind: modern, cite: 大英百科「Yudi」, url: 'https://www.britannica.com/topic/Yudi', accessed: '2026-11-16'}
+today: [tiangong-birthday-hsinchu]
 era: cn-immortals
 places: [place-kunlun]
 topics: [民間信仰, 小說與戲曲]

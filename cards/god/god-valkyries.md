@@ -27,6 +27,7 @@ sources:
   - {id: s5, kind: ancient, cite: 《詩體埃達》〈法夫尼爾之歌〉第 44 節註解與〈西格德莉法之歌〉第 4 節後的散文（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
   - {id: s6, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 49 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning41-50.htm'}
   - {id: s7, kind: ancient, cite: 《沃爾松格薩迦》（Morris 與 Magnússon 英譯）, url: 'https://www.gutenberg.org/ebooks/1152'}
+today: [valkyrie-word, wagner-die-walkure]
 era: no-world
 topics: [戰爭, 死後世界]
 ---

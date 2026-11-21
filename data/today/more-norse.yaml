@@ -1,0 +1,191 @@
+# 今日影子：北歐神話補充（今天這一邊的來源 2026-11-21 逐一打開確認；神話那一邊只用卡片與來源包已有的內容）
+- id: valhalla-word
+  category: 英文單字與成語
+  title: 英文 Valhalla
+  cards: [place-valhalla]
+  what: 英文 Valhalla 來自古諾斯語 Valhöll，意思是「戰死者的大廳」。詞源字典說，1845 年起英文也用它指「享有極大榮耀的地方」。
+  diff: 詞源字典把神話裡的 Valhalla 說成奧丁接待戰死英雄的大廳。卡片說，不是所有死者都來這裡：芙蕾雅的弗爾克范格分走一半戰死者，病死老死的人歸赫爾。英文裡的「榮耀之地」是後來才有的引申義。
+  status: 已查證
+  sources:
+    - {cite: Online Etymology Dictionary「Valhalla」, url: 'https://www.etymonline.com/word/Valhalla', accessed: '2026-11-21'}
+    - {cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 20、24、36 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning11-20.htm'}
+- id: assassins-creed-valhalla
+  category: 電影、影集、遊戲
+  title: 遊戲《刺客教條：維京紀元》
+  cards: [place-valhalla]
+  what: 育碧的遊戲《刺客教條：維京紀元》（Assassin's Creed Valhalla）官方頁說，玩家扮演維京突襲者艾沃（Eivor），帶領族人從挪威到 9 世紀的英格蘭，目標是贏得榮耀、「在 Valhalla 有一席之地」。
+  diff: 神話裡的 Valhalla 是奧丁的大廳，收的是戰死的戰士，英靈戰士每天打鬥再宴飲。本站沒有查核遊戲的劇情，所以這裡只確認遊戲的名字和官方宣傳用了這個詞，不比較內容。
+  status: 已查證
+  sources:
+    - {cite: 育碧官方遊戲頁《Assassin's Creed Valhalla》, url: 'https://www.ubisoft.com/en-us/game/assassins-creed/valhalla', accessed: '2026-11-21'}
+    - {cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 36、39、41 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning31-40.htm'}
+- id: valkyrie-word
+  category: 英文單字與成語
+  title: 英文 Valkyrie
+  cards: [god-valkyries]
+  what: 英文 Valkyrie 來自古諾斯語 valkyrja，字面是「挑選戰死者的人」。詞源字典說，英文在 1768 年有這個字，德語 Walküre 也是借自北歐語。
+  diff: 在埃達裡，女武神是替奧丁把戰死者帶到英靈殿的女性，也在英靈殿斟酒。〈格里姆尼爾之歌〉和〈女先知的預言〉各列出一串女武神的名字，兩份名單不同。詞源字典只講字的來歷，沒有講這些故事。
+  status: 已查證
+  sources:
+    - {cite: Online Etymology Dictionary「Valkyrie」, url: 'https://www.etymonline.com/word/Valkyrie', accessed: '2026-11-21'}
+    - {cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 36 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning31-40.htm'}
+- id: wagner-die-walkure
+  category: 文學
+  title: 華格納的歌劇《女武神》
+  cards: [god-valkyries]
+  what: 華格納的歌劇《女武神》（Die Walküre）是他的「指環」系列（Ring cycle）四部歌劇之一，大英百科列出的順序是《萊茵的黃金》《女武神》《齊格飛》《諸神的黃昏》。
+  diff: 本站只確認歌劇的名字用了「女武神」這個詞，沒有查核劇情，所以不比較內容。神話這邊，卡片說英雄傳說裡的布倫希爾德被稱為女武神，她違背奧丁的意思，被奧丁用睡眠刺扎得沉睡不醒。
+  status: 已查證
+  sources:
+    - {cite: 大英百科全書「Die Walküre」, url: 'https://www.britannica.com/topic/Die-Walkure', accessed: '2026-11-21'}
+    - {cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 49 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning41-50.htm'}
+    - {cite: 《詩體埃達》〈法夫尼爾之歌〉第 44 節註解與〈西格德莉法之歌〉第 4 節後的散文（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
+- id: saturn-ymir-moon
+  category: 天文與太空
+  title: 土星衛星尤彌爾（Ymir）與貝格爾米爾（Bergelmir）
+  cards: [primordial-ymir, story-norse-creation]
+  what: 土星有兩顆衛星以創世故事的巨人命名。NASA 說，Ymir 是「北歐神話裡第一個活著的存在、霜巨人的始祖」；Bergelmir 則是「和妻子一起逃過尤彌爾血洪水的霜巨人」。兩顆都屬於 NASA 說的「北歐群」，是繞行方向和土星自轉相反的不規則衛星。
+  diff: 這兩個名字在神話裡確實是同一個故事：卡片說，包爾的兒子殺了尤彌爾，血淹死霜巨人，只有貝格爾米爾一家搭「船」（原文是磨坊箱）逃走。NASA 頁面把包爾的兒子寫成「奧丁和他的兄弟」，卡片寫的是「包爾的兒子們」，兩者相符。衛星只是借用名字，和故事沒有別的關係。
+  status: 已查證
+  sources:
+    - {cite: NASA 科學頁「Ymir」, url: 'https://science.nasa.gov/saturn/moons/ymir/', accessed: '2026-11-21'}
+    - {cite: NASA 科學頁「Bergelmir」, url: 'https://science.nasa.gov/saturn/moons/bergelmir/', accessed: '2026-11-21'}
+    - {cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 5–7 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning1-10.htm'}
+- id: saturn-fenrir-moon
+  category: 天文與太空
+  title: 土星衛星芬里爾（Fenrir）
+  cards: [monster-fenrir]
+  what: 土星有一顆衛星叫 Fenrir（原編號 S/2004 S16）。NASA 說，名字來自北歐神話裡的巨狼，牠是洛基和女巨人的孩子，被眾神綁住，諸神黃昏時會掙脫並殺死奧丁。這顆衛星屬於北歐群，繞行方向和土星自轉相反。
+  diff: 卡片寫的是：洛基與女巨人安格爾波達之子，被格萊普尼爾綁住，諸神黃昏時掙脫、吞下奧丁。NASA 頁面的概述大致相符，但沒有提到提爾的手，也沒有提到狼最後怎麼死。衛星只是借用名字。
+  status: 已查證
+  sources:
+    - {cite: NASA 科學頁「Fenrir」, url: 'https://science.nasa.gov/saturn/moons/fenrir/', accessed: '2026-11-21'}
+    - {cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 34、51 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning31-40.htm'}
+- id: saturn-giant-moons
+  category: 天文與太空
+  title: 土星衛星貝絲特拉（Bestla）與埃吉爾（Aegir）
+  cards: [monster-jotnar]
+  what: 土星的北歐群衛星用北歐巨人命名。NASA 說，Bestla 是「巨人女兒、奧丁的母親」；Aegir 是「象徵海洋的巨人」。
+  diff: 這兩個說法和卡片對得上的部分是：奧丁的母親貝絲特拉是巨人的女兒。埃吉爾是巨人，卡片也這麼說，但卡片同時指出，〈詩語法〉把他寫成住在島上的巫師，Bellows 註解則稱他為「海神」，古書對他的身分說法不一。
+  status: 已查證
+  sources:
+    - {cite: NASA 科學頁「Bestla」, url: 'https://science.nasa.gov/saturn/moons/bestla/', accessed: '2026-11-21'}
+    - {cite: NASA 科學頁「Aegir」, url: 'https://science.nasa.gov/saturn/moons/aegir/', accessed: '2026-11-21'}
+    - {cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 6 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning1-10.htm'}
+- id: aegir-ran-exoplanet
+  category: 天文與太空
+  title: 恆星瀾（Ran）與行星埃吉爾（AEgir）
+  cards: [god-aegir]
+  what: 天文學會 IAU 的系外行星命名活動，把天空中的恆星 epsilon Eridani 取名 Ran，它的行星 epsilon Eridani b 取名 AEgir。日本國立天文台公布的最終名單把兩個名字並列。
+  diff: 在神話裡，Aegir 與 Rán 是一對夫妻：埃吉爾替眾神辦酒宴，妻子瀾有一張網專門撈海上的人。這份名單沒有寫命名理由，所以這裡只確認名字的組合，不說明為什麼這樣選。
+  status: 已查證
+  sources:
+    - {cite: 日本國立天文台「Final Results of NameExoWorlds Public Vote Released」, url: 'https://www.nao.ac.jp/en/news/topics/2015/20151218-nameexoworlds.html', accessed: '2026-11-21'}
+    - {cite: 斯諾里《散文埃達》〈詩語法〉第 1 章與第 41 章（Brodeur 英譯）, url: 'https://www.voluspa.org/skaldskaparmal41-50.htm'}
+- id: idunn-mons-venus
+  category: 天文與太空
+  title: 金星的伊登山（Idunn Mons）
+  cards: [god-idun, story-idun-apples]
+  what: 金星上有一座山叫 Idunn Mons。美國地質調查局的行星命名資料庫說，名字的由來是「北歐女神」，國際天文學聯合會 1994 年通過。
+  diff: 資料庫只說她是北歐女神，沒有提蘋果。神話這邊，卡片說伊登保管讓眾神不會變老的蘋果，洛基的詭計害她被巨人夏濟擄走，眾神立刻開始變老。
+  status: 已查證
+  sources:
+    - {cite: 美國地質調查局行星命名資料庫「Idunn Mons」, url: 'https://planetarynames.wr.usgs.gov/Feature/2653', accessed: '2026-11-21'}
+    - {cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 26 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning21-30.htm'}
+    - {cite: 大英百科全書「Idun」, url: 'https://www.britannica.com/topic/Idun', accessed: '2026-11-16'}
+- id: weird-word
+  category: 英文單字與成語
+  title: 英文 weird（怪異）
+  cards: [god-norns]
+  what: 英文 weird 的老祖宗是古英語 wyrd，意思是「命運」。詞源字典說，wyrd 和古諾斯語 urðr（意思是「命運、三位諾恩之一」）出自同一個原始日耳曼語字根。現代「怪異」的意思，是從「weird sisters」（命運三女神）這個說法發展出來的。
+  diff: 在埃達裡，諾恩是掌管命運的女性，〈女先知的預言〉說有三位：烏爾德、薇兒丹蒂、詩寇蒂。烏爾德（Urðr）的名字就是這個字根。weird 後來變成「怪」，是英文自己的演變，神話裡沒有這個意思。
+  status: 已查證
+  sources:
+    - {cite: Online Etymology Dictionary「weird」, url: 'https://www.etymonline.com/word/weird', accessed: '2026-11-21'}
+    - {cite: 《詩體埃達》〈女先知的預言〉第 19–20 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
+    - {cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 15–16 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning11-20.htm'}
+- id: brag-bragi
+  category: 英文單字與成語
+  title: 英文 brag 與布拉基
+  cards: [god-bragi]
+  what: 有人把英文 brag（吹牛）和詩神布拉基連在一起。
+  diff: 詞源字典說，brag 的來源不明；別的資料提出古諾斯語 bragr，意思是「最好的、（某物的）精華」，也有「詩」的意思。條目沒有提到布拉基。卡片寫的是：斯諾里說布拉基最懂得作詩，北歐人把詩叫做 bragr。所以「詩」這個詞和神的名字相近是有根據的，但 brag 是不是來自它，並沒有定論。
+  status: 說法未證實
+  sources:
+    - {cite: Online Etymology Dictionary「brag」, url: 'https://www.etymonline.com/word/brag', accessed: '2026-11-21'}
+    - {cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 26 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning21-30.htm'}
+- id: rune-word
+  category: 英文單字與成語
+  title: 英文 rune（盧恩）
+  cards: [story-odin-runes]
+  what: 英文 rune 來自古英語 run，意思是「祕密、奧祕、神祕的話」，也可以指「盧恩字母」。詞源字典說，它和古諾斯語、古高地德語、哥德語的同源字出自同一個原始日耳曼語字根，也是日耳曼與凱爾特語裡許多魔法用語的來源。
+  diff: 在〈高人的箴言〉裡，奧丁吊在風吹的樹上九夜，被矛刺傷，叫喊著拾起盧恩，然後開始興盛、得到智慧。詞源字典只講字的來歷，沒有講這個故事；字義裡的「祕密」和故事裡「得來不易的知識」很搭，但這是我們的聯想，不是字典的說法。
+  status: 已查證
+  sources:
+    - {cite: Online Etymology Dictionary「rune」, url: 'https://www.etymonline.com/word/rune', accessed: '2026-11-21'}
+    - {cite: 《詩體埃達》〈高人的箴言〉第 139–146 節與 Bellows 註解（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
+- id: bluetooth-logo
+  category: 品牌與企業
+  title: 藍牙（Bluetooth）的標誌
+  cards: [story-odin-runes]
+  what: 藍牙官網說，Bluetooth 標誌是一個「結合字」（bind rune）：把年輕弗薩克（Younger Futhark）裡的兩個盧恩字母 Hagall（ᚼ）與 Bjarkan（ᛒ）疊在一起，它們是哈拉爾國王名字的縮寫。
+  diff: 標誌用的是盧恩字母，字母的主人是國王哈拉爾，和奧丁沒有關係。神話裡的盧恩，是奧丁吊在樹上九夜之後拾起來的文字；這個標誌只是用了同一套字母，故事沒有跟著過來。
+  status: 已查證
+  sources:
+    - {cite: 藍牙技術聯盟官網「Bluetooth Origin」, url: 'https://www.bluetooth.com/about-us/bluetooth-origin/', accessed: '2026-11-21'}
+    - {cite: 《詩體埃達》〈高人的箴言〉第 139–146 節與 Bellows 註解（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
+- id: mead-word
+  category: 英文單字與成語
+  title: 英文 mead（蜂蜜酒）
+  cards: [story-mead-of-poetry]
+  what: 英文 mead 指用蜂蜜和水發酵的烈酒。詞源字典說，它來自古英語 medu，往上追到原始印歐語字根 *medhu-，意思是「蜂蜜、甜的飲料」，希臘語的「酒」也是親戚。
+  diff: 神話裡的「詩之蜜酒」不是普通的蜜酒：卡片說，智者克瓦希爾的血混了蜂蜜，變成喝了就成為詩人或學者的酒，後來被奧丁用計喝光。詞源字典只講字的來歷，沒有提這個故事。
+  status: 已查證
+  sources:
+    - {cite: Online Etymology Dictionary「mead」, url: 'https://www.etymonline.com/word/mead', accessed: '2026-11-21'}
+    - {cite: 斯諾里《散文埃達》〈詩語法〉第 5–6 節（Brodeur 英譯）, url: 'https://www.voluspa.org/skaldskaparmal1-10.htm'}
+- id: asgard-archaea
+  category: 科學與醫學
+  title: 阿斯嘉古菌（Asgard archaea）
+  cards: [god-heimdall, story-baldr-death]
+  what: 一群和真核生物（動物、植物都屬於真核生物）關係很近的微生物，叫阿斯嘉古菌。《科學新聞》說，整個類群「以北歐神話裡眾神的家命名」；其中的洛基古菌取名自「洛基之堡」熱泉，海姆達爾古菌「以北歐眾神的哨兵命名」，Hodarchaeales「以奧丁的盲眼兒子霍德爾命名」。
+  diff: 神話裡的海姆達爾是守在彩虹橋旁的眾神守衛，睡得比鳥少，看得見一百里外；霍德爾則是被洛基引導、用槲寄生射死巴德爾的盲眼神。微生物只是借用名字，和這些故事無關。
+  status: 已查證
+  sources:
+    - {cite: 《科學新聞》「How these strange cells may explain the origin of complex life」, url: 'https://www.sciencenews.org/article/cells-origin-of-life-asgard-archaea', accessed: '2026-11-21'}
+    - {cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 27 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning21-30.htm'}
+    - {cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 49 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning41-50.htm'}
+- id: marvel-heimdall
+  category: 電影、影集、遊戲
+  title: 漫威的海姆達爾
+  cards: [god-heimdall, place-nine-worlds]
+  what: 漫威官方角色頁寫：「海姆達爾掌管彩虹橋（Bifrost），守護九界之間的通道。」
+  diff: 神話裡的海姆達爾也是守在彩虹橋畢弗羅斯特旁的眾神守衛，這一點對得上。但「九界」要小心：〈女先知的預言〉第 2 節只說「九個世界」，沒有列名字；斯諾里也沒有給完整名單，常見的九界名單是後人整理的。漫威的說法是自己的設定。
+  status: 已查證
+  sources:
+    - {cite: 漫威官方角色頁「Heimdall」, url: 'https://www.marvel.com/characters/heimdall', accessed: '2026-11-21'}
+    - {cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 27 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning21-30.htm'}
+    - {cite: 《詩體埃達》〈女先知的預言〉第 2 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
+- id: marvel-sif
+  category: 電影、影集、遊戲
+  title: 漫威的希芙
+  cards: [god-sif]
+  what: 漫威官方角色頁把希芙描述成「阿斯嘉的女神、索爾永遠的戰友，長年在各界擔任戰士」。
+  diff: 卡片說，神話裡的希芙是索爾的妻子，傳統上被畫成留著金色長髮；洛基剪光她的頭髮，後來找矮人做一頭金髮賠給她。她多半只是故事裡的一環，古書沒有把她寫成戰士。
+  status: 已查證
+  sources:
+    - {cite: 漫威官方角色頁「Sif」, url: 'https://www.marvel.com/characters/sif', accessed: '2026-11-21'}
+    - {cite: 斯諾里《散文埃達》〈詩語法〉第 43 章（Brodeur 英譯）, url: 'https://www.voluspa.org/skaldskaparmal41-50.htm'}
+    - {cite: World History Encyclopedia「Sif」, url: 'https://www.worldhistory.org/Sif/', accessed: '2026-11-16'}
+- id: sscv-sleipnir
+  category: 品牌與企業
+  title: 海上起重船「斯雷普尼爾」（Sleipnir）
+  cards: [monster-sleipnir]
+  what: 海事公司 Heerema 有一艘半潛式起重船叫 Sleipnir。海事與能源新聞說，船名取自「北歐神話奧丁的八腳馬」，是同類船裡有史以來最大的一艘。
+  diff: 神話裡的斯雷普尼爾是奧丁的馬，有八隻腳，斯諾里說牠是神和人之中最好的馬；牠是洛基生的小馬，巴德爾死後，赫爾莫德騎著牠下冥界。新聞只提了名字的由來，沒有提這些故事。
+  status: 已查證
+  sources:
+    - {cite: Offshore Energy「Heerema's giant crane vessel set for maiden voyage」, url: 'https://www.offshore-energy.biz/heeremas-giant-crane-vessel-set-for-maiden-voyage/', accessed: '2026-11-21'}
+    - {cite: offshoreWIND.biz「Heerema's Mega Semi-Submersible Crane Vessel All Done」, url: 'https://www.offshorewind.biz/2019/05/27/heeremas-mega-semi-submersible-crane-vessel-all-done', accessed: '2026-11-21'}
+    - {cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 15 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning11-20.htm'}
+    - {cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 42、49 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning41-50.htm'}

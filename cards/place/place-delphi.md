@@ -29,6 +29,7 @@ causes:
   - {id: god-apollo, rel: 背景, why: 阿波羅殺死守護此地的大蛇後，在這裡建立自己的神諭所。, src: [s1, s6]}
 effects:
   - {id: story-oedipus, rel: 促成, why: 伊底帕斯到德爾菲求問身世，聽到殺父娶母的預言，開始逃亡。, src: [s4]}
+today: [delphic-word]
 era: olympian
 topics: [預言, 宿命]
 ---

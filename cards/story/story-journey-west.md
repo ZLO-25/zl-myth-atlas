@@ -25,6 +25,7 @@ sources:
   - {id: s3, kind: ancient, cite: 《楊東來先生批評西游記》雜劇六本（元末明初，楊訥〔景賢〕）, url: 'https://zh.wikisource.org/wiki/楊東來先生批評西游記'}
   - {id: s4, kind: modern, cite: 大英百科「Xuanzang」, url: 'https://www.britannica.com/biography/Xuanzang', accessed: '2026-11-16'}
   - {id: s5, kind: modern, cite: 大英百科「Journey to the West」, url: 'https://www.britannica.com/topic/Journey-to-the-West', accessed: '2026-11-16'}
+today: [wukong-dampe-satellite]
 era: cn-novels
 topics: [小說與戲曲]
 ---

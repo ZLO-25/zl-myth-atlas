@@ -28,6 +28,7 @@ sources:
   - {id: s6, kind: ancient, cite: 《詩體埃達》〈希米爾之歌〉第 8 節與註解、〈女先知的預言〉第 8 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
   - {id: s7, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 42 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning41-50.htm'}
   - {id: s8, kind: ancient, cite: 斯諾里《散文埃達》〈詩語法〉第 24 章（Brodeur 英譯）, url: 'https://www.voluspa.org/skaldskaparmal21-30.htm'}
+today: [saturn-giant-moons]
 era: no-world
 topics: [怪物, 創世]
 ---

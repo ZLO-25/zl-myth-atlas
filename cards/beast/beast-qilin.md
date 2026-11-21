@@ -28,6 +28,7 @@ disputed:
     views:
       - {view: 《明史》只記榜葛剌（孟加拉）在永樂十二年「貢麒麟及名馬方物」，沒有寫牠的外形；皇帝沒有接受大臣上表慶賀。, src: [s7]}
       - {view: 世界歷史百科說，孟加拉國王在1414年送給永樂皇帝一頭長頸鹿，人們認為牠就是麒麟，是皇帝施政正當的吉兆。, src: [s8]}
+today: [idiom-fengmao-linjiao, kirin-beer-qilin]
 era: cn-world
 topics: [怪物, 預言]
 ---

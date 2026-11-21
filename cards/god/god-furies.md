@@ -40,7 +40,7 @@ disputed:
       - {view: 赫西俄德：烏拉諾斯被割下的血落在大地上，大地生下她們與巨人。, src: [s1]}
       - {view: 艾斯奇勒斯：她們是夜神的孩子，自稱「夜神永恆的孩子」。, src: [s2]}
       - {view: 其他作家還有：厄瑞玻斯與夜神、黑帝斯與波瑟芬妮等說法（Theoi 條目列出）。, src: [s6]}
-today: []
+today: [fury-word]
 era: chaos
 topics: [家族詛咒, 傲慢與懲罰]
 ---

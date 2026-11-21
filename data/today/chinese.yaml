@@ -12,7 +12,7 @@
 - id: yutu-rover
   category: 天文與太空
   title: 玉兔號月球車
-  cards: [hero-change, story-change-moon]
+  cards: [hero-change, story-change-moon, story-moon-palace]
   what: 嫦娥系列的月球車叫「玉兔」（Yutu，Jade Rabbit），名字取自傳說中陪著嫦娥住在月亮上的白兔。
   diff: 在傳說裡，玉兔是月宮裡搗藥的兔子；中國古代看月亮表面的陰影，把它想像成兔子。把它拿來命名一台會在月球表面行走的車，是把古人眼中的月影變成真正的月面探索。
   status: 已查證
@@ -32,7 +32,7 @@
 - id: zhurong-rover
   category: 天文與太空
   title: 祝融號火星車與天問一號
-  cards: [god-zhurong]
+  cards: [god-zhurong, hero-gun]
   what: 2021 年 4 月 24 日，中國把第一台火星車命名為「祝融」，是神話中的火神；火星任務本身叫「天問一號」，取自屈原的長詩《天問》。
   diff: 火星在中文裡叫「熒惑」，和「火」有關，所以火神祝融被選去替它開路。《天問》則是兩千多年前詩人對天地、神話發出的一連串問題，用它當任務名，有「向天發問」的意思。神話裡的祝融是處死鯀的火神，現代的祝融號是一台太陽能火星車，兩者只共用名字。
   status: 已查證
@@ -160,7 +160,7 @@
 - id: jingwei-idiom
   category: 英文單字與成語
   title: 精衛填海
-  cards: [hero-jingwei]
+  cards: [hero-jingwei, god-yandi]
   what: 「精衛填海」今天常用來形容意志堅定、不怕艱難。成語出自《山海經·北山經》：炎帝的小女兒女娃在東海淹死，化成精衛鳥，常銜西山的木石丟進東海。
   diff: 《山海經》只寫她銜木石填海；陶淵明〈讀山海經〉才特別稱讚她的「猛志」；南朝《述異記》又加上她與海燕生子、誓不飲東海水等細節。
   status: 已查證

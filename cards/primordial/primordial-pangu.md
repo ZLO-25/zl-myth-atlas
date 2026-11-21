@@ -36,6 +36,7 @@ disputed:
       - {view: 《述異記》引秦漢間俗說：頭為東岳、腹為中岳、左臂南岳、右臂北岳、足為西岳, src: [s6]}
       - {view: 《述異記》引先儒說：泣為江河、氣為風、聲為雷、目瞳為電, src: [s6]}
       - {view: 《述異記》引吳楚間說：盤古氏是夫妻，陰陽之始, src: [s6]}
+today: [idiom-kaitian-pidi]
 era: cn-creation
 topics: [創世]
 ---

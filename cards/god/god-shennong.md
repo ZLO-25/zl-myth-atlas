@@ -27,6 +27,7 @@ sources:
   - {id: s6, kind: ancient, cite: 班固等《白虎通義》卷一（東漢）, url: 'https://zh.wikisource.org/wiki/白虎通/卷01'}
   - {id: s7, kind: ancient, cite: 《淮南子·主術訓》, url: 'https://zh.wikisource.org/wiki/淮南子/主術訓'}
   - {id: s8, kind: ancient, cite: 徐堅等《初學記》卷九（唐）引《帝王世紀》《易》等, url: 'https://zh.wikisource.org/wiki/初學記/卷第九'}
+today: [shennong-taiwan-temples]
 era: cn-sages
 topics: [文化英雄]
 disputed:

@@ -30,6 +30,7 @@ disputed:
     views:
       - {view: 《淮南子·天文訓》、《史記·天官書》寫「朱鳥」。, src: [s1, s4]}
       - {view: 《禮記·曲禮上》現行版本是「前朱鳥而後玄武」，中文維基文庫在「鳥」處註有異文「雀」。, src: [s2]}
+today: [takamatsuzuka-four-symbols]
 era: cn-world
 topics: [日月星辰]
 ---

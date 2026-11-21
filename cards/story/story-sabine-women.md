@@ -26,6 +26,7 @@ sources:
   - {id: s1, kind: ancient, cite: 李維《羅馬史》1.9–1.13, url: 'https://www.gutenberg.org/ebooks/19725'}
   - {id: s2, kind: ancient, cite: 普魯塔克《希臘羅馬名人傳．羅慕路斯傳》14–20, url: 'https://www.gutenberg.org/ebooks/14033'}
   - {id: s3, kind: modern, cite: 大英百科全書「Sabine」, url: 'https://www.britannica.com/topic/Sabine', accessed: '2026-11-16'}
+today: [poussin-sabine-women]
 era: rome
 topics: [羅馬借用希臘, 戰爭, 愛與慾望]
 ---

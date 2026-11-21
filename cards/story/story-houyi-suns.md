@@ -35,6 +35,7 @@ sources:
   - {id: s9, kind: ancient, cite: 王充《論衡·對作篇》（東漢）, url: 'https://zh.wikisource.org/wiki/論衡/84'}
   - {id: s10, kind: ancient, cite: 王逸《楚辭章句·天問》注（東漢）, url: 'https://zh.wikisource.org/wiki/楚辭章句/卷03'}
   - {id: s11, kind: ancient, cite: 《山海經·海內經》（先秦至漢，作者不詳）, url: 'https://zh.wikisource.org/wiki/山海經/海內經'}
+today: [mid-autumn-picture-book]
 era: cn-yaoshun
 topics: [日月星辰, 怪物, 冒險與試煉]
 ---

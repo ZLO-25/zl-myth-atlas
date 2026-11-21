@@ -30,6 +30,7 @@ disputed:
   - claim: 雕像叫什麼名字？
     views:
       - {view: 奧維德只稱她為雕像、「象牙少女」，沒有給她名字。, src: [s1]}
+today: [pygmalion-effect, shaw-pygmalion]
 era: olympian
 topics: [愛與慾望, 變形, 羅馬借用希臘]
 ---

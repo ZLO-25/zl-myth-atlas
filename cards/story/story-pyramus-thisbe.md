@@ -22,6 +22,7 @@ panels:
 sources:
   - {id: s1, kind: ancient, cite: 奧維德《變形記》4.55–166, url: 'https://www.theoi.com/Text/OvidMetamorphoses4.html'}
   - {id: s2, kind: modern, cite: 福爾傑莎士比亞圖書館 Folgerpedia「A Midsummer Night's Dream」, url: 'https://folgerpedia.folger.edu/A_Midsummer_Night%27s_Dream', accessed: '2026-11-16'}
+today: [midsummer-pyramus]
 era: olympian
 topics: [愛與慾望, 變形]
 ---

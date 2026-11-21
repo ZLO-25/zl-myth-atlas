@@ -21,6 +21,7 @@ sources:
   - {id: s5, kind: ancient, cite: 《淮南子·墜形訓》（西漢，劉安主編）, url: 'https://zh.wikisource.org/wiki/淮南子/墜形訓'}
   - {id: s6, kind: ancient, cite: 《列子·周穆王篇》（題為戰國列禦寇撰）, url: 'https://zh.wikisource.org/wiki/列子/周穆王篇'}
   - {id: s7, kind: ancient, cite: 《山海經·大荒西經》（先秦至漢，作者不詳）, url: 'https://zh.wikisource.org/wiki/山海經/大荒西經'}
+today: [kunlun-station-antarctica]
 era: cn-world
 places: [kunlun-range]
 topics: [創世]

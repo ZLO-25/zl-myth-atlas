@@ -40,6 +40,7 @@ disputed:
     views:
       - {view: 有人認為她的金髮代表麥穗，所以她是豐收女神。, src: [s3]}
       - {view: 西蒙克等學者反對：沒有祭拜她的紀錄，也沒有故事直接把她和豐收連在一起。, src: [s3]}
+today: [marvel-sif]
 era: no-gods
 topics: [智慧與詭計]
 ---

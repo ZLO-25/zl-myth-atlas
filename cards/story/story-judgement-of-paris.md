@@ -34,6 +34,7 @@ causes:
 effects:
   - {id: story-trojan-war, rel: 直接引發, why: 帕里斯帶走海倫，希臘聯軍因而出兵。, src: [s3]}
   - {id: hero-helen, rel: 促成, why: 她成了阿芙蘿黛蒂許給帕里斯的獎賞。, src: [s3]}
+today: [eris-dwarf-planet]
 era: trojan-war
 topics: [神的嫉妒, 愛與慾望, 戰爭]
 ---

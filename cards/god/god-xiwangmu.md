@@ -30,6 +30,7 @@ sources:
   - {id: s9, kind: ancient, cite: 司馬遷《史記·大宛列傳》（西漢）, url: 'https://zh.wikisource.org/wiki/史記/卷123'}
   - {id: s10, kind: ancient, cite: 《博物志》卷八（西晉，張華）, url: 'https://zh.wikisource.org/wiki/博物志/卷之八'}
   - {id: s11, kind: ancient, cite: 吳承恩《西遊記》第五回（明）, url: 'https://zh.wikisource.org/wiki/西遊記/第005回'}
+today: [hualien-shengan-wangmu]
 era: cn-yaoshun
 places: [place-kunlun]
 topics: [神話變歷史]

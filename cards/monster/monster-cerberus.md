@@ -39,6 +39,7 @@ sources:
   - {id: s7, kind: modern, cite: Theoi Project「Kerberos」, url: 'https://www.theoi.com/Ther/KuonKerberos.html', accessed: '2026-11-16'}
 causes:
   - {id: hero-heracles, rel: 回應, why: 海克力斯的第十二項任務，是把這隻看門犬活著帶到國王面前。, src: [s4]}
+today: [kerberos-moon]
 era: olympian
 topics: [怪物, 冥界之旅]
 ---

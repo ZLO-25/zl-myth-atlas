@@ -27,6 +27,7 @@ sources:
   - {id: s4, kind: modern, cite: World History Encyclopedia「Odin」, url: 'https://www.worldhistory.org/Odin/', accessed: '2026-11-16'}
 causes:
   - {id: story-aesir-vanir-war, rel: 背景, why: 克瓦希爾是兩神族和談時吐口水造出來的。, src: [s1]}
+today: [mead-word]
 era: no-gods
 topics: [智慧與詭計]
 ---

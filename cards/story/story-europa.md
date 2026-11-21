@@ -34,6 +34,7 @@ disputed:
     views:
       - {view: 希羅多德說，沒有人知道這名字從何而來、是誰取的；除非說是來自推羅的歐羅巴。但他也指出，她只從腓尼基到克里特、再到呂基亞，從沒到過今天所謂的歐洲。, src: [s4]}
       - {view: 歐洲央行說歐羅巴是「我們大陸名字的由來」，並以她的肖像命名「歐羅巴系列」鈔票。, src: [s6]}
+today: [euro-europa, europa-clipper, jupiter-moons]
 era: olympian
 topics: [愛與慾望, 變形, 羅馬借用希臘]
 ---

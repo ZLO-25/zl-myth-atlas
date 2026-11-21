@@ -41,6 +41,7 @@ disputed:
       - {view: 阿波羅多洛斯：她給他一件沒有袖子也沒有領口的衣服，他穿時被砍倒。, src: [s1]}
 causes:
   - {id: story-trojan-war, rel: 背景, why: 他是聯軍統帥，為了艦隊出航獻祭女兒，戰後回家被殺。, src: [s1, s2]}
+today: [mask-of-agamemnon]
 era: trojan-war
 topics: [家族詛咒, 戰爭, 返鄉, 宿命]
 ---

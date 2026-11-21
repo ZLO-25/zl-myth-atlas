@@ -35,6 +35,7 @@ disputed:
     views:
       - {view: 《山海經》：丹穴山（南方）有鳳皇，另外「沃之野」（西方）的人吃鳳皇的蛋。, src: [s1, s6]}
       - {view: 《說文解字》引天老：出於東方君子之國，飛過崑崙，在弱水洗羽毛，晚上睡在風穴。, src: [s5]}
+today: [idiom-hualong-dianjing, idiom-longfeng-chengxiang, idiom-fengmao-linjiao]
 era: cn-world
 topics: [怪物]
 ---

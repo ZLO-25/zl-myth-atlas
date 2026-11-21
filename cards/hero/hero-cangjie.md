@@ -33,6 +33,7 @@ disputed:
     views:
       - {view: 《淮南子》把它當作文字出現的異象記下來。, src: [s1]}
       - {view: 王充認為下粟、鬼哭或許是真的，但把它說成是回應倉頡造字，是虛的；也許只是巧合。, src: [s8]}
+today: [cangjie-input-method]
 era: cn-yanhuang
 topics: [文化英雄]
 ---

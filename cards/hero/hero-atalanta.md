@@ -29,6 +29,7 @@ sources:
   - {id: s3, kind: ancient, cite: 奧維德《變形記》10.560–707（亞特蘭大與希波墨涅斯）, url: 'https://www.theoi.com/Text/OvidMetamorphoses10.html'}
   - {id: s4, kind: ancient, cite: 《希臘羅馬傳記神話辭典》「Atalante」條（引自 Theoi 條目，轉述赫西俄德《女子名錄》殘篇 14、歐里庇得斯等）, url: 'https://www.theoi.com/Heroine/Atalanta.html'}
   - {id: s5, kind: modern, cite: Theoi Project「Atalanta」, url: 'https://www.theoi.com/Heroine/Atalanta.html', accessed: '2026-11-16'}
+today: [atalanta-bc]
 era: heroes
 topics: [冒險與試煉, 愛與慾望, 變形]
 ---

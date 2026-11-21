@@ -36,6 +36,7 @@ disputed:
       - {view: 另一說（大英百科）：克瑞翁把她交給海蒙處死，海蒙卻偷偷娶了她，生下一個兒子，後來這個兒子被克瑞翁殺死。, src: [s4]}
 causes:
   - {id: story-oedipus, rel: 背景, why: 伊底帕斯詛咒兩個兒子必以刀劍分家產，這個詛咒在兄弟互殺時應驗。, src: [s1, s2]}
+today: [anouilh-antigone]
 era: heroes
 topics: [家族詛咒, 戰爭, 宿命]
 ---

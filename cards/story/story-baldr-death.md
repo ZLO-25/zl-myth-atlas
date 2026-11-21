@@ -44,6 +44,7 @@ disputed:
     views:
       - {view: 〈女先知的預言〉第 32–33 節只用幾行提到槲寄生與霍德爾。, src: [s2]}
       - {view: 完整的情節只見於斯諾里。, src: [s1, s2]}
+today: [asgard-archaea]
 era: no-gods
 topics: [預言, 宿命, 冥界之旅, 智慧與詭計]
 ---

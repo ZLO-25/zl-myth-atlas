@@ -32,6 +32,7 @@ sources:
   - {id: s7, kind: modern, cite: Online Etymology Dictionary「siren」, url: 'https://www.etymonline.com/word/siren', accessed: '2026-11-16'}
 effects:
   - {id: hero-orpheus, rel: 回應, why: 阿爾戈號經過時，奧菲斯彈琴蓋過她們的歌聲。, src: [s2]}
+today: [starbucks-siren, siren-warning]
 era: heroes
 topics: [怪物, 智慧與詭計]
 ---

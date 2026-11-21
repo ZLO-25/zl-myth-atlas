@@ -38,6 +38,7 @@ sources:
   - {id: s11, kind: ancient, cite: 《竹書紀年》（今本，四庫全書本）卷上, url: 'https://zh.wikisource.org/wiki/竹書紀年_(四庫全書本)/卷上'}
   - {id: s12, kind: ancient, cite: 《國語·魯語下》（先秦）, url: 'https://zh.wikisource.org/wiki/國語_(四庫全書本)/卷05'}
   - {id: s13, kind: ancient, cite: 《孟子·萬章上》（戰國）, url: 'https://zh.wikisource.org/wiki/孟子/萬章上'}
+today: [idiom-san-guo-qi-men]
 era: cn-flood
 places: [kuaiji-yu]
 topics: [洪水, 神話變歷史, 王權更替]

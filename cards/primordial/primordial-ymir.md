@@ -38,6 +38,7 @@ disputed:
     views:
       - {view: 斯諾里：矮人是尤彌爾肉裡長出來的蛆。, src: [s7]}
       - {view: 〈女先知的預言〉第 9 節：矮人來自「布里米爾的血與布萊恩的腿」。Bellows 的註解認為這兩個名字可能就是尤彌爾。, src: [s8]}
+today: [saturn-ymir-moon]
 era: no-creation
 topics: [創世]
 ---

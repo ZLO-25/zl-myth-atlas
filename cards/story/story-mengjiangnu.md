@@ -25,6 +25,7 @@ sources:
   - {id: s4, kind: ancient, cite: 王充《論衡·感虛篇》（東漢）, url: 'https://zh.wikisource.org/wiki/論衡_(四庫全書本)/卷05'}
   - {id: s5, kind: ancient, cite: 敦煌寫本〈孟姜女變文〉（唐五代）, url: 'https://zh.wikisource.org/wiki/孟姜女變文'}
   - {id: s6, kind: modern, cite: 王重民等編《敦煌變文集》卷一〈孟姜女變文〉, url: 'https://zh.wikisource.org/wiki/孟姜女變文', accessed: '2026-11-16'}
+today: [ich-three-legends]
 era: cn-novels
 topics: [小說與戲曲]
 ---
