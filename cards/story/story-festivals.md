@@ -32,7 +32,7 @@ sources:
   - {id: s5, kind: ancient, cite: 司馬遷《史記》卷三十九〈晉世家〉、卷八十四〈屈原賈生列傳〉（西漢）, url: 'https://zh.wikisource.org/wiki/史記/卷084'}
   - {id: s6, kind: modern, cite: 大英百科「Dragon Boat Festival」, url: 'https://www.britannica.com/topic/Dragon-Boat-Festival', accessed: '2026-11-16'}
 era: cn-world
-today: [dragon-boat-festival, menshen-new-year, nian-beast]
+today: [menshen-new-year, dragon-boat-festival, nian-beast]
 topics: [節日與習俗]
 ---
 

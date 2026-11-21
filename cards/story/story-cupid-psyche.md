@@ -26,6 +26,7 @@ sources:
 causes:
   - {id: god-aphrodite, rel: 直接引發, why: 維納斯嫉妒賽姬的美貌，才派邱比特去報復，結果兒子自己愛上了她。, src: [s1]}
   - {id: place-underworld, rel: 促成, why: 維納斯的最後一項任務，是去冥界向普洛塞耳皮娜討一盒美貌。, src: [s1]}
+today: [psyche-word, psyche-asteroid]
 era: olympian
 topics: [愛與慾望, 冥界之旅, 冒險與試煉, 羅馬借用希臘]
 ---

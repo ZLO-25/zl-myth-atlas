@@ -31,6 +31,7 @@ sources:
   - {id: s7, kind: ancient, cite: 《藝文類聚》卷一〈月〉引傅咸《擬天問》（唐，歐陽詢等編）, url: 'https://zh.wikisource.org/wiki/藝文類聚/卷001'}
   - {id: s8, kind: ancient, cite: 《初學記》卷二十九引傅玄《歌辭》（唐，徐堅等編）, url: 'https://zh.wikisource.org/wiki/初學記/卷第二十九'}
   - {id: s9, kind: modern, cite: E. T. C. Werner《Myths and Legends of China》（1922，Project Gutenberg）, url: 'https://www.gutenberg.org/ebooks/15250', accessed: '2026-11-16'}
+today: [yutu-rover]
 era: cn-world
 topics: [日月星辰]
 disputed:

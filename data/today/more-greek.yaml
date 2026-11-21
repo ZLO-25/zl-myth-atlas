@@ -1,0 +1,362 @@
+# 今日影子：希臘羅馬補充（卡片還沒有今日影子的那一批）
+- id: erotic-word
+  category: 英文單字與成語
+  title: erotic（情色的）
+  cards: [god-eros]
+  what: 英文 erotic 是「和性愛、情慾有關的」，字根來自希臘文 eros（愛、情慾），也就是愛神厄洛斯的名字。
+  diff: 在希臘文裡，eros 原本是比較寬的「熱烈的愛與渴望」，還是神的名字；英文 erotic 只留下了情慾的那一面。
+  status: 已查證
+  sources:
+    - {cite: Etymonline「erotic」, url: 'https://www.etymonline.com/word/erotic'}
+    - {cite: Theoi.com「Eros」, url: 'https://www.theoi.com/Ouranios/Eros.html'}
+- id: eros-asteroid
+  category: 天文與太空
+  title: 小行星 433 愛神星（Eros）
+  cards: [god-eros]
+  what: 小行星 433 Eros 是第一顆被太空船繞行的小行星，美國 NASA 的 NEAR 號在 2000 年進入軌道，2001 年 2 月 12 日還登陸成功。
+  diff: NASA 說這顆小行星取了男性名字，是「墨丘利與維納斯之子 Eros」。神話裡厄洛斯的身世古人說法不一，有人說他是最早出現的原始力量，有人說他是阿芙羅黛蒂的兒子。
+  status: 已查證
+  sources:
+    - {cite: NASA「433 Eros」, url: 'https://science.nasa.gov/solar-system/asteroids/433-eros'}
+    - {cite: Theoi.com「Eros」, url: 'https://www.theoi.com/Ouranios/Eros.html'}
+- id: fate-word
+  category: 英文單字與成語
+  title: fate（命運）
+  cards: [god-fates]
+  what: 英文 fate 來自拉丁文 fata，意思是「（神）說出來的話」。命運三女神 Clotho、Lachesis、Atropos 的名字，1580 年代就進了英文。
+  diff: 希臘人的命運女神叫 Moirai，字源是「分到的一份」；拉丁文的 fatum 卻是「被說出的話」。兩種想法不同：一個是「你分到多少」，一個是「神說了什麼」，後來英文把它們混在一起用。
+  status: 已查證
+  sources:
+    - {cite: Etymonline「fate」, url: 'https://www.etymonline.com/word/fate'}
+    - {cite: Theoi.com「Moirai」, url: 'https://www.theoi.com/Daimon/Moirai.html'}
+- id: atropine-word
+  category: 科學與醫學
+  title: atropine（阿托品）與顛茄
+  cards: [god-fates]
+  what: 醫學上的 atropine，字源可追到顛茄的屬名 Atropa（有劇毒的 deadly nightshade），而 Atropa 又來自希臘文 atropos，也是命運三女神之一的名字。
+  diff: atropos 的字面意思是「不可改變的」。神話裡的阿特洛波斯是剪斷生命之線的那一位。
+  status: 已查證
+  sources:
+    - {cite: Etymonline「atropine」, url: 'https://www.etymonline.com/word/atropine'}
+    - {cite: Theoi.com「Moirai」, url: 'https://www.theoi.com/Daimon/Moirai.html'}
+- id: fury-word
+  category: 英文單字與成語
+  title: fury（狂怒）
+  cards: [god-furies]
+  what: 英文 fury 是「猛烈的憤怒」，早在 15 世紀初就有，也可以拿來形容「一個怒氣沖天的女人」。字源是羅馬人的復仇女神 Furiae。
+  diff: 羅馬人用 Furiae 來翻譯希臘的厄里倪斯（Erinyes），她們專門懲罰殺人、不孝、冒犯神明與發偽誓的人，不是單純「愛生氣」。字的意思從「專門報仇的神」縮小成「怒氣」。
+  status: 已查證
+  sources:
+    - {cite: Etymonline「fury」, url: 'https://www.etymonline.com/word/fury'}
+    - {cite: Theoi.com「Erinyes」, url: 'https://www.theoi.com/Khthonios/Erinyes.html'}
+- id: macbeth-hecate
+  category: 文學
+  title: 《馬克白》裡的黑卡蒂
+  cards: [god-hecate]
+  what: 莎士比亞《馬克白》第三幕第五景，黑卡蒂（Hecate）登場，責備三個女巫沒有找她就私下和馬克白打交道，還說自己才是她們的魔法主人，約好隔天在阿刻戎的深坑見面。
+  diff: 赫西俄德筆下的黑卡蒂是宙斯格外尊榮的女神，在天、地、海都有份。莎士比亞把她改成女巫們的頭目，形象偏向魔法與黑夜。
+  status: 已查證
+  sources:
+    - {cite: 福爾傑莎士比亞圖書館《馬克白》3.5, url: 'https://shakespeare.folger.edu/shakespeares-works/macbeth/act-3-scene-5'}
+    - {cite: Theoi.com「Hekate」, url: 'https://www.theoi.com/Khthonios/Hekate.html'}
+- id: hector-verb
+  category: 英文單字與成語
+  title: hector（恐嚇、欺壓）
+  cards: [hero-hector]
+  what: 英文動詞 hector 是「吵鬧地恐嚇、欺負人」，1650 年代出現。它來自一個俚語名詞 hector（愛吹噓、愛欺人的人），而這個詞源自《伊利亞德》的特洛伊英雄赫克托。
+  diff: 辭典說最早是因為赫克托會鼓舞特洛伊人繼續戰鬥，後來才變成「虛張聲勢」。荷馬筆下的赫克托其實是顧家的守城者，和「霸凌」差很遠。
+  status: 已查證
+  sources:
+    - {cite: Etymonline「hector」, url: 'https://www.etymonline.com/word/hector'}
+    - {cite: 荷馬《伊利亞德》6, url: 'https://www.theoi.com/Text/HomerIliad6.html'}
+- id: siren-warning
+  category: 英文單字與成語
+  title: siren（警報器）
+  cards: [monster-sirens]
+  what: 救護車、消防車的警報器叫 siren。辭典記錄這個「警告用的發聲裝置」的用法，1879 年就有，最早用在蒸汽船上，字就來自引誘水手的海妖賽蓮。
+  diff: 神話裡的賽蓮用歌聲把水手引向死亡；今天的 siren 是叫人「快閃開」。同一個名字，從「誘人過去」變成了「警告別過來」。
+  status: 已查證
+  sources:
+    - {cite: Etymonline「siren」, url: 'https://www.etymonline.com/word/siren'}
+    - {cite: Theoi.com「Seirenes」, url: 'https://www.theoi.com/Pontios/Seirenes.html'}
+- id: sphinx-word
+  category: 英文單字與成語
+  title: sphinx（謎樣的人）
+  cards: [monster-sphinx]
+  what: 英文 sphinx 除了指獅身人面像，也能形容「神祕難測的人或事」，這個比喻 1600 年左右就有了。
+  diff: 辭典說希臘文的 Sphinx 字面意思是「勒死者」（來自 sphingein「勒緊」）。底比斯的人面獅身獸會問路人謎語，答不出來的就被殺；「神祕」是後來才加上去的。
+  status: 已查證
+  sources:
+    - {cite: Etymonline「sphinx」, url: 'https://www.etymonline.com/word/sphinx'}
+    - {cite: Theoi.com「Sphinx」, url: 'https://www.theoi.com/Ther/Sphinx.html'}
+- id: kerberos-moon
+  category: 天文與太空
+  title: 冥衛 Kerberos（刻耳柏洛斯）
+  cards: [monster-cerberus]
+  what: 冥王星有一顆小衛星叫 Kerberos，是 Cerberus（冥府三頭犬）的希臘文拼法。2013 年國際天文聯合會（IAU）公布它和另一顆衛星 Styx 的正式名稱。
+  diff: IAU 特地用希臘拼法 Kerberos，是為了避免和已經存在的小行星 1865 Cerberus 搞混。神話裡的 Cerberus 是守著冥府大門的三頭犬。
+  status: 已查證
+  sources:
+    - {cite: 國際天文聯合會新聞稿 iau1303, url: 'https://iauarchive.eso.org/news/pressreleases/detail/iau1303/'}
+    - {cite: Theoi.com「Kerberos」, url: 'https://www.theoi.com/Ther/KuonKerberos.html'}
+- id: nix-moon
+  category: 天文與太空
+  title: 冥衛 Nix（尼克斯）
+  cards: [primordial-nyx]
+  what: 冥王星的衛星 Nix，名字取自夜神 Nyx。NASA 指出，Nyx 的小孩裡有擺渡的卡戎（Charon），而 Charon 也是冥王星最大的衛星。
+  diff: 其實 IAU 取的是埃及神話裡「相當於 Nyx」的名字，因為希臘拼法的 Nyx 早就被小行星 3908 用掉了。
+  status: 已查證
+  sources:
+    - {cite: NASA「Pluto's Two Small Moons Officially Named Nix and Hydra」, url: 'https://science.nasa.gov/missions/hubble/plutos-two-small-moons-officially-named-nix-and-hydra'}
+    - {cite: Theoi.com「Nyx」, url: 'https://www.theoi.com/Protogenos/Nyx.html'}
+- id: adonis-word
+  category: 英文單字與成語
+  title: Adonis（美男子）
+  cards: [story-adonis]
+  what: 英文裡稱呼「非常英俊的年輕男子」為 an Adonis，1620 年代就有這種用法，來自阿芙羅黛蒂深愛的美少年阿多尼斯。
+  diff: 辭典說 Adonis 這個名字可能源自腓尼基語的「主、君王」。神話裡的阿多尼斯年紀輕輕就死在野豬的獠牙下，今天卻成了誇獎帥哥的詞。
+  status: 已查證
+  sources:
+    - {cite: Etymonline「Adonis」, url: 'https://www.etymonline.com/word/adonis'}
+    - {cite: 大英百科「Adonis」, url: 'https://www.britannica.com/topic/Adonis-Greek-mythology'}
+- id: cadmium-element
+  category: 科學與醫學
+  title: cadmium（鎘）
+  cards: [hero-cadmus]
+  what: 化學元素「鎘」的英文名 cadmium，字源是希臘文 kadmeia（ge）「卡德摩斯的土」。古人用 cadmia 稱呼某些礦土與氧化物，特別是碳酸鋅，最早在底比斯附近發現。
+  diff: 卡德摩斯是傳說中建立底比斯的人。元素名和他的關係是「這種土出在他的城市旁邊」，不是在講他殺龍的故事。
+  status: 已查證
+  sources:
+    - {cite: Etymonline「cadmium」, url: 'https://www.etymonline.com/word/cadmium'}
+    - {cite: 奧維德《變形記》3, url: 'https://www.theoi.com/Text/OvidMetamorphoses3.html'}
+- id: psyche-word
+  category: 英文單字與成語
+  title: psyche（心靈）
+  cards: [story-cupid-psyche]
+  what: 英文 psyche 是「心靈、精神」，也是 psychology（心理學）的字根。希臘文 psykhe 本來就是「靈魂、生命」，希臘人也把 Psykhe 畫成愛神的愛人，蝴蝶是她的象徵。
+  diff: 在阿普列尤斯的故事裡，賽姬是被愛神丘比特愛上的凡人公主，要通過考驗才能和他在一起；今天的「心理學」只留下了「靈魂」這個意思。
+  status: 已查證
+  sources:
+    - {cite: Etymonline「psyche」, url: 'https://www.etymonline.com/word/psyche'}
+    - {cite: Theoi.com「Psykhe」, url: 'https://www.theoi.com/Ouranios/Psykhe.html'}
+- id: psyche-asteroid
+  category: 天文與太空
+  title: 小行星 16 Psyche
+  cards: [story-cupid-psyche]
+  what: 小行星 16 Psyche 由天文學家德加斯帕里命名。NASA 說，Psyche 是「出生時是凡人、後來嫁給愛神厄洛斯（羅馬名丘比特）的靈魂女神」。
+  diff: 神話裡的賽姬是凡人，這顆金屬含量很高的小行星卻是 NASA 太空任務的目標。
+  status: 已查證
+  sources:
+    - {cite: NASA「16 Psyche」, url: 'https://science.nasa.gov/solar-system/asteroids/16-psyche'}
+    - {cite: Theoi.com「Psykhe」, url: 'https://www.theoi.com/Ouranios/Psykhe.html'}
+- id: pollux-castor-stars
+  category: 天文與太空
+  title: 雙子座的 Castor 與 Pollux
+  cards: [hero-castor-pollux]
+  what: 雙子座最亮的兩顆星叫 Castor（北河二）與 Pollux（北河三）。大英百科說，Pollux 是雙子座最亮的星，視星等 1.15，離地球約 33.7 光年，兩顆星都以神話中的雙胞胎命名。
+  diff: 神話裡的兩兄弟，卡斯托爾是凡人、波魯克斯是不死的；卡斯托爾死後，波魯克斯不願獨自長生，宙斯讓他們輪流在天上和冥界各待一天。
+  status: 已查證
+  sources:
+    - {cite: 大英百科「Pollux」, url: 'https://www.britannica.com/print/article/468113'}
+    - {cite: Theoi.com「Dioskouroi」, url: 'https://www.theoi.com/Ouranios/Dioskouroi.html'}
+- id: chiron-centaurs
+  category: 天文與太空
+  title: 小行星 Chiron 與「半人馬型天體」
+  cards: [monster-centaurs]
+  what: 1977 年 11 月，天文學家柯瓦爾發現小行星 Chiron，軌道與性質像又像彗星又像小行星。它以最有智慧的半人馬凱隆命名，後來類似的天體都被稱為「半人馬型天體（Centaurs）」。
+  diff: 神話裡的凱隆是半人馬中最有智慧、最公正的一位，教出阿基里斯等許多英雄。天文學家用「半人半馬」形容這種「一半彗星一半小行星」的天體。
+  status: 已查證
+  sources:
+    - {cite: NASA NSSDC「The Chiron Perihelion Campaign」, url: 'https://nssdc.gsfc.nasa.gov/planetary/chiron.html'}
+    - {cite: Theoi.com「Kheiron」, url: 'https://www.theoi.com/Georgikos/KentaurosKheiron.html'}
+- id: mobil-pegasus
+  category: 品牌與企業
+  title: 美孚的飛馬標誌
+  cards: [hero-bellerophon]
+  what: 美孚（Mobil）加油站的紅色飛馬標誌，1911 年先由真空石油公司在南非開普敦的子公司註冊商標，後來合併成的 Socony-Vacuum 公司沿用了這個有翅膀的標誌。
+  diff: 神話裡的飛馬珮加索斯是屬於柏勒洛豐的坐騎，用來殺死噴火的怪物奇美拉；美孚只留下了飛馬。
+  status: 已查證
+  sources:
+    - {cite: 美國石油地質與歷史學會（AOGHS）「High Flying Trademark」, url: 'https://aoghs.org/petroleum-art/high-flying-trademark/'}
+    - {cite: Theoi.com「Pegasos」, url: 'https://www.theoi.com/Ther/HipposPegasos.html'}
+- id: atalanta-bc
+  category: 品牌與企業
+  title: 亞特蘭大足球俱樂部（Atalanta B.C.）
+  cards: [hero-atalanta]
+  what: 義大利貝加莫的足球俱樂部 Atalanta，1907 年 10 月 17 日由五名高中生創立，名字取自希臘神話中以狩獵本領聞名的亞特蘭妲，球迷都叫它「女神」（la Dea）。
+  diff: 神話裡的亞特蘭妲是阿提米絲寵愛的女獵人，也以腳程飛快聞名；球隊取名時，報導說看重的是她的狩獵本領。
+  status: 已查證
+  sources:
+    - {cite: 義大利《Avvenire》報導「L'Atalanta trionfatrice in Europa prende il nome dalla mitologia」, url: 'https://www.avvenire.it/rubriche/la-parola/latalanta-trionfatrice-in-europa-prende-il-nome-dalla-mitologia_77165'}
+    - {cite: Theoi.com「Atalanta」, url: 'https://www.theoi.com/Heroine/Atalanta.html'}
+- id: mask-of-agamemnon
+  category: 名畫與雕塑
+  title: 「阿伽門農面具」
+  cards: [hero-agamemnon]
+  what: 1876 年，考古學家施里曼在邁錫尼的墓葬裡挖到一副黃金面具，他相信那是荷馬筆下的阿伽門農，所以叫它「阿伽門農面具」，今天收藏在雅典的國家考古博物館。
+  diff: 後來斷代發現這副面具比阿伽門農（如果他真的存在）的時代早了大約 300 年，約在前 1580 至 1550 年。名字雖然錯了，卻一直沿用到現在。荷馬《奧德賽》裡，阿伽門農的鬼魂說，自己是被埃吉斯托斯和妻子設計殺死的。
+  status: 已查證
+  sources:
+    - {cite: ancient-greece.org「Mask of Agamemnon」, url: 'https://ancient-greece.org/images/museums/athens-mycenaean/pages/athens-mus-mycenaean001.html'}
+    - {cite: 荷馬《奧德賽》11, url: 'https://www.theoi.com/Text/HomerOdyssey11.html'}
+- id: purcell-dido
+  category: 文學
+  title: 普賽爾歌劇《狄多與埃涅阿斯》
+  cards: [story-dido]
+  what: 英國作曲家普賽爾的歌劇《狄多與埃涅阿斯》，約 1689 年在倫敦契爾西的一所女子學校首演，劇本由泰特（Nahum Tate）寫，故事出自維吉爾《埃涅阿斯紀》第四卷。
+  diff: 維吉爾寫的是迦太基女王狄多被埃涅阿斯拋下後自盡，這個結局成了後世作品的主軸。這也是一則羅馬帝國的建國神話：埃涅阿斯離開，是為了去義大利。
+  status: 已查證
+  sources:
+    - {cite: 大英百科「Dido and Aeneas」, url: 'https://www.britannica.com/topic/Dido-and-Aeneas-opera-by-Purcell'}
+    - {cite: 維吉爾《埃涅阿斯紀》4, url: 'https://www.theoi.com/Text/VirgilAeneid4.html'}
+- id: midsummer-pyramus
+  category: 文學
+  title: 《仲夏夜之夢》與《羅密歐與茱麗葉》
+  cards: [story-pyramus-thisbe]
+  what: 莎士比亞在《仲夏夜之夢》裡，讓一群工匠在婚禮上演出〈皮拉摩斯與緹斯貝〉。同一個故事的架構，也被認為用在《羅密歐與茱麗葉》：以為愛人死了而自盡，另一人隨後也自盡。
+  diff: 奧維德的原作是悲劇；工匠們笨拙的演出卻讓它變成笑話。到了《羅密歐與茱麗葉》，場景從巴比倫搬到義大利的維洛那，還加上兩個互相為敵的家族。
+  status: 已查證
+  sources:
+    - {cite: 福爾傑莎士比亞圖書館「A Midsummer Night's Dream」, url: 'https://folgerpedia.folger.edu/A_Midsummer_Night%27s_Dream'}
+    - {cite: 'SparkNotes「Shakespeare, Ovid, and the Adaptation of Pyramus and Thisbe」', url: 'https://www.sparknotes.com/shakespeare/msnd/context/literary/shakespeare-ovid-and-the-adaptation-of-pyramus-and-thisbe'}
+    - {cite: 奧維德《變形記》4, url: 'https://www.theoi.com/Text/OvidMetamorphoses4.html'}
+- id: marlowe-helen
+  category: 文學
+  title: 「讓千艘戰船出航的臉」
+  cards: [hero-helen]
+  what: 「那張讓千艘戰船出航的臉」是英國劇作家馬婁《浮士德博士》裡的名句，是浮士德對著一個變成海倫模樣的鬼魂說的。
+  diff: 浮士德看到的並不是真的海倫，而是魔鬼變出來的幻影。這句話是馬婁寫的，不是荷馬史詩裡的原話。
+  status: 已查證
+  sources:
+    - {cite: 多倫多大學《Representative Poetry Online》「Doctor Faustus」, url: 'https://rpo.library.utoronto.ca/poems/doctor-faustus-was-face-launched-thousand-ships'}
+    - {cite: 大英百科「Helen of Troy」, url: 'https://www.britannica.com/topic/Helen-of-Troy'}
+- id: medea-adaptations
+  category: 文學
+  title: 〈美狄亞〉的歌劇與戲劇改編
+  cards: [hero-medea]
+  what: 1797 年，作曲家凱魯比尼的歌劇《美狄亞》（Médée）在巴黎首演，改編自希臘神話。大英百科也列出塞內加、格里帕策、阿努伊、米堯等人的改編。
+  diff: 在歐里庇得斯的劇本裡，美狄亞被伊阿宋拋棄後，為了報復殺死兩個兒子、克瑞翁和他的女兒，最後坐著祖父赫利俄斯送來的龍車逃走。後世的改編各有取捨。
+  status: 已查證
+  sources:
+    - {cite: 大都會歌劇院教育資料「Medea」, url: 'https://metopera.org/discover/education/educator-guides/medea/plot-and-creation'}
+    - {cite: 大英百科「Medea」, url: 'https://www.britannica.com/topic/Medea-Greek-mythology'}
+- id: anouilh-antigone
+  category: 文學
+  title: 阿努伊《安蒂岡妮》
+  cards: [hero-antigone]
+  what: 法國劇作家阿努伊（Jean Anouilh）的《安蒂岡妮》寫於 1944 年，大英百科把它列為他最知名的作品之一。
+  diff: 神話裡的安蒂岡妮，違抗舅舅克瑞翁禁止埋葬哥哥波呂涅克斯的命令，偷偷埋了他，結果被關進洞穴。現代劇作家把這個「一個人對抗權力」的故事一再搬上舞台。
+  status: 已查證
+  sources:
+    - {cite: 大英百科「Jean Anouilh」, url: 'https://www.britannica.com/summary/Jean-Anouilh'}
+    - {cite: 大英百科「Antigone」, url: 'https://www.britannica.com/topic/Antigone-Greek-mythology'}
+- id: midas-touch
+  category: 英文單字與成語
+  title: Midas touch（點石成金的本事）
+  cards: [story-midas]
+  what: 英文說一個人有 the Midas touch，是指他做什麼生意都賺錢。韋氏辭典記錄 1813 年已有這個用法。
+  diff: 辭典自己也提醒，今天的用法常常忽略故事的警告。奧維德的版本裡，邁達斯許願讓摸到的東西都變成金子，結果連食物和酒也變成金子，只好求神收回，最後到帕克托羅斯河把這個本事洗掉。「連女兒都變成金子」是後來作家加的情節。在神話裡，這是一個關於貪心的教訓，不是祝福。
+  status: 已查證
+  sources:
+    - {cite: 韋氏辭典「Midas touch」, url: 'https://www.merriam-webster.com/dictionary/Midas%20touch'}
+    - {cite: 奧維德《變形記》11, url: 'https://www.theoi.com/Text/OvidMetamorphoses11.html'}
+- id: pygmalion-effect
+  category: 科學與醫學
+  title: 畢馬龍效應（Pygmalion effect）
+  cards: [story-pygmalion]
+  what: 心理學的「畢馬龍效應」指一個人對另一個人的期待，會讓對方表現得越來越像期待的樣子。1968 年羅森塔爾與雅各布森的課堂研究：老師被告知某些學生是「即將開竅的學生」，其實是隨機挑的，年底這些學生的智商進步比對照組多。
+  diff: 神話裡畢馬龍是雕刻家，他愛上自己刻的象牙少女像，女神讓雕像變成活人。心理學家借的是「相信會讓東西成真」的想法，沒有魔法。
+  status: 已查證
+  sources:
+    - {cite: Encyclopedia.com「Pygmalion Effects」, url: 'https://www.encyclopedia.com/social-sciences/applied-and-social-sciences-magazines/pygmalion-effects'}
+    - {cite: 奧維德《變形記》10, url: 'https://www.theoi.com/Text/OvidMetamorphoses10.html'}
+- id: shaw-pygmalion
+  category: 文學
+  title: 蕭伯納《賣花女》與《窈窕淑女》
+  cards: [story-pygmalion]
+  what: 蕭伯納的劇本《Pygmalion》（中文常譯《賣花女》）1913 年在維也納以德語首演，1914 年在英國上演；語音學家希金斯打賭能把倫敦賣花女伊萊莎訓練成公爵夫人。1956 年改編成音樂劇《窈窕淑女》（My Fair Lady），1964 年電影由雷克斯．哈里森與奧黛麗．赫本主演。
+  diff: 奧維德的故事裡，雕像靠女神的力量變成活人；蕭伯納把「創造者」換成教口音的語音學家，被改造的是一個活生生的女孩。
+  status: 已查證
+  sources:
+    - {cite: 大英百科「Pygmalion」（蕭伯納劇本）, url: 'https://www.britannica.com/topic/Pygmalion-play-by-Shaw'}
+    - {cite: 奧維德《變形記》10, url: 'https://www.theoi.com/Text/OvidMetamorphoses10.html'}
+- id: poussin-sabine-women
+  category: 名畫與雕塑
+  title: 普桑〈劫奪薩賓婦女〉
+  cards: [story-sabine-women]
+  what: 紐約大都會藝術博物館藏有法國畫家普桑的〈劫奪薩賓婦女〉（約 1633 至 34 年）。館方說明：羅馬人邀請鄰近的薩賓人參加慶典，打算強行擄走他們的女人當妻子。
+  diff: 館方說，羅穆路斯舉起斗篷作為暗號，戰士們就動手抓人。畫家把最緊張的那一瞬間凍結在畫面裡；大英百科說這是普魯塔克記下的傳說：羅穆路斯邀請薩賓人赴宴，然後把他們的女人擄走。
+  status: 已查證
+  sources:
+    - {cite: 大都會藝術博物館「The Abduction of the Sabine Women」, url: 'https://www.metmuseum.org/art/collection/search/437329'}
+    - {cite: 大英百科「Sabine」, url: 'https://www.britannica.com/topic/Sabine'}
+- id: eris-dwarf-planet
+  category: 天文與太空
+  title: 矮行星鬩神星（Eris）
+  cards: [story-judgement-of-paris]
+  what: 矮行星 Eris（鬩神星），原名 2003 UB313，名字取自希臘的不和女神。2006 年 IAU 在布拉格開會決定命名，同一次會議也把冥王星、穀神星、鬩神星歸為矮行星；它的衛星 Dysnomia，是不和女神的女兒。
+  diff: 神話裡，不和女神厄里斯因為沒被邀請參加婚禮，丟出一顆寫著「給最美的人」的金蘋果，三位女神都說蘋果是自己的，這就是「帕里斯的裁判」的開端。天文學家用她來命名這顆讓天文界吵了一架的天體。
+  status: 已查證
+  sources:
+    - {cite: NASA 噴射推進實驗室「Hotly Debated Solar System Object Gets a Name」, url: 'https://www.jpl.nasa.gov/news/hotly-debated-solar-system-object-gets-a-name/'}
+    - {cite: Theoi.com「Judgement of Paris」, url: 'https://www.theoi.com/Olympios/JudgementParis.html'}
+- id: delphic-word
+  category: 英文單字與成語
+  title: Delphic（神諭般的）
+  cards: [place-delphi]
+  what: 英文 Delphic 是「德爾斐的、阿波羅神諭的」，1590 年代就有。德爾斐（Delphi）這個地名來自希臘文 delphis「海豚」。
+  diff: 辭典說，傳說阿波羅變成海豚來建立自己的神殿，所以才叫「海豚之地」。大英百科則說，德爾斐原本是蓋亞的神諭所，阿波羅殺死蟒蛇皮同後在此建立自己的神諭。
+  status: 已查證
+  sources:
+    - {cite: Etymonline「Delphic」, url: 'https://www.etymonline.com/word/Delphic'}
+    - {cite: 大英百科「Delphi」, url: 'https://www.britannica.com/place/Delphi-ancient-city-Greece'}
+- id: euro-europa
+  category: 英文單字與成語
+  title: Europe（歐洲）與歐元鈔票上的歐羅巴
+  cards: [story-europa]
+  what: 歐洲央行說，歐元的「歐羅巴系列」鈔票以神話人物歐羅巴命名，她是歐洲大陸名字的由來。她的肖像取自一只古代陶瓶，用在鈔票的浮水印和全像圖上。
+  diff: 神話裡的歐羅巴是腓尼基公主，被化身為白牛的宙斯拐到克里特島。今天的「歐洲」之名只是借用她的名字，和她的遭遇無關。
+  status: 已查證
+  sources:
+    - {cite: 歐洲央行「Europa series」新聞資料, url: 'https://www.ecb.europa.eu/euro/shared/files/140113_presskit_europa_en.pdf'}
+    - {cite: 莫斯科斯《歐羅巴》, url: 'https://www.theoi.com/Text/Moschus.html'}
+- id: europa-clipper
+  category: 天文與太空
+  title: 歐羅巴快艇號（Europa Clipper）
+  cards: [story-europa]
+  what: NASA 的 Europa Clipper 在 2024 年 10 月 14 日由 SpaceX 獵鷹重型火箭發射，預計 2030 年抵達木星，目標是調查木衛二歐羅巴（Europa）是否有適合生命的環境。
+  diff: 木衛二以宙斯愛上的腓尼基公主歐羅巴命名。神話裡她是被拐走的，今天她的名字卻成了科學探測的目標。
+  status: 已查證
+  sources:
+    - {cite: NASA「Europa Clipper」, url: 'https://science.nasa.gov/mission/europa-clipper/'}
+    - {cite: Theoi.com「Zeus Loves 3」, url: 'https://www.theoi.com/Olympios/ZeusLoves3.html'}
+- id: phaethon-asteroid
+  category: 天文與太空
+  title: 小行星 3200 Phaethon 與雙子座流星雨
+  cards: [story-phaethon]
+  what: 雙子座流星雨的源頭是小行星 3200 Phaethon，1983 年 10 月 11 日由紅外線天文衛星 IRAS 發現。NASA 說，因為它非常靠近太陽，所以用駕駛太陽神赫利俄斯戰車的神話人物命名。
+  diff: 神話裡法厄同駕不住父親的太陽戰車，差點燒毀大地，被宙斯用雷霆擊落。天文上的 Phaethon，也是一顆離太陽很近的天體。
+  status: 已查證
+  sources:
+    - {cite: NASA「Geminids」, url: 'https://science.nasa.gov/solar-system/meteors-meteorites/geminids'}
+    - {cite: 奧維德《變形記》2, url: 'https://www.theoi.com/Text/OvidMetamorphoses2.html'}
+- id: sisyphean-word
+  category: 英文單字與成語
+  title: Sisyphean（永無止境、徒勞的）
+  cards: [story-underworld-punishments]
+  what: 英文形容詞 Sisyphean，意思是「像薛西弗斯那樣不斷重複卻徒勞無功的」，1630 年代就有。
+  diff: 辭典寫道，薛西弗斯是科林斯國王，被稱為「最狡猾的人」。他死後受罰，要把一顆大石推上山，石頭又滾下來，永遠重來。「徒勞」是後來的比喻；神話的重點是懲罰他的狡猾。
+  status: 已查證
+  sources:
+    - {cite: Etymonline「Sisyphean」, url: 'https://www.etymonline.com/word/Sisyphean'}
+    - {cite: 荷馬《奧德賽》11, url: 'https://www.theoi.com/Text/HomerOdyssey11.html'}
+- id: augean-word
+  category: 英文單字與成語
+  title: Augean stables（奧吉亞斯的牛棚）
+  cards: [story-heracles-labours]
+  what: 英文 Augean 是「骯髒透頂的」，1590 年代就有。它來自海克力斯十二功績之一：國王奧吉亞斯有 3,000 頭牛，牛棚 30 年沒打掃。
+  diff: 辭典說，海克力斯把阿爾斐俄斯河改道，一天就沖乾淨了牛棚。所以 clean the Augean stables 指「清理積壓已久的爛攤子」。
+  status: 已查證
+  sources:
+    - {cite: Etymonline「Augean」, url: 'https://www.etymonline.com/word/Augean'}
+    - {cite: 阿波羅多洛斯《書庫》2.5.5, url: 'https://www.theoi.com/Text/Apollodorus2.html'}

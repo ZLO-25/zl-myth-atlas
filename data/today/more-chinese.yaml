@@ -1,0 +1,286 @@
+# 今日影子：中華神話在成語與日常用語裡的痕跡（補寫）
+- id: idiom-yugong-yishan
+  category: 英文單字與成語
+  title: 愚公移山
+  cards: [story-yugong]
+  what: 教育部《成語典》說，「愚公移山」是說愚公為了門前兩座大山擋路，帶著子孫一起挖土石、把山鏟平；現在用來比喻只要持續努力，終究能達成目標。辭典也提醒，這個成語有時反過來嘲笑做事方法太沒效率。故事出自《列子·湯問》。
+  diff: 《列子》裡的愚公說「子子孫孫無窮匱也，而山不加增」，最後是天帝被他感動，派神把山背走。今天的成語多半只留下「堅持就會成功」這一層，很少人再提天帝出手幫忙這一段。
+  status: 已查證
+  sources:
+    - {cite: 教育部《成語典》「愚公移山」, url: 'https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=267&webMd=1&la=1', accessed: '2026-11-21'}
+    - {cite: 《列子·湯問》, url: 'https://zh.wikisource.org/wiki/列子/湯問篇'}
+- id: idiom-nuwa-butian
+  category: 英文單字與成語
+  title: 女媧補天
+  cards: [primordial-nuwa, story-nuwa-mends-sky]
+  what: 教育部《成語典》收有「女媧補天」，解釋是傳說上古時代女媧煉五色石補天的裂縫，又截下大龜（鰲）的腳當撐天的柱子，今天用來形容修復巨大災難的神話壯舉；辭典標明典故見《淮南子·覽冥》。
+  diff: 成語只留下「補天」這件事。《淮南子》裡補天和共工撞不周山是分開的兩段，今天常聽到「共工撞斷天柱，女媧才補天」，是後來才串在一起的說法。
+  status: 已查證
+  sources:
+    - {cite: 教育部《成語典》「女媧補天」, url: 'https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=26060&webMd=2&la=1', accessed: '2026-11-21'}
+    - {cite: 《淮南子·覽冥訓》（西漢）, url: 'https://zh.wikisource.org/wiki/淮南子/覽冥訓'}
+- id: idiom-kaitian-pidi
+  category: 英文單字與成語
+  title: 開天闢地
+  cards: [primordial-pangu]
+  what: 教育部《成語典》解釋「開天闢地」有兩層意思：字面上是天地初開，辭典註明「神話傳說中天地是由盤古所分開」；引申則是形容前所未有的創舉，辭典舉的例子是說詹天佑在中國鐵路工程上「開天闢地」。
+  diff: 盤古故事（見三國吳徐整《三五曆紀》）說天地像雞蛋混在一起，盤古在裡面長高，把天推高、地壓厚。成語的第二層意思和盤古已經沒有關係，只借用「從無到有」的氣勢。
+  status: 已查證
+  sources:
+    - {cite: 教育部《成語典》「開天闢地」, url: 'https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=8058&webMd=1&la=1', accessed: '2026-11-21'}
+    - {cite: 徐整《三五曆紀》（三國吳），見歐陽詢《藝文類聚》卷1〈天部上〉, url: 'https://zh.wikisource.org/wiki/%E8%97%9D%E6%96%87%E9%A1%9E%E8%81%9A/%E5%8D%B7001'}
+- id: idiom-san-guo-qi-men
+  category: 英文單字與成語
+  title: 三過其門而不入
+  cards: [hero-yu, story-yu-flood]
+  what: 教育部《成語典》說，這個成語指的是大禹治水時，好幾次經過自己家門都沒有進去，用來稱讚人把公事放在私事前面、做事勤奮。辭典引的原句是《孟子·離婁下》的「禹、稷當平世，三過其門而不入，孔子賢之」。
+  diff: 各書對禹在外幾年說法不同：《孟子·滕文公上》說「八年於外，三過其門而不入」，《史記》說十三年，《吳越春秋》說七年。今天成語只留下「過門不入」的精神。
+  status: 已查證
+  sources:
+    - {cite: 教育部《成語典》「三過其門而不入」, url: 'https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=19033&webMd=2&la=1', accessed: '2026-11-21'}
+    - {cite: 《孟子·滕文公上》, url: 'https://zh.wikisource.org/wiki/孟子/滕文公上'}
+- id: idiom-baxian-guohai
+  category: 英文單字與成語
+  title: 八仙過海，各顯神通
+  cards: [god-eight-immortals]
+  what: 教育部《成語典》說，這個成語出自八位仙人（如漢鍾離、張果老）各自用寶物渡海的傳說，今天比喻大家各用自己的本事達成目標；辭典的例句是大家各憑方法去爭取績效獎金。
+  diff: 明代《東遊記》第四十八回裡，是呂洞賓提議「試以一物投之水面，各顯神通而過」，後來還發生藍采和被龍王太子抓走的衝突。今天的成語只用到「各憑本事」，不管龍王和打架。
+  status: 已查證
+  sources:
+    - {cite: 教育部《成語典》「八仙過海，各顯神通」, url: 'https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=25879&webMd=2&la=1', accessed: '2026-11-21'}
+    - {cite: 吳元泰《東遊記》第四十八回「八仙東遊過海」（明）, url: 'https://zh.wikisource.org/wiki/東遊記/第48回'}
+- id: idiom-hualong-dianjing
+  category: 英文單字與成語
+  title: 畫龍點睛
+  cards: [beast-dragon, beast-fenghuang]
+  what: 教育部《成語典》說，「畫龍點睛」比喻畫畫或寫文章時，在最重要的地方加上一筆，讓整體變得生動傳神。辭典引《拾遺記》：秦始皇時有位巧匠把龍和鳳畫得像要飛起來，卻從不點眼睛，因為據說點了眼睛就會飛走；又引唐代《歷代名畫記》，張僧繇畫了四條龍，點上兩條的眼睛後，那兩條就雷電交加、破壁飛去。
+  diff: 這裡的龍是「畫出來的龍」，故事的重點是畫家的功力，不是龍管不管雨。神話裡的龍（如《山海經》的應龍）則是會蓄水、能打仗的神獸。
+  status: 已查證
+  sources:
+    - {cite: 教育部《成語典》「畫龍點睛」, url: 'https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=382&webMd=1&la=1', accessed: '2026-11-21'}
+    - {cite: 《山海經·大荒北經》, url: 'https://zh.wikisource.org/wiki/山海經/大荒北經'}
+- id: idiom-yegong-haolong
+  category: 英文單字與成語
+  title: 葉公好龍
+  cards: [beast-dragon]
+  what: 教育部《成語典》說，「葉公好龍」比喻表面上喜歡某樣東西，其實只是似是而非、表裡不一。故事來自《莊子》逸文：葉公愛龍，家裡到處畫著龍；真龍來訪時，他卻嚇得逃走。原句是「葉公非好龍也，好夫似龍而非龍也」。
+  diff: 故事把龍寫成真的會降臨人間的神獸，重點卻是在諷刺人言行不一，並不是在談龍本身。辭典也註明這則故事不在今本《莊子》裡，是靠《太平御覽》保存下來的。
+  status: 已查證
+  sources:
+    - {cite: 教育部《成語典》「葉公好龍」, url: 'https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=486&webMd=2&la=1', accessed: '2026-11-21'}
+    - {cite: 《山海經·大荒北經》, url: 'https://zh.wikisource.org/wiki/山海經/大荒北經'}
+- id: idiom-longfeng-chengxiang
+  category: 英文單字與成語
+  title: 龍鳳呈祥
+  cards: [beast-dragon, beast-fenghuang]
+  what: 教育部《成語典》說，「龍鳳呈祥」是吉祥話，指富貴吉利的徵兆或喜慶場合；辭典引清代小說《兒女英雄傳》第二十八回，說新郎當天特別風流俊俏，「這大約就叫作龍鳳呈祥了」。
+  diff: 龍和鳳在神話裡各是獨立的神獸：《山海經》的鳳皇像雞、羽毛五彩，龍則與雨水有關。把兩者湊成一對祝賀新婚的吉祥話，是後來才有的用法。
+  status: 已查證
+  sources:
+    - {cite: 教育部《成語典》「龍鳳呈祥」, url: 'https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=11438&webMd=1&la=1', accessed: '2026-11-21'}
+    - {cite: 《山海經·南山經》, url: 'https://zh.wikisource.org/wiki/山海經/南山經'}
+- id: idiom-fengmao-linjiao
+  category: 英文單字與成語
+  title: 鳳毛麟角
+  cards: [beast-fenghuang, beast-qilin]
+  what: 教育部《成語典》說，「鳳毛麟角」比喻稀罕珍貴的人或東西；辭典說它是兩個詞後來合在一起：「鳳毛」出自《世說新語·容止》，「麟角」出自魏國蔣濟〈萬機論〉的「學者如牛毛，成者如鱗角」。
+  diff: 鳳凰和麒麟在古書裡都是只在太平盛世才現身的瑞獸，很難見到，這正是成語「稀罕」的來源。《左傳》記魯哀公十四年有人獵到麟，孔子看了很傷心。成語只取「難得一見」，沒有故事裡的傷感。
+  status: 已查證
+  sources:
+    - {cite: 教育部《成語典》「鳳毛麟角」, url: 'https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=476&webMd=2&la=1', accessed: '2026-11-21'}
+    - {cite: 《左傳·哀公十四年》（據《春秋左傳事類始末》四庫全書本卷五所錄）, url: 'https://zh.wikisource.org/wiki/春秋左傳事類始末_(四庫全書本)/卷5'}
+- id: idiom-wangyang-xingtan
+  category: 英文單字與成語
+  title: 望洋興嘆
+  cards: [god-hebo]
+  what: 教育部《成語典》說，「望洋興嘆」原本是仰望廣大的海洋而感嘆，後來用來表示面對事情無能為力。辭典標明典故出自《莊子·秋水》，並註解「河伯：古代傳說中的黃河水神」。
+  diff: 《莊子·秋水》裡的河伯本來「欣然自喜」，以為天下的美都在自己這裡，走到北海才驚覺自己的渺小。成語後來偏向「無能為力」，原來「見到大的才知道自己小」這層意思反而淡了。
+  status: 已查證
+  sources:
+    - {cite: 教育部《成語典》「望洋興嘆」, url: 'https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=918&webMd=2&la=1', accessed: '2026-11-21'}
+    - {cite: 《莊子·秋水》（戰國）, url: 'https://zh.wikisource.org/wiki/莊子/秋水'}
+- id: taotie-bronze-motif
+  category: 名畫與雕塑
+  title: 青銅器上的饕餮紋
+  cards: [monster-four-fiends]
+  what: 大英百科說，「饕餮」（貪吃者）這個名字至遲在西元前三世紀就用來稱呼青銅器上的獸面紋，大概因為牠看起來像一直在吞食的野獸；這種紋飾在商代和西周早期最常見，出現在祭祀用的青銅器上。
+  diff: 《左傳》裡的饕餮原本是一個壞家族的名字，後來才被《山海經》《神異經》寫成吃人的怪獸；青銅器上的紋飾比這些名字早很多，是後人借用「饕餮」這個名字稱呼它。
+  status: 已查證
+  sources:
+    - {cite: 大英百科「taotie」, url: 'https://www.britannica.com/art/taotie', accessed: '2026-11-21'}
+    - {cite: 《左傳·文公十八年》（據《春秋左傳事類始末》四庫全書本卷一所錄）, url: 'https://zh.wikisource.org/wiki/春秋左傳事類始末_(四庫全書本)/卷1'}
+- id: kirin-beer-qilin
+  category: 品牌與企業
+  title: 麒麟啤酒（Kirin）與聖獸麒麟
+  cards: [beast-qilin]
+  what: 日本麒麟啤酒（Kirin）官方網站說，標籤上的「聖獸麒麟」是集團的象徵，被當成會替人帶來幸福的生物；這個圖案最早出現在 1888 年的「キリンビール」標籤上，據說是荘田平五郎提議：既然東方有麒麟這種聖獸，就拿來當商標。網站還說，日語的「キリン」也是長頸鹿的名字，1907 年上野動物園迎來長頸鹿時才取了這個名。
+  diff: 網站說麒麟是中國自古相傳、會在喜事前出現的「仁獸」。本站的麒麟卡說，古書裡的麟只在聖人在世、天下太平時現身，明代永樂十二年孟加拉國王獻上的長頸鹿，朝廷也把牠當成麒麟。啤酒標籤取的是「吉祥」這一層，和古書裡「麟出現、孔子傷心」那一段無關。
+  status: 已查證
+  sources:
+    - {cite: 'キリン「キリングループの歴史：ラベルに描かれた「聖獣麒麟」とは？」（キリンジャーナル，2025-03-24）', url: 'https://www.kirin.co.jp/journal/others/stories/20250324_01/', accessed: '2026-11-21'}
+    - {cite: 《禮記·禮運》（四靈：麟、鳳、龜、龍）, url: 'https://zh.wikisource.org/wiki/禮記/禮運'}
+- id: wukong-dampe-satellite
+  category: 天文與太空
+  title: 悟空號暗物質粒子探測衛星
+  cards: [hero-sun-wukong, story-journey-west]
+  what: 中新網報導，2015 年 12 月 16 日在酒泉公布，中國的暗物質粒子探測衛星命名為「悟空」。中國科學院國家空間科學中心說，名字有「領悟、探索太空」的意思；研究人員還說孫悟空的火眼金睛，就像衛星上的探測器，能在太空裡認出暗物質的蹤跡。
+  diff: 《西遊記》裡的孫悟空學會七十二變和觔斗雲、大鬧天宮，衛星則是一台偵測暗物質粒子的儀器；兩者只共用「看穿」這個比喻。報導說名字也有提高大眾對空間科學的興趣、鼓勵青少年探索未知的用意。
+  status: 已查證
+  sources:
+    - {cite: 中新網〈中國暗物質粒子探測衛星命名「悟空」〉（2015-12-16）, url: 'https://www.chinanews.com.cn/m/gn/2015/12-16/7674365.shtml', accessed: '2026-11-21'}
+    - {cite: 吳承恩《西遊記》第一、二、三、四、七、十四、一百回（明）, url: 'https://zh.wikisource.org/wiki/西遊記/第001回'}
+- id: keelung-zhongyuan-festival
+  category: 台灣生活
+  title: 基隆的雞籠中元祭
+  cards: [story-mulian, god-sanguan]
+  what: 內政部「臺灣宗教文化地圖」說，基隆的雞籠中元祭在 2008 年被指定為國家重要民俗，各姓氏輪流主辦，活動集中在農曆七月十三到十五日，包括放水燈遊行和十五日的中元普渡。頁面寫「中元節是地官赦罪之日」，十五日貼出的紅榜也寫著要昭告「中元地官大帝」；又說「盂蘭盆」這個詞和佛經裡目連救母的故事有關，佛教稱十五日為盂蘭盆節、道教稱為中元節。
+  diff: 《佛說盂蘭盆經》講的是目連要在七月十五日供養眾僧才救得了母親，並沒有「普渡孤魂」；南宋《夢粱錄》則把七月十五寫成「中元地官赦罪之辰」。今天的中元祭是佛、道兩套說法疊在同一天：佛教誦經放焰口，道士用牲禮果品普渡孤魂。
+  status: 已查證
+  sources:
+    - {cite: 內政部「臺灣宗教文化地圖：鷄籠中元祭」, url: 'https://taiwangods.moi.gov.tw/html/cultural/3_0011.aspx?i=4', accessed: '2026-11-21'}
+    - {cite: 竺法護譯《佛說盂蘭盆經》（西晉；維基文庫所收版本署名如此）, url: 'https://zh.wikisource.org/wiki/佛說盂蘭盆經'}
+    - {cite: 吳自牧《夢粱錄》卷一、卷四、卷六（南宋）, url: 'https://zh.wikisource.org/wiki/夢粱錄/卷04'}
+- id: hualien-shengan-wangmu
+  category: 台灣生活
+  title: 花蓮勝安宮王母娘娘遶境
+  cards: [god-xiwangmu, god-erlang]
+  what: 國家文化記憶庫說，花蓮勝安宮的王母娘娘遶境，由廟出發，經吉安鄉、秀林鄉、新城鄉和花蓮市再回到廟裡，目的是「渡化沿途孤魂野鬼，淨化轄區達合境平安」；有三年一次的小規模遶境和五年一次的全縣大遶境。隊伍的順序依次是順天聖母、王三娘、二郎神、齊天大聖，最後才是王母娘娘。
+  diff: 《山海經》裡的西王母是豹尾虎齒、掌管災厲的神，今天的王母娘娘是被供奉在廟裡、替地方求平安的女神；二郎神、齊天大聖也只是遶境隊伍裡的陪祀神明，和神話裡的故事沒有關係。這段資料沒有說明他們各自的來歷。
+  status: 已查證
+  sources:
+    - {cite: 文化部國家文化記憶庫「花蓮勝安宮王母娘娘遶境活動」, url: 'https://tcmb.culture.tw/zh-tw/detail?indexCode=Culture_Place&id=289751', accessed: '2026-11-21'}
+    - {cite: 《山海經·西山經》, url: 'https://zh.wikisource.org/wiki/山海經/西山經'}
+- id: dujiangyan-erwang-temple
+  category: 台灣生活
+  title: 都江堰與二王廟
+  cards: [god-erlang]
+  what: 聯合國教科文組織說，青城山—都江堰是世界遺產；約在西元前 256 年由秦國蜀郡守李冰主持興建都江堰，遺產範圍裡的青城山有十一座重要道觀，其中包括二王廟。
+  diff: 教科文組織的頁面只把二王廟列為遺產的一部分，沒有說廟裡祭的是誰。本站二郎神卡整理過：四川灌口的治水神有李冰之子、隋代趙昱、小說裡的楊戩三種來歷，哪一個才是廟裡的主角，要看各書怎麼說，這個頁面無法回答。
+  status: 已查證
+  sources:
+    - {cite: 聯合國教科文組織世界遺產「Mount Qingcheng and the Dujiangyan Irrigation System」, url: 'https://whc.unesco.org/en/list/1001', accessed: '2026-11-21'}
+    - {cite: 司馬遷《史記·河渠書》卷二十九（西漢）, url: 'https://zh.wikisource.org/wiki/史記/卷029'}
+- id: electro-third-prince
+  category: 台灣生活
+  title: 電音三太子
+  cards: [god-nezha]
+  what: 國家文化記憶庫說，電音三太子是把「三太子」的民俗形象、戰舞和電子音樂結合起來的表演，把三太子從廟會陣頭搬上舞台、當成藝術表演；最早源自嘉義朴子太子會，由熱舞社的大學生把三太子和戰舞結合，被外國媒體報導後一炮而紅。
+  diff: 這份資料只講表演形式，沒有說三太子是哪位神明。本站哪吒卡說，台灣廟裡的「太子爺」「中壇元帥」就是哪吒；《封神演義》裡的哪吒是剔骨還父、蓮花化身的少年，電音三太子則是跳舞的藝陣，兩者只共用同一位神明的形象。
+  status: 已查證
+  sources:
+    - {cite: 文化部國家文化記憶庫「電音三太子 發揚民俗傳統」, url: 'https://tcmb.culture.tw/zh-tw/detail?id=748962&indexCode=Culture_Media', accessed: '2026-11-21'}
+    - {cite: 陳仲琳《封神演義》第十二回〈陳塘關哪吒出世〉（明）, url: 'https://zh.wikisource.org/wiki/封神演義/卷012'}
+- id: tiangong-birthday-hsinchu
+  category: 台灣生活
+  title: 天公生（正月初九）
+  cards: [god-jade-emperor]
+  what: 中央社發布的新竹市政府新聞稿說，2025 年 2 月 6 日是農曆正月初九，也就是玉皇大帝聖誕、民間所說的「天公生」；代理市長和民政處長到新竹的天公壇與富美宮上香，祈求「風調雨順、國泰民安」。
+  diff: 《三教源流搜神大全》引《宋真宗實錄》說，宋代朝廷才正式替玉皇上聖號；《西遊記》裡的玉帝則坐在靈霄寶殿被孫悟空鬧事。今天台灣人叫他「天公」，在他生日當天由官員與信徒一起上香祈福，是把這位天庭之主變成地方的守護對象。這份新聞稿是市府發布的稿子，不是對信仰歷史的研究。
+  status: 已查證
+  sources:
+    - {cite: 中央社「正月初九天公生　邱臣遠代理市長赴天公壇及富美宮祝壽　祈福市民安康市政順遂」（新竹市政府新聞稿，2025-02-06）, url: 'https://www.cna.com.tw/postwrite/chi/393782', accessed: '2026-11-21'}
+    - {cite: 《三教源流搜神大全》卷一「玉皇上帝」（引《宋真宗實錄》）, url: 'https://zh.wikisource.org/wiki/三教源流搜神大全/卷一'}
+- id: changbin-xuantian-shangdi
+  category: 台灣生活
+  title: 台東長濱保安宮的玄天上帝聖誕
+  cards: [god-xuanwu]
+  what: 國家文化記憶庫說，台東縣長濱鄉忠勇村保安宮主祀玄天上帝，遶境日期在農曆三月三日，也就是玄天上帝生日。由廟方委員和爐主規劃，可以選擇去外地進香、遶境、過火，或只在廟裡祭拜；當地乩童會在廟裡起乩傳達神明的決定。
+  diff: 南宋《夢粱錄》寫杭州三月三日是「北極佑聖真君」聖誕，可見三月初三作為玄天上帝生日在宋代就有紀錄；本站玄武卡說他本來是天上北方七宿「玄武」。今天長濱的做法是由神明（透過乩童）決定怎麼慶祝，不是照固定行程表。
+  status: 已查證
+  sources:
+    - {cite: 文化部國家文化記憶庫「玄天上帝聖誕」, url: 'https://tcmb.culture.tw/zh-tw/detail?id=223959&indexCode=Culture_Event', accessed: '2026-11-21'}
+    - {cite: 吳自牧《夢粱錄》卷二（南宋）, url: 'https://zh.wikisource.org/wiki/夢粱錄/卷02'}
+- id: takamatsuzuka-four-symbols
+  category: 名畫與雕塑
+  title: 日本高松塚古墳的四神壁畫
+  cards: [beast-four-symbols]
+  what: 日本國營飛鳥歷史公園的介紹說，奈良縣明日香村的高松塚古墳建於七世紀末到八世紀初，2005 年的發掘把興建年代定在藤原京時期（694–710 年），壁畫在 1972 年被發現。石室東壁畫著青龍和上方的太陽，西壁是白虎和上方的月亮，北壁是玄武；頁面的比較表也把朱雀列為高松塚的四神像之一。
+  diff: 中國古書裡四神是天上四大區星宿的圖像（《史記·天官書》有「東宮蒼龍」「南宮朱鳥」「北宮玄武」），後來用在墓葬與建築上。高松塚把它們畫在墓室牆壁上，是這套方位觀念傳到日本以後的樣子；介紹頁沒有說明日本人是怎麼接受這套說法的。
+  status: 已查證
+  sources:
+    - {cite: 國營飛鳥歷史公園「高松塚古墳」, url: 'https://www.asuka-park.jp/area/takamatsuzuka/tumulus/', accessed: '2026-11-21'}
+    - {cite: 司馬遷《史記·天官書》（西漢）, url: 'https://zh.wikisource.org/wiki/史記/卷027'}
+- id: shennong-taiwan-temples
+  category: 台灣生活
+  title: 台灣的神農大帝廟
+  cards: [god-shennong]
+  what: 內政部「宗教知識＋」說，神農大帝的生日是農曆四月二十六日，各地廟宇常在這天舉辦慶典，有些成為地方大事；台灣很早就有信仰，臺南有一座 1646 年建的廟至今還在，1918 年約有六十座神農廟，現在估計約 150 座。頁面也說他是文化神、農業神也是醫藥神，許多中藥商把他當作守護神。
+  diff: 《淮南子·脩務訓》把神農寫成教人種田、嘗百草的人；台灣的信仰把這兩個身分接起來，農民和藥商各自把他當成自己行業的守護神。頁面說的年代與數量是內政部的整理，不是對每座廟的逐一統計。
+  status: 已查證
+  sources:
+    - {cite: 內政部「宗教知識＋：宗教神祇　神農大帝（Shen Nong dadi）」, url: 'https://religion.moi.gov.tw/Knowledge/Content?ci=2&cid=260', accessed: '2026-11-21'}
+    - {cite: 《淮南子·脩務訓》（西漢，劉安主編）, url: 'https://zh.wikisource.org/wiki/淮南子/脩務訓'}
+- id: wenchang-exam-prayer
+  category: 台灣生活
+  title: 考前拜文昌帝君
+  cards: [god-wenchang]
+  what: 內政部移民署「新住民全球新聞網」2024 年學測前的一篇生活指南說，文昌帝君（也叫梓潼帝君、文昌公）是「主掌考試、功名與升遷的神明」，考生到廟裡祭拜時，要報上姓名、生日、地址和考試名稱、考場、准考證號碼；文章列出台北市文昌宮、新莊文昌祠、桃園文昌宮、新竹文林閣、苗栗文昌祠，並強調成績還是要靠自己準備。這是民間習慣的介紹文章，不是官方規定。
+  diff: 「文昌」本來是天上斗魁旁的六顆星，「梓潼神」本來是四川的地方神，兩者合起來才成為文昌帝君；南宋《夢粱錄》已經記載二月初三是梓潼帝君誕辰。今天的新做法是考生帶准考證影本去廟裡報考試資訊，這是古書裡沒有的。
+  status: 已查證
+  sources:
+    - {cite: 內政部移民署新住民全球新聞網「拜文昌帝君超靈驗！全攻略助考生順利過關斬將」（2024-10-16）, url: 'https://news.immigration.gov.tw/NewsSection/Detail/855AF2EC-6174-47DB-8F94-BCE6BB28D7E1?lang=TW&topic=onetouch', accessed: '2026-11-21'}
+    - {cite: 吳自牧《夢粱錄》卷十九（南宋）, url: 'https://zh.wikisource.org/wiki/夢粱錄/卷19'}
+- id: luoshen-fu-scroll
+  category: 名畫與雕塑
+  title: 洛神賦圖（北宋摹本）
+  cards: [god-luoshen]
+  what: 香港故宮文化博物館「每日一文物」介紹的〈洛神賦圖〉，畫的是曹植《洛神賦》裡他與洛水女神從邂逅到分離的情景；畫上不寫賦文，用連續的構圖畫出多幕場景。這件作品一般被認為是北宋摹本，常和東晉顧愷之連在一起，但不是顧愷之的原作；它清代進了宮廷，1922 年由溥儀賜給溥傑，後來進入北京故宮博物院。
+  diff: 屈原〈離騷〉裡的宓妃是拒絕求愛的傲慢女神，曹植把她寫成最美的水中仙女，畫家再把賦變成長卷。圖裡的洛神是畫家對文字的想像，不是古老的神話造像。
+  status: 已查證
+  sources:
+    - {cite: 香港故宮文化博物館「每日一文物：洛神賦圖（北宋摹本）」, url: 'https://www.ourchinastory.com/zh/4308', accessed: '2026-11-21'}
+    - {cite: 曹植〈洛神賦〉（曹魏黃初三年，西元 222 年）, url: 'https://zh.wikisource.org/wiki/洛神賦'}
+- id: ich-three-legends
+  category: 文學
+  title: 白蛇傳、梁祝、孟姜女：國家級非物質文化遺產
+  cards: [story-white-snake, story-liangzhu, story-mengjiangnu]
+  what: 中國國務院 2006 年 5 月 20 日公布的第一批國家級非物質文化遺產名錄（國發〔2006〕18 號），民間文學類收有「白蛇傳傳說」（江蘇鎮江、浙江杭州申報）、「梁祝傳說」（浙江寧波、杭州、上虞，江蘇宜興，山東濟寧，河南汝南申報）和「孟姜女傳說」（山東淄博申報）。
+  diff: 名錄把它們當成各地流傳的民間傳說來保護，沒有訂出標準版本。本站各卡查到的最早文字也不一樣：白蛇故事在唐代是吃人的蛇妖，明代《警世通言》才有雷峰塔；梁祝完整文字見明代《喻世明言》；孟姜女最早的底子是《左傳》裡拒絕在郊外受弔的杞梁之妻。申報地不只一處，也代表各地都說故事發生在自己那裡。
+  status: 已查證
+  sources:
+    - {cite: 中國政府網《國務院關於公布第一批國家級非物質文化遺產名錄的通知》（國發〔2006〕18 號，2006-05-20）, url: 'http://big5.www.gov.cn/gate/big5/www.gov.cn/gongbao/content/2006/content_334718.htm', accessed: '2026-11-21'}
+    - {cite: 馮夢龍《警世通言》第二十八卷〈白娘子永鎮雷峰塔〉（明代）, url: 'https://zh.wikisource.org/wiki/警世通言/第28卷'}
+    - {cite: 馮夢龍《喻世明言》第二十八卷〈李秀卿義結黃貞女〉開頭（明代）, url: 'https://zh.wikisource.org/wiki/喻世明言/第28卷'}
+    - {cite: 劉向《列女傳》卷四〈齊杞梁妻〉（西漢）, url: 'https://zh.wikisource.org/wiki/列女傳/卷4'}
+- id: nasu-sesshoseki
+  category: 台灣生活
+  title: 日本那須的殺生石與九尾狐
+  cards: [beast-ninetail-fox]
+  what: 日本栃木縣那須町的官方頁面說，殺生石是「白面金毛九尾狐」傳說的地點：九尾狐從天竺（印度）、唐（中國）飛來，變成美女玉藻前，成為鳥羽院的愛妃；被陰陽師識破後逃到那須野，被追殺後身體變成會冒毒氣的石頭，後來源翁和尚一喝，石頭裂成三塊。這處地點在 2014 年被指定為日本國家史跡。
+  diff: 頁面說這個故事以平安時代為背景，但文獻上最早出現在 1445 年（室町時代）的《下學集》。《山海經》裡的九尾狐是青丘山上叫聲像嬰兒、會吃人的野獸，人吃了牠的肉就不會被妖邪迷惑；變成美女迷惑君王，是後來傳說才加上的。
+  status: 已查證
+  sources:
+    - {cite: 日本栃木縣那須町「殺生石」, url: 'https://www.town.nasu.lg.jp/0000/info-0000003817-1.html', accessed: '2026-11-21'}
+    - {cite: 《山海經·南山經》, url: 'https://zh.wikisource.org/wiki/山海經/南山經'}
+- id: kunlun-station-antarctica
+  category: 天文與太空
+  title: 南極崑崙站
+  cards: [place-kunlun]
+  what: 中國極地研究中心說，南極崑崙站是中國第一座南極內陸夏季科學考察站，2009 年 1 月 27 日建成，位在南極內陸冰蓋最高處的冰穹 A（Dome A）一帶，海拔 4087 公尺，離中山站直線距離 1260 公里。
+  diff: 頁面沒有說明為什麼叫「崑崙」。本站崑崙卡說，神話裡的崑崙是天帝在人間的都城，今天地圖上的崑崙山脈則是漢武帝依古書替河源之山命的名；「南極站取名來自崑崙」只是合理的聯想，所以本條標示為說法未證實。
+  status: 說法未證實
+  sources:
+    - {cite: 中國極地研究中心「Antarctic Kunlun Station」, url: 'https://en.pric.org.cn/index.php?c=category&id=96', accessed: '2026-11-21'}
+    - {cite: 司馬遷《史記·大宛列傳》（漢武帝替河源之山命名崑崙）, url: 'https://zh.wikisource.org/wiki/史記/卷123'}
+- id: cangjie-input-method
+  category: 科學與醫學
+  title: 倉頡輸入法
+  cards: [hero-cangjie]
+  what: 台灣常用的中文輸入法「倉頡」，依 ecj.hk 的介紹，是朱邦復在 1976 年創製的：把漢字拆成少量字形部件，完成後「以傳說中的造字者命名為倉頡」。這個網站是民間整理的資料，不是官方文件，所以本條只採它說的創製人、年份與命名由來。
+  diff: 傳說裡倉頡造字時「天雨粟，鬼夜哭」；這套輸入法只是借用他的名字，拆字的方法是現代人設計的。同一頁也提醒，歷史學者認為漢字是長時間慢慢發展的，不是一個人造出來的。
+  status: 已查證
+  sources:
+    - {cite: ecj.hk〈倉頡輸入法的歷史：朱邦復與倉頡造字的傳說〉, url: 'https://ecj.hk/zh/guides/history-of-cangjie/', accessed: '2026-11-21'}
+    - {cite: 大英百科「Ts’ang Chieh」, url: 'https://www.britannica.com/biography/Tsang-Chieh'}
+    - {cite: 《淮南子·本經訓》（西漢，劉安主編）, url: 'https://zh.wikisource.org/wiki/淮南子/本經訓'}
+- id: mid-autumn-picture-book
+  category: 文學
+  title: 繪本《射日．奔月：中秋的故事》
+  cards: [hero-houyi, story-houyi-suns]
+  what: 文化部兒童文化館收錄的繪本《射日．奔月：中秋的故事》（劉思源文、劉宗慧圖，親子天下，2013 年 8 月出版），簡介說這是「一個關於中秋的傳說」：天上出現十個太陽，后羿「一連射下了九個太陽」，後來嫦娥面對丈夫變成禍害的難題，要決定長生藥怎麼處理。
+  diff: 《淮南子》只寫「上射十日」，沒有說留一個；王逸注〈天問〉才有「射中九個、留一個」的說法，今天流行的就是這個版本。繪本把射日和嫦娥奔月接成一個中秋的故事，這是現代給孩子看的整合。簡介沒有提到嫦娥奔月的細節。
+  status: 已查證
+  sources:
+    - {cite: 文化部兒童文化館「射日．奔月：中秋的故事」（親子天下，2013）, url: 'https://children.moc.gov.tw/book/219137', accessed: '2026-11-21'}
+    - {cite: 《淮南子·本經訓》（西漢，劉安主編）, url: 'https://zh.wikisource.org/wiki/淮南子/本經訓'}
+    - {cite: 王逸《楚辭章句·天問》注（東漢）, url: 'https://zh.wikisource.org/wiki/楚辭章句/卷03'}

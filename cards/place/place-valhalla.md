@@ -24,6 +24,7 @@ sources:
   - {id: s5, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 34、49 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning31-40.htm'}
   - {id: s6, kind: ancient, cite: 《詩體埃達》〈瓦夫蘇魯特尼爾之歌〉第 41 節、〈女先知的預言〉第 43 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
   - {id: s7, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 2 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning1-10.htm'}
+today: [valhalla-word, assassins-creed-valhalla]
 era: no-world
 topics: [死後世界, 戰爭]
 ---

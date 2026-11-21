@@ -30,6 +30,7 @@ disputed:
     views:
       - {view: 〈女先知的預言〉第 2 節只說有「九個世界」，沒有名單；Bellows 註解說第九個是哪一個並不確定。, src: [s1]}
       - {view: World History Encyclopedia：九界名單主要來自斯諾里，原本的九個很可能不一樣。, src: [s2]}
+today: [marvel-heimdall]
 era: no-world
 topics: [創世]
 ---

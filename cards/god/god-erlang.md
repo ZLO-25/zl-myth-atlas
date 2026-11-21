@@ -30,6 +30,7 @@ disputed:
       - {view: 李冰的兒子，在灌口與父親一同受祭, src: [s2]}
       - {view: 隋朝嘉州太守趙昱，斬蛟除害，宋代封清源妙道真君, src: [s3]}
       - {view: 《西遊記》說他姓楊；《封神演義》才有楊戩這個名字, src: [s4, s5]}
+today: [hualien-shengan-wangmu, dujiangyan-erwang-temple]
 era: cn-novels
 topics: [民間信仰, 小說與戲曲]
 ---

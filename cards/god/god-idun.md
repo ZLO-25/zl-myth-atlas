@@ -36,6 +36,7 @@ disputed:
     views:
       - {view: 斯諾里：洛基把她變成一顆堅果，抓在爪子裡飛回去。, src: [s2]}
       - {view: 大英百科：變成堅果，不過有些說法是麻雀。, src: [s7]}
+today: [idunn-mons-venus]
 era: no-gods
 topics: [智慧與詭計, 季節與農業]
 ---

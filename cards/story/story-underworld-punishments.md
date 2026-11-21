@@ -38,6 +38,7 @@ disputed:
       - {view: 大英百科：他綁住死神，騙過死亡。, src: [s6]}
 causes:
   - {id: place-underworld, rel: 背景, why: 這些刑罰都發生在冥界。, src: [s1]}
+today: [sisyphean-word, tantalize-word]
 era: olympian
 topics: [傲慢與懲罰, 死後世界, 冥界之旅]
 ---

@@ -43,6 +43,7 @@ disputed:
       - {view: 阿波羅尼奧斯：美狄亞騙弟弟上岸，伊阿宋從埋伏處跳出來殺他，她用面紗遮住眼睛。, src: [s2]}
 causes:
   - {id: hero-jason, rel: 直接引發, why: 伊阿宋要另娶科林斯公主，她才報復。, src: [s1, s4]}
+today: [medea-adaptations]
 era: heroes
 topics: [愛與慾望, 冒險與試煉, 家族詛咒]
 ---

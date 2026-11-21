@@ -29,6 +29,7 @@ sources:
 causes:
   - {id: god-dionysus, rel: 直接引發, why: 酒神答應米達斯許願，才有點石成金。, src: [s1]}
   - {id: god-apollo, rel: 直接引發, why: 阿波羅因為米達斯不服判決，把他的耳朵變成驢耳。, src: [s1]}
+today: [midas-touch]
 era: olympian
 topics: [傲慢與懲罰, 變形, 神的嫉妒]
 ---

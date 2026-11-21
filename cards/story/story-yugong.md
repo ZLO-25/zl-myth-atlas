@@ -23,6 +23,7 @@ sources:
   - {id: s2, kind: ancient, cite: 《欽定四庫全書·列子》提要（清，紀昀等，乾隆四十三年）, url: 'https://zh.wikisource.org/wiki/列子_(四庫全書本)'}
   - {id: s3, kind: modern, cite: E. T. C. Werner《Myths and Legends of China》（1922，Project Gutenberg）, url: 'https://www.gutenberg.org/ebooks/15250', accessed: '2026-11-16'}
   - {id: s4, kind: modern, cite: Herbert A. Giles《A History of Chinese Literature》（1901，Project Gutenberg）, url: 'https://www.gutenberg.org/ebooks/43711', accessed: '2026-11-16'}
+today: [idiom-yugong-yishan]
 era: cn-world
 topics: [冒險與試煉]
 disputed:

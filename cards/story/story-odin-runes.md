@@ -25,6 +25,7 @@ sources:
   - {id: s3, kind: ancient, cite: 斯諾里《散文埃達》〈欺騙古魯菲〉第 15 章（Brodeur 英譯）, url: 'https://www.voluspa.org/gylfaginning11-20.htm'}
   - {id: s4, kind: modern, cite: World History Encyclopedia「Odin」, url: 'https://www.worldhistory.org/Odin/', accessed: '2026-11-16'}
   - {id: s5, kind: modern, cite: 大英百科「runic alphabet」, url: 'https://www.britannica.com/topic/runic-alphabet', accessed: '2026-11-16'}
+today: [rune-word, bluetooth-logo]
 era: no-gods
 topics: [智慧與詭計, 預言]
 ---

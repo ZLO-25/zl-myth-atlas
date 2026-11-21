@@ -30,6 +30,7 @@ sources:
   - {id: s5, kind: ancient, cite: 《詩體埃達》〈格里姆尼爾之歌〉第 44 節與〈洛基的爭辯〉第 23 節註解、〈欣德拉之歌〉第 42 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
   - {id: s6, kind: ancient, cite: 斯諾里《散文埃達》〈詩語法〉第 23–24 章（Brodeur 英譯）, url: 'https://www.voluspa.org/skaldskaparmal21-30.htm'}
   - {id: s7, kind: ancient, cite: 《沃爾松格薩迦》第 13 章（Morris 與 Magnússon 英譯）, url: 'https://www.gutenberg.org/ebooks/1152'}
+today: [sscv-sleipnir]
 era: no-gods
 topics: [怪物, 冥界之旅]
 ---

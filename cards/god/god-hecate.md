@@ -40,7 +40,7 @@ disputed:
     views:
       - {view: 赫西俄德：她是受宙斯尊崇的泰坦，在天、地、海都有權力，沒有說她屬於冥界。, src: [s1]}
       - {view: 古代辭典：她成為冥界神明這一點，要到希臘悲劇作家時代才出現，後來的作家則普遍這樣說。, src: [s6]}
-today: []
+today: [macbeth-hecate]
 era: titans
 topics: [冥界之旅, 預言]
 ---

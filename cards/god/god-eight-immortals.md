@@ -24,6 +24,7 @@ sources:
   - {id: s3, kind: ancient, cite: 《太平廣記》卷三十「張果」、卷二十二「藍采和」（北宋，李昉等）, url: 'https://zh.wikisource.org/wiki/太平廣記/卷第030'}
   - {id: s4, kind: ancient, cite: 范致明《岳陽風土記》（北宋）, url: 'https://zh.wikisource.org/wiki/岳陽風土記'}
   - {id: s5, kind: modern, cite: 大英百科「Baxian」, url: 'https://www.britannica.com/topic/Baxian', accessed: '2026-11-16'}
+today: [idiom-baxian-guohai]
 era: cn-immortals
 topics: [民間信仰, 小說與戲曲]
 ---

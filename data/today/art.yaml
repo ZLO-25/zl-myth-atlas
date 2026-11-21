@@ -13,7 +13,7 @@
 - id: apollo-daphne-statue
   category: 名畫與雕塑
   title: 貝尼尼〈阿波羅與達芙妮〉
-  cards: [god-apollo]
+  cards: [god-apollo, story-apollo-daphne]
   what: 羅馬博爾蓋塞美術館的大理石雕像，凍結了達芙妮正在變成月桂樹的瞬間。
   diff: 雕像照著奧維德的描寫：頭髮變成樹葉、手臂變成樹枝、腳變成樹根、樹皮包住胸口。奧維德寫的是少女寧可失去人形也要拒絕追求者，雕像卻讓許多觀眾只看到美。
   status: 已查證

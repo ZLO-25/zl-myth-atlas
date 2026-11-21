@@ -32,6 +32,7 @@ disputed:
     views:
       - {view: 《山海經·南山經》：會吃人的野獸；〈東山經〉另有九尾九首的蠪姪，也吃人。, src: [s1, s5]}
       - {view: 《白虎通》與《禮記正義》引緯書：天子德行至，九尾狐就出現，是祥瑞；《吳越春秋》裡牠是禹將為王的徵兆。, src: [s6, s7, s8]}
+today: [nasu-sesshoseki]
 era: cn-world
 topics: [怪物, 變形]
 ---

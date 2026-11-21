@@ -32,6 +32,7 @@ causes:
   - {id: story-trojan-war, rel: 背景, why: 他是特洛伊一方的主將，《伊利亞德》的後半部圍著他的死展開。, src: [s4]}
 effects:
   - {id: hero-achilles, rel: 回應, why: 阿基里斯為替帕特羅克洛斯報仇殺了他，又在老王求情後歸還遺體。, src: [s2, s3]}
+today: [hector-verb]
 era: trojan-war
 topics: [戰爭, 宿命]
 ---

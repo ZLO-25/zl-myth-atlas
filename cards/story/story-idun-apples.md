@@ -26,6 +26,7 @@ sources:
   - {id: s3, kind: ancient, cite: 斯諾里《散文埃達》〈詩語法〉第 3–4 節（Brodeur 英譯）, url: 'https://www.voluspa.org/skaldskaparmal1-10.htm'}
   - {id: s4, kind: ancient, cite: 《詩體埃達》〈索列姆之歌〉第 3–4 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
   - {id: s5, kind: modern, cite: World History Encyclopedia「Frigg」, url: 'https://www.worldhistory.org/Frigg/', accessed: '2026-11-16'}
+today: [idunn-mons-venus]
 era: no-gods
 topics: [智慧與詭計]
 ---

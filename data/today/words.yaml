@@ -71,7 +71,7 @@
 - id: tantalize-word
   category: 英文單字與成語
   title: tantalize（吊胃口）
-  cards: [place-underworld]
+  cards: [place-underworld, story-underworld-punishments]
   what: tantalize 是「看得到卻得不到、吊人胃口」，來自冥界裡受罰的國王坦塔洛斯。
   diff: 《奧德賽》裡，坦塔洛斯站在水中，一彎腰水就退去；頭頂掛著果實，一伸手風就把樹枝吹走。他受罰的原因古人說法不一，荷馬沒有交代。
   status: 已查證
@@ -81,7 +81,7 @@
 - id: herculean-word
   category: 英文單字與成語
   title: herculean（艱鉅的）
-  cards: [hero-heracles]
+  cards: [hero-heracles, story-heracles-labours]
   what: herculean task 是「艱鉅得像海克力斯的任務」。
   diff: 這個字用的是羅馬名 Hercules，不是希臘名 Herakles。海克力斯的任務，是在他發瘋殺子之後，神諭命他去完成的，不只是展現力氣。
   status: 已查證

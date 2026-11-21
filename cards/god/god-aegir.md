@@ -43,6 +43,7 @@ disputed:
     views:
       - {view: 〈洛基的爭辯〉的前言：埃吉爾又叫吉米爾。Bellows 註解說，別處的吉米爾是葛德的父親，是另一位巨人。, src: [s4]}
       - {view: 〈詩語法〉第 1 章：他又叫赫勒。, src: [s1]}
+today: [aegir-ran-exoplanet]
 era: no-gods
 topics: [智慧與詭計]
 ---

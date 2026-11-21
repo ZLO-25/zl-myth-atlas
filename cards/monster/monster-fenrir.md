@@ -45,6 +45,7 @@ disputed:
     views:
       - {view: 斯諾里：奧丁的兒子維達踩住牠的下顎，把牠撕開。, src: [s3]}
       - {view: 〈女先知的預言〉第 54 節：一劍刺進牠的心。, src: [s4]}
+today: [saturn-fenrir-moon]
 era: no-gods
 topics: [怪物, 宿命]
 ---

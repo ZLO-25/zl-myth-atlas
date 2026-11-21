@@ -26,6 +26,7 @@ sources:
   - {id: s3, kind: ancient, cite: 洪興祖《楚辭補註·離騷》引〈洛神賦〉注, url: 'https://zh.wikisource.org/wiki/楚辭補註/卷第一'}
   - {id: s4, kind: ancient, cite: 王逸《楚辭章句·天問》注, url: 'https://zh.wikisource.org/wiki/楚辭章句/卷03'}
   - {id: s5, kind: modern, cite: 美國史密森尼國立亞洲藝術博物館「Nymph of the Luo River」, url: 'https://asia-archive.si.edu/learn/for-educators/teaching-china-with-the-smithsonian/explore-by-object/nymph-of-the-luo-river/', accessed: '2026-11-16'}
+today: [luoshen-fu-scroll]
 era: cn-world
 topics: [愛與慾望]
 disputed:

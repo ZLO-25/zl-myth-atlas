@@ -43,7 +43,7 @@ disputed:
       - {view: 阿里斯托芬：夜神在厄瑞玻斯的深處下了一顆風蛋，厄洛斯從蛋裡生出。, src: [s2]}
       - {view: 西塞羅：愛是厄瑞玻斯與夜神之子。, src: [s4]}
       - {view: 後世詩人與藝術家：阿芙蘿黛蒂的兒子。, src: [s7]}
-today: []
+today: [erotic-word, eros-asteroid]
 era: olympian
 topics: [愛與慾望, 創世]
 ---

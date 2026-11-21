@@ -23,6 +23,7 @@ disputed:
     views:
       - {view: 《西遊記》本身沒有交代悟空的原型。, src: [s1]}
       - {view: 唐代傳說裡有形狀像猿猴的水怪無支祁（《太平廣記》〈李湯〉引《古岳瀆經》），但古書沒有說它就是悟空的原型。, src: [s3]}
+today: [wukong-dampe-satellite]
 era: cn-novels
 topics: [小說與戲曲, 冒險與試煉]
 ---

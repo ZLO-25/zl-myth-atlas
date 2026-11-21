@@ -38,6 +38,7 @@ sources:
   - {id: s5, kind: modern, cite: World History Encyclopedia「Cadmus」（Liana Miate，2023）, url: 'https://www.worldhistory.org/Cadmus/', accessed: '2026-11-16'}
 effects:
   - {id: story-oedipus, rel: 背景, why: 伊底帕斯是卡德摩斯的後代，故事發生在他建立的底比斯。, src: [s1, s3]}
+today: [cadmium-element]
 era: heroes
 topics: [冒險與試煉, 家族詛咒, 怪物]
 ---

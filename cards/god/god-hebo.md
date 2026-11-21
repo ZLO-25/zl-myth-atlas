@@ -27,6 +27,7 @@ sources:
   - {id: s7, kind: ancient, cite: 《莊子·大宗師》, url: 'https://zh.wikisource.org/wiki/莊子/大宗師'}
   - {id: s8, kind: ancient, cite: 干寶《搜神記》卷四, url: 'https://zh.wikisource.org/wiki/搜神記/第04卷'}
   - {id: s9, kind: modern, cite: 'La Brújula Verde「Ximen Bao」', url: 'https://www.labrujulaverde.com/en/2024/01/ximen-bao-hydraulic-engineer-created-china-first-irrigation-canal-system/', accessed: '2026-11-16'}
+today: [idiom-wangyang-xingtan]
 era: cn-world
 topics: [民間信仰, 洪水]
 disputed:

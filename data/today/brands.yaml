@@ -33,7 +33,7 @@
 - id: starbucks-siren
   category: 品牌與企業
   title: 星巴克的雙尾海妖
-  cards: [story-odyssey, hero-odysseus]
+  cards: [story-odyssey, hero-odysseus, monster-sirens]
   what: 星巴克綠色標誌中央是一位海妖（Siren）。官方說，設計師翻閱古老的航海書籍時，被一幅雙尾海妖的插圖吸引。
   diff: 《奧德賽》只寫海妖賽蓮的歌聲、沒寫她們的外形；古希臘陶瓶上則多畫成「女人頭、鳥身體」，用歌聲引誘水手送命；有魚尾巴的海妖是中世紀以後才流行的形象。
   status: 已查證

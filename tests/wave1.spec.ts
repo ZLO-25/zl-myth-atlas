@@ -90,7 +90,7 @@ test('第一波 4：搜尋容錯、搜內文、不相干的詞顯示找不到', 
   await expect(items.nth(0)).toContainText('阿芙蘿黛蒂');
   await expect(items.nth(1)).toContainText('波提且利');
   await box.fill('女媧');
-  await expect(items).toHaveCount(2);
+  await expect(items).toHaveCount(3); // 女媧、女媧補天（故事）、女媧補天（成語的今日影子）
   await expect(items.nth(0)).toContainText('女媧');
   await expect(items.nth(1)).toContainText('女媧補天');
   // 按 Enter 開第一筆

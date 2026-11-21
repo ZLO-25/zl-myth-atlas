@@ -25,6 +25,7 @@ sources:
   - {id: s4, kind: ancient, cite: 《明史·地理志》卷四十四「均州」, url: 'https://zh.wikisource.org/wiki/明史/卷44'}
   - {id: s5, kind: ancient, cite: 吳自牧《夢粱錄》卷二（南宋）, url: 'https://zh.wikisource.org/wiki/夢粱錄/卷02'}
   - {id: s6, kind: modern, cite: '亞洲藝術博物館（舊金山）館藏「The Daoist Deity Zhenwu, the Perfected Warrior」（明代瓷器）', url: 'https://searchcollection.asianart.org/objects/3071/the-daoist-deity-zhenwu-the-perfected-warrior', accessed: '2026-11-16'}
+today: [changbin-xuantian-shangdi]
 era: cn-immortals
 topics: [民間信仰, 小說與戲曲]
 ---

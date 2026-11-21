@@ -33,6 +33,7 @@ sources:
   - {id: s4, kind: ancient, cite: 吳承恩《西遊記》第四回〈官封弼馬心何足　名注齊天意未寧〉（明）, url: 'https://zh.wikisource.org/wiki/西遊記/第004回'}
   - {id: s5, kind: ancient, cite: 《太平廣記》卷九十二〈無畏〉所收「宣律師」故事，注明出自唐《開天傳信記》（宋）, url: 'https://zh.wikisource.org/wiki/太平廣記/卷第092'}
   - {id: s6, kind: modern, cite: 'Rex Wilson〈Chinese Folk Religion in Macao: Ritualism or Relief?〉，《文化雜誌》（Revista de Cultura）第 48 期（澳門文化局，2014）', url: 'http://www.icm.gov.mo/rc/viewer/pdfViewerParts/40048/2349', accessed: '2026-11-16'}
+today: [electro-third-prince]
 era: cn-novels
 topics: [小說與戲曲, 民間信仰]
 ---

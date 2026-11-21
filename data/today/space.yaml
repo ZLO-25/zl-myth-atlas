@@ -23,7 +23,7 @@
 - id: jupiter-moons
   category: 天文與太空
   title: 木星的四大衛星
-  cards: [god-zeus]
+  cards: [god-zeus, story-europa]
   what: 伽利略在 1610 年發現的木星四大衛星：埃歐（Io）、歐羅巴（Europa）、甘尼米德（Ganymede）、卡利斯多（Callisto）。
   diff: 這四個名字由馬里烏斯提議，取自詩人筆下朱比特（宙斯）追求過的對象，其中甘尼米德是特洛伊國王的兒子。神話中這些故事多半不是浪漫愛情，而是神對凡人的強迫。
   status: 已查證

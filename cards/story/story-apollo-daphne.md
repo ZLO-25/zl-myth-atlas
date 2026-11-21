@@ -22,6 +22,7 @@ panels:
 sources:
   - {id: s1, kind: ancient, cite: 奧維德《變形記》1.452–567, url: 'https://www.theoi.com/Text/OvidMetamorphoses1.html'}
   - {id: s2, kind: modern, cite: 博格賽美術館（Galleria Borghese）館藏介紹「Apollo and Daphne」, url: 'https://www.collezionegalleriaborghese.it/en/opere/apollo-and-daphne', accessed: '2026-11-16'}
+today: [apollo-daphne-statue]
 era: olympian
 topics: [變形, 愛與慾望, 神的嫉妒]
 ---

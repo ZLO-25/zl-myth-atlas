@@ -36,6 +36,7 @@ disputed:
     views:
       - {view: 斯諾里：海姆達爾與洛基互相殺死。, src: [s5]}
       - {view: 〈女先知的預言〉沒有寫這一組對戰，只見於斯諾里。, src: [s6, s5]}
+today: [asgard-archaea, marvel-heimdall]
 era: no-gods
 topics: [戰爭, 末日與重生]
 ---

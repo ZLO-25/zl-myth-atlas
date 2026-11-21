@@ -36,6 +36,7 @@ disputed:
       - {view: 《淮南子·覽冥訓》：補天、殺黑龍、積蘆灰，沒有提到共工, src: [s1]}
       - {view: 《列子·湯問篇》《博物志》：補天之後接著寫共工與顓頊爭帝、觸不周山, src: [s2, s5]}
       - {view: 王充《論衡·談天篇》：把「共工觸山」與「女媧補天」當成同一套儒書傳說，一併批評, src: [s6]}
+today: [idiom-nuwa-butian]
 era: cn-mending
 topics: [創世, 洪水]
 ---

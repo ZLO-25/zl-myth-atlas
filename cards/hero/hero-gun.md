@@ -37,6 +37,7 @@ disputed:
       - {view: 《史記》：舜巡視時發現鯀治水無功，在羽山處死他。, src: [s2, s6]}
       - {view: 《國語·晉語八》子產說：「昔者鯀違帝命，殛之于羽山」；韋昭注說這個「帝」是堯。, src: [s7]}
       - {view: 王逸注《天問》：堯把他放逐到羽山。, src: [s3]}
+today: [zhurong-rover]
 era: cn-yaoshun
 topics: [洪水, 傲慢與懲罰]
 ---

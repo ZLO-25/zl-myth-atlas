@@ -45,6 +45,7 @@ causes:
   - {id: god-aphrodite, rel: 促成, why: 帕里斯的裁判裡，阿芙蘿黛蒂答應把海倫送給他。, src: [s2]}
 effects:
   - {id: story-trojan-war, rel: 直接引發, why: 她跟帕里斯離開斯巴達，墨涅拉奧斯找哥哥召集聯軍；求婚者當初的誓約讓英雄們出兵。, src: [s1, s2]}
+today: [marlowe-helen]
 era: trojan-war
 topics: [愛與慾望, 戰爭]
 ---
