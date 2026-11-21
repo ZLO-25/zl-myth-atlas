@@ -13,12 +13,12 @@ three_lines:
   - 中秋賞月時，大家講的月宮故事，就是這些角色疊起來的。
 hook: 月宮的住戶是一批一批搬進去的：先是兔和蟾蜍，唐代才多了吳剛和廣寒宮。
 panels:
-  - {text: 《天問》問：月亮有什麼好處，為什麼「顧菟在腹」，肚子裡有一隻兔子？, src: [s1]}
-  - {text: 西漢《淮南子》說「月中有蟾蜍」。, src: [s2]}
-  - {text: 張衡《靈憲》說，姮娥偷了羿的不死藥奔向月亮，變成了蟾蠩。, src: [s3]}
-  - {text: 古辭〈董逃行〉裡，白兔長跪搗藥，旁邊還有蝦蟆丸藥。, src: [s4]}
-  - {text: 唐代《酉陽雜俎》說月亮上有桂樹，有人叫吳剛，因學仙有過被罰砍樹。, src: [s5]}
-  - {text: 舊題唐人的《龍城錄》寫唐玄宗夢遊月宮，宮門匾額寫著「廣寒清虛之府」。, src: [s6]}
+  - {image: img-ai-moon-palace-1, text: 《天問》問：月亮有什麼好處，為什麼「顧菟在腹」，肚子裡有一隻兔子？, src: [s1]}
+  - {image: img-ai-moon-palace-2, text: 西漢《淮南子》說「月中有蟾蜍」。, src: [s2]}
+  - {image: img-ai-moon-palace-3, text: 張衡《靈憲》說，姮娥偷了羿的不死藥奔向月亮，變成了蟾蠩。, src: [s3]}
+  - {image: img-ai-moon-palace-4, text: 古辭〈董逃行〉裡，白兔長跪搗藥，旁邊還有蝦蟆丸藥。, src: [s4]}
+  - {image: img-ai-moon-palace-5, text: 唐代《酉陽雜俎》說月亮上有桂樹，有人叫吳剛，因學仙有過被罰砍樹。, src: [s5]}
+  - {image: img-ai-moon-palace-6, text: 舊題唐人的《龍城錄》寫唐玄宗夢遊月宮，宮門匾額寫著「廣寒清虛之府」。, src: [s6]}
 causes:
   - {id: story-change-moon, rel: 背景, why: 姮娥奔月的故事，是蟾蜍進到月亮裡的一種說法。, src: [s3]}
 sources:

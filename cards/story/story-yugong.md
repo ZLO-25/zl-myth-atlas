@@ -13,11 +13,11 @@ three_lines:
   - 「愚公移山」今天是常用成語，故事出自《列子·湯問》。
 hook: 愚公移山：山不會變高，子孫會一直生下去，所以一定搬得完。
 panels:
-  - {text: 太行、王屋兩座山擋在家門前，九十歲的北山愚公出入都要繞遠路。, src: [s1]}
-  - {text: 他召集全家商量，決定一起把山鏟平，把土石倒進渤海邊。, src: [s1]}
-  - {text: 河曲智叟笑他愚蠢，愚公說自己會有子、孫，山卻不會再長高。, src: [s1]}
-  - {text: 操蛇之神聽見了，怕他們不肯停，趕緊報告天帝。, src: [s1]}
-  - {text: 天帝被他的誠心感動，命夸蛾氏二子把兩座山背走，從此那一帶沒有高山擋路。, src: [s1]}
+  - {image: img-ai-yugong-1, text: 太行、王屋兩座山擋在家門前，九十歲的北山愚公出入都要繞遠路。, src: [s1]}
+  - {image: img-ai-yugong-2, text: 他召集全家商量，決定一起把山鏟平，把土石倒進渤海邊。, src: [s1]}
+  - {image: img-ai-yugong-3, text: 河曲智叟笑他愚蠢，愚公說自己會有子、孫，山卻不會再長高。, src: [s1]}
+  - {image: img-ai-yugong-4, text: 操蛇之神聽見了，怕他們不肯停，趕緊報告天帝。, src: [s1]}
+  - {image: img-ai-yugong-5, text: 天帝被他的誠心感動，命夸蛾氏二子把兩座山背走，從此那一帶沒有高山擋路。, src: [s1]}
 sources:
   - {id: s1, kind: ancient, cite: 《列子·湯問》（舊題戰國列禦寇，張湛注本）, url: 'https://zh.wikisource.org/wiki/列子/湯問篇'}
   - {id: s2, kind: ancient, cite: 《欽定四庫全書·列子》提要（清，紀昀等，乾隆四十三年）, url: 'https://zh.wikisource.org/wiki/列子_(四庫全書本)'}

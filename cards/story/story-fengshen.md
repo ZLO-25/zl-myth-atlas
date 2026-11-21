@@ -14,7 +14,7 @@ three_lines:
 hook: 封神演義：把一場改朝換代，寫成一場神仙大封神。
 panels:
   - {image: img-ai-fengshen-1, text: 《史記》說商紂愛妲己、又用炮格酷刑，最後在牧野兵敗，登鹿臺赴火而死。, src: [s2]}
-  - {text: 小說裡，紂王到女媧宮進香，在牆上題了不敬的詩。, src: [s1]}
+  - {image: img-ai-fengshen-2, text: 小說裡，紂王到女媧宮進香，在牆上題了不敬的詩。, src: [s1]}
   - {image: img-ai-fengshen-3, text: 妲己被千年狐狸吸走魂魄，借體成形，迷惑紂王。, src: [s1]}
   - {image: img-ai-fengshen-4, text: 元始天尊帶著闡教門人，與通天教主的截教在萬仙陣大戰。, src: [s1]}
   - {image: img-ai-fengshen-5, text: 姜子牙在封神臺掛出「封神榜」，由柏鑑領著眾神依序受封。, src: [s1]}

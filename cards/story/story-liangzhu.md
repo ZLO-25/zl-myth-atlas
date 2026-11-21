@@ -13,11 +13,11 @@ three_lines:
   - 清代趙翼談女扮男裝，把木蘭從軍與小說家寫的祝英台並稱為最有名的例子。
 hook: 梁山伯與祝英台：女扮男裝去讀書，故事的最後，衣服變成了兩隻蝴蝶。
 panels:
-  - {text: 祝英台是常州義興人，從小愛讀書，聽說餘杭文風最盛，裹巾束帶，扮成男子出門。, src: [s1]}
-  - {text: 她自稱祝九舍人，和蘇州人梁山伯同館讀書三年，結為兄弟。, src: [s1]}
-  - {text: 梁山伯晚了半年才去拜訪，才知道她是女子，而她已許給馬家。, src: [s1]}
-  - {text: 山伯病死，葬在安樂村路口；英台出嫁經過時，墳墓裂開，她跳了進去。, src: [s1]}
-  - {text: 衣服碎片變成兩種花蝴蝶，據說紅的是梁山伯，黑的是祝英台。, src: [s1]}
+  - {image: img-ai-liangzhu-1, text: 祝英台是常州義興人，從小愛讀書，聽說餘杭文風最盛，裹巾束帶，扮成男子出門。, src: [s1]}
+  - {image: img-ai-liangzhu-2, text: 她自稱祝九舍人，和蘇州人梁山伯同館讀書三年，結為兄弟。, src: [s1]}
+  - {image: img-ai-liangzhu-3, text: 梁山伯晚了半年才去拜訪，才知道她是女子，而她已許給馬家。, src: [s1]}
+  - {image: img-ai-liangzhu-4, text: 山伯病死，葬在安樂村路口；英台出嫁經過時，墳墓裂開，她跳了進去。, src: [s1]}
+  - {image: img-ai-liangzhu-5, text: 衣服碎片變成兩種花蝴蝶，據說紅的是梁山伯，黑的是祝英台。, src: [s1]}
 sources:
   - {id: s1, kind: ancient, cite: 馮夢龍《喻世明言》第二十八卷〈李秀卿義結黃貞女〉開頭（明代）, url: 'https://zh.wikisource.org/wiki/喻世明言/第28卷'}
   - {id: s2, kind: ancient, cite: 趙翼《陔餘叢考》卷四十二〈女扮為男〉（清代）, url: 'https://zh.wikisource.org/wiki/陔餘叢考/42'}
