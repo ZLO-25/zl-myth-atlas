@@ -6,7 +6,7 @@ name_zh: 奧丁的犧牲
 aliases: [奧丁吊樹, 盧恩的由來, 奧丁獻祭自己, 密米爾之泉, 吊死者之神, 如尼文字, 盧恩文字, Odin's Self-Sacrifice, Odin's Runes, Mimir's Well, Hávamál, Hovamol, Rúnar, Futhark]
 name_en: Odin's Sacrifice
 name_orig: Hávamál (Hovamol) / Odin's Self-Sacrifice
-reality: {level: 神話裡有歷史影子, evidence: 盧恩文字是日耳曼人真實用過的字母；大英百科說，現存的盧恩銘文有 4,000 多件，大約從西元 3 世紀用到 16、17 世紀。, src: [s5]}
+reality: {level: 神話裡有歷史影子, evidence: '盧恩文字是日耳曼人真實用過的字母；大英百科說，現存的盧恩銘文有 4,000 多件，大約從西元 3 世紀用到 16、17 世紀。', src: [s5]}
 three_lines:
   - 〈高人的箴言〉裡，奧丁說自己吊在風吹的樹上九夜，被矛刺傷，把自己獻給自己，沒有人給他麵包和飲料。
   - 他低頭往下看，叫喊著拾起盧恩，然後落了下來，之後他開始興盛、得到智慧。

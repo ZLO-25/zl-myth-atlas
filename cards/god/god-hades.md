@@ -37,7 +37,7 @@ sources:
   - {id: s4, kind: ancient, cite: 赫西俄德《神譜》767–774（冥界的看門犬）, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
   - {id: s5, kind: ancient, cite: 荷馬《伊里亞德》5.844–845（雅典娜戴上黑帝斯的隱形頭盔）, url: 'https://www.theoi.com/Text/HomerIliad5.html'}
   - {id: s6, kind: modern, cite: Theoi.com「Haides」, url: 'https://www.theoi.com/Khthonios/Haides.html', accessed: '2026-11-02'}
-  - {id: s7, kind: modern, cite: World History Encyclopedia「Pluto」（Donald L. Wasson, 2023）, url: 'https://www.worldhistory.org/Pluto/', accessed: '2026-11-02'}
+  - {id: s7, kind: modern, cite: 'World History Encyclopedia「Pluto」（Donald L. Wasson, 2023）', url: 'https://www.worldhistory.org/Pluto/', accessed: '2026-11-02'}
   - {id: s8, kind: modern, cite: 《希臘羅馬傳記與神話辭典》「Hades」條（Theoi 轉載）, url: 'https://www.theoi.com/Khthonios/Haides.html', accessed: '2026-11-16'}
   - {id: s9, kind: ancient, cite: 《荷馬詩體頌歌》第 2 首〈致狄蜜特〉337–383（荷米斯向黑帝斯要回波瑟芬妮）, url: 'https://www.theoi.com/Text/HomericHymns1.html'}
   - {id: s10, kind: ancient, cite: 阿波羅多洛斯《書庫》1.2.1（獨眼巨人送他隱形頭盔）, url: 'https://www.theoi.com/Text/Apollodorus1.html'}

@@ -35,7 +35,7 @@ sources:
   - {id: s9, kind: ancient, cite: 奧維德《變形記》11.85–145（米達斯與酒神）, url: 'https://www.theoi.com/Text/OvidMetamorphoses11.html'}
   - {id: s10, kind: ancient, cite: 奧維德《變形記》8.169–182（阿里阿德涅的冠冕）, url: 'https://www.theoi.com/Text/OvidMetamorphoses8.html'}
   - {id: s6, kind: modern, cite: Theoi.com「Dionysos」, url: 'https://www.theoi.com/Olympios/Dionysos.html', accessed: '2026-11-02'}
-  - {id: s7, kind: modern, cite: World History Encyclopedia「Bacchus」（Donald L. Wasson, 2023）, url: 'https://www.worldhistory.org/Bacchus/', accessed: '2026-11-02'}
+  - {id: s7, kind: modern, cite: 'World History Encyclopedia「Bacchus」（Donald L. Wasson, 2023）', url: 'https://www.worldhistory.org/Bacchus/', accessed: '2026-11-02'}
 greek_vs_roman:
   text: 羅馬人把戴奧尼索斯叫做巴克斯，並和本土的豐收之神利伯爾混在一起。祭拜巴克斯的秘密儀式「巴克斯節」在義大利快速擴散，羅馬元老院擔心它危害社會秩序，在前 186 年下令嚴格限制，大批信徒被捕或處死。這是羅馬史上著名的宗教鎮壓事件。
   src: [s7, s8]

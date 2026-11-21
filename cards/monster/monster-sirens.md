@@ -24,7 +24,7 @@ family:
     - {name: 繆斯墨爾波墨涅, src: [s5], variant: 阿波羅多洛斯說母親是墨爾波墨涅；《阿爾戈英雄紀》說是忒耳西科瑞}
 sources:
   - {id: s1, kind: ancient, cite: 荷馬《奧德賽》12.36–54、158–200, url: 'https://www.theoi.com/Text/HomerOdyssey12.html'}
-  - {id: s2, kind: ancient, cite: 阿波羅尼俄斯《阿爾戈英雄紀》4.885–921, url: 'https://www.theoi.com/Text/ApolloniusArgonautica4.html'}
+  - {id: s2, kind: ancient, cite: 阿波羅尼俄斯《阿爾戈英雄紀》4.885–921, url: 'https://www.theoi.com/Text/ApolloniusRhodius4.html'}
   - {id: s3, kind: ancient, cite: 阿波羅多洛斯《書庫》1.9.25, url: 'https://www.theoi.com/Text/Apollodorus1.html'}
   - {id: s5, kind: ancient, cite: 阿波羅多洛斯《書庫・摘要》E.7.18–19, url: 'https://www.theoi.com/Text/ApollodorusE.html'}
   - {id: s4, kind: ancient, cite: 奧維德《變形記》5.551–563（引自 Theoi 條目）, url: 'https://www.theoi.com/Pontios/Seirenes.html'}

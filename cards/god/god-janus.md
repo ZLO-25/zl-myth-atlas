@@ -23,7 +23,7 @@ sources:
   - {id: s2, kind: ancient, cite: 李維《羅馬史》1.19.2–3, url: 'https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0151:book=1:chapter=19'}
   - {id: s4, kind: ancient, cite: 奧維德《歲時記》1.89–144（雅努斯自述來歷）、1.165–226（元旦習俗）, url: 'https://www.theoi.com/Text/OvidFasti1.html'}
   - {id: s5, kind: ancient, cite: 奧維德《歲時記》1.227–288（雅努斯的神廟、錢幣、薩賓之戰）, url: 'https://www.theoi.com/Text/OvidFasti1.html'}
-  - {id: s3, kind: modern, cite: World History Encyclopedia「Janus」（Donald L. Wasson, 2015）, url: 'https://www.worldhistory.org/Janus/', accessed: '2026-11-02'}
+  - {id: s3, kind: modern, cite: 'World History Encyclopedia「Janus」（Donald L. Wasson, 2015）', url: 'https://www.worldhistory.org/Janus/', accessed: '2026-11-02'}
 greek_vs_roman:
   text: 雅努斯是少數「羅馬有、希臘沒有」的大神，羅馬人無法替他找到希臘對應。他在祈禱時常第一個被呼喚，因為任何事情要開始，都得先經過他這扇門。
   src: [s3]

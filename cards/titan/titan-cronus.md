@@ -41,7 +41,7 @@ sources:
   - {id: s10, kind: ancient, cite: 奧維德《歲時記》1.233–246（薩圖恩乘船來到拉丁姆）, url: 'https://www.theoi.com/Text/OvidFasti1.html'}
   - {id: s11, kind: ancient, cite: 李維《羅馬史》2.21（薩圖恩神廟與農神節）, url: 'https://www.gutenberg.org/ebooks/19725'}
   - {id: s12, kind: modern, cite: Theoi.com「Kronos」（含《希臘羅馬傳記神話辭典》條目）, url: 'https://www.theoi.com/Titan/TitanKronos.html', accessed: '2026-11-16'}
-  - {id: s5, kind: modern, cite: World History Encyclopedia「Saturn」（Donald L. Wasson, 2015）, url: 'https://www.worldhistory.org/Saturn/', accessed: '2026-11-02'}
+  - {id: s5, kind: modern, cite: 'World History Encyclopedia「Saturn」（Donald L. Wasson, 2015）', url: 'https://www.worldhistory.org/Saturn/', accessed: '2026-11-02'}
   - {id: s6, kind: modern, cite: 維基共享資源：魯本斯〈農神〉作品頁, url: 'https://commons.wikimedia.org/wiki/File:Rubens_saturn.jpg', accessed: '2026-11-02'}
   - {id: s7, kind: modern, cite: 維基共享資源：瑞亞把石頭交給克羅諾斯（羅馬祭壇浮雕線描）作品頁, url: "https://commons.wikimedia.org/wiki/File:Rhéa_présentant_une_pierre_emmaillotée_à_Cronos_dessin_du_bas-relief_d'un_autel_romain.jpg", accessed: '2026-11-02'}
 causes:

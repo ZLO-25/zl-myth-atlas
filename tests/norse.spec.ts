@@ -42,7 +42,7 @@ test('北歐 43 張卡都在（含最初 15 張），正文每句都標來源，
   }
 });
 
-test('北歐：卡片列表可篩選「北歐」；沒有圖也正常顯示', async ({ page }) => {
+test('北歐：卡片列表可篩選「北歐」；每張卡都有封面圖或文字縮寫', async ({ page }) => {
   await page.goto('#/cards');
   await page.locator('.sys-tabs button', { hasText: '北歐' }).click();
   await expect(page).toHaveURL(/#\/cards\?sys=norse$/);
@@ -52,7 +52,6 @@ test('北歐：卡片列表可篩選「北歐」；沒有圖也正常顯示', as
   const nInit = await page.locator('.card-grid .tile .tile-initial').count();
   expect(nImg + nInit).toBe(norse.length);
   expect(nImg).toBeGreaterThanOrEqual(3);
-  expect(nInit).toBeGreaterThan(0);
   for (const n of ['芙蕾雅', '芙麗嘉', '巴德爾', '提爾', '海姆達爾', '芬里爾', '耶夢加得', '世界樹', '巴德爾之死', '索爾扮新娘']) await expect(page.locator('.card-grid')).toContainText(n);
   await expect(page.locator('.card-grid')).toContainText('尤彌爾');
   await noHScroll(page);
@@ -61,17 +60,18 @@ test('北歐：卡片列表可篩選「北歐」；沒有圖也正常顯示', as
   await page.screenshot({ path: 'test-results/norse-cards.png' });
 });
 
-test('北歐：卡片頁名稱格式、體系標籤、年代、沒有圖時的說明', async ({ page }) => {
+test('北歐：卡片頁名稱格式、體系標籤、年代、怎麼認出他', async ({ page }) => {
   await page.goto('#/card/god-odin');
   await expect(page.locator('h1').first()).toContainText('奧丁');
   await expect(page.locator('h1').first()).toContainText('Odin');
   await expect(page.locator('h1').first()).toContainText('Óðinn');
   await expect(page.locator('.sys-chip').first()).toHaveText('北歐');
   await expect(page.locator('.era-chip')).toContainText('眾神的時代');
-  await expect(page.locator('.facts')).toContainText('故事裡怎麼認出奧丁');
+  await expect(page.locator('.facts')).toContainText('怎麼認出奧丁');
   await expect(page.locator('.facts')).toContainText('胡金與穆寧');
   await expect(page.locator('#sec-disputed')).toContainText('奧丁的那隻眼睛');
-  await expect(page.locator('article img')).toHaveCount(0);
+  // 奧丁已有肖像（2026-11 補圖後）
+  expect(await page.locator('article img').count()).toBeGreaterThan(0);
   // 家族：沒有卡片的人物也顯示「中文 English」
   await expect(page.locator('#sec-family')).toContainText('包爾 Borr');
   await expect(page.locator('#sec-family a', { hasText: '索爾' }).first()).toBeVisible();
@@ -278,14 +278,14 @@ test('北歐：世界樹卡明講「九個世界沒有一致的名單」', async
   await page.screenshot({ path: 'test-results/norse-yggdrasil.png', fullPage: true });
 });
 
-test('北歐：三張故事卡有 5 格分格，沒有壞圖（還沒生圖的格子顯示佔位圖），可以翻頁', async ({ page }) => {
+test('北歐：三張故事卡有 5 格分格，每格都已生圖、沒有壞圖，可以翻頁', async ({ page }) => {
   for (const id of ['story-ragnarok', 'story-baldr-death', 'story-thor-bride']) {
     await page.goto('#/card/' + id);
     const panels = page.locator('#sec-panels');
     await expect(panels, id).toBeVisible();
     await expect(panels.locator('.panel-frame img').first()).toBeVisible();
-    // 諸神黃昏 5 張都已生圖；巴德爾之死第 4 格、索爾扮新娘第 5 格還在等重生，仍是佔位圖
-    const waiting: Record<string, number> = { 'story-baldr-death': 4, 'story-thor-bride': 5 };
+    // 三張故事卡的 5 格都已生圖（2026-11 補圖後），不應再出現佔位圖
+    const waiting: Record<string, number> = {};
     for (let n = 1; n <= 5; n++) {
       await panels.getByRole('button', { name: `第 ${n} 格` }).click();
       if (waiting[id] === n) await expect(panels, `${id} 第 ${n} 格`).toContainText('尚未生圖');

@@ -35,7 +35,7 @@ sources:
   - {id: s3, kind: ancient, cite: 《荷馬詩體頌歌》第 29 首〈致赫斯提亞〉, url: 'https://www.theoi.com/Text/HomericHymns3.html'}
   - {id: s4, kind: ancient, cite: 普魯塔克《希臘羅馬名人傳．努瑪傳》9.5–11.1（維斯塔貞女與圓形神廟）, url: 'https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Numa*.html'}
   - {id: s5, kind: modern, cite: Theoi.com「Hestia」, url: 'https://www.theoi.com/Ouranios/Hestia.html', accessed: '2026-11-02'}
-  - {id: s6, kind: modern, cite: World History Encyclopedia「Vesta」（Joshua J. Mark, 2009）, url: 'https://www.worldhistory.org/Vesta/', accessed: '2026-11-02'}
+  - {id: s6, kind: modern, cite: 'World History Encyclopedia「Vesta」（Joshua J. Mark, 2009）', url: 'https://www.worldhistory.org/Vesta/', accessed: '2026-11-02'}
   - {id: s7, kind: modern, cite: 《希臘羅馬傳記與神話辭典》「Hestia」條（Theoi 轉載）, url: 'https://www.theoi.com/Ouranios/Hestia.html', accessed: '2026-11-16'}
   - {id: s8, kind: ancient, cite: 《荷馬詩體頌歌》第 24 首〈致赫斯提亞〉, url: 'https://www.theoi.com/Text/HomericHymns3.html'}
   - {id: s9, kind: ancient, cite: 普魯塔克《羅慕路斯傳》22（羅馬維斯塔聖火的起源）, url: 'https://www.gutenberg.org/ebooks/14033'}
