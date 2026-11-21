@@ -17,8 +17,8 @@ panels:
   - {image: img-ai-mead-of-poetry-2, text: 矮人弗雅拉與加拉爾殺了克瓦希爾，讓血流進兩個桶子和一個壺，混了蜂蜜，釀成蜜酒；喝了的人成為詩人或學者。, src: [s1]}
   - {image: img-ai-mead-of-poetry-3, text: 巨人蘇通拿到蜜酒，藏在尼特山，由女兒貢洛德看守。, src: [s1]}
   - {image: img-ai-mead-of-poetry-4, text: 奧丁化名波爾沃克，替巨人鮑吉幹活，要換一口蜜酒；他們用鑽子拉蒂鑽穿山壁，波爾沃克變成蛇鑽進去。, src: [s2]}
-  - {text: 他和貢洛德過了三夜，她讓他喝三口；他喝光三個容器，變成鷹飛走，蘇通也變鷹追來。, src: [s2]}
-  - {text: 阿斯嘉的眾神備好桶子，奧丁把蜜酒吐進去。, src: [s2]}
+  - {image: img-ai-mead-of-poetry-5, text: 他和貢洛德過了三夜，她讓他喝三口；他喝光三個容器，變成鷹飛走，蘇通也變鷹追來。, src: [s2]}
+  - {image: img-ai-mead-of-poetry-6, text: 阿斯嘉的眾神備好桶子，奧丁把蜜酒吐進去。, src: [s2]}
 few_images: 這張卡還沒有收錄圖片。
 sources:
   - {id: s1, kind: ancient, cite: 斯諾里《散文埃達》〈詩語法〉第 5 節（Brodeur 英譯）, url: 'https://www.voluspa.org/skaldskaparmal1-10.htm'}

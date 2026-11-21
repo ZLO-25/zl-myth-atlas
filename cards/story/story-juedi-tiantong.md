@@ -13,11 +13,11 @@ three_lines:
   - 2024 年一篇論文把它視為中華哲學「天人合一」的重要基礎。
 hook: 絕地天通：不是把天和地砍斷，而是規定誰可以和神說話。
 panels:
-  - {text: 《呂刑》說，苗民濫用刑罰，百姓向上天喊冤。, src: [s1]}
-  - {text: 上帝看了，「乃命重黎，絕地天通，罔有降格」，神不再隨便降到人間。, src: [s1]}
-  - {text: 楚昭王問觀射父：重和黎真的把天地隔開了嗎？不然人難道能爬上天？, src: [s2]}
-  - {text: 觀射父說，少皞衰弱時九黎亂了規矩，人人自己當巫史，民神混在一起。, src: [s2]}
-  - {text: 顓頊命南正重管天、屬神，火正黎管地、屬民，各管各的，這叫絕地天通。, src: [s2]}
+  - {image: img-ai-juedi-tiantong-1, text: 《呂刑》說，苗民濫用刑罰，百姓向上天喊冤。, src: [s1]}
+  - {image: img-ai-juedi-tiantong-2, text: 上帝看了，「乃命重黎，絕地天通，罔有降格」，神不再隨便降到人間。, src: [s1]}
+  - {image: img-ai-juedi-tiantong-3, text: 楚昭王問觀射父：重和黎真的把天地隔開了嗎？不然人難道能爬上天？, src: [s2]}
+  - {image: img-ai-juedi-tiantong-4, text: 觀射父說，少皞衰弱時九黎亂了規矩，人人自己當巫史，民神混在一起。, src: [s2]}
+  - {image: img-ai-juedi-tiantong-5, text: 顓頊命南正重管天、屬神，火正黎管地、屬民，各管各的，這叫絕地天通。, src: [s2]}
 sources:
   - {id: s1, kind: ancient, cite: 《尚書·呂刑》（周書）, url: 'https://zh.wikisource.org/wiki/尚書/呂刑'}
   - {id: s2, kind: ancient, cite: 《國語·楚語下》〈觀射父論絕地天通〉（韋昭注）, url: 'https://zh.wikisource.org/wiki/國語/卷18'}

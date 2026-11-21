@@ -11,6 +11,7 @@ three_lines:
   - 傳說中第一個教人用「鑽木取火」的聖人。
   - 《韓非子》說，上古的人吃生食、常生病，有聖人鑽燧取火把食物煮熟，百姓很高興，推他當王，稱為燧人氏。
   - 他常和教人蓋巢屋的有巢氏、教人種田的神農一起被列入「三皇」的各種名單。
+images: [img-ai-portrait-suiren]
 hook: 燧人氏：不是從天上偷火，而是把木頭鑽出火來教大家。
 sources:
   - {id: s1, kind: ancient, cite: 《韓非子·五蠹》（戰國，韓非）, url: 'https://zh.wikisource.org/wiki/韓非子/五蠹'}

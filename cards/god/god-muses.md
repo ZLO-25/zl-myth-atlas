@@ -22,7 +22,7 @@ family:
   parents:
     - {id: god-zeus, src: [s1]}
     - {name: 謨涅摩緒涅（記憶女神）, src: [s1]}
-images: []
+images: [img-ai-portrait-muses]
 few_images: 這張卡還沒有收錄圖片。
 sources:
   - {id: s1, kind: ancient, cite: 赫西俄德《神譜》1–115、915–917, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}

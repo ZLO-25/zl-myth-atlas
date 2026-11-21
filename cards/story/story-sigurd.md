@@ -16,7 +16,7 @@ panels:
   - {image: img-ai-sigurd-1, text: 洛基打死水獺，眾神被矮人赫瑞德瑪（Hreiðmarr）抓住，要用黃金把水獺皮裝滿、蓋滿。, src: [s1]}
   - {image: img-ai-sigurd-2, text: 洛基抓到矮人安德瓦利（Andvari），搶走全部黃金和一枚金環；安德瓦利詛咒：這金子會害死拿到的人。, src: [s1]}
   - {image: img-ai-sigurd-3, text: 法夫尼爾殺了父親赫瑞德瑪，獨占黃金，變成龍躺在上面。, src: [s1]}
-  - {text: 雷金替齊格魯德打造寶劍格拉姆（Gramr）；齊格魯德在法夫尼爾的必經路上挖坑，一劍刺穿龍心。, src: [s2]}
+  - {image: img-ai-sigurd-4, text: 雷金替齊格魯德打造寶劍格拉姆（Gramr）；齊格魯德在法夫尼爾的必經路上挖坑，一劍刺穿龍心。, src: [s2]}
   - {image: img-ai-sigurd-5, text: 齊格魯德烤龍心，燙到手指放進嘴裡，嘗到血，聽懂鳥說話：雷金要背叛他。他殺了雷金，帶著黃金離開。, src: [s2]}
   - {image: img-ai-sigurd-6, text: 他在山上喚醒沉睡的布倫希爾德；後來被吉伍基家的人殺死，金環與黃金落到他們手裡。, src: [s3]}
 few_images: 這張卡還沒有收錄圖片。

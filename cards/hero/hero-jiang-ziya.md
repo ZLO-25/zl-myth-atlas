@@ -11,6 +11,7 @@ three_lines:
   - 真有其人的周朝大臣呂尚，傳說他年老時在渭水邊釣魚，等到周文王來請他。
   - 《封神演義》把他寫成奉元始天尊之命下山、手持封神榜替人鬼神仙排定神位的人。
   - 「姜太公釣魚，願者上鉤」和「姜太公在此，百無禁忌」都和他有關。
+images: [img-ai-portrait-jiang-ziya]
 hook: 姜子牙：歷史上輔佐周武王的軍師，在小說裡成了封神的人。
 sources:
   - {id: s1, kind: ancient, cite: 司馬遷《史記·齊太公世家》卷三十二（西漢）, url: 'https://zh.wikisource.org/wiki/史記/卷032'}
