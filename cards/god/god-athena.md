@@ -30,7 +30,7 @@ sources:
   - {id: s8, kind: ancient, cite: 荷馬《奧德賽》1.44–95（雅典娜在眾神會議替他說情）, url: 'https://www.theoi.com/Text/HomerOdyssey1.html'}
   - {id: s5, kind: ancient, cite: 阿波羅多洛斯《書庫》2.4.2–2.4.3（幫助柏修斯）, url: 'https://www.theoi.com/Text/Apollodorus2.html'}
   - {id: s6, kind: modern, cite: Theoi.com「Athena」, url: 'https://www.theoi.com/Olympios/Athena.html', accessed: '2026-11-02'}
-  - {id: s7, kind: modern, cite: World History Encyclopedia「Minerva」（Mark Cartwright, 2014）, url: 'https://www.worldhistory.org/Minerva/', accessed: '2026-11-02'}
+  - {id: s7, kind: modern, cite: 'World History Encyclopedia「Minerva」（Mark Cartwright, 2014）', url: 'https://www.worldhistory.org/Minerva/', accessed: '2026-11-02'}
   - {id: s9, kind: modern, cite: 《希臘羅馬傳記與神話辭典》「Athena」條（Theoi 轉載）, url: 'https://www.theoi.com/Olympios/Athena.html', accessed: '2026-11-16'}
   - {id: s10, kind: ancient, cite: 荷馬《伊利亞德》5.711–909（雅典娜幫狄奧墨德斯刺傷阿瑞斯）, url: 'https://www.gutenberg.org/ebooks/2199'}
   - {id: s11, kind: ancient, cite: 艾斯奇勒斯《和善女神》734–753（雅典娜的決定票）, url: 'https://www.theoi.com/Text/AeschylusEumenides.html'}

@@ -40,7 +40,7 @@ sources:
   - {id: s13, kind: ancient, cite: 阿波羅多洛斯《書庫》3.14.6（厄律克托尼俄斯的誕生）, url: 'https://www.theoi.com/Text/Apollodorus3.html'}
   - {id: s14, kind: ancient, cite: 《荷馬頌歌》第 20 首〈赫菲斯托斯頌〉, url: 'https://www.theoi.com/Text/HomericHymns3.html'}
   - {id: s7, kind: modern, cite: Theoi.com「Hephaistos」, url: 'https://www.theoi.com/Olympios/Hephaistos.html', accessed: '2026-11-02'}
-  - {id: s8, kind: modern, cite: World History Encyclopedia「Vulcan」（Donald L. Wasson, 2023）, url: 'https://www.worldhistory.org/Vulcan/', accessed: '2026-11-02'}
+  - {id: s8, kind: modern, cite: 'World History Encyclopedia「Vulcan」（Donald L. Wasson, 2023）', url: 'https://www.worldhistory.org/Vulcan/', accessed: '2026-11-02'}
 greek_vs_roman:
   text: 羅馬的伍爾坎是火與鍛造之神，也是羅馬人最畏懼的神之一，因為火山與大火都歸他管；他的神廟蓋在城外，就是怕引來火災。每年 8 月 23 日是伍爾坎節。
   src: [s8]

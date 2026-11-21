@@ -36,7 +36,7 @@ sources:
   - {id: s4, kind: ancient, cite: 《荷馬詩體頌歌》第 5 首〈致阿芙蘿黛蒂〉, url: 'https://www.theoi.com/Text/HomericHymns3.html'}
   - {id: s5, kind: ancient, cite: 阿波羅多洛斯《書庫》摘要 3.2（帕里斯的評判）, url: 'https://www.theoi.com/Text/ApollodorusE.html'}
   - {id: s6, kind: modern, cite: Theoi.com「Aphrodite」, url: 'https://www.theoi.com/Olympios/Aphrodite.html', accessed: '2026-11-02'}
-  - {id: s7, kind: modern, cite: World History Encyclopedia「Venus」（Brittany Garcia, 2013）, url: 'https://www.worldhistory.org/Venus/', accessed: '2026-11-02'}
+  - {id: s7, kind: modern, cite: 'World History Encyclopedia「Venus」（Brittany Garcia, 2013）', url: 'https://www.worldhistory.org/Venus/', accessed: '2026-11-02'}
   - {id: s8, kind: modern, cite: 《希臘羅馬傳記與神話辭典》「Aphrodite」條（Theoi 轉載）, url: 'https://www.theoi.com/Olympios/Aphrodite.html', accessed: '2026-11-16'}
   - {id: s9, kind: ancient, cite: 荷馬《伊利亞德》5.311–430（阿芙蘿黛蒂被狄俄墨得斯刺傷）, url: 'https://www.theoi.com/Text/HomerIliad5.html'}
   - {id: s10, kind: ancient, cite: 《荷馬詩體頌歌》第 5 首〈致阿芙蘿黛蒂〉45–293（安喀塞斯）, url: 'https://www.theoi.com/Text/HomericHymns3.html'}

@@ -28,7 +28,7 @@
   status: 已查證
   sources:
     - {cite: 新華社「China launches relay satellite to explore Moon's far side」（2018-05-21）, url: 'https://www.xinhuanet.com/english/2018-05/21/c_137194776.htm'}
-    - {cite: 行星學會「Chang'e 4 relay satellite, Queqiao」（2018-05-19）, url: 'https://www.planetary.org/articles/0519-change-4-relay-satellite'}
+    - {cite: '行星學會「Chang''e 4 relay satellite, Queqiao」（2018-05-19）', url: 'https://www.planetary.org/articles/0519-change-4-relay-satellite'}
 - id: zhurong-rover
   category: 天文與太空
   title: 祝融號火星車與天問一號

@@ -31,7 +31,7 @@ sources:
   - {id: s2, kind: ancient, cite: 赫西俄德《神譜》912–914, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
   - {id: s3, kind: ancient, cite: 《荷馬詩體頌歌》第 2 首〈致狄蜜特〉, url: 'https://www.theoi.com/Text/HomericHymns1.html'}
   - {id: s4, kind: modern, cite: Theoi.com「Demeter」, url: 'https://www.theoi.com/Olympios/Demeter.html', accessed: '2026-11-02'}
-  - {id: s5, kind: modern, cite: World History Encyclopedia「Ceres」（Donald L. Wasson, 2023）, url: 'https://www.worldhistory.org/Ceres/', accessed: '2026-11-02'}
+  - {id: s5, kind: modern, cite: 'World History Encyclopedia「Ceres」（Donald L. Wasson, 2023）', url: 'https://www.worldhistory.org/Ceres/', accessed: '2026-11-02'}
   - {id: s6, kind: modern, cite: 《希臘羅馬傳記與神話辭典》「Demeter」條（Theoi 轉載）, url: 'https://www.theoi.com/Olympios/Demeter.html', accessed: '2026-11-16'}
 greek_vs_roman:
   text: 羅馬的克瑞斯對應希臘的狄蜜特，也有女兒被冥王擄走的故事。她掌管收成：她高興就豐收，她生氣就是枯萎、乾旱與饑荒。英文 cereal（穀物）就是從她的名字來的。

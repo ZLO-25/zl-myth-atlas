@@ -25,7 +25,7 @@ panels:
 sources:
   - {id: s1, kind: ancient, cite: 奧維德《變形記》11.85–193, url: 'https://www.theoi.com/Text/OvidMetamorphoses11.html'}
   - {id: s2, kind: ancient, cite: 希羅多德《歷史》1.14（米達斯獻王座給德爾菲）、8.138（米達斯的花園）, url: 'https://www.gutenberg.org/ebooks/2707'}
-  - {id: s3, kind: modern, cite: 大都會藝術博物館「Phrygia, Gordion, and King Midas in the Late Eighth Century B.C.」, url: 'https://www.metmuseum.org/essays/phrygia-gordion-and-king-midas-in-the-late-eighth-century-b-c', accessed: '2026-11-16'}
+  - {id: s3, kind: modern, cite: '大都會藝術博物館「Phrygia, Gordion, and King Midas in the Late Eighth Century B.C.」', url: 'https://www.metmuseum.org/essays/phrygia-gordion-and-king-midas-in-the-late-eighth-century-b-c', accessed: '2026-11-16'}
 causes:
   - {id: god-dionysus, rel: 直接引發, why: 酒神答應米達斯許願，才有點石成金。, src: [s1]}
   - {id: god-apollo, rel: 直接引發, why: 阿波羅因為米達斯不服判決，把他的耳朵變成驢耳。, src: [s1]}

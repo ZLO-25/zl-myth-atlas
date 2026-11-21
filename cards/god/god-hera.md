@@ -37,7 +37,7 @@ sources:
   - {id: s4, kind: ancient, cite: 奧維德《變形記》1.583–750（伊俄與百眼巨人阿爾戈斯）, url: 'https://www.theoi.com/Text/OvidMetamorphoses1.html'}
   - {id: s5, kind: ancient, cite: 阿波羅多洛斯《書庫》2.4.5–2.4.12（希拉與海克力斯）, url: 'https://www.theoi.com/Text/Apollodorus2.html'}
   - {id: s6, kind: modern, cite: Theoi.com「Hera」, url: 'https://www.theoi.com/Olympios/Hera.html', accessed: '2026-11-02'}
-  - {id: s7, kind: modern, cite: World History Encyclopedia「Juno」（Donald L. Wasson, 2015）, url: 'https://www.worldhistory.org/Juno/', accessed: '2026-11-02'}
+  - {id: s7, kind: modern, cite: 'World History Encyclopedia「Juno」（Donald L. Wasson, 2015）', url: 'https://www.worldhistory.org/Juno/', accessed: '2026-11-02'}
   - {id: s8, kind: modern, cite: 《希臘羅馬傳記與神話辭典》「Hera」條（Theoi 轉載）, url: 'https://www.theoi.com/Olympios/Hera.html', accessed: '2026-11-16'}
   - {id: s9, kind: ancient, cite: 荷馬《伊里亞德》15.14–31（宙斯回顧把希拉吊起來）, url: 'https://www.theoi.com/Text/HomerIliad15.html'}
   - {id: s10, kind: ancient, cite: 《荷馬詩體頌歌》第 3 首〈致阿波羅〉300–355（希拉獨自生下堤豐）, url: 'https://www.theoi.com/Text/HomericHymns1.html'}

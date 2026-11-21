@@ -39,13 +39,13 @@ sources:
   - {id: s6, kind: ancient, cite: 奧維德《變形記》4.794–803（梅杜莎與海神）, url: 'https://www.theoi.com/Text/OvidMetamorphoses4.html'}
   - {id: s7, kind: ancient, cite: 阿波羅多洛斯《書庫》3.15.7, url: 'https://cts.perseids.org/read/greekLit/tlg0548/tlg001/perseus-eng2/3.15.6-3.16.2'}
   - {id: s8, kind: modern, cite: Theoi.com「Poseidon」, url: 'https://www.theoi.com/Olympios/Poseidon.html', accessed: '2026-11-02'}
-  - {id: s9, kind: modern, cite: World History Encyclopedia「Neptune」（Liana Miate, 2022）, url: 'https://www.worldhistory.org/Neptune/', accessed: '2026-11-02'}
+  - {id: s9, kind: modern, cite: 'World History Encyclopedia「Neptune」（Liana Miate, 2022）', url: 'https://www.worldhistory.org/Neptune/', accessed: '2026-11-02'}
   - {id: s10, kind: modern, cite: 《希臘羅馬傳記與神話辭典》「Poseidon」條（Theoi 轉載）, url: 'https://www.theoi.com/Olympios/Poseidon.html', accessed: '2026-11-16'}
   - {id: s11, kind: ancient, cite: 荷馬《奧德賽》5.282–381、13.159–164, url: 'https://www.gutenberg.org/ebooks/1727'}
   - {id: s12, kind: ancient, cite: 阿波羅多洛斯《書庫》2.5.9（特洛伊的城牆與拉俄墨冬）, url: 'https://www.theoi.com/Text/Apollodorus2.html'}
   - {id: s13, kind: ancient, cite: 《荷馬詩體頌歌》第 22 首〈致波賽頓〉, url: 'https://www.theoi.com/Text/HomericHymns3.html'}
-  - {id: s14, kind: ancient, cite: 品達《奧林匹亞頌》13.63–92 與《地峽頌》7.44（引自 Theoi 條目）, url: 'https://www.theoi.com/Ther/HippossPegasos.html'}
-  - {id: s15, kind: ancient, cite: 赫西俄德《女子名錄》殘篇 7（引自 Theoi 條目）, url: 'https://www.theoi.com/Ther/HippossPegasos.html'}
+  - {id: s14, kind: ancient, cite: 品達《奧林匹亞頌》13.63–92 與《地峽頌》7.44（引自 Theoi 條目）, url: 'https://www.theoi.com/Ther/HipposPegasos.html'}
+  - {id: s15, kind: ancient, cite: 赫西俄德《女子名錄》殘篇 7（引自 Theoi 條目）, url: 'https://www.theoi.com/Ther/HipposPegasos.html'}
   - {id: s16, kind: ancient, cite: 柏拉圖《克里提亞斯篇》113c–114a（亞特蘭提斯分給波賽頓）, url: 'https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0180:text=Critias:section=113c'}
 greek_vs_roman:
   text: 羅馬的尼普頓原本是管「淡水」的神，後來才和希臘海神波賽頓畫上等號。羅馬人不像希臘人那樣靠海維生，所以尼普頓的地位遠不如波賽頓。他的節日在 7 月 23 日盛夏，人們祈求的是別缺水。

@@ -35,7 +35,7 @@ sources:
   - {id: s3, kind: ancient, cite: 荷馬《伊里亞德》5.835–909, url: 'https://www.theoi.com/Text/HomerIliad5.html'}
   - {id: s4, kind: ancient, cite: 荷馬《奧德賽》8.266–366, url: 'https://www.theoi.com/Text/HomerOdyssey8.html'}
   - {id: s5, kind: modern, cite: Theoi.com「Ares」, url: 'https://www.theoi.com/Olympios/Ares.html', accessed: '2026-11-02'}
-  - {id: s6, kind: modern, cite: World History Encyclopedia「Mars」（Mark Cartwright, 2014）, url: 'https://www.worldhistory.org/Mars/', accessed: '2026-11-02'}
+  - {id: s6, kind: modern, cite: 'World History Encyclopedia「Mars」（Mark Cartwright, 2014）', url: 'https://www.worldhistory.org/Mars/', accessed: '2026-11-02'}
   - {id: s7, kind: modern, cite: 《希臘羅馬傳記與神話辭典》「Ares」條（Theoi 轉載）, url: 'https://www.theoi.com/Olympios/Ares.html', accessed: '2026-11-16'}
   - {id: s8, kind: ancient, cite: 荷馬《伊利亞德》5.385–391（被阿羅阿代囚禁）, url: 'https://www.theoi.com/Text/HomerIliad5.html'}
   - {id: s9, kind: ancient, cite: 阿波羅多洛斯《書庫》3.14.2（阿瑞斯與亞略巴古）, url: 'https://www.theoi.com/Text/Apollodorus3.html'}

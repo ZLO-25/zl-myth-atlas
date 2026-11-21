@@ -32,7 +32,7 @@ sources:
   - {id: s4, kind: ancient, cite: 荷馬《奧德賽》24.1–14, url: 'https://www.theoi.com/Text/HomerOdyssey24.html'}
   - {id: s5, kind: ancient, cite: 奧維德《變形記》1.668–723（殺死百眼巨人阿爾戈斯）, url: 'https://www.theoi.com/Text/OvidMetamorphoses1.html'}
   - {id: s6, kind: modern, cite: Theoi.com「Hermes」, url: 'https://www.theoi.com/Olympios/Hermes.html', accessed: '2026-11-02'}
-  - {id: s7, kind: modern, cite: World History Encyclopedia「Mercury (Deity)」（Donald L. Wasson, 2018）, url: 'https://www.worldhistory.org/Mercury_(Deity)/', accessed: '2026-11-02'}
+  - {id: s7, kind: modern, cite: 'World History Encyclopedia「Mercury (Deity)」（Donald L. Wasson, 2018）', url: 'https://www.worldhistory.org/Mercury_(Deity)/', accessed: '2026-11-02'}
   - {id: s8, kind: modern, cite: 《希臘羅馬傳記與神話辭典》「Hermes」條（Theoi 轉載）, url: 'https://www.theoi.com/Olympios/Hermes.html', accessed: '2026-11-16'}
 greek_vs_roman:
   text: 羅馬的墨丘利幾乎只管一件事：做生意。他的名字可能和拉丁文 merx（貨物）有關，前 495 年左右，羅馬人在大競技場附近替他蓋了神廟，5 月 15 日是紀念他神廟落成的節日。

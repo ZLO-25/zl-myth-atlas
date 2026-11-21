@@ -25,11 +25,11 @@ family:
 sources:
   - {id: s1, kind: ancient, cite: 荷馬《伊利亞德》6.152–236, url: 'https://www.theoi.com/Text/HomerIliad6.html'}
   - {id: s2, kind: ancient, cite: 阿波羅多洛斯《書庫》2.3.1–2.3.2, url: 'https://www.theoi.com/Text/Apollodorus2.html'}
-  - {id: s3, kind: ancient, cite: 品達《奧林匹亞頌》13.63–92 與《地峽頌》7.44（引自 Theoi 條目）, url: 'https://www.theoi.com/Ther/HippossPegasos.html'}
+  - {id: s3, kind: ancient, cite: 品達《奧林匹亞頌》13.63–92 與《地峽頌》7.44（引自 Theoi 條目）, url: 'https://www.theoi.com/Ther/HipposPegasos.html'}
   - {id: s4, kind: ancient, cite: 赫西俄德《神譜》280–286、319–325, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
-  - {id: s5, kind: ancient, cite: 赫西俄德《女子名錄》殘篇 7（引自 Theoi 條目）, url: 'https://www.theoi.com/Ther/HippossPegasos.html'}
-  - {id: s6, kind: ancient, cite: 希吉努斯《天文詩》2.18, url: 'https://www.theoi.com/Ther/HippossPegasos.html'}
-  - {id: s7, kind: modern, cite: Theoi Project「Pegasos」（含《希臘羅馬傳記神話辭典》條目）, url: 'https://www.theoi.com/Ther/HippossPegasos.html', accessed: '2026-11-16'}
+  - {id: s5, kind: ancient, cite: 赫西俄德《女子名錄》殘篇 7（引自 Theoi 條目）, url: 'https://www.theoi.com/Ther/HipposPegasos.html'}
+  - {id: s6, kind: ancient, cite: 希吉努斯《天文詩》2.18, url: 'https://www.theoi.com/Ther/HipposPegasos.html'}
+  - {id: s7, kind: modern, cite: Theoi Project「Pegasos」（含《希臘羅馬傳記神話辭典》條目）, url: 'https://www.theoi.com/Ther/HipposPegasos.html', accessed: '2026-11-16'}
   - {id: s8, kind: modern, cite: Theoi Project「Khimaira」, url: 'https://www.theoi.com/Ther/Khimaira.html', accessed: '2026-11-16'}
 causes:
   - {id: monster-medusa, rel: 背景, why: 飛馬佩加索斯是從被斬首的梅杜莎頸中生出的。, src: [s4]}

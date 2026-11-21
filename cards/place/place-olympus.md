@@ -21,7 +21,7 @@ sources:
   - {id: s2, kind: ancient, cite: 荷馬《伊里亞德》1.493–499、1.590–611, url: 'https://www.theoi.com/Text/HomerIliad1.html'}
   - {id: s3, kind: modern, cite: World History Encyclopedia 圖片條目「Mt. Olympus」（Cristos Vlahos）, url: 'https://www.worldhistory.org/image/6241/mt-olympus/', accessed: '2026-11-02'}
   - {id: s4, kind: modern, cite: Gregory Nagy〈Olympus as mountain and Olympia as venue for the Olympics〉，哈佛大學希臘研究中心 Classical Inquiries（2019）, url: 'https://classical-inquiries.chs.harvard.edu/olympus-as-mountain-and-olympia-as-venue-for-the-olympics-a-question-about-the-naming-of-these-places/', accessed: '2026-11-02'}
-  - {id: s5, kind: modern, cite: World History Encyclopedia「Olympia」（Mark Cartwright, 2012）, url: 'https://www.worldhistory.org/Olympia/', accessed: '2026-11-02'}
+  - {id: s5, kind: modern, cite: 'World History Encyclopedia「Olympia」（Mark Cartwright, 2012）', url: 'https://www.worldhistory.org/Olympia/', accessed: '2026-11-02'}
   - {id: s6, kind: ancient, cite: 荷馬《伊利亞德》5.749–751、8.1–27、15.187–193（天門與時序女神、宙斯的金鏈、三兄弟分天下）, url: 'https://www.gutenberg.org/ebooks/2199'}
   - {id: s7, kind: ancient, cite: 赫西俄德《神譜》62–63、113–114、629–634, url: 'https://www.theoi.com/Text/HesiodTheogony.html'}
   - {id: s8, kind: ancient, cite: 荷馬《奧德賽》11.305–320（奧托斯與厄菲阿爾特斯疊山）, url: 'https://www.theoi.com/Text/HomerOdyssey11.html'}

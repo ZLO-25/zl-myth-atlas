@@ -23,7 +23,7 @@ sources:
   - {id: s3, kind: ancient, cite: 李復言《續玄怪錄·杜子春》，收於《太平廣記》卷十六（唐）, url: 'https://zh.wikisource.org/wiki/太平廣記/卷第016'}
   - {id: s4, kind: ancient, cite: 敦煌變文《大目乾連冥間救母變文》, url: 'https://zh.wikisource.org/wiki/大目乾連冥間救母變文'}
   - {id: s5, kind: ancient, cite: 《宋史》卷三百十六〈包拯傳〉（元）, url: 'https://zh.wikisource.org/wiki/宋史/卷316'}
-  - {id: s6, kind: modern, cite: Xiao Jiang, "Dizang and the Three Kings", Religions 13(4):317 (2022), url: 'https://www.mdpi.com/2077-1444/13/4/317', accessed: '2026-11-16'}
+  - {id: s6, kind: modern, cite: 'Xiao Jiang, "Dizang and the Three Kings", Religions 13(4):317 (2022)', url: 'https://www.mdpi.com/2077-1444/13/4/317', accessed: '2026-11-16'}
 era: cn-immortals
 topics: [死後世界, 民間信仰]
 ---

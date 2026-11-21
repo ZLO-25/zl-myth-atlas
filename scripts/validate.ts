@@ -255,6 +255,22 @@ for (const h of history) {
 }
 for (const sys of [undefined, ...SYSTEM_KEYS]) if (history.filter((h) => h.system === sys).length < 3) err('data/history.yaml', `${sys ?? '希臘羅馬'} 的歷史參照至少要 3 筆`);
 
+// YAML 的 {…} 寫法裡，沒加引號的值如果含逗號（例如「（Mark Cartwright, 2014）」），逗號後面會被當成另一個欄位，
+// 文字就被截斷、多出一個沒有值的欄位。這裡把這種情況抓出來：請把整段值用單引號包起來。
+const findNullKeys = (o: unknown, where: string) => {
+  if (Array.isArray(o)) o.forEach((x) => findNullKeys(x, where));
+  else if (o && typeof o === 'object')
+    for (const [k, val] of Object.entries(o)) {
+      if (val === null) err(where, `「${k}」沒有值：多半是 {…} 裡的文字含逗號被截斷了，請把整段文字用單引號包起來`);
+      else if (k !== 'body') findNullKeys(val, where);
+    }
+};
+for (const c of cards) findNullKeys({ ...c, body: undefined, file: undefined }, c.file ?? c.id);
+for (const t of today) findNullKeys(t, `今日影子（${t.id}）`);
+for (const p of places) findNullKeys(p, `data/places.yaml（${p.id}）`);
+for (const h of history) findNullKeys(h, `data/history.yaml（${h.label}）`);
+for (const r of data.odysseyRoute) findNullKeys(r, `data/odyssey-route.yaml（${r.name}）`);
+
 const strict = process.argv.includes('--strict');
 for (const m of warnings) console.log(m);
 for (const m of errors) console.log(m);
