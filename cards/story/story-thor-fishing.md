@@ -14,7 +14,7 @@ three_lines:
 hook: 世界上最大的一次釣魚：魚餌是牛頭，魚是環繞大地的大蛇。
 panels:
   - {image: img-ai-thor-fishing-1, text: 索爾叫巨人希米爾把船划得更遠；希米爾說已經夠遠了。, src: [s1]}
-  - {text: 希米爾一次拉上兩條鯨魚。索爾在船尾準備自己的釣竿。, src: [s1]}
+  - {image: img-ai-thor-fishing-2, text: 希米爾一次拉上兩條鯨魚。索爾在船尾準備自己的釣竿。, src: [s1]}
   - {image: img-ai-thor-fishing-3, text: 索爾用牛頭當餌；環繞大地的大蛇張口吞下。, src: [s1]}
   - {image: img-ai-thor-fishing-4, text: 〈希米爾之歌〉說，索爾把大蛇拉到船邊，用錘子打牠的頭。, src: [s1]}
   - {image: img-ai-thor-fishing-5, text: 斯諾里說，大蛇噴毒，希米爾嚇壞了，用刀割斷釣線，大蛇沉進海裡。, src: [s2]}

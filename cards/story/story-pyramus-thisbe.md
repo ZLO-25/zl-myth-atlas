@@ -17,7 +17,7 @@ panels:
   - {image: img-ai-pyramus-thisbe-2, text: 兩棟房子共用的牆上，有一道多年沒人發現的細縫。他們每天隔著牆縫說話、對著牆吻別。, src: [s1]}
   - {image: img-ai-pyramus-thisbe-3, text: 他們決定夜裡逃出城，約在尼努斯的墳墓旁，一棵長著雪白果實的桑樹下見面。, src: [s1]}
   - {image: img-ai-pyramus-thisbe-4, text: 提斯柏先到，卻看見一頭剛吃過牛、嘴上帶血的母獅來喝水。她嚇得逃走，面紗掉在地上，被母獅撕爛染血。, src: [s1]}
-  - {text: 皮拉穆斯趕到，看見獅子腳印和染血的面紗，以為她死了，用自己的劍刺進身體。血噴上桑樹，白色的果子變成深紫紅色。, src: [s1]}
+  - {image: img-ai-pyramus-thisbe-5, text: 皮拉穆斯趕到，看見獅子腳印和染血的面紗，以為她死了，用自己的劍刺進身體。血噴上桑樹，白色的果子變成深紫紅色。, src: [s1]}
   - {image: img-ai-pyramus-thisbe-6, text: 提斯柏回來，發現心上人垂死，也拿同一把劍自盡。她臨終祈求：讓桑樹的果子永遠是深色，紀念我們的血。眾神與雙方的父母都被打動，兩人的骨灰被放進同一個瓮。, src: [s1]}
 sources:
   - {id: s1, kind: ancient, cite: 奧維德《變形記》4.55–166, url: 'https://www.theoi.com/Text/OvidMetamorphoses4.html'}

@@ -142,7 +142,7 @@ test('北歐：族譜「北歐神話」模式以奧丁為中心，模式寫進�
   await expect(page.locator('.family-svg .fname', { hasText: '包爾' })).toBeVisible();
   await expect(page.locator('.family-svg .fname', { hasText: '索爾' })).toBeVisible();
   await expect(page.locator('.family-svg .fname', { hasText: '芙麗嘉' })).toBeVisible();
-  await expect(page.locator('.family-svg image')).toHaveCount(0);
+  // 北歐角色陸續有肖像了，族譜節點可以有圖（不再要求 0 張）
   await page.reload();
   await expect(page.locator('.sys-tabs button.on')).toHaveText('北歐');
   // 點索爾 → 以索爾為中心，仍是北歐模式

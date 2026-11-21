@@ -13,11 +13,11 @@ three_lines:
   - 他們在海邊用兩棵樹造出第一對人類，阿斯克與恩布拉。
 hook: 北歐創世：從霜與熱之間的裂口開始，神用巨人的身體造世界，再用兩棵樹造人。
 panels:
-  - {text: 最初沒有海、沙和浪，只有一道張開的裂口。北邊結霜，南邊是穆斯貝爾的火星。, src: [s1, s2]}
-  - {text: 霜遇到熱，融化的水滴變成巨人尤彌爾。母牛歐德姆布拉舔著鹹冰塊，三天後舔出了布利。, src: [s2, s3]}
-  - {text: 布利的孫子奧丁、維利和維殺了尤彌爾。血淹死霜巨人，只有貝格爾米爾夫婦坐船逃走。, src: [s3]}
+  - {image: img-ai-norse-creation-1, text: 最初沒有海、沙和浪，只有一道張開的裂口。北邊結霜，南邊是穆斯貝爾的火星。, src: [s1, s2]}
+  - {image: img-ai-norse-creation-2, text: 霜遇到熱，融化的水滴變成巨人尤彌爾。母牛歐德姆布拉舔著鹹冰塊，三天後舔出了布利。, src: [s2, s3]}
+  - {image: img-ai-norse-creation-3, text: 布利的孫子奧丁、維利和維殺了尤彌爾。血淹死霜巨人，只有貝格爾米爾夫婦坐船逃走。, src: [s3]}
   - {image: img-ai-norse-creation-4, text: 尤彌爾的肉成了大地，血成了海，骨成了山，頭蓋骨成了天空，眉毛圍成米德加爾德。, src: [s5]}
-  - {text: 兄弟在海邊找到兩棵樹，把它們造成第一個男人阿斯克和第一個女人恩布拉。, src: [s6]}
+  - {image: img-ai-norse-creation-5, text: 兄弟在海邊找到兩棵樹，把它們造成第一個男人阿斯克和第一個女人恩布拉。, src: [s6]}
 few_images: 這張卡還沒有收錄圖片。
 sources:
   - {id: s1, kind: ancient, cite: 《詩體埃達》〈女先知的預言〉第 3–5、17–18 節（Bellows 英譯）, url: 'https://www.gutenberg.org/ebooks/73533'}
