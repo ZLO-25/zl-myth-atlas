@@ -65,6 +65,8 @@ h2 { margin-top: 2.2rem; border-bottom: 2px solid var(--line); padding-bottom: 0
 .search-results button { display: flex; flex-direction: column; align-items: flex-start; width: 100%; text-align: left; border: 0; background: none; color: var(--ink); padding: 0.4rem 0.6rem; border-radius: 8px; cursor: pointer; font: inherit; }
 .search-results button:hover { background: var(--bg); }
 .search-results .muted { font-size: 0.85rem; }
+.search-results .snippet { font-size: 0.82rem; color: var(--ink); opacity: 0.8; line-height: 1.5; margin-top: 0.15rem; overflow-wrap: anywhere; }
+.search-results strong, .search-results .muted { overflow-wrap: anywhere; }
 
 main { min-height: 70vh; }
 .page { max-width: 1100px; margin: 0 auto; padding: 1rem 1rem 3rem; }
@@ -260,6 +262,8 @@ pre.ascii { background: var(--surface); border: 1px solid var(--line); padding: 
   .site-header nav::-webkit-scrollbar { display: none; }
   .site-header nav a { white-space: nowrap; }
   .search { min-width: 0; flex: 1 1 10rem; }
+  /* 手機上搜尋框很窄：結果清單改成佔滿整個畫面寬度，字才不會擠成一小欄 */
+  .search-results { position: fixed; left: 0.5rem; right: 0.5rem; top: 3.4rem; z-index: 60; }
   .hero h1 { font-size: 2rem; }
   .card-head h1 { font-size: 1.9rem; }
   .facts, .legend, .panel-frame { grid-template-columns: 1fr; }

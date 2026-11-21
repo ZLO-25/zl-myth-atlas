@@ -13,6 +13,11 @@ export function imgSrc(im: ImageItem): string {
   return /^https?:/.test(u) ? u : import.meta.env.BASE_URL + u.replace(/^\//, '');
 }
 
+/** 小圖（磚塊、小卡浮窗、族譜節點）用的網址：有縮圖就用縮圖，佔位圖與外部圖照舊回傳原圖 */
+export function thumbSrc(im: ImageItem): string {
+  return im.thumb ? `${import.meta.env.BASE_URL}images/thumbs/${im.id}.webp` : imgSrc(im);
+}
+
 /** 中華神話的卡片（其餘是希臘羅馬） */
 export const isChinese = (c?: { myth_system: string[] }) => !!c?.myth_system.includes('chinese');
 

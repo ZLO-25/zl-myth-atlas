@@ -6,7 +6,7 @@ import { TODAY_CATEGORIES } from '../../scripts/lib/types';
 import { eraById } from '../lib/data';
 import { CardLink, MiniCard, ScrollTable, SysTabs } from '../components/bits';
 import { cardNames, enOrig, fullName, origLang, origOf, romanNames } from '../lib/names';
-import { avatarOf, cardById, imgSrc, site, todayById, TYPE_ORDER } from '../lib/data';
+import { avatarOf, cardById, site, thumbSrc, todayById, TYPE_ORDER } from '../lib/data';
 
 import { href, queryParam } from '../lib/router';
 import { CN_PATH, NORSE_PATH, STARTER_PATH } from '../lib/paths';
@@ -194,7 +194,7 @@ export function CardTile({ id }: { id: string }) {
   return (
     <a className={`tile${isRead ? ' is-read' : ''}`} href={href('card', c.id)}>
       <div className="tile-img">
-        {av ? <img src={imgSrc(av)} alt="" loading="lazy" /> : <span className="tile-initial">{c.name_zh[0]}</span>}
+        {av ? <img src={thumbSrc(av)} alt="" loading="lazy" /> : <span className="tile-initial">{c.name_zh[0]}</span>}
         {isRead && <span className="read-badge">✓ 已讀</span>}
       </div>
       <div className="tile-body">

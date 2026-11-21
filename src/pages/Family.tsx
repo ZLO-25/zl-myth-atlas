@@ -1,7 +1,7 @@
 import { select } from 'd3-selection';
 import { zoom, zoomIdentity } from 'd3-zoom';
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { avatarOf, cardById, eraById, familyOf, imgSrc, isChinese, isNorse, site } from '../lib/data';
+import { avatarOf, cardById, eraById, familyOf, isChinese, isNorse, site, thumbSrc } from '../lib/data';
 import { href, queryParam } from '../lib/router';
 import { cardNames, looseNames, type NameParts } from '../lib/names';
 import { isOrigHidden } from '../lib/prefs';
@@ -202,7 +202,7 @@ export function Family({ focus }: { focus?: string }) {
                 >
                   <title>{[nm.zh, nm.en, isOrigHidden() ? undefined : nm.orig].filter(Boolean).join(' · ') + (card ? `｜${card.type}` : '｜（無卡片）')}</title>
                   <rect width={W} height={H} rx={10} />
-                  {av && <image href={imgSrc(av)} x={6} y={(H - 44) / 2} width={44} height={44} preserveAspectRatio="xMidYMid slice" clipPath="inset(0 round 8px)" />}
+                  {av && <image href={thumbSrc(av)} x={6} y={(H - 44) / 2} width={44} height={44} preserveAspectRatio="xMidYMid slice" clipPath="inset(0 round 8px)" />}
                   <text x={tx} y={22} textAnchor={anchor} className="fname">{n.name}</text>
                   {nm.en && <text x={tx} y={39} textAnchor={anchor} className="fen">{nm.en}</text>}
                   {nm.orig && nm.orig !== nm.en && <text x={tx} y={56} textAnchor={anchor} className="forig">{nm.orig}</text>}

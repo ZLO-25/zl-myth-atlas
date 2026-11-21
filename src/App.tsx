@@ -165,6 +165,7 @@ function SearchBox() {
               <button onClick={() => go(h)}>
                 <strong>{h.title}</strong>
                 <span className="muted">{h.sub}</span>
+                {h.snippet && <span className="snippet">{h.snippet}</span>}
               </button>
             </li>
           ))}
